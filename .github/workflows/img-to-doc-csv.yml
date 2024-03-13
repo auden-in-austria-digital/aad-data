@@ -1,0 +1,7 @@
+name: img-to-doc-csv
+on: [push]
+jobs:
+    some-name:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
