@@ -1,7 +1,14 @@
 name: img-to-doc-csv
 on: [push]
 jobs:
-    some-name:
+    transform-csv:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v4
+            - name: perform checkout
+              uses: actions/checkout@v4
+            - name: transform csv
+              run: python scripts/img-to-doc-csv/img-to-doc-csv.py
+            - name: commit data
+              uses: stefanzweifel/git-auto-commit-action@v5
+              with:
+                commit_message: transformed csv
