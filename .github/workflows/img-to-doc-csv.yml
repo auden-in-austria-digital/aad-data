@@ -1,5 +1,7 @@
 name: img-to-doc-csv
-on: [push]
+on:
+    workflow_dispatch:
+
 jobs:
     transform-csv:
         runs-on: ubuntu-latest
