@@ -10,8 +10,8 @@ jobs:
             - name: perform checkout
               uses: actions/checkout@v4
             - name: transform csv
-              run: python scripts/img-to-doc-csv/img-to-doc-csv.py
+              run: python scripts/img2doc-csv/img2doc-csv.py
             - name: commit transformed csv
               uses: stefanzweifel/git-auto-commit-action@v5
               with:
-                commit_message: transformed csv
+                commit_message: transformed csv img2doc
