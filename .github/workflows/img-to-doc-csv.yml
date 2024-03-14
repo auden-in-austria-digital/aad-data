@@ -1,7 +1,7 @@
 name: img-to-doc-csv
 
 on:
-    workflow_dispatch:
+    push
 
 jobs:
     transform-csv:
