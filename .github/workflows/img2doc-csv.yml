@@ -1,4 +1,4 @@
-name: img-to-doc-csv
+name: img2doc-csv
 
 on:
     push
