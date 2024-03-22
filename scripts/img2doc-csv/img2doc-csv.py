@@ -42,4 +42,4 @@ def transform_csv(input_file, first_column, second_column, output_filename):  # 
     return output_file
 
 
-transform_csv('https://raw.githubusercontent.com/auden-in-austria-digital/aad-data/main/doc-data/csv/img_doc_id.csv', 'doc_id', 'position', './doc-data/csv/doc_img_id')
+transform_csv('https://raw.githubusercontent.com/auden-in-austria-digital/aad-data/main/doc-data/csv/img_doc_id.csv', 'doc', 'ed', './doc-data/csv/doc_img_id')
