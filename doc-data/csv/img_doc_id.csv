@@ -1,4 +1,4 @@
-img_id,lrx,lry,width,height,type,position,doc_id,doc_title,repository,collection,idno
+img,lrx,lry,width,height,type,ed,doc,title,repository,collection,idno
 00001,2000,1000,150,170,envelope,2r,0003,Autograph Letter Signed W. H. Auden to Chester Kallman 1965-10-01,State Collections of Lower Austria,W. H. Auden Collection,1.7
 00002,2500,1500,150,170,envelope,1r,0002,Typed Letter Signed W. H. Auden to Stella Musulin 1971-11-05,Vienna City Library,Manuscript Section,BAF3072/82
 00003,1900,0900,210,290,sheet,1r,0003,Autograph Letter Signed W. H. Auden to Chester Kallman 1965-10-01,State Collections of Lower Austria,W. H. Auden Collection,1.7
