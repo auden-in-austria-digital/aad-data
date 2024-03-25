@@ -9,6 +9,8 @@ jobs:
         steps:
             - name: perform checkout
               uses: actions/checkout@v4
+            - name: validate csv
+              run: python scripts/img2doc-csv/validate-csv.py
             - name: transform csv
               run: python scripts/img2doc-csv/img2doc-csv.py
             - name: commit transformed csv
