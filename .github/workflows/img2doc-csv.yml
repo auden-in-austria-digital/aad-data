@@ -7,6 +7,10 @@ jobs:
     transform-csv:
         runs-on: ubuntu-latest
         steps:
+            - name: sleep for 15s
+              uses: juliangruber/sleep-action@v2.0.0
+              with:
+                time: 20s
             - name: perform checkout
               uses: actions/checkout@v4
             - name: validate csv
