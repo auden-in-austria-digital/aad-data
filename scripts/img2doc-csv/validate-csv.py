@@ -3,7 +3,7 @@ import csv  # import csv module
 import re  # import regular expression module
 
 # read input CSV file
-with urllib.request.urlopen('https://raw.githubusercontent.com/auden-in-austria-digital/aad-data/main/doc-data/csv/img_doc_id.csv') as csv_file:
+with urllib.request.urlopen('https://raw.githubusercontent.com/auden-in-austria-digital/aad-data/main/metadata/csv/input_img_id.csv') as csv_file:
     lines = csv_file.read().decode('utf-8').splitlines()  # read, decode as UTF-8 (convert bytes object into string), split string into lines; assign list of strings (1 string per row) to lines var
 
 # parse rows
