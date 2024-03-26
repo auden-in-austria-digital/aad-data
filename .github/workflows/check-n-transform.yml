@@ -1,4 +1,4 @@
-name: img2doc-csv
+name: check-n-transform
 
 on:
     push
