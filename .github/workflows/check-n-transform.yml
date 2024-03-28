@@ -7,17 +7,17 @@ jobs:
     transform-csv:
         runs-on: ubuntu-latest
         steps:
-            - name: sleep for 15s
+            - name: sleep for 20s
               uses: juliangruber/sleep-action@v2.0.0
               with:
                 time: 20s
             - name: perform checkout
               uses: actions/checkout@v4
             - name: validate csv
-              run: python scripts/img2doc-csv/validate-csv.py
+              run: python scripts/check-n-transform/validate-csv.py
             - name: transform csv
-              run: python scripts/img2doc-csv/img2doc-csv.py
-            - name: commit transformed csv
+              run: python scripts/check-n-transform/img2doc-csv.py
+            - name: commit output csv
               uses: stefanzweifel/git-auto-commit-action@v5
               with:
-                commit_message: transformed csv img2doc
+                commit_message: output csv written
