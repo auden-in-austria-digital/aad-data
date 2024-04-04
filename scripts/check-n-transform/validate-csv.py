@@ -1,10 +1,9 @@
-import urllib.request  # import urllib.request module
 import csv  # import csv module
 import re  # import regular expression module
 
 # read input CSV file
-with urllib.request.urlopen('https://raw.githubusercontent.com/auden-in-austria-digital/aad-data/main/metadata/csv/input_img_id.csv') as csv_file:
-    lines = csv_file.read().decode('utf-8').splitlines()  # read, decode as UTF-8 (convert bytes object into string), split string into lines; assign list of strings (1 string per row) to lines var
+with open('./metadata/csv/input_img_id.csv', 'r', newline='', encoding='utf-8') as file:  # open input file in read mode, disable universal newlines mode, specify text as UTF-8-encoded
+    lines = file.readlines()  # read lines and assign list of lines to lines var
 
 # parse rows
 csv_reader = csv.reader(lines)  # pass lines var to CSV reader object (to iterate over, and parse into list of fields, rows)
