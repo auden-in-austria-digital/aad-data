@@ -1,3 +1,5 @@
+:screwdriver: This repository is work in progress; all data are mock-up.
+
 # aad-data
 
 Repository for editorial data and data-creation workflows in the **Auden in Austria Digital** project.
