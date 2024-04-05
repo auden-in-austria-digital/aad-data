@@ -1,4 +1,5 @@
-:screwdriver: This repository is work in progress; all data are mock-up.
+> [!NOTE]
+> This repository is in development; all data are mock-up.
 
 # aad-data
 
