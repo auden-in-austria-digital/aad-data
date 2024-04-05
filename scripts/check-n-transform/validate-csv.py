@@ -19,8 +19,12 @@ height_index = header.index('height')
 type_index = header.index('type')
 ed_index = header.index('ed')
 doc_index = header.index('doc')
+title_index = header.index('title')
 repo_index = header.index('repository')
 coll_index = header.index('collection')
+idno_index = header.index('idno')
+
+doc_dict = {}  # initiate document dictionary
 
 i = 0  # set counter
 
@@ -84,5 +88,22 @@ for row in data:
     # specify collection value restrictions
     if not all(char.isalpha() or char.isspace() or char == '.' for char in row[coll_index]):
         raise TypeError(f'Error in line {row_num}: collection value must contain only alphabetic characters, spaces, and periods.')
+
+    # extract field values of current row
+    doc_id = row[doc_index]
+    title = row[title_index]
+    repository = row[repo_index]
+    collection = row[coll_index]
+    idno = row[idno_index]
+
+    # check consistency of value constellation in current row against constellations in document dictionary
+    if doc_id in doc_dict:
+        if (doc_dict[doc_id][title_index] != title or
+                doc_dict[doc_id][repo_index] != repository or
+                doc_dict[doc_id][coll_index] != collection or
+                doc_dict[doc_id][idno_index] != idno):
+            raise ValueError(f'Inconsistent values detected in line {row_num} for document {doc_id}.')
+    else:
+        doc_dict[doc_id] = row
 
     i += 1  # increment counter
