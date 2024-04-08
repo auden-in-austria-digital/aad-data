@@ -18,7 +18,7 @@ graph TD;
     input_img_id.csv-->push;
     push-->check-n-transform;
     check-n-transform-->validate-scv.py;
-    validate-scv.py-->img2doc-csv.py;
+    validate-scv.py-->|#9989;| img2doc-csv.py;
     img2doc-csv.py-->output_doc_id.csv;
-    validate-scv.py-->input_img_id.csv;
+    validate-scv.py-. #10060; .->input_img_id.csv;
 ```
