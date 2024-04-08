@@ -14,11 +14,11 @@ The [.github/workflows](https://github.com/auden-in-austria-digital/aad-data/tre
 ### check-n-transform Workflow
 
 ```mermaid
-graph TD;
+flowchart TD;
     input_img_id.csv-->push;
     push-->check-n-transform;
-    check-n-transform-->validate-scv.py;
-    validate-scv.py-->|#9989;| img2doc-csv.py;
+    check-n-transform-->A{validate-scv.py};
+    A-->|#9989;| img2doc-csv.py;
     img2doc-csv.py-->output_doc_id.csv;
-    validate-scv.py-. #10060; .->input_img_id.csv;
+    A-. #10060; .->input_img_id.csv;
 ```
