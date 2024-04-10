@@ -8,9 +8,9 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: sleep for 20s
-              uses: juliangruber/sleep-action@v2.0.0
+              uses: kibertoad/wait-action@1.0.1
               with:
-                time: 20s
+                time: '20s'
             - name: perform checkout
               uses: actions/checkout@v4
             - name: validate csv
