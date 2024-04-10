@@ -20,6 +20,8 @@ type_index = header.index('type')
 ed_index = header.index('ed')
 doc_index = header.index('doc')
 title_index = header.index('title')
+notBefore_index = header.index('notBefore-iso')
+notAfter_index = header.index('notAfter-iso')
 repo_index = header.index('repository')
 coll_index = header.index('collection')
 idno_index = header.index('idno')
@@ -81,6 +83,14 @@ for row in data:
     if not len(row[doc_index]) == 4:
         raise ValueError(f'Error in line {row_num}: doc ID must consist of four digits.')
 
+    # specify notBefore-iso value pattern
+    if not re.match(r'^19[5-7][0-9]-[0-1][0-9]-[0-3][0-9]T[0-2][0-9]:[0-5][0-9]:[0-5][0-9]\+0[1-2]:00$', row[notBefore_index]):
+        raise ValueError(f'Error in line {row_num}: notBefore-iso value must conform to ISO datetime format.')
+
+    # specify notAfter-iso value pattern
+    if not re.match(r'^19[5-7][0-9]-[0-1][0-9]-[0-3][0-9]T[0-2][0-9]:[0-5][0-9]:[0-5][0-9]\+0[1-2]:00$', row[notAfter_index]):
+        raise ValueError(f'Error in line {row_num}: notAfter-iso value must conform to ISO datetime format.')
+
     # specify repository value restrictions
     if not all(char.isalpha() or char.isspace() for char in row[repo_index]):
         raise TypeError(f'Error in line {row_num}: repository value must contain only alphabetic characters and spaces.')
@@ -92,6 +102,8 @@ for row in data:
     # extract field values of current row
     doc_id = row[doc_index]
     title = row[title_index]
+    notBefore = row[notBefore_index]
+    notAfter = row[notAfter_index]
     repository = row[repo_index]
     collection = row[coll_index]
     idno = row[idno_index]
@@ -99,6 +111,8 @@ for row in data:
     # check consistency of value constellation in current row against constellations in document dictionary
     if doc_id in doc_dict:
         if (doc_dict[doc_id][title_index] != title or
+                doc_dict[doc_id][notBefore_index] != notBefore or
+                doc_dict[doc_id][notAfter_index] != notAfter or
                 doc_dict[doc_id][repo_index] != repository or
                 doc_dict[doc_id][coll_index] != collection or
                 doc_dict[doc_id][idno_index] != idno):
