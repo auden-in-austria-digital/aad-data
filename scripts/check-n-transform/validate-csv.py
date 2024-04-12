@@ -84,11 +84,11 @@ for row in data:
         raise ValueError(f'Error in line {row_num}: doc ID must consist of four digits.')
 
     # specify notBefore-iso value pattern
-    if not re.match(r'^19[5-7][0-9]-[0-1][0-9]-[0-3][0-9]T[0-2][0-9]:[0-5][0-9]:[0-5][0-9]\+0[1-2]:00$', row[notBefore_index]):
+    if not re.match(r'^19[5-7]\d-[0-1]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d\+[0-2]\d:00$', row[notBefore_index]):
         raise ValueError(f'Error in line {row_num}: notBefore-iso value must conform to ISO datetime format.')
 
     # specify notAfter-iso value pattern
-    if not re.match(r'^19[5-7][0-9]-[0-1][0-9]-[0-3][0-9]T[0-2][0-9]:[0-5][0-9]:[0-5][0-9]\+0[1-2]:00$', row[notAfter_index]):
+    if not re.match(r'^19[5-7]\d-[0-1]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d\+[0-2]\d:00$', row[notAfter_index]):
         raise ValueError(f'Error in line {row_num}: notAfter-iso value must conform to ISO datetime format.')
 
     # specify repository value restrictions
