@@ -20,6 +20,7 @@ type_index = header.index('type')
 ed_index = header.index('ed')
 doc_index = header.index('doc')
 title_index = header.index('title')
+author_index = header.index('author')
 notBefore_index = header.index('notBefore-iso')
 notAfter_index = header.index('notAfter-iso')
 repo_index = header.index('repository')
@@ -83,6 +84,10 @@ for row in data:
     if not len(row[doc_index]) == 4:
         raise ValueError(f'Error in line {row_num}: doc ID must consist of four digits.')
 
+    # specify collection value restrictions
+    if not all(char.isalpha() or char.isspace() or char == '.' or char == ',' for char in row[author_index]):
+        raise TypeError(f'Error in line {row_num}: author value must contain only alphabetic characters, spaces, commas, and periods.')
+
     # specify notBefore-iso value pattern
     if not re.match(r'^19[5-7]\d-[0-1]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d\+[0-2]\d:00$', row[notBefore_index]):
         raise ValueError(f'Error in line {row_num}: notBefore-iso value must conform to ISO datetime format.')
@@ -102,6 +107,7 @@ for row in data:
     # extract field values of current row
     doc_id = row[doc_index]
     title = row[title_index]
+    author = row[author_index]
     notBefore = row[notBefore_index]
     notAfter = row[notAfter_index]
     repository = row[repo_index]
@@ -111,6 +117,7 @@ for row in data:
     # check consistency of value constellation in current row against constellations in document dictionary
     if doc_id in doc_dict:
         if (doc_dict[doc_id][title_index] != title or
+                doc_dict[doc_id][author_index] != author or
                 doc_dict[doc_id][notBefore_index] != notBefore or
                 doc_dict[doc_id][notAfter_index] != notAfter or
                 doc_dict[doc_id][repo_index] != repository or
