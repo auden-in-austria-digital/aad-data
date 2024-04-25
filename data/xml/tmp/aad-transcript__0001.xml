@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aad-transcript__0001">
+  <teiHeader>
+    <fileDesk>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital</title>
+        <title level="a">Typed Letter Signed Erich Mikesch to W. H. Auden 1970-05-06</title>
+        <author>Mikesch, Erich</author>
+      </titleStmt>
+    </fileDesk>
+  </teiHeader>
+  <facsimile/>
+  <text>
+    <body>
+      <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00007" ed="1r" type="sheet"/>
+      <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00006" ed="1v" type="envelope"/>
+      <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00005" ed="2r" type="envelope"/>
+      <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00008" ed="2v" type="sheet"/>
+    </body>
+  </text>
+</TEI>

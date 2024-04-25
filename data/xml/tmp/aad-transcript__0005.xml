@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aad-transcript__0005">
+  <teiHeader>
+    <fileDesk>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital</title>
+        <title level="a">Photograph Stella Musulin of W. H. Auden and Thomas Bernhard 1973-09-10</title>
+        <author>Musulin, Stella</author>
+      </titleStmt>
+    </fileDesk>
+  </teiHeader>
+  <facsimile/>
+  <text>
+    <body>
+      <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00017" ed="1r" type="photograph"/>
+    </body>
+  </text>
+</TEI>

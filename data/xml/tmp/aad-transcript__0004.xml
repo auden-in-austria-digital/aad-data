@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aad-transcript__0004">
+  <teiHeader>
+    <fileDesk>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital</title>
+        <title level="a">Photograph W. H. Auden of Chester Kallman and Thekla Clark 1959-01-01--1959-01-03</title>
+        <author>Auden, W. H.</author>
+      </titleStmt>
+    </fileDesk>
+  </teiHeader>
+  <facsimile/>
+  <text>
+    <body>
+      <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00014" ed="1r" type="sheet"/>
+      <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00013" ed="1v" type="sheet"/>
+    </body>
+  </text>
+</TEI>
