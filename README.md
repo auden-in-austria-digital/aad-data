@@ -12,9 +12,7 @@ The [metadata/csv](https://github.com/auden-in-austria-digital/aad-data/tree/mai
 The [.github/workflows](https://github.com/auden-in-austria-digital/aad-data/tree/main/.github/workflows) directory holds the [check-n-transform](https://github.com/auden-in-austria-digital/aad-data/blob/main/.github/workflows/check-n-transform.yml) GitHub Action, which runs scripts (in the [scripts](https://github.com/auden-in-austria-digital/aad-data/tree/main/scripts) directory, [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html#license-text)) to [validate](https://github.com/auden-in-austria-digital/aad-data/blob/main/scripts/check-n-transform/validate-csv.py) and [transform](https://github.com/auden-in-austria-digital/aad-data/blob/main/scripts/check-n-transform/img2doc-csv.py) the input CSV.
 
 ## aad-data Workflows
-
 ### check-n-transform Workflow
-
 ```mermaid
 flowchart TD;
     input_img_id.csv-->push;
@@ -24,5 +22,9 @@ flowchart TD;
     img2doc-csv.py-->output_doc_id.csv;
     A-. #10060; .->input_img_id.csv;
 ```
-
 ### write-xmls Workflow
+```mermaid
+flowchart TD;
+    output_doc_id.csv-->workflow_dispatch;
+    workflow_dispatch-->aad-transcript__????.xml;
+```
