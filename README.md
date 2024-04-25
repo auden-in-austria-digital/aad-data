@@ -26,5 +26,6 @@ flowchart TD;
 ```mermaid
 flowchart TD;
     output_doc_id.csv-->workflow_dispatch;
-    workflow_dispatch-->aad-transcript__????.xml;
+    workflow_dispatch-->csv2xml.py;
+    csv2xml.py-->aad-transcript__????.xml;
 ```
