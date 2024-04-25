@@ -1,0 +1,19 @@
+name: write-xmls
+
+on:
+    workflow_dispatch:
+
+jobs:
+    read-output-csv-write-tmp-xmls:
+        runs-on: ubuntu-latest
+        steps:
+            - name: perform checkout
+              uses: actions/checkout@v4
+            - name: install lxml lib
+              run: pip install -r scripts/write-xmls/requirements.txt
+            - name: csv2xml
+              run: python scripts/write-xmls/csv2xml.py
+            - name: commit tmp xmls
+              uses: stefanzweifel/git-auto-commit-action@v5
+              with:
+                commit_message: tmp xmls written
