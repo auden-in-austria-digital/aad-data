@@ -17,7 +17,7 @@ The [write-xmls](https://github.com/auden-in-austria-digital/aad-data/blob/main/
 ### 2.1 check-n-transform Workflow
 ```mermaid
 flowchart TD;
-    input_img_id.csv-->|on:push| check-n-transform;
+    input_img_id.csv---|on:push| check-n-transform;
     check-n-transform-->A{validate-scv.py};
     A-->|#9989;| img2doc-csv.py;
     img2doc-csv.py-->output_doc_id.csv;
@@ -26,7 +26,7 @@ flowchart TD;
 ### 2.2 write-xmls Workflow
 ```mermaid
 flowchart TD;
-    output_doc_id.csv-->|on:workflow_dispatch| write-xmls;
+    output_doc_id.csv---|on:workflow_dispatch| write-xmls;
     write-xmls-->csv2xml.py;
     csv2xml.py-->aad-transcript__????.xml;
 ```
