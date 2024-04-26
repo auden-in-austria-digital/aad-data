@@ -5,7 +5,12 @@
 
 Repository for editorial data and data-creation workflows in the **Auden in Austria Digital** project.
 
-## 1 aad-data Directory Structure
+- [aad-data Directory Structure](#aad-data-directory-structure)
+- [aad-data Workflows](#aad-data-workflows)
+  - [check-n-transform Workflow](#check-n-transform-workflow)
+  - [write-xmls Workflow](#write-xmls-workflow)
+
+## aad-data Directory Structure
 
 The [metadata/csv](https://github.com/auden-in-austria-digital/aad-data/tree/main/metadata/csv) directory contains the [input_img_id.csv](https://github.com/auden-in-austria-digital/aad-data/blob/main/metadata/csv/input_img_id.csv) input CSV file for basic (image-ID-centered) metadata creation as well as automatically transformed (document-ID-centered) output formats.
 
@@ -13,8 +18,8 @@ The [.github/workflows](https://github.com/auden-in-austria-digital/aad-data/tre
 
 The [write-xmls](https://github.com/auden-in-austria-digital/aad-data/blob/main/.github/workflows/write-xmls.yml) GitHub-Actions workflow (`on: workflow_dispatch`) makes [another script](https://github.com/auden-in-austria-digital/aad-data/blob/main/scripts/write-xmls/csv2xml.py) read the [output_doc_id.csv](https://github.com/auden-in-austria-digital/aad-data/blob/main/metadata/csv/output_doc_id.csv) output CSV file and write template TEI/XML files into the [data/xml/tmp](https://github.com/auden-in-austria-digital/aad-data/tree/main/data/xml/tmp) directory.
 
-## 2 aad-data Workflows
-### 2.1 check-n-transform Workflow
+## aad-data Workflows
+### check-n-transform Workflow
 ```mermaid
 flowchart TD;
     input_img_id.csv---|on:push| check-n-transform;
@@ -23,7 +28,7 @@ flowchart TD;
     img2doc-csv.py-->output_doc_id.csv;
     A-. #10060; .->input_img_id.csv;
 ```
-### 2.2 write-xmls Workflow
+### write-xmls Workflow
 ```mermaid
 flowchart TD;
     output_doc_id.csv---|on:workflow_dispatch| write-xmls;
