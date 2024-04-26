@@ -28,6 +28,13 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
             tei_title_a.text = row['title']
             tei_author = etree.SubElement(tei_titlestmt, 'author')
             tei_author.text = row['author']
+            tei_editor = etree.SubElement(tei_titlestmt, 'editor')
+            tei_editor_tf = etree.SubElement(tei_editor, 'name', ref='https://orcid.org/0000-0002-3997-5193')
+            tei_editor_tf.set('{http://www.w3.org/XML/1998/namespace}id', 'tfruehwirth')
+            tei_editor_tf.text = 'Fruehwirth, Timo'
+            tei_editor_sm = etree.SubElement(tei_editor, 'name', ref='https://orcid.org/0000-0002-2915-5888')
+            tei_editor_sm.set('{http://www.w3.org/XML/1998/namespace}id', 'smayer')
+            tei_editor_sm.text = 'Mayer, Sandra'
 
             # add facsimile element
             tei_facsimile = etree.SubElement(root, 'facsimile')
