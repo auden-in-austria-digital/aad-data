@@ -6,6 +6,10 @@
         <title level="s">Auden in Austria Digital</title>
         <title level="a">Photograph W. H. Auden of Chester Kallman and Thekla Clark 1959-01-01--1959-01-03</title>
         <author>Auden, W. H.</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+        </editor>
       </titleStmt>
     </fileDesk>
   </teiHeader>
