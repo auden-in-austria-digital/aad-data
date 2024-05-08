@@ -25,7 +25,11 @@
       </publicationStmt>
       <sourceDesc>
         <msDesc>
-          <msIdentifier/>
+          <msIdentifier>
+            <repository>Vienna State Archives</repository>
+            <collection>Finance Ministry Section</collection>
+            <idno>BMF700-32</idno>
+          </msIdentifier>
         </msDesc>
       </sourceDesc>
     </fileDesc>

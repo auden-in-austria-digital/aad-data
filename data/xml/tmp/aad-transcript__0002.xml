@@ -25,7 +25,11 @@
       </publicationStmt>
       <sourceDesc>
         <msDesc>
-          <msIdentifier/>
+          <msIdentifier>
+            <repository>Vienna City Library</repository>
+            <collection>Manuscript Section</collection>
+            <idno>BAF3072/82</idno>
+          </msIdentifier>
         </msDesc>
       </sourceDesc>
     </fileDesc>

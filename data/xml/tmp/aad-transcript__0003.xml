@@ -25,7 +25,11 @@
       </publicationStmt>
       <sourceDesc>
         <msDesc>
-          <msIdentifier/>
+          <msIdentifier>
+            <repository>State Collections of Lower Austria</repository>
+            <collection>W. H. Auden Collection</collection>
+            <idno>1.7</idno>
+          </msIdentifier>
         </msDesc>
       </sourceDesc>
     </fileDesc>

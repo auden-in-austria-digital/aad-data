@@ -25,7 +25,11 @@
       </publicationStmt>
       <sourceDesc>
         <msDesc>
-          <msIdentifier/>
+          <msIdentifier>
+            <repository>Musulin family archive</repository>
+            <collection>W. H. Auden papers</collection>
+            <idno>none</idno>
+          </msIdentifier>
         </msDesc>
       </sourceDesc>
     </fileDesc>
