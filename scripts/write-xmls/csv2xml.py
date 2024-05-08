@@ -53,6 +53,12 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
             tei_sourcedesc = etree.SubElement(tei_filedesc, 'sourceDesc')
             tei_msdesc = etree.SubElement(tei_sourcedesc, 'msDesc')
             tei_msid = etree.SubElement(tei_msdesc, 'msIdentifier')
+            tei_repo = etree.SubElement(tei_msid, 'repository')
+            tei_repo.text = row['repository']
+            tei_coll = etree.SubElement(tei_msid, 'collection')
+            tei_coll.text = row['collection']
+            tei_idno = etree.SubElement(tei_msid, 'idno')
+            tei_idno.text = row['idno']
 
             # add facsimile element
             tei_facsimile = etree.SubElement(root, 'facsimile')
