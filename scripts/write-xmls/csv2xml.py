@@ -20,8 +20,8 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
 
             # add teiHeader node
             tei_header = etree.SubElement(root, 'teiHeader')
-            tei_filedesk = etree.SubElement(tei_header, 'fileDesk')
-            tei_titlestmt = etree.SubElement(tei_filedesk, 'titleStmt')
+            tei_filedesc = etree.SubElement(tei_header, 'fileDesc')
+            tei_titlestmt = etree.SubElement(tei_filedesc, 'titleStmt')
             tei_title_s = etree.SubElement(tei_titlestmt, 'title', level='s')
             tei_title_s.text = 'Auden in Austria Digital'
             tei_title_a = etree.SubElement(tei_titlestmt, 'title', level='a')
@@ -35,6 +35,24 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
             tei_editor_sm = etree.SubElement(tei_editor, 'name', ref='https://orcid.org/0000-0002-2915-5888')
             tei_editor_sm.set('{http://www.w3.org/XML/1998/namespace}id', 'smayer')
             tei_editor_sm.text = 'Mayer, Sandra'
+            tei_funder = etree.SubElement(tei_titlestmt, 'funder')
+            tei_funder_name = etree.SubElement(tei_funder, 'name', ref='https://d-nb.info/gnd/2054142-9')
+            tei_funder_name.text = 'Austrian Science Fund (FWF)'
+            tei_funder_address = etree.SubElement(tei_funder, 'address')
+            tei_funder_street = etree.SubElement(tei_funder_address, 'street')
+            tei_funder_street.text = 'Georg-Coch-Platz 2'
+            tei_funder_zip = etree.SubElement(tei_funder_address, 'postCode')
+            tei_funder_zip.text = '1010'
+            tei_funder_city = etree.SubElement(tei_funder_address, 'settlement')
+            tei_funder_city.text = 'Vienna'
+            tei_funder_country = etree.SubElement(tei_funder_address, 'country', key='AT')
+            tei_funder_country.text = 'Austria'
+            tei_pubstmt = etree.SubElement(tei_filedesc, 'publicationStmt')
+            tei_publisher = etree.SubElement(tei_pubstmt, 'publisher', ref='https://d-nb.info/gnd/1226158307')
+            tei_publisher.text = 'Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)'
+            tei_sourcedesc = etree.SubElement(tei_filedesc, 'sourceDesc')
+            tei_msdesc = etree.SubElement(tei_sourcedesc, 'msDesc')
+            tei_msid = etree.SubElement(tei_msdesc, 'msIdentifier')
 
             # add facsimile element
             tei_facsimile = etree.SubElement(root, 'facsimile')
