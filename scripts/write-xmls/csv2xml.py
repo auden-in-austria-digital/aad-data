@@ -59,6 +59,15 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
             tei_coll.text = row['collection']
             tei_idno = etree.SubElement(tei_msid, 'idno')
             tei_idno.text = row['idno']
+            tei_editionstmt = etree.SubElement(tei_filedesc, 'editionStmt')
+            tei_edition = etree.SubElement(tei_editionstmt, 'edition')
+            tei_title = etree.SubElement(tei_edition, 'title', level='a')
+            tei_title.text = row['title']
+            tei_respstmt1 = etree.SubElement(tei_editionstmt, 'respStmt')
+            tei_resp1 = etree.SubElement(tei_respstmt1, 'resp')
+            tei_resp1.text = 'Data model, transcription, markup, commentary'
+            tei_resp1_name1 = etree.SubElement(tei_resp1, 'name', ref='https://orcid.org/0000-0002-3997-5193', sameAs='tfruehwirth')
+            tei_resp1_name2 = etree.SubElement(tei_resp1, 'name', ref='https://orcid.org/0000-0002-2915-5888', sameAs='smayer')
 
             # add facsimile element
             tei_facsimile = etree.SubElement(root, 'facsimile')
