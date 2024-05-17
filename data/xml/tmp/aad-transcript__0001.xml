@@ -32,6 +32,14 @@
           </msIdentifier>
         </msDesc>
       </sourceDesc>
+      <editionStmt>
+        <edition>
+          <title level="a">Typed Letter Signed Erich Mikesch to W. H. Auden 1970-05-06</title>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, markup, commentary<name ref="https://orcid.org/0000-0002-3997-5193" sameAs="tfruehwirth"/><name ref="https://orcid.org/0000-0002-2915-5888" sameAs="smayer"/></resp>
+        </respStmt>
+      </editionStmt>
     </fileDesc>
   </teiHeader>
   <facsimile/>
