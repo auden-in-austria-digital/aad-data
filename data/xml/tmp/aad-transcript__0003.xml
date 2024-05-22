@@ -49,6 +49,7 @@
       <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00011" ed="1v" type="sheet"/>
       <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00001" ed="2r" type="envelope"/>
       <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00009" ed="2v" type="envelope"/>
+      <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00018" ed="3r" type="sheet"/>
     </body>
   </text>
 </TEI>
