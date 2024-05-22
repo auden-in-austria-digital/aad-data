@@ -96,6 +96,10 @@ for row in data:
     if not re.match(r'^19[5-7]\d-[0-1]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d\+[0-2]\d:00$', row[notAfter_index]):
         raise ValueError(f'Error in line {row_num}: notAfter-iso value must conform to ISO datetime format.')
 
+    # specify title value restrictions
+    if not (row[notBefore_index][:10] in row[title_index] and row[notAfter_index][:10] in row[title_index]):
+        raise ValueError(f'Error in line {row_num}: title does not match notBefore-iso and notAfter-iso values.')
+    
     # specify repository value restrictions
     if not all(char.isalpha() or char.isspace() for char in row[repo_index]):
         raise TypeError(f'Error in line {row_num}: repository value must contain only alphabetic characters and spaces.')
