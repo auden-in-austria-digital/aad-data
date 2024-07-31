@@ -47,6 +47,8 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
             tei_funder_city.text = 'Vienna'
             tei_funder_country = etree.SubElement(tei_funder_address, 'country', key='AT')
             tei_funder_country.text = 'Austria'
+            tei_funder_idno = etree.SubElement(tei_funder, 'idno', type='DOI')
+            tei_funder_idno.text = '10.55776/P37139'
             tei_pubstmt = etree.SubElement(tei_filedesc, 'publicationStmt')
             tei_publisher = etree.SubElement(tei_pubstmt, 'publisher', ref='https://d-nb.info/gnd/1226158307')
             tei_publisher.text = 'Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)'
