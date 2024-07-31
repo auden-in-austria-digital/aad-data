@@ -26,8 +26,9 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
             tei_title_s.text = 'Auden in Austria Digital'
             tei_title_a = etree.SubElement(tei_titlestmt, 'title', level='a')
             tei_title_a.text = row['title']
-            tei_author = etree.SubElement(tei_titlestmt, 'author')
-            tei_author.text = row['author']
+            tei_author = etree.SubElement(tei_titlestmt, 'author', ref=row['uri'])
+            tei_author_name = etree.SubElement(tei_author, 'persName', ref=row['entity'])
+            tei_author_name.text = row['author']
             tei_editor = etree.SubElement(tei_titlestmt, 'editor')
             tei_editor_tf = etree.SubElement(tei_editor, 'name', ref='https://orcid.org/0000-0002-3997-5193')
             tei_editor_tf.set('{http://www.w3.org/XML/1998/namespace}id', 'tfruehwirth')
