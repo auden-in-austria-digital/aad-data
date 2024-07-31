@@ -68,9 +68,16 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
             tei_title.text = row['title']
             tei_respstmt1 = etree.SubElement(tei_editionstmt, 'respStmt')
             tei_resp1 = etree.SubElement(tei_respstmt1, 'resp')
-            tei_resp1.text = 'Data model, transcription, markup, commentary'
-            tei_resp1_name1 = etree.SubElement(tei_resp1, 'name', ref='https://orcid.org/0000-0002-3997-5193', sameAs='tfruehwirth')
-            tei_resp1_name2 = etree.SubElement(tei_resp1, 'name', ref='https://orcid.org/0000-0002-2915-5888', sameAs='smayer')
+            tei_resp1.text = 'Data model, transcription, TEI/XML markup, commentary'
+            tei_resp1_name1 = etree.SubElement(tei_respstmt1, 'name', ref='https://orcid.org/0000-0002-3997-5193', sameAs='tfruehwirth')
+            tei_resp1_name2 = etree.SubElement(tei_respstmt1, 'name', ref='https://orcid.org/0000-0002-2915-5888', sameAs='smayer')
+            tei_respstmt2 = etree.SubElement(tei_editionstmt, 'respStmt')
+            tei_resp2 = etree.SubElement(tei_respstmt2, 'resp')
+            tei_resp2.text = 'ODD/RNG TEI/XML schema'
+            tei_resp2_name1 = etree.SubElement(tei_respstmt2, 'name', ref='https://orcid.org/0000-0002-9575-9372', sameAs='pandorfer')
+            tei_resp2_name1.text = 'Andorfer, Peter'
+            tei_resp2_name2 = etree.SubElement(tei_respstmt2, 'name', ref='https://orcid.org/0000-0002-0636-4476', sameAs='delsner')
+            tei_resp2_name2.text = 'Elsner, Daniel'
 
             # add facsimile element
             tei_facsimile = etree.SubElement(root, 'facsimile')
