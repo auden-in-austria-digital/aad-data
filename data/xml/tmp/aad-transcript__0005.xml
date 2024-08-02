@@ -23,18 +23,6 @@
           <idno type="DOI">10.55776/P37139</idno>
         </funder>
       </titleStmt>
-      <publicationStmt>
-        <publisher ref="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc>
-          <msIdentifier>
-            <repository>Musulin family archive</repository>
-            <collection>W. H. Auden papers</collection>
-            <idno>none</idno>
-          </msIdentifier>
-        </msDesc>
-      </sourceDesc>
       <editionStmt>
         <edition>
           <title level="a">Photograph Stella Musulin of W. H. Auden and Thomas Bernhard 1973-09-10</title>
@@ -50,6 +38,27 @@
           <name ref="https://orcid.org/0000-0002-0636-4476" sameAs="delsner">Elsner, Daniel</name>
         </respStmt>
       </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+        <pubPlace>Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>Musulin family archive</repository>
+            <collection>W. H. Auden papers</collection>
+            <idno>none</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
     </fileDesc>
   </teiHeader>
   <facsimile/>
