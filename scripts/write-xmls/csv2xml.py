@@ -50,18 +50,6 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
             tei_funder_country.text = 'Austria'
             tei_funder_idno = etree.SubElement(tei_funder, 'idno', type='DOI')
             tei_funder_idno.text = '10.55776/P37139'
-            tei_pubstmt = etree.SubElement(tei_filedesc, 'publicationStmt')
-            tei_publisher = etree.SubElement(tei_pubstmt, 'publisher', ref='https://d-nb.info/gnd/1226158307')
-            tei_publisher.text = 'Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)'
-            tei_sourcedesc = etree.SubElement(tei_filedesc, 'sourceDesc')
-            tei_msdesc = etree.SubElement(tei_sourcedesc, 'msDesc')
-            tei_msid = etree.SubElement(tei_msdesc, 'msIdentifier')
-            tei_repo = etree.SubElement(tei_msid, 'repository')
-            tei_repo.text = row['repository']
-            tei_coll = etree.SubElement(tei_msid, 'collection')
-            tei_coll.text = row['collection']
-            tei_idno = etree.SubElement(tei_msid, 'idno')
-            tei_idno.text = row['idno']
             tei_editionstmt = etree.SubElement(tei_filedesc, 'editionStmt')
             tei_edition = etree.SubElement(tei_editionstmt, 'edition')
             tei_title = etree.SubElement(tei_edition, 'title', level='a')
@@ -78,6 +66,29 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
             tei_resp2_name1.text = 'Andorfer, Peter'
             tei_resp2_name2 = etree.SubElement(tei_respstmt2, 'name', ref='https://orcid.org/0000-0002-0636-4476', sameAs='delsner')
             tei_resp2_name2.text = 'Elsner, Daniel'
+            tei_pubstmt = etree.SubElement(tei_filedesc, 'publicationStmt')
+            tei_publisher = etree.SubElement(tei_pubstmt, 'publisher', ref='https://d-nb.info/gnd/1226158307')
+            tei_publisher.text = 'Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)'
+            tei_pubplace = etree.SubElement(tei_pubstmt, 'pubPlace')
+            tei_pubplace.text = 'Vienna'
+            tei_pubdate = etree.SubElement(tei_pubstmt, 'date')
+            tei_pubdate.set('when-iso', '2027')
+            tei_pubdate.text = '2027'
+            tei_availability = etree.SubElement(tei_pubstmt, 'availability')
+            tei_licence = etree.SubElement(tei_availability, 'licence', target='https://creativecommons.org/licenses/by/4.0/')
+            tei_pubidno = etree.SubElement(tei_pubstmt, 'idno', type='Handle')
+            tei_seriesstmt = etree.SubElement(tei_filedesc, 'seriesStmt')
+            tei_seriestitle = etree.SubElement(tei_seriesstmt, 'title', level='s')
+            tei_seriestitle.text = tei_title_s.text
+            tei_sourcedesc = etree.SubElement(tei_filedesc, 'sourceDesc')
+            tei_msdesc = etree.SubElement(tei_sourcedesc, 'msDesc')
+            tei_msid = etree.SubElement(tei_msdesc, 'msIdentifier')
+            tei_repo = etree.SubElement(tei_msid, 'repository')
+            tei_repo.text = row['repository']
+            tei_coll = etree.SubElement(tei_msid, 'collection')
+            tei_coll.text = row['collection']
+            tei_idno = etree.SubElement(tei_msid, 'idno')
+            tei_idno.text = row['idno']
 
             # add facsimile element
             tei_facsimile = etree.SubElement(root, 'facsimile')
