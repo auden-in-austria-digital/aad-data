@@ -91,15 +91,37 @@
       <change who="#tfruehwirth" when-iso="2024-08-12">TEI/XML template populated with csv2xml.py</change>
     </revisionDesc>
   </teiHeader>
-  <facsimile/>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="2500" lry="1500">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00002"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="2402" lry="1401">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00012"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="2400" lry="1400">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00004"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="2501" lry="1501">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00010"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="2510" lry="1510">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00016"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="2505" lry="1505">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00015"/>
+    </surface>
+  </facsimile>
   <text>
     <body>
-      <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00002" ed="1r" type="envelope"/>
-      <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00012" ed="1v" type="sheet"/>
-      <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00004" ed="2r" type="sheet"/>
-      <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00010" ed="2v" type="envelope"/>
-      <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00016" ed="3r" type="sheet"/>
-      <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00015" ed="3v" type="sheet"/>
+      <div type="transcription" xml:id="transcription_aad_0002" xml:lang="">
+        <div/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00002" ed="1r" type="envelope"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00012" ed="1v" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00004" ed="2r" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00010" ed="2v" type="envelope"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00016" ed="3r" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00015" ed="3v" type="sheet"/>
+      </div>
     </body>
   </text>
 </TEI>

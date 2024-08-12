@@ -91,13 +91,29 @@
       <change who="#tfruehwirth" when-iso="2024-08-12">TEI/XML template populated with csv2xml.py</change>
     </revisionDesc>
   </teiHeader>
-  <facsimile/>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="2600" lry="1600">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00007"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="2100" lry="1900">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00006"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="2100" lry="1900">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00005"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="2600" lry="1600">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00008"/>
+    </surface>
+  </facsimile>
   <text>
     <body>
-      <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00007" ed="1r" type="sheet"/>
-      <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00006" ed="1v" type="envelope"/>
-      <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00005" ed="2r" type="envelope"/>
-      <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00008" ed="2v" type="sheet"/>
+      <div type="transcription" xml:id="transcription_aad_0001" xml:lang="">
+        <div/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00007" ed="1r" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00006" ed="1v" type="envelope"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00005" ed="2r" type="envelope"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00008" ed="2v" type="sheet"/>
+      </div>
     </body>
   </text>
 </TEI>

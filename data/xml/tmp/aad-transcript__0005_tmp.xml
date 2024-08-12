@@ -91,10 +91,17 @@
       <change who="#tfruehwirth" when-iso="2024-08-12">TEI/XML template populated with csv2xml.py</change>
     </revisionDesc>
   </teiHeader>
-  <facsimile/>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="250" lry="385">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00017"/>
+    </surface>
+  </facsimile>
   <text>
     <body>
-      <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00017" ed="1r" type="photograph"/>
+      <div type="transcription" xml:id="transcription_aad_0005" xml:lang="">
+        <div/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00017" ed="1r" type="photograph"/>
+      </div>
     </body>
   </text>
 </TEI>
