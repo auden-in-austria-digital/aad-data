@@ -131,7 +131,7 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
             tei_text = etree.SubElement(root, 'text')
             tei_body = etree.SubElement(tei_text, 'body')
 
-            file_name = './data/xml/tmp/' + xml_id + '.xml'  # define output file name
+            file_name = './data/xml/tmp/' + xml_id + 'tmp.xml'  # define output file name
 
             docs_list.append(row['doc'])  # append current document ID to list of document IDs
 
