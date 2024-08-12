@@ -16,7 +16,7 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
         # target data common to all rows related to same document ID
         if row['doc'] not in docs_list:
 
-            xml_id = 'aad-transcript__' + row['doc']  # define XML ID
+            xml_id = f"aad-transcript__{row['doc']}"  # define XML ID
 
             root = etree.Element('TEI', nsmap={None: tei_namespace, 'xsi': xsi_namespace})  # add root element
             root.set('{http://www.w3.org/XML/1998/namespace}id', xml_id)  # define root xml:id attribute
@@ -109,7 +109,7 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
             tei_origdate = etree.SubElement(tei_origin, 'origDate')
             tei_origdate.set('notBefore-iso', row['notBefore-iso'])
             tei_origdate.set('notAfter-iso', row['notAfter-iso'])
-            origplace_entity_ref = '#' + row['place-entity']
+            origplace_entity_ref = f"#{row['place-entity']}"
             tei_origplace = etree.SubElement(tei_origin, 'origPlace', ref=origplace_entity_ref)
             tei_origplace.text = row['place']
             tei_encodingdesc = etree.SubElement(tei_header, 'encodingDesc')
@@ -130,13 +130,20 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
             # add text node
             tei_text = etree.SubElement(root, 'text')
             tei_body = etree.SubElement(tei_text, 'body')
+            tei_div1 = etree.SubElement(tei_body, 'div', type='transcription')
+            tei_div1.set('{http://www.w3.org/XML/1998/namespace}id', f"transcription_aad_{row['doc']}")
+            tei_div1.set('{http://www.w3.org/XML/1998/namespace}lang', '')
+            tei_div2 = etree.SubElement(tei_div1, 'div')
 
-            file_name = './data/xml/tmp/' + xml_id + '_tmp.xml'  # define output file name
+            file_name = f"C:/Users/tfruehwirth/Desktop/xmls/{xml_id}_tmp.xml"  # define output file name
 
             docs_list.append(row['doc'])  # append current document ID to list of document IDs
 
         # target row-specific data
-        tei_pb = etree.SubElement(tei_body, 'pb', facs='https://iiif.acdh.oeaw.ac.at/aad/aad_' + row['img'], ed=row['ed'], type=row['type'])  # add page-beginning element
+        img_url = f"https://iiif.acdh.oeaw.ac.at/aad/aad_{row['img']}"
+        tei_pb = etree.SubElement(tei_div1, 'pb', facs=img_url, ed=row['ed'], type=row['type'])  # add page-beginning element
+        tei_surface = etree.SubElement(tei_facsimile, 'surface', ulx='0', uly='0', lrx=row['lrx'], lry=row['lry'])
+        tei_graphic = etree.SubElement(tei_surface, 'graphic', url=img_url)
 
         with open(file_name, 'w') as xml_file:  # open/create output XML file in write mode
             xml_file.write(etree.tostring(root, encoding='utf-8', xml_declaration=True, pretty_print=True).decode('utf-8'))  # convert XML ElementTree structure to UTF-8-encoded byte string; add XML declaration, indentation, and line breaks; decode UTF-8 byte string into Unicode string
