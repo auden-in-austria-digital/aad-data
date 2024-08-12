@@ -112,7 +112,7 @@ for row in data:
         raise ValueError(f'Error in line {row_num}: notAfter-iso value must conform to ISO datetime format.')
 
     # specify place-entity value pattern
-    if not re.match(r'^(amp|aad)_person_id_\d+$', row[place_entity_index]):
+    if not re.match(r'^(amp|aad)_place_id_\d+$', row[place_entity_index]):
         raise ValueError(f'Error in line {row_num}: place-entity value must correspond to Baserow place-entity pattern.')
 
     # specify title value restrictions
