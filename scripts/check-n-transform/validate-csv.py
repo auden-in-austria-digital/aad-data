@@ -26,6 +26,7 @@ uri_index = header.index('uri')
 notBefore_index = header.index('notBefore-iso')
 notAfter_index = header.index('notAfter-iso')
 repo_index = header.index('repository')
+repo_uri_index = header.index('repository-uri')
 coll_index = header.index('collection')
 idno_index = header.index('idno')
 
@@ -116,6 +117,10 @@ for row in data:
     if not all(char.isalpha() or char.isspace() for char in row[repo_index]):
         raise TypeError(f'Error in line {row_num}: repository value must contain only alphabetic characters and spaces.')
 
+    # specify repository URI value pattern
+    if not re.match(r'^(https|http)://', row[repo_uri_index]):
+        raise ValueError(f'Error in line {row_num}: repository-URI value must correspond to URL pattern.')
+
     # specify collection value restrictions
     if not all(char.isalpha() or char.isspace() or char == '.' for char in row[coll_index]):
         raise TypeError(f'Error in line {row_num}: collection value must contain only alphabetic characters, spaces, and periods.')
@@ -129,6 +134,7 @@ for row in data:
     notBefore = row[notBefore_index]
     notAfter = row[notAfter_index]
     repository = row[repo_index]
+    repo_uri = row[repo_uri_index]
     collection = row[coll_index]
     idno = row[idno_index]
 
@@ -139,6 +145,7 @@ for row in data:
                 doc_dict[doc_id][notBefore_index] != notBefore or
                 doc_dict[doc_id][notAfter_index] != notAfter or
                 doc_dict[doc_id][repo_index] != repository or
+                doc_dict[doc_id][repo_uri_index] != repo_uri or
                 doc_dict[doc_id][coll_index] != collection or
                 doc_dict[doc_id][idno_index] != idno):
             raise ValueError(f'Inconsistent document values detected in line {row_num}.')
