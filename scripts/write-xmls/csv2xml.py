@@ -135,7 +135,7 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
             tei_div1.set('{http://www.w3.org/XML/1998/namespace}lang', '')
             tei_div2 = etree.SubElement(tei_div1, 'div')
 
-            file_name = f"C:/Users/tfruehwirth/Desktop/xmls/{xml_id}_tmp.xml"  # define output file name
+            file_name = f"./data/xml/tmp/{xml_id}_tmp.xml"  # define output file name
 
             docs_list.append(row['doc'])  # append current document ID to list of document IDs
 
