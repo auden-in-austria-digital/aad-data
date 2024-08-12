@@ -25,6 +25,8 @@ entity_index = header.index('entity')
 uri_index = header.index('uri')
 notBefore_index = header.index('notBefore-iso')
 notAfter_index = header.index('notAfter-iso')
+place_index = header.index('place')
+place_entity_index = header.index('place-entity')
 repo_index = header.index('repository')
 repo_uri_index = header.index('repository-uri')
 coll_index = header.index('collection')
@@ -109,6 +111,10 @@ for row in data:
     if not re.match(r'^19[5-7]\d-[0-1]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d\+[0-2]\d:00$', row[notAfter_index]):
         raise ValueError(f'Error in line {row_num}: notAfter-iso value must conform to ISO datetime format.')
 
+    # specify place-entity value pattern
+    if not re.match(r'^(amp|aad)_person_id_\d+$', row[place_entity_index]):
+        raise ValueError(f'Error in line {row_num}: place-entity value must correspond to Baserow place-entity pattern.')
+
     # specify title value restrictions
     if not (row[notBefore_index][:10] in row[title_index] and row[notAfter_index][:10] in row[title_index]):
         raise ValueError(f'Error in line {row_num}: title does not match notBefore-iso and notAfter-iso values.')
@@ -133,6 +139,8 @@ for row in data:
     uri = row[uri_index]
     notBefore = row[notBefore_index]
     notAfter = row[notAfter_index]
+    place = row[place_index]
+    place_entity = row[place_entity_index]
     repository = row[repo_index]
     repo_uri = row[repo_uri_index]
     collection = row[coll_index]
@@ -144,6 +152,8 @@ for row in data:
                 doc_dict[doc_id][author_index] != author or
                 doc_dict[doc_id][notBefore_index] != notBefore or
                 doc_dict[doc_id][notAfter_index] != notAfter or
+                doc_dict[doc_id][place_index] != place or
+                doc_dict[doc_id][place_entity_index] != place_entity or
                 doc_dict[doc_id][repo_index] != repository or
                 doc_dict[doc_id][repo_uri_index] != repo_uri or
                 doc_dict[doc_id][coll_index] != collection or
