@@ -1,7 +1,10 @@
 import csv  # import csv model
 from lxml import etree  # import etree functionality from lxml library
+from datetime import date  # import date functionality from datetime module
 
 tei_namespace = 'http://www.tei-c.org/ns/1.0'  # define TEI namespace
+xsi_namespace = 'http://www.w3.org/2001/XMLSchema-instance'  # define Schema Instance namespace
+xml_base = 'https://id.acdh.oeaw.ac.at/auden-in-austria-digital'  # define XML base
 
 docs_list = []  # create list of document IDs
 
@@ -15,19 +18,21 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
 
             xml_id = 'aad-transcript__' + row['doc']  # define XML ID
 
-            root = etree.Element('TEI', nsmap={None: tei_namespace})  # add root element
+            root = etree.Element('TEI', nsmap={None: tei_namespace, 'xsi': xsi_namespace})  # add root element
             root.set('{http://www.w3.org/XML/1998/namespace}id', xml_id)  # define root xml:id attribute
+            root.set('{http://www.w3.org/XML/1998/namespace}base', xml_base)  # define root xml:base attribute
 
             # add teiHeader node
             tei_header = etree.SubElement(root, 'teiHeader')
             tei_filedesc = etree.SubElement(tei_header, 'fileDesc')
             tei_titlestmt = etree.SubElement(tei_filedesc, 'titleStmt')
             tei_title_s = etree.SubElement(tei_titlestmt, 'title', level='s')
-            tei_title_s.text = 'Auden in Austria Digital'
+            tei_title_s.text = 'Auden in Austria Digital (AAD)'
             tei_title_a = etree.SubElement(tei_titlestmt, 'title', level='a')
             tei_title_a.text = row['title']
             tei_author = etree.SubElement(tei_titlestmt, 'author', ref=row['uri'])
-            tei_author_name = etree.SubElement(tei_author, 'persName', ref=row['entity'])
+            author_entity_ref = '#' + row['entity']
+            tei_author_name = etree.SubElement(tei_author, 'persName', ref=author_entity_ref)
             tei_author_name.text = row['author']
             tei_editor = etree.SubElement(tei_titlestmt, 'editor')
             tei_editor_tf = etree.SubElement(tei_editor, 'name', ref='https://orcid.org/0000-0002-3997-5193')
@@ -54,6 +59,12 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
             tei_edition = etree.SubElement(tei_editionstmt, 'edition')
             tei_title = etree.SubElement(tei_edition, 'title', level='a')
             tei_title.text = row['title']
+            tei_interpgrp = etree.SubElement(tei_edition, 'interpGrp')
+            tei_interp = etree.SubElement(tei_interpgrp, 'interp')
+            tei_interpdesc = etree.SubElement(tei_interp, 'desc')
+            tei_interprespons = etree.SubElement(tei_interp, 'respons', resp='smayer tfruehwirth')
+            tei_interprespons.set('locus', 'value')
+            tei_interpcertainty = etree.SubElement(tei_interp, 'certainty', locus='value')
             tei_respstmt1 = etree.SubElement(tei_editionstmt, 'respStmt')
             tei_resp1 = etree.SubElement(tei_respstmt1, 'resp')
             tei_resp1.text = 'Data model, transcription, TEI/XML markup, commentary'
@@ -61,15 +72,17 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
             tei_resp1_name2 = etree.SubElement(tei_respstmt1, 'name', ref='https://orcid.org/0000-0002-2915-5888', sameAs='smayer')
             tei_respstmt2 = etree.SubElement(tei_editionstmt, 'respStmt')
             tei_resp2 = etree.SubElement(tei_respstmt2, 'resp')
-            tei_resp2.text = 'ODD/RNG TEI/XML schema'
-            tei_resp2_name1 = etree.SubElement(tei_respstmt2, 'name', ref='https://orcid.org/0000-0002-9575-9372', sameAs='pandorfer')
+            tei_resp2.text = 'ODD/RNG TEI/XML schema, TEI/XML markup'
+            tei_resp2_name1 = etree.SubElement(tei_respstmt2, 'name', ref='https://orcid.org/0000-0002-9575-9372')
+            tei_resp2_name1.set('{http://www.w3.org/XML/1998/namespace}id', 'pandorfer')
             tei_resp2_name1.text = 'Andorfer, Peter'
-            tei_resp2_name2 = etree.SubElement(tei_respstmt2, 'name', ref='https://orcid.org/0000-0002-0636-4476', sameAs='delsner')
+            tei_resp2_name2 = etree.SubElement(tei_respstmt2, 'name', ref='https://orcid.org/0000-0002-0636-4476')
+            tei_resp2_name2.set('{http://www.w3.org/XML/1998/namespace}id', 'delsner')
             tei_resp2_name2.text = 'Elsner, Daniel'
             tei_pubstmt = etree.SubElement(tei_filedesc, 'publicationStmt')
             tei_publisher = etree.SubElement(tei_pubstmt, 'publisher', ref='https://d-nb.info/gnd/1226158307')
             tei_publisher.text = 'Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)'
-            tei_pubplace = etree.SubElement(tei_pubstmt, 'pubPlace')
+            tei_pubplace = etree.SubElement(tei_pubstmt, 'pubPlace', ref='https://d-nb.info/gnd/4066009-6')
             tei_pubplace.text = 'Vienna'
             tei_pubdate = etree.SubElement(tei_pubstmt, 'date')
             tei_pubdate.set('when-iso', '2027')
@@ -81,14 +94,35 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
             tei_seriestitle = etree.SubElement(tei_seriesstmt, 'title', level='s')
             tei_seriestitle.text = tei_title_s.text
             tei_sourcedesc = etree.SubElement(tei_filedesc, 'sourceDesc')
-            tei_msdesc = etree.SubElement(tei_sourcedesc, 'msDesc')
+            tei_listwit = etree.SubElement(tei_sourcedesc, 'listWit')
+            tei_witness = etree.SubElement(tei_listwit, 'witness', n='1')
+            tei_msdesc = etree.SubElement(tei_witness, 'msDesc')
             tei_msid = etree.SubElement(tei_msdesc, 'msIdentifier')
-            tei_repo = etree.SubElement(tei_msid, 'repository')
+            tei_repo = etree.SubElement(tei_msid, 'repository', ref=row['repository-uri'])
             tei_repo.text = row['repository']
             tei_coll = etree.SubElement(tei_msid, 'collection')
             tei_coll.text = row['collection']
             tei_idno = etree.SubElement(tei_msid, 'idno')
             tei_idno.text = row['idno']
+            tei_history = etree.SubElement(tei_msdesc, 'history')
+            tei_origin = etree.SubElement(tei_history, 'origin')
+            tei_origdate = etree.SubElement(tei_origin, 'origDate')
+            tei_origdate.set('notBefore-iso', row['notBefore-iso'])
+            tei_origdate.set('notAfter-iso', row['notAfter-iso'])
+            origplace_entity_ref = '#' + row['place-entity']
+            tei_origplace = etree.SubElement(tei_origin, 'origPlace', ref=origplace_entity_ref)
+            tei_origplace.text = row['place']
+            tei_encodingdesc = etree.SubElement(tei_header, 'encodingDesc')
+            tei_listprefixdef = etree.SubElement(tei_encodingdesc, 'listPrefixDef')
+            tei_prefixdef = etree.SubElement(tei_listprefixdef, 'prefixDef', ident='acdh', matchPattern='(.+)', replacementPattern='https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1')
+            tei_profiledesc = etree.SubElement(tei_header, 'profileDesc')
+            tei_langusage = etree.SubElement(tei_profiledesc, 'langUsage')
+            tei_language = etree.SubElement(tei_langusage, 'language', ident='')
+            tei_revisiondesc = etree.SubElement(tei_header, 'revisionDesc', status='draft')
+            tei_change = etree.SubElement(tei_revisiondesc, 'change', who='#tfruehwirth')
+            iso_date = date.today().isoformat()
+            tei_change.set('when-iso', iso_date)
+            tei_change.text = 'TEI/XML template populated with csv2xml.py'
 
             # add facsimile element
             tei_facsimile = etree.SubElement(root, 'facsimile')
