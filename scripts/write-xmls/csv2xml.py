@@ -103,6 +103,10 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
             tei_coll.text = row['collection']
             tei_idno = etree.SubElement(tei_msid, 'idno')
             tei_idno.text = row['idno']
+            tei_physdesc = etree.SubElement(tei_msdesc, 'physDesc')
+            tei_objectdesc = etree.SubElement(tei_msdesc, 'objectDesc')
+            tei_supportdesc = etree.SubElement(tei_objectdesc, 'supportDesc')
+            tei_support = etree.SubElement(tei_supportdesc, 'support')
             tei_history = etree.SubElement(tei_msdesc, 'history')
             tei_origin = etree.SubElement(tei_history, 'origin')
             tei_origdate = etree.SubElement(tei_origin, 'origDate')
@@ -142,6 +146,11 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
 
         # target row-specific data
         img_url = f"https://iiif.acdh.oeaw.ac.at/aad/aad_{row['img']}"
+        tei_dimensions = etree.SubElement(tei_support, 'dimensions', unit="mm", facs=img_url)
+        tei_width = etree.SubElement(tei_dimensions, 'width')
+        tei_width.text = row['width']
+        tei_height = etree.SubElement(tei_dimensions, 'height')
+        tei_height.text = row['height']
         tei_pb = etree.SubElement(tei_div1, 'pb', facs=img_url, ed=row['ed'], type=row['type'])  # add page-beginning element
         tei_surface = etree.SubElement(tei_facsimile, 'surface', ulx='0', uly='0', lrx=row['lrx'], lry=row['lry'])
         tei_graphic = etree.SubElement(tei_surface, 'graphic', url=img_url)
