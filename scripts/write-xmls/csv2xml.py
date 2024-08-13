@@ -104,7 +104,7 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
             tei_idno = etree.SubElement(tei_msid, 'idno')
             tei_idno.text = row['idno']
             tei_physdesc = etree.SubElement(tei_msdesc, 'physDesc')
-            tei_objectdesc = etree.SubElement(tei_msdesc, 'objectDesc')
+            tei_objectdesc = etree.SubElement(tei_physdesc, 'objectDesc')
             tei_supportdesc = etree.SubElement(tei_objectdesc, 'supportDesc')
             tei_support = etree.SubElement(tei_supportdesc, 'support')
             tei_history = etree.SubElement(tei_msdesc, 'history')
