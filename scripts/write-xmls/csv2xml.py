@@ -129,7 +129,7 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
             tei_change.set('when-iso', iso_date)
             tei_change.text = 'TEI/XML template populated with csv2xml.py'
 
-            # add facsimile element
+            # add facsimile node
             tei_facsimile = etree.SubElement(root, 'facsimile')
 
             # add text node
@@ -146,14 +146,14 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
 
         # target row-specific data
         img_url = f"https://iiif.acdh.oeaw.ac.at/aad/aad_{row['img']}"
-        tei_dimensions = etree.SubElement(tei_support, 'dimensions', unit="mm", facs=img_url)
+        tei_dimensions = etree.SubElement(tei_support, 'dimensions', unit="mm", facs=img_url) # add elements in teiHeader node
         tei_width = etree.SubElement(tei_dimensions, 'width')
         tei_width.text = row['width']
         tei_height = etree.SubElement(tei_dimensions, 'height')
         tei_height.text = row['height']
-        tei_pb = etree.SubElement(tei_div1, 'pb', facs=img_url, ed=row['ed'], type=row['type'])  # add page-beginning element
-        tei_surface = etree.SubElement(tei_facsimile, 'surface', ulx='0', uly='0', lrx=row['lrx'], lry=row['lry'])
+        tei_surface = etree.SubElement(tei_facsimile, 'surface', ulx='0', uly='0', lrx=row['lrx'], lry=row['lry'])  # add elements in facsimile node
         tei_graphic = etree.SubElement(tei_surface, 'graphic', url=img_url)
+        tei_pb = etree.SubElement(tei_div1, 'pb', facs=img_url, ed=row['ed'], type=row['type'])  # add element in text node
 
         with open(file_name, 'w') as xml_file:  # open/create output XML file in write mode
             xml_file.write(etree.tostring(root, encoding='utf-8', xml_declaration=True, pretty_print=True).decode('utf-8'))  # convert XML ElementTree structure to UTF-8-encoded byte string; add XML declaration, indentation, and line breaks; decode UTF-8 byte string into Unicode string
