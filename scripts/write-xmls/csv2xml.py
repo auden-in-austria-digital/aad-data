@@ -71,7 +71,7 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
             tei_resp1_name2 = etree.SubElement(tei_respstmt1, 'name', ref='https://orcid.org/0000-0002-2915-5888', sameAs='smayer')
             tei_respstmt2 = etree.SubElement(tei_editionstmt, 'respStmt')
             tei_resp2 = etree.SubElement(tei_respstmt2, 'resp')
-            tei_resp2.text = 'ODD/RNG TEI/XML schema, TEI/XML markup'
+            tei_resp2.text = 'ODD/RNG TEI/XML schema'
             tei_resp2_name1 = etree.SubElement(tei_respstmt2, 'name', ref='https://orcid.org/0000-0002-9575-9372')
             tei_resp2_name1.set('{http://www.w3.org/XML/1998/namespace}id', 'pandorfer')
             tei_resp2_name1.text = 'Andorfer, Peter'
