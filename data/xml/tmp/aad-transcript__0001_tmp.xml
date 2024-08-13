@@ -27,15 +27,15 @@
           <interpGrp>
             <interp>
               <desc/>
-              <respons resp="smayer tfruehwirth" locus="value"/>
+              <respons locus="value" resp="tfruehwirth smayer"/>
               <certainty locus="value"/>
             </interp>
           </interpGrp>
         </edition>
         <respStmt>
           <resp>Data model, transcription, TEI/XML markup, commentary</resp>
-          <name ref="https://orcid.org/0000-0002-3997-5193" sameAs="tfruehwirth"/>
-          <name ref="https://orcid.org/0000-0002-2915-5888" sameAs="smayer"/>
+          <name sameAs="tfruehwirth"/>
+          <name sameAs="smayer"/>
         </respStmt>
         <respStmt>
           <resp>ODD/RNG TEI/XML schema</resp>
