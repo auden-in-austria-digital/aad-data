@@ -38,7 +38,7 @@
           <name ref="https://orcid.org/0000-0002-2915-5888" sameAs="smayer"/>
         </respStmt>
         <respStmt>
-          <resp>ODD/RNG TEI/XML schema, TEI/XML markup</resp>
+          <resp>ODD/RNG TEI/XML schema</resp>
           <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
           <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
         </respStmt>
