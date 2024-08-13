@@ -111,6 +111,8 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
             origplace_entity_ref = f"#{row['place-entity']}"
             tei_origplace = etree.SubElement(tei_origin, 'origPlace', ref=origplace_entity_ref)
             tei_origplace.text = row['place']
+            tei_xenodata = etree.SubElement(tei_header, 'xenoData')
+            tei_rdf = etree.SubElement(tei_xenodata, '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF', nsmap={'rdf': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'})
             tei_encodingdesc = etree.SubElement(tei_header, 'encodingDesc')
             tei_listprefixdef = etree.SubElement(tei_encodingdesc, 'listPrefixDef')
             tei_prefixdef = etree.SubElement(tei_listprefixdef, 'prefixDef', ident='acdh', matchPattern='(.+)', replacementPattern='https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1')
