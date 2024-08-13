@@ -64,33 +64,34 @@
                 <collection>W. H. Auden Collection</collection>
                 <idno>1.7</idno>
               </msIdentifier>
-              <physDesc/>
-              <objectDesc>
-                <supportDesc>
-                  <support>
-                    <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00003">
-                      <width>210</width>
-                      <height>290</height>
-                    </dimensions>
-                    <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00011">
-                      <width>210</width>
-                      <height>290</height>
-                    </dimensions>
-                    <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00001">
-                      <width>150</width>
-                      <height>170</height>
-                    </dimensions>
-                    <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00009">
-                      <width>150</width>
-                      <height>170</height>
-                    </dimensions>
-                    <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00018">
-                      <width>456</width>
-                      <height>765</height>
-                    </dimensions>
-                  </support>
-                </supportDesc>
-              </objectDesc>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00003">
+                        <width>210</width>
+                        <height>290</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00011">
+                        <width>210</width>
+                        <height>290</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00001">
+                        <width>150</width>
+                        <height>170</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00009">
+                        <width>150</width>
+                        <height>170</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00018">
+                        <width>456</width>
+                        <height>765</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+              </physDesc>
               <history>
                 <origin>
                   <origDate notBefore-iso="1965-10-01T00:00:00+01:00" notAfter-iso="1965-10-01T23:59:59+01:00"/>

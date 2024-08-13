@@ -64,21 +64,22 @@
                 <collection>W. H. Auden Collection</collection>
                 <idno>1.8</idno>
               </msIdentifier>
-              <physDesc/>
-              <objectDesc>
-                <supportDesc>
-                  <support>
-                    <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00014">
-                      <width>740</width>
-                      <height>630</height>
-                    </dimensions>
-                    <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00013">
-                      <width>740</width>
-                      <height>630</height>
-                    </dimensions>
-                  </support>
-                </supportDesc>
-              </objectDesc>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00014">
+                        <width>740</width>
+                        <height>630</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00013">
+                        <width>740</width>
+                        <height>630</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+              </physDesc>
               <history>
                 <origin>
                   <origDate notBefore-iso="1959-01-01T00:00:00+01:00" notAfter-iso="1959-01-03T23:59:59+01:00"/>

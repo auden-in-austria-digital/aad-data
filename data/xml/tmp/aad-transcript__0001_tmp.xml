@@ -64,29 +64,30 @@
                 <collection>Finance Ministry Section</collection>
                 <idno>BMF700-32</idno>
               </msIdentifier>
-              <physDesc/>
-              <objectDesc>
-                <supportDesc>
-                  <support>
-                    <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00007">
-                      <width>150</width>
-                      <height>170</height>
-                    </dimensions>
-                    <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00006">
-                      <width>150</width>
-                      <height>170</height>
-                    </dimensions>
-                    <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00005">
-                      <width>150</width>
-                      <height>170</height>
-                    </dimensions>
-                    <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00008">
-                      <width>150</width>
-                      <height>170</height>
-                    </dimensions>
-                  </support>
-                </supportDesc>
-              </objectDesc>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00007">
+                        <width>150</width>
+                        <height>170</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00006">
+                        <width>150</width>
+                        <height>170</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00005">
+                        <width>150</width>
+                        <height>170</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00008">
+                        <width>150</width>
+                        <height>170</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+              </physDesc>
               <history>
                 <origin>
                   <origDate notBefore-iso="1970-05-06T00:00:00+01:00" notAfter-iso="1970-05-06T23:59:59+01:00"/>

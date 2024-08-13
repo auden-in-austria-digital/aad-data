@@ -64,37 +64,38 @@
                 <collection>Manuscript Section</collection>
                 <idno>BAF3072/82</idno>
               </msIdentifier>
-              <physDesc/>
-              <objectDesc>
-                <supportDesc>
-                  <support>
-                    <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00002">
-                      <width>150</width>
-                      <height>170</height>
-                    </dimensions>
-                    <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00012">
-                      <width>210</width>
-                      <height>290</height>
-                    </dimensions>
-                    <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00004">
-                      <width>210</width>
-                      <height>290</height>
-                    </dimensions>
-                    <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00010">
-                      <width>150</width>
-                      <height>170</height>
-                    </dimensions>
-                    <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00016">
-                      <width>157</width>
-                      <height>185</height>
-                    </dimensions>
-                    <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00015">
-                      <width>155</width>
-                      <height>175</height>
-                    </dimensions>
-                  </support>
-                </supportDesc>
-              </objectDesc>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00002">
+                        <width>150</width>
+                        <height>170</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00012">
+                        <width>210</width>
+                        <height>290</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00004">
+                        <width>210</width>
+                        <height>290</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00010">
+                        <width>150</width>
+                        <height>170</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00016">
+                        <width>157</width>
+                        <height>185</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00015">
+                        <width>155</width>
+                        <height>175</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+              </physDesc>
               <history>
                 <origin>
                   <origDate notBefore-iso="1971-11-05T00:00:00+01:00" notAfter-iso="1971-11-05T23:59:59+01:00"/>

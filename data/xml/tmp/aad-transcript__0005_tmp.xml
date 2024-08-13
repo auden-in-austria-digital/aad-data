@@ -64,17 +64,18 @@
                 <collection>W. H. Auden papers</collection>
                 <idno>none</idno>
               </msIdentifier>
-              <physDesc/>
-              <objectDesc>
-                <supportDesc>
-                  <support>
-                    <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00017">
-                      <width>47</width>
-                      <height>65</height>
-                    </dimensions>
-                  </support>
-                </supportDesc>
-              </objectDesc>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00017">
+                        <width>47</width>
+                        <height>65</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+              </physDesc>
               <history>
                 <origin>
                   <origDate notBefore-iso="1973-09-10T00:00:00+01:00" notAfter-iso="1973-09-10T23:59:59+01:00"/>
