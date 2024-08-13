@@ -5,9 +5,7 @@
       <titleStmt>
         <title level="s">Auden in Austria Digital (AAD)</title>
         <title level="a">Typed Letter Signed W. H. Auden to Stella Musulin 1971-11-05</title>
-        <author ref="https://d-nb.info/gnd/118650963">
-          <persName ref="#amp_person_1">Auden, W. H.</persName>
-        </author>
+        <author ref="#amp_person_1">Auden, W. H.</author>
         <editor>
           <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
           <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
@@ -88,7 +86,7 @@
       </langUsage>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2024-08-12">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2024-08-13">TEI/XML template populated with csv2xml.py</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
