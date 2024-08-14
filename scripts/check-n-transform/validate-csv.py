@@ -155,4 +155,4 @@ for row in data:
     else:
         doc_dict[doc_id] = row
 
-    i += 1  # increment counter
+i += 1  # increment counter
