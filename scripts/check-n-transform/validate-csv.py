@@ -152,7 +152,7 @@ for row in data:
                 doc_dict[doc_id][coll_index] != collection or
                 doc_dict[doc_id][idno_index] != idno):
             raise ValueError(f'Inconsistent document values detected in line {row_num}.')
-        else:
-            doc_dict[doc_id] = row
+    else:
+        doc_dict[doc_id] = row
 
     i += 1  # increment counter
