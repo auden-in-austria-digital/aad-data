@@ -94,7 +94,7 @@ for row in data:
 
     # specify author URI value pattern
     if not re.match(r'^(https|http)://', row[author_uri_index]):
-        raise ValueError(f'Error in line {row_num}: author URI value must correspond to URL pattern.')
+        raise ValueError(f'Error in line {row_num}: author-URI value must correspond to URL pattern.')
 
     # specify notBefore-iso value pattern
     if not re.match(r'^19[5-7]\d-[0-1]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d\+[0-2]\d:00$', row[notBefore_index]):
@@ -106,7 +106,7 @@ for row in data:
 
     # specify place URI value pattern
     if not re.match(r'^(https|http)://', row[place_uri_index]):
-        raise ValueError(f'Error in line {row_num}: URI value must correspond to URL pattern.')
+        raise ValueError(f'Error in line {row_num}: place-URI value must correspond to URL pattern.')
 
     # specify title value restrictions
     if not (row[notBefore_index][:10] in row[title_index] and row[notAfter_index][:10] in row[title_index]):
