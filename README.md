@@ -10,7 +10,7 @@ Repository for editorial data and data-creation workflows in the **Auden in Aust
   - [check-n-transform Workflow](#check-n-transform-workflow)
   - [write-xmls Workflow](#write-xmls-workflow)
 
-## aad-data Directory Structure
+## 1 aad-data Directory Structure
 
 The [metadata/csv](https://github.com/auden-in-austria-digital/aad-data/tree/main/metadata/csv) directory contains the [input_img_id.csv](https://github.com/auden-in-austria-digital/aad-data/blob/main/metadata/csv/input_img_id.csv) input CSV file for basic (image-ID-centered) metadata creation as well as the automatically transformed (document-ID-centered) [output_doc_id.csv](https://github.com/auden-in-austria-digital/aad-data/blob/main/metadata/csv/output_doc_id.csv).
 
@@ -21,8 +21,8 @@ The [write-xmls](https://github.com/auden-in-austria-digital/aad-data/blob/main/
 > [!IMPORTANT]  
 > The write-xmls workflow will overwrite unrenamed template TEI/XML files in the tmp directory.
 
-## aad-data Workflows
-### check-n-transform Workflow
+## 2 aad-data Workflows
+### 2.1 check-n-transform Workflow
 ```mermaid
 flowchart TD;
     input_img_id.csv---|on:push| check-n-transform;
@@ -31,7 +31,7 @@ flowchart TD;
     img2doc-csv.py-->output_doc_id.csv;
     A-. #10060; .->input_img_id.csv;
 ```
-### write-xmls Workflow
+### 2.2 write-xmls Workflow
 ```mermaid
 flowchart TD;
     output_doc_id.csv---|on:workflow_dispatch| write-xmls;
