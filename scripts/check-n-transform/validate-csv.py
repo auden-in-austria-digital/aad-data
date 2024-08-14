@@ -21,20 +21,17 @@ ed_index = header.index('ed')
 doc_index = header.index('doc')
 title_index = header.index('title')
 author_index = header.index('author')
-entity_index = header.index('entity')
-uri_index = header.index('uri')
+author_uri_index = header.index('author-uri')
 notBefore_index = header.index('notBefore-iso')
 notAfter_index = header.index('notAfter-iso')
 place_index = header.index('place')
-place_entity_index = header.index('place-entity')
+place_uri_index = header.index('place-uri')
 repo_index = header.index('repository')
 repo_uri_index = header.index('repository-uri')
 coll_index = header.index('collection')
 idno_index = header.index('idno')
 
 doc_dict = {}  # initiate document dictionary
-
-author_dict = {}  # initiate author dictionary
 
 i = 0  # set counter
 
@@ -91,17 +88,13 @@ for row in data:
     if not len(row[doc_index]) == 4:
         raise ValueError(f'Error in line {row_num}: doc ID must consist of four digits.')
 
-    # specify entity value pattern
-    if not re.match(r'^(amp|aad)_person_\d+$', row[entity_index]):
-        raise ValueError(f'Error in line {row_num}: entity value must correspond to Baserow person-entity pattern.')
-
-    # specify URI value pattern
-    if not re.match(r'^(https|http)://', row[uri_index]):
-        raise ValueError(f'Error in line {row_num}: URI value must correspond to URL pattern.')
-
-    # specify collection value restrictions
+    # specify author value restrictions
     if not all(char.isalpha() or char.isspace() or char == '.' or char == ',' for char in row[author_index]):
         raise TypeError(f'Error in line {row_num}: author value must contain only alphabetic characters, spaces, commas, and periods.')
+
+    # specify author URI value pattern
+    if not re.match(r'^(https|http)://', row[author_uri_index]):
+        raise ValueError(f'Error in line {row_num}: author-URI value must correspond to URL pattern.')
 
     # specify notBefore-iso value pattern
     if not re.match(r'^19[5-7]\d-[0-1]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d\+[0-2]\d:00$', row[notBefore_index]):
@@ -111,9 +104,9 @@ for row in data:
     if not re.match(r'^19[5-7]\d-[0-1]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d\+[0-2]\d:00$', row[notAfter_index]):
         raise ValueError(f'Error in line {row_num}: notAfter-iso value must conform to ISO datetime format.')
 
-    # specify place-entity value pattern
-    if not re.match(r'^(amp|aad)_place_id_\d+$', row[place_entity_index]):
-        raise ValueError(f'Error in line {row_num}: place-entity value must correspond to Baserow place-entity pattern.')
+    # specify place URI value pattern
+    if not re.match(r'^(https|http)://', row[place_uri_index]):
+        raise ValueError(f'Error in line {row_num}: place-URI value must correspond to URL pattern.')
 
     # specify title value restrictions
     if not (row[notBefore_index][:10] in row[title_index] and row[notAfter_index][:10] in row[title_index]):
@@ -135,12 +128,11 @@ for row in data:
     doc_id = row[doc_index]
     title = row[title_index]
     author = row[author_index]
-    entity = row[entity_index]
-    uri = row[uri_index]
+    author_uri = row[author_uri_index]
     notBefore = row[notBefore_index]
     notAfter = row[notAfter_index]
     place = row[place_index]
-    place_entity = row[place_entity_index]
+    place_uri = row[place_uri_index]
     repository = row[repo_index]
     repo_uri = row[repo_uri_index]
     collection = row[coll_index]
@@ -150,10 +142,11 @@ for row in data:
     if doc_id in doc_dict:
         if (doc_dict[doc_id][title_index] != title or
                 doc_dict[doc_id][author_index] != author or
+                doc_dict[doc_id][author_uri_index] != author_uri or
                 doc_dict[doc_id][notBefore_index] != notBefore or
                 doc_dict[doc_id][notAfter_index] != notAfter or
                 doc_dict[doc_id][place_index] != place or
-                doc_dict[doc_id][place_entity_index] != place_entity or
+                doc_dict[doc_id][place_uri_index] != place_uri or
                 doc_dict[doc_id][repo_index] != repository or
                 doc_dict[doc_id][repo_uri_index] != repo_uri or
                 doc_dict[doc_id][coll_index] != collection or
@@ -161,12 +154,5 @@ for row in data:
             raise ValueError(f'Inconsistent document values detected in line {row_num}.')
         else:
             doc_dict[doc_id] = row
-
-        if author in author_dict:
-            if (author_dict[author][entity_index] != entity or
-                    author_dict[author][uri_index] != uri):
-                raise ValueError(f'Inconsistent author values detected in line {row_num}.')
-        else:
-            author_dict[author] = row
 
     i += 1  # increment counter
