@@ -30,8 +30,7 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
             tei_title_s.text = 'Auden in Austria Digital (AAD)'
             tei_title_a = etree.SubElement(tei_titlestmt, 'title', level='a')
             tei_title_a.text = row['title']
-            author_entity_ref = f"#{row['entity']}"
-            tei_author = etree.SubElement(tei_titlestmt, 'author', ref=author_entity_ref)
+            tei_author = etree.SubElement(tei_titlestmt, 'author', ref=row['author-uri'])
             tei_author.text = row['author']
             tei_editor = etree.SubElement(tei_titlestmt, 'editor')
             tei_editor_tf = etree.SubElement(tei_editor, 'name', ref='https://orcid.org/0000-0002-3997-5193')
@@ -61,13 +60,13 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
             tei_interpgrp = etree.SubElement(tei_edition, 'interpGrp')
             tei_interp = etree.SubElement(tei_interpgrp, 'interp')
             tei_interpdesc = etree.SubElement(tei_interp, 'desc')
-            tei_interprespons = etree.SubElement(tei_interp, 'respons', locus='value', resp='tfruehwirth smayer')
+            tei_interprespons = etree.SubElement(tei_interp, 'respons', resp='#smayer #tfruehwirth', locus='value')
             tei_interpcertainty = etree.SubElement(tei_interp, 'certainty', locus='value')
             tei_respstmt1 = etree.SubElement(tei_editionstmt, 'respStmt')
             tei_resp1 = etree.SubElement(tei_respstmt1, 'resp')
             tei_resp1.text = 'Data model, transcription, TEI/XML markup, commentary'
-            tei_resp1_name1 = etree.SubElement(tei_respstmt1, 'name', sameAs='tfruehwirth')
-            tei_resp1_name2 = etree.SubElement(tei_respstmt1, 'name', sameAs='smayer')
+            tei_resp1_name1 = etree.SubElement(tei_respstmt1, 'name', sameAs='#tfruehwirth')
+            tei_resp1_name2 = etree.SubElement(tei_respstmt1, 'name', sameAs='#smayer')
             tei_respstmt2 = etree.SubElement(tei_editionstmt, 'respStmt')
             tei_resp2 = etree.SubElement(tei_respstmt2, 'resp')
             tei_resp2.text = 'ODD/RNG TEI/XML schema'
@@ -111,8 +110,7 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
             tei_origdate = etree.SubElement(tei_origin, 'origDate')
             tei_origdate.set('notBefore-iso', row['notBefore-iso'])
             tei_origdate.set('notAfter-iso', row['notAfter-iso'])
-            origplace_entity_ref = f"#{row['place-entity']}"
-            tei_origplace = etree.SubElement(tei_origin, 'origPlace', ref=origplace_entity_ref)
+            tei_origplace = etree.SubElement(tei_origin, 'origPlace', ref=row['place-uri'])
             tei_origplace.text = row['place']
             tei_xenodata = etree.SubElement(tei_header, 'xenoData')
             tei_rdf = etree.SubElement(tei_xenodata, '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF', nsmap={'rdf': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'})
