@@ -1,6 +1,3 @@
-> [!NOTE]
-> This repository is in development; all data are mock-up.
-
 # aad-data
 
 Repository for editorial data and data-creation workflows in the **Auden in Austria Digital** project.
