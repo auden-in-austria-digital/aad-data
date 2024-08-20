@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0001" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
   <teiHeader>
     <fileDesc>
@@ -115,9 +112,21 @@
         <language ident="en"/>
         <language ident="de"/>
       </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <orgName><rs type="org" ref="#amp_organization_70">Post office Kirchstetten</rs></orgName>
+          <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
+          <date notBefore-iso="1960-07-25T08:00:01+01:00" notAfter-iso="1969-07-25T18:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_107">Kurka, Hugo</persName>
+          <placeName><rs type="place" ref="#amp_place_id_356">Adalbert-Stifter-Straße 22</rs></placeName>
+        </correspAction>
+      </correspDesc>
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2024-08-19">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2024-08-20">Text transcribed; correspDesc populated; languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -140,19 +149,19 @@
         <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00001" ed="1r" type="envelope"/>
           <ab>
-            <lb/>Herrn
-            <lb/>Hugo Kurka
+            <lb/><rs type="person" ref="#amp_person_107">Herrn
+            <lb/>Hugo Kurka</rs>
             <address>
-              <lb/><rs>Wien XX
+              <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
               <lb/>Adalbert Stiftergasse
-              <lb/>22/28</rs>
+              <lb/><unclear>2</unclear>2/28</rs>
             </address>   
           </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00002" ed="1v" type="envelope"/>
           <ab>
-            <lb/>W. H. AUDEN
+            <lb/><rs type="person" ref="#amp_person_1">W. H. AUDEN</rs>
             <address>
-              <lb/><rs>KIRCHSTETTEN (WESTBAHN)
+              <lb/><rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN (WESTBAHN)
               <lb/>HINTERHOLZ 6
               <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
             </address>
@@ -164,33 +173,33 @@
             <opener>
               <dateline>
                 <persName>
-                  <lb/>W. H. AUDEN
+                  <lb/><rs type="person" ref="#amp_person_1">W. H. AUDEN</rs>
                 </persName>
                 <placeName>
                   <address>
-                    <lb/><rs>KIRCHSTETTEN (WESTBAHN)
+                    <lb/><rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN (WESTBAHN)
                     <lb/>HINTERHOLZ 6
                     <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
                   </address>
                 </placeName>
               </dateline>
               <salute>
-                <lb/>Lieber Hugo:
+                <lb/>Lieber <rs type="person" ref="#amp_person_107">Hugo</rs>:
               </salute>
             </opener>
             <p>
-              <lb/>Gäste , Gäste ,Gäste ,- und mein
-              <lb/>Erkältung !,
+              <lb/>Gäste , Gäste ,Gäste ,&#x2013; und mein
+              <lb/>Erkältung !<unclear>,</unclear>
             </p>
             <p>
-              <lb/>Will Dienstag um 19·15 kommen
+              <lb/><gap reason="illegible" unit="char" quantity="1"/> Will Dienstag um 19&#xB7;15 kommen
             </p>
             <closer>
               <salute>
                 <lb/>Dein Freund
               </salute>
               <signed>
-                <lb/>Wystan
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
               </signed>
             </closer>
           </div>
