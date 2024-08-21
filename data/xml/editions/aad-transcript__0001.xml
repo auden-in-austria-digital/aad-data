@@ -88,10 +88,10 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote xml:id="auden_hand_blue" scribeRef="#amp_person_1" medium="blue-ink">W. H. Auden's handwriting in blue ink</handNote>
+                  <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote xml:id="auden_print_black" scribeRef="#amp_person_1" medium="black-print">Preprinted writing in black authored by W. H. Auden</typeNote>
+                  <typeNote xml:id="print_black_auden" scribeRef="#amp_person_1" medium="print-black">Preprinted writing in black authored by W. H. Auden</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -154,7 +154,7 @@
       <div type="transcription" xml:id="transcription_aad_0001" xml:lang="de">
         <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00001" ed="1r" type="envelope"/>
-          <ab hand="#auden_hand_blue">
+          <ab hand="#hand_blue_auden">
             <lb/><rs type="person" ref="#amp_person_107">Herrn
             <lb/>Hugo Kurka</rs>
             <address>
@@ -164,7 +164,7 @@
             </address>   
           </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00002" ed="1v" type="envelope"/>
-          <ab hand="#auden_print_black">
+          <ab hand="#print_black_auden">
             <lb/><rs type="person" ref="#amp_person_1">W. H. AUDEN</rs>
             <address>
               <lb/><rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN (WESTBAHN)
@@ -175,8 +175,8 @@
         </div>
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00003" ed="2r" type="sheet"/>
-          <div type="letter_message" hand="#auden_hand_blue">
-            <opener hand="#auden_print_black">
+          <div type="letter_message" hand="#hand_blue_auden">
+            <opener hand="#print_black_auden">
               <dateline>
                 <persName>
                   <lb/><rs type="person" ref="#amp_person_1">W. H. AUDEN</rs>
@@ -189,7 +189,7 @@
                   </address>
                 </placeName>
               </dateline>
-              <salute hand="#auden_hand_blue">
+              <salute hand="#hand_blue_auden">
                 <lb/>Lieber <rs type="person" ref="#amp_person_107">Hugo</rs>:
               </salute>
             </opener>
@@ -198,7 +198,7 @@
               <lb/>Erkältung !<unclear>,</unclear>
             </p>
             <p>
-              <lb/><del rend="overstrike" hand="#auden_hand_blue"><gap reason="illegible" unit="char" quantity="1"/></del> Will Dienstag um 19&#xB7;15 kommen
+              <lb/><del rend="overstrike" hand="#hand_blue_auden"><gap reason="illegible" unit="char" quantity="1"/></del> Will Dienstag um 19&#xB7;15 kommen
             </p>
             <closer>
               <salute>
