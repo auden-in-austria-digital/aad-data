@@ -1,0 +1,741 @@
+/*  legalkraus metadaten  */
+@namespace oxy url('http://www.oxygenxml.com/extensions/author');
+
+/*  ID */
+TEI {
+    display: block;
+    margin-left:20px;
+    content: "@xml:id: " oxy_textfield( edit, "@xml:id", values, " ", color, "black", columns, 40) "\A" "@prev: " oxy_textfield( edit, "@prev", values, " ", color, "black", columns, 40) "\A" "@next: " oxy_textfield( edit, "@next", values, " ", color, "black", columns, 40);
+}
+
+TEI:before {
+    content:"ID";
+    display:block;
+    font-weight:bold;
+    margin-top:2em;
+    border-bottom:2px solid gray;
+    margin-bottom:1em;
+    font-family:sans-serif;
+    color:gray;
+}
+
+
+
+teiHeader {
+    display:block;
+}
+
+
+titleStmt {
+    display:block;
+}
+
+/* Titeldaten */
+titleStmt:before {
+    content:"Titel";
+    display:block;
+    font-weight:bold;
+    margin-top:2em;
+    border-bottom:2px solid gray;
+    margin-bottom:1em;
+    font-family:sans-serif;
+    color:gray;
+}
+
+/* Haupttitel */
+titleStmt title {
+    display:block;
+    font-size:xx-large;
+    
+}
+
+
+
+titleStmt title[type=sub]:before {
+    display:inline;
+    content:"Untertitel: ";
+    font-family:sans-serif;
+    font-size:small;
+    color:gray;
+    margin-right:3em;
+}
+
+
+/* Editor_in */
+
+titleStmt editor:before {
+    content:"Editor*in";
+    display:block;
+    font-weight:bold;
+    margin-top:2em;
+    border-bottom:2px solid gray;
+    font-family:sans-serif;
+    color:gray;; 
+
+}
+
+titleStmt editor:before {
+    display:block;
+    content:"\a" "Editor*in (ref): " oxy_combobox( edit, "@ref", editable, false, values, "#IL, #JK, #IB, #LU", labels, "#IL, #JK, #IB, #LU"); 
+
+}
+
+titleStmt editor:after {
+    display:block;
+    content: "\a Name (ausgeschrieben): " oxy_textfield( edit, "#text", values, " ", color, "black", columns, 30); 
+
+}
+
+/* Autor */
+
+titleStmt author:before {
+    content:"Autor*in";
+    display:block;
+    font-weight:bold;
+    margin-top:2em;
+    border-bottom:2px solid gray;
+    font-family:sans-serif;
+    color:gray;
+}
+
+
+titleStmt author:after {
+    /* content:oxy_button(actionID, 'wdr_meta_addAuthor', showIcon, false) " " oxy_button(actionID, 'wdr_meta_deleteCurrentElement', showIcon, true); */
+    display:block;
+}
+
+titleStmt author {
+    display:block;
+}
+
+titleStmt author name {
+    display:block;
+    font-size:large;
+}
+
+titleStmt author name forename {
+    display:block;
+}
+
+titleStmt author name forename:before {
+display:inline;
+    content:"Vorname:    ";
+    font-family:sans-serif;
+    font-size:small;
+    color:gray;
+    margin-right:3em;
+}
+
+titleStmt author name surname {
+    display:block;
+}
+
+titleStmt author name surname:before {
+    display:inline;
+    content:"Nachname: ";
+    font-family:sans-serif;
+    font-size:small;
+    color:gray;
+    margin-right:3em;
+}
+
+
+titleStmt author idno[type=ORCID]:after {
+    display:inline;
+    font-family:sans-serif;
+    font-size:small;
+    color:blue;
+    text-decoration:underline;
+    content:' [ansehen]';
+    link:oxy_xpath(" concat('https://orcid.org/', ./text()/string()) ");
+    margin-left:2em;
+}
+
+/* Publikationsmetadaten */
+
+publicationStmt {
+    display:block;
+}
+
+publicationStmt:before {
+    content:"Publikationsmetadaten";
+    display:block;
+    font-weight:bold;
+    margin-top:2em;
+    border-bottom:2px solid gray;
+    margin-bottom:1em;
+    font-family:sans-serif;
+    color:gray;
+}
+
+availability {
+    display:block;
+}
+
+publisher {
+    display:block;
+}
+
+
+publisher name {
+    display:block;
+    font-weight:bold;
+}
+
+publisher address {
+    display:block;
+}
+
+publicationStmt date {
+  display:block;
+}
+
+publicationStmt date:before {
+  display:inline;
+  content:"Erscheinungsjahr:";
+    font-family:sans-serif;
+    font-size:small;
+    color:gray;
+    margin-right:3em;
+}
+
+publicationStmt idno {
+    display:block;
+}
+
+
+publicationStmt idno {
+    display:block;
+}
+
+pubPlace:before {
+    display:inline;
+    content:"Erscheinungsort: ";
+    font-family:sans-serif;
+    font-size:small;
+    color:gray;
+    margin-right:3em;
+}
+
+licence:before {
+    display:inline;
+    content:"Lizenz: ";
+    font-family:sans-serif;
+    font-size:small;
+    color:gray;
+    margin-right:3em;
+}
+
+
+publicationStmt idno[subtype=legalkraus]:before {
+    display:inline;
+  content:"legalkraus-URI: ";
+    font-family:sans-serif;
+    font-size:small;
+    color:gray;
+    margin-right:3em;
+}
+
+publicationStmt idno[subtype=krausonline]:before {
+    display:inline;
+  content:"Kraus-Online: ";
+    font-family:sans-serif;
+    font-size:small;
+    color:gray;
+    margin-right:3em;
+}
+
+publicationStmt idno[subtype=transkribus]:before {
+    display:inline;
+  content:"Transkribus-ID: ";
+    font-family:sans-serif;
+    font-size:small;
+    color:gray;
+    margin-right:3em;
+}
+
+
+/* profileDesc */
+profileDesc {
+    display:block;
+}
+
+
+profileDesc:after {
+    display:block;
+    content:"zusätzliche Metadatenblöcke anlegen: ";
+    -oxy-append-content: "\A" oxy_button(actionID, 'add_handNotes', showIcon, true);
+    margin-top:2em;
+    margin-bottom:1em;
+    font-family:sans-serif;
+    color:gray;
+}
+
+
+
+/* Sprache */
+profileDesc langUsage {
+    display:block;
+}
+
+profileDesc langUsage:before {
+   content:"Sprache";
+    display:block;
+    font-weight:bold;
+    margin-top:2em;
+    border-bottom:2px solid gray;
+    margin-bottom:1em;
+    font-family:sans-serif;
+    color:gray;
+}
+
+
+
+profileDesc langUsage language {
+    display:inline;
+    content:oxy_combobox( edit, "@ident", editable, false, values, ",de, en", labels, "Sprache wählen, Deutsch, Englisch")
+}
+
+/* Keywords */
+textClass {
+    display:block;
+}
+
+textClass:before {
+    content:"Keywords";
+    display:block;
+    font-weight:bold;
+    margin-top:2em;
+    border-bottom:2px solid gray;
+    margin-bottom:1em;
+    font-family:sans-serif;
+    color:gray;
+}
+
+keywords term {
+    display:inline-block;
+    padding:5px;
+    font-weight:bold;
+    font-style:normal;
+    color:white;
+    background-color:blue;
+    margin-right:10px;
+}
+
+keywords term:after {
+    display:inline;
+    content:  " " oxy_button(actionID, 'deleteCurrentElement', showIcon, true);
+
+}
+
+keywords:after {
+    display:block;
+    content:oxy_button(actionID, 'wdr_meta_addKeyword', showIcon, false); 
+}
+
+particDesc:before {
+    content:"Beteiligte";
+    display:block;
+    font-weight:bold;
+    margin-top:2em;
+    border-bottom:2px solid gray;
+    margin-bottom:1em;
+    font-family:sans-serif;
+    color:gray;
+}
+
+particDesc person:before {
+    content:"Beteiligte Person: " oxy_textfield( edit, "@ref", values, " ", color, "black", columns, 25) oxy_button(actionID, 'deleteCurrentElement', showIcon, true);
+    display:block;
+    color:green;
+}
+
+particDesc org:before {
+    content:"Beteiligte Institution: " oxy_textfield( edit, "@ref", values, " ", color, "black", columns, 25) oxy_button(actionID, 'deleteCurrentElement', showIcon, true);
+    display:block;
+    color:blue;
+}
+
+handNotes:before {
+    content:"Schreiberhände";
+    display:block;
+    font-weight:bold;
+    margin-top:2em;
+    border-bottom:2px solid gray;
+    margin-bottom:1em;
+    font-family:sans-serif;
+    color:gray;
+}
+
+
+/* alte revisionDesc 
+revisionDesc {
+    display:block;
+}
+
+revisionDesc:before {
+    content:"Bearbeitungshistorie";
+    display:block;
+    font-weight:bold;
+    margin-top:2em;
+    border-bottom:2px solid gray;
+    margin-bottom:1em;
+    font-family:sans-serif;
+    color:gray;
+}
+
+revisionDesc listChange {
+    display:block;
+}
+
+revisionDesc listChange:before {
+    display:block; 
+    content:oxy_button(actionID, 'wdr_meta_addchange', showIcon, false);
+    margin-bottom:2em;
+}
+
+
+revisionDesc listChange change {
+    display:list-item;
+    margin-left:3em;
+    content: oxy_combobox( edit, "#text", editable, false, values, ",Converted from a Word Document, Final Corrections", labels, "Schritt wählen, Konvertierung aus Word, Endkorrektur") " " oxy_datePicker(columns, 16, edit, "@when", format, "yyyy-MM-dd");
+    
+
+
+revisionDesc listChange change:after {
+    display:inline;
+    margin-left:3em;
+    content: oxy_button(actionID, 'wdr_meta_deleteCurrentElement', showIcon, true);
+    
+}
+}
+*/
+
+/* sourceDesc */
+
+sourceDesc:before {
+    content:"Angaben zur Quelle";
+    display:block;
+    font-weight:bold;
+    margin-top:2em;
+    border-bottom:2px solid gray;
+    margin-bottom:1em;
+    font-family:sans-serif;
+    color:gray;
+}
+
+sourceDesc > p {
+    display:block;
+    content: oxy_button(actionID, 'legalkraus_sourceDesc-p_to_listWit', showIcon, false);
+}
+
+
+sourceDesc {
+    display:block;
+}
+
+
+witness {
+    display:block;
+    content: oxy_textfield( edit, "@xml:id", values, " ", color, "black", columns, 25)  " Faksimile " oxy_combobox( edit, "@facs", editable, false, values, oxy_xpath("concat('none,','#',string-join(./ancestor::TEI//facsimile/@xml:id/string(),',#'))"), labels, oxy_xpath("concat('none,','#',string-join(./ancestor::TEI//facsimile/@xml:id/string(),',#'))")) ;
+    margin-bottom:2em;
+}
+
+witness:before {
+    display:inline;
+    content:"Textzeuge " oxy_xpath(" count(./preceding::witness) + 1 ") ": ";
+    font-family:sans-serif;
+    font-size:small;
+    color:gray;
+    margin-right:3em;
+}
+
+/* Stempel */
+
+msDesc ab stamp{
+    display:block;
+    content: "Stempel (ref)" oxy_textfield( edit, "@ref", values, " ", color, "black", columns, 25);
+
+}
+
+/* Datierung <creation> */
+
+creation:before {
+    content:"Datierung";
+    display:block;
+    font-weight:bold;
+    margin-top:2em;
+    border-bottom:2px solid gray;
+    margin-bottom:1em;
+    font-family:sans-serif;
+    color:gray;
+}
+
+/*  
+creation date[type=sortDate]:before {
+    display:inline;
+    content:"Sortierdatum: ";
+    font-family:sans-serif;
+    font-size:small;
+    color:gray;
+    margin-right:3em;
+}
+
+creation date[type=sortDate] {
+    display:block;
+    content: oxy_datePicker(columns, 16, edit, "@when-iso", format, "yyyy-MM-dd");
+    
+    
+}
+*/
+
+creation:before {
+    display:block;
+    content:"\a creation-date mit when-iso einfügen" oxy_button(actionID, 'legalkraus_when-iso_creation', showIcon, false);
+}
+
+creation:after {
+    display:block;
+    content:"\a creation-date mit notBefore & notAfter-iso einfügen" oxy_button(actionID, 'legalkraus_notBefore-iso_notAfter-iso_creation', showIcon, false);
+}
+
+creation date[when-iso] {
+    display:block;
+    content:"\a when-iso:" oxy_datePicker(columns, 16, edit, "@when-iso", format, "yyyy-MM-dd");
+
+}
+
+creation date[when-iso]:after {
+    display:block;
+    content:"\a when-iso ausgeschrieben:" oxy_textfield( edit, "#text", values, " ", color, "black", columns, 30);
+}
+
+creation date[notBefore-iso] {
+    display:block;
+    content:"\a notBefore-iso:" oxy_datePicker(columns, 16, edit, "@notBefore-iso", format, "yyyy-MM-dd");
+
+}
+
+creation date[notBefore-iso]:after {
+    display:block;
+    content:"\a Before-iso ausgeschrieben:" oxy_textfield( edit, "#text", values, " ", color, "black", columns, 30);
+}
+
+creation date[notAfter-iso] {
+    display:block;
+    content:"\a notAfter-iso:" oxy_datePicker(columns, 16, edit, "@notAfter-iso", format, "yyyy-MM-dd");
+}
+
+creation date[notAfter-iso]:after {
+    display:block;
+    content:"\a notAfter-iso ausgeschrieben:" oxy_textfield( edit, "#text", values, " ", color, "black", columns, 30);
+}
+
+creation date[subtype]:before {
+    display:block;
+    content:"\a Klassifizierung des Datums:" oxy_combobox( edit, "@subtype", editable, false, values, "produced, received", labels, "produced, received"); 
+}
+
+creation date[source=krausonline]:before {
+    display:inline;
+    content:"Kraus-online: ";
+    font-family:sans-serif;
+    font-size:small;
+    color:gray;
+    margin-right:3em;
+}
+
+creation date[source=krausonline] {
+    display:block;
+    
+}
+
+/* correspDesc */
+
+correspDesc:before {
+    content:"Metadaten zur Korrespondenz";
+    display:block;
+    font-weight:bold;
+    margin-top:2em;
+    border-bottom:2px solid gray;
+    margin-bottom:1em;
+    font-family:sans-serif;
+    color:gray;
+}
+
+/* Absender*in */
+
+correspDesc correspAction[type=sent] {
+    border: 2px solid #008B8B;
+}
+
+correspDesc correspAction[type=sent]:before {
+    content:"ABSENDER*IN:";
+}
+
+correspDesc correspAction[type=sent] rs[type=person] {
+    display: block;
+    content:"automatisch eingefügt: " oxy_textfield( edit, "@ref", values, " ", color, "black", columns, 30);
+}
+
+correspAction[type=sent] persName:before {
+    content: "Absender*in (Text):" oxy_textfield( edit, "#text", values, " ", color, "black", columns, 30);
+    display:block;
+}
+
+correspAction[type=sent] persName:after {
+    content: "Absender*in (ref):" oxy_textfield( edit, "@ref", values, " ", color, "black", columns, 30);
+    display:block;
+}
+
+correspAction[type=sent] orgName:before {
+    content: "Absender*in (Text):" oxy_textfield( edit, "#text", values, " ", color, "black", columns, 30);
+    display:block;
+}
+
+correspAction[type=sent] orgName:after {
+    content: "Absender*in (ref):" oxy_textfield( edit, "@ref", values, " ", color, "black", columns, 30);
+    display:block;
+}
+
+correspAction[type=sent] roleName:before {
+    content: "Rolle (Vocab, Text):" oxy_textfield( edit, "#text", values, " ", color, "black", columns, 30);
+    display:block;
+} 
+
+correspAction[type=sent] roleName:after {
+    content: "Rolle (Vocab, ref):" oxy_textfield( edit, "@ref", values, " ", color, "black", columns, 30);
+    display:block;
+} 
+
+correspAction[type=sent] address rs:after {
+    content:"Adresse" oxy_textfield( edit, "#text", values, " ", color, "black", columns, 30);
+    display:block;
+}
+
+correspAction[type=sent] placeName:before {
+    content:"Ort (Text)" oxy_textfield( edit, "#text", values, " ", color, "black", columns, 30);
+    display:block;
+}
+
+correspAction[type=sent] placeName:after {
+    content:"Ort (ref)" oxy_textfield( edit, "@ref", values, " ", color, "black", columns, 30);
+    display:block;
+}
+
+correspAction[type=sent] date {
+    content:"\a when-iso:" oxy_datePicker(columns, 16, edit, "@when-iso", format, "yyyy-MM-dd");
+    display:block;
+}
+correspAction[type=sent] date:before {
+    content:"Datum (Text, nicht normalisiert)" oxy_textfield( edit, "#text", values, " ", color, "black", columns, 30);
+    display:block;
+}
+
+correspAction[type=sent] date:after {
+    content:
+        oxy_concat("when-iso aus creation: ",
+            oxy_xpath('string(//creation/date/@when-iso)'));
+}
+
+/* Empfänger*in */
+
+correspDesc correspAction[type=received] {
+    border: 2px solid #ADFF2F;
+}
+
+correspDesc correspAction[type=received]:before {
+    content:"EMPFÄNGER*IN";
+    display:block;
+}
+
+correspDesc correspAction[type=received] rs[type=person] {
+    display: block;
+    content:"automatisch eingefügt: " oxy_textfield( edit, "@ref", values, " ", color, "black", columns, 30);
+}
+
+correspAction[type=received] persName:before {
+    content: "Empfänger*in (Text):" oxy_textfield( edit, "#text", values, " ", color, "black", columns, 30);
+    display:block;
+}
+
+correspAction[type=received] persName:after {
+    content: "Empfänger*in (ref):" oxy_textfield( edit, "@ref", values, " ", color, "black", columns, 30);
+    display:block;
+}
+
+correspAction[type=received] orgName:before {
+    content: "Empfänger*in (Text):" oxy_textfield( edit, "#text", values, " ", color, "black", columns, 30);
+    display:block;
+}
+
+correspAction[type=received] orgName:after {
+    content: "Empfänger*in (ref):" oxy_textfield( edit, "@ref", values, " ", color, "black", columns, 30);
+    display:block;
+}
+
+correspAction[type=received] roleName:before {
+    content: "Rolle (Vocab, Text):" oxy_textfield( edit, "#text", values, " ", color, "black", columns, 30);
+    display:block;
+} 
+
+correspAction[type=received] roleName:after {
+    content: "Rolle (Vocab, ref):" oxy_textfield( edit, "@ref", values, " ", color, "black", columns, 30);
+    display:block;
+} 
+
+correspAction[type=received] address rs:after {
+    content:"Adresse" oxy_textfield( edit, "#text", values, " ", color, "black", columns, 30);
+    display:block;
+}
+
+correspAction[type=received] placeName:before {
+    content:"Ort (Text)" oxy_textfield( edit, "#text", values, " ", color, "black", columns, 30);
+    display:block;
+}
+
+correspAction[type=received] placeName:after {
+    content:"Ort (ref)" oxy_textfield( edit, "@ref", values, " ", color, "black", columns, 30);
+    display:block;
+}
+
+correspAction[type=received] date:before {
+    content:"Datum (Text, nicht normalisiert)" oxy_textfield( edit, "#text", values, " ", color, "black", columns, 30);
+    display:block;
+}
+
+correspAction[type=received] date {
+    content:"\a when-iso:" oxy_datePicker(columns, 16, edit, "@when-iso", format, "yyyy-MM-dd");
+    display:block;
+}
+
+correspAction[type=received] date:after {
+    content:
+        oxy_concat("when-iso aus creation: ",
+            oxy_xpath('string(//creation/date/@when-iso)'));
+}
+
+/* Betreff, Diktatsigle, Anlage */
+
+correspDesc noteGrp note[type=subject]:after {
+    content:"Betreff" oxy_textfield( edit, "#text", values, " ", color, "black", columns, 30);
+}
+
+correspDesc noteGrp note[type=dictation]:after {
+    content:"Diktatsigle" oxy_textfield( edit, "#text", values, " ", color, "black", columns, 30);
+}
+
+correspDesc noteGrp note[type=appendix]:after {
+    content:"Anlage(n)" oxy_textfield( edit, "#text", values, " ", color, "black", columns, 30);
+}
+
+/* Faksimile */
+
+facsimile, text {
+    display:none;
+}
+
+/* XML-Kommentare */
+oxy|comment {
+    display:none !important;
+}

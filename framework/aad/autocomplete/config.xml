@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://humanistika.org/ns/tei-completer">
+    <server>
+        <baseUrl></baseUrl>
+    </server>
+    <autoComplete>
+        <context>//rs</context>
+        <attribute>@ref</attribute>
+        <dependent default="person">@type</dependent>
+        <selection>@n</selection>
+        <request>
+            <url>$baseUrl/$dependent?q=$selection</url>
+        </request>
+    </autoComplete>
+</config>

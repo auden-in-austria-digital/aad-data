@@ -1,0 +1,199 @@
+/*  @import "css-tei-framework/tei_oxygen.css"; */
+@namespace oxy url('http://www.oxygenxml.com/extensions/author');
+@namespace tei url('http://www.tei-c.org/ns/1.0');
+
+/* Faksimile-Ansicht */
+
+
+teiHeader {
+    display:block;
+}
+
+titleStmt title {
+    display:block;
+    font-weight:bold;
+    font-size:x-large;
+    margin-bottom:20px;
+}
+
+respStmt, sourceDesc, profileDesc, revisionDesc {
+    display:none;
+}
+
+publisher, pubPlace, licence {
+    display:none;
+}
+
+publicationStmt date {
+    display:none;
+}
+
+availability {
+    display:none;
+}
+
+
+publicationStmt idno {
+    display:block;
+}
+
+publicationStmt idno[subtype='legalkraus']:after {
+    display:inline-block;
+    content:' [ansehen]'; 
+    link:oxy_xpath("concat('https://legalkraus.acdh-dev.oeaw.ac.at/manage.html?id=',substring-after(./text(),'https://legalkraus.acdh.oeaw.ac.at/id/'))");
+}
+
+publicationStmt idno[subtype='krausonline']:after {
+    display:inline-block;
+    content:' [ansehen]'; 
+    link:oxy_xpath("./text()");
+}
+
+publicationStmt idno[subtype='transkribus'] {
+    display:none;
+}
+
+text {
+    display:none;
+}
+
+/* Facsimile */
+
+facsimile {
+    display:block;
+    border: 2px solid black;
+    margin-top:3em;
+    margin:20px;
+}
+
+
+facsimile:before {
+    display:inline;
+    /* content:oxy_xpath(" concat('Faksimile ', string(count(preceding-sibling::facsimile)+1), ': ' , @xml:id) ") " " oxy_button(actionID, legalkraus_generateFacsimileID, showText, true); */
+    content:oxy_xpath(" concat('Faksimile ', string(count(preceding-sibling::facsimile)+1), ': ' , @xml:id) ");
+    /* content:oxy_xpath(" string(count(preceding-sibling::facsimile)+1) "); */
+    padding-top:1em;
+    padding-bottom:2em;
+    padding-left:1em;
+    font-weight:bold;
+    font-size:large;
+}
+
+
+/* Blatt */
+
+surfaceGrp {
+    display:block;
+    border: 2px solid black;
+    background-color:silver;
+    margin:20px;
+}
+
+surfaceGrp:before {
+    display:inline;
+    content:oxy_xpath(" concat('Blatt ', string(count(preceding-sibling::facsimile)+1), ': ' , @xml:id) ");
+    padding-top:1em;
+    padding-bottom:2em;
+    padding-left:1em;
+    font-weight:bold;
+    font-size:large;
+    
+}
+
+/*  Seite */
+
+surface {
+    display: inline;
+    margin:20px;
+}
+
+
+surface:after {
+    display:block;
+    padding-left:20px;
+    /* combo box */
+    /* content: "Bearbeiten:\a Vorder-/Rückseite: " oxy_combobox( edit, "@type", editable, false, values, "recto, verso", labels, "Vorderseite, Rückseite") "\a" "Transkription: " oxy_combobox( edit, "@start", editable, false, values, oxy_xpath( "concat('#', string-join(.//ancestor::tei:TEI//tei:body//tei:pb/@xml:id/string(),',#')) " ), labels, oxy_xpath( "concat('#', string-join(.//ancestor::tei:TEI//tei:body//tei:pb/@xml:id/string(),',#')) " )); */
+    content: "Bearbeiten:\a Vorder-/Rückseite: " oxy_combobox( edit, "@type", editable, false, values, "recto, verso", labels, "Vorderseite, Rückseite") "\a" "Transkription: " oxy_combobox( edit, "@start", editable, false, values, oxy_xpath( "concat('#', string-join(.//ancestor::tei:TEI//tei:body//tei:pb/@xml:id,',#')) " ), labels, oxy_xpath( "concat('', string-join(.//ancestor::tei:TEI//tei:body//tei:pb/@xml:id,',#')) " ));
+    
+    
+}
+
+
+
+
+/*  recto */
+
+surface[type=recto] {
+   border: 1px solid black;
+   background-color:#E0FFFF;
+}
+
+surface[type=recto]:before { 
+    display:block;
+    content:oxy_xpath(" concat('Vorderseite (recto): ', @xml:id) ");
+    font-weight:bold;
+    padding-top:1em;
+    padding-bottom:2em;
+    padding-left:1em;
+}
+
+/* verso */
+
+surface[type=verso] {
+   border: 1px solid black;
+   background-color:#FFF0F5;
+}
+
+surface[type=verso]:before { 
+    display:block;
+    content:oxy_xpath(" concat('Rückseite (verso): ', @xml:id) ");
+    font-weight:bold;
+    padding-top:1em;
+    padding-bottom:2em;
+    padding-left:1em;
+}
+
+
+
+graphic[source='wienbibliothek']{
+    content: attr(url, url);
+    height:50%;
+}
+
+graphic[source='scans'] {
+    display:none;
+}
+
+graphic[source='krausonline'] {
+    display:none;
+}
+
+/* Page beginnings und facs-Attribute */
+text {
+    display:block;
+}
+
+lb {
+    display:none;
+}
+
+p {
+    display:none;
+}
+
+pb:before {
+    content:"@facs von <pb>";
+    display:block;
+    font-weight:bold;
+    margin-top:2em;
+    border-bottom:2px solid gray;
+    margin-bottom:1em;
+    font-family:sans-serif;
+    color:gray;
+}
+
+pb {
+    display:inline;
+    content: " Faksimile der Seite " oxy_combobox( edit, "@facs", editable, false, values, oxy_xpath("concat('none,','#',string-join(./ancestor::TEI//surface/@xml:id/string(),',#'))"), labels, oxy_xpath("concat('none,','#',string-join(./ancestor::TEI//surface/@xml:id/string(),',#'))")) ;
+
+}

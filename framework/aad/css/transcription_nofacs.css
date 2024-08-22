@@ -1,0 +1,270 @@
+/*  @import "css-tei-framework/tei_oxygen.css"; */
+
+/* Transkriptionsansicht */
+
+teiHeader {
+    display:block;
+    background-color: azure;
+    padding: 0 20%;
+}
+
+titleStmt title {
+    display:block;
+    font-weight:bold;
+    font-size:x-large;
+    margin-bottom:20px;
+}
+
+sourceDesc {
+    display:block;
+}
+
+listWit witness {
+    display: block;
+}
+
+respStmt, profileDesc, revisionDesc, seriesStmt, sourceDesc listBibl, msDesc, editor, author, funder, editionStmt {
+    display:none;
+}
+
+publisher, pubPlace, licence {
+    display:none;
+}
+
+publicationStmt {
+    display:none;
+}
+
+availability {
+    display:none;
+}
+
+
+publicationStmt {
+    display:none;
+}
+
+/* publicationStmt idno[subtype='legalkraus']:after {
+    display:inline-block;
+    content:' [ansehen]'; 
+    link:oxy_xpath("concat('https://legalkraus.acdh-dev.oeaw.ac.at/manage.html?id=',substring-after(./text(),'https://legalkraus.acdh.oeaw.ac.at/id/'))");
+}
+
+publicationStmt idno[subtype='krausonline']:after {
+    display:inline-block;
+    content:' [ansehen]'; 
+    link:oxy_xpath("./text()");
+} */
+
+/* publicationStmt idno[subtype='transkribus'] {
+    display:none;
+} */
+
+text {
+    display:block;
+    padding: 0 20%;
+}
+
+facsimile {
+    display:none;
+}
+
+
+/* Facsimiles */
+graphic[source='wienbibliothek']{
+    content: attr(url, url);
+}
+
+graphic[source='scans'] {
+    display:none;
+}
+
+graphic[source='krausonline'] {
+    display:none;
+}
+
+
+/*  Transkription */
+
+lb {
+    display: none;
+}
+
+pb {
+   display: none;
+}
+
+/* lb {
+    content: "\A";
+} */
+
+
+/* lb:after {
+    display:inline-block;
+    content:oxy_xpath("count(./preceding::lb)+1");
+    font-size:xx-small;
+    padding-right:30px;
+    color:gray;
+}
+
+lb[break='no']:before {
+    display:inline-block;
+    content:"-";
+    background-color:orange;
+} */
+
+/* pb {
+    display:block;
+    content:oxy_xpath("concat('[Seite ',./@n,']')");
+    color:gray;
+    margin-top:16px;
+    margin-bottom:12px;
+    
+} */
+
+fw[type="pageNum"] {
+    display: block;
+    margin-bottom:0;
+    text-align: right;
+    position: absolute;
+    margin-right: -15em;
+}
+
+p {
+    display:block;
+    margin-top:4em;
+    margin-bottom:4em;
+    text-align: justify;
+}
+
+p[rend="title"] {
+    font-size: 22px;
+    font-family: bold;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+p[rend="h1"] {
+    font-size: 18px;
+    font-family: bold;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+app {
+    display:inline;
+    background-color: beige;
+}
+
+lem {
+    background-color: burlywood;
+}
+
+app rdg:nth-child(3) {
+    background-color: #FFFACD;
+}
+
+app rdg:nth-child(2) {
+    background-color: #A8FBF6;
+}
+
+app rdg:nth-child(4) {
+    background-color: #BBFBA8;
+}
+
+app rdg:nth-child(5) {
+    background-color: lightyellow;
+}
+
+rs[type='person'] {
+    background-color: #BBFBA8;
+}
+
+
+rs[type='institution'] {
+  background-color:#FFFACD;      
+}
+
+rs[type='place'] {
+    background-color: #FBE1A8;
+}
+
+
+rs[type='label'] {
+    background-color:#D8BFD8;
+}
+
+rs[type='profession'] {
+   background-color:#FFDAB9; 
+}
+
+rs[type='keyword'] {
+    background-color: #A8FBF6;
+}
+
+rs[type='dream'] {
+    background-color: #f48c8c;
+}
+
+rs[type='bibl'] {
+    background-color:none; 
+}
+
+hi[rendition="#smallcaps"] {
+    letter-spacing: 3pt;
+}
+
+hi[rendition="uppercase"] {
+    text-transform: uppercase;
+}
+
+hi[rendition='#spaced'] {
+    letter-spacing: 3pt;
+}
+
+hi[rendition='spaced'] {
+    letter-spacing: 3pt;
+}
+
+hi[rendition='#em'] {
+    font-style: italic;
+}
+
+hi[rendition='italic'] {
+    font-style: italic;
+}
+
+hi[rendition='#bold'] {
+    font-weight: bold;
+}
+
+hi[rendition='bold'] {
+    font-weight: bold;
+}
+
+hi[rendition='#underlined'] {
+    text-decoration: underline;
+}
+
+hi[rendition='underlined'] {
+    text-decoration: underline;
+}
+
+note {
+    padding: .5em;
+    background-color: #f1f1f1;    
+    display: inline-block;
+}
+
+term {
+    background-color: #f6efb4;
+}
+
+note[type="footnote-index"] {
+    vertical-align: sub;
+    font-size: smaller;
+}
+
+note[type="inlinequote"] {
+    font-style: italic;
+}
