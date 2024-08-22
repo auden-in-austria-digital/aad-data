@@ -76,6 +76,14 @@
                         <width>162</width>
                         <height>114</height>
                       </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00007">
+                        <width>210</width>
+                        <height>293</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00008">
+                        <width>210</width>
+                        <height>293</height>
+                      </dimensions>
                     </support>
                   </supportDesc>
                 </objectDesc>
@@ -121,6 +129,12 @@
     <surface ulx="0" uly="0" lrx="2808" lry="2050">
       <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00006"/>
     </surface>
+    <surface ulx="0" uly="0" lrx="3550" lry="4850">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00007"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3530" lry="4852">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00008"/>
+    </surface>
   </facsimile>
   <text>
     <body>
@@ -128,6 +142,8 @@
         <div/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00005" ed="1r" type="envelope"/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00006" ed="1v" type="envelope"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00007" ed="2r" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00008" ed="2v" type="sheet"/>
       </div>
     </body>
   </text>
