@@ -1,0 +1,38 @@
+@import "css-tei-framework/tei_oxygen.css";
+
+/*  Adaptions for Boehmn-Edition  */
+
+lb {
+   content:"↲";
+   font-size:x-small;
+   display:inline;
+   color:gray;
+}
+
+lb::after {
+    content:"\A";
+}
+
+lb[break=no]:before {
+    content:"-";
+    background-color:yellow;
+}
+
+head head {
+    background-color:orange;
+}
+
+note[rend=italic] {
+    font-style:italic;
+}
+
+p[part=Y]:after {
+    display:inline;
+    content: "[Unterbrochener Absatz]";
+    color:blue;
+    font-size:xx-small;
+}
+
+fw[type=pageNum] {
+    background-color:green;
+}

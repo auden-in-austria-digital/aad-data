@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI
+  xmlns="http://www.tei-c.org/ns/1.0"
+  xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+  xmlns:rng="http://relaxng.org/ns/structure/1.0">
+
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ODD Auden Musulin Papers 3/3 - AMP Indexes</title>
+        <author xml:id="DE" role="main" ref="https://orcid.org/0000-0002-0636-4476">Daniel Elsner</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>
+          <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+            Austrian Academy of Sciences</name>
+          <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+        </publisher>
+        <pubPlace>Vienna, Austria</pubPlace>
+        <date when="2024">2024</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.en">
+            Creative Commons Namensnennung 4.0 International Lizenz
+          </licence>
+        </availability>
+        <ref type="URL"
+          target="https://github.com/Auden-Musulin-Papers/amp-data/framework/auden-musulin/schema/am-index.odd"
+          >https://github.com/Auden-Musulin-Papers/amp-data/framework/auden-musulin/schema/am-index.odd</ref>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Born digital.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+<!-- Text der ODD -->
+
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">ODD Auden Musulin Papers 133 - AMP Indexes</titlePart>
+        </docTitle>
+        <docAuthor ref="https://orcid.org/0000-0002-0636-4476">Daniel Elsner</docAuthor>
+      </titlePage>
+    </front>
+    <body>
+            
+<!-- SCHEMA -->
+      
+      <div>
+        
+        <head>TEI-Modifikation for AMP-DATA Correspondence</head>
+        
+        <schemaSpec ident="amp" start="TEI" xml:lang="en" prefix="tei_">
+          <moduleRef source="tei:4.8.0" key="header" include="seriesStmt listPrefixDef prefixDef creation langUsage language teiHeader fileDesc titleStmt editionStmt extent publicationStmt sourceDesc profileDesc encodingDesc revisionDesc change notesStmt edition funder availability licence idno"/>
+          <moduleRef source="tei:4.8.0" key="core" include="label desc author editor title p respStmt resp noteGrp note biblStruct listBibl bibl series date pubPlace publisher ref address street postCode name"/>
+          <moduleRef source="tei:4.8.0" key="msdescription" include="stamp institution msDesc msIdentifier repository collection history origin origDate origPlace"/>
+          <moduleRef source="tei:4.8.0" key="namesdates" include="country settlement listEvent event eventName listOrg org listPerson person birth death listPlace place forename surname geo location orgName persName placeName"/>
+          <moduleRef source="tei:4.8.0" key="tei"/>
+          <moduleRef source="tei:4.8.0" key="textstructure" include="TEI text body div"/>
+          <moduleRef source="tei:4.8.0" key="dictionaries" include="lang"/>         
+        </schemaSpec>
+        
+      </div>
+        
+    </body>
+      
+  </text>
+    
+</TEI>

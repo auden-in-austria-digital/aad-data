@@ -1,0 +1,114 @@
+/*  @import "css-tei-framework/tei_oxygen.css"; */
+@namespace oxy url('http://www.oxygenxml.com/extensions/author');
+@namespace tei url('http://www.tei-c.org/ns/1.0');
+
+/* Faksimile-Ansicht */
+
+
+teiHeader {
+    display:block;
+}
+
+titleStmt title {
+    display:block;
+    font-weight:bold;
+    font-size:x-large;
+    margin-bottom:20px;
+}
+
+respStmt, sourceDesc, profileDesc, revisionDesc {
+    display:none;
+}
+
+publisher, pubPlace, licence {
+    display:none;
+}
+
+publicationStmt date {
+    display:none;
+}
+
+availability {
+    display:none;
+}
+
+
+publicationStmt idno {
+    display:block;
+}
+
+publicationStmt idno[subtype='legalkraus']:after {
+    display:inline-block;
+    content:' [ansehen]'; 
+    link:oxy_xpath("concat('https://legalkraus.acdh-dev.oeaw.ac.at/manage.html?id=',substring-after(./text(),'https://legalkraus.acdh.oeaw.ac.at/id/'))");
+}
+
+publicationStmt idno[subtype='krausonline']:after {
+    display:inline-block;
+    content:' [ansehen]'; 
+    link:oxy_xpath("./text()");
+}
+
+publicationStmt idno[subtype='transkribus'] {
+    display:none;
+}
+
+text {
+    display:none;
+}
+
+/* Facsimile */
+
+facsimile {
+    display:block;
+    margin-top:3em;
+    margin:20px;
+}
+
+
+
+/* Blatt */
+
+surfaceGrp {
+    display:inline-block;
+    border: 2px solid green;
+    background-color:#8FBC8F;
+    margin:20px;
+}
+
+
+/*  Seite */
+
+facsimile > surface {
+    display: inline-block;
+    content: url(oxy_xpath(" ./tei:graphic[@source eq 'wienbibliothek']/@url/string() "));
+    width:20%;
+    padding:20px;
+    background-color:red;
+    margin:5px;
+}
+
+surfaceGrp > surface {
+    display: inline-block;
+    content: url(oxy_xpath(" ./tei:graphic[@source eq 'wienbibliothek']/@url/string() "));
+    width:20%;
+    padding:20px;
+    background-color:#8FBC8F;
+    margin:5px;
+} 
+
+
+
+graphic[source='wienbibliothek']{
+    display:none;
+}
+
+graphic[source='scans'] {
+    display:none;
+}
+
+graphic[source='krausonline'] {
+    display:none;
+}
+
+

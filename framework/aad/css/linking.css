@@ -1,0 +1,219 @@
+
+
+/* Verlinkungs-Ansicht */
+
+
+teiHeader {
+    display:block;
+}
+
+titleStmt title {
+    display:block;
+    font-weight:bold;
+    font-size:x-large;
+    margin-bottom:20px;
+}
+
+respStmt, sourceDesc, profileDesc, revisionDesc {
+    display:none;
+}
+
+publisher, pubPlace, licence {
+    display:none;
+}
+
+publicationStmt date {
+    display:none;
+}
+
+availability {
+    display:none;
+}
+
+
+publicationStmt idno {
+    display:block;
+}
+
+publicationStmt idno[subtype='legalkraus']:after {
+    display:inline-block;
+    content:' [ansehen]'; 
+    link:oxy_xpath("concat('https://legalkraus.acdh-dev.oeaw.ac.at/manage.html?id=',substring-after(./text(),'https://legalkraus.acdh.oeaw.ac.at/id/'))");
+}
+
+publicationStmt idno[subtype='krausonline']:after {
+    display:inline-block;
+    content:' [ansehen]'; 
+    link:oxy_xpath("./text()");
+}
+
+publicationStmt idno[subtype='transkribus'] {
+    display:none;
+}
+
+text {
+    display:block;
+}
+
+facsimile {
+    display:none;
+}
+
+
+/* Facsimiles */
+graphic[source='wienbibliothek']{
+    content: attr(url, url);
+}
+
+graphic[source='scans'] {
+    display:none;
+}
+
+graphic[source='krausonline'] {
+    display:none;
+}
+
+
+/*  Transkription */
+
+lb {
+    content: "\A";
+}
+
+
+lb:after {
+    display:inline-block;
+    content:oxy_xpath("count(./preceding::lb)+1");
+    font-size:xx-small;
+    padding-right:30px;
+    color:gray;
+}
+
+lb[break='no']:before {
+    display:inline-block;
+    content:"-";
+    background-color:orange;
+}
+
+pb {
+    display:block;
+    content:oxy_xpath("concat('[Seite ',./@n,']')");
+    color:gray;
+    margin-top:16px;
+    margin-bottom:12px;
+    
+}
+
+p {
+    display:block;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+/* rs-Verlinkungen */
+
+rs[type='person'] {
+    background-color:#90EE90; 
+}
+
+rs[type='person']:after {
+    display:inline;
+    content: oxy_textfield( edit, "@ref", values, " ", color, "black", columns, 30);
+     -oxy-append-content: " ↗";
+     -oxy-link:attr(ref);
+}
+
+
+
+rs[type='institution'] {
+  background-color:#FFFACD;      
+}
+
+rs[type='institution']:after {
+    display:inline;
+    content: oxy_textfield( edit, "@ref", values, " ", color, "black", columns, 30) ;
+    -oxy-append-content: " ↗";
+    -oxy-link:attr(ref);
+}
+
+
+rs[type='place'] {
+  background-color:#B0C4DE;  
+}
+
+rs[type='place']:after {
+    display:inline;
+    content: oxy_textfield( edit, "@ref", values, " ", color, "black", columns, 30);
+    -oxy-append-content: " ↗";
+    -oxy-link:attr(ref);
+}
+
+rs[type='work'] {
+    background-color:#D8BFD8;
+}
+
+rs[type='work']:after {
+    display:inline;
+    content: oxy_textfield( edit, "@ref", values, " ", color, "black", columns, 30)
+}
+
+rs[type='law'] {
+   background-color:#FFDAB9; 
+}
+
+rs[type='law']:after {
+    display:inline;
+    content: oxy_textfield( edit, "@ref", values, " ", color, "black", columns, 30)
+}
+
+/* Zitate */
+
+quote {
+    display:inline; 
+}
+
+quote:after {
+    display:inline;
+    content: oxy_textfield( edit, "@source", values, " ", color, "black", columns, 30) ;
+    -oxy-append-content: " ↗";
+    -oxy-link:attr(source);
+}
+
+q {
+    background-color:#008B8B;
+}
+
+q[type='spoken'] {
+    display:inline;
+}
+
+q[type='spoken']:after {
+    content: oxy_textfield( edit, "@who", values, " ", color, "black", columns, 30) ;
+}
+
+/* Intertexte */
+
+note[type='intertext']:after {
+    content: oxy_textfield( edit, "@source", values, " ", color, "black", columns, 30) ;
+}
+
+/* Stempel */
+
+stamp:after {
+    content: oxy_textfield( edit, "@source", values, " ", color, "black", columns, 30) ;
+}
+
+/* Style */
+
+hi[rend='underlined'] {
+    text-decoration:underline;
+}
+
+
+hi[rend='spaced'] {
+    letter-spacing:0.5em;
+}
+
+hi[rend='bold'] {
+    font-weight:bold;
+}

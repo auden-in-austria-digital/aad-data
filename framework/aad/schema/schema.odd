@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI
+  xmlns="http://www.tei-c.org/ns/1.0"
+  xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+  xmlns:rng="http://relaxng.org/ns/structure/1.0">
+
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ODD Auden Musulin Papers 1/3 - AMP Correspondence</title>
+        <author xml:id="DE" role="main" ref="https://orcid.org/0000-0002-0636-4476">Daniel Elsner</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>
+          <name>Austrian Centre for Digital Humanities and Cultural Heritage,
+            Austrian Academy of Sciences</name>
+          <ref target="https://acdh.oeaw.ac.at">https://acdh.oeaw.ac.at</ref>
+        </publisher>
+        <pubPlace>Vienna, Austria</pubPlace>
+        <date when="2024">2024</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/deed.en">
+            Creative Commons Namensnennung 4.0 International Lizenz
+          </licence>
+        </availability>
+        <ref type="URL"
+          target="https://github.com/Auden-Musulin-Papers/amp-data/framework/auden-musulin/schema/am-corresp.odd"
+          >https://github.com/Auden-Musulin-Papers/amp-data/framework/auden-musulin/schema/am-corresp.odd</ref>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Born digital.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+<!-- Text der ODD -->
+
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">ODD Auden Musulin Papers 1/3 - AMP Correspondence</titlePart>
+        </docTitle>
+        <docAuthor ref="https://orcid.org/0000-0002-0636-4476">Daniel Elsner</docAuthor>
+      </titlePage>
+    </front>
+    <body>
+            
+<!-- SCHEMA -->
+      
+      <div>
+        
+        <head>TEI-Modifikation for AMP-DATA Correspondence</head>
+        
+        <schemaSpec ident="amp" start="TEI" xml:lang="en" prefix="tei_">
+          <moduleRef source="tei:4.8.0" key="header" include="correspDesc correspAction correspContext seriesStmt listPrefixDef prefixDef creation langUsage language teiHeader fileDesc titleStmt editionStmt extent publicationStmt sourceDesc profileDesc encodingDesc tagsDecl rendition revisionDesc change notesStmt edition funder principal availability licence idno"/>
+          <moduleRef source="tei:4.8.0" key="core" include="citedRange cb addrLine gap graphic ptr imprint biblScope head desc l label lg list author editor title p respStmt resp noteGrp note relatedItem biblStruct listBibl bibl analytic monogr series date pubPlace publisher ref address street postCode name emph foreign hi lb pb q quote rs sic term unclear del abbr add choice orig reg cit corr index"/>
+          <moduleRef source="tei:4.8.0" key="corpus"/>
+          <moduleRef source="tei:4.8.0" key="msdescription" include="stamp institution msDesc msIdentifier repository collection history origin origDate origPlace"/>
+          <moduleRef source="tei:4.8.0" key="namesdates" include="country settlement listEvent event listOrg org listPerson person listPlace place listObject object forename geo location objectName orgName persName placeName region roleName surname state geogName affiliation district"/>
+          <moduleRef source="tei:4.8.0" key="tei"/>
+          <moduleRef source="tei:4.8.0" key="textstructure" include="TEI text body div opener closer dateline salute signed postscript"/>
+          <moduleRef source="tei:4.8.0" key="textcrit" include="listWit witness"/>
+          <moduleRef source="tei:4.8.0" key="transcr" include="fw space facsimile surface damage handShift subst"/>
+          <moduleRef source="tei:4.8.0" key="linking" include="ab seg"/>
+          <moduleRef source="tei:4.8.0" key="analysis" include="interpGrp interp"/>
+          <moduleRef source="tei:4.8.0" key="certainty" include="certainty respons"/>
+          <moduleRef source="tei:4.8.0" key="gaiji" include="g glyph charDecl"/>
+          
+          <elementSpec ident="correspDesc" mode="change">
+            <constraintSpec ident="correspDesc" module="header" scheme="schematron">
+              <constraint>
+                <sch:rule context="//tei:correspDesc">
+                  <sch:assert test="count(./tei:correspAction) > 0">element missing; element correspAction required</sch:assert>
+                </sch:rule>
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attDef ident="type" mode="delete"/>
+              <attDef ident="subtype" mode="delete"/>
+              <attDef ident="key" mode="delete"/>
+              <attDef ident="ref" mode="delete"/>
+              <attDef ident="source" mode="delete"/>
+              <attDef ident="cert" mode="delete"/>
+              <attDef ident="resp" mode="delete"/>
+              <attDef ident="change" mode="delete"/>
+              <attDef ident="facs" mode="delete"/>
+              <attDef ident="ana" mode="delete"/>
+              <attDef ident="corresp" mode="delete"/>
+              <attDef ident="synch" mode="delete"/>
+              <attDef ident="sameAs" mode="delete"/>
+              <attDef ident="copyOf" mode="delete"/>
+              <attDef ident="next" mode="delete"/>
+              <attDef ident="prev" mode="delete"/>
+              <attDef ident="exclude" mode="delete"/>
+              <attDef ident="select" mode="delete"/>
+              <attDef ident="rend" mode="delete"/>
+              <attDef ident="style" mode="delete"/>
+              <attDef ident="rendition" mode="delete"/>
+            </attList>
+          </elementSpec>
+          
+          <elementSpec ident="correspAction" mode="change">
+            <constraintSpec ident="correspAction" module="header" scheme="schematron">
+              <constraint>
+                <sch:rule context="//tei:correspAction">
+                  <sch:report test="*[not(self::tei:persName or self::tei:placeName or self::tei:orgName or self::tei:date)]">child element not allowed; persName, orgName, placeName and date are allowed</sch:report> 
+                </sch:rule>
+              </constraint>
+            </constraintSpec>
+            <constraintSpec ident="correspAction-date" scheme="schematron">
+              <constraint>
+                <sch:rule context="//tei:correspAction/tei:date[@notBefore-iso or @notAfter-iso]">
+                  <sch:assert test="string-length(@notBefore-iso) = 25">invalid date format. expected 25 characters e.g. 2023-10-12T00:00:00+01:00</sch:assert>
+                  <sch:assert test="string-length(@notAfter-iso) = 25">invalid date format. expected 25 characters e.g. 2023-10-12T00:00:00+01:00</sch:assert>
+                </sch:rule>
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attDef ident="type" mode="change" usage="req">
+                <valList mode="replace" type="closed">
+                  <valItem ident="sent"/>
+                  <valItem ident="transmitted"/>
+                  <valItem ident="redirected"/>
+                  <valItem ident="received"/>
+                </valList>
+              </attDef>
+              <attDef ident="key" mode="delete"/>
+              <attDef ident="ref" mode="delete"/>
+              <attDef ident="source" mode="delete"/>
+              <attDef ident="cert" mode="delete"/>
+              <attDef ident="resp" mode="delete"/>
+              <attDef ident="change" mode="delete"/>
+              <attDef ident="facs" mode="delete"/>
+              <attDef ident="ana" mode="delete"/>
+              <attDef ident="corresp" mode="delete"/>
+              <attDef ident="synch" mode="delete"/>
+              <attDef ident="sameAs" mode="delete"/>
+              <attDef ident="copyOf" mode="delete"/>
+              <attDef ident="next" mode="delete"/>
+              <attDef ident="prev" mode="delete"/>
+              <attDef ident="exclude" mode="delete"/>
+              <attDef ident="select" mode="delete"/>
+              <attDef ident="rend" mode="delete"/>
+              <attDef ident="style" mode="delete"/>
+              <attDef ident="rendition" mode="delete"/>
+            </attList>
+          </elementSpec>
+          
+          <elementSpec ident="closer" mode="change">
+            <content>
+              <sequence>
+                <elementRef key="space" maxOccurs="1" minOccurs="0"/>
+                <elementRef key="salute" maxOccurs="1" minOccurs="0"/>
+                <elementRef key="lb" maxOccurs="1" minOccurs="0"/>
+                <elementRef key="space" maxOccurs="1" minOccurs="0"/>
+                <elementRef key="salute" maxOccurs="1" minOccurs="0"/>
+                <elementRef key="lb" maxOccurs="1" minOccurs="0"/>
+                <elementRef key="signed" maxOccurs="1" minOccurs="0"/>
+                <elementRef key="lb" maxOccurs="1" minOccurs="0"/>
+                <elementRef key="space" maxOccurs="1" minOccurs="0"/>
+                <elementRef key="signed" maxOccurs="1" minOccurs="0"/>
+                <elementRef key="lb" maxOccurs="1" minOccurs="0"/>
+              </sequence>
+            </content>
+            <!--<constraintSpec ident="closer" module="textstructure" scheme="schematron">
+              <constraint>
+                <sch:rule context="//tei:div[@type='letter_message']">
+                  <sch:assert test="count(./tei:closer) > 0">element missing; element closer required</sch:assert>
+                </sch:rule>
+              </constraint>
+            </constraintSpec>-->
+            <attList>
+              <attDef ident="source" mode="delete"/>
+              <attDef ident="cert" mode="delete"/>
+              <attDef ident="resp" mode="delete"/>
+              <attDef ident="change" mode="delete"/>
+              <attDef ident="facs" mode="delete"/>
+              <attDef ident="ana" mode="delete"/>
+              <attDef ident="corresp" mode="delete"/>
+              <attDef ident="synch" mode="delete"/>
+              <attDef ident="sameAs" mode="delete"/>
+              <attDef ident="copyOf" mode="delete"/>
+              <attDef ident="next" mode="delete"/>
+              <attDef ident="prev" mode="delete"/>
+              <attDef ident="exclude" mode="delete"/>
+              <attDef ident="select" mode="delete"/>
+              <attDef ident="rend" mode="delete"/>
+              <attDef ident="style" mode="delete"/>
+              <attDef ident="rendition" mode="delete"/>
+            </attList>
+          </elementSpec>
+          
+          <elementSpec ident="opener" module="textstructure" mode="change">
+            <content>
+              <sequence>
+                <elementRef key="dateline" maxOccurs="1" minOccurs="0"/>
+                <elementRef key="space" maxOccurs="1" minOccurs="0"/>
+                <elementRef key="persName" maxOccurs="1" minOccurs="0"/>
+                <elementRef key="salute" maxOccurs="1" minOccurs="0"/>
+                <elementRef key="lb" maxOccurs="1" minOccurs="0"/>
+              </sequence>
+            </content>
+            <constraintSpec ident="opener" module="textstructure" scheme="schematron">
+              <constraint>
+                <sch:rule context="//tei:div[@type='letter_message'][1]">
+                  <sch:assert test="count(./tei:opener) > 0">element missing; element opener required</sch:assert>
+                </sch:rule>
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attDef ident="source" mode="delete"/>
+              <attDef ident="cert" mode="delete"/>
+              <attDef ident="resp" mode="delete"/>
+              <attDef ident="change" mode="delete"/>
+              <attDef ident="facs" mode="delete"/>
+              <attDef ident="ana" mode="delete"/>
+              <attDef ident="corresp" mode="delete"/>
+              <attDef ident="synch" mode="delete"/>
+              <attDef ident="sameAs" mode="delete"/>
+              <attDef ident="copyOf" mode="delete"/>
+              <attDef ident="next" mode="delete"/>
+              <attDef ident="prev" mode="delete"/>
+              <attDef ident="exclude" mode="delete"/>
+              <attDef ident="select" mode="delete"/>
+              <attDef ident="rend" mode="delete"/>
+              <attDef ident="style" mode="delete"/>
+              <attDef ident="rendition" mode="delete"/>
+            </attList>
+          </elementSpec>
+          
+          <elementSpec ident="dateline" module="textstructure" mode="change">
+            <constraintSpec ident="dateline" module="textstructure" scheme="schematron">
+              <constraint>
+                <sch:rule context="//tei:dateline">
+                  <sch:assert test="*[self::tei:date or self::tei:placeName or self::tei:space]">missing child elements: date or placeName required and space optional</sch:assert>
+                </sch:rule>
+              </constraint>
+            </constraintSpec>
+          </elementSpec>
+          
+          <elementSpec ident="signed" module="textstructure" mode="change">
+            <attList>
+              <attDef ident="hand" mode="change" usage="opt">
+                <valList mode="replace" type="closed">
+                  <valItem ident="#handwritten"/>
+                  <valItem ident="#typed"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
+          <elementSpec ident="citedRange" module="core" mode="change">
+            <attList>
+              <attDef ident="unit" mode="change" usage="req"/>
+              <attDef ident="from" mode="change" usage="req"/>
+              <attDef ident="to" mode="change" usage="req"/>
+            </attList>
+          </elementSpec>
+          
+          <elementSpec ident="edition" module="header" mode="change">
+            <content>
+              <sequence>
+                <elementRef key="title" maxOccurs="1" minOccurs="1"/>
+                <elementRef key="interpGrp" maxOccurs="1" minOccurs="0"/>
+              </sequence>
+            </content>
+          </elementSpec>
+          
+          <elementSpec ident="interp" module="analysis" mode="change">
+            <content>
+              <sequence>
+                <elementRef key="desc" maxOccurs="1" minOccurs="1"/>
+                <elementRef key="respons" maxOccurs="1" minOccurs="1"/>
+                <elementRef key="certainty" maxOccurs="1" minOccurs="1"/>
+              </sequence>
+            </content>
+            <attList>
+              <attDef ident="xml:id" mode="change" usage="req">
+                <datatype>
+                  <dataRef name="token" restriction="ana_.+"/>
+                </datatype>
+              </attDef>
+              <attDef ident="source" mode="change" usage="req">
+                <datatype>
+                  <dataRef name="token" restriction="ph_.+"/>
+                </datatype>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
+          <elementSpec ident="respons" module="certainty" mode="change">
+            <attList>
+              <attDef ident="locus" mode="change" usage="req">
+                <valList type="closed" mode="replace">
+                  <valItem ident="value"/>
+                  <valItem ident="name"/>
+                  <valItem ident="start"/>
+                  <valItem ident="end"/>
+                  <valItem ident="location"/>
+                </valList>
+              </attDef>
+              <attDef ident="resp" mode="change" usage="req"/>
+            </attList>
+          </elementSpec>
+          
+          <elementSpec ident="certainty" module="certainty" mode="change">
+            <attList>
+              <attDef ident="locus" mode="change" usage="req">
+                <valList type="closed" mode="replace">
+                  <valItem ident="value"/>
+                  <valItem ident="name"/>
+                  <valItem ident="start"/>
+                  <valItem ident="end"/>
+                  <valItem ident="location"/>
+                </valList>
+              </attDef>
+              <attDef ident="cert" mode="change" usage="req">
+                <valList type="closed" mode="replace">
+                  <valItem ident="low"/>
+                  <valItem ident="medium"/>
+                  <valItem ident="high"/>
+                  <valItem ident="unknown"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
+          <!-- element availability -->
+          <elementSpec ident="availability" module="header" mode="change"/>
+          
+          <!-- element fileDesc -->
+          <elementSpec ident="fileDesc" module="header" mode="change"/>
+          
+          <!-- element persName -->
+          <elementSpec ident="persName" module="namesdates" mode="change"/>
+          
+          <!-- element fileDesc -->
+          <elementSpec ident="placeName" module="namesdates" mode="change">
+            <constraintSpec ident="placeName" scheme="schematron">
+              <constraint>
+                <sch:rule context="//tei:dateline/tei:placeName">
+                  <sch:report test="*[not(self::tei:rs or self::tei:address or self::tei:seg)]">invalid element; allowed nested elements are rs and address</sch:report>
+                </sch:rule>
+              </constraint>
+            </constraintSpec>
+          </elementSpec>
+  
+          <!-- element licence -->
+          <elementSpec ident="licence" module="header" mode="change">
+            <attList>
+              <attDef ident="target" mode="change" usage="req">
+                <valList mode="replace" type="closed">
+                  <valItem ident="https://creativecommons.org/licenses/by/4.0/deed.en"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
+          <!-- element origDate -->
+          <elementSpec ident="origDate" module="msdescription" mode="change">
+            <constraintSpec ident="origDate" scheme="schematron">
+              <constraint>
+                <sch:rule context="//tei:origDate">
+                  <sch:assert test="string-length(@notBefore-iso) = 25">invalid date format. expected 25 characters e.g. 2023-10-12T00:00:00+01:00</sch:assert>
+                  <sch:assert test="string-length(@notAfter-iso) = 25">invalid date format. expected 25 characters e.g. 2023-10-12T00:00:00+01:00</sch:assert>
+                </sch:rule>
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attDef ident="notBefore-iso" mode="change" usage="req">
+                <datatype>
+                  <dataRef key="teidata.temporal.iso"/>
+                </datatype>
+              </attDef>
+              <attDef ident="notAfter-iso" mode="change" usage="req">
+                <datatype>
+                  <dataRef key="teidata.temporal.iso"/>
+                </datatype>
+              </attDef>
+              <attDef ident="ana" mode="change" usage="opt"/>
+              <attDef ident="notAfter" mode="delete"/>
+              <attDef ident="notBefore" mode="delete"/>
+              <attDef ident="when" mode="delete"/>
+              <attDef ident="when-iso" mode="delete"/>
+            </attList>
+          </elementSpec>
+          
+          <!-- element date -->
+          <elementSpec ident="date" module="core" mode="change">
+            <attList>
+              <attDef ident="notAfter-iso" mode="change" usage="opt">
+                <datatype>
+                  <dataRef key="teidata.temporal.iso"/>
+                </datatype>
+              </attDef>
+              <attDef ident="notBefore-iso" mode="change" usage="opt">
+                <datatype>
+                  <dataRef key="teidata.temporal.iso"/>
+                </datatype>
+              </attDef>
+              <attDef ident="when-iso" mode="change" usage="opt">
+                <datatype>
+                  <dataRef key="teidata.temporal.iso"/>
+                </datatype>
+              </attDef>
+              <attDef ident="when" mode="change" usage="opt">
+                <datatype>
+                  <dataRef key="teidata.temporal.iso"/>
+                </datatype>
+              </attDef>
+              <attDef ident="notAfter" mode="delete"/>
+              <attDef ident="notBefore" mode="delete"/>
+            </attList>
+          </elementSpec>
+          
+          <!-- element change -->
+          <elementSpec ident="change" module="header" mode="change">
+            <attList>
+              <attDef ident="who" mode="change" usage="req">
+                <valList type="closed" mode="replace">
+                  <valItem ident="pandorfer"/>
+                  <valItem ident="smayer"/>
+                  <valItem ident="tfruehwirth"/>
+                  <valItem ident="delsner"/>
+                  <valItem ident="dgrigoriou"/>
+                </valList>
+              </attDef>
+              <attDef ident="when" mode="change" usage="req">
+                <datatype>
+                  <dataRef key="teidata.temporal.w3c"/>
+                </datatype>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
+          <!-- element hi -->
+          <elementSpec ident="hi" module="core" mode="change">
+            <attList>
+              <attDef ident="rend" mode="change" usage="req">
+                <valList type="closed" mode="replace">
+                  <valItem ident="underline"/>
+                  <valItem ident="italic"/>
+                  <valItem ident="superscript"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
+          <!-- element lg -->
+          <elementSpec ident="lg" module="core" mode="change">
+            <constraintSpec ident="lg" scheme="schematron">
+              <constraint>
+                <sch:rule context="//tei:lg">
+                  <sch:assert test="*[self::tei:lb]">invalid child elements; must contain lb and l, (optional) space</sch:assert>
+                </sch:rule>
+              </constraint>
+            </constraintSpec>
+          </elementSpec>
+          
+          <!-- element lb -->
+          <elementSpec ident="lb" module="core" mode="change">
+            <attList>
+              <attDef ident="break" mode="change" usage="opt">
+                <valList type="closed" mode="replace">
+                  <valItem ident="no">
+                    <desc>Umbruch im Wort</desc>
+                  </valItem>
+                  <valItem ident="paragraph">
+                    <desc>Paragraph Zusammenführung</desc>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
+          <!-- element note -->
+          <elementSpec ident="note" module="core" mode="change">
+            <attList>
+              <attDef ident="resp" mode="change" usage="opt">
+                <valList type="closed" mode="replace">
+                  <valItem ident="smayer"/>
+                  <valItem ident="tfruehwirth"/>
+                  <valItem ident="dgrigoriou"/>
+                </valList>
+              </attDef>
+              <attDef ident="type" mode="change" usage="req">
+                <valList type="closed" mode="replace">
+                  <valItem ident="e"/>
+                  <valItem ident="footnote"/>
+                </valList>
+              </attDef>
+              <attDef ident="target" mode="change" usage="opt"/>
+              <attDef ident="ana" mode="change" usage="req"/>
+            </attList>
+          </elementSpec>
+          
+          <elementSpec ident="listPlace" module="namesdates" mode="change">
+            <attList>
+              <attDef ident="target" mode="change" usage="opt">
+                <valList type="closed" mode="replace">
+                  <valItem ident="choice"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
+          <elementSpec ident="listPerson" module="namesdates" mode="change">
+            <attList>
+              <attDef ident="target" mode="change" usage="opt">
+                <valList type="closed" mode="replace">
+                  <valItem ident="choice"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
+          <!-- element p -->
+          <elementSpec ident="p" module="core" mode="change">
+            <attList>
+              <attDef ident="prev" mode="change" usage="opt">
+                <valList type="closed" mode="replace">
+                  <valItem ident="true"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
+          <!-- element pb -->
+          <elementSpec ident="pb" module="core" mode="change">
+            <attList>
+              <attDef ident="n" mode="change" usage="opt">
+                <datatype>
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+              </attDef>
+              <attDef ident="facs" mode="change" usage="req">
+                <datatype>
+                  <dataRef key="teidata.pointer"/>
+                </datatype>
+              </attDef>
+              <attDef ident="type" mode="change" usage="req">
+                <valList type="closed" mode="replace">
+                  <valItem ident="sheet"/>
+                  <valItem ident="envelope"/>
+                  <valItem ident="letter"/>
+                  <valItem ident="card"/>
+                  <valItem ident="cv_sheet"/>
+                </valList>
+              </attDef>
+              <attDef ident="ed" mode="change" usage="req">
+                <datatype>
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
+          <!-- element ref -->
+          <elementSpec ident="ref" module="core" mode="change">
+            <attList>
+              <attDef ident="target" mode="change" usage="req">
+                <datatype>
+                  <dataRef name="token" restriction="#.+|acdh:.+|http.+"/>
+                </datatype>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
+          <elementSpec ident="text" module="textstructure" mode="change"/>
+          
+          <elementSpec ident="body" module="textstructure" mode="change">
+            <content>
+              <alternate maxOccurs="1" minOccurs="1">
+                <elementRef key="div"/>
+                <elementRef key="div"/>
+              </alternate>
+            </content>
+            <attList>
+              <attDef ident="xmlns" mode="change" usage="req">
+                <valList type="closed" mode="replace">
+                  <valItem ident="http://www.tei-c.org/ns/1.0"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
+          <elementSpec ident="div" module="textstructure" mode="change">
+            <constraintSpec ident="div" scheme="schematron" mode="change">
+              <constraint>
+                <sch:rule context="//tei:body/tei:div">
+                  <sch:assert test="@type = 'transcription'">missing @type or invalid attribute value; allowed value is 'transcription'</sch:assert>
+                  <sch:assert test="matches(@xml:id, 'transcription_amp_\d+')">xml:id required with pattern: transcription_amp_0001 |(final digits = document xml:id)</sch:assert>
+                  <sch:assert test="count(./tei:div) > 0">div must contain at least one div element with @type=evelope or letter ...</sch:assert>
+                  <sch:assert test="*[self::tei:div[@type='letter' or @type='envelope' or @type='enclosure']]">type required or invalid type value; only letter, envelope or enclosure allowed</sch:assert>
+                </sch:rule>
+                <sch:rule context="//tei:body/tei:div/tei:div[@type='letter']">
+                  <sch:assert test="@type = 'letter'">@type allowed values are 'letter'</sch:assert>
+                  <sch:assert test="count(./tei:div[@type='letter_message']) > 0">div@type=letter must contain at least one div@type=letter_message</sch:assert>
+                  <sch:assert test="*[self::tei:div[@type='poem' or @type='letter_message']]">type required or invalid type value; only poem or letter_message allowed</sch:assert>
+                </sch:rule>
+                <sch:rule context="//tei:body/tei:div/tei:div/tei:div[@type='poem']">
+                  <sch:assert test="count(./tei:lg) > 0">missing element; lg required</sch:assert>
+                  <sch:report test="*[not(self::tei:head or self::tei:lg or self::tei:ab or self::tei:pb or self::tei:cb or self::tei:fw)]">invalid child element: lg, ab and pb allowed</sch:report>
+                </sch:rule>
+                <sch:rule context="//tei:body/tei:div/tei:div[@type='envelope']">
+                  <sch:assert test="count(./tei:ab) > 0">div@type=envelope must contain at least one tei:ab element</sch:assert>
+                  <sch:report test="*[not(self::tei:ab or self::tei:pb or self::tei:fw)]">invalid element; only pb and ab elements allowed</sch:report>
+                </sch:rule>
+                <sch:rule context="//tei:body/tei:div/tei:div[@type='enclosure']">
+                  <sch:assert test="*[self::tei:div[@type='poem' or @type='prose_translation' or @type='comments']]">type required or invalid type value; only poem, comments or prose_translation allowed</sch:assert>
+                </sch:rule>
+              </constraint>
+            </constraintSpec>
+            <attList>
+              <attDef ident="hand" mode="change" usage="opt">
+                <valList type="closed" mode="replace">
+                  <valItem ident="#handwritten"/>
+                  <valItem ident="#typed"/>
+                  <valItem ident="#printed"/>
+                </valList>
+              </attDef>
+              <attDef ident="type" mode="change" usage="opt">
+                <valList type="closed" mode="replace">
+                  <valItem ident="prose"/>
+                  <valItem ident="letter"/>
+                  <valItem ident="letter_message"/>
+                  <valItem ident="poem"/>
+                  <valItem ident="envelope"/>
+                  <valItem ident="enclosure"/>
+                  <valItem ident="prose_translation"/>
+                  <valItem ident="comments"/>
+                  <valItem ident="transcription"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
+          <!-- element ab -->
+          <elementSpec ident="ab" module="linking" mode="change">
+            <attList>
+              <attDef ident="hand" mode="change" usage="opt">
+                <valList type="closed" mode="replace">
+                  <valItem ident="#handwritten"/>
+                  <valItem ident="#typed"/>
+                  <valItem ident="#printed"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
+          <!-- element seg -->
+          <elementSpec ident="seg" module="linking" mode="change">
+            <attList>
+              <attDef ident="hand" mode="change" usage="opt">
+                <valList type="closed" mode="replace">
+                  <valItem ident="#handwritten"/>
+                  <valItem ident="#typed"/>
+                  <valItem ident="#printed"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
+          <!-- element fw -->
+          <elementSpec ident="fw" module="transcr" mode="change">
+            <attList>
+              <attDef ident="type" mode="change" usage="req">
+                <valList type="closed" mode="replace">
+                  <valItem ident="pageNum"/>
+                </valList>
+              </attDef>
+              <attDef ident="xml:id" mode="change" usage="opt">
+                <datatype>
+                  <dataRef key="ID"/>
+                </datatype>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
+          <!-- element rs -->
+          <elementSpec ident="rs" module="core" mode="change">
+            <attList>
+              <attDef ident="type" mode="change" usage="req">
+                <valList type="closed" mode="replace">
+                  <valItem ident="person"/>
+                  <valItem ident="place"/>
+                  <valItem ident="bibl"/>
+                  <valItem ident="event"/>
+                  <valItem ident="org"/>
+                  <valItem ident="lit_work"/>
+                  <valItem ident="note"/>
+                </valList>
+              </attDef>
+              <attDef ident="ref" mode="change" usage="opt">
+                <datatype>
+                  <dataRef name="token" restriction="#.+|acdh:.+"/>
+                </datatype>
+              </attDef>
+              <attDef ident="ana" mode="change" usage="opt">
+                <datatype>
+                  <dataRef name="token" restriction="#.+|acdh:.+"/>
+                </datatype>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
+          <!-- element del -->
+          <elementSpec ident="del" module="core" mode="change">
+            <attList>
+              <attDef ident="rend" mode="change" usage="opt">
+                <valList type="closed" mode="replace">
+                  <valItem ident="overtyped"/>
+                  <valItem ident="overstrike"/>
+                  <valItem ident="overwritten"/>
+                  <valItem ident="whiteout"/>
+                  <valItem ident="metamark"/>
+                  <valItem ident="overlaid"/>
+                  <valItem ident="edited"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
+          <!-- element del -->
+          <elementSpec ident="add" module="core" mode="change">
+            <attList>
+              <attDef ident="place" mode="change" usage="req">
+                <valList type="closed" mode="replace">
+                  <valItem ident="top"/>
+                  <valItem ident="bottom"/>
+                  <valItem ident="margin"/>
+                  <valItem ident="opposite"/>
+                  <valItem ident="overleaf"/>
+                  <valItem ident="above"/>
+                  <valItem ident="right"/>
+                  <valItem ident="below"/>
+                  <valItem ident="left"/>
+                  <valItem ident="end"/>
+                  <valItem ident="inline"/>
+                  <valItem ident="inspace"/>
+                  <valItem ident="superimposed"/>
+                </valList>
+              </attDef>
+              <attDef ident="hand" mode="change" usage="opt">
+                <valList type="closed" mode="replace">
+                  <valItem ident="#handwritten"/>
+                  <valItem ident="#typed"/>
+                  <valItem ident="#printed"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
+          <!-- element subst -->
+          <elementSpec ident="subst" module="transcr" mode="change"/>     
+          
+          <!-- element unclear -->
+          <elementSpec ident="unclear" module="core" mode="change"/>
+          
+          <!-- element space -->
+          <elementSpec ident="space" module="transcr" mode="change">
+            <!--<constraintSpec ident="space" scheme="schematron">
+              <constraint>
+                <!-\-<sch:rule context="//tei:space[not(parent::tei:lg)]">
+                  <sch:assert test="@quantity or @unit">invalid attribute; allowed and required attributes are unit and quantity</sch:assert>
+                  <sch:report test="@min and @extent">invalid attribute; min and extent not allowed</sch:report>
+                  <sch:assert test="matches(@unit, 'char')">invalid value; only 'char' allowed</sch:assert>
+                </sch:rule>-\->
+                <!-\-<sch:rule context="//tei:space[parent::tei:lg][@unit]">
+                  <sch:assert test="matches(@unit, 'char')">invalid value; only 'char' allowed</sch:assert>
+                </sch:rule>-\->
+                <!-\-<sch:rule context="//tei:space[@extent]">
+                  <sch:assert test="@extent='undefined quantity of characters' or @extent='undefined quantity of characters plus minimum'">invalid value</sch:assert>
+                </sch:rule>-\->
+                <!-\-<sch:rule context="//tei:space[@extent='undefined quantity of characters plus minimum']">
+                  <sch:assert test="@unit and @min">invalid attribute requirements; unit and min required</sch:assert>
+                  <sch:report test="@quantity">invalid attribute requirements; unit and min required</sch:report>
+                </sch:rule>
+                <sch:rule context="//tei:space[@extent='undefined quantity of characters']">
+                  <sch:report test="@quantity or @unit or @min">invalid attribute requirements; unit, quantity and min not allowed</sch:report>
+                </sch:rule>-\->
+              </constraint>
+            </constraintSpec>-->
+            <attList>
+              <attDef ident="min" mode="change" usage="opt">
+                <datatype>
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+              </attDef>
+              <attDef ident="quantity" mode="change" usage="opt">
+                <datatype>
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+              </attDef>
+              <attDef ident="extent" mode="change" usage="opt">
+                <valList type="closed" mode="replace">
+                  <valItem ident="undefined quantity of characters"/>
+                  <valItem ident="undefined quantity of characters plus minimum"/>
+                </valList>
+              </attDef>
+              <attDef ident="unit" mode="change" usage="opt">
+                <valList type="closed" mode="replace">
+                  <valItem ident="char"/>
+                </valList>
+              </attDef>
+              <attDef ident="type" mode="delete"/>
+              <attDef ident="subtype" mode="delete"/>
+              <attDef ident="precision" mode="delete"/>
+              <attDef ident="scope" mode="delete"/>
+              <attDef ident="atLeast" mode="delete"/>
+              <attDef ident="atMost" mode="delete"/>
+              <attDef ident="confidence" mode="delete"/>
+              <attDef ident="xml:id" mode="delete"/>
+              <attDef ident="n" mode="delete"/>
+              <attDef ident="xml:lang" mode="delete"/>
+              <attDef ident="xml:base" mode="delete"/>
+              <attDef ident="xml:space" mode="delete"/>
+              <attDef ident="source" mode="delete"/>
+              <attDef ident="cert" mode="delete"/>
+              <attDef ident="resp" mode="delete"/>
+              <attDef ident="change" mode="delete"/>
+              <attDef ident="facs" mode="delete"/>
+              <attDef ident="ana" mode="delete"/>
+              <attDef ident="corresp" mode="delete"/>
+              <attDef ident="synch" mode="delete"/>
+              <attDef ident="sameAs" mode="delete"/>
+              <attDef ident="copyOf" mode="delete"/>
+              <attDef ident="next" mode="delete"/>
+              <attDef ident="prev" mode="delete"/>
+              <attDef ident="exclude" mode="delete"/>
+              <attDef ident="select" mode="delete"/>
+              <attDef ident="rend" mode="delete"/>
+              <attDef ident="style" mode="delete"/>
+              <attDef ident="rendition" mode="delete"/>
+            </attList>
+          </elementSpec>
+          
+          <!-- element facsimile -->
+          <elementSpec ident="facsimile" module="transcr" mode="change"/>
+          
+          <!-- element surface -->
+          <elementSpec ident="surface" module="transcr" mode="change">
+            <attList>
+              <attDef ident="ulx" mode="change" usage="req">
+                <datatype>
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+              </attDef>
+              <attDef ident="uly" mode="change" usage="req">
+                <datatype>
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+              </attDef>
+              <attDef ident="lrx" mode="change" usage="req">
+                <datatype>
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+              </attDef>
+              <attDef ident="lry" mode="change" usage="req">
+                <datatype>
+                  <dataRef key="teidata.enumerated"/>
+                </datatype>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
+          <!-- element graphic -->
+          <elementSpec ident="graphic" module="core" mode="change">
+            <attList>
+              <attDef ident="url" mode="change" usage="req">
+                <datatype>
+                  <dataRef key="teidata.pointer"/>
+                </datatype>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
+          <!-- element gap -->
+          <elementSpec ident="gap" module="core" mode="change">
+            <attList>
+              <attDef ident="reason" mode="change" usage="req">
+                <valList mode="replace" type="closed">
+                  <valItem ident="deleted"/>
+                  <valItem ident="illegible"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
+        </schemaSpec>
+      </div>
+        
+    </body>
+      
+  </text>
+    
+</TEI>
