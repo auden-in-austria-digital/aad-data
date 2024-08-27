@@ -68,6 +68,7 @@
                 <objectDesc>
                   <supportDesc>
                     <support>
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00003 https://iiif.acdh.oeaw.ac.at/aad/aad_00004">Myrtle Mill</watermark>
                       <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00001">
                         <width>162</width>
                         <height>114</height>
@@ -84,7 +85,6 @@
                         <width>210</width>
                         <height>293</height>
                       </dimensions>
-                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00003 https://iiif.acdh.oeaw.ac.at/aad/aad_00004">Myrtle Mill</watermark>
                     </support>
                   </supportDesc>
                 </objectDesc>

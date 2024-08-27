@@ -68,6 +68,7 @@
                 <objectDesc>
                   <supportDesc>
                     <support>
+                      <watermark/>
                       <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00009">
                         <width>161</width>
                         <height>114</height>
@@ -84,7 +85,6 @@
                         <width>210</width>
                         <height>297</height>
                       </dimensions>
-                      <watermark/>
                       <ab>
                         The paper surface contains indented typewriter impressions related to W. H. Auden's poem "Uncle Henry".
                       </ab>
