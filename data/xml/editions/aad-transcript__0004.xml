@@ -115,8 +115,8 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident="en"/>
         <language ident="de"/>
+        <language ident="en"/>
       </langUsage>
       <correspDesc>
         <correspAction type="sent">
