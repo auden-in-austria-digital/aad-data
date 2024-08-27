@@ -68,6 +68,7 @@
                 <objectDesc>
                   <supportDesc>
                     <support>
+                      <watermark/>
                       <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00009">
                         <width>161</width>
                         <height>114</height>
