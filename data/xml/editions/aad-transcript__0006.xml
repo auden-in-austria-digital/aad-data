@@ -68,20 +68,20 @@
                 <objectDesc>
                   <supportDesc>
                     <support>
-                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00023 https://iiif.acdh.oeaw.ac.at/aad/aad_00024">Myrtle Mill</watermark>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00021">
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00023/ https://iiif.acdh.oeaw.ac.at/aad/aad_00024/">Myrtle Mill</watermark>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00021/">
                         <width>162</width>
                         <height>114</height>
                       </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00022">
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00022/">
                         <width>162</width>
                         <height>114</height>
                       </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00023">
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00023/">
                         <width>210</width>
                         <height>294</height>
                       </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00024">
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00024/">
                         <width>210</width>
                         <height>294</height>
                       </dimensions>
@@ -138,23 +138,23 @@
   </teiHeader>
   <facsimile>
     <surface ulx="0" uly="0" lrx="2776" lry="2094">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00021"/>
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00021/"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2778" lry="2098">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00022"/>
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00022/"/>
     </surface>
     <surface ulx="0" uly="0" lrx="3528" lry="4874">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00023"/>
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00023/"/>
     </surface>
     <surface ulx="0" uly="0" lrx="3528" lry="4876">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00024"/>
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00024/"/>
     </surface>
   </facsimile>
   <text>
     <body>
       <div type="transcription" xml:id="transcription_aad_0006" xml:lang="de">
         <div type="envelope">
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00021" ed="1r" type="envelope"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00021/" ed="1r" type="envelope"/>
           <ab hand="#hand_blue_auden">
             <hi rend="underline">Expre<unclear>s</unclear>s</hi>
           </ab>
@@ -167,7 +167,7 @@
               <lb/>22/28<unclear>.</unclear></rs>
             </address>   
           </ab>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00022" ed="1v" type="envelope"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00022/" ed="1v" type="envelope"/>
           <ab hand="#print_black_auden">
             <lb/><rs type="person" ref="#amp_person_1">W. H. AUDEN</rs>
             <address>
@@ -178,7 +178,7 @@
           </ab>
         </div>
         <div type="letter">
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00023" ed="2r" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00023/" ed="2r" type="sheet"/>
           <div type="letter_message" hand="#hand_blue_auden">
             <opener hand="#print_black_auden">
               <dateline>
@@ -209,7 +209,7 @@
               </signed>
             </closer>
           </div>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00024" ed="2v" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00024/" ed="2v" type="sheet"/>
         </div>
       </div>
     </body>

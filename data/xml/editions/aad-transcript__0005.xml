@@ -68,20 +68,20 @@
                 <objectDesc>
                   <supportDesc>
                     <support>
-                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00019 https://iiif.acdh.oeaw.ac.at/aad/aad_00020">Myrtle Mill</watermark>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00017">
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00019/ https://iiif.acdh.oeaw.ac.at/aad/aad_00020/">Myrtle Mill</watermark>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00017/">
                         <width>162</width>
                         <height>114</height>
                       </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00018">
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00018/">
                         <width>162</width>
                         <height>114</height>
                       </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00019">
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00019/">
                         <width>210</width>
                         <height>294</height>
                       </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00020">
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00020/">
                         <width>210</width>
                         <height>294</height>
                       </dimensions>
@@ -143,23 +143,23 @@
   </teiHeader>
   <facsimile>
     <surface ulx="0" uly="0" lrx="2776" lry="2050">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00017"/>
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00017/"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2772" lry="2048">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00018"/>
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00018/"/>
     </surface>
     <surface ulx="0" uly="0" lrx="3528" lry="4872">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00019"/>
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00019/"/>
     </surface>
     <surface ulx="0" uly="0" lrx="3528" lry="4874">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00020"/>
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00020/"/>
     </surface>
   </facsimile>
   <text>
     <body>
       <div type="transcription" xml:id="transcription_aad_0005" xml:lang="de">
         <div type="envelope">
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00017" ed="1r" type="envelope"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00017/" ed="1r" type="envelope"/>
           <ab hand="#hand_blue_auden">
             <lb/><rs type="person" ref="#amp_person_107">Herrn
             <lb/>Hugo Kurka</rs>
@@ -169,7 +169,7 @@
               <lb/>22/<unclear>2</unclear>8</rs>
             </address>   
           </ab>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00018" ed="1v" type="envelope"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00018/" ed="1v" type="envelope"/>
           <ab hand="#print_black_auden">
             <lb/><rs type="person" ref="#amp_person_1">W. H. AUDEN</rs>
             <address>
@@ -180,7 +180,7 @@
           </ab>
         </div>
         <div type="letter">
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00019" ed="2r" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00019/" ed="2r" type="sheet"/>
           <div type="letter_message" hand="#hand_blue_auden">
             <opener hand="#print_black_auden">
               <dateline>
@@ -216,7 +216,7 @@
               </signed>
             </closer>
           </div>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00020" ed="2v" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00020/" ed="2v" type="sheet"/>
         </div>
       </div>
     </body>

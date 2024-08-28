@@ -68,20 +68,20 @@
                 <objectDesc>
                   <supportDesc>
                     <support>
-                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00027 https://iiif.acdh.oeaw.ac.at/aad/aad_00028">Myrtle Mill</watermark>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00025">
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00027/ https://iiif.acdh.oeaw.ac.at/aad/aad_00028/">Myrtle Mill</watermark>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00025/">
                         <width>162</width>
                         <height>115</height>
                       </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00026">
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00026/">
                         <width>162</width>
                         <height>115</height>
                       </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00027">
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00027/">
                         <width>210</width>
                         <height>298</height>
                       </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00028">
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00028/">
                         <width>210</width>
                         <height>298</height>
                       </dimensions>
@@ -143,23 +143,23 @@
   </teiHeader>
   <facsimile>
     <surface ulx="0" uly="0" lrx="2780" lry="2050">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00025"/>
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00025/"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2774" lry="2048">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00026"/>
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00026/"/>
     </surface>
     <surface ulx="0" uly="0" lrx="3534" lry="4938">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00027"/>
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00027/"/>
     </surface>
     <surface ulx="0" uly="0" lrx="3534" lry="4936">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00028"/>
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00028/"/>
     </surface>
   </facsimile>
   <text>
     <body>
       <div type="transcription" xml:id="transcription_aad_0007" xml:lang="de">
         <div type="envelope">
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00025" ed="1r" type="envelope"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00025/" ed="1r" type="envelope"/>
           <ab hand="#hand_blue_auden">
             E<hi rend="underline">il-Post</hi>
           </ab>
@@ -171,7 +171,7 @@
               <lb/>A<unclear>d</unclear>albert Stiftergasse 22/28<unclear>.</unclear></rs>
             </address>   
           </ab>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00026" ed="1v" type="envelope"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00026/" ed="1v" type="envelope"/>
           <ab hand="#print_black_auden">
             <lb/><rs type="person" ref="#amp_person_1">W. H. AUDEN</rs>
             <address>
@@ -182,7 +182,7 @@
           </ab>
         </div>
         <div type="letter">
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00027" ed="2r" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00027/" ed="2r" type="sheet"/>
           <div type="letter_message" hand="#hand_blue_auden">
             <opener hand="#print_black_auden">
               <dateline>
@@ -223,7 +223,7 @@
               </signed>
             </closer>
           </div>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00028" ed="2v" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00028/" ed="2v" type="sheet"/>
         </div>
       </div>
     </body>
