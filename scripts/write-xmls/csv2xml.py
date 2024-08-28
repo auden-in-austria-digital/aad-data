@@ -147,7 +147,7 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
             docs_list.append(row['doc'])  # append current document ID to list of document IDs
 
         # target row-specific data
-        img_url = f"https://iiif.acdh.oeaw.ac.at/aad/aad_{row['img']}"
+        img_url = f"https://iiif.acdh.oeaw.ac.at/aad/aad_{row['img']}/"
         tei_dimensions = etree.SubElement(tei_support, 'dimensions', unit="mm", facs=img_url) # add elements in teiHeader node
         tei_width = etree.SubElement(tei_dimensions, 'width')
         tei_width.text = row['width']
