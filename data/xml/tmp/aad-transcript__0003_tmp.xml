@@ -69,19 +69,19 @@
                   <supportDesc>
                     <support>
                       <watermark/>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00009">
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00009/">
                         <width>161</width>
                         <height>114</height>
                       </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00010">
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00010/">
                         <width>161</width>
                         <height>114</height>
                       </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00011">
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00011/">
                         <width>210</width>
                         <height>297</height>
                       </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00012">
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00012/">
                         <width>210</width>
                         <height>297</height>
                       </dimensions>
@@ -125,26 +125,26 @@
   </teiHeader>
   <facsimile>
     <surface ulx="0" uly="0" lrx="2764" lry="2048">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00009"/>
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00009/"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2764" lry="2050">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00010"/>
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00010/"/>
     </surface>
     <surface ulx="0" uly="0" lrx="3524" lry="4920">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00011"/>
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00011/"/>
     </surface>
     <surface ulx="0" uly="0" lrx="3524" lry="4924">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00012"/>
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00012/"/>
     </surface>
   </facsimile>
   <text>
     <body>
       <div type="transcription" xml:id="transcription_aad_0003" xml:lang="">
         <div/>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00009" ed="1r" type="envelope"/>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00010" ed="1v" type="envelope"/>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00011" ed="2r" type="sheet"/>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00012" ed="2v" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00009/" ed="1r" type="envelope"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00010/" ed="1v" type="envelope"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00011/" ed="2r" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00012/" ed="2v" type="sheet"/>
       </div>
     </body>
   </text>
