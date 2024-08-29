@@ -194,8 +194,8 @@
               </salute>
             </opener>
             <p>
-              <lb/>Komme Freitag nach Wien. Von Samstag
-              <lb/>ab haben wir kein rinnende Wasser gehabt.
+              <lb/>Komme Freitag nach <rs type="place" ref="#amp_place_id_1">Wien</rs>. Von Samstag
+              <lb/>ab haben <rs type="person" ref="#amp_person_1 #amp_person_4">wir</rs> kein rinnende Wasser gehabt.
               <lb/>Etwas in der Pumpe is kaput und der verdammter
               <lb/>Installateur kommt nicht.
             </p>
