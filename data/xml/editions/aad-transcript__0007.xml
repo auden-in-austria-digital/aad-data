@@ -97,7 +97,7 @@
               </physDesc>
               <history>
                 <origin>
-                  <origDate notBefore-iso="1965-07-28T00:00:00+01:00" notAfter-iso="1965-07-28T23:59:59+01:00"/>
+                  <origDate notBefore-iso="1965-07-28T00:00:00+01:00" notAfter-iso="1965-07-28T18:00:00+01:00"/>
                   <origPlace ref="https://d-nb.info/gnd/4801892-2">Kirchstetten</origPlace>
                 </origin>
               </history>

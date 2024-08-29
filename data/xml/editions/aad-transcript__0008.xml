@@ -100,7 +100,7 @@
               </physDesc>
               <history>
                 <origin>
-                  <origDate notBefore-iso="1965-04-16T00:00:00+01:00" notAfter-iso="1965-04-16T23:59:59+01:00"/>
+                  <origDate notBefore-iso="1965-04-16T00:00:00+01:00" notAfter-iso="1965-04-16T14:00:00+01:00"/>
                   <origPlace ref="https://d-nb.info/gnd/4005728-8">Berlin</origPlace>
                 </origin>
               </history>
