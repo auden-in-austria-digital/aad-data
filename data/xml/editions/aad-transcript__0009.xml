@@ -161,26 +161,66 @@
   <text>
     <body>
       <div type="transcription" xml:id="transcription_aad_0009" xml:lang="de">
-        <div type="envelope">
+        <div type="envelope" hand="#hand_blue_auden">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00033/" ed="1r" type="envelope"/>
-          <ab hand="#hand_blue_auden">
+          <ab>
             <del rend="overstrike" hand="#hand_blue_auden"><hi rend="underline" hand="#hand_blue_auden">mit Luft<unclear>-</unclear>Post</hi></del>
           </ab>
-          <ab hand="#hand_blue_auden">
+          <ab>
             <hi rend="underline" hand="#hand_blue_auden">Eil Post</hi>
           </ab>
-          <ab hand="#hand_blue_auden">
+          <ab>
             <lb/><rs type="person" ref="#amp_person_107">Herrn
-              <lb/>Hugo Kurka</rs>
+            <lb/>Hugo Kurka</rs>
             <address>
               <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
-                <lb/>A<unclear>d</unclear>albert Stiftergasse 22/28<unclear>.</unclear></rs>
+              <lb/>Adalbert Stiftergasse 22/2<subst><del rend="overwritten" hand="#hand_blue_auden"><unclear>4</unclear></del><add place="superimposed" hand="#hand_blue_auden">8</add></subst></rs>
             </address>   
           </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00034/" ed="1v" type="envelope"/>
+          <ab hand="#print_black_auden">
+            <lb/><rs type="person" ref="#amp_person_1">W. H. AUDEN</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN (WESTBAHN)
+              <lb/>HINTERHOLZ 6
+              <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
+            </address>
+          </ab>
         </div>
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00035/" ed="2r" type="sheet"/>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <opener>
+              <dateline>
+                <placeName>
+                  <lb/><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs>
+                </placeName>
+                <date>
+                  <lb/>Mittwoch.
+                </date>
+              </dateline>
+              <salute>
+                <lb/>Lieber <rs type="person" ref="#amp_person_107">Hugo</rs>:
+              </salute>
+            </opener>
+            <p>
+              <lb/>Über Samstag<unclear>,</unclear>
+              <lb/>Wir kom<unclear>m</unclear>en an Neulengbach (<hi rend="underline" hand="#hand_blue_auden">nicht</hi> Neulengbach-Markt)
+              <lb/>a<unclear>m</unclear> 17·21<unclear>,</unclear> Es ist <del rend="overstrike" hand="#hand_blue_auden">l<unclear>ue</unclear></del> leichter für Dich da zu
+              <lb/>parken und es ist näher zu d<unclear>en</unclear> strasse nach Tulln.
+            </p>
+            <p>
+              <lb/>Ich bringe mein Auto-<subst><del rend="overwritten" hand="#hand_blue_auden"><unclear>a</unclear></del><add place="superimposed" hand="#hand_blue_auden">A</add></subst>tlas mit.
+            </p>
+            <closer>
+              <salute>
+                <lb/>dein
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
+              </signed>
+            </closer>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00036/" ed="2v" type="sheet"/>
         </div>
       </div>
