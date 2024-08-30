@@ -170,15 +170,15 @@
             <hi rend="underline" hand="#hand_blue_auden">Eil Post</hi>
           </ab>
           <ab>
+            <del rend="overlaid">3</del><unclear>,</unclear>&#x2014;
+          </ab>
+          <ab>
             <lb/><rs type="person" ref="#amp_person_107">Herrn
             <lb/>Hugo Kurka</rs>
             <address>
               <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
               <lb/>Adalbert Stiftergasse 22/2<subst><del rend="overwritten" hand="#hand_blue_auden"><unclear>4</unclear></del><add place="superimposed" hand="#hand_blue_auden">8</add></subst></rs>
             </address>   
-          </ab>
-          <ab>
-            <del rend="overlaid">3</del><unclear>,</unclear>&#x2014;
           </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00034/" ed="1v" type="envelope"/>
           <ab hand="#print_black_auden">
