@@ -92,15 +92,15 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote/>
+                  <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="print_black_auden" scribeRef="#amp_person_1" medium="print-black">Preprinted writing in black authored by W. H. Auden, sans-serif Grotesque-family typeface</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
                 <origin>
-                  <origDate notBefore-iso="1966-06-29T00:00:00+01:00" notAfter-iso="1966-06-29T23:59:59+01:00"/>
+                  <origDate notBefore-iso="1966-06-29T00:00:00+01:00" notAfter-iso="1966-06-29T18:00:00+01:00"/>
                   <origPlace ref="https://d-nb.info/gnd/4801892-2">Kirchstetten</origPlace>
                 </origin>
               </history>
@@ -119,11 +119,29 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="de"/>
+        <language ident="en"/>
       </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <orgName><rs type="org" ref="#amp_organization_70">Post office Kirchstetten</rs></orgName>
+          <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
+          <date notBefore-iso="1966-06-29T17:00:01+01:00" notAfter-iso="1966-06-29T18:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="transmitted">
+          <orgName><rs type="org" ref="#amp_organization_91">District post office Brigittenau</rs></orgName>
+          <placeName><rs type="place" ref="#amp_place_id_1">Vienna</rs></placeName>
+          <date notBefore-iso="1966-06-30T07:00:01+01:00" notAfter-iso="1966-06-30T08:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_107">Kurka, Hugo</persName>
+          <placeName><rs type="place" ref="#amp_place_id_356">Adalbert-Stifter-Straße 22</rs></placeName>
+        </correspAction>
+      </correspDesc>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2024-08-29">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2024-08-29">TEI/XML template populated with csv2xml.py; physDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2024-08-30">Text transcribed; correspDesc populated; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -142,12 +160,29 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0009" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0009" xml:lang="de">
+        <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00033/" ed="1r" type="envelope"/>
+          <ab hand="#hand_blue_auden">
+            <del rend="overstrike" hand="#hand_blue_auden"><hi rend="underline" hand="#hand_blue_auden">mit Luft<unclear>-</unclear>Post</hi></del>
+          </ab>
+          <ab hand="#hand_blue_auden">
+            <hi rend="underline" hand="#hand_blue_auden">Eil Post</hi>
+          </ab>
+          <ab hand="#hand_blue_auden">
+            <lb/><rs type="person" ref="#amp_person_107">Herrn
+              <lb/>Hugo Kurka</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
+                <lb/>A<unclear>d</unclear>albert Stiftergasse 22/28<unclear>.</unclear></rs>
+            </address>   
+          </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00034/" ed="1v" type="envelope"/>
+        </div>
+        <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00035/" ed="2r" type="sheet"/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00036/" ed="2v" type="sheet"/>
+        </div>
       </div>
     </body>
   </text>

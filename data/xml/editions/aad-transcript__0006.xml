@@ -156,7 +156,7 @@
         <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00021/" ed="1r" type="envelope"/>
           <ab hand="#hand_blue_auden">
-            <hi rend="underline">Expre<unclear>s</unclear>s</hi>
+            <hi rend="underline" hand="#hand_blue_auden">Expre<unclear>s</unclear>s</hi>
           </ab>
           <ab hand="#hand_blue_auden">
             <lb/><rs type="person" ref="#amp_person_107">He<unclear>r</unclear>r
@@ -198,7 +198,7 @@
               </salute>
             </opener>
             <p>
-              <lb/>Komme <hi rend="underline">Mittwoch </hi>
+              <lb/>Komme <hi rend="underline" hand="#hand_blue_auden">Mittwoch </hi>
             </p>
             <closer>
               <salute>

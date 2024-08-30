@@ -161,7 +161,7 @@
         <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00025/" ed="1r" type="envelope"/>
           <ab hand="#hand_blue_auden">
-            E<hi rend="underline">il-Post</hi>
+            E<hi rend="underline" hand="#hand_blue_auden">il-Post</hi>
           </ab>
           <ab hand="#hand_blue_auden">
             <lb/><rs type="person" ref="#amp_person_107">Herrn
@@ -211,7 +211,7 @@
               <lb/>das ich Freitag kommen kann.
             </p>
             <p>
-              <lb/>Wenn es <hi rend="underline">nicht</hi> so ist, <del rend="overstrike" hand="#hand_blue_auden"><unclear>s</unclear>chic<unclear>k</unclear> </del>schicke
+              <lb/>Wenn es <hi rend="underline" hand="#hand_blue_auden">nicht</hi> so ist, <del rend="overstrike" hand="#hand_blue_auden"><unclear>s</unclear>chic<unclear>k</unclear> </del>schicke
               <lb/><unclear>D</unclear>ich ein Telegra<unclear>m</unclear>. Sonst komm ich .
             </p>
             <closer>
