@@ -158,7 +158,7 @@
         <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00029/" ed="1r" type="envelope"/>
           <ab>
-            <lb/>m<hi rend="underline" hand="#hand_blue_auden">it Luft-Post </hi>
+            <lb/>m<hi rend="underline" hand="#hand_blue_auden">it Luft-Post</hi>
           </ab>
           <ab>
             <lb/><rs type="person" ref="#amp_person_107">Herrn
