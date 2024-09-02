@@ -1,4 +1,4 @@
-import csv  # import csv model
+import csv  # import csv module
 from lxml import etree  # import etree functionality from lxml library
 from datetime import date  # import date functionality from datetime module
 
