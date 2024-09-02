@@ -171,7 +171,7 @@
           <ab hand="#hand_blue_auden">
             <lb/><rs type="person" ref="#amp_person_240">Frau Hugo Kurka</rs>
             <address>
-              <lb/><rs type="place" ref="#amp_place_id_356"><add place="inline" hand="#hand_blue_unident_0010">1200</add> Wien XX
+              <lb/><rs type="place" ref="#amp_place_id_356"><add place="inline" hand="#hand_blue_unident_0010">1200<space unit="char" quantity="1"/></add>Wien XX
               <lb/>Adalbert Stiftergasse
               <lb/>22/28<unclear>-</unclear></rs>
             </address>   
@@ -211,7 +211,7 @@
             </opener>
             <p>
               <lb/>Es <del rend="overstrike" hand="#hand_blue_auden"><unclear>it</unclear></del>ist so schwer <del rend="overstrike" hand="#hand_blue_auden">ein</del> von eines
-              <lb/>Geschenk zu denken dass Du und Hugo
+              <lb/>Geschenk zu denken dass Du und H<unclear>u</unclear>go
               <lb/>w<unclear>irt</unclear>lich nutzen können.
             </p>
             <p>
@@ -220,7 +220,7 @@
             </p>
             <closer>
               <signed>
-                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs> <unclear>a</unclear>nd <rs type="person" ref="#amp_person_4">Chester</rs><unclear>-</unclear>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs> <unclear>a</unclear>nd <rs type="person" ref="#amp_person_4">Chester</rs><unclear>&#x60;</unclear>
               </signed>
             </closer>
           </div>
