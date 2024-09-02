@@ -25,7 +25,7 @@
         <edition>
           <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1966-06-29</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_051">
               <desc/>
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -208,7 +208,7 @@
             </opener>
             <p>
               <lb/>Über Samstag<unclear>,</unclear>
-              <lb/><rs type="person" ref="#amp_person_1 #amp_person_4" cert="low" resp="#tfruehwirth">Wir</rs> kom<unclear>m</unclear>en an <rs type="place" ref="#amp_place_id_47">Neulengbach</rs> (<hi rend="underline" hand="#hand_blue_auden">nicht</hi> <rs type="place" ref="#amp_place_id_47">Neulengbach</rs>-Markt)
+              <lb/><rs type="person" ref="#amp_person_1 #amp_person_4" ana="#ana_051">Wir</rs> kom<unclear>m</unclear>en an <rs type="place" ref="#amp_place_id_47">Neulengbach</rs> (<hi rend="underline" hand="#hand_blue_auden">nicht</hi> <rs type="place" ref="#amp_place_id_47">Neulengbach</rs>-Markt)
               <lb/>a<unclear>m</unclear> 17·21<unclear>,</unclear> Es ist <del rend="overstrike" hand="#hand_blue_auden">l<unclear>ue</unclear></del> leichter für Dich da zu
               <lb/>parken und es ist näher zu d<unclear>en</unclear> strasse nach <rs type="place" ref="#amp_place_id_357">Tulln</rs>.
             </p>
