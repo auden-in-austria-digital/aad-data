@@ -161,7 +161,7 @@
         <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00025/" ed="1r" type="envelope"/>
           <ab hand="#hand_blue_auden">
-            E<hi rend="underline" hand="#hand_blue_auden">il-Post</hi>
+            <lb/>E<hi rend="underline" hand="#hand_blue_auden">il-Post</hi>
           </ab>
           <ab hand="#hand_blue_auden">
             <lb/><rs type="person" ref="#amp_person_107">Herrn

@@ -164,13 +164,13 @@
         <div type="envelope" hand="#hand_blue_auden">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00033/" ed="1r" type="envelope"/>
           <ab>
-            <del rend="overstrike" hand="#hand_blue_auden"><hi rend="underline" hand="#hand_blue_auden">mit Luft<unclear>-</unclear>Post</hi></del>
+            <lb/><del rend="overstrike" hand="#hand_blue_auden"><hi rend="underline" hand="#hand_blue_auden">mit Luft<unclear>-</unclear>Post</hi></del>
           </ab>
           <ab>
-            <hi rend="underline" hand="#hand_blue_auden">Eil Post</hi>
+            <lb/><hi rend="underline" hand="#hand_blue_auden">Eil Post</hi>
           </ab>
           <ab>
-            <del rend="overlaid">3</del><unclear>'</unclear>&#x2014;
+            <lb/><del rend="overlaid">3</del><unclear>'</unclear>&#x2014;
           </ab>
           <ab>
             <lb/><rs type="person" ref="#amp_person_107">Herrn
