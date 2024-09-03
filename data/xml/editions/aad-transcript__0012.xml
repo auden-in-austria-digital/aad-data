@@ -25,7 +25,7 @@
         <edition>
           <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1964-11-08</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_052">
               <desc/>
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -212,10 +212,10 @@
               </salute>
             </opener>
             <p>
-              <lb/>Vielen Dank für deinen Brief. Von Chester
-              <lb/>habe ich<add place="above" hand="#hand_blue_auden"><space unit="char" quantity="1"/>noch</add> nicht gehört. Auf jedenfals müssen sie
-              <lb/>beide nach Berlin am Weinachten kommen wenn<del rend="overstrike" hand="#hand_blue_auden">e</del> es
-              <lb/>ihnen möglich ist. Wenn Chester und Kosta auch hier
+              <lb/>Vielen Dank für deinen Brief. Von <rs type="person" ref="#amp_person_4">Chester</rs>
+              <lb/>habe ich<add place="above" hand="#hand_blue_auden"><space unit="char" quantity="1"/>noch</add> nicht gehört. Auf jedenfals müssen <rs type="person" ref="#amp_person_107 #amp_person_240" ana="#ana_052">sie
+              <lb/>beide</rs> nach <rs type="place" ref="#amp_place_id_17">Berlin</rs> am Weinachten kommen wenn<del rend="overstrike" hand="#hand_blue_auden">e</del> es
+              <lb/>ihnen möglich ist. Wenn <rs type="person" ref="#amp_person_4">Chester</rs> und Kosta auch hier
               <lb/>sind, dann f<unclear>in</unclear>de ich e<unclear>i</unclear>n Hotel fur ihnen, natürlich
               <lb/>auf meine<add place="inline" hand="#hand_blue_auden"><unclear>n</unclear></add><del rend="overstrike" hand="#hand_blue_auden">Kostung</del> Kosten.
             </p>
