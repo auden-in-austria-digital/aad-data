@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0012" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1964-11-08</title>
+        <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1964-11-08</title>
+          <interpGrp>
+            <interp>
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <repository ref="https://d-nb.info/gnd/1108283586">State Collections of Lower Austria</repository>
+                <collection>W. H. Auden Collection</collection>
+                <idno>Correspondence Hugo Kurka 012</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00047/ https://iiif.acdh.oeaw.ac.at/aad/aad_00048/">NEUSIEDLER JAPAN POST</watermark>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00045/">
+                        <width>162</width>
+                        <height>114</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00046/">
+                        <width>162</width>
+                        <height>114</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00047/">
+                        <width>210</width>
+                        <height>298</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00048/">
+                        <width>210</width>
+                        <height>298</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="print_black_auden" scribeRef="#amp_person_1" medium="print-black">Preprinted writing in black authored by W. H. Auden, sans-serif Grotesque-family typeface</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1964-11-08T00:00:00+01:00" notAfter-iso="1964-11-08T23:59:59+01:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4005728-8">Berlin</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de"/>
+        <language ident="en"/>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <orgName><rs type="org" ref="#amp_organization_79">Post office Berlin 11</rs></orgName>
+          <placeName><rs type="place" ref="#amp_place_id_17">Berlin</rs></placeName>
+          <date notBefore-iso="1964-11-10T13:00:01+01:00" notAfter-iso="1964-11-10T14:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_107">Kurka, Hugo</persName>
+          <placeName><rs type="place" ref="#amp_place_id_356">Adalbert-Stifter-Straße 22</rs></placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#tfruehwirth" when-iso="2024-09-03">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2024-09-03">Text transcribed; physDesc and correspDesc populated; hands, languages, correspondence container structure, and entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="2776" lry="2044">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00045/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="2774" lry="2044">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00046/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3530" lry="4946">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00047/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3532" lry="4948">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00048/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0012" xml:lang="de">
+        <div type="envelope">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00045/" ed="1r" type="envelope"/>
+          <ab hand="#hand_blue_auden">
+            <lb/>mi<hi rend="underline" hand="#hand_blue_auden"><unclear>t</unclear> Luft- Pos</hi>t
+          </ab>
+          <ab hand="#hand_blue_auden">
+            <lb/><rs type="person" ref="#amp_person_107">Herrn
+            <lb/>Hugo Kurka</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
+              <lb/>Adalbert Stiftergasse 22/28
+              <lb/>Österreich</rs>
+            </address>   
+          </ab>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00046/" ed="1v" type="envelope"/>
+          <ab hand="#print_black_auden">
+            <lb/><rs type="person" ref="#amp_person_1">W. H. AUDEN</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_2"><del rend="overstrike" hand="#hand_blue_auden">KIRCHSTETTEN (WESTBAHN)<space unit="char" quantity="1"/></del>
+              <lb/><del rend="overstrike" hand="#hand_blue_auden"><space unit="char" quantity="1"/>HINTERHOLZ 6<space unit="char" quantity="1"/></del>
+              <lb/>N<del rend="overstrike" hand="#hand_blue_auden">.-Ö., <foreign xml:lang="en">AUSTRIA</foreign><space unit="char" quantity="1"/></del></rs>
+              <seg hand="#hand_blue_auden">
+                <lb/><rs type="place" ref="#amp_place_id_19">Berl<unclear>i</unclear>n-Dahlem
+                <lb/>Hubertusbaderstrasse 43</rs>
+              </seg>
+            </address>
+          </ab>
+        </div>
+        <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00047/" ed="2r" type="sheet"/>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <opener>
+              <dateline>
+                <date>
+                  <lb/>Nov 8<hi rend="superscript">ten</hi>
+                </date>
+                <placeName>
+                  <seg hand="#print_black_auden">
+                    <address>
+                      <lb/><rs type="place" ref="#amp_place_id_2"><del rend="overstrike" hand="#hand_blue_auden">KIRCHSTETTEN (WESTBAHN)<space unit="char" quantity="1"/></del>
+                      <lb/><del rend="overstrike" hand="#hand_blue_auden">HINTERHOLZ 6<space unit="char" quantity="1"/></del>
+                      <lb/><del rend="overstrike" hand="#hand_blue_auden">N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign><space unit="char" quantity="1"/></del></rs>
+                      <seg hand="#hand_blue_auden">
+                        <lb/><rs type="place" ref="#amp_place_id_19">Berlin-<unclear>D</unclear>ahlem
+                        <lb/>Hubertusbaderstrasse 43</rs>
+                      </seg>
+                    </address>
+                  </seg>
+                </placeName>
+              </dateline>
+              <salute>
+                <lb/>Lieber <rs type="person" ref="#amp_person_107">Hugo</rs>:
+              </salute>
+            </opener>
+            <p>
+              <lb/>Vielen Dank für deinen Brief. Von Chester
+              <lb/>habe ich <add place="above" hand="#hand_blue_auden">noch<space unit="char" quantity="1"/></add>nicht gehört. Auf jedenfals müssen sie
+              <lb/>beide nach Berlin a<unclear>m</unclear> Weinachten kommen wenn<del rend="overstrike" hand="#hand_blue_auden">e</del> es
+              <lb/>ihnen möglich ist. Wenn Chester und Kosta auch hier
+              <lb/>sind, dann finde ich ein Hotel fur ihnen, natürlich
+              <lb/>auf meine<unclear>n</unclear> <del rend="overstrike" hand="#hand_blue_auden">Kostung</del> Kosten.
+            </p>
+            <p>
+              <lb/>Bitte, lass mich wissen von wann bis wann Du
+              <lb/>U<unclear>r</unclear>l<unclear>a</unclear>ub hast.
+            </p>
+            <closer>
+              <salute>
+                <lb/>Immer dein Freund
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
+              </signed>
+            </closer>
+          </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00048/" ed="2v" type="sheet"/>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
