@@ -1,4 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0012" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
   <teiHeader>
     <fileDesc>
@@ -121,7 +124,7 @@
       </langUsage>
       <correspDesc>
         <correspAction type="sent">
-          <orgName><rs type="org" ref="#amp_organization_79">Post office Berlin 11</rs></orgName>
+          <orgName><rs type="org" ref="#amp_organization_78">Post office Berlin 33</rs></orgName>
           <placeName><rs type="place" ref="#amp_place_id_17">Berlin</rs></placeName>
           <date notBefore-iso="1964-11-10T13:00:01+01:00" notAfter-iso="1964-11-10T14:00:00+01:00"/>
         </correspAction>
@@ -156,7 +159,7 @@
         <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00045/" ed="1r" type="envelope"/>
           <ab hand="#hand_blue_auden">
-            <lb/>mi<hi rend="underline" hand="#hand_blue_auden"><unclear>t</unclear> Luft- Pos</hi>t
+            <lb/>m<unclear>i</unclear><hi rend="underline" hand="#hand_blue_auden"><unclear>t L</unclear>uft- Pos</hi>t
           </ab>
           <ab hand="#hand_blue_auden">
             <lb/><rs type="person" ref="#amp_person_107">Herrn
@@ -174,11 +177,13 @@
               <lb/><rs type="place" ref="#amp_place_id_2"><del rend="overstrike" hand="#hand_blue_auden">KIRCHSTETTEN (WESTBAHN)<space unit="char" quantity="1"/></del>
               <lb/><del rend="overstrike" hand="#hand_blue_auden"><space unit="char" quantity="1"/>HINTERHOLZ 6<space unit="char" quantity="1"/></del>
               <lb/>N<del rend="overstrike" hand="#hand_blue_auden">.-Ö., <foreign xml:lang="en">AUSTRIA</foreign><space unit="char" quantity="1"/></del></rs>
-              <seg hand="#hand_blue_auden">
-                <lb/><rs type="place" ref="#amp_place_id_19">Berl<unclear>i</unclear>n-Dahlem
-                <lb/>Hubertusbaderstrasse 43</rs>
-              </seg>
             </address>
+            <seg hand="#hand_blue_auden">
+              <address>
+                <lb/><rs type="place" ref="#amp_place_id_19">Berl<unclear>in</unclear>-Dahlem
+                <lb/>Hubertusbaderstrasse 43</rs>
+              </address>
+            </seg>
           </ab>
         </div>
         <div type="letter">
@@ -195,11 +200,13 @@
                       <lb/><rs type="place" ref="#amp_place_id_2"><del rend="overstrike" hand="#hand_blue_auden">KIRCHSTETTEN (WESTBAHN)<space unit="char" quantity="1"/></del>
                       <lb/><del rend="overstrike" hand="#hand_blue_auden">HINTERHOLZ 6<space unit="char" quantity="1"/></del>
                       <lb/><del rend="overstrike" hand="#hand_blue_auden">N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign><space unit="char" quantity="1"/></del></rs>
-                      <seg hand="#hand_blue_auden">
+                    </address>
+                    <seg hand="#hand_blue_auden">
+                      <address>
                         <lb/><rs type="place" ref="#amp_place_id_19">Berlin-<unclear>D</unclear>ahlem
                         <lb/>Hubertusbaderstrasse 43</rs>
-                      </seg>
-                    </address>
+                      </address>
+                    </seg>
                   </seg>
                 </placeName>
               </dateline>
@@ -209,11 +216,11 @@
             </opener>
             <p>
               <lb/>Vielen Dank für deinen Brief. Von Chester
-              <lb/>habe ich <add place="above" hand="#hand_blue_auden">noch<space unit="char" quantity="1"/></add>nicht gehört. Auf jedenfals müssen sie
-              <lb/>beide nach Berlin a<unclear>m</unclear> Weinachten kommen wenn<del rend="overstrike" hand="#hand_blue_auden">e</del> es
+              <lb/>habe ich<add place="above" hand="#hand_blue_auden"><space unit="char" quantity="1"/>noch</add> nicht gehört. Auf jedenfals müssen sie
+              <lb/>beide nach Berlin am Weinachten kommen wenn<del rend="overstrike" hand="#hand_blue_auden">e</del> es
               <lb/>ihnen möglich ist. Wenn Chester und Kosta auch hier
-              <lb/>sind, dann finde ich ein Hotel fur ihnen, natürlich
-              <lb/>auf meine<unclear>n</unclear> <del rend="overstrike" hand="#hand_blue_auden">Kostung</del> Kosten.
+              <lb/>sind, dann f<unclear>in</unclear>de ich e<unclear>i</unclear>n Hotel fur ihnen, natürlich
+              <lb/>auf meine<add place="inline" hand="#hand_blue_auden"><unclear>n</unclear></add><del rend="overstrike" hand="#hand_blue_auden">Kostung</del> Kosten.
             </p>
             <p>
               <lb/>Bitte, lass mich wissen von wann bis wann Du
@@ -221,7 +228,7 @@
             </p>
             <closer>
               <salute>
-                <lb/>Immer dein Freund
+                <lb/><unclear>i</unclear>mmer dein Freund
               </salute>
               <signed>
                 <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
