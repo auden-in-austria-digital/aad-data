@@ -168,7 +168,7 @@
             <lb/><rs type="person" ref="#amp_person_107">Herr
             <lb/>Hugo Kurka</rs>
             <address>
-              <lb/><rs type="place" ref="#amp_place_id_356"><add place="inline" hand="#hand_blue_unident_0013">1200<space unit="char" quantity="1"/></add>Wien XX
+              <lb/><rs type="place" ref="#amp_place_id_356"><add place="inline" hand="#hand_blue_unident_0013"><hi rend="underline" hand="#hand_blue_unident_0013">120</hi>0<space unit="char" quantity="1"/></add>Wien XX
               <lb/>Adalbert Stiftergasse
               <lb/>22/28<unclear>,</unclear></rs>
             </address>   
@@ -219,7 +219,7 @@
             </p>
             <closer>
               <salute>
-                dein Freund
+                <lb/>dein Freund
               </salute>
               <signed>
                 <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
