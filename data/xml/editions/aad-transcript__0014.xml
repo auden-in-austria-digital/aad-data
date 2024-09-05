@@ -132,8 +132,8 @@
       </correspDesc>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2024-09-04">TEI/XML template populated with csv2xml.py</change>
-      <change who="#tfruehwirth" when-iso="2024-09-05">Text transcribed; correspDesc populated; hands, languages, correspondence container structure, and entities marked up</change>
+      <change who="#tfruehwirth" when-iso="2024-09-04">TEI/XML template populated with csv2xml.py; correspDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2024-09-05">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -152,13 +152,76 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0014" xml:lang="">
+      <div type="transcription" xml:id="transcription_aad_0014" xml:lang="de">
         <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00053/" ed="1r" type="envelope"/>
+          <ab hand="#hand_blue_auden">
+            <lb/><hi rend="underline" hand="#hand_blue_auden">mit Luft-Post<space unit="char" quantity="1"/></hi>
+          </ab>
+          <ab hand="#hand_blue_auden">
+            <lb/><rs type="person" ref="#amp_person_107">Hern
+            <lb/>Hugo Kurka</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
+              <lb/>Adalbert Stiftergasse <del rend="overstrike" hand="#hand_blue_auden">4</del>
+              <lb/>22/28
+              <lb/>Österreich</rs>
+            </address>   
+          </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00054/" ed="1v" type="envelope"/>
+          <ab hand="#print_black_auden">
+            <lb/><rs type="person" ref="#amp_person_1">W. H. AUDEN</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_2">K<del rend="overstrike" hand="#hand_blue_auden">IRCHSTETTEN (WESTBAHN)<space unit="char" quantity="1"/></del>
+              <lb/><del rend="overstrike" hand="#hand_blue_auden">HINTERHOLZ 6<space unit="char" quantity="1"/></del>
+              <lb/>N<del rend="overstrike" hand="#hand_blue_auden">.-Ö., <foreign xml:lang="en">AUSTRIA</foreign><space unit="char" quantity="1"/></del></rs>
+            </address>
+            <seg hand="#hand_blue_auden">
+              <address>
+                <lb/><rs type="place" ref="#amp_place_id_19">Berlin-Dahlem
+                <lb/>Hubertusbaderstrasse 43</rs>
+              </address>
+            </seg>
+          </ab>
         </div>
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00055/" ed="2r" type="sheet"/>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <opener>
+              <dateline>
+                <date>
+                  <lb/>Dec 8<unclear>'</unclear><hi rend="superscript">th</hi>
+                </date>
+                <placeName>
+                  <address>
+                    <lb/><rs type="place" ref="#amp_place_id_19"><subst><del rend="overwritten" hand="#hand_blue_auden"><unclear>D</unclear></del><add place="superimposed" hand="#hand_blue_auden">B</add></subst>erlin-Dahlem
+                    <lb/>Hubertusbaderstrasse 43</rs>
+                  </address>
+                </placeName>
+              </dateline>
+              <salute>
+                <lb/>Lieber <rs type="person" ref="#amp_person_107">Hugo</rs>:
+              </salute>
+            </opener>
+            <p>
+              <lb/>Best<unclear>e</unclear>n Dank für deiner Brief<unclear>,</unclear>
+              <lb/><rs type="person" ref="#amp_person_4">Chester</rs> kann nicht für Wei<unclear>n</unclear>achten
+              <lb/>kommen<unclear>:</unclear> also <rs type="person" ref="#amp_person_107 #amp_person_240" ana="#ana_052">sie</rs> können <rs type="place" ref="#amp_place_id_19">bei mir</rs>
+              <lb/>wohnen.
+            </p>
+            <p>
+              <lb/>Ich <del rend="overwritten" hand="#hand_blue_auden">in<unclear>t</unclear>e</del>werde am <rs type="org" ref="#amp_organization_92">Tempelhof</rs> sein
+              <lb/>24<hi rend="superscript">ten</hi> <rs type="person" ref="#amp_person_107 #amp_person_240" ana="#ana_052">ihnen</rs> zu erwarten.
+            </p>
+            <closer>
+              <salute>
+                <lb/>Dein
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
+              </signed>
+            </closer>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00056/" ed="2v" type="sheet"/>
         </div>
       </div>
