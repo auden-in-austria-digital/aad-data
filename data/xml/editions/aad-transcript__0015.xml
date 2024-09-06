@@ -153,11 +153,70 @@
   <text>
     <body>
       <div type="transcription" xml:id="transcription_aad_0015" xml:lang="de">
-        <div/>
+        <div type="envelope" hand="#hand_blue_auden">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00057/" ed="1r" type="envelope"/>
+          <ab>
+            <lb/><rs type="person" ref="#amp_person_107">Her<unclear>rn</unclear>
+            <lb/>Hugo Kurka</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_356">Wien <del rend="overstrike" hand="#hand_blue_auden"><unclear>II</unclear></del>XX
+              <lb/>Adalbertstiftergasse
+              <lb/>22/28.</rs>
+            </address>   
+          </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00058/" ed="1v" type="envelope"/>
+          <ab>
+            <lb/><rs type="person" ref="#amp_person_1">W<unclear>.</unclear>H Auden</rs>
+            <seg hand="#print_black_auden">
+              <address>
+                <lb/><rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN (WESTBAHN)
+                <lb/>HINTERHOLZ 6
+                <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
+              </address>
+            </seg>
+          </ab>
+        </div>
+        <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00059/" ed="2r" type="sheet"/>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <opener>
+              <dateline>
+                <date>
+                  <lb/>Donnerstag.
+                </date>
+                <seg hand="#print_black_auden">
+                  <placeName>
+                    <address>
+                      <lb/><rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN (WESTBAHN)
+                      <lb/>HINTERHOLZ 6
+                      <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
+                    </address>
+                  </placeName>
+                </seg>
+              </dateline>
+              <salute>
+                <lb/>Lieber <rs type="person" ref="#amp_person_107">Hugo</rs>:
+              </salute>
+            </opener>
+            <p>
+              <lb/>Montag,leider,sind <rs type="person" ref="#amp_person_1 #amp_person_4">wir</rs> eingelad<unclear>e</unclear>t
+              <lb/>f<unclear>u</unclear>r Abendessen. Also ich komme Dienstag.
+            </p>
+            <p>
+              <lb/><rs type="person" ref="#amp_person_4">Chester</rs> ist <unclear>z</unclear>eit zw<unclear>e</unclear>i Ta<unclear>ge</unclear>
+              <lb/>zuruckgekommen.
+            </p>
+            <closer>
+              <salute>
+                <lb/>dein
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
+              </signed>
+            </closer>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00060/" ed="2v" type="sheet"/>
+        </div>
       </div>
     </body>
   </text>
