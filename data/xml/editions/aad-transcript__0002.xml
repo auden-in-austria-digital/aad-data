@@ -25,7 +25,7 @@
         <edition>
           <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1964-09-08</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_056">
               <desc/>
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -199,7 +199,7 @@
               </salute>
             </opener>
             <p>
-              <lb/>Heute kommen Gäste. Also, ich
+              <lb/>Heute kommen <rs type="person" ana="#ana_056">Gäste</rs>. Also, ich
               <lb/>komme Freitag.
             </p>
             <closer>
