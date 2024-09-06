@@ -199,7 +199,7 @@
               </salute>
             </opener>
             <p>
-              <lb/>Montag,leider,sind <rs type="person" ref="#amp_person_1 #amp_person_4">wir</rs> eingelad<unclear>e</unclear>t
+              <lb/>Montag,leider,sind <rs type="person" ref="#amp_person_1 #amp_person_4" cert="medium" resp="#tfruehwirth">wir</rs> eingelad<unclear>e</unclear>t
               <lb/>f<unclear>u</unclear>r Abendessen. Also ich komme Dienstag.
             </p>
             <p>
