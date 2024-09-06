@@ -30,6 +30,11 @@
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
             </interp>
+            <interp xml:id="ana_057">
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
           </interpGrp>
         </edition>
         <respStmt>
@@ -195,7 +200,7 @@
               </salute>
             </opener>
             <p>
-              <lb/>Gäste , Gäste ,Gäste ,&#x2013; und mein
+              <lb/><rs type="person" ana="#ana_057">Gäste , Gäste ,Gäste</rs> ,&#x2013; und mein
               <lb/>Erkältung !<unclear>,</unclear>
             </p>
             <p>
