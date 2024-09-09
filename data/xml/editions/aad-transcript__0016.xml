@@ -120,7 +120,7 @@
         <language ident="en"/>
       </langUsage>
       <correspDesc>
-        <correspAction type="sent">
+        <correspAction type="sent" subtype="express">
           <orgName><rs type="org" ref="#amp_organization_70">Post office Kirchstetten</rs></orgName>
           <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
           <date notBefore-iso="1968-08-26T16:00:01+01:00" notAfter-iso="1968-08-26T17:00:00+01:00"/>

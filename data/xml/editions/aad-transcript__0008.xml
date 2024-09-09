@@ -122,7 +122,7 @@
         <language ident="de"/>
       </langUsage>
       <correspDesc>
-        <correspAction type="sent">
+        <correspAction type="sent" subtype="airmail">
           <orgName><rs type="org" ref="#amp_organization_79">Post office Berlin 11</rs></orgName>
           <placeName><rs type="place" ref="#amp_place_id_17">Berlin</rs></placeName>
           <date notBefore-iso="1965-04-16T13:00:01+01:00" notAfter-iso="1965-04-16T14:00:00+01:00"/>
