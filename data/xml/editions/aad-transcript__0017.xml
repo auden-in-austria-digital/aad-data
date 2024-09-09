@@ -183,6 +183,46 @@
         </div>
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00067/" ed="2r" type="sheet"/>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <opener hand="#print_black_auden">
+              <dateline>
+                <seg hand="#hand_blue_auden">
+                  <date>
+                    <lb/>Montag.
+                  </date>
+                </seg>
+                <persName>
+                  <lb/><rs type="person" ref="#amp_person_1">W. H. AUDEN</rs>
+                </persName>
+                <placeName>
+                  <address>
+                    <lb/><rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN (WESTBAHN)
+                    <lb/>HINTERHOLZ 6
+                    <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
+                  </address>
+                </placeName>
+              </dateline>
+              <salute hand="#hand_blue_auden">
+                <lb/>Lieb<unclear>e</unclear> <rs type="person" ref="#amp_person_107">Hugo</rs>:
+              </salute>
+            </opener>
+            <p>
+              <lb/>ich sehe dass es zu unsicher ist <del rend="overstrike" hand="#hand_blue_auden">we<unclear>n</unclear>n</del> wenn
+              <lb/>und wann ich dies<unclear>e</unclear> Woche kommen kann.
+            </p>
+            <p>
+              <lb/>Also,wenn ich nicht anders schreiben,komme ich
+              <lb/>nä<unclear>c</unclear>hste Woche <unclear>a</unclear>m Dienstag.
+            </p>
+            <closer>
+              <salute>
+                <lb/>dein
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
+              </signed>
+            </closer>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00068/" ed="2v" type="sheet"/>
         </div>
       </div>
