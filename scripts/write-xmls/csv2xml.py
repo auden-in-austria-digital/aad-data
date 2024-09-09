@@ -1,4 +1,4 @@
-import csv  # import csv model
+import csv  # import csv module
 from lxml import etree  # import etree functionality from lxml library
 from datetime import date  # import date functionality from datetime module
 
@@ -105,6 +105,11 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
             tei_objectdesc = etree.SubElement(tei_physdesc, 'objectDesc')
             tei_supportdesc = etree.SubElement(tei_objectdesc, 'supportDesc')
             tei_support = etree.SubElement(tei_supportdesc, 'support')
+            tei_watermark = etree.SubElement(tei_support, 'watermark')
+            tei_handdesc = etree.SubElement(tei_physdesc, 'handDesc')
+            tei_handnote = etree.SubElement(tei_handdesc, 'handNote')
+            tei_typedesc = etree.SubElement(tei_physdesc, 'typeDesc')
+            tei_typenote = etree.SubElement(tei_typedesc, 'typeNote')
             tei_history = etree.SubElement(tei_msdesc, 'history')
             tei_origin = etree.SubElement(tei_history, 'origin')
             tei_origdate = etree.SubElement(tei_origin, 'origDate')
@@ -142,7 +147,7 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
             docs_list.append(row['doc'])  # append current document ID to list of document IDs
 
         # target row-specific data
-        img_url = f"https://iiif.acdh.oeaw.ac.at/aad/aad_{row['img']}"
+        img_url = f"https://iiif.acdh.oeaw.ac.at/aad/aad_{row['img']}/"
         tei_dimensions = etree.SubElement(tei_support, 'dimensions', unit="mm", facs=img_url) # add elements in teiHeader node
         tei_width = etree.SubElement(tei_dimensions, 'width')
         tei_width.text = row['width']
