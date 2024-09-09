@@ -25,7 +25,7 @@
         <edition>
           <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1964-06-25</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_058">
               <desc/>
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -199,7 +199,7 @@
               </salute>
             </opener>
             <p>
-              <lb/>Montag,leider,sind <rs type="person" ref="#amp_person_1 #amp_person_4" cert="medium" resp="#tfruehwirth">wir</rs> eingelad<unclear>e</unclear>t
+              <lb/>Montag,leider,sind <rs type="person" ref="#amp_person_1 #amp_person_4" ana="#ana_058">wir</rs> eingelad<unclear>e</unclear>t
               <lb/>f<unclear>u</unclear>r Abendessen. Also ich komme Dienstag.
             </p>
             <p>
