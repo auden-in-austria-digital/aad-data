@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0017" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1965-08-16</title>
+        <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1965-08-16</title>
+          <interpGrp>
+            <interp>
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <repository ref="https://d-nb.info/gnd/1108283586">State Collections of Lower Austria</repository>
+                <collection>W. H. Auden Collection</collection>
+                <idno>Correspondence Hugo Kurka 017</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00067/ https://iiif.acdh.oeaw.ac.at/aad/aad_00068/">Myrtle Mill</watermark>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00065/">
+                        <width>162</width>
+                        <height>114</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00066/">
+                        <width>162</width>
+                        <height>114</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00067/">
+                        <width>210</width>
+                        <height>298</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00068/">
+                        <width>210</width>
+                        <height>298</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="print_black_auden" scribeRef="#amp_person_1" medium="print-black">Preprinted writing in black authored by W. H. Auden, sans-serif Grotesque-family typeface</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1965-08-16T00:00:00+01:00" notAfter-iso="1965-08-16T18:00:00+01:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4801892-2">Kirchstetten</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de"/>
+        <language ident="en"/>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent" subtype="express">
+          <orgName><rs type="org" ref="#amp_organization_70">Post office Kirchstetten</rs></orgName>
+          <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
+          <date notBefore-iso="1965-08-16T17:00:01+01:00" notAfter-iso="1965-08-16T18:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="transmitted">
+          <orgName><rs type="org" ref="#amp_organization_91">District post office Brigittenau</rs></orgName>
+          <placeName><rs type="place" ref="#amp_place_id_1">Vienna</rs></placeName>
+          <date notBefore-iso="1965-08-17T06:00:01+01:00" notAfter-iso="1965-08-17T07:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_107">Kurka, Hugo</persName>
+          <placeName><rs type="place" ref="#amp_place_id_356">Adalbert-Stifter-Straße 22</rs></placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#tfruehwirth" when-iso="2024-09-09">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2024-09-09">Text transcribed; physDesc and correspDesc populated; hands, languages, correspondence container structure, and entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="2784" lry="2048">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00065/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="2782" lry="2048">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00066/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3536" lry="4944">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00067/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3542" lry="4938">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00068/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0017" xml:lang="de">
+        <div type="envelope">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00065/" ed="1r" type="envelope"/>
+          <ab hand="#hand_blue_auden">
+            <lb/><hi rend="underline" hand="#hand_blue_auden">Eil Pos</hi>t
+          </ab>
+          <ab hand="#hand_blue_auden">
+            <lb/><rs type="person" ref="#amp_person_107">Herr<unclear>n</unclear>
+            <lb/>Hugo Kurka</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
+              <lb/>Adalbert Stiftergasse 22/28</rs>
+            </address>   
+          </ab>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00066/" ed="1v" type="envelope"/>
+          <ab hand="#print_black_auden">
+            <lb/><rs type="person" ref="#amp_person_1">W. H. AUDEN</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN (WESTBAHN)
+              <lb/>HINTERHOLZ 6
+              <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
+            </address>
+          </ab>
+        </div>
+        <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00067/" ed="2r" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00068/" ed="2v" type="sheet"/>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
