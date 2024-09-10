@@ -25,6 +25,9 @@ jobs:
         steps:
             - name: Checkout repository
               uses: actions/checkout@v4
+
+            - name: List files (debugging step)
+              run: ls -R  # List all files and directories recursively
           
             - name: Set up Python
               uses: actions/setup-python@v2
