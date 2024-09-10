@@ -137,7 +137,7 @@
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2024-09-10">TEI/XML template populated with csv2xml.py</change>
-      <change who="#tfruehwirth" when-iso="2024-08-20">Text transcribed; physDesc and correspDesc populated; hands, languages, correspondence container structure, and entities marked up</change>
+      <change who="#tfruehwirth" when-iso="2024-09-10">Text transcribed; physDesc and correspDesc populated; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -203,10 +203,10 @@
             </p>
             <p>
               <lb/><subst><del rend="overstrike" hand="#hand_blue_auden">Gebe</del><add place="above">Gib</add></subst> m<unclear>e</unclear>i<unclear>n</unclear> Scheck an den Autohandl<unclear>e</unclear>r
-              <lb/>und warte <unclear>b</unclear>is es durchgekommen ist<unclear>,</unclear>
+              <lb/>und warte bis es durchgekommen ist.
             </p>
             <p>
-              <lb/>Zwölf Tage ist nicht lang.
+              <lb/>Zwölf Tage ist nicht lang<unclear>,</unclear>
             </p>
             <closer>
               <salute>
