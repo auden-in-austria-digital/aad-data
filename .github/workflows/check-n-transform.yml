@@ -26,10 +26,6 @@ jobs:
         - name: Checkout repository
           uses: actions/checkout@v4
 
-        # List all files and directories to confirm structure
-        - name: List files (debugging step)
-          run: ls -R  # List all files and directories recursively
-
         # Change directory to the root of the repository just in case
         - name: Change to repo root (debugging step)
           run: cd ${{ github.workspace }} && pwd && ls
@@ -49,11 +45,6 @@ jobs:
           run: |
             cd metadata/ipynb
             jupyter nbconvert --to notebook --execute output_doc_id.ipynb --output output_doc_id.ipynb
-
-        # Check if the notebook has changes
-        - name: Check if notebook has changes
-          id: check_changes
-          run: git diff --exit-code metadata/ipynb/output_doc_id.ipynb || echo "Notebook changed"
 
         # Commit the changes only if there are any
         - name: Commit ipynb update
