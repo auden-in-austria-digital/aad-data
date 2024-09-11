@@ -17,50 +17,16 @@ jobs:
               uses: stefanzweifel/git-auto-commit-action@v5
               with:
                 commit_message: output csv written
-
-    update-notebook:
-      needs: transform-csv  # Ensure this job only runs after 'transform-csv' completes successfully
-      runs-on: ubuntu-latest
-
-      steps:
-        - name: Checkout repository
-          uses: actions/checkout@v4
-          with:
-            fetch-depth: 0  # Fetch full history to prevent merge conflicts
-
-        # List all files and directories to confirm structure
-        - name: List files (debugging step)
-          run: ls -R  # List all files and directories recursively
-
-        # Change directory to the root of the repository just in case
-        - name: Change to repo root (debugging step)
-          run: cd ${{ github.workspace }} && pwd && ls
-
-        - name: Set up Python
-          uses: actions/setup-python@v2
-          with:
-            python-version: '3.10'
-
-        - name: Install dependencies
-          run: |
-            python -m pip install --upgrade pip
-            pip install pandas jupyter matplotlib
-
-        # Run the Jupyter notebook
-        - name: Run Jupyter Notebook
-          run: |
-            cd metadata/ipynb
-            jupyter nbconvert --to notebook --execute output_doc_id.ipynb --output output_doc_id.ipynb
-
-        # Check for changes and display status
-        - name: Check for changes
-          run: |
-            git status
-            git diff
-
-        # Commit the changes only if there are any
-        - name: Commit ipynb update
-          uses: stefanzweifel/git-auto-commit-action@v5
-          with:
-            commit_message: "ipynb updated"
-            file_pattern: metadata/ipynb/output_doc_id.ipynb  # Commit only the notebook file
+    update-jupyter-notebook:
+        runs-on: ubuntu-latest
+        steps:
+            - name: perform checkout
+              uses: actions/checkout@v4
+            - name: install nbconvert and jupyter dependencies
+              run: pip install -r scripts/update-ipynb/requirements.txt
+            - name: update notebook
+              run: python scripts/update-ipynb/update-ipynb.py
+            - name: commit tmp xmls
+              uses: stefanzweifel/git-auto-commit-action@v5
+              with:
+                commit_message: notebook updated
