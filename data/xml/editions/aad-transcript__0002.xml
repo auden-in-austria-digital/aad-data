@@ -156,7 +156,7 @@
         <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00005/" ed="1r" type="envelope"/>
           <ab hand="#hand_blue_auden">
-            <lb/><rs type="person" ref="#amp_person_107">Her<unclear>r</unclear>n
+            <lb/><rs type="person" ref="#amp_person_107">Her<unclear>rn</unclear>
             <lb/>Hugo Kurka</rs>
             <address>
               <lb/><rs type="place" ref="#amp_place_id_356">Wien XX

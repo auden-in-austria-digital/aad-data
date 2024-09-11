@@ -1,0 +1,19 @@
+name: update-notebook
+
+on:
+    workflow_dispatch:
+
+jobs:
+    update-jupyter-notebook:
+        runs-on: ubuntu-latest
+        steps:
+            - name: perform checkout
+              uses: actions/checkout@v4
+            - name: install dependencies
+              run: pip install -r scripts/update-ipynb/requirements.txt
+            - name: update notebook
+              run: python scripts/update-ipynb/update-ipynb.py
+            - name: commit updated notebook
+              uses: stefanzweifel/git-auto-commit-action@v5
+              with:
+                commit_message: notebook updated
