@@ -25,6 +25,12 @@ jobs:
       steps:
         - name: Checkout repository
           uses: actions/checkout@v4
+          with:
+            fetch-depth: 0  # Fetch the full history to prevent merge conflicts
+
+        # List all files and directories to confirm structure
+        - name: List files (debugging step)
+          run: ls -R  # List all files and directories recursively
 
         # Change directory to the root of the repository just in case
         - name: Change to repo root (debugging step)
@@ -45,6 +51,11 @@ jobs:
           run: |
             cd metadata/ipynb
             jupyter nbconvert --to notebook --execute output_doc_id.ipynb --output output_doc_id.ipynb
+
+                # Pull latest changes from the remote branch
+        - name: Pull latest changes
+          run: git pull origin dev
+
 
         # Commit the changes only if there are any
         - name: Commit ipynb update
