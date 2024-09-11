@@ -26,7 +26,7 @@ jobs:
         - name: Checkout repository
           uses: actions/checkout@v4
           with:
-            fetch-depth: 0  # Fetch the full history to prevent merge conflicts
+            fetch-depth: 0  # Fetch full history to prevent merge conflicts
 
         # List all files and directories to confirm structure
         - name: List files (debugging step)
@@ -52,8 +52,15 @@ jobs:
             cd metadata/ipynb
             jupyter nbconvert --to notebook --execute output_doc_id.ipynb --output output_doc_id.ipynb
 
+        # Check for changes and display status
+        - name: Check for changes
+          run: |
+            git status
+            git diff
+
         # Commit the changes only if there are any
         - name: Commit ipynb update
           uses: stefanzweifel/git-auto-commit-action@v5
           with:
             commit_message: "ipynb updated"
+            file_pattern: metadata/ipynb/output_doc_id.ipynb  # Commit only the notebook file
