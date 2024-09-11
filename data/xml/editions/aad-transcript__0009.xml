@@ -93,6 +93,7 @@
                 </objectDesc>
                 <handDesc>
                   <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
+                  <handNote xml:id="hand_blue_unident_0009" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
                   <typeNote xml:id="print_black_auden" scribeRef="#amp_person_1" medium="print-black">Preprinted writing in black authored by W. H. Auden, sans-serif Grotesque-family typeface</typeNote>
@@ -162,18 +163,18 @@
   <text>
     <body>
       <div type="transcription" xml:id="transcription_aad_0009" xml:lang="de">
-        <div type="envelope" hand="#hand_blue_auden">
+        <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00033/" ed="1r" type="envelope"/>
-          <ab>
+          <ab hand="#hand_blue_auden">
             <lb/><del rend="overstrike" hand="#hand_blue_auden"><hi rend="underline" hand="#hand_blue_auden">mit Luft<unclear>-</unclear>Post<space unit="char" quantity="1"/></hi></del>
           </ab>
-          <ab>
+          <ab hand="#hand_blue_auden">
             <lb/><hi rend="underline" hand="#hand_blue_auden">Eil Post</hi>
           </ab>
-          <ab>
+          <ab hand="#hand_blue_unident_0009">
             <lb/><del rend="overlaid">3</del><unclear>'</unclear>&#x2014;
           </ab>
-          <ab>
+          <ab hand="#hand_blue_auden">
             <lb/><rs type="person" ref="#amp_person_107">Herrn
             <lb/>Hugo Kurka</rs>
             <address>
