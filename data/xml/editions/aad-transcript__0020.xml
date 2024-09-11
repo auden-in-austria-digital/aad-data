@@ -162,10 +162,69 @@
       <div type="transcription" xml:id="transcription_aad_0020" xml:lang="de">
         <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00077/" ed="1r" type="envelope"/>
+          <ab hand="#hand_blue_auden">
+            <lb/>E<hi rend="underline" hand="#hand_blue_auden">il Po</hi>st
+          </ab>
+          <ab hand="#hand_blue_auden">
+            <lb/><rs type="person" ref="#amp_person_107">Herrn
+            <lb/>Hugo Kurka</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
+              <lb/>Adalbert Stifte<unclear>r</unclear>gasse 22/28.</rs>
+            </address>   
+          </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00078/" ed="1v" type="envelope"/>
+          <ab hand="#print_black_auden">
+            <lb/><rs type="person" ref="#amp_person_1">W. H. AUDEN</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN (WESTBAHN)
+              <lb/>HINTERHOLZ 6
+              <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
+            </address>
+          </ab>
         </div>
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00079/" ed="2r" type="sheet"/>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <opener hand="#print_black_auden">
+              <dateline>
+                <seg hand="#hand_blue_auden">
+                  <date>
+                    <lb/>Mittw<unclear>a</unclear>ch
+                  </date>
+                </seg>
+                <persName>
+                  <lb/><rs type="person" ref="#amp_person_1">W. H. AUDEN</rs>
+                </persName>
+                <placeName>
+                  <address>
+                    <lb/><rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN (WESTBAHN)
+                      <lb/>HINTERHOLZ 6
+                      <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
+                  </address>
+                </placeName>
+              </dateline>
+              <salute hand="#hand_blue_auden">
+                <lb/>Lieber <rs type="person" ref="#amp_person_107">Hugo</rs>:
+              </salute>
+            </opener>
+            <p>
+              <lb/>Leider,ich sehe dass es <del rend="overstrike" hand="#hand_blue_auden">we<unclear>r</unclear></del>soll
+              <lb/>unmöglich fur mich diese Woche nach
+              <lb/><rs type="place" ref="#amp_place_id_1">Wien</rs> zu kommen.
+            </p>
+            <p>
+              <lb/>Also, komme Montag<unclear>.</unclear>.
+            </p>
+            <closer>
+              <salute>
+                <lb/>Dein Freund
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
+              </signed>
+            </closer>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00080/" ed="2v" type="sheet"/>
         </div>
       </div>
