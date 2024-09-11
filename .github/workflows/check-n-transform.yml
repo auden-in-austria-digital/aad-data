@@ -17,30 +17,3 @@ jobs:
               uses: stefanzweifel/git-auto-commit-action@v5
               with:
                 commit_message: output csv written
-    update-jupyter-notebook:
-        needs: transform-csv
-        runs-on: ubuntu-latest
-        steps:
-            - name: sleep for 20s
-              uses: kibertoad/wait-action@1.0.1
-              with:
-                time: '20s'
-            - name: perform checkout
-              uses: actions/checkout@v4
-            - name: Set up Python 3.10
-              uses: actions/setup-python@v4
-              with:
-                python-version: '3.10'
-            - name: install nbconvert and jupyter dependencies
-              run: pip install -r scripts/update-ipynb/requirements.txt
-            - name: update notebook
-              run: python scripts/update-ipynb/update-ipynb.py
-            - name: Pull changes from remote
-              run: |
-                git fetch origin
-                git checkout dev
-                git pull origin dev
-            - name: commit tmp xmls
-              uses: stefanzweifel/git-auto-commit-action@v5
-              with:
-                commit_message: notebook updated
