@@ -1,4 +1,4 @@
-name: update-notebook
+name: update-ipynb
 
 on:
     workflow_dispatch:
