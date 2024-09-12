@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0009" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0021" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title level="s">Auden in Austria Digital (AAD)</title>
-        <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1966-06-29</title>
+        <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1964-09-16</title>
         <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
         <editor>
           <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
@@ -23,9 +23,9 @@
       </titleStmt>
       <editionStmt>
         <edition>
-          <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1966-06-29</title>
+          <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1964-09-16</title>
           <interpGrp>
-            <interp xml:id="ana_051">
+            <interp>
               <desc/>
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -62,38 +62,35 @@
               <msIdentifier>
                 <repository ref="https://d-nb.info/gnd/1108283586">State Collections of Lower Austria</repository>
                 <collection>W. H. Auden Collection</collection>
-                <idno>Correspondence Hugo Kurka 009</idno>
+                <idno>Correspondence Hugo Kurka 021</idno>
               </msIdentifier>
               <physDesc>
                 <objectDesc>
                   <supportDesc>
                     <support>
-                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00035/ https://iiif.acdh.oeaw.ac.at/aad/aad_00036/">Leykam Hartpost 1935</watermark>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00033/">
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00083/ https://iiif.acdh.oeaw.ac.at/aad/aad_00084/">Myrtle Mill</watermark>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00081/">
                         <width>162</width>
                         <height>114</height>
                       </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00034/">
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00082/">
                         <width>162</width>
                         <height>114</height>
                       </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00035/">
-                        <width>211</width>
-                        <height>297</height>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00083/">
+                        <width>210</width>
+                        <height>292</height>
                       </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00036/">
-                        <width>211</width>
-                        <height>297</height>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00084/">
+                        <width>210</width>
+                        <height>292</height>
                       </dimensions>
-                      <ab>
-                        The paper surface contains indented typewriter impressions.
-                      </ab>
                     </support>
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
                   <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
-                  <handNote xml:id="hand_blue_unident_0009" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
+                  <handNote xml:id="hand_blue_unident_0021" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
                   <typeNote xml:id="print_black_auden" scribeRef="#amp_person_1" medium="print-black">Preprinted writing in black authored by W. H. Auden, sans-serif Grotesque-family typeface</typeNote>
@@ -101,7 +98,7 @@
               </physDesc>
               <history>
                 <origin>
-                  <origDate notBefore-iso="1966-06-29T00:00:00+01:00" notAfter-iso="1966-06-29T18:00:00+01:00"/>
+                  <origDate notBefore-iso="1964-09-16T00:00:00+01:00" notAfter-iso="1964-09-16T18:00:00+01:00"/>
                   <origPlace ref="https://d-nb.info/gnd/4801892-2">Kirchstetten</origPlace>
                 </origin>
               </history>
@@ -124,15 +121,10 @@
         <language ident="en"/>
       </langUsage>
       <correspDesc>
-        <correspAction type="sent" subtype="express">
+        <correspAction type="sent">
           <orgName><rs type="org" ref="#amp_organization_70">Post office Kirchstetten</rs></orgName>
           <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
-          <date notBefore-iso="1966-06-29T17:00:01+01:00" notAfter-iso="1966-06-29T18:00:00+01:00"/>
-        </correspAction>
-        <correspAction type="transmitted">
-          <orgName><rs type="org" ref="#amp_organization_91">District post office Brigittenau</rs></orgName>
-          <placeName><rs type="place" ref="#amp_place_id_1">Vienna</rs></placeName>
-          <date notBefore-iso="1966-06-30T07:00:01+01:00" notAfter-iso="1966-06-30T08:00:00+01:00"/>
+          <date notBefore-iso="1964-09-16T17:00:01+01:00" notAfter-iso="1964-09-16T18:00:00+01:00"/>
         </correspAction>
         <correspAction type="received">
           <persName ref="#amp_person_107">Kurka, Hugo</persName>
@@ -141,48 +133,41 @@
       </correspDesc>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2024-08-29">TEI/XML template populated with csv2xml.py; physDesc populated</change>
-      <change who="#tfruehwirth" when-iso="2024-08-29">physDesc populated</change>
-      <change who="#tfruehwirth" when-iso="2024-08-30">Text transcribed; correspDesc populated; hands, languages, correspondence container structure, and entities marked up</change>
+      <change who="#tfruehwirth" when-iso="2024-09-11">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2024-09-11">Text transcribed; physDesc and correspDesc populated; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
-    <surface ulx="0" uly="0" lrx="2854" lry="2050">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00033/"/>
+    <surface ulx="0" uly="0" lrx="2778" lry="2044">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00081/"/>
     </surface>
-    <surface ulx="0" uly="0" lrx="2944" lry="2050">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00034/"/>
+    <surface ulx="0" uly="0" lrx="2778" lry="2040">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00082/"/>
     </surface>
-    <surface ulx="0" uly="0" lrx="3548" lry="4944">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00035/"/>
+    <surface ulx="0" uly="0" lrx="3522" lry="4852">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00083/"/>
     </surface>
-    <surface ulx="0" uly="0" lrx="3550" lry="4948">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00036/"/>
+    <surface ulx="0" uly="0" lrx="3524" lry="4850">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00084/"/>
     </surface>
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0009" xml:lang="de">
+      <div type="transcription" xml:id="transcription_aad_0021" xml:lang="de">
         <div type="envelope">
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00033/" ed="1r" type="envelope"/>
-          <ab hand="#hand_blue_auden">
-            <lb/><del rend="overstrike" hand="#hand_blue_auden"><hi rend="underline" hand="#hand_blue_auden">mit Luft<unclear>-</unclear>Post<space unit="char" quantity="1"/></hi></del>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00081/" ed="1r" type="envelope"/>
+          <ab hand="#hand_blue_unident_0021">
+            <del rend="overlaid">1'5</del>0
           </ab>
           <ab hand="#hand_blue_auden">
-            <lb/><hi rend="underline" hand="#hand_blue_auden">Eil Post</hi>
-          </ab>
-          <ab hand="#hand_blue_unident_0009">
-            <lb/><del rend="overlaid">3</del><unclear>'</unclear>&#x2014;
-          </ab>
-          <ab hand="#hand_blue_auden">
-            <lb/><rs type="person" ref="#amp_person_107">Herrn
+            <lb/><rs type="person" ref="#amp_person_107">Herr<unclear>n</unclear>
             <lb/>Hugo Kurka</rs>
             <address>
               <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
-              <lb/>Adalbert Stiftergasse 22/2<subst><del rend="overwritten" hand="#hand_blue_auden"><unclear>4</unclear></del><add place="superimposed" hand="#hand_blue_auden">8</add></subst></rs>
+              <lb/>Adalbert Stiftergasse 22/28</rs>
             </address>   
           </ab>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00034/" ed="1v" type="envelope"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00082/" ed="1v" type="envelope"/>
           <ab hand="#print_black_auden">
             <lb/><rs type="person" ref="#amp_person_1">W. H. AUDEN</rs>
             <address>
@@ -193,40 +178,43 @@
           </ab>
         </div>
         <div type="letter">
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00035/" ed="2r" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00083/" ed="2r" type="sheet"/>
           <div type="letter_message" hand="#hand_blue_auden">
-            <opener>
+            <opener hand="#print_black_auden">
               <dateline>
+                <persName>
+                  <lb/><rs type="person" ref="#amp_person_1">W. H. AUDEN</rs>
+                </persName>
                 <placeName>
-                  <lb/><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs>
+                  <address>
+                    <lb/><rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN (WESTBAHN)
+                    <lb/>HINTERHOLZ 6
+                    <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
+                  </address>
                 </placeName>
-                <date>
-                  <lb/>Mittwoch.
-                </date>
+                <seg hand="#hand_blue_auden">
+                  <date>
+                    <lb/>Mittw<unclear>a</unclear>ch.
+                  </date>
+                </seg>
               </dateline>
-              <salute>
-                <lb/>Lieber <rs type="person" ref="#amp_person_107">Hugo</rs>:
+              <salute hand="#hand_blue_auden">
+                <lb/>Lieber <rs type="person" ref="#amp_person_107">H<unclear>u</unclear>go</rs>:
               </salute>
             </opener>
             <p>
-              <lb/>Über Samstag<unclear>,</unclear>
-              <lb/><rs type="person" ref="#amp_person_1 #amp_person_4" ana="#ana_051">Wir</rs> kom<unclear>m</unclear>en an <rs type="place" ref="#amp_place_id_47">Neulengbach</rs> (<hi rend="underline" hand="#hand_blue_auden">nicht</hi> <rs type="place" ref="#amp_place_id_47">Neulengbach</rs>-Markt)
-              <lb/>a<unclear>m</unclear> 17·21<unclear>,</unclear> Es ist <del rend="overstrike" hand="#hand_blue_auden">l<unclear>ue</unclear></del> leichter für Dich da zu
-              <lb/>parken und es ist näher zu d<unclear>en</unclear> strasse nach <rs type="place" ref="#amp_place_id_357">Tulln</rs>.
-            </p>
-            <p>
-              <lb/>Ich bringe mein Auto-<subst><del rend="overwritten" hand="#hand_blue_auden"><unclear>a</unclear></del><add place="superimposed" hand="#hand_blue_auden">A</add></subst>tlas mit.
+              <lb/>Komme Freitag
             </p>
             <closer>
               <salute>
-                <lb/>dein
+                <lb/>Dein
               </salute>
               <signed>
                 <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
               </signed>
             </closer>
           </div>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00036/" ed="2v" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00084/" ed="2v" type="sheet"/>
         </div>
       </div>
     </body>

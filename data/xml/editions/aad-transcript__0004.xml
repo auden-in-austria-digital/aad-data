@@ -156,8 +156,8 @@
       <div type="transcription" xml:id="transcription_aad_0004" xml:lang="de">
         <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00013/" ed="1r" type="envelope"/>
-          <ab>
-            <lb/><del rend="overlaid" hand="#hand_blue_unident_0004"><gap reason="illegible" unit="char" atLeast="3" atMost="4"/></del>
+          <ab hand="#hand_blue_unident_0004">
+            <lb/><del rend="overlaid">1'<unclear>5</unclear></del><unclear>0</unclear>
           </ab>
           <ab hand="#hand_blue_auden">
             <lb/><rs type="person" ref="#amp_person_107">Herrn

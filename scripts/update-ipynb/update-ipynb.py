@@ -1,25 +1,18 @@
-import subprocess
+import subprocess  # import subprocess module
 
-def update_notebook():
-    notebook_path = './metadata/ipynb/output_doc_id.ipynb'
+def update_notebook():  # initialize update_notebook() function
+
+    file_path = './metadata/ipynb/input_img_id.ipynb'
 
     try:
         # Run the Jupyter notebook in place, re-running all cells
-        result = subprocess.run(
-            ['jupyter', 'nbconvert', '--to', 'notebook', '--inplace', '--execute', notebook_path],
-            check=True,
-            capture_output=True,
-            text=True
-        )
-        print(f"Notebook '{notebook_path}' has been successfully updated.")
-        print(f"STDOUT: {result.stdout}")
-        print(f"STDERR: {result.stderr}")
-    except subprocess.CalledProcessError as e:
-        print(f"Error: Failed to update the notebook. {e}")
-        print(f"STDOUT: {e.stdout}")
-        print(f"STDERR: {e.stderr}")
-    except Exception as e:
-        print(f"Unexpected error occurred: {e}")
+        subprocess.run(  # execute shell command for subprocess
+            ['jupyter', 'nbconvert', '--to', 'notebook', '--inplace', '--execute', file_path],  # convert to jupyter notebook by overwriting cells in same file from start to finish
+                       check=True)  # raise exception if subprocess fails
+    except subprocess.CalledProcessError as e:  # handle subprocess fail
+        print(f'Error {e}: Failed to update notebook.')
+    except Exception as e:  # handle other errors
+        print(f'Unexpected error {e} occurred.')
 
-if __name__ == "__main__":
+if __name__ == '__main__':  # call update_notebook() function only if script is run directly
     update_notebook()
