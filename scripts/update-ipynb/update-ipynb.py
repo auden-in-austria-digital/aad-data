@@ -2,7 +2,7 @@ import subprocess  # import subprocess module
 
 def update_notebook():  # initialize update_notebook() function
 
-    file_path = './metadata/ipynb/output_doc_id.ipynb'
+    file_path = './metadata/ipynb/input_img_id.ipynb'
 
     try:
         # Run the Jupyter notebook in place, re-running all cells
