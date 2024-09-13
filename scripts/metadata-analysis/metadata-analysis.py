@@ -33,14 +33,14 @@ plt.ylabel('number')
 plt.grid(True)  # display grid lines
 plt.tight_layout()  # automatically adjust spacing between figure elements
 
-plt.savefig('./metadata/docs_per_month.png')  # save figure
+plt.savefig('./metadata/md/docs_per_month.png')  # save figure
 
 # create markdown report
 
-with open("./metadata/metadata-analysis.md", "w") as f:
+with open("./metadata/md/metadata-analysis.md", "w") as f:
     f.write(f'## `input_img_id.csv` analysis report\n')
     f.write(f'### `df.isnull().sum()`\n```\n{df_summary}\n```\n')
     f.write(f'## cleaned document data\n')
     f.write(f"```\n{df_doc.to_string()}\n```\n")
     f.write("## scatter plot\n\n")
-    f.write("![number of documents per month](./metadata/docs_per_month.png)")
+    f.write("![number of documents per month](docs_per_month.png)")
