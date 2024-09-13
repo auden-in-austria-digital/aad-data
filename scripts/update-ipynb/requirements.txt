@@ -1,4 +1,0 @@
-nbconvert
-jupyter
-pandas
-matplotlib
