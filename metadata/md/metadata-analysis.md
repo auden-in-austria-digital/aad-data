@@ -48,6 +48,7 @@ doc
 0020  Auden, W. H.              Autograph Letter Signed W. H. Auden to Hugo Kurka 1965-08-04  Kirchstetten
 0021  Auden, W. H.              Autograph Letter Signed W. H. Auden to Hugo Kurka 1964-09-16  Kirchstetten
 0022  Auden, W. H.              Autograph Letter Signed W. H. Auden to Hugo Kurka 1964-09-28  Kirchstetten
+0023  Auden, W. H.              Autograph Letter Signed W. H. Auden to Hugo Kurka 1966-05-20  Kirchstetten
 ```
 ## scatter plot
 
