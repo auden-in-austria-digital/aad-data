@@ -35,5 +35,5 @@ flowchart TD;
 flowchart TD;
     output_doc_id.csv---|on:workflow_dispatch| write-xmls;
     write-xmls-->csv2xml.py;
-    csv2xml.py-->aad-transcript__????.xml;
+    csv2xml.py-.->aad-transcript__????.xml;
 ```
