@@ -202,7 +202,7 @@
             </opener>
             <p>
               <lb/>Hiermit 800.D.M. Ich glaube
-              <lb/>es soll gut seine <subst><del rend="overwritten" hand="#hand_blue_auden">p</del><add place="superimposed" hand="#hand_blue_auden">P</add></subst>lätze <add place="above"  hand="#hand_blue_auden">(hin und zuruck)<space unit="char" quantity="1"/></add>am den Fleugzeug
+              <lb/>es soll gut seine <subst><del rend="overwritten" hand="#hand_blue_auden">p</del><add place="superimposed" hand="#hand_blue_auden">P</add></subst>lätze <add place="above"  hand="#hand_blue_auden">(hin und zuruck)<space unit="char" quantity="1"/></add>am den Fl<unclear>eu</unclear>gzeug
               <lb/>so fort zu bestellen weil es wird
               <lb/>wahrscheinlich viel <subst><del rend="overwritten" hand="#hand_blue_auden">v</del><add place="superimposed" hand="#hand_blue_auden">V</add></subst>erkehr <del rend="overstrike" hand="#hand_blue_auden">w<gap reason="illegible" unit="char" atLeast="1" atMost="2"/></del> sein u<unclear>m</unclear>
               <lb/>Weinachtszeit<unclear>,</unclear>
@@ -214,6 +214,33 @@
             </closer>
           </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00096/" ed="2v" type="sheet"/>
+          <ab>
+            <lb/><space unit="char" quantity="1"/><hi rend="underline">384 &#x22C5; 6.5<unclear>,</unclear><space unit="char" quantity="1"/></hi>
+            <lb/>2<unclear>3</unclear>04
+            <lb/><space unit="char" quantity="1"/><hi rend="underline">192<subst><del rend="overwritten">2</del><add place="superimposed">0</add></subst><space unit="char" quantity="1"/></hi>
+            <lb/>2,49<unclear>6</unclear><del rend="overstrike">0</del>
+          </ab>
+          <ab>
+            <lb/>768
+          </ab>
+          <ab>
+            <lb/>2,499 &#x2014;
+            <lb/>4998
+          </ab>
+          <ab>
+            <lb/>5100'&#x2013;
+          </ab>
+          <ab>
+            208<unclear>,</unclear>
+            <hi rend="underline">102<unclear>,</unclear>&#x2014;</hi>
+            <hi rend="double-underline">106&#x2014;</hi>
+          </ab>
+          <ab>
+            <lb/><space unit="char" quantity="1"/><hi rend="underline">32&#x22C5;6,5<space unit="char" quantity="1"/></hi>
+            <lb/>192
+            <lb/><space unit="char" quantity="1"/><hi rend="underline">160<space unit="char" quantity="1"/></hi>
+            <lb/><hi rend="double-underline">2080</hi>
+          </ab>
         </div>
       </div>
     </body>
