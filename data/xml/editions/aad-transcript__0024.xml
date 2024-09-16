@@ -130,6 +130,7 @@
           <orgName><rs type="org" ref="#amp_organization_78">Post office Berlin 33</rs></orgName>
           <placeName><rs type="place" ref="#amp_place_id_17">Berlin</rs></placeName>
           <date notBefore-iso="1964-11-23T10:00:01+01:00" notAfter-iso="1964-11-23T11:00:00+01:00"/>
+          <note type="registered"/>
         </correspAction>
         <correspAction type="received">
           <persName ref="#amp_person_240">Kurka, Christa</persName>
