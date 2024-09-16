@@ -220,33 +220,35 @@
             </closer>
           </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00096/" ed="2v" type="sheet"/>
-          <ab hand="#hand_blue_unident_0024">
-            <lb/><space unit="char" quantity="1"/><hi rend="underline" hand="#hand_blue_unident_0024">384 &#x22C5; 6<unclear>.</unclear>5<unclear>,</unclear><space unit="char" quantity="1"/></hi>
-            <lb/>2<unclear>3</unclear>04
-            <lb/><space unit="char" quantity="1"/><hi rend="underline" hand="#hand_blue_unident_0024">192<subst><del rend="overwritten" hand="#hand_blue_unident_0024">2</del><add place="superimposed" hand="#hand_blue_unident_0024">0</add></subst><space unit="char" quantity="1"/></hi>
-            <lb/><rs type="note" ana="#ana_060">2,49<unclear>6</unclear><del rend="overstrike" hand="#hand_blue_unident_0024">0</del></rs>
-          </ab>
-          <ab hand="#hand_blue_unident_0024">
-            <lb/>768
-          </ab>
-          <ab hand="#hand_blue_unident_0024">
-            <lb/>2,499<unclear>'</unclear>&#x2014;
-            <lb/>4998
-          </ab>
-          <ab hand="#hand_blue_unident_0024">
-            <lb/>5100<unclear>'</unclear>&#x2013;
-          </ab>
-          <ab hand="#hand_blue_unident_0024">
-            <lb/>208<unclear>,</unclear>
-            <lb/><hi rend="underline">102<unclear>,</unclear>&#x2014;</hi>
-            <lb/><hi rend="double-underline">106&#x2014;</hi>
-          </ab>
-          <ab hand="#hand_blue_unident_0024">
-            <lb/><space unit="char" quantity="1"/><hi rend="underline"><unclear>3</unclear>2&#x22C5;6,5<space unit="char" quantity="1"/></hi>
-            <lb/>192
-            <lb/><space unit="char" quantity="1"/><hi rend="underline">160<space unit="char" quantity="1"/></hi>
-            <lb/><hi rend="double-underline">2080</hi>
-          </ab>
+          <div>
+            <ab hand="#hand_blue_unident_0024">
+              <lb/><space unit="char" quantity="1"/><hi rend="underline" hand="#hand_blue_unident_0024">384 &#x22C5; 6<unclear>.</unclear>5<unclear>,</unclear><space unit="char" quantity="1"/></hi>
+              <lb/>2<unclear>3</unclear>04
+              <lb/><space unit="char" quantity="1"/><hi rend="underline" hand="#hand_blue_unident_0024">192<subst><del rend="overwritten" hand="#hand_blue_unident_0024">2</del><add place="superimposed" hand="#hand_blue_unident_0024">0</add></subst><space unit="char" quantity="1"/></hi>
+              <lb/><rs type="note" ana="#ana_060">2,49<unclear>6</unclear><del rend="overstrike" hand="#hand_blue_unident_0024">0</del></rs>
+            </ab>
+            <ab hand="#hand_blue_unident_0024">
+              <lb/>768
+            </ab>
+            <ab hand="#hand_blue_unident_0024">
+              <lb/>2,499<unclear>'</unclear>&#x2014;
+              <lb/>4998
+            </ab>
+            <ab hand="#hand_blue_unident_0024">
+              <lb/>5100<unclear>'</unclear>&#x2013;
+            </ab>
+            <ab hand="#hand_blue_unident_0024">
+              <lb/>208<unclear>,</unclear>
+              <lb/><hi rend="underline">102<unclear>,</unclear>&#x2014;</hi>
+              <lb/><hi rend="double-underline">106&#x2014;</hi>
+            </ab>
+            <ab hand="#hand_blue_unident_0024">
+              <lb/><space unit="char" quantity="1"/><hi rend="underline"><unclear>3</unclear>2&#x22C5;6,5<space unit="char" quantity="1"/></hi>
+              <lb/>192
+              <lb/><space unit="char" quantity="1"/><hi rend="underline">160<space unit="char" quantity="1"/></hi>
+              <lb/><hi rend="double-underline">2080</hi>
+            </ab>
+          </div>
         </div>
       </div>
     </body>
