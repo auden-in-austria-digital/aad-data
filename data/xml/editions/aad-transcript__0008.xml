@@ -155,12 +155,12 @@
   <text>
     <body>
       <div type="transcription" xml:id="transcription_aad_0008" xml:lang="de">
-        <div type="envelope" hand="#hand_blue_auden">
+        <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00029/" ed="1r" type="envelope"/>
-          <ab>
+          <ab hand="#hand_blue_auden">
             <lb/>m<hi rend="underline" hand="#hand_blue_auden">it Luft-Post<space unit="char" quantity="1"/></hi>
           </ab>
-          <ab>
+          <ab hand="#hand_blue_auden">
             <lb/><rs type="person" ref="#amp_person_107">Herrn
             <lb/>Hugo Kurka</rs>
             <address>
@@ -170,7 +170,7 @@
             </address>   
           </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00030/" ed="1v" type="envelope"/>
-          <ab>
+          <ab hand="#hand_blue_auden">
             <lb/><rs type="person" ref="#amp_person_1">W.H. Auden</rs>
             <address>
               <lb/><rs type="place" ref="#amp_place_id_19">1 Berlin 33
