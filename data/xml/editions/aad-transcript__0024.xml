@@ -25,7 +25,7 @@
         <edition>
           <title level="a">Autograph Letter Signed W. H. Auden to Christa Kurka 1964-11-23</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_060">
               <desc/>
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -218,7 +218,7 @@
             <lb/><space unit="char" quantity="1"/><hi rend="underline">384 &#x22C5; 6.5<unclear>,</unclear><space unit="char" quantity="1"/></hi>
             <lb/>2<unclear>3</unclear>04
             <lb/><space unit="char" quantity="1"/><hi rend="underline">192<subst><del rend="overwritten">2</del><add place="superimposed">0</add></subst><space unit="char" quantity="1"/></hi>
-            <lb/>2,49<unclear>6</unclear><del rend="overstrike">0</del>
+            <lb/><rs type="note" ana="#ana_060">2,49<unclear>6</unclear><del rend="overstrike">0</del></rs>
           </ab>
           <ab>
             <lb/>768
@@ -231,9 +231,9 @@
             <lb/>5100'&#x2013;
           </ab>
           <ab>
-            208<unclear>,</unclear>
-            <hi rend="underline">102<unclear>,</unclear>&#x2014;</hi>
-            <hi rend="double-underline">106&#x2014;</hi>
+            <lb/>208<unclear>,</unclear>
+            <lb/><hi rend="underline">102<unclear>,</unclear>&#x2014;</hi>
+            <lb/><hi rend="double-underline">106&#x2014;</hi>
           </ab>
           <ab>
             <lb/><space unit="char" quantity="1"/><hi rend="underline">32&#x22C5;6,5<space unit="char" quantity="1"/></hi>
