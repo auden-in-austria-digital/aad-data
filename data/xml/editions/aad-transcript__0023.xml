@@ -189,11 +189,11 @@
           <div type="letter_message" hand="#hand_blue_auden">
             <opener hand="#print_black_kallman">
               <dateline>
-                <seg hand="#hand_blue_auden">
+                <!--<seg hand="#hand_blue_auden">-->
                   <date>
                     <lb/>Fre<unclear>i</unclear>tag , 10&#xB7;30<unclear>.</unclear> Uhr.
                   </date>
-                </seg>
+                <!--</seg>-->
                 <persName>
                   <lb/><rs type="person" ref="#amp_person_4">CHESTER KALLMAN</rs>
                 </persName>
