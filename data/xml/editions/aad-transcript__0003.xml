@@ -154,10 +154,10 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0003" xml:lang="de" hand="#hand_blue_auden">
+      <div type="transcription" xml:id="transcription_aad_0003" xml:lang="de">
         <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00009/" ed="1r" type="envelope"/>
-          <ab>
+          <ab hand="#hand_blue_auden">
             <lb/><rs type="person" ref="#amp_person_107">Herrn
             <lb/>Hug<unclear>o</unclear> Kurka</rs>
             <address>
@@ -170,7 +170,7 @@
         </div>
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00011/" ed="2r" type="sheet"/>
-          <div type="letter_message">
+          <div type="letter_message" hand="#hand_blue_auden">
             <opener>
               <dateline>
                 <date>

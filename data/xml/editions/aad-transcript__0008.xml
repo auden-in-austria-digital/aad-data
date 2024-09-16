@@ -154,8 +154,8 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0008" xml:lang="de" hand="#hand_blue_auden">
-        <div type="envelope">
+      <div type="transcription" xml:id="transcription_aad_0008" xml:lang="de">
+        <div type="envelope" hand="#hand_blue_auden">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00029/" ed="1r" type="envelope"/>
           <ab>
             <lb/>m<hi rend="underline" hand="#hand_blue_auden">it Luft-Post<space unit="char" quantity="1"/></hi>
@@ -181,7 +181,7 @@
         </div>
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00031/" ed="2r" type="sheet"/>
-          <div type="letter_message">
+          <div type="letter_message" hand="#hand_blue_auden">
             <opener>
               <dateline>
                 <date>
