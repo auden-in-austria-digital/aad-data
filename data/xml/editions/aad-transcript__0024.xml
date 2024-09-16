@@ -30,6 +30,11 @@
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
             </interp>
+            <interp xml:id="ana_061">
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
           </interpGrp>
         </edition>
         <respStmt>
@@ -90,6 +95,7 @@
                 </objectDesc>
                 <handDesc>
                   <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
+                  <handNote xml:id="hand_blue_unident_0024" medium="ink-blue" ana="#ana_061">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
                   <typeNote xml:id="print_black_auden" scribeRef="#amp_person_1" medium="print-black">Preprinted writing in black authored by W. H. Auden, sans-serif Grotesque-family typeface</typeNote>
@@ -214,29 +220,29 @@
             </closer>
           </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00096/" ed="2v" type="sheet"/>
-          <ab>
-            <lb/><space unit="char" quantity="1"/><hi rend="underline">384 &#x22C5; 6.5<unclear>,</unclear><space unit="char" quantity="1"/></hi>
+          <ab hand="#hand_blue_unident_0024">
+            <lb/><space unit="char" quantity="1"/><hi rend="underline" hand="#hand_blue_unident_0024">384 &#x22C5; 6<unclear>.</unclear>5<unclear>,</unclear><space unit="char" quantity="1"/></hi>
             <lb/>2<unclear>3</unclear>04
-            <lb/><space unit="char" quantity="1"/><hi rend="underline">192<subst><del rend="overwritten">2</del><add place="superimposed">0</add></subst><space unit="char" quantity="1"/></hi>
-            <lb/><rs type="note" ana="#ana_060">2,49<unclear>6</unclear><del rend="overstrike">0</del></rs>
+            <lb/><space unit="char" quantity="1"/><hi rend="underline" hand="#hand_blue_unident_0024">192<subst><del rend="overwritten" hand="#hand_blue_unident_0024">2</del><add place="superimposed" hand="#hand_blue_unident_0024">0</add></subst><space unit="char" quantity="1"/></hi>
+            <lb/><rs type="note" ana="#ana_060">2,49<unclear>6</unclear><del rend="overstrike" hand="#hand_blue_unident_0024">0</del></rs>
           </ab>
-          <ab>
+          <ab hand="#hand_blue_unident_0024">
             <lb/>768
           </ab>
-          <ab>
-            <lb/>2,499 &#x2014;
+          <ab hand="#hand_blue_unident_0024">
+            <lb/>2,499<unclear>'</unclear>&#x2014;
             <lb/>4998
           </ab>
-          <ab>
-            <lb/>5100'&#x2013;
+          <ab hand="#hand_blue_unident_0024">
+            <lb/>5100<unclear>'</unclear>&#x2013;
           </ab>
-          <ab>
+          <ab hand="#hand_blue_unident_0024">
             <lb/>208<unclear>,</unclear>
             <lb/><hi rend="underline">102<unclear>,</unclear>&#x2014;</hi>
             <lb/><hi rend="double-underline">106&#x2014;</hi>
           </ab>
-          <ab>
-            <lb/><space unit="char" quantity="1"/><hi rend="underline">32&#x22C5;6,5<space unit="char" quantity="1"/></hi>
+          <ab hand="#hand_blue_unident_0024">
+            <lb/><space unit="char" quantity="1"/><hi rend="underline"><unclear>3</unclear>2&#x22C5;6,5<space unit="char" quantity="1"/></hi>
             <lb/>192
             <lb/><space unit="char" quantity="1"/><hi rend="underline">160<space unit="char" quantity="1"/></hi>
             <lb/><hi rend="double-underline">2080</hi>
