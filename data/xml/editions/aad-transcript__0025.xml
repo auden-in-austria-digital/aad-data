@@ -137,6 +137,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2024-09-18">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2024-09-18">physDesc and correspDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2024-09-19">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -158,10 +159,71 @@
       <div type="transcription" xml:id="transcription_aad_0025" xml:lang="de">
         <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00097/" ed="1r" type="envelope"/>
+          <ab hand="#hand_blue_auden">
+            <lb/><rs type="person" ref="#amp_person_107">Herrn
+            <lb/>Hugo Kurka</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
+              <lb/>Adalbert Stiftergasse 22/28</rs>
+            </address>   
+          </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00098/" ed="1v" type="envelope"/>
+          <ab hand="#print_black_auden">
+            <lb/><rs type="person" ref="#amp_person_1">W. H. AUDEN</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN (WESTBAHN)
+              <lb/>HINTERHOLZ 6
+              <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
+            </address>
+          </ab>
         </div>
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00099/" ed="2r" type="sheet"/>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <opener hand="#print_black_auden">
+              <dateline>
+                <persName>
+                  <lb/><rs type="person" ref="#amp_person_1">W. H. AUDEN</rs>
+                </persName>
+                <placeName>
+                  <address>
+                    <lb/><rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN (WESTBAHN)
+                    <lb/>HINTERHOLZ 6
+                    <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
+                  </address>
+                </placeName>
+                <seg hand="#hand_blue_auden">
+                  <date>
+                    <lb/>Mittwoch
+                  </date>
+                </seg>
+              </dateline>
+              <salute hand="#hand_blue_auden">
+                <lb/>Lieber <rs type="person" ref="#amp_person_107">Hugo</rs>:
+              </salute>
+            </opener>
+            <p>
+              <lb/>Ich h<unclear>ä</unclear>tte geh<unclear>ö</unclear>fft in der fr<unclear>ü</unclear>h von
+              <lb/>diese Woche nach <rs type="place" ref="#amp_place_id_1">Wien</rs> zu kommen, aber
+              <lb/><del rend="overstrike" hand="#hand_blue_auden">lie<gap reason="illegible" unit="char" atLeast="1" atMost="2"/></del> le<unclear>i</unclear>der bin ich schwer erkältet.
+            </p>
+            <p>
+              <lb/>Ich <del rend="overstrike" hand="#hand_blue_auden">s<unclear>cr</unclear></del>schreibe Dich so fort we<subst><del rend="overwritten" hand="#hand_blue_auden">e</del><add place="superimposed" hand="#hand_blue_auden">n</add></subst>n ich
+              <lb/>kommen kann.
+            </p>
+            <p>
+              <lb/>Du wi<unclear>ll</unclear>st zufrieden sein zu hören dass
+              <lb/>ich habe meine<unclear>_</unclear>Haar schneiden g<unclear>e</unclear>l<unclear>a</unclear>ssen
+            </p>
+            <closer>
+              <salute>
+                <lb/>Dein Freund
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs><unclear>.</unclear>
+              </signed>
+            </closer>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00100/" ed="2v" type="sheet"/>
         </div>
       </div>
