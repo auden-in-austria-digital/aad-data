@@ -170,7 +170,7 @@
             <address>
               <lb/><rs type="place" ref="#amp_place_id_356"><add place="inline" hand="#hand_blue_unident_0013"><hi rend="underline" hand="#hand_blue_unident_0013">120</hi>0<space unit="char" quantity="1"/></add>Wien XX
               <lb/>Adalbert Stiftergasse
-              <lb/>22/28<unclear>,</unclear></rs>
+              <lb/>22/28<unclear>.</unclear></rs>
             </address>
           </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00050/" ed="1v" type="envelope"/>
@@ -207,10 +207,10 @@
               </salute>
             </opener>
             <p>
-              <lb/>Ich bin ein Bischen beunruhight<unclear>,</unclear>
+              <lb/>Ich bin ein Bischen beunruhight.
               <lb/>Ich habe dreimal <subst><del rend="overwritten" hand="#hand_blue_auden"><gap reason="illegible" unit="char" quantity="1"/></del><add place="superimposed" hand="#hand_blue_auden">v</add></subst>ersucht Dich zu
               <lb/>anrufen- Sonntag um 10Uhr<unclear>;</unclear> gestern
-              <lb/>um <del rend="overstrike"><gap reason="illegible" unit="char" quantity="1"/></del> 18&#xB7;15 und 19&#xB7;30 -ohne Erfolg<unclear>_</unclear>
+              <lb/>um <del rend="overstrike"><gap reason="illegible" unit="char" quantity="1"/></del> 18&#xB7;15 und 19&#xB7;30 -ohne Erfolg<unclear>.</unclear>
             </p>
             <p>
               <lb/>Bitte, sei so gut mir ein Telegram

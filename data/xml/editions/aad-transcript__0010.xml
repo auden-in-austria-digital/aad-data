@@ -173,7 +173,7 @@
             <address>
               <lb/><rs type="place" ref="#amp_place_id_356"><add place="inline" hand="#hand_blue_unident_0010">1200<space unit="char" quantity="1"/></add>Wien XX
               <lb/>Adalbert Stiftergasse
-              <lb/>22/28<unclear>-</unclear></rs>
+              <lb/>22/28<unclear>.</unclear></rs>
             </address>   
           </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00038/" ed="1v" type="envelope"/>
@@ -192,7 +192,7 @@
             <opener>
               <dateline>
                 <date>
-                  <lb/><foreign xml:lang="en">August 27<hi rend="superscript"><unclear>th</unclear></hi></foreign><unclear>,</unclear>
+                  <lb/><foreign xml:lang="en">August 27<hi rend="superscript"><unclear>th</unclear></hi></foreign><unclear>.</unclear>
                 </date>
                 <seg hand="#print_black_auden">
                   <placeName>
@@ -220,7 +220,7 @@
             </p>
             <closer>
               <signed>
-                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs> <unclear>u</unclear>nd <rs type="person" ref="#amp_person_4">Chester</rs><unclear>&#x60;</unclear>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs> <unclear>u</unclear>nd <rs type="person" ref="#amp_person_4">Chester</rs><unclear>.</unclear>
               </signed>
             </closer>
           </div>
