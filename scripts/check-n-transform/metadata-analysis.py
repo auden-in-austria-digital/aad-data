@@ -1,11 +1,17 @@
 import pandas as pd  # import pandas library
 import matplotlib.pyplot as plt  # import pyplot submodule of matplotlib library
+from io import StringIO  # import StringIO class from io module
 
 # inspect input_img_id.csv
 
 df = pd.read_csv('./metadata/csv/input_img_id.csv', dtype={'doc': 'str'})  # read csv into dataframe, retain string data type for doc values
 
 df_summary = df.isnull().sum()  # return True for None and NaN; sum up null values
+
+# capture info() method output into a string
+buffer = StringIO()  # create a string buffer
+df.info(buf=buffer)  # send the info() output to the buffer
+df_info = buffer.getvalue()  # retrieve the string from the buffer
 
 # clean data
 
@@ -40,7 +46,8 @@ plt.savefig('./metadata/md/docs_per_month.png')  # save figure
 with open("./metadata/md/metadata-analysis.md", "w") as f:
     f.write(f'## `input_img_id.csv` analysis report\n')
     f.write(f'### `df.isnull().sum()`\n```\n{df_summary}\n```\n')
-    f.write(f'## cleaned document data\n')
-    f.write(f"```\n{df_doc.to_string()}\n```\n")
-    f.write("## scatter plot\n\n")
-    f.write("![number of documents per month](docs_per_month.png)")
+    f.write(f'### `df.info()`\n```\n{df_info}\n```\n')  # write df.info() output
+    f.write(f'### cleaned document data\n')
+    f.write(f'```\n{df_doc.to_string()}\n```\n')
+    f.write(f'### scatter plot\n\n')
+    f.write(f'![number of documents per month](docs_per_month.png)')
