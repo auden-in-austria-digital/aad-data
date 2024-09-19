@@ -25,31 +25,31 @@ dtype: int64
 ### `df.info()`
 ```
 <class 'pandas.core.frame.DataFrame'>
-RangeIndex: 100 entries, 0 to 99
+RangeIndex: 104 entries, 0 to 103
 Data columns (total 19 columns):
  #   Column          Non-Null Count  Dtype 
 ---  ------          --------------  ----- 
- 0   img             100 non-null    int64 
- 1   lrx             100 non-null    int64 
- 2   lry             100 non-null    int64 
- 3   width           100 non-null    int64 
- 4   height          100 non-null    int64 
- 5   type            100 non-null    object
- 6   ed              100 non-null    object
- 7   doc             100 non-null    object
- 8   title           100 non-null    object
- 9   author          100 non-null    object
- 10  author-uri      100 non-null    object
- 11  notBefore-iso   100 non-null    object
- 12  notAfter-iso    100 non-null    object
- 13  place           100 non-null    object
- 14  place-uri       100 non-null    object
- 15  repository      100 non-null    object
- 16  repository-uri  100 non-null    object
- 17  collection      100 non-null    object
- 18  idno            100 non-null    object
+ 0   img             104 non-null    int64 
+ 1   lrx             104 non-null    int64 
+ 2   lry             104 non-null    int64 
+ 3   width           104 non-null    int64 
+ 4   height          104 non-null    int64 
+ 5   type            104 non-null    object
+ 6   ed              104 non-null    object
+ 7   doc             104 non-null    object
+ 8   title           104 non-null    object
+ 9   author          104 non-null    object
+ 10  author-uri      104 non-null    object
+ 11  notBefore-iso   104 non-null    object
+ 12  notAfter-iso    104 non-null    object
+ 13  place           104 non-null    object
+ 14  place-uri       104 non-null    object
+ 15  repository      104 non-null    object
+ 16  repository-uri  104 non-null    object
+ 17  collection      104 non-null    object
+ 18  idno            104 non-null    object
 dtypes: int64(5), object(14)
-memory usage: 15.0+ KB
+memory usage: 15.6+ KB
 
 ```
 ### cleaned document data
@@ -81,6 +81,7 @@ doc
 0023  Auden, W. H.              Autograph Letter Signed W. H. Auden to Hugo Kurka 1966-05-20  Kirchstetten
 0024  Auden, W. H.           Autograph Letter Signed W. H. Auden to Christa Kurka 1964-11-23        Berlin
 0025  Auden, W. H.              Autograph Letter Signed W. H. Auden to Hugo Kurka 1964-07-08  Kirchstetten
+0026  Auden, W. H.              Autograph Letter Signed W. H. Auden to Hugo Kurka 1966-08-16  Kirchstetten
 ```
 ### scatter plot
 
