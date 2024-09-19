@@ -124,7 +124,7 @@
       </langUsage>
       <correspDesc>
         <correspAction type="sent" subtype="express">
-          <orgName><rs type="org" ref="#amp_organization_76">Post office Rudolfsheim-Fünfhaus</rs></orgName>
+          <orgName><rs type="org" ref="#amp_organization_76">District post office Rudolfsheim-Fünfhaus</rs></orgName>
           <placeName><rs type="place" ref="#amp_place_id_1">Vienna</rs></placeName>
         </correspAction>
         <correspAction type="transmitted">
