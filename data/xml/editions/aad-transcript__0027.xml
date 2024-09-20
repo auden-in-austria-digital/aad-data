@@ -90,6 +90,7 @@
                 </objectDesc>
                 <handDesc>
                   <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
+                  <handNote xml:id="hand_blue_unident_0027" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
                   <typeNote xml:id="print_black_auden" scribeRef="#amp_person_1" medium="print-black">Preprinted writing in black authored by W. H. Auden, sans-serif Grotesque-family typeface</typeNote>
@@ -157,6 +158,9 @@
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00105/" ed="1r" type="envelope"/>
           <ab hand="#hand_blue_auden">
             <lb/><del rend="overstrike" hand="#hand_blue_auden"><gap reason="illegible" unit="char" atLeast="1" atMost="2"/></del>
+          </ab>
+          <ab hand="#hand_blue_unident_0027">
+            <lb/><del rend="overlaid">1'50</del>
           </ab>
           <ab hand="#hand_blue_auden">
             <lb/><rs type="person" ref="#amp_person_107">Herrn
