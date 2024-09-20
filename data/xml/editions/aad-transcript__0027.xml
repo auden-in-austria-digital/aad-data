@@ -156,7 +156,7 @@
         <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00105/" ed="1r" type="envelope"/>
           <ab hand="#hand_blue_auden">
-            <lb/><gap reason="illegible" unit="char" atLeast="1" atMost="2"/>
+            <lb/><del rend="overstrike" hand="#hand_blue_auden"><gap reason="illegible" unit="char" atLeast="1" atMost="2"/></del>
           </ab>
           <ab hand="#hand_blue_auden">
             <lb/><rs type="person" ref="#amp_person_107">Herrn
