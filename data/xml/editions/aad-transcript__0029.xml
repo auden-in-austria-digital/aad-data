@@ -160,7 +160,7 @@
       <div type="transcription" xml:id="transcription_aad_0029" xml:lang="de">
         <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00113/" ed="1r" type="envelope"/>
-          <ab hand="hand_blue_unident_0029_1">
+          <ab hand="#hand_blue_unident_0029_1">
             <lb/><del rend="overlaid">3'&#x2014;</del>
           </ab>
           <ab hand="#hand_blue_auden">
@@ -180,8 +180,8 @@
               <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
             </address>
           </ab>
-          <ab hand="hand_blue_unident_0029_2">
-            <lb/><hi rend="underline" hand="hand_blue_unident_0029_2">14<unclear>.</unclear>7<unclear>.</unclear>64</hi>
+          <ab hand="#hand_blue_unident_0029_2">
+            <lb/><hi rend="underline" hand="#hand_blue_unident_0029_2">14<unclear>.</unclear>7<unclear>.</unclear>64</hi>
           </ab>
         </div>
         <div type="letter">
