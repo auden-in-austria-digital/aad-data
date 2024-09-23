@@ -210,7 +210,7 @@
                 <lb/>Dein
               </salute>
               <signed>
-                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs><unclear>.</unclear>
               </signed>
             </closer>
           </div>
