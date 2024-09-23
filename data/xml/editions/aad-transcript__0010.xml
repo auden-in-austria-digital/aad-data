@@ -25,7 +25,7 @@
         <edition>
           <title level="a">Autograph Letter Signed W. H. Auden to Christa Kurka 1969-08-27</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_063">
               <desc/>
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -90,7 +90,7 @@
                 </objectDesc>
                 <handDesc>
                   <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
-                  <handNote xml:id="hand_black_kurka_c" scribeRef="#amp_person_240" medium="ink-black">Handwriting in black ink by Christa Kurka</handNote>
+                  <handNote xml:id="hand_black_kurka_c" scribeRef="#amp_person_240" medium="ink-black" ana="#ana_063">Handwriting in black ink by Christa Kurka</handNote>
                   <handNote xml:id="hand_blue_unident_0010" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
