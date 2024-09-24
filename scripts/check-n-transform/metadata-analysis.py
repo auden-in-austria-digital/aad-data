@@ -47,20 +47,16 @@ plt.savefig('./metadata/md/docs_per_month.png')  # save figure
 df_auden = df_date[df_date['author'] == 'Auden, W. H.']
 df_other = df_date[df_date['author'] != 'Auden, W. H.']
 
-# resample into groups by month, count document number per group in series
-monthly_auden = df_auden.resample('ME').size()
-monthly_other = df_other.resample('ME').size()
-
-# filter out zero values
-monthly_auden = monthly_auden[monthly_auden > 0]
-monthly_others = monthly_other[monthly_other > 0]
+# resample into groups by month, count document number per group in series, filter out zero values
+monthly_auden = df_auden.resample('ME').size()[lambda x: x > 0]
+monthly_other = df_other.resample('ME').size()[lambda x: x > 0]
 
 plt.figure(figsize=(10, 5))  # initialize figure, set dimensions in inches
 
 offset = pd.DateOffset(days=7)  # introduce x-axis offset
 
 plt.scatter(monthly_auden.index - offset, monthly_auden, color='#000080', label='W. H. Auden', marker='.')  # plot Auden documents with offset
-plt.scatter(monthly_others.index + offset, monthly_others, color='#FFDB58', label='other', marker='.')  # plot other documents with reverse offset
+plt.scatter(monthly_other.index + offset, monthly_other, color='#FFDB58', label='other', marker='.')  # plot other documents with reverse offset
 
 plt.gca().yaxis.set_major_locator(plt.MaxNLocator(integer=True))  # retrieve axes, set y-axis ticks to integers
 
@@ -77,7 +73,7 @@ plt.savefig('./metadata/md/docs_per_month_by_author.png')  # save figure
 
 # create markdown report
 
-with open("./metadata/md/metadata-analysis.md", "w") as f:
+with open('./metadata/md/metadata-analysis.md', 'w') as f:
     f.write(f'## `input_img_id.csv` analysis report\n')
     f.write(f'### `df.isnull().sum()`\n```\n{df_summary}\n```\n')
     f.write(f'### `df.info()`\n```\n{df_info}\n```\n')
