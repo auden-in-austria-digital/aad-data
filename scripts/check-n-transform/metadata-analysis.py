@@ -18,6 +18,7 @@ df_doc = df.drop_duplicates(subset='doc')[['doc', 'author', 'title', 'place']]  
 df_doc.set_index('doc', inplace=True)  # set doc values as index
 
 # visualize data
+# doc-time plot
 
 df_date = df.drop_duplicates(subset='doc')[['doc', 'author', 'notBefore-iso']]
 df_date['notBefore-iso'] = pd.to_datetime(df_date['notBefore-iso'], errors='coerce')  # convert notBefore-iso string values to datetime objects, replace invalid string values with NaT values
@@ -27,7 +28,7 @@ df_date.set_index('notBefore-iso', inplace=True)  # set datetime objects as inde
 monthly_docs = df_date.resample('ME').size()  # resample into groups by month, count document number per group in series
 
 plt.figure(figsize=(10, 5))    # initialize figure, set dimensions in inches
-monthly_docs[monthly_docs > 0].plot(kind='line', marker='.', linestyle='None', color='c')  # plot series in line plot if count < 0, set point markers, no lines, cyan color
+monthly_docs[monthly_docs > 0].plot(kind='line', marker='.', linestyle='None', color='#D4AF37')  # plot series in line plot if count < 0, set point markers, no lines, cyan color
 plt.gca().yaxis.set_major_locator(plt.MaxNLocator(integer=True))  # retrieve axes, set y-axis ticks to integers
 
 # add labels
@@ -40,45 +41,39 @@ plt.tight_layout()  # automatically adjust spacing between figure elements
 
 plt.savefig('./metadata/md/docs_per_month.png')  # save figure
 
-# Second plot: number of documents per month, colored by author (new)
-# Filter documents based on author
+# doc-time-author plot
+
+# create author-based dataframes
 df_auden = df_date[df_date['author'] == 'Auden, W. H.']
-df_others = df_date[df_date['author'] != 'Auden, W. H.']
+df_other = df_date[df_date['author'] != 'Auden, W. H.']
 
-# Count monthly documents for each group
+# resample into groups by month, count document number per group in series
 monthly_auden = df_auden.resample('ME').size()
-monthly_others = df_others.resample('ME').size()
+monthly_other = df_other.resample('ME').size()
 
-# Filter out zero values (only plot months with at least one document)
+# filter out zero values
 monthly_auden = monthly_auden[monthly_auden > 0]
-monthly_others = monthly_others[monthly_others > 0]
+monthly_others = monthly_other[monthly_other > 0]
 
 plt.figure(figsize=(10, 5))  # initialize figure, set dimensions in inches
 
-# Introduce a small offset for the horizontal position of the dots
-offset = pd.DateOffset(days=7)
+offset = pd.DateOffset(days=7)  # introduce x-axis offset
 
-# Plot Auden documents (cyan) with a slight offset
-plt.scatter(monthly_auden.index - offset, monthly_auden, color='c', label='W. H. Auden', marker='.')
-
-# Plot other authors' documents (magenta) with a slight offset in the opposite direction
-plt.scatter(monthly_others.index + offset, monthly_others, color='m', label='others', marker='.')
+plt.scatter(monthly_auden.index - offset, monthly_auden, color='#000080', label='W. H. Auden', marker='.')  # plot Auden documents with offset
+plt.scatter(monthly_others.index + offset, monthly_others, color='#7D3F0F', label='other', marker='.')  # plot other documents with reverse offset
 
 plt.gca().yaxis.set_major_locator(plt.MaxNLocator(integer=True))  # retrieve axes, set y-axis ticks to integers
 
-# Add labels
-plt.title('Number of Documents per Month by Author')
-plt.xlabel('Time')
-plt.ylabel('Number')
+# add labels
+plt.title('number of documents per month by author')
+plt.xlabel('time')
+plt.ylabel('number')
+
 plt.grid(True)  # display grid lines
-
-# Add legend
-plt.legend()
-
+plt.legend()  # add legend of labels
 plt.tight_layout()  # automatically adjust spacing between figure elements
 
-# Save the figure
-plt.savefig('./metadata/md/docs_per_month_by_author.png')
+plt.savefig('./metadata/md/docs_per_month_by_author.png')  # save figure
 
 # create markdown report
 
@@ -90,5 +85,4 @@ with open("metadata-analysis.md", "w") as f:
     f.write(f'```\n{df_doc.to_string()}\n```\n')
     f.write(f'### scatter plot\n\n')
     f.write(f'![number of documents per month](docs_per_month.png)\n')
-    f.write(f'### scatter plot by author\n\n')
     f.write(f'![number of documents per month by author](docs_per_month_by_author.png)')
