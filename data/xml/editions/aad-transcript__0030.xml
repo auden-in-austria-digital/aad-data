@@ -68,7 +68,7 @@
                 <objectDesc>
                   <supportDesc>
                     <support>
-                      <watermark/>
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00119/ https://iiif.acdh.oeaw.ac.at/aad/aad_00120/">Myrtle Mill</watermark>
                       <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00117/">
                         <width>162</width>
                         <height>114</height>
@@ -89,15 +89,15 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote/>
+                  <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="print_black_auden" scribeRef="#amp_person_1" medium="print-black">Preprinted writing in black authored by W. H. Auden, sans-serif Grotesque-family typeface</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
                 <origin>
-                  <origDate notBefore-iso="1960-08-29T00:00:00+01:00" notAfter-iso="1968-07-29T23:59:59+01:00"/>
+                  <origDate notBefore-iso="1960-08-29T00:00:00+01:00" notAfter-iso="1968-07-29T12:00:00+01:00"/>
                   <origPlace ref="https://d-nb.info/gnd/4801892-2">Kirchstetten</origPlace>
                 </origin>
               </history>
@@ -116,11 +116,24 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="de"/>
+        <language ident="en"/>
       </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <orgName><rs type="org" ref="#amp_organization_70">Post office Kirchstetten</rs></orgName>
+          <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
+          <date notBefore-iso="1960-08-29T08:00:01+01:00" notAfter-iso="1968-07-29T12:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_107">Kurka, Hugo</persName>
+          <placeName><rs type="place" ref="#amp_place_id_356">Adalbert-Stifter-Straße 22</rs></placeName>
+        </correspAction>
+      </correspDesc>
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2024-09-23">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2024-09-23">Text transcribed; physDesc and correspDesc populated; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -139,12 +152,66 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0030" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0030" xml:lang="de">
+        <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00117/" ed="1r" type="envelope"/>
+          <ab hand="#hand_blue_auden">
+            <lb/><rs type="person" ref="#amp_person_107"><del rend="overstrike" hand="#hand_blue_auden">K<gap reason="illegible" unit="char" atLeast="3" atMost="5"/></del> Herrn
+            <lb/>Hugo Kurka</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
+              <lb/>Adalbert Stiftergasse 22/28</rs>
+            </address>   
+          </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00118/" ed="1v" type="envelope"/>
+          <ab hand="#print_black_auden">
+            <lb/><rs type="person" ref="#amp_person_1">W. H. AUDEN</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN (WESTBAHN)
+              <lb/>HINTERHOLZ 6
+              <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
+            </address>
+          </ab>
+        </div>
+        <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00119/" ed="2r" type="sheet"/>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <opener hand="#print_black_auden">
+              <dateline>
+                <persName>
+                  <lb/><rs type="person" ref="#amp_person_1">W. H. AUDEN</rs>
+                </persName>
+                <placeName>
+                  <address>
+                    <lb/><rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN (WESTBAHN)
+                    <lb/>HINTERHOLZ 6
+                    <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
+                  </address>
+                </placeName>
+                <seg hand="#hand_blue_auden">
+                  <date>
+                    <lb/>Samstag<unclear>.</unclear>
+                  </date>
+                </seg>
+              </dateline>
+              <salute hand="#hand_blue_auden">
+                <lb/>Lieber <rs type="person" ref="#amp_person_107">Hugo</rs>:
+              </salute>
+            </opener>
+            <p>
+              <lb/>Komme Mittwoch 19&#xB7;15 an<unclear>.</unclear>
+            </p>
+            <closer>
+              <salute>
+                <lb/>dein Freund
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
+              </signed>
+            </closer>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00120/" ed="2v" type="sheet"/>
+        </div>
       </div>
     </body>
   </text>
