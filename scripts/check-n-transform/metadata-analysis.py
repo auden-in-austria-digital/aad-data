@@ -60,7 +60,7 @@ plt.figure(figsize=(10, 5))  # initialize figure, set dimensions in inches
 offset = pd.DateOffset(days=7)  # introduce x-axis offset
 
 plt.scatter(monthly_auden.index - offset, monthly_auden, color='#000080', label='W. H. Auden', marker='.')  # plot Auden documents with offset
-plt.scatter(monthly_others.index + offset, monthly_others, color='#7D3F0F', label='other', marker='.')  # plot other documents with reverse offset
+plt.scatter(monthly_others.index + offset, monthly_others, color='#FFDB58', label='other', marker='.')  # plot other documents with reverse offset
 
 plt.gca().yaxis.set_major_locator(plt.MaxNLocator(integer=True))  # retrieve axes, set y-axis ticks to integers
 
