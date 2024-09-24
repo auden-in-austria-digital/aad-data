@@ -77,7 +77,7 @@ plt.savefig('./metadata/md/docs_per_month_by_author.png')  # save figure
 
 # create markdown report
 
-with open("metadata-analysis.md", "w") as f:
+with open("./metadata/md/metadata-analysis.md", "w") as f:
     f.write(f'## `input_img_id.csv` analysis report\n')
     f.write(f'### `df.isnull().sum()`\n```\n{df_summary}\n```\n')
     f.write(f'### `df.info()`\n```\n{df_info}\n```\n')
