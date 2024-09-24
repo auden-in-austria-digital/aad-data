@@ -53,16 +53,16 @@ monthly_others = df_others.resample('ME').size()
 monthly_auden = monthly_auden[monthly_auden > 0]
 monthly_others = monthly_others[monthly_others > 0]
 
-# Introduce a small offset for overlapping points
-offset = pd.DateOffset(days=7)  # 15 days offset for visualization clarity
-
 plt.figure(figsize=(10, 5))  # initialize figure, set dimensions in inches
 
-# Plot Auden documents (cyan) with a slight offset to the left
-plt.scatter(monthly_auden.index - offset, monthly_auden, color='c', label='Auden, W. H.', marker='o')
+# Introduce a small offset for the horizontal position of the dots
+offset = pd.DateOffset(days=7)
 
-# Plot other authors' documents (magenta) with a slight offset to the right
-plt.scatter(monthly_others.index + offset, monthly_others, color='m', label='Others', marker='o')
+# Plot Auden documents (cyan) with a slight offset
+plt.scatter(monthly_auden.index - offset, monthly_auden, color='c', label='W. H. Auden', marker='.')
+
+# Plot other authors' documents (magenta) with a slight offset in the opposite direction
+plt.scatter(monthly_others.index + offset, monthly_others, color='m', label='others', marker='.')
 
 plt.gca().yaxis.set_major_locator(plt.MaxNLocator(integer=True))  # retrieve axes, set y-axis ticks to integers
 
@@ -82,13 +82,13 @@ plt.savefig('./metadata/md/docs_per_month_by_author.png')
 
 # create markdown report
 
-with open("./metadata/md/metadata-analysis.md", "w") as f:
+with open("metadata-analysis.md", "w") as f:
     f.write(f'## `input_img_id.csv` analysis report\n')
     f.write(f'### `df.isnull().sum()`\n```\n{df_summary}\n```\n')
     f.write(f'### `df.info()`\n```\n{df_info}\n```\n')
     f.write(f'### cleaned document data\n')
     f.write(f'```\n{df_doc.to_string()}\n```\n')
     f.write(f'### scatter plot\n\n')
-    f.write(f'![number of documents per month](docs_per_month.png)')
+    f.write(f'![number of documents per month](docs_per_month.png)\n')
     f.write(f'### scatter plot by author\n\n')
     f.write(f'![number of documents per month by author](docs_per_month_by_author.png)')
