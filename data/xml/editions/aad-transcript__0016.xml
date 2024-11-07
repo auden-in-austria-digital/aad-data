@@ -163,7 +163,7 @@
             <lb/>Hugo Kurka</rs>
             <address>
               <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
-              <lb/>Adalbert Stiftergasse 22/28<unclear>,</unclear></rs>
+              <lb/>Adalbert Stiftergasse 22/28<unclear>.</unclear></rs>
             </address>   
           </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00062/" ed="1v" type="envelope"/>
@@ -190,7 +190,7 @@
                   </placeName>
                 </seg>
                 <date>
-                  <lb/>26<hi rend="superscript">te<unclear>n</unclear></hi> August<unclear>,</unclear>
+                  <lb/>26<hi rend="superscript">te<unclear>n</unclear></hi> August.
                 </date>
               </dateline>
               <salute>

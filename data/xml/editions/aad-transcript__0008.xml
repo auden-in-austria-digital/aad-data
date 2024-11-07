@@ -154,13 +154,13 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0008" xml:lang="de" hand="#hand_blue_auden">
+      <div type="transcription" xml:id="transcription_aad_0008" xml:lang="de">
         <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00029/" ed="1r" type="envelope"/>
-          <ab>
+          <ab hand="#hand_blue_auden">
             <lb/>m<hi rend="underline" hand="#hand_blue_auden">it Luft-Post<space unit="char" quantity="1"/></hi>
           </ab>
-          <ab>
+          <ab hand="#hand_blue_auden">
             <lb/><rs type="person" ref="#amp_person_107">Herrn
             <lb/>Hugo Kurka</rs>
             <address>
@@ -170,7 +170,7 @@
             </address>   
           </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00030/" ed="1v" type="envelope"/>
-          <ab>
+          <ab hand="#hand_blue_auden">
             <lb/><rs type="person" ref="#amp_person_1">W.H. Auden</rs>
             <address>
               <lb/><rs type="place" ref="#amp_place_id_19">1 Berlin 33
@@ -181,7 +181,7 @@
         </div>
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00031/" ed="2r" type="sheet"/>
-          <div type="letter_message">
+          <div type="letter_message" hand="#hand_blue_auden">
             <opener>
               <dateline>
                 <date>
@@ -200,7 +200,7 @@
             </opener>
             <p>
               <lb/><rs type="event" ref="#amp_event_id_85">Ich komme <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs> zuruck nächsten
-              <lb/>Donnerstag<unclear>.</unclear>(22<hi rend="superscript">ten</hi><unclear>,</unclear>)</rs>
+              <lb/>Donnerstag<unclear>.</unclear>(22<hi rend="superscript">ten</hi><unclear>.</unclear>)</rs>
             </p>
             <p>
               <lb/>Wenn es Dir möglich ist, werde ich bei
@@ -208,12 +208,12 @@
             </p>
             <p>
               <lb/>Wenn das ist nicht möglich für Dich,sc<del rend="overstrike" hand="#hand_blue_auden">hreiben</del>
-              <lb/><del rend="overstrike" hand="#hand_blue_auden">la</del> sc<subst><del rend="overwritten" hand="#hand_blue_auden">r</del><add place="superimposed" hand="#hand_blue_auden">h</add></subst>reibe a<unclear>m</unclear> <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs><unclear>,</unclear> Sonst <del rend="overstrike" hand="#hand_blue_auden">will ich
-              <lb/>d<unclear>a</unclear> se<unclear>i</unclear></del> komme ich<unclear>,</unclear>
+              <lb/><del rend="overstrike" hand="#hand_blue_auden">la</del> sc<subst><del rend="overwritten" hand="#hand_blue_auden">r</del><add place="superimposed" hand="#hand_blue_auden">h</add></subst>reibe a<unclear>m</unclear> <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs>. Sonst <del rend="overstrike" hand="#hand_blue_auden">will ich
+              <lb/>d<unclear>a</unclear> se<unclear>i</unclear></del> komme ich<unclear>.</unclear>
             </p>
             <p>
               <lb/>Es wird <unclear>m</unclear>ich <unclear>so</unclear> freuen <unclear>d</unclear>ich und
-              <lb/><rs type="person" ref="#amp_person_240">Christa</rs> wieder zu sehen<unclear>,</unclear>
+              <lb/><rs type="person" ref="#amp_person_240">Christa</rs> wieder zu sehen<unclear>.</unclear>
             </p>
             <closer>
               <salute>

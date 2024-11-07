@@ -153,9 +153,9 @@
   <text>
     <body>
       <div type="transcription" xml:id="transcription_aad_0015" xml:lang="de">
-        <div type="envelope" hand="#hand_blue_auden">
+        <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00057/" ed="1r" type="envelope"/>
-          <ab>
+          <ab hand="#hand_blue_auden">
             <lb/><rs type="person" ref="#amp_person_107">Her<unclear>rn</unclear>
             <lb/>Hugo Kurka</rs>
             <address>
@@ -165,7 +165,7 @@
             </address>   
           </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00058/" ed="1v" type="envelope"/>
-          <ab>
+          <ab hand="#hand_blue_auden">
             <lb/><rs type="person" ref="#amp_person_1">W<unclear>.</unclear>H Auden</rs>
             <seg hand="#print_black_auden">
               <address>

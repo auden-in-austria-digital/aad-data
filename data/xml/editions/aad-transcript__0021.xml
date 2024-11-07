@@ -157,7 +157,7 @@
         <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00081/" ed="1r" type="envelope"/>
           <ab hand="#hand_blue_unident_0021">
-            <del rend="overlaid">1'5</del>0
+            <lb/><del rend="overlaid">1'5</del>0
           </ab>
           <ab hand="#hand_blue_auden">
             <lb/><rs type="person" ref="#amp_person_107">Herr<unclear>n</unclear>
@@ -210,7 +210,7 @@
                 <lb/>Dein
               </salute>
               <signed>
-                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs><unclear>.</unclear>
               </signed>
             </closer>
           </div>
