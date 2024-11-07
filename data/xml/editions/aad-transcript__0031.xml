@@ -25,7 +25,7 @@
         <edition>
           <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1965-09-23</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_064">
               <desc/>
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -137,6 +137,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2024-09-24">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2024-09-24">physDesc and correspDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2024-11-07">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -155,13 +156,71 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0031" xml:lang="">
+      <div type="transcription" xml:id="transcription_aad_0031" xml:lang="de">
         <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00121/" ed="1r" type="envelope"/>
+          <ab hand="#hand_blue_auden">
+            <lb/><del rend="overstrike" hand="#hand_blue_auden"><hi rend="underline" hand="#hand_blue_auden">mit Luft<unclear>&#xB7;</unclear>Post<space unit="char" quantity="1"/></hi></del>
+          </ab>
+          <ab hand="#hand_blue_auden">
+            <lb/><rs type="person" ref="#amp_person_107">Herrn
+            <lb/>H<unclear>u</unclear>go Kurka</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
+              <lb/>Adalbert Stiftergasse 22/28.</rs>
+            </address>   
+          </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00122/" ed="1v" type="envelope"/>
+          <ab hand="#print_black_auden">
+            <lb/><rs type="person" ref="#amp_person_1">W. H. AUDEN</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN (WESTBAHN)
+              <lb/>HINTERHOLZ 6
+              <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
+            </address>
+          </ab>
         </div>
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00123/" ed="2r" type="sheet"/>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <opener hand="#print_black_auden">
+              <dateline>
+                <seg hand="#hand_blue_auden">
+                  <date>
+                    <lb/>Donnerstag
+                  </date>
+                </seg>
+                <persName>
+                  <lb/><rs type="person" ref="#amp_person_1">W. H. AUDEN</rs>
+                </persName>
+                <placeName>
+                  <address>
+                    <lb/><rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN (WESTBAHN)
+                    <lb/>HINTERHOLZ 6
+                    <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
+                  </address>
+                </placeName>
+              </dateline>
+              <salute hand="#hand_blue_auden">
+                <lb/>Lieber <rs type="person" ref="#amp_person_107">Hugo</rs><subst><del rend="overwritten" hand="#hand_blue_auden">:</del><add place="superimposed" hand="#hand_blue_auden">u</add></subst>nd <rs type="person" ref="#amp_person_240">Christa</rs>.
+              </salute>
+            </opener>
+            <p>
+              <lb/>Wilkommen a<unclear>m</unclear> <rs type="place" ref="#amp_place_id_1" ana="#ana_064">Wien</rs>! Besten Dank f<unclear>ür</unclear> die Karte.
+              <lb/>Ich hoffe dass das Wetter schön geblieben <del rend="overstrike" hand="#hand_blue_auden">w<unclear>a</unclear>r</del>ist.
+            </p>
+            <p>
+              <lb/>Ich werde bei Dir sein Dienstag <unclear>A</unclear>bend.
+            </p>
+            <closer>
+              <salute>
+                <lb/>Dein Freund
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
+              </signed>
+            </closer>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00124/" ed="2v" type="sheet"/>
         </div>
       </div>
