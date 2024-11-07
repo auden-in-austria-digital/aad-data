@@ -123,7 +123,7 @@
         <correspAction type="sent">
           <orgName><rs type="org" ref="#amp_organization_70">Post office Kirchstetten</rs></orgName>
           <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
-          <date notBefore-iso="1960-08-29T08:00:01+01:00" notAfter-iso="1968-07-29T12:00:00+01:00"/>
+          <date notBefore-iso="1960-08-29T11:00:01+01:00" notAfter-iso="1968-07-29T12:00:00+01:00"/>
         </correspAction>
         <correspAction type="received">
           <persName ref="#amp_person_107">Kurka, Hugo</persName>
