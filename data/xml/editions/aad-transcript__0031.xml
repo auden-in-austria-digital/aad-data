@@ -160,7 +160,7 @@
         <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00121/" ed="1r" type="envelope"/>
           <ab hand="#hand_blue_auden">
-            <lb/><del rend="overstrike" hand="#hand_blue_auden"><hi rend="underline" hand="#hand_blue_auden">mit Luft<unclear>&#xB7;</unclear>Post<space unit="char" quantity="1"/></hi></del>
+            <lb/><del rend="overstrike" hand="#hand_blue_auden"><hi rend="underline" hand="#hand_blue_auden">mit Luft-Post<space unit="char" quantity="1"/></hi></del>
           </ab>
           <ab hand="#hand_blue_auden">
             <lb/><rs type="person" ref="#amp_person_107">Herrn
