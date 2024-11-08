@@ -69,19 +69,19 @@
                   <supportDesc>
                     <support>
                       <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00127/ https://iiif.acdh.oeaw.ac.at/aad/aad_00128/">NEUSIEDLER JAPAN POST</watermark>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00125/">
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00131/">
                         <width>162</width>
                         <height>114</height>
                       </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00126/">
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00132/">
                         <width>162</width>
                         <height>114</height>
                       </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00127/">
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00133/">
                         <width>210</width>
                         <height>298</height>
                       </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00128/">
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00134/">
                         <width>210</width>
                         <height>298</height>
                       </dimensions>
@@ -139,23 +139,23 @@
   </teiHeader>
   <facsimile>
     <surface ulx="0" uly="0" lrx="2780" lry="2044">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00125/"/>
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00131/"/>
     </surface>
     <surface ulx="0" uly="0" lrx="2776" lry="2044">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00126/"/>
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00132/"/>
     </surface>
     <surface ulx="0" uly="0" lrx="3526" lry="4944">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00127/"/>
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00133/"/>
     </surface>
     <surface ulx="0" uly="0" lrx="3526" lry="4948">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00128/"/>
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00134/"/>
     </surface>
   </facsimile>
   <text>
     <body>
       <div type="transcription" xml:id="transcription_aad_0032" xml:lang="de">
         <div type="envelope">
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00125/" ed="1r" type="envelope"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00131/" ed="1r" type="envelope"/>
           <ab hand="#hand_blue_auden">
             <lb/><rs type="person" ref="#amp_person_107">Herrn
             <lb/>Hugo Kurka</rs>
@@ -164,7 +164,7 @@
               <lb/>Adalbert Stifte<unclear>r</unclear>gasse 22/28</rs>
             </address>   
           </ab>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00126/" ed="1v" type="envelope"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00132/" ed="1v" type="envelope"/>
           <ab hand="#print_black_auden">
             <lb/><rs type="person" ref="#amp_person_1">W. H. AUDEN</rs>
             <address>
@@ -175,7 +175,7 @@
           </ab>
         </div>
         <div type="letter">
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00127/" ed="2r" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00133/" ed="2r" type="sheet"/>
           <div type="letter_message" hand="#hand_blue_auden">
             <opener hand="#print_black_auden">
               <dateline>
@@ -210,7 +210,7 @@
               </signed>
             </closer>
           </div>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00128/" ed="2v" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00134/" ed="2v" type="sheet"/>
         </div>
       </div>
     </body>
