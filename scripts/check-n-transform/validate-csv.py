@@ -51,11 +51,6 @@ for row in data:
     if not len(row[img_index]) == 5:
         raise ValueError(f'Error in line {row_num}: img ID must consist of five digits.')
 
-    # specify img value incrementation
-    img_id_no = int(row[img_index])
-    if not img_id_no == i + 1:
-        raise ValueError(f'Error in line {row_num}: img ID must increment by 1.')
-
     # specify lrx value data type
     if not row[lrx_index].isdigit():
         raise TypeError(f'Error in line {row_num}: lrx value must contain only digits.')
