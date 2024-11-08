@@ -25,7 +25,7 @@
         <edition>
           <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1964-08-18</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_065">
               <desc/>
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -134,6 +134,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2024-11-07">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2024-11-07">physDesc and correspDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2024-11-08">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -175,6 +176,40 @@
         </div>
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00127/" ed="2r" type="sheet"/>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <opener hand="#print_black_auden">
+              <dateline>
+                <seg hand="#hand_blue_auden">
+                  <date>
+                    <lb/>Dienstag .
+                  </date>
+                </seg>
+                <placeName>
+                  <address>
+                    <lb/><rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN (WESTBAHN)
+                    <lb/>HINTERHOLZ 6
+                    <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
+                  </address>
+                </placeName>
+              </dateline>
+              <salute hand="#hand_blue_auden">
+                <lb/>Lieber <rs type="person" ref="#amp_person_107">Hugo</rs>:
+              </salute>
+            </opener>
+            <p>
+              <lb/><rs type="person" ref="#amp_person_1 #amp_person_4">Wir</rs> sind wieder <rs type="place" ref="#amp_place_id_2">zu Haus</rs>,aber a<unclear>m</unclear> diesem <subst><del rend="overwritten" hand="#hand_blue_auden">m</del><add place="superimposed" hand="#hand_blue_auden">M</add></subst>oment
+              <lb/>haben <rs type="person" ana="#ana_065">Gäste</rs>. So bald wi<unclear>e</unclear> möglich komme ich
+              <lb/>nach <rs type="place" ref="#amp_place_id_1">Wien</rs> und will Dich wissen lassen wann.
+            </p>
+            <closer>
+              <salute>
+                <lb/>Dein
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
+              </signed>
+            </closer>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00128/" ed="2v" type="sheet"/>
         </div>
       </div>
