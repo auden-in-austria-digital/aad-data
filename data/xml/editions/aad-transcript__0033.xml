@@ -120,7 +120,7 @@
         <language ident="en"/>
       </langUsage>
       <correspDesc>
-        <correspAction type="sent">
+        <correspAction type="sent" subtype="airmail">
           <orgName><rs type="org" ref="#amp_organization_85">U.S. General Post Office</rs></orgName>
           <placeName><rs type="place" ref="#amp_place_id_28">New York City</rs></placeName>
           <date notBefore-iso="1966-01-28T12:00:00-05:00" notAfter-iso="1966-01-28T23:59:59-05:00"/>
@@ -155,10 +155,33 @@
       <div type="transcription" xml:id="transcription_aad_0033" xml:lang="de">
         <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00135/" ed="1r" type="envelope"/>
+          <ab hand="#hand_blue_auden" xml:lang="en">
+            <lb/><rs type="person" ref="#amp_person_1">WH.Auden</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_29">77 St Mark's Place
+              <lb/>New York Ci<unclear>t</unclear>y 3
+              <lb/>N.Y. 10003
+              <lb/>U.S.A.</rs>
+            </address>
+          </ab>
+          <ab hand="#hand_blue_auden" xml:lang="en">
+            <lb/><hi rend="underline" hand="#hand_blue_auden">Air<unclear>&#xB7;</unclear></hi>Mail
+          </ab>
+          <ab hand="#hand_blue_auden">
+            <lb/><rs type="person" ref="#amp_person_107">Herrn
+            <lb/>Hugo Kurka</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
+              <lb/>Adalbert St<unclear>i</unclear>ftergasse 22/2<subst><del rend="overwritten" hand="#hand_blue_auden"><unclear>4</unclear></del><add place="superimposed" hand="#hand_blue_auden">8</add></subst>
+              <lb/><foreign xml:lang="en">Austria</foreign> .</rs>
+            </address>   
+          </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00136/" ed="1v" type="envelope"/>
         </div>
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00137/" ed="2r" type="sheet"/>
+          <div type="letter_message" hand="#hand_blue_auden">
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00138/" ed="2v" type="sheet"/>
         </div>
       </div>
