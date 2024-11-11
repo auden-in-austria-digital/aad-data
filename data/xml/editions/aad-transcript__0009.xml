@@ -169,7 +169,7 @@
             <lb/><del rend="overstrike" hand="#hand_blue_auden"><hi rend="underline" hand="#hand_blue_auden">mit Luft<unclear>-</unclear>Post<space unit="char" quantity="1"/></hi></del>
           </ab>
           <ab hand="#hand_blue_auden">
-            <lb/><hi rend="underline" hand="#hand_blue_auden">Eil Post</hi>
+            <lb/><hi rend="underline" hand="#hand_blue_auden">Eil Post<space unit="char" quantity="1"/></hi>
           </ab>
           <ab hand="#hand_blue_unident_0009">
             <lb/><del rend="overlaid">3</del><unclear>'</unclear>&#x2014;
