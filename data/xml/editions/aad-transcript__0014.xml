@@ -156,7 +156,7 @@
         <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00053/" ed="1r" type="envelope"/>
           <ab hand="#hand_blue_auden">
-            <lb/><hi rend="underline" hand="#hand_blue_auden">mit Luft-Post<space unit="char" quantity="1"/></hi>
+            <lb/><hi rend="underline" hand="#hand_blue_auden"><space unit="char" quantity="1"/>mit Luft-Post<space unit="char" quantity="1"/></hi>
           </ab>
           <ab hand="#hand_blue_auden">
             <lb/><rs type="person" ref="#amp_person_107">Hern
@@ -172,13 +172,13 @@
           <ab hand="#print_black_auden">
             <lb/><rs type="person" ref="#amp_person_1">W. H. AUDEN</rs>
             <address>
-              <lb/><rs type="place" ref="#amp_place_id_2">K<del rend="overstrike" hand="#hand_blue_auden">IRCHSTETTEN (WESTBAHN)<space unit="char" quantity="1"/></del>
-              <lb/><del rend="overstrike" hand="#hand_blue_auden">HINTERHOLZ 6<space unit="char" quantity="1"/></del>
-              <lb/>N<del rend="overstrike" hand="#hand_blue_auden">.-Ö., <foreign xml:lang="en">AUSTRIA</foreign><space unit="char" quantity="1"/></del></rs>
+              <lb/><rs type="place" ref="#amp_place_id_2">K<del rend="overstrike" hand="#hand_blue_auden">IRCHSTETTEN (WESTBAHN)</del>
+              <lb/><del rend="overstrike" hand="#hand_blue_auden">HINTERHOLZ 6</del>
+              <lb/>N<del rend="overstrike" hand="#hand_blue_auden">.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></del></rs>
             </address>
             <seg hand="#hand_blue_auden">
               <address>
-                <lb/><rs type="place" ref="#amp_place_id_19">Berlin-Dahlem
+                <lb/><rs type="place" ref="#amp_place_id_19">Berlin - Dahlem
                 <lb/>Hubertusbaderstrasse 43</rs>
               </address>
             </seg>

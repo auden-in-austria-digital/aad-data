@@ -176,9 +176,9 @@
           <ab hand="#print_black_auden">
             <lb/><rs type="person" ref="#amp_person_1">W. H. AUDEN</rs>
             <address>
-              <lb/><rs type="place" ref="#amp_place_id_2"><del rend="overstrike" hand="#hand_blue_auden">KIRCHSTETTEN (WESTBAHN)<space unit="char" quantity="1"/></del>
-              <lb/><del rend="overstrike" hand="#hand_blue_auden"><space unit="char" quantity="1"/>HINTERHOLZ 6<space unit="char" quantity="1"/></del>
-              <lb/>N<del rend="overstrike" hand="#hand_blue_auden">.-Ö., <foreign xml:lang="en">AUSTRIA</foreign><space unit="char" quantity="1"/></del></rs>
+              <lb/><rs type="place" ref="#amp_place_id_2"><del rend="overstrike" hand="#hand_blue_auden">KIRCHSTETTEN (WESTBAHN)</del>
+              <lb/><del rend="overstrike" hand="#hand_blue_auden">HINTERHOLZ 6</del>
+              <lb/>N<del rend="overstrike" hand="#hand_blue_auden">.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></del></rs>
             </address>
             <seg hand="#hand_blue_auden">
               <address>
@@ -199,9 +199,9 @@
                 <placeName>
                   <seg hand="#print_black_auden">
                     <address>
-                      <lb/><rs type="place" ref="#amp_place_id_2"><del rend="overstrike" hand="#hand_blue_auden">KIRCHSTETTEN (WESTBAHN)<space unit="char" quantity="1"/></del>
-                      <lb/><del rend="overstrike" hand="#hand_blue_auden">HINTERHOLZ 6<space unit="char" quantity="1"/></del>
-                      <lb/><del rend="overstrike" hand="#hand_blue_auden">N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign><space unit="char" quantity="1"/></del></rs>
+                      <lb/><rs type="place" ref="#amp_place_id_2"><del rend="overstrike" hand="#hand_blue_auden">KIRCHSTETTEN (WESTBAHN)</del>
+                      <lb/><del rend="overstrike" hand="#hand_blue_auden">HINTERHOLZ 6</del>
+                      <lb/><del rend="overstrike" hand="#hand_blue_auden">N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></del></rs>
                     </address>
                     <seg hand="#hand_blue_auden">
                       <address>
@@ -221,8 +221,8 @@
               <lb/>habe ich<add place="above" hand="#hand_blue_auden"><space unit="char" quantity="1"/>noch</add> nicht gehört. Auf jedenfals müssen <rs type="person" ref="#amp_person_107 #amp_person_240" ana="#ana_052">sie
               <lb/>beide</rs> nach <rs type="place" ref="#amp_place_id_17">Berlin</rs> am Weinachten kommen wenn<del rend="overstrike" hand="#hand_blue_auden">e</del> es
               <lb/>ihnen möglich ist. Wenn <rs type="person" ref="#amp_person_4">Chester</rs> und <rs type="person" ref="#amp_person_251" ana="#ana_053">Kosta</rs> auch hier
-              <lb/>sind, dann f<unclear>in</unclear>de ich e<unclear>i</unclear>n Hotel fur ihnen, natürlich
-              <lb/>auf meine<add place="inline" hand="#hand_blue_auden"><unclear>n</unclear></add><del rend="overstrike" hand="#hand_blue_auden">Kostung</del> Kosten.
+              <lb/>sind , dann f<unclear>in</unclear>de ich e<unclear>i</unclear>n Hotel fur ihnen, natürlich
+              <lb/>auf meine<add place="inline" hand="#hand_blue_auden"><unclear>n</unclear></add> <del rend="overstrike" hand="#hand_blue_auden">Kostung</del> Kosten .
             </p>
             <p>
               <lb/>Bitte, lass mich wissen von wann bis wann Du

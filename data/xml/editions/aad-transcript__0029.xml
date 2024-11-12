@@ -201,7 +201,7 @@
                 </placeName>
                 <seg hand="#hand_blue_auden">
                   <date>
-                    <lb/>Sonntag.
+                    <lb/>Sonntag .
                   </date>
                 </seg>
               </dateline>
@@ -210,7 +210,7 @@
               </salute>
             </opener>
             <p>
-              <lb/>Komme Dienstag u<unclear>m</unclear> 19&#xB7;15 ungef<unclear>ä</unclear>hr<unclear>'</unclear>
+              <lb/>Komme Dienstag u<unclear>m</unclear> 19&#xB7; 15 ungef<unclear>ä</unclear>hr<unclear>'</unclear>
               <lb/>Dann können wir uber den Fahrt <unclear>n</unclear>ach <rs type="place" ref="#amp_place_id_358">Griechenland</rs>
               <lb/>sprechen.
             </p>
@@ -219,7 +219,7 @@
                 <lb/>Dein Freund
               </salute>
               <signed>
-                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>.
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs> .
               </signed>
             </closer>
           </div>

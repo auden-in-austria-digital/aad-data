@@ -165,7 +165,7 @@
             </address>
           </ab>
           <ab hand="#hand_blue_auden" xml:lang="en">
-            <lb/><hi rend="underline" hand="#hand_blue_auden">Air<unclear>&#xB7;</unclear></hi>Ma<unclear>i</unclear>l
+            <lb/><hi rend="underline" hand="#hand_blue_auden">Air<unclear>&#xB7;</unclear> </hi>Ma<unclear>i</unclear>l
           </ab>
           <ab hand="#hand_blue_auden">
             <lb/><rs type="person" ref="#amp_person_107">Herrn
@@ -199,14 +199,14 @@
               </salute>
             </opener>
             <p>
-              <lb/>Wie geht's? Brauchst Du mehr <subst><del rend="overwritten" hand="#hand_blue_auden">g</del><add place="superimposed" hand="#hand_blue_auden">G</add></subst>eld <subst><del rend="overwritten" hand="#hand_blue_auden">z</del><add place="superimposed" hand="#hand_blue_auden">j</add></subst>ezt
+              <lb/>Wie geht's ? Brauchst Du mehr <subst><del rend="overwritten" hand="#hand_blue_auden">g</del><add place="superimposed" hand="#hand_blue_auden">G</add></subst>eld <subst><del rend="overwritten" hand="#hand_blue_auden">z</del><add place="superimposed" hand="#hand_blue_auden">j</add></subst>ezt
               <lb/>fur den <del rend="overstrike" hand="#hand_blue_auden">English</del> Englischunterrichtungen ?
             </p>
             <p>
-              <lb/>Bitte lass mir wissen.
+              <lb/>Bitte lass mir wissen .
               <lb/>Selbstver<unclear>s</unclear>tändlich habe ich kein Wort von <rs type="person" ref="#amp_person_4">Chester</rs>
               <lb/><del rend="overstrike" hand="#hand_blue_auden">ger<unclear>h</unclear></del> gehört, der Scheisser! <rs type="note" ana="#ana_066">Hoffentlich habe ich
-              <lb/>seine Adresse richtig</rs> &#x2013; <rs type="place" ref="#amp_place_id_71">Wien III , Eslandgasse 18/<unclear>4</unclear>/16</rs>.
+              <lb/>seine Adresse richtig</rs>&#x2013; <rs type="place" ref="#amp_place_id_71">Wien III , Eslandgasse 18/<unclear>4</unclear>/16</rs>.
             </p>
             <p>
               <lb/>Alles geht gut bei mir, nur ich bin allein.
