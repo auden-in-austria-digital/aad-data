@@ -91,7 +91,7 @@
                 <handDesc>
                   <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
                   <handNote xml:id="hand_blue_unident_0029_1" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
-                  <handNote xml:id="hand_blue_unident_0029_2" medium="ink-blue" ana="#ana_062">Handwriting in blue ink by unidentified writer</handNote>
+                  <handNote xml:id="hand_blue_kurka_c" scribeRef="#amp_person_240" medium="ink-blue" ana="#ana_062">Handwriting in blue ink by Christa Kurka</handNote>
                 </handDesc>
                 <typeDesc>
                   <typeNote xml:id="print_black_auden" scribeRef="#amp_person_1" medium="print-black">Preprinted writing in black authored by W. H. Auden, sans-serif Grotesque-family typeface</typeNote>
@@ -180,8 +180,8 @@
               <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
             </address>
           </ab>
-          <ab hand="#hand_blue_unident_0029_2">
-            <lb/><hi rend="underline" hand="#hand_blue_unident_0029_2">14<unclear>.</unclear>7<unclear>.</unclear>64</hi>
+          <ab hand="#hand_blue_kurka_c">
+            <lb/><hi rend="underline" hand="#hand_blue_kurka_c">14<unclear>.</unclear>7<unclear>.</unclear>64</hi>
           </ab>
         </div>
         <div type="letter">
