@@ -21,9 +21,8 @@ df_doc.set_index('doc', inplace=True)  # set doc values as index
 # doc-time plot
 
 df_date = df.drop_duplicates(subset='doc')[['doc', 'author', 'notBefore-iso']]
-df_date['notBefore-iso'] = pd.to_datetime(df_date['notBefore-iso'], errors='coerce', utc=True)  # convert notBefore-iso string values to datetime objects, replace invalid string values with NaT values
-
-df_date = df_date.dropna(subset=['notBefore-iso'])
+df_date['notBefore-iso'] = pd.to_datetime(df_date['notBefore-iso'], errors='coerce', utc=True)  # convert notBefore-iso string values to datetime objects, replace invalid string values with NaT values, standardize datetimes to UTC
+df_date = df_date.dropna(subset=['notBefore-iso'])  # drop rows where UTC conversion failed
 
 df_date.set_index('notBefore-iso', inplace=True)  # set datetime objects as index
 
@@ -82,5 +81,5 @@ with open('./metadata/md/metadata-analysis.md', 'w') as f:
     f.write(f'### cleaned document data\n')
     f.write(f'```\n{df_doc.to_string()}\n```\n')
     f.write(f'### scatter plot\n\n')
-    f.write(f'![number of documents per month](docs_per_month.png)\n')
-    f.write(f'![number of documents per month by author](docs_per_month_by_author.png)')
+    f.write(f'![number of documents per month (UTC)](docs_per_month.png)\n')
+    f.write(f'![number of documents per month (UTC) by author](docs_per_month_by_author.png)')
