@@ -21,7 +21,7 @@ df_doc.set_index('doc', inplace=True)  # set doc values as index
 # doc-time plot
 
 df_date = df.drop_duplicates(subset='doc')[['doc', 'author', 'notBefore-iso']]
-df_date['notBefore-iso'] = pd.to_datetime(df_date['notBefore-iso'], errors='coerce')  # convert notBefore-iso string values to datetime objects, replace invalid string values with NaT values
+df_date['notBefore-iso'] = pd.to_datetime(df_date['notBefore-iso'], errors='coerce', utc=True)  # convert notBefore-iso string values to datetime objects, replace invalid string values with NaT values, convert timezone-aware timestamps to timezone-naive UTC
 
 df_date.set_index('notBefore-iso', inplace=True)  # set datetime objects as index
 
