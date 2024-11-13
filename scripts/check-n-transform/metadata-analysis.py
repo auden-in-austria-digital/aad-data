@@ -33,7 +33,7 @@ monthly_docs[monthly_docs > 0].plot(kind='line', marker='.', linestyle='None', c
 plt.gca().yaxis.set_major_locator(plt.MaxNLocator(integer=True))  # retrieve axes, set y-axis ticks to integers
 
 # add labels
-plt.title('number of documents per month')
+plt.title('number of documents per month (UTC)')
 plt.xlabel('time')
 plt.ylabel('number')
 
@@ -62,7 +62,7 @@ plt.scatter(monthly_other.index + offset, monthly_other, color='#FFDB58', label=
 plt.gca().yaxis.set_major_locator(plt.MaxNLocator(integer=True))  # retrieve axes, set y-axis ticks to integers
 
 # add labels
-plt.title('number of documents per month by author')
+plt.title('number of documents per month (UTC) by author')
 plt.xlabel('time')
 plt.ylabel('number')
 
@@ -81,5 +81,5 @@ with open('./metadata/md/metadata-analysis.md', 'w') as f:
     f.write(f'### cleaned document data\n')
     f.write(f'```\n{df_doc.to_string()}\n```\n')
     f.write(f'### scatter plot\n\n')
-    f.write(f'![number of documents per month (UTC)](docs_per_month.png)\n')
-    f.write(f'![number of documents per month (UTC) by author](docs_per_month_by_author.png)')
+    f.write(f'![number of documents per month](docs_per_month.png)\n')
+    f.write(f'![number of documents per month by author](docs_per_month_by_author.png)')
