@@ -93,5 +93,5 @@ doc
 ```
 ### scatter plot
 
-![number of documents per month](docs_per_month.png)
-![number of documents per month by author](docs_per_month_by_author.png)
+![number of documents per month (UTC)](docs_per_month.png)
+![number of documents per month (UTC) by author](docs_per_month_by_author.png)
