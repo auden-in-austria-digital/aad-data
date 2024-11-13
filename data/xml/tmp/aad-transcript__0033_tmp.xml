@@ -97,7 +97,7 @@
               </physDesc>
               <history>
                 <origin>
-                  <origDate notBefore-iso="1966-01-27T00:00:00+01:00" notAfter-iso="1966-01-27T23:59:59+01:00"/>
+                  <origDate notBefore-iso="1966-01-27T00:00:00-05:00" notAfter-iso="1966-01-27T23:59:59-05:00"/>
                   <origPlace ref="https://d-nb.info/gnd/4042011-5">New York City</origPlace>
                 </origin>
               </history>
@@ -120,7 +120,7 @@
       </langUsage>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2024-11-08">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2024-11-13">TEI/XML template populated with csv2xml.py</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
