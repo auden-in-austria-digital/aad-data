@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0035" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
   <teiHeader>
     <fileDesc>
@@ -207,7 +204,7 @@
               <lb/><hi rend="underline" hand="#hand_blue_auden">so</hi> froh dass es <del rend="overstrike" hand="#hand_blue_auden">nicht</del> für <rs type="person" ref="#amp_person_240">Christa</rs> nicht nötig
               <lb/>ist sich operieren zu lassen. Hiermit ein
               <lb/>kleines Weinachtsgeschenk<unclear>.</unclear> In ein andere<unclear>n</unclear> Umschlag
-              <lb/>schicke ich dich ein <rs type="lit_work" ref="209" cert="medium" resp="#tfruehwirth">Artikel von dem <hi rend="underline" hand="#hand_blue_auden"><rs type="org" ref="#amp_organization_20">Sunday Times</rs></hi></rs> .
+              <lb/>schicke ich dich ein <rs type="lit_work" ref="lit_work_id_209" cert="medium" resp="#tfruehwirth">Artikel von dem <hi rend="underline" hand="#hand_blue_auden"><rs type="org" ref="#amp_organization_20">Sunday Times</rs></hi></rs> .
             </p>
             <p>
               <lb/>Alles geht gut hier. Bin sehr beschäftig.
