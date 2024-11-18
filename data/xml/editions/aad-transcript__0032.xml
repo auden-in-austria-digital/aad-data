@@ -1,4 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0032" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
   <teiHeader>
     <fileDesc>
@@ -26,9 +29,22 @@
           <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1964-08-18</title>
           <interpGrp>
             <interp xml:id="ana_065">
-              <desc/>
+              <desc>An entry dated 17-21 August 1964 in W. H. Auden's Kirchstetten guest book suggests that "Gäste" refers to two visitors staying at Auden and Kallman's Austrian home: the <rs ref="#amp_person_254">first of these</rs> <rs>can be identified as</rs> <rs ref="#amp_person_96">their close friend (and later biographer) Thekla Clark</rs>; <rs ref="#amp_person_255">the second</rs> <rs>as</rs> <rs ref="#amp_person_95">her husband John Clark</rs>.
+                <bibl>
+                  <title>Auden, Wystan Hugh, 1907-1973: Guest book: Kirchstetten, signatures and notes written in album, 82 pages, 1959-1974</title>
+                  <msIdentifier>
+                    <country ref="https://d-nb.info/gnd/4078704-7"/>
+                    <settlement ref="https://d-nb.info/gnd/4079879-3"/>
+                    <repository ref="https://d-nb.info/gnd/3018790-4"/>
+                    <collection>W. H. (Wystan Hugh) Auden Collection</collection>
+                    <idno>Miscellaneous: Container 2.7</idno>
+                  </msIdentifier>
+                  <biblScope unit="page" from="1" to="82"/>
+                  <citedRange unit="page" from="12" to="12"/>
+                </bibl>
+              </desc>
               <respons resp="#smayer #tfruehwirth" locus="value"/>
-              <certainty locus="value"/>
+              <certainty cert="high" locus="value"/>
             </interp>
           </interpGrp>
         </edition>
@@ -198,7 +214,7 @@
             </opener>
             <p>
               <lb/><rs type="person" ref="#amp_person_1 #amp_person_4">Wir</rs> sind wieder <rs type="place" ref="#amp_place_id_2">zu Haus</rs>, aber a<unclear>m</unclear> diesem <subst><del rend="overwritten" hand="#hand_blue_auden">m</del><add place="superimposed" hand="#hand_blue_auden">M</add></subst>oment
-              <lb/>haben <rs type="person" ana="#ana_065">Gäste</rs>. So bald wi<unclear>e</unclear> möglich komme ich
+              <lb/>haben <rs type="person" ref="#amp_person_254 #amp_person_255" ana="#ana_065">Gäste</rs>. So bald wi<unclear>e</unclear> möglich komme ich
               <lb/>nach <rs type="place" ref="#amp_place_id_1">Wien</rs> und will Dich wissen lassen wann .
             </p>
             <closer>
