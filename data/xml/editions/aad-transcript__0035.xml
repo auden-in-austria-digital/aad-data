@@ -25,7 +25,12 @@
         <edition>
           <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1965-12-07</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_067">
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+            <interp xml:id="ana_068">
               <desc/>
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -204,11 +209,11 @@
               <lb/><hi rend="underline" hand="#hand_blue_auden">so</hi> froh dass es <del rend="overstrike" hand="#hand_blue_auden">nicht</del> für <rs type="person" ref="#amp_person_240">Christa</rs> nicht nötig
               <lb/>ist sich operieren zu lassen. Hiermit ein
               <lb/>kleines Weinachtsgeschenk<unclear>.</unclear> In ein andere<unclear>n</unclear> Umschlag
-              <lb/>schicke ich dich ein <rs type="lit_work" ref="#lit_work_id_209" cert="medium" resp="#tfruehwirth">Artikel von dem <hi rend="underline" hand="#hand_blue_auden"><rs type="org" ref="#amp_organization_20">Sunday Times</rs></hi></rs> .
+              <lb/>schicke ich dich ein <rs type="lit_work" ref="#lit_work_id_209" ana="#ana_067">Artikel von dem <hi rend="underline" hand="#hand_blue_auden"><rs type="org" ref="#amp_organization_20">Sunday Times</rs></hi></rs> .
             </p>
             <p>
               <lb/>Alles geht gut hier. Bin sehr beschäftig.
-              <lb/>Der " <rs type="event" ref="#amp_event_id_4">Blackout</rs>" war wa<unclear>s</unclear> ! Zum erst habe ich <del rend="overstrike" hand="#hand_blue_auden">d<gap reason="illegible" unit="char" atLeast="1" atMost="2"/></del>
+              <lb/>Der " <rs type="event" ref="#amp_event_id_4"><foreign xml:lang="en">Blackout</foreign></rs>" war wa<unclear>s</unclear> ! Zum erst habe ich <del rend="overstrike" hand="#hand_blue_auden">d<gap reason="illegible" unit="char" atLeast="1" atMost="2"/></del>
               <lb/><del rend="overstrike" hand="#hand_blue_auden">dega</del> gedacht.<unclear>"'</unclear> Oh, es wird nur funf minuten dauern."
               <lb/>dann. "<unclear>Du</unclear> jedenfals <del rend="overstrike" hand="#hand_blue_auden">ist</del> ist es gut Kandelen im Haus
               <lb/>zu haben<unclear>"'</unclear> und bin h<unclear>e</unclear>raus gegangen ihnen zu kaufen.
@@ -217,7 +222,7 @@
             </p>
             <p>
               <lb/><rs type="person" ref="#amp_person_4">Chester</rs><unclear>&#xB7;</unclear>der alte Luder- hat nicht <del rend="overstrike" hand="#hand_blue_auden">geschie<unclear>'</unclear></del>
-              <lb/>geschrieben. Ich höre von eine Bekannter das er <del rend="overstrike" hand="#hand_blue_auden">nich</del>t
+              <lb/>geschrieben. Ich höre von <rs type="person" ref="#amp_person_253" ana="#ana_068">eine Bekannter</rs> das er <del rend="overstrike" hand="#hand_blue_auden">nich</del>t
               <lb/>eine Wohnung nocht nicht gefunden hat und lebt
               <lb/>in de<unclear>m</unclear> <rs type="place" ref="#amp_place_id_225">Hotel Altburgenhof</rs>. Ist <del rend="overstrike" hand="#hand_blue_auden">es<unclear>t</unclear></del> es wah<unclear>r</unclear> ?
             </p>
