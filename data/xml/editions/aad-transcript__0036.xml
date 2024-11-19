@@ -191,7 +191,7 @@
                     <lb/><rs type="place" ref="#amp_place_id_29">77 St Mark's Place
                     <lb/>New York City 3
                     <lb/>New York 10003
-                    <lb/>U.S.A.</rs>
+                    <lb/>U<unclear>.</unclear>S.A.</rs>
                   </address>
                 </placeName>
               </dateline>
@@ -208,7 +208,7 @@
             </p>
             <closer>
               <salute>
-                <lb/>immer dein Freund
+                <lb/>im<gap reason="illegible" unit="char" quantity="1"/>er dein Freund
               </salute>
               <signed>
                 <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>.
