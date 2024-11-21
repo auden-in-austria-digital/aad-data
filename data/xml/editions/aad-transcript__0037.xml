@@ -134,6 +134,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2024-11-19">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2024-11-19">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2024-11-20">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -155,11 +156,96 @@
       <div type="transcription" xml:id="transcription_aad_0037" xml:lang="de">
         <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00151/" ed="1r" type="envelope"/>
+          <ab hand="#hand_blue_auden">
+            <lb/><hi rend="underline" hand="#hand_blue_auden">mit Luft- Post<space unit="char" quantity="1"/></hi>
+          </ab>
+          <ab hand="#hand_blue_auden">
+            <lb/><rs type="person" ref="#amp_person_107">Her<unclear>rn</unclear>
+            <lb/>Hugo Kurka</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
+              <lb/>Adalbert Stiftergasse 22/28.</rs>
+            </address>   
+          </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00152/" ed="1v" type="envelope"/>
+          <ab hand="#hand_blue_auden">
+            <lb/><rs type="person" ref="#amp_person_1">WH<unclear>&#xB7;_</unclear>Auden</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_19">Berlin-Dah<unclear>h</unclear>em
+              <lb/>Hubertusbaderstrasse
+              <lb/>43.</rs>
+            </address>
+          </ab>
         </div>
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00153/" ed="2r" type="sheet"/>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <opener>
+              <dateline>
+                <date xml:lang="en">
+                  <lb/>Nov 16<hi rend="superscript"><unclear>th</unclear></hi>
+                </date>
+                <placeName>
+                  <address>
+                    <lb/><rs type="place" ref="#amp_place_id_19">Berlin-Dahbe<unclear>m</unclear>
+                    <lb/>Hubertusbaderstrasse
+                    <lb/>43</rs>
+                  </address>
+                </placeName>
+              </dateline>
+              <salute>
+                <lb/>Lieber <rs type="person" ref="#amp_person_107">Hugo</rs>:
+              </salute>
+            </opener>
+            <p>
+              <lb/>Deinen Brief dankend erhalten.
+              <lb/>Ich habe an den Versicherungsgesellschaf<unclear>f</unclear>
+              <lb/>gesch<unclear>c</unclear>rieben (hoffentlich ist die Adresse
+              <lb/>richtig weil dein Schr<unclear>o</unclear>ft nicht
+              <lb/>sehr deutlich war).
+            </p>
+            <p>
+              <lb/>Nun über Weinachten. <del rend="overstrike" hand="#hand_blue_auden">Ich m<unclear>o</unclear>chte <gap reason="illegible" unit="char" atLeast="1" atMost="2"/>ir</del>
+              <lb/><del rend="overstrike" hand="#hand_blue_auden"><gap reason="illegible" unit="char" quantity="1"/></del>Kann ich Dich und <rs type="person" ref="#amp_person_240">Chr<unclear>s</unclear>ta</rs> einladen
+              <lb/>(zu vier Tagen , dass ist , von <foreign xml:lang="en">Dec 2<unclear>4<hi rend="superscript">th</hi></unclear></foreign> bis
+              <lb/><foreign xml:lang="en">2<unclear>9</unclear><hi rend="superscript">th</hi></foreign>.
+            </p>
+            <p>
+              <lb/>Bitte, lass mich wissen:
+              <seg>
+                <lb/>1) wenn das geht
+              </seg>
+              <seg>
+                <lb/>b) was kosten die Fahrkarten
+              </seg>
+              <seg>
+                <lb/>c) <del rend="overstrike" hand="#hand_blue_auden">mit welchem Flug und a<unclear>n</unclear></del>
+              </seg>
+            </p>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00154/" ed="2v" type="sheet"/>
+            <p prev="true">
+              <seg>
+                <lb/>c) Fluggesellschaft,<del rend="overstrike" hand="#hand_blue_auden">number</del> Fl<unclear>u</unclear>gnummer,
+                <lb/>ankommenzeit und Flugplatz(<rs type="org" ref="#amp_organization_92">Tempehof</rs>
+                <lb/>oder <rs type="org" ref="#amp_organization_95">Tegel</rs>).
+              </seg>
+            </p>
+            <p>
+              <lb/>Ich kann <subst><del rend="overstrike" hand="#hand_blue_auden">Dich</del><add place="above" hand="#hand_blue_auden">Dir</add></subst> ein Scheck s<unclear>c</unclear>hicken
+              <lb/>oder <unclear>d</unclear>ir das Geld hier geben<unclear>.</unclear>
+              <lb/>Es w<unclear>ä</unclear>re bequemer fur alle , glaub<unclear>e</unclear> ich,
+              <lb/>wenn s<unclear>i</unclear>e ein Flug so früh wie möglich
+              <lb/>a<gap reason="illegible" unit="char" atLeast="1" atMost="2"/> <foreign xml:lang="en">Dec</foreign> 24<hi rend="superscript"><unclear>,</unclear>ten</hi> nehmen.
+            </p>
+            <closer>
+              <salute>
+                <lb/>immer <unclear>d</unclear>ein Fre<unclear>un</unclear>d
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
+              </signed>
+            </closer>
+          </div>
         </div>
       </div>
     </body>
