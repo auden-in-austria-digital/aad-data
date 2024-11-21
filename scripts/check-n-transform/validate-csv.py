@@ -51,11 +51,6 @@ for row in data:
     if not len(row[img_index]) == 5:
         raise ValueError(f'Error in line {row_num}: img ID must consist of five digits.')
 
-    # specify img value incrementation
-    img_id_no = int(row[img_index])
-    if not img_id_no == i + 1:
-        raise ValueError(f'Error in line {row_num}: img ID must increment by 1.')
-
     # specify lrx value data type
     if not row[lrx_index].isdigit():
         raise TypeError(f'Error in line {row_num}: lrx value must contain only digits.')
@@ -97,11 +92,11 @@ for row in data:
         raise ValueError(f'Error in line {row_num}: author-URI value must correspond to URL pattern.')
 
     # specify notBefore-iso value pattern
-    if not re.match(r'^19[5-7]\d-[0-1]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d\+[0-2]\d:00$', row[notBefore_index]):
+    if not re.match(r'^19[5-7]\d-[0-1]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d[+-][0-2]\d:00$', row[notBefore_index]):
         raise ValueError(f'Error in line {row_num}: notBefore-iso value must conform to ISO datetime format.')
 
     # specify notAfter-iso value pattern
-    if not re.match(r'^19[5-7]\d-[0-1]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d\+[0-2]\d:00$', row[notAfter_index]):
+    if not re.match(r'^19[5-7]\d-[0-1]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d[+-][0-2]\d:00$', row[notAfter_index]):
         raise ValueError(f'Error in line {row_num}: notAfter-iso value must conform to ISO datetime format.')
 
     # specify place URI value pattern

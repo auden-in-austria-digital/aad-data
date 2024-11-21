@@ -21,7 +21,8 @@ df_doc.set_index('doc', inplace=True)  # set doc values as index
 # doc-time plot
 
 df_date = df.drop_duplicates(subset='doc')[['doc', 'author', 'notBefore-iso']]
-df_date['notBefore-iso'] = pd.to_datetime(df_date['notBefore-iso'], errors='coerce')  # convert notBefore-iso string values to datetime objects, replace invalid string values with NaT values
+df_date['notBefore-iso'] = pd.to_datetime(df_date['notBefore-iso'], errors='coerce', utc=True)  # convert notBefore-iso string values to datetime objects, replace invalid string values with NaT values, standardize datetimes to UTC
+df_date = df_date.dropna(subset=['notBefore-iso'])  # drop rows where UTC conversion failed
 
 df_date.set_index('notBefore-iso', inplace=True)  # set datetime objects as index
 
@@ -32,7 +33,7 @@ monthly_docs[monthly_docs > 0].plot(kind='line', marker='.', linestyle='None', c
 plt.gca().yaxis.set_major_locator(plt.MaxNLocator(integer=True))  # retrieve axes, set y-axis ticks to integers
 
 # add labels
-plt.title('number of documents per month')
+plt.title('number of documents per month (UTC)')
 plt.xlabel('time')
 plt.ylabel('number')
 
@@ -61,7 +62,7 @@ plt.scatter(monthly_other.index + offset, monthly_other, color='#FFDB58', label=
 plt.gca().yaxis.set_major_locator(plt.MaxNLocator(integer=True))  # retrieve axes, set y-axis ticks to integers
 
 # add labels
-plt.title('number of documents per month by author')
+plt.title('number of documents per month (UTC) by author')
 plt.xlabel('time')
 plt.ylabel('number')
 
