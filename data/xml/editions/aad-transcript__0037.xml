@@ -232,7 +232,7 @@
             </p>
             <p>
               <lb/>Ich kann <subst><del rend="overstrike" hand="#hand_blue_auden">Dich</del><add place="above" hand="#hand_blue_auden">Dir</add></subst> ein Scheck s<unclear>c</unclear>hicken
-              <lb/>oder <unclear>d</unclear>ir das Geld hier geben<unclear>.</unclear>
+              <lb/><add place="inline" hand="#hand_blue_auden">oder <unclear>d</unclear>ir das Geld hier geben<unclear>.</unclear></add>
               <lb/>Es w<unclear>ä</unclear>re bequemer fur alle , glaub<unclear>e</unclear> ich,
               <lb/>wenn s<unclear>i</unclear>e ein Flug so früh wie möglich
               <lb/>a<gap reason="illegible" unit="char" atLeast="1" atMost="2"/> <foreign xml:lang="en">Dec</foreign> 24<hi rend="superscript"><unclear>,</unclear>ten</hi> nehmen.
