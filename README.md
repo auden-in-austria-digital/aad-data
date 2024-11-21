@@ -15,7 +15,10 @@ The [.github/workflows](https://github.com/auden-in-austria-digital/aad-data/tre
 
 The [write-xmls](https://github.com/auden-in-austria-digital/aad-data/blob/main/.github/workflows/write-xmls.yml) GitHub-Actions workflow (`on: workflow_dispatch`) lets [another script](https://github.com/auden-in-austria-digital/aad-data/blob/main/scripts/write-xmls/csv2xml.py) read the [output_doc_id.csv](https://github.com/auden-in-austria-digital/aad-data/blob/main/metadata/csv/output_doc_id.csv) output CSV file and write template TEI/XML files (`aad-transcript__????_tmp.xml`) into the [data/xml/tmp](https://github.com/auden-in-austria-digital/aad-data/tree/main/data/xml/tmp) directory. From here, TEI/XML files are renamed (`aad-transcript__????.xml`) and moved to [data/xml/editions](https://github.com/auden-in-austria-digital/aad-data/tree/main/data/xml/editions) for editing.
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
+> Run the write-xmls workflow from the `dev` branch to avoid merge conflicts.
+
+> [!WARNING]  
 > The write-xmls workflow will overwrite unrenamed template TEI/XML files in the data/xml/tmp directory.
 
 ## 2 aad-data Workflows
