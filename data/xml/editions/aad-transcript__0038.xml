@@ -25,7 +25,7 @@
         <edition>
           <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1966-11-07</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_069">
               <desc/>
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -133,6 +133,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2024-11-21">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2024-11-21">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2024-11-25">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -154,10 +155,78 @@
       <div type="transcription" xml:id="transcription_aad_0038" xml:lang="de">
         <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00155/" ed="1r" type="envelope"/>
+          <ab hand="#hand_blue_auden" xml:lang="en">
+            <lb/><rs type="person" ref="#amp_person_1">W.H.Aude<unclear>n</unclear></rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_29">77 St Mark's Place
+              <lb/>New York City
+              <lb/>New York 10003
+              <lb/>U.S.A.</rs>
+            </address>
+          </ab>
+          <ab hand="#hand_blue_auden" xml:lang="en">
+            <lb/>Air-Mail
+          </ab>
+          <ab hand="#hand_blue_auden">
+            <lb/><rs type="person" ref="#amp_person_107">Her<unclear>rn</unclear>
+            <lb/>Hugo Kurka</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
+              <lb/>Adalbert Stiftergasse 22/28
+              <lb/><foreign xml:lang="en">Austria</foreign><unclear>''</unclear></rs>
+            </address>   
+          </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00156/" ed="1v" type="envelope"/>
         </div>
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00157/" ed="2r" type="sheet"/>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <opener>
+              <dateline>
+                <placeName>
+                  <address xml:lang="en">
+                    <lb/><rs type="place" ref="#amp_place_id_29">77 St Mark's Place
+                    <lb/>New York City 3
+                    <lb/>N.Y. 10003</rs>
+                  </address>
+                </placeName>
+                <date>
+                  <lb/>7<hi rend="superscript">te<unclear>r</unclear></hi> Nov, 1966
+                </date>
+              </dateline>
+              <salute>
+                <lb/>Lieber <rs type="person" ref="#amp_person_107">Hugo</rs> und <rs type="person" ref="#amp_person_240">Chris<unclear>t</unclear>a</rs><unclear>^,</unclear>
+              </salute>
+            </opener>
+            <p>
+              <lb/>Ich finde dass es möglich ist f<unclear>ü</unclear>r
+              <lb/>mich <rs type="note" ana="#ana_069">Ih<unclear>n</unclear>en nach <rs type="place" ref="#amp_place_id_28">New York</rs> i<unclear>m</unclear> Feb<unclear>r</unclear>ar einzulade<unclear>m</unclear></rs> .
+            </p>
+            <p>
+              <lb/>Bitte lassen mich s<unclear>o</unclear> fort <unclear>w</unclear>i<unclear>ss</unclear>en .
+              <seg>
+                <lb/>1) Konnen sie Mittwoch 1<hi rend="superscript">ster</hi> Febuar fliegen ?
+              </seg>
+              <seg>
+                <lb/>2) Wie lang wollen sie im <rs type="place" ref="#amp_place_id_15"><foreign xml:lang="en">America</foreign></rs> bleiben?.
+              </seg>
+              <lb/>Wenn ich weiss,ich kann die Fa<unclear>h</unclear>rkarten bekommen
+              <lb/>durch mei<unclear>m</unclear> Reiseburo hier.
+            </p>
+            <p>
+              <lb/>Noch ein Ding. Ich habe mein Adress-Buch mit
+              <lb/>dein Telefon Num<unclear>m</unclear>er verloren. Bitte schick es
+              <lb/>mich .
+            </p>
+            <closer>
+              <salute>
+                <lb/>Alles Gutes
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
+              </signed>
+            </closer>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00158/" ed="2v" type="sheet"/>
         </div>
       </div>
