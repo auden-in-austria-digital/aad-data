@@ -154,10 +154,80 @@
       <div type="transcription" xml:id="transcription_aad_0039" xml:lang="de">
         <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00159/" ed="1r" type="envelope"/>
+          <ab hand="#hand_blue_auden" xml:lang="en">
+            <lb/><rs type="person" ref="#amp_person_1">WH.Auden</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_29">77 St Mark's Place
+              <lb/>N.Y. 10003
+              <lb/>U.S.A.</rs>
+            </address>
+          </ab>
+          <ab hand="#hand_blue_auden" xml:lang="en">
+            <lb/><hi rend="underline" hand="#hand_blue_auden">Air-Ma<unclear>i</unclear>l</hi>
+          </ab>
+          <ab hand="#hand_blue_auden">
+            <lb/><rs type="person" ref="#amp_person_107">Herrn
+            <lb/>Hugo Kurka</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
+              <lb/>Adalbert <unclear>S</unclear>tiftergasse 22/28
+              <lb/><foreign xml:lang="en">Austria</foreign><unclear>-</unclear></rs>
+            </address>   
+          </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00160/" ed="1v" type="envelope"/>
         </div>
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00161/" ed="2r" type="sheet"/>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <opener>
+              <dateline xml:lang="en">
+                <date>
+                  <lb/>Nov 26<hi rend="superscript"><unclear>t</unclear>en</hi>.
+                </date>
+                <placeName>
+                  <address>
+                    <lb/><rs type="place" ref="#amp_place_id_29">77 St Mark's Place
+                    <lb/>New York City 3
+                    <lb/>N.Y. <unclear>1</unclear>0003.</rs>
+                  </address>
+                </placeName>
+              </dateline>
+              <salute>
+                <lb/>Lieber <rs type="person" ref="#amp_person_107">Hu<unclear>g</unclear>o</rs>:
+              </salute>
+            </opener>
+            <p>
+              <lb/>Die maximum Besuchzeit, die billige Fahrkarten
+              <lb/>zu bekommen ist drei Wochen .
+            </p>
+            <p>
+              <lb/>Also , habe bestellt (und dafür bezah<unclear>lt</unclear>, mein
+              <lb/>billige Fre<unclear>u</unclear>nd) so .
+              <seg>
+                <lb/><hi rend="underline" hand="#hand_blue_auden">Dienstag, 24<hi rend="superscript">ten</hi>. Januar , bei Panam.<space unit="char" quantity="1"/></hi>
+                <lb/>Abfahrt.(Scwechat.) 15&#xB7;05. Uhr.
+                <lb/>Ankunft(Kennedy) <subst><del rend="overstrike" hand="#hand_blue_auden">22</del><add place="above" hand="#hand_blue_auden">21</add></subst> &#xB7; 10 (New York Zeit)
+              </seg>
+              <seg>
+                <lb/><hi rend="underline" hand="#hand_blue_auden">Dienstag. <del rend="overstrike" hand="#hand_blue_auden">Feb</del> 14<hi rend="superscript">ten</hi> Feb<unclear>u</unclear>ar. bei Panam</hi>
+                <lb/>Abfahrt( Kennedy ) 19.00 Uhr
+                <lb/>Ankunft(S<unclear><subst><del rend="overwritten" hand="#hand_blue_auden">z</del><add place="superimposed" hand="#hand_blue_auden">c</add></subst></unclear>wechat) Feb 15<hi rend="superscript">ten</hi>, 12&#xB7;20(Wienzeit.)
+              </seg>
+            </p>
+            <p>
+              <lb/>Ich glaube Du willst <del rend="overstrike" hand="#hand_blue_auden">bald</del> de<unclear>r</unclear> Fahrkarten bald
+              <lb/>bekommen ,warscheinlich <del rend="overstrike" hand="#hand_blue_auden">dur<unclear>h</unclear></del> durch eine Rei<unclear>s</unclear>e<unclear>bu</unclear>r<unclear>o</unclear>
+              <lb/>in <unclear>W</unclear>ien .
+            </p>
+            <closer>
+              <salute>
+                <lb/>immer dein Freund
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
+              </signed>
+            </closer>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00162/" ed="2v" type="sheet"/>
         </div>
       </div>
