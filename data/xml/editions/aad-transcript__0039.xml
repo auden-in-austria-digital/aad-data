@@ -181,12 +181,12 @@
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00161/" ed="2r" type="sheet"/>
           <div type="letter_message" hand="#hand_blue_auden">
             <opener>
-              <dateline xml:lang="en">
+              <dateline>
                 <date>
                   <lb/>Nov 26<hi rend="superscript"><unclear>t</unclear>en</hi>.
                 </date>
                 <placeName>
-                  <address>
+                  <address xml:lang="en">
                     <lb/><rs type="place" ref="#amp_place_id_29">77 St Mark's Place
                     <lb/>New York City 3
                     <lb/>N.Y. <unclear>1</unclear>0003.</rs>
