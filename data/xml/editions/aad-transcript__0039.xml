@@ -205,7 +205,7 @@
               <lb/>Also , <rs type="note" ana="acdh:aad-transcript__0038.xml#ana_069">habe bestellt (und dafür bezah<unclear>lt</unclear></rs>, mein
               <lb/>billige Fre<unclear>u</unclear>nd) so .
               <seg>
-                <lb/><hi rend="underline" hand="#hand_blue_auden">Dienstag, 24<hi rend="superscript">ten</hi>. Januar , bei <rs type="org" ref="#amp_organization_94">Panam</rs>.<space unit="char" quantity="1"/></hi>
+                <lb/><hi rend="underline" hand="#hand_blue_auden">Dienstag, 24<hi rend="superscript">ten</hi>. Jan<unclear>u</unclear>ar , bei <rs type="org" ref="#amp_organization_94">Panam</rs>.<space unit="char" quantity="1"/></hi>
                 <lb/>Abfahrt.(<rs type="org" ref="#amp_organization_87">Scwechat</rs>.) 15&#xB7;05. Uhr.
                 <lb/>Ankunft(<rs type="org" ref="#amp_organization_96">Kennedy</rs>) <subst><del rend="overstrike" hand="#hand_blue_auden">22</del><add place="above" hand="#hand_blue_auden">21</add></subst> &#xB7; 10 (<rs type="place" ref="#amp_place_id_28">New York</rs> Zeit)
               </seg>
