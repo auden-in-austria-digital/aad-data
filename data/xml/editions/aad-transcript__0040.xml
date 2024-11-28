@@ -205,7 +205,7 @@
               <lb/>es gibt zwei möglichkeiten .
               <seg>
                 <lb/>1) <rs type="person" ref="#amp_person_107 #amp_person_240">Sie</rs> kommen ungefähr Jan<unclear>u</unclear>ar <foreign xml:lang="en">23<hi rend="superscript">rd</hi></foreign> , und besuchen
-                <lb/><rs type="person" ref="#amp_person_256">Christa's Schwester</rs> 4<hi rend="superscript">ten</hi> Febuar- <foreign xml:lang="en">11<hi rend="superscript">th</hi></foreign> und dann fliegen
+                <lb/><rs type="person" ref="#amp_person_256">Christa's <unclear>S</unclear>chwester</rs> 4<hi rend="superscript">ten</hi> Febuar- <foreign xml:lang="en">11<hi rend="superscript">th</hi></foreign> und dann fliegen
                 <lb/><subst><del rend="overwritten" hand="#hand_blue_auden"><unclear>r</unclear><gap reason="illegible" unit="char" atLeast="1" atMost="2"/></del><add place="superimposed" hand="#hand_blue_auden">z<unclear>u</unclear></add></subst><unclear>ru</unclear>ck nach <del rend="overstrike" hand="#hand_blue_auden">Wein</del> . <rs type="place" ref="#amp_place_id_1">Wien</rs>.
               </seg>
               <seg>
