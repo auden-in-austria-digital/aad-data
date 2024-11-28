@@ -26,7 +26,17 @@
           <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1964-08-18</title>
           <interpGrp>
             <interp xml:id="ana_065">
-              <desc>An entry dated 17-21 August 1964 in W. H. Auden's Kirchstetten guest book suggests that "Gäste" refers to two visitors staying at Auden and Kallman's Austrian home: the <rs ref="#amp_person_254">first of these</rs> <rs>can be identified as</rs> <rs ref="#amp_person_96">their close friend (and later biographer) Thekla Clark</rs>; <rs ref="#amp_person_255">the second</rs> <rs>as</rs> <rs ref="#amp_person_95">her husband John Clark</rs>.
+              <desc xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/" 
+                xmlns:wd="https://www.wikidata.org/entity/" 
+                xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"> 
+                An entry dated 17-21 August 1964 in W. H. Auden's Kirchstetten guest book suggests that 
+                <rs type="person" ref="#amp_person_254" about="https://amp.acdh.oeaw.ac.at/amp_person_254.html" typeof="crm:E74_Group">
+                  <rs property="rdfs:label">Gäste</rs>
+                  <rs rel="crm:P107_has_current_or_former_member">comprised
+                    <rs type="person" ref="#amp_person_96" resource="wd:Q62566483" typeof="crm:E21_Person">Auden and Kallman's close friend (and later biographer) <persName property="rdfs:label">Thekla Clark</persName></rs> and 
+                    <rs type="person" ref="#amp_person_95" resource="wd:Q123679692" typeof="crm:E21_Person">her husband <persName property="rdfs:label">John Clark</persName></rs>
+                  </rs>
+                </rs>.
                 <bibl>
                   <title>Auden, Wystan Hugh, 1907-1973: Guest book: Kirchstetten, signatures and notes written in album, 82 pages, 1959-1974</title>
                   <msIdentifier>
