@@ -121,6 +121,7 @@
       </langUsage>
       <correspDesc>
         <correspAction type="sent" subtype="airmail">
+          <orgName><rs type="org" ref="#amp_organization_98">United States Post Office Cooper Station</rs></orgName>
           <placeName><rs type="place" ref="#amp_place_id_28">New York City</rs></placeName>
           <date notBefore-iso="1966-11-14T12:00:00-05:00" notAfter-iso="1966-11-14T23:59:59-05:00"/>
         </correspAction>
