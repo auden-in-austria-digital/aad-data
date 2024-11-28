@@ -2,10 +2,10 @@
 
 Repository for editorial data and data-creation workflows in the **Auden in Austria Digital** project.
 
-- [aad-data Directory Structure](#aad-data-directory-structure)
-- [aad-data Workflows](#aad-data-workflows)
-  - [check-n-transform Workflow](#check-n-transform-workflow)
-  - [write-xmls Workflow](#write-xmls-workflow)
+- [aad-data Directory Structure](#1-aad-data-directory-structure)
+- [aad-data Workflows](#2-aad-data-workflows)
+  - [check-n-transform Workflow](#21-check-n-transform-workflow)
+  - [write-xmls Workflow](#22-write-xmls-workflow)
 
 ## 1 aad-data Directory Structure
 
