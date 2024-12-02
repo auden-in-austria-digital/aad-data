@@ -30,6 +30,11 @@
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
             </interp>
+            <interp xml:id="ana_071">
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
           </interpGrp>
         </edition>
         <respStmt>
@@ -201,7 +206,7 @@
             </opener>
             <p>
               <lb/>Dein Brief sehr dankend erhalten. Wie<add place="above" hand="#hand_blue_auden"> ich</add> in mein<unclear>e</unclear>
-              <lb/>zweiten Brief geschriebe<unclear>n</unclear> habe, muss ich weg <gap reason="illegible" unit="char" atLeast="1" atMost="2"/><hi rend="superscript"><unclear>t</unclear>en</hi>
+              <lb/>zweiten Brief geschriebe<unclear>n</unclear> habe, muss ich weg <gap reason="illegible" unit="char" atLeast="1" atMost="2" ana="#ana_071"/><hi rend="superscript"><unclear>t</unclear>en</hi>
               <lb/>Feb<unclear>u</unclear>ar, <del rend="overstrike" hand="#hand_blue_auden"><unclear>und</unclear> ich</del> bis 18<hi rend="superscript">ten</hi> Marz. Also für mich
               <lb/>es gibt zwei möglichkeiten .
               <seg>
