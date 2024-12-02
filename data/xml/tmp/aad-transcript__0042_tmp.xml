@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0014" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0042" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title level="s">Auden in Austria Digital (AAD)</title>
-        <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1964-12-08</title>
+        <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1966-11-09</title>
         <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
         <editor>
           <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
@@ -23,7 +23,7 @@
       </titleStmt>
       <editionStmt>
         <edition>
-          <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1964-12-08</title>
+          <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1966-11-09</title>
           <interpGrp>
             <interp>
               <desc/>
@@ -62,28 +62,28 @@
               <msIdentifier>
                 <repository ref="https://d-nb.info/gnd/1108283586">State Collections of Lower Austria</repository>
                 <collection>W. H. Auden Collection</collection>
-                <idno>Correspondence Hugo Kurka 014</idno>
+                <idno>Correspondence Hugo Kurka 042</idno>
               </msIdentifier>
               <physDesc>
                 <objectDesc>
                   <supportDesc>
                     <support>
                       <watermark/>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00053/">
-                        <width>162</width>
-                        <height>114</height>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00171/">
+                        <width>165</width>
+                        <height>93</height>
                       </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00054/">
-                        <width>162</width>
-                        <height>114</height>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00172/">
+                        <width>165</width>
+                        <height>93</height>
                       </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00055/">
-                        <width>140</width>
-                        <height>185</height>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00173/">
+                        <width>217</width>
+                        <height>280</height>
                       </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00056/">
-                        <width>140</width>
-                        <height>185</height>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00174/">
+                        <width>217</width>
+                        <height>280</height>
                       </dimensions>
                     </support>
                   </supportDesc>
@@ -97,8 +97,8 @@
               </physDesc>
               <history>
                 <origin>
-                  <origDate notBefore-iso="1964-12-08T00:00:00+01:00" notAfter-iso="1964-12-08T23:59:59+01:00"/>
-                  <origPlace ref="https://d-nb.info/gnd/4005728-8">Berlin</origPlace>
+                  <origDate notBefore-iso="1966-11-09T00:00:00-05:00" notAfter-iso="1966-11-09T23:59:59-05:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4042011-5">New York City</origPlace>
                 </origin>
               </history>
             </msDesc>
@@ -124,27 +124,27 @@
     </revisionDesc>
   </teiHeader>
   <facsimile>
-    <surface ulx="0" uly="0" lrx="2778" lry="2044">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00053/"/>
+    <surface ulx="0" uly="0" lrx="2826" lry="1718">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00171/"/>
     </surface>
-    <surface ulx="0" uly="0" lrx="2778" lry="2044">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00054/"/>
+    <surface ulx="0" uly="0" lrx="2826" lry="1720">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00172/"/>
     </surface>
-    <surface ulx="0" uly="0" lrx="2430" lry="3164">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00055/"/>
+    <surface ulx="0" uly="0" lrx="3636" lry="4650">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00173/"/>
     </surface>
-    <surface ulx="0" uly="0" lrx="2434" lry="3164">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00056/"/>
+    <surface ulx="0" uly="0" lrx="3638" lry="4652">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00174/"/>
     </surface>
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0014" xml:lang="">
+      <div type="transcription" xml:id="transcription_aad_0042" xml:lang="">
         <div/>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00053/" ed="1r" type="envelope"/>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00054/" ed="1v" type="envelope"/>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00055/" ed="2r" type="sheet"/>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00056/" ed="2v" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00171/" ed="1r" type="envelope"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00172/" ed="1v" type="envelope"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00173/" ed="2r" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00174/" ed="2v" type="sheet"/>
       </div>
     </body>
   </text>
