@@ -26,9 +26,7 @@
           <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1964-08-18</title>
           <interpGrp>
             <interp xml:id="ana_065">
-              <desc xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/" 
-                xmlns:wd="https://www.wikidata.org/entity/" 
-                xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"> 
+              <desc> 
                 An entry dated 17-21 August 1964 in W. H. Auden's Kirchstetten guest book suggests that 
                 <rs type="person" ref="#amp_person_254" about="https://amp.acdh.oeaw.ac.at/amp_person_254.html" typeof="crm:E74_Group">
                   <rs property="rdfs:label">Gäste</rs>
@@ -135,6 +133,9 @@
     <encodingDesc>
       <listPrefixDef>
         <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+        <prefixDef ident="crm" matchPattern="([A-Za-z]+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/"/>
+        <prefixDef ident="rdfs" matchPattern="([A-Za-z]+)" replacementPattern="http://www.w3.org/2000/01/rdf-schema#$1"/>
+        <prefixDef ident="wd" matchPattern="([A-Za-z]+)" replacementPattern="https://www.wikidata.org/entity/"/>
       </listPrefixDef>
     </encodingDesc>
     <profileDesc>
