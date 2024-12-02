@@ -137,6 +137,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2024-11-28">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2024-11-28">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2024-12-02">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -158,10 +159,80 @@
       <div type="transcription" xml:id="transcription_aad_0041" xml:lang="de">
         <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00167/" ed="1r" type="envelope"/>
+          <ab hand="#hand_blue_auden" xml:lang="en">
+            <lb/><hi rend="underline" hand="#hand_blue_auden">Air-Mail<space unit="char" quantity="1"/></hi>
+          </ab>
+          <ab hand="#hand_blue_auden" xml:lang="en">
+            <lb/><rs type="person" ref="#amp_person_1">W.H. Auden</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_29">77 St Mark's Place
+              <lb/>New York City
+              <lb/>New York 10003
+              <lb/>U.S.A.</rs>
+            </address>
+          </ab>
+          <ab hand="#hand_blue_auden">
+            <lb/><rs type="person" ref="#amp_person_107">Her<unclear>rn</unclear>
+            <lb/>Hugo Kurka</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
+              <lb/>Adalbert Stiftergasse
+              <lb/>22/28
+              <lb/><foreign xml:lang="en">Austria</foreign>.</rs>
+            </address>   
+          </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00168/" ed="1v" type="envelope"/>
         </div>
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00169/" ed="2r" type="sheet"/>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <opener>
+              <dateline>
+                <date>
+                  <lb/>April 5<hi rend="superscript">te<unclear>r</unclear></hi>
+                </date>
+                <placeName>
+                  <address xml:lang="en">
+                    <lb/><rs type="place" ref="#amp_place_id_29"><unclear>77</unclear> St Mark's Place
+                    <lb/>New York City
+                    <lb/>N.Y. 1000<unclear>3</unclear></rs>
+                  </address>
+                </placeName>
+              </dateline>
+              <salute>
+                <lb/>Lieb<unclear>r</unclear> <rs type="person" ref="#amp_person_107">Hugo</rs> :
+              </salute>
+            </opener>
+            <p>
+              <lb/>Besten Dank für deinen Brief.
+              <lb/>Ich <del rend="overstrike" hand="#hand_blue_auden">must</del> muss richtig sagen dass <rs type="person" ref="#amp_person_4">Chester</rs>
+              <lb/>hat mir ein Gebu<unclear>r</unclear>tstelegram geschickt
+              <lb/>aber kein Brief so dass ich wei<unclear>s</unclear>s nicht
+              <lb/>we<subst><del rend="overwritten" hand="#hand_blue_auden">en</del><add place="superimposed" hand="#hand_blue_auden">n</add></subst><unclear>n</unclear> oder wann er nach <rs type="place" ref="#amp_place_id_10">Osterreich</rs> kommt.
+            </p>
+            <p>
+              <lb/>Ha<unclear>be</unclear> <rs type="person" ref="#amp_person_257">ein Freund von u<unclear>n</unclear>s beider</rs> gesehen
+              <lb/>der<unclear>.</unclear> hat mich ein <gap reason="illegible" unit="char" atLeast="2" atMost="3"/>schen <del rend="overstrike" hand="#hand_blue_auden">Nachr<unclear>i</unclear>gt</del> Nachtricht
+              <lb/><del rend="overstrike" hand="#hand_blue_auden"><gap reason="illegible" unit="char" atLeast="1" atMost="2"/></del>gebracht<unclear>;</unclear>es war nicht sehr gut.
+            </p>
+            <p>
+              <lb/>Ich glaube es wäre vernünftig am 15<hi rend="superscript">te<unclear>n</unclear></hi>
+              <lb/><rs type="org" ref="#amp_organization_94">Panam</rs> anzurufen zu wissen we<subst><del rend="overwritten" hand="#hand_blue_auden"><unclear>e</unclear></del><add place="superimposed" hand="#hand_blue_auden">n</add></subst>n de<unclear>n</unclear> Flug
+              <lb/>punktlich kommt.
+            </p>
+            <p>
+              <lb/>Ich kann kaum warten <unclear><del rend="overstrike" hand="#hand_blue_auden"><subst><del rend="overstrike" hand="#hand_blue_auden">Dich wieder zu</del><add place="above" hand="#hand_blue_auden">b<gap reason="illegible" unit="char" quantity="1"/></add></subst></del></unclear>
+              <lb/><del rend="overstrike" hand="#hand_blue_auden">sehen</del>bis ich Dich wieder sehe.
+            </p>
+            <closer>
+              <salute>
+                <lb/>immer de<unclear>in</unclear> Freund
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs><unclear>_</unclear>
+              </signed>
+            </closer>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00170/" ed="2v" type="sheet"/>
         </div>
       </div>
