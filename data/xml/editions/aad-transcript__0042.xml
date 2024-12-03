@@ -133,6 +133,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2024-12-02">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2024-12-02">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2024-12-03">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -154,10 +155,66 @@
       <div type="transcription" xml:id="transcription_aad_0042" xml:lang="de">
         <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00171/" ed="1r" type="envelope"/>
+          <ab hand="#hand_blue_auden" xml:lang="en">
+            <lb/><hi rend="underline" hand="#hand_blue_auden">Air-Ma</hi>i<unclear>l</unclear>
+          </ab>
+          <ab hand="#hand_blue_auden" xml:lang="en">
+            <lb/><rs type="person" ref="#amp_person_1">W.H.Auden</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_29">77 St Mark's Place
+              <lb/>New York City
+              <lb/>N.Y. 10003
+              <lb/>U.S.A.</rs>
+            </address>
+          </ab>
+          <ab hand="#hand_blue_auden">
+            <lb/><rs type="person" ref="#amp_person_107">Herr<unclear>n</unclear>
+            <lb/>Hugo Kurka</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
+              <lb/>Adalbert Stiftergasse 22/28
+              <lb/><foreign xml:lang="en">Austria</foreign> .</rs>
+            </address>   
+          </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00172/" ed="1v" type="envelope"/>
         </div>
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00173/" ed="2r" type="sheet"/>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <opener>
+              <dateline xml:lang="en">
+                <placeName>
+                  <address>
+                    <lb/><rs type="place" ref="#amp_place_id_29">77 St Mark's Place</rs>
+                  </address>
+                </placeName>
+                <date>
+                  <lb/>Nov <unclear>9<hi rend="superscript">th</hi></unclear>
+                </date>
+              </dateline>
+              <salute>
+                <lb/>Lieb<unclear>r</unclear> <rs type="person" ref="#amp_person_107">Hugo</rs>:
+              </salute>
+            </opener>
+            <p>
+              <lb/>habe plötzich gefunden dass ich
+              <lb/>muss a<unclear>m</unclear> 7<hi rend="superscript">te<unclear>r</unclear></hi> Feb<unclear>u</unclear>ar weg fur eine
+              <lb/><rs type="event" ref="#amp_event_id_114">Vorlesungsreise</rs>.
+            </p>
+            <p>
+              <lb/>Also,<subst><del rend="overstrike" hand="#hand_blue_auden"><unclear>i</unclear>st</del><add place="above" hand="#hand_blue_auden">wäre</add></subst> <del rend="overstrike" hand="#hand_blue_auden">est</del> es möglich <rs type="note" ana="acdh:aad-transcript__0038.xml#ana_069">f<unclear>u</unclear>r <subst><del rend="overwritten" hand="#hand_blue_auden"><unclear>d</unclear></del><add place="superimposed" hand="#hand_blue_auden">D</add></subst>ich
+              <lb/>und <rs type="person" ref="#amp_person_240">Christa</rs> ein bische<unclear>n</unclear> frühe<unclear>r</unclear>, Freita<unclear>g</unclear>,27<hi rend="superscript">te<unclear>n</unclear></hi>
+              <lb/>Januar, zum beispiel, zu kommen</rs> ?
+            </p>
+            <closer>
+              <salute>
+                <lb/>dein
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
+              </signed>
+            </closer>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00174/" ed="2v" type="sheet"/>
         </div>
       </div>
