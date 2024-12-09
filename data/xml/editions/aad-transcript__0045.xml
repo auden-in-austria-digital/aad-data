@@ -90,7 +90,8 @@
                 </objectDesc>
                 <handDesc>
                   <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
-                  <handNote xml:id="hand_blue_unident_0045" medium="ink-blue" ana="#ana_072">Handwriting in blue ink by unidentified writer</handNote>
+                  <handNote xml:id="hand_blue_unident_0045_1" medium="ink-blue" ana="#ana_072">Handwriting in blue ink by unidentified writer</handNote>
+                  <handNote xml:id="hand_blue_unident_0045_2" medium="ink-blue" ana="#ana_072">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
                   <typeNote/>
@@ -135,6 +136,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2024-12-05">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2024-12-05">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2024-12-09">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -156,10 +158,76 @@
       <div type="transcription" xml:id="transcription_aad_0045" xml:lang="de">
         <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00183/" ed="1r" type="envelope"/>
+          <ab hand="#hand_blue_auden" xml:lang="en">
+            <lb/><hi rend="underline" hand="#hand_blue_auden">Air-Mail<space unit="char" quantity="1"/></hi>
+          </ab>
+          <ab hand="#hand_blue_auden" xml:lang="en">
+            <lb/><rs type="person" ref="#amp_person_1">WH.Auden</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_29">77 St Mark's Place<add place="above" hand="#hand_blue_unident_0045_1"> <unclear>241</unclear></add>
+              <lb/>New York City 3
+              <lb/>N.Y. 10003
+              <lb/>U.S<unclear>.</unclear>A<unclear>.</unclear></rs>
+            </address>
+          </ab>
+          <ab hand="#hand_blue_unident_0045_2" xml:lang="en">
+            <lb/>Place
+          </ab>
+          <ab hand="#hand_blue_auden">
+            <lb/><rs type="person" ref="#amp_person_107">Her<unclear>rn</unclear>
+            <lb/>Hugo Kurka</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
+              <lb/>Adalbert Stiftergasse 22/28
+              <lb/><foreign xml:lang="en">Aust<unclear>r</unclear>ia</foreign></rs>
+            </address>   
+          </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00184/" ed="1v" type="envelope"/>
         </div>
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00185/" ed="2r" type="sheet"/>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <opener>
+              <dateline>
+                <date>
+                  <lb/>1<hi rend="superscript">sten</hi> März
+                </date>
+                <placeName>
+                  <address xml:lang="en">
+                    <lb/><rs type="place" ref="#amp_place_id_29">77 St Mark's Place
+                    <lb/>New York City 3
+                    <lb/>N.Y. <unclear>1</unclear>0003</rs>
+                  </address>
+                </placeName>
+              </dateline>
+              <salute>
+                <lb/>Lieber <rs type="person" ref="#amp_person_107">Hugo</rs> und <rs type="person" ref="#amp_person_240">Christa</rs>:
+              </salute>
+            </opener>
+            <p>
+              <lb/>Vie<unclear>l</unclear> Dank fur deine<unclear>n</unclear> liebeswurdigen
+              <lb/>Brief .
+            </p>
+            <p>
+              <lb/>Alles geht gut. Ich habe '<foreign xml:lang="en">Air-<unclear>C</unclear>onditioning</foreign>'
+              <lb/>in der <rs type="place" ref="#amp_place_id_29">Wohnung</rs> installiert. Es war furchtbar
+              <lb/>teuer, aber es ist viel leichter i<unclear>m</unclear> So<unclear>m</unclear>mer
+              <lb/>zu vermieten.
+            </p>
+            <p>
+              <lb/>Wahrschei<unclear>n</unclear>lich komme ich zuruck 20<hi rend="superscript">ten</hi>
+              <lb/>April . Es freut mich sehr <unclear>z</unclear>u denken das
+              <lb/><unclear>w</unclear>i<unclear>r</unclear> uns bald wiedersehen sollen
+            </p>
+            <closer>
+              <salute>
+                <lb/>im<unclear>n</unclear><unclear>e</unclear> de<gap reason="illegible" unit="char" quantity="1"/><unclear>n</unclear> Fr<unclear>eu</unclear>nd
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
+              </signed>
+            </closer>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00186/" ed="2v" type="sheet"/>
         </div>
       </div>
