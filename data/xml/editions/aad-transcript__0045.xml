@@ -164,7 +164,7 @@
           <ab hand="#hand_blue_auden" xml:lang="en">
             <lb/><rs type="person" ref="#amp_person_1">WH.Auden</rs>
             <address>
-              <lb/><rs type="place" ref="#amp_place_id_29">77 St Mark's Place<add place="above" hand="#hand_blue_unident_0045_1"> <unclear>241</unclear></add>
+              <lb/><rs type="place" ref="#amp_place_id_29">77 St Mark's Place<add place="above" hand="#hand_blue_unident_0045_1"> <gap reason="illegible" unit="char" quantity="3"/></add>
               <lb/>New York City 3
               <lb/>N.Y. 10003
               <lb/>U.S<unclear>.</unclear>A<unclear>.</unclear></rs>
