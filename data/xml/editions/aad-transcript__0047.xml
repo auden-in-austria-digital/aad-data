@@ -25,7 +25,7 @@
         <edition>
           <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1966-09-14</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_074">
               <desc/>
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -137,6 +137,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2024-12-11">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2024-12-11">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2024-12-12">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -158,10 +159,54 @@
       <div type="transcription" xml:id="transcription_aad_0047" xml:lang="de">
         <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00191/" ed="1r" type="envelope"/>
+          <ab hand="#hand_blue_auden">
+            <lb/><hi rend="underline" hand="#hand_blue_auden">Eil Post<space unit="char" quantity="1"/></hi>
+          </ab>
+          <ab hand="#hand_blue_auden">
+            <lb/><rs type="person" ref="#amp_person_107">Her<unclear>rn</unclear>
+            <lb/>Hugo Kurka</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
+              <lb/>Adalbert Stiftergasse 22/28.</rs>
+            </address>   
+          </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00192/" ed="1v" type="envelope"/>
         </div>
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00193/" ed="2r" type="sheet"/>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <opener>
+              <dateline>
+                <placeName>
+                  <lb/><rs type="place" ref="#amp_place_id_5">Kirchstetten<unclear>.</unclear></rs>
+                </placeName>
+                <date>
+                  <lb/>Mittwoch<unclear>.</unclear>
+                </date>
+              </dateline>
+              <salute>
+                <lb/>L<unclear>ie</unclear>ber <rs type="person" ref="#amp_person_107">Hugo</rs>:
+              </salute>
+            </opener>
+            <p>
+              <lb/>bin sehr entauscht. Diese Woche wegen <rs type="person" ana="#ana_074">Gäste</rs>
+              <lb/>kann ich nicht nach <rs type="place" ref="#amp_place_id_1">Wien</rs> kommen, und am Montag
+              <lb/>fliegen <rs type="person" ref="#amp_person_1 #amp_person_4">wir</rs> nach <rs type="place" ref="#amp_place_id_17">Berlin</rs>.
+            </p>
+            <p>
+              <lb/>Ich fü<unclear>rc</unclear>hte mich das ich <del rend="overstrike" hand="#hand_blue_auden">nicht</del>Dich nicht
+              <lb/>vor <del rend="overstrike" hand="#hand_blue_auden">Oct</del> 3<hi rend="superscript">t<unclear>e</unclear>n</hi> Oktober(Mont<unclear>a</unclear>g) wiedersehen kann.
+              <lb/>Pech?.P<unclear>e</unclear>ch<unclear>.</unclear>!
+            </p>
+            <closer>
+              <salute>
+                <lb/>im<unclear>ne</unclear>r dein Freund
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
+              </signed>
+            </closer>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00194/" ed="2v" type="sheet"/>
         </div>
       </div>
