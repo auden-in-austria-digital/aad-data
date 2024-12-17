@@ -185,42 +185,42 @@
                 <placeName>
                   <address xml:lang="en">
                     <lb/><rs type="place" ref="#amp_place_id_29">77 St Mark's Place
-                    <lb/>New York City
+                    <lb/>N<unclear>e</unclear>w York City
                     <lb/>N.Y. 10003</rs>
                   </address>
                 </placeName>
                 <date>
-                  <lb/>Dec 24ter, 1967<hi rend="superscript"></hi>
+                  <lb/>Dec 24<hi rend="superscript">ter</hi>, 1967
                 </date>
               </dateline>
               <salute>
-                <lb/>Lieber <rs type="person" ref="#amp_person_107">Hugo</rs> und <rs type="person" ref="#amp_person_240">Christa</rs>:
+                <lb/>Lieb<unclear>e</unclear>r <rs type="person" ref="#amp_person_107">Hugo</rs> und <rs type="person" ref="#amp_person_240">Christa</rs><unclear>:</unclear>
               </salute>
             </opener>
             <p>
-              <lb/>Besten Dank für deine liebeswuydigen
+              <lb/>Beste<unclear>n</unclear> Dank fü<unclear>r</unclear> deine liebes<gap reason="illegible" unit="char" atLeast="1" atMost="2"/><unclear>urg</unclear>dige<unclear>r</unclear>
               <lb/>Karte. Holfentlich hast Du mein
-              <lb/>Geburtstag Telegram gekriecht.
+              <lb/>Geburtstag Telegra<unclear>m</unclear> ge<unclear>k</unclear>riecht.
             </p>
             <p>
-              <lb/>Es kann sein dass ich in Febuar.
-              <lb/>für vier Tage nach <rs type="place" ref="#amp_place_id_1">Wien</rs> komme weil
-              <lb/>ich habe gehört von <rs type="person" ref="#amp_person_32">ein möglichte
-              <lb/>Nachfolger</rs> für <rs type="person" ref="#amp_person_16">Frau E</rs>, und, natürlich,
-              <lb/>ich muss ein <rs type="event" ref="#amp_event_id_10">'Interview'</rs>
-              <lb/>haben.
+              <lb/>Es kann sein das<del rend="overstrike" hand="#hand_blue_auden">s</del> ich in Febuar<unclear>&#xB7;</unclear>
+              <lb/>für vier Tage nach <rs type="place" ref="#amp_place_id_1">Wien</rs> kom<unclear>m</unclear>e w<unclear>ei</unclear>l
+              <lb/>ich habe gehört von ein <rs type="person" ref="#amp_person_32">möglich<unclear>t</unclear>e
+              <lb/>Nachfolger für <rs type="person" ref="#amp_person_16">Frau <unclear>E</unclear></rs></rs>, und, natürlich,
+              <lb/>ich muss ein <rs type="event" ref="#amp_event_id_10">'Interview'</rs> <del rend="overstrike" hand="#hand_blue_auden">m<gap reason="illegible" unit="char" quantity="1"/></del> <del rend="overstrike" hand="#hand_blue_auden"><unclear>k</unclear>a</del>
+              <lb/>habe<unclear>m</unclear>.
             </p>
             <p>
-              <lb/>Wenn ich weiss bescheid, schreibe ich
+              <lb/>Wenn ich weiss bescheid , s<unclear>ch</unclear>reibe ich
               <lb/>Dir , ein Holel zimmer fur mich zu
-              <lb/>bekommen .
+              <lb/>beko<unclear>n</unclear>men .
             </p>
             <closer>
               <salute>
-                <lb/>Glückliche Neu Jahr
+                <lb/>Gl<unclear>ü</unclear>cklich<unclear>e</unclear> Ne<unclear>u</unclear> <unclear>J</unclear>ahr
               </salute>
               <salute>
-                <lb/>immer Dein Freund
+                <lb/>im<unclear>m</unclear>e<unclear>r</unclear> Dei<unclear>n</unclear> Freund
               </salute>
               <signed>
                 <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>.
