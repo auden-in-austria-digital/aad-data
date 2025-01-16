@@ -110,6 +110,11 @@
       <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     </xenoData>
     <encodingDesc>
+      <charDecl>
+        <glyph xml:id="uml_a_lc_tt">
+          <desc>lower-case German ä rendered by superimposing typed double-quotation-mark character (") on typed lower-case a</desc>
+        </glyph>
+      </charDecl>
       <listPrefixDef>
         <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
       </listPrefixDef>
@@ -133,6 +138,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2024-12-19">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2024-12-19">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-01-16">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -152,11 +158,69 @@
   <text>
     <body>
       <div type="transcription" xml:id="transcription_aad_0049" xml:lang="de">
-        <div/>
+        <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00199/" ed="1r" type="envelope"/>
+          <ab hand="#type_black_auden" xml:lang="en">
+            <lb/><hi rend="underline" hand="#type_black_auden">Air-Mail</hi>
+          </ab>
+          <ab hand="#type_black_auden" xml:lang="en">
+            <lb/><rs type="person" ref="#amp_person_1">W.H.Auden</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_29">77 St Mark's Place
+              <lb/>New York City
+              <lb/>New York IOOO3
+              <lb/>U.S.A.</rs>
+            </address>
+          </ab>
+          <ab hand="#type_black_auden">
+            <lb/><rs type="person" ref="#amp_person_107">Herrn
+            <lb/>Hugo Kurka</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
+              <lb/>Adalbert Stiftergasse 22/28
+              <lb/><foreign xml:lang="en">Austria</foreign></rs>
+            </address>   
+          </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00200/" ed="1v" type="envelope"/>
+        </div>
+        <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00201/" ed="2r" type="sheet"/>
+          <div type="letter_message" hand="#type_black_auden">
+            <opener>
+              <dateline>
+                <placeName>
+                  <address xml:lang="en">
+                    <lb/><rs type="place" ref="#amp_place_id_29">77 St Mark's Place
+                    <lb/>New York City
+                    <lb/>N.Y. IOOO3</rs>
+                  </address>
+                </placeName>
+                <date>
+                  <lb/>28ten,M<g ref="#uml_a_lc_tt">ä</g>rz
+                </date>
+              </dateline>
+              <salute>
+                <lb/><space quantity="22" unit="char"/>Lieber <rs type="person" ref="#amp_person_107">Hugo</rs>:
+              </salute>
+            </opener>
+            <p>
+              <lb/><space quantity="16" unit="char"/>Komme Dienstag,9ten April an. <space quantity="1" unit="char"/>Wenn ich nic<subst><del rend="overwritten" hand="#type_black_auden">t</del><add place="superimposed" hand="#type_black_auden">h</add></subst>t anrufe,komm ich <subst><del rend="overwritten" hand="#type_black_auden">d</del><add place="superimposed" hand="#type_black_auden">D</add></subst>ich
+              <lb/><space quantity="13" unit="char"/>zu besuchen Donnerstag,IIten.
+            </p>
+            <p>
+              <lb/><space quantity="18" unit="char"/>Ich werde sehr froh sein zuruck zu kerh<subst><del rend="overwritten" hand="#type_black_auden">t</del><add place="superimposed" hand="#type_black_auden">r</add></subst>en.
+            </p>
+            <closer>
+              <salute xml:lang="en">
+                <lb/><space quantity="23" unit="char"/>love to <rs type="person" ref="#amp_person_107 #amp_person_240">you both</rs>
+              </salute>
+              <signed hand="#hand_blue_auden">
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
+              </signed>
+            </closer>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00202/" ed="2v" type="sheet"/>
+        </div>
       </div>
     </body>
   </text>
