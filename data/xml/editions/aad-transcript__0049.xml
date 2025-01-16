@@ -173,12 +173,12 @@
             </address>
           </ab>
           <ab hand="#type_black_auden">
-            <lb/><rs type="person" ref="#amp_person_107">Herrn
-            <lb/>Hugo Kurka</rs>
+            <lb/><space quantity="19" unit="char"/><rs type="person" ref="#amp_person_107">Herrn
+            <lb/><space quantity="28" unit="char"/>Hugo Kurka</rs>
             <address>
-              <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
-              <lb/>Adalbert Stiftergasse 22/28
-              <lb/><foreign xml:lang="en">Austria</foreign></rs>
+              <lb/><space quantity="30" unit="char"/><rs type="place" ref="#amp_place_id_356">Wien XX
+              <lb/><space quantity="32" unit="char"/>Adalbert Stiftergasse 22/28
+              <lb/><space quantity="32" unit="char"/><foreign xml:lang="en">Austria</foreign></rs>
             </address>   
           </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00200/" ed="1v" type="envelope"/>
