@@ -161,7 +161,7 @@
         <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00199/" ed="1r" type="envelope"/>
           <ab hand="#type_black_auden" xml:lang="en">
-            <lb/><hi rend="underline" hand="#type_black_auden">Air-Mail</hi>
+            <lb/><space quantity="34" unit="char"/><hi rend="underline" hand="#type_black_auden">Air-Mail</hi>
           </ab>
           <ab hand="#type_black_auden" xml:lang="en">
             <lb/><rs type="person" ref="#amp_person_1">W.H.Auden</rs>
@@ -196,7 +196,7 @@
                   </address>
                 </placeName>
                 <date>
-                  <lb/>28ten,M<g ref="#uml_a_lc_tt">ä</g>rz
+                  <lb/><space quantity="30" unit="char"/>28ten,M<g ref="#uml_a_lc_tt">ä</g>rz
                 </date>
               </dateline>
               <salute>
