@@ -25,7 +25,7 @@
         <edition>
           <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1969-01-29</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_075">
               <desc/>
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -204,8 +204,8 @@
               <lb/>uber dein Umfal zu hören.
             </p>
             <p>
-              <lb/>Über <hi rend="underline" hand="#hand_blue_auden"><rs type="lit_work" ref="#lit_work_id_210">Mein Kampf</rs></hi> <del rend="overstrike" hand="#hand_blue_auden">ist</del> ,ich glaube, ist.
-              <lb/>nicht zu machen. <del rend="overstrike" hand="#hand_blue_auden"><unclear>I</unclear></del> H<unclear>ei</unclear>r ist es leicht
+              <lb/><rs type="note" ana="#ana_075">Über <hi rend="underline" hand="#hand_blue_auden"><rs type="lit_work" ref="#lit_work_id_210">Mein Kampf</rs></hi> <del rend="overstrike" hand="#hand_blue_auden">ist</del> ,ich glaube, ist.
+              <lb/>nicht zu machen.</rs> <del rend="overstrike" hand="#hand_blue_auden"><unclear>I</unclear></del> H<unclear>ei</unclear>r ist es leicht
               <lb/>ei<unclear>m</unclear> Exemplar zu kaufen. Es w<unclear><subst><del rend="overwritten" hand="#hand_blue_auden">e</del><add place="superimposed" hand="#hand_blue_auden">ü</add></subst></unclear>r<unclear>d</unclear>e nur
               <lb/>ein hoch Wert haben wenn est ein Erste
               <lb/>Ausgabe war; und von den Welt<del rend="overstrike" hand="#hand_blue_auden">d</del> der
