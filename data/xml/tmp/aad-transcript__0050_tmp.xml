@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0040" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0050" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title level="s">Auden in Austria Digital (AAD)</title>
-        <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1966-11-14</title>
+        <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1969-01-29</title>
         <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
         <editor>
           <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
@@ -23,7 +23,7 @@
       </titleStmt>
       <editionStmt>
         <edition>
-          <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1966-11-14</title>
+          <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1969-01-29</title>
           <interpGrp>
             <interp>
               <desc/>
@@ -62,27 +62,27 @@
               <msIdentifier>
                 <repository ref="https://d-nb.info/gnd/1108283586">State Collections of Lower Austria</repository>
                 <collection>W. H. Auden Collection</collection>
-                <idno>Correspondence Hugo Kurka 040</idno>
+                <idno>Correspondence Hugo Kurka 050</idno>
               </msIdentifier>
               <physDesc>
                 <objectDesc>
                   <supportDesc>
                     <support>
                       <watermark/>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00163/">
-                        <width>164</width>
-                        <height>93</height>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00203/">
+                        <width>241</width>
+                        <height>105</height>
                       </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00164/">
-                        <width>164</width>
-                        <height>93</height>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00204/">
+                        <width>241</width>
+                        <height>105</height>
                       </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00165/">
-                        <width>217</width>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00205/">
+                        <width>216</width>
                         <height>280</height>
                       </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00166/">
-                        <width>217</width>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00206/">
+                        <width>216</width>
                         <height>280</height>
                       </dimensions>
                     </support>
@@ -97,7 +97,7 @@
               </physDesc>
               <history>
                 <origin>
-                  <origDate notBefore-iso="1966-11-14T00:00:00-05:00" notAfter-iso="1966-11-14T23:59:59-05:00"/>
+                  <origDate notBefore-iso="1969-01-29T00:00:00-05:00" notAfter-iso="1969-01-29T23:59:59-05:00"/>
                   <origPlace ref="https://d-nb.info/gnd/4042011-5">New York City</origPlace>
                 </origin>
               </history>
@@ -124,27 +124,27 @@
     </revisionDesc>
   </teiHeader>
   <facsimile>
-    <surface ulx="0" uly="0" lrx="2822" lry="1732">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00163/"/>
+    <surface ulx="0" uly="0" lrx="4024" lry="1936">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00203/"/>
     </surface>
-    <surface ulx="0" uly="0" lrx="2818" lry="1728">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00164/"/>
+    <surface ulx="0" uly="0" lrx="4026" lry="1936">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00204/"/>
     </surface>
     <surface ulx="0" uly="0" lrx="3630" lry="4650">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00165/"/>
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00205/"/>
     </surface>
-    <surface ulx="0" uly="0" lrx="3632" lry="4648">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00166/"/>
+    <surface ulx="0" uly="0" lrx="3636" lry="4654">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00206/"/>
     </surface>
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0040" xml:lang="">
+      <div type="transcription" xml:id="transcription_aad_0050" xml:lang="">
         <div/>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00163/" ed="1r" type="envelope"/>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00164/" ed="1v" type="envelope"/>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00165/" ed="2r" type="sheet"/>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00166/" ed="2v" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00203/" ed="1r" type="envelope"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00204/" ed="1v" type="envelope"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00205/" ed="2r" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00206/" ed="2v" type="sheet"/>
       </div>
     </body>
   </text>
