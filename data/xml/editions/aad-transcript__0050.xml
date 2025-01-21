@@ -30,6 +30,11 @@
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
             </interp>
+            <interp xml:id="ana_076">
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
           </interpGrp>
         </edition>
         <respStmt>
@@ -199,8 +204,8 @@
               </salute>
             </opener>
             <p>
-              <lb/>Mein Go<unclear>t</unclear>t! Wir sind alle gehext
-              <lb/>jezt <del rend="overstrike" hand="#hand_blue_auden"><unclear>&#7743;</unclear></del>. Es tut mir furchtbar l<unclear>ei</unclear>d
+              <lb/>Mein Go<unclear>t</unclear>t! <rs type="note" ana="#ana_076">Wir sind alle gehext
+              <lb/>jezt <del rend="overstrike" hand="#hand_blue_auden"><unclear>&#7743;</unclear></del>.</rs> Es tut mir furchtbar l<unclear>ei</unclear>d
               <lb/>uber dein Umfal zu hören.
             </p>
             <p>
