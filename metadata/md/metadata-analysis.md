@@ -25,31 +25,31 @@ dtype: int64
 ### `df.info()`
 ```
 <class 'pandas.core.frame.DataFrame'>
-RangeIndex: 204 entries, 0 to 203
+RangeIndex: 208 entries, 0 to 207
 Data columns (total 19 columns):
  #   Column          Non-Null Count  Dtype 
 ---  ------          --------------  ----- 
- 0   img             204 non-null    int64 
- 1   lrx             204 non-null    int64 
- 2   lry             204 non-null    int64 
- 3   width           204 non-null    int64 
- 4   height          204 non-null    int64 
- 5   type            204 non-null    object
- 6   ed              204 non-null    object
- 7   doc             204 non-null    object
- 8   title           204 non-null    object
- 9   author          204 non-null    object
- 10  author-uri      204 non-null    object
- 11  notBefore-iso   204 non-null    object
- 12  notAfter-iso    204 non-null    object
- 13  place           204 non-null    object
- 14  place-uri       204 non-null    object
- 15  repository      204 non-null    object
- 16  repository-uri  204 non-null    object
- 17  collection      204 non-null    object
- 18  idno            204 non-null    object
+ 0   img             208 non-null    int64 
+ 1   lrx             208 non-null    int64 
+ 2   lry             208 non-null    int64 
+ 3   width           208 non-null    int64 
+ 4   height          208 non-null    int64 
+ 5   type            208 non-null    object
+ 6   ed              208 non-null    object
+ 7   doc             208 non-null    object
+ 8   title           208 non-null    object
+ 9   author          208 non-null    object
+ 10  author-uri      208 non-null    object
+ 11  notBefore-iso   208 non-null    object
+ 12  notAfter-iso    208 non-null    object
+ 13  place           208 non-null    object
+ 14  place-uri       208 non-null    object
+ 15  repository      208 non-null    object
+ 16  repository-uri  208 non-null    object
+ 17  collection      208 non-null    object
+ 18  idno            208 non-null    object
 dtypes: int64(5), object(14)
-memory usage: 30.4+ KB
+memory usage: 31.0+ KB
 
 ```
 ### cleaned document data
@@ -107,6 +107,7 @@ doc
 0049  Auden, W. H.                  Typed Letter Signed W. H. Auden to Hugo Kurka 1968-03-28  New York City
 0050  Auden, W. H.              Autograph Letter Signed W. H. Auden to Hugo Kurka 1969-01-29  New York City
 0051  Auden, W. H.              Autograph Letter Signed W. H. Auden to Hugo Kurka 1969-12-05  New York City
+0052  Auden, W. H.              Autograph Letter Signed W. H. Auden to Hugo Kurka 1968-11-24  New York City
 ```
 ### scatter plot
 
