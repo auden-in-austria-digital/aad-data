@@ -193,10 +193,10 @@
                 <date xml:lang="de">
                   <lb/>Okt 11<hi rend="superscript">ten</hi>.
                 </date>
-                <lb/>&#x2105; <rs type="person" ref="#amp_person_8 #amp_person_191">Spender</rs><lb/>
+                <lb/>&#x2105; <rs type="person" ref="#amp_person_8 #amp_person_191">Spender</rs>
                 <placeName>
                   <address>
-                    <lb/><rs type="place" ref="#amp_place_id_69">15 Loudoun Rd<lb/>
+                    <lb/><rs type="place" ref="#amp_place_id_69">15 Loudoun Rd
                     <lb/>London. N.W.8
                     <lb/>England</rs>
                   </address>
