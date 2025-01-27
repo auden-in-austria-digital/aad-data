@@ -140,6 +140,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-01-23">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2025-01-23">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-01-27">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -161,10 +162,68 @@
       <div type="transcription" xml:id="transcription_aad_0053" xml:lang="de">
         <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00215/" ed="1r" type="envelope"/>
+          <ab hand="#hand_blue_auden" xml:lang="en">
+            <lb/><del rend="overstrike" hand="#hand_blue_auden">mit</del> <hi rend="underline" hand="#hand_blue_auden">Air-Mail<space quantity="1" unit="char"/></hi>
+          </ab>
+          <ab hand="#hand_blue_auden" xml:lang="en">
+            <lb/><rs type="person" ref="#amp_person_1"><unclear>d</unclear>en</rs>
+            <lb/><rs type="person" ref="#amp_person_8 #amp_person_191"><gap reason="illegible" unit="char" quantity="1"/>nder</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_69"><gap reason="illegible" unit="char" quantity="1"/>doun Rd
+              <lb/><gap reason="illegible" unit="char" quantity="1"/>n. N.W. 8
+              <lb/><gap reason="illegible" unit="char" quantity="1"/>ngland</rs>
+            </address>
+          </ab>
+          <ab hand="#hand_blue_auden">
+            <lb/><rs type="person" ref="#amp_person_107">Her<unclear>r</unclear>n
+            <lb/>Hugo Kurka</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
+              <lb/>Adalbert Stiftergasse 22/28
+              <lb/><foreign xml:lang="en">Austria</foreign><unclear>'</unclear></rs>
+            </address>   
+          </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00216/" ed="1v" type="envelope"/>
         </div>
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00217/" ed="2r" type="sheet"/>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <opener>
+              <dateline xml:lang="en">
+                <date xml:lang="de">
+                  <lb/>Okt 11<hi rend="superscript">ten</hi>.
+                </date>
+                <lb/>&#x2105; <rs type="person" ref="#amp_person_8 #amp_person_191">Spender</rs><lb/>
+                <placeName>
+                  <address>
+                    <lb/><rs type="place" ref="#amp_place_id_69">15 Loudoun Rd<lb/>
+                    <lb/>London. N.W.8
+                    <lb/>England</rs>
+                  </address>
+                </placeName>
+              </dateline>
+              <salute>
+                <lb/>Lieber <rs type="person" ref="#amp_person_107">Hugo</rs>:
+              </salute>
+            </opener>
+            <p>
+              <lb/>Alles ist nun verwechselt. Ich bekomme das <rs type="event" ref="#amp_event_id_46">Preis</rs>
+              <lb/>Freitag. Okt 21<hi rend="superscript">ten</hi>. Also, ich f<unclear>l</unclear>iege nach <rs type="place" ref="#amp_place_id_1">Wien</rs> <del rend="overstrike" hand="#hand_blue_auden">a<gap reason="illegible" unit="char" atLeast="1" atMost="2"/></del>
+              <lb/><hi rend="underline" hand="#hand_blue_auden">Donnerstag 20</hi><hi rend="superscript"><hi rend="underline" hand="#hand_blue_auden">t</hi>en</hi>, und will bei Dir sein <subst><del rend="overstrike" hand="#hand_blue_auden">a<unclear>m</unclear></del><add place="above" hand="#hand_blue_auden">abends</add></subst> an
+              <lb/>19·30 Uhr .
+            </p>
+            <closer>
+              <salute>
+                <lb/>Alles Gutes an <rs type="person" ref="#amp_person_107 #amp_person_240">Dir beide</rs>
+              </salute>
+              <salute>
+                <lb/>dein Freund
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
+              </signed>
+            </closer>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00218/" ed="2v" type="sheet"/>
         </div>
       </div>
