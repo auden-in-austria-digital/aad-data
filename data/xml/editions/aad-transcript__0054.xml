@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0054" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Typed Letter Signed W. H. Auden to Hugo Kurka 1969-01-11</title>
+        <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Typed Letter Signed W. H. Auden to Hugo Kurka 1969-01-11</title>
+          <interpGrp>
+            <interp>
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <repository ref="https://d-nb.info/gnd/1108283586">State Collections of Lower Austria</repository>
+                <collection>W. H. Auden Collection</collection>
+                <idno>Correspondence Hugo Kurka 054</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00221/ https://iiif.acdh.oeaw.ac.at/aad/aad_00222/">Permanized Plover Onion Skin 25% COTTON FIBER</watermark>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00219/">
+                        <width>241</width>
+                        <height>105</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00220/">
+                        <width>241</width>
+                        <height>105</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00221/">
+                        <width>216</width>
+                        <height>280</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00222/">
+                        <width>216</width>
+                        <height>280</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="type_black_auden" scribeRef="#amp_person_1" medium="type-black">Typewriting in black ink by W. H. Auden, monospaced slab-serif typeface</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1969-01-11T00:00:00-05:00" notAfter-iso="1969-01-11T23:59:59-05:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4042011-5">New York City</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <charDecl>
+        <glyph xml:id="uml_a_lc_tt">
+          <desc>lower-case German ä rendered by superimposing typed double-quotation-mark character (") on typed lower-case a</desc>
+        </glyph>
+        <glyph xml:id="uml_o_lc_tt">
+          <desc>lower-case German ö rendered by superimposing typed double-quotation-mark character (") on typed lower-case o</desc>
+        </glyph>
+        <glyph xml:id="uml_u_lc_tt">
+          <desc>lower-case German ü rendered by superimposing typed double-quotation-mark character (") on typed lower-case u</desc>
+        </glyph>
+      </charDecl>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de"/>
+        <language ident="en"/>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent" subtype="airmail">
+          <placeName><rs type="place" ref="#amp_place_id_28">New York City</rs></placeName>
+          <date notBefore-iso="1969-01-12T00:00:00-05:00" notAfter-iso="1969-01-12T11:59:59-05:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_107">Kurka, Hugo</persName>
+          <placeName><rs type="place" ref="#amp_place_id_356">Adalbert-Stifter-Straße 22</rs></placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#tfruehwirth" when-iso="2025-01-28">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2025-01-28">Text transcribed; physDesc and profileDesc populated; hands, languages, correspondence container structure, and entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="4022" lry="1924">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00219/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="4024" lry="1928">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00220/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3626" lry="4646">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00221/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3630" lry="4648">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00222/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0054" xml:lang="de">
+        <div type="envelope">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00219/" ed="1r" type="envelope"/>
+          <ab hand="#type_black_auden" xml:lang="en">
+            <lb/><space quantity="21" unit="char"/><hi rend="underline" hand="#type_black_auden">Air-Mail</hi>
+          </ab>
+          <ab hand="#type_black_auden" xml:lang="en">
+            <lb/><rs type="person" ref="#amp_person_1">W.H.Auden</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_29">77 St Mark's Place
+              <lb/>New York City
+              <lb/>New York IOOO3
+              <lb/>U.S.A.</rs>
+            </address>
+          </ab>
+          <ab hand="#type_black_auden">
+            <lb/><space quantity="24" unit="char"/><rs type="person" ref="#amp_person_107">Herrn Hugo Kurka</rs>
+            <address>
+              <lb/><space quantity="26" unit="char"/><rs type="place" ref="#amp_place_id_356">Wien XX
+              <lb/><space quantity="27" unit="char"/>Adalbert Stiftergasse 22/28
+              <lb/><space quantity="28" unit="char"/><foreign xml:lang="en">Austria</foreign></rs>
+            </address>   
+          </ab>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00220/" ed="1v" type="envelope"/>
+        </div>
+        <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00221/" ed="2r" type="sheet"/>
+          <div type="letter_message" hand="#type_black_auden">
+            <opener>
+              <dateline>
+                <placeName>
+                  <address xml:lang="en">
+                    <lb/><rs type="place" ref="#amp_place_id_29">77 St Mark's Place
+                    <lb/>New York City
+                    <lb/>New York IOOO3</rs>
+                  </address>
+                </placeName>
+                <date>
+                  <lb/><space quantity="34" unit="char"/>IIten,Januar
+                </date>
+              </dateline>
+              <salute>
+                <lb/><space quantity="26" unit="char"/><del rend="overtyped" hand="#type_black_auden">Liber</del> Lieber <rs type="person" ref="#amp_person_107">Hugo</rs>:
+              </salute>
+            </opener>
+            <p>
+              <lb/><space quantity="19" unit="char"/>Besten Dank fur deinen zwei Briefe. Endlich habe ich von
+              <lb/><space quantity="15" unit="char"/>Redlich geh<g ref="#uml_o_lc_tt">ö</g>rt. Er sagte,zum beispeil<unclear>:</unclear>
+              <seg>
+                <lb/><space quantity="11" unit="char"/>"Der schult<subst><del rend="overtyped" hand="#type_black_auden">a</del><add place="superimposed" hand="#type_black_auden">r</add></subst>agende Lenker <del rend="overtyped" hand="#type_black_auden">was</del> wurde bereits verhaftet und sitzt beim
+                <lb/><space quantity="12" unit="char"/>Kreisgericht St.P<g ref="#uml_o_lc_tt">ö</g>lten. Er war betrunken und h<g ref="#uml_a_lc_tt">ä</g><subst><del rend="overtyped" hand="#type_black_auden">r</del><add place="superimposed" hand="#type_black_auden">t</add></subst>te auch keinen
+                <lb/><space quantity="12" unit="char"/>F<g ref="#uml_u_lc_tt">ü</g>hrerschein.Wie mir die Gendar<subst><del rend="overtyped" hand="#type_black_auden">,</del><add place="superimposed" hand="#type_black_auden">m</add></subst>erie mitteilte,hat er 20 Vorstrafen.
+                <lb/><space quantity="12" unit="char"/>Die letze in der Dauer von einem Jahr hat er noch nicht abge<add place="above" hand="#hand_blue_auden">ge</add>ssen.<add place="inline" hand="#hand_blue_auden">"</add>
+              </seg>
+              <seg>
+                <lb/><space quantity="11" unit="char"/>"Das Auto liegt in Neulengbach,total besch<g ref="#uml_a_lc_tt">ä</g>digt."
+              </seg>
+            </p>
+            <p>
+              <lb/>Die <del rend="overtyped" hand="#type_black_auden">einziste</del> einzigste gute Na<unclear><subst><del rend="overtyped" hand="#type_black_auden"><subst><del rend="overtyped" hand="#type_black_auden">h</del><add place="superimposed" hand="#type_black_auden">c</add></subst></del><add place="superimposed" hand="#type_black_auden">c</add></subst></unclear>htricht:
+              <seg>
+                <lb/><space quantity="11" unit="char"/>" Der Wagen des s<add place="above" hand="#hand_blue_auden">c</add>huldtrage<subst><del rend="overtyped" hand="#type_black_auden">gen</del><add place="superimposed" hand="#type_black_auden">nde</add></subst>n Lenkers war versichert,so dass die
+                <lb/><space quantity="13" unit="char"/>Versicherungs-Gesellschaft <space quantity="1" unit="char"/>f<g ref="#uml_u_lc_tt">ü</g>r den Schaden aufzukommen haben wird."
+              </seg>
+            </p>
+            <p>
+              <lb/><space quantity="13" unit="char"/>Die Schaden werden hoch sein,weil mitIannis waren zwei Amerikarin: ein
+              <lb/><space quantity="13" unit="char"/>war schwer verlezt,<del rend="overtyped" hand="#type_black_auden">der</del> die anderer leicht.
+            </p>
+            <p>
+              <lb/><space quantity="13" unit="char"/>Redlich ist pensionie<subst><del rend="overtyped" hand="#type_black_auden">t</del><add place="superimposed" hand="#type_black_auden">r</add></subst>t,so dass f<g ref="#uml_u_lc_tt">ü</g>r den Prozess ich habe einen
+              <lb/><space quantity="13" unit="char"/>neuen Advokat,ein Dr Mikesch.
+            </p>
+            <p>
+              <lb/><space quantity="13" unit="char"/>Ich schriebe mein Ver<subst><del rend="overtyped" hand="#type_black_auden">i</del><add place="superimposed" hand="#type_black_auden">s</add></subst>icherungsgesellschaft so fort.
+            </p>
+            <closer>
+              <salute>
+                <lb/><space quantity="28" unit="char"/>immer dein Freund
+              </salute>
+              <signed hand="#hand_blue_auden">
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
+              </signed>
+            </closer>
+          </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00222/" ed="2v" type="sheet"/>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
