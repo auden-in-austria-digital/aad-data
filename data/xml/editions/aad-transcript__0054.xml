@@ -209,15 +209,15 @@
             </opener>
             <p>
               <lb/><space quantity="19" unit="char"/>Besten Dank fur deinen zwei Briefe. Endlich habe ich von
-              <lb/><space quantity="15" unit="char"/>Redlich geh<g ref="#uml_o_lc_tt">ö</g>rt. Er sagte,zum beispeil<unclear>:</unclear>
+              <lb/><space quantity="15" unit="char"/><rs type="person" ref="#amp_person_14">Redlich</rs> geh<g ref="#uml_o_lc_tt">ö</g>rt. Er sagte,zum beispeil<unclear>:</unclear>
               <seg>
                 <lb/><space quantity="11" unit="char"/>"Der schult<subst><del rend="overtyped" hand="#type_black_auden">a</del><add place="superimposed" hand="#type_black_auden">r</add></subst>agende Lenker <del rend="overtyped" hand="#type_black_auden">was</del> wurde bereits verhaftet und sitzt beim
-                <lb/><space quantity="12" unit="char"/>Kreisgericht St.P<g ref="#uml_o_lc_tt">ö</g>lten. Er war betrunken und h<g ref="#uml_a_lc_tt">ä</g><subst><del rend="overtyped" hand="#type_black_auden">r</del><add place="superimposed" hand="#type_black_auden">t</add></subst>te auch keinen
-                <lb/><space quantity="12" unit="char"/>F<g ref="#uml_u_lc_tt">ü</g>hrerschein.Wie mir die Gendar<subst><del rend="overtyped" hand="#type_black_auden">,</del><add place="superimposed" hand="#type_black_auden">m</add></subst>erie mitteilte,hat er 20 Vorstrafen.
+                <lb/><space quantity="12" unit="char"/><rs type="org" ref="#amp_organization_100">Kreisgericht St.P<g ref="#uml_o_lc_tt">ö</g>lten</rs>. Er war betrunken und h<g ref="#uml_a_lc_tt">ä</g><subst><del rend="overtyped" hand="#type_black_auden">r</del><add place="superimposed" hand="#type_black_auden">t</add></subst>te auch keinen
+                <lb/><space quantity="12" unit="char"/>F<g ref="#uml_u_lc_tt">ü</g>hrerschein.Wie mir die <rs type="org" ref="#amp_organization_101">Gendar<subst><del rend="overtyped" hand="#type_black_auden">,</del><add place="superimposed" hand="#type_black_auden">m</add></subst>erie</rs> mitteilte,hat er 20 Vorstrafen.
                 <lb/><space quantity="12" unit="char"/>Die letze in der Dauer von einem Jahr hat er noch nicht abge<add place="above" hand="#hand_blue_auden">ge</add>ssen.<add place="inline" hand="#hand_blue_auden">"</add>
               </seg>
               <seg>
-                <lb/><space quantity="11" unit="char"/>"Das Auto liegt in Neulengbach,total besch<g ref="#uml_a_lc_tt">ä</g>digt."
+                <lb/><space quantity="11" unit="char"/>"Das Auto liegt in <rs type="place" ref="#amp_place_id_47">Neulengbach</rs>,total besch<g ref="#uml_a_lc_tt">ä</g>digt."
               </seg>
             </p>
             <p>
@@ -228,12 +228,12 @@
               </seg>
             </p>
             <p>
-              <lb/><space quantity="13" unit="char"/>Die Schaden werden hoch sein,weil mitIannis waren zwei Amerikarin: ein
+              <lb/><space quantity="13" unit="char"/>Die Schaden werden hoch sein,weil mit<rs type="person" ref="#amp_person_23">Iannis</rs> waren <rs type="person" ref="#amp_person_258">zwei Amerikarin</rs>: ein
               <lb/><space quantity="13" unit="char"/>war schwer verlezt,<del rend="overtyped" hand="#type_black_auden">der</del> die anderer leicht.
             </p>
             <p>
-              <lb/><space quantity="13" unit="char"/>Redlich ist pensionie<subst><del rend="overtyped" hand="#type_black_auden">t</del><add place="superimposed" hand="#type_black_auden">r</add></subst>t,so dass f<g ref="#uml_u_lc_tt">ü</g>r den Prozess ich habe einen
-              <lb/><space quantity="13" unit="char"/>neuen Advokat,ein Dr Mikesch.
+              <lb/><space quantity="13" unit="char"/><rs type="person" ref="#amp_person_14">Redlich</rs> ist pensionie<subst><del rend="overtyped" hand="#type_black_auden">t</del><add place="superimposed" hand="#type_black_auden">r</add></subst>t,so dass f<g ref="#uml_u_lc_tt">ü</g>r den Prozess ich habe einen
+              <lb/><space quantity="13" unit="char"/>neuen Advokat,ein <rs type="person" ref="#amp_person_235">Dr Mikesch</rs>.
             </p>
             <p>
               <lb/><space quantity="13" unit="char"/>Ich schriebe mein Ver<subst><del rend="overtyped" hand="#type_black_auden">i</del><add place="superimposed" hand="#type_black_auden">s</add></subst>icherungsgesellschaft so fort.
