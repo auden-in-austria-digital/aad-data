@@ -25,7 +25,7 @@
         <edition>
           <title level="a">Typed Letter Signed W. H. Auden to Hugo Kurka 1969-01-11</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_078">
               <desc/>
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -228,7 +228,7 @@
               </seg>
             </p>
             <p>
-              <lb/><space quantity="13" unit="char"/>Die Schaden werden hoch sein,weil mit<rs type="person" ref="#amp_person_23">Iannis</rs> waren <rs type="person" ref="#amp_person_258">zwei Amerikarin</rs>: ein
+              <lb/><space quantity="13" unit="char"/>Die Schaden werden hoch sein,weil mit<rs type="person" ref="#amp_person_23">Iannis</rs> waren <rs type="person" ref="#amp_person_258" ana="#ana_078">zwei Amerikarin</rs>: ein
               <lb/><space quantity="13" unit="char"/>war schwer verlezt,<del rend="overtyped" hand="#type_black_auden">der</del> die anderer leicht.
             </p>
             <p>
