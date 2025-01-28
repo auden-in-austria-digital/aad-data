@@ -25,7 +25,7 @@
         <edition>
           <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1966-10-11</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_077">
               <desc/>
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -207,7 +207,7 @@
               </salute>
             </opener>
             <p>
-              <lb/>Alles ist nun verwechselt. Ich bekomme das <rs type="event" ref="#amp_event_id_46">Preis</rs>
+              <lb/>Alles ist nun verwechselt. Ich bekomme das <rs type="event" ref="#amp_event_id_46" ana="#ana_077">Preis</rs>
               <lb/>Freitag. Okt 21<hi rend="superscript">ten</hi>. Also, ich f<unclear>l</unclear>iege nach <rs type="place" ref="#amp_place_id_1">Wien</rs> <del rend="overstrike" hand="#hand_blue_auden">a<gap reason="illegible" unit="char" atLeast="1" atMost="2"/></del>
               <lb/><hi rend="underline" hand="#hand_blue_auden">Donnerstag 20</hi><hi rend="superscript"><hi rend="underline" hand="#hand_blue_auden">t</hi>en</hi>, und will bei Dir sein <subst><del rend="overstrike" hand="#hand_blue_auden">a<unclear>m</unclear></del><add place="above" hand="#hand_blue_auden">abends</add></subst> a<unclear>n</unclear>
               <lb/>19·30 Uhr .
