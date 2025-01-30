@@ -68,7 +68,7 @@
                 <objectDesc>
                   <supportDesc>
                     <support>
-                      <watermark/>
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00225/ https://iiif.acdh.oeaw.ac.at/aad/aad_00226/">Permanized Plover Onion Skin 25% COTTON FIBER</watermark>
                       <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00223/">
                         <width>240</width>
                         <height>105</height>
@@ -89,7 +89,8 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote/>
+                  <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
+                  <handNote xml:id="hand_blue_unident_0055" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
                   <typeNote/>
@@ -116,11 +117,23 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="de"/>
+        <language ident="en"/>
       </langUsage>
+      <correspDesc>
+        <correspAction type="sent" subtype="airmail">
+          <placeName><rs type="place" ref="#amp_place_id_28">New York City</rs></placeName>
+          <date notBefore-iso="1967-11-14T12:00:00-05:00" notAfter-iso="1967-11-14T23:59:59-05:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_107">Kurka, Hugo</persName>
+          <placeName><rs type="place" ref="#amp_place_id_356">Adalbert-Stifter-Straße 22</rs></placeName>
+        </correspAction>
+      </correspDesc>
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-01-28">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2025-01-28">Text transcribed; physDesc and profileDesc populated; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -140,11 +153,77 @@
   <text>
     <body>
       <div type="transcription" xml:id="transcription_aad_0055" xml:lang="de">
-        <div/>
+        <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00223/" ed="1r" type="envelope"/>
+          <ab hand="#hand_blue_auden" xml:lang="en">
+            <lb/><rs type="person" ref="#amp_person_1">W.H.Auden</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_29">77 St Mark's Place
+              <lb/>New York City
+              <lb/>New York 10003
+              <lb/>U.S.A.</rs>
+            </address>
+          </ab>
+          <ab hand="#hand_blue_auden" xml:lang="en">
+            <lb/>Air-Mail
+          </ab>
+          <ab hand="#hand_blue_unident_0055">
+            <lb/><gap reason="illegible" unit="char" quantity="1"/><unclear>e</unclear>
+          </ab>
+          <ab hand="#hand_blue_auden">
+            <lb/><rs type="person" ref="#amp_person_107">Herr<unclear>n</unclear>
+            <lb/>Hugo Kurka</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
+              <lb/>Adalbert Stiftergasse 22/28
+              <lb/><foreign xml:lang="en">Austria</foreign></rs>
+            </address>
+          </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00224/" ed="1v" type="envelope"/>
+        </div>
+        <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00225/" ed="2r" type="sheet"/>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <opener>
+              <dateline xml:lang="en">
+                <placeName>
+                  <address>
+                    <lb/><rs type="place" ref="#amp_place_id_29"><del rend="overstrike" hand="#hand_blue_auden"><unclear>7</unclear></del>77 St Mark's Place
+                    <lb/>N.Y. 10003</rs>
+                  </address>
+                </placeName>
+                <date>
+                  <lb/>Nov<unclear>.</unclear> 14<hi rend="superscript"><unclear>th</unclear></hi>
+                </date>
+              </dateline>
+              <salute>
+                <lb/>Lieber <rs type="person" ref="#amp_person_107">Hugo</rs> und <rs type="person" ref="#amp_person_240">Christa</rs>:
+              </salute>
+            </opener>
+            <p>
+              <lb/>Ein Katastrof. <rs type="event" ref="#amp_event_id_1">A<unclear>m</unclear> 4<hi rend="superscript">ten</hi> Nov <rs type="person" ref="#amp_person_16">Frau E<unclear>m</unclear>ma</rs>
+              <lb/>ist von ein Herzinfact gestorben</rs> . <del rend="overstrike" hand="#hand_blue_auden">D<unclear>e</unclear></del> Zwischen
+              <lb/>anderer Schwerigkeiten, dass bedeutet,ich glaube,dass
+              <lb/>unsere<unclear>r</unclear> Katzen umge<unclear>br</unclear>acht werden mussten.
+            </p>
+            <p>
+              <lb/><unclear>Un</unclear>d jezt,<del rend="overstrike" hand="#hand_blue_auden">wei</del><del rend="overstrike" hand="#hand_blue_auden">wei</del>wie soll ich anderer
+              <lb/>Bauern finden ?
+            </p>
+            <p>
+              <lb/>Hier geht alles gut. Hab<unclear>er</unclear> viel Arbeit.
+            </p>
+            <closer>
+              <salute>
+                <lb/>immer dei<unclear>n</unclear>
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
+              </signed>
+            </closer>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00226/" ed="2v" type="sheet"/>
+        </div>
       </div>
     </body>
   </text>
