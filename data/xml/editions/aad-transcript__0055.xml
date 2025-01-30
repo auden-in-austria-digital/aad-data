@@ -189,7 +189,7 @@
                 <placeName>
                   <address>
                     <lb/><rs type="place" ref="#amp_place_id_29"><del rend="overstrike" hand="#hand_blue_auden"><unclear>7</unclear></del>77 St Mark's Place
-                    <lb/>N.Y. 10003</rs>
+                    <lb/><unclear>N</unclear>.Y. 10003</rs>
                   </address>
                 </placeName>
                 <date>
@@ -201,21 +201,21 @@
               </salute>
             </opener>
             <p>
-              <lb/>Ein Katastrof. <rs type="event" ref="#amp_event_id_1">A<unclear>m</unclear> 4<hi rend="superscript">ten</hi> Nov <rs type="person" ref="#amp_person_16">Frau E<unclear>m</unclear>ma</rs>
+              <lb/>Ein Katastrof. <rs type="event" ref="#amp_event_id_1">A<unclear>m</unclear> 4<hi rend="superscript">ten</hi> Nov <rs type="person" ref="#amp_person_16">Frau <unclear>Em</unclear>ma</rs>
               <lb/>ist von ein Herzinfact gestorben</rs> . <del rend="overstrike" hand="#hand_blue_auden">D<unclear>e</unclear></del> Zwischen
               <lb/>anderer Schwerigkeiten, dass bedeutet,ich glaube,dass
               <lb/>unsere<unclear>r</unclear> Katzen umge<unclear>br</unclear>acht werden mussten.
             </p>
             <p>
-              <lb/><unclear>Un</unclear>d jezt,<del rend="overstrike" hand="#hand_blue_auden">wei</del><del rend="overstrike" hand="#hand_blue_auden">wei</del>wie soll ich anderer
+              <lb/><unclear>Un</unclear>d jezt, <del rend="overstrike" hand="#hand_blue_auden">wei</del><del rend="overstrike" hand="#hand_blue_auden">wei</del>wie soll ich anderer
               <lb/>Bauern finden ?
             </p>
             <p>
-              <lb/>Hier geht alles gut. Hab<unclear>er</unclear> viel Arbeit.
+              <lb/>Hier geht alles gut. Hab<unclear>e</unclear> viel Arbeit.
             </p>
             <closer>
               <salute>
-                <lb/>immer dei<unclear>n</unclear>
+                <lb/>immer dein
               </salute>
               <signed>
                 <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
