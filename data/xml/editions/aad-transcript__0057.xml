@@ -155,11 +155,77 @@
   <text>
     <body>
       <div type="transcription" xml:id="transcription_aad_0057" xml:lang="de">
-        <div/>
+        <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00231/" ed="1r" type="envelope"/>
+          <ab hand="#hand_blue_auden" xml:lang="en">
+            <lb/>A<hi rend="underline" hand="#hand_blue_auden">ir-Mail</hi>
+          </ab>
+          <ab hand="#hand_blue_auden" xml:lang="en">
+            <lb/><rs type="person" ref="#amp_person_1">W<unclear>.</unclear>H<unclear>-</unclear>Auden</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_29">77 St Mark's Place
+              <lb/>New York City
+              <lb/>New York 10003
+              <lb/>U.S.A.</rs>
+            </address>
+          </ab>
+          <ab hand="#hand_blue_auden">
+            <lb/><rs type="person" ref="#amp_person_107">Her<unclear>r</unclear>n
+            <lb/>Hugo Kurka</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
+              <lb/>Adalbert Stiftergasse 22/28
+              <lb/><foreign xml:lang="en">Austria</foreign></rs>
+            </address>   
+          </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00232/" ed="1v" type="envelope"/>
+        </div>
+        <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00233/" ed="2r" type="sheet"/>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <opener>
+              <dateline xml:lang="en">
+                <date>
+                  <lb/>Nov 13<hi rend="superscript"><unclear>th</unclear></hi>
+                </date>
+                <placeName>
+                  <address>
+                    <lb/><rs type="place" ref="#amp_place_id_29">77 St Mark's Place
+                    <lb/>N.Y.C<unclear>.</unclear>
+                    <lb/>N.Y. 10003</rs>
+                  </address>
+                </placeName>
+              </dateline>
+              <salute>
+                <lb/>Lieber <rs type="person" ref="#amp_person_107">Hugo</rs>.
+              </salute>
+            </opener>
+            <p>
+              <lb/>Besten Dank für deinen Brief. Die
+              <lb/>politische Lage hier is so traurig : ich könnte nicht
+              <lb/>wählen entweder für Humphrey oder für Nixon.
+            </p>
+            <p>
+              <lb/>Ich weiss dass alle Küche-Maschinen sind viel
+              <lb/>teuerer in Europa als in Amerika. Wenn Du und
+              <lb/>Christa wissen genau was sie brauchen, schreibe mir
+              <lb/>so fort und ich schicke das Geld.
+            </p>
+            <p>
+              <lb/>Ich bin ein bischen einsam, sonst es geht es
+              <lb/>mir ganz gut. Denke oft an Dir.
+            </p>
+            <closer>
+              <salute>
+                <lb/>immer dein Freund
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
+              </signed>
+            </closer>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00234/" ed="2v" type="sheet"/>
+        </div>
       </div>
     </body>
   </text>
