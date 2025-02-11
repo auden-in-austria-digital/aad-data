@@ -25,7 +25,7 @@
         <edition>
           <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1968-12-29</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_079">
               <desc/>
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -134,6 +134,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-01-30">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2025-02-10">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-02-11">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -203,24 +204,24 @@
             </opener>
             <p>
               <lb/>Ich weiss nicht was ich machen
-              <lb/>soll. Ich h<unclear>a</unclear>be ges<unclear>ch</unclear>r<unclear>ie</unclear>be<unclear>r</unclear> an mein A<unclear>v</unclear>okat
-              <lb/>und an Herr Holfmann zu wissen genau
+              <lb/>soll. Ich h<unclear>a</unclear>be ges<unclear>ch</unclear>r<unclear>ie</unclear>be<unclear>n</unclear> an <rs type="person" ref="#amp_person_14" ana="acdh:amp-transcript__0012.xml#ana_013">mein A<unclear>v</unclear>okat</rs>
+              <lb/>und an <rs type="person" ref="#amp_person_21">Herr Holfmann</rs> zu w<unclear>i</unclear>ssen genau
               <lb/>was passiert ist und habe kein Wort ge<unclear>k</unclear>riecht.
-              <lb/>Chester hat ensch<unclear>i</unclear>eden <unclear><del rend="overstrike" hand="#hand_blue_auden">z</del></unclear> nach Weinachten nach
-              <lb/>Wien zu kommen, und <unclear>i</unclear>ch weiss nicht an
-              <lb/>diese<unclear>n</unclear> Mo<unclear>m</unclear>ent genau wo er ist.
+              <lb/><rs type="person" ref="#amp_person_4">Chester</rs> hat ensch<unclear>i</unclear>eden <unclear><del rend="overstrike" hand="#hand_blue_auden">z</del></unclear> nach Weinachten nach
+              <lb/><rs type="place" ref="#amp_place_id_1">Wien</rs> zu kommen, und <unclear>i</unclear>ch weiss nicht an
+              <lb/>d<unclear>ie</unclear>se<unclear>n</unclear> Mo<unclear>m</unclear>ent genau wo er ist.
             </p>
             <p>
               <lb/>Kannst Du so gut sein<hi rend="underline" hand="#hand_blue_auden"> so fort </hi>mir
-              <lb/>zu schicken die Adresse v<unclear>on</unclear> der Volkswagen
-              <lb/>Versicherung Gesellschaft.
+              <lb/>zu schicken die Adresse v<unclear>om</unclear> der <rs type="org" ref="#amp_organization_102">Volkswagen
+              <lb/>Versicherung Gesellschaft</rs>.
             </p>
             <p>
               <lb/>Ich bin sehr traurig.
             </p>
             <closer>
               <salute>
-                <lb/>All<unclear>n</unclear> Gutes <gap reason="illegible" unit="char" atLeast="1" atMost="2"/> pros<unclear>i</unclear>t Neu Jahr
+                <lb/><unclear>A</unclear>ll<unclear>n</unclear> Gutes <gap reason="illegible" unit="char" atLeast="1" atMost="2"/> pros<unclear>e</unclear>t Neu Jah<unclear>r</unclear>
               </salute>
               <salute>
                 <lb/>Dein Fre<unclear>un</unclear>d<del rend="overstrike" hand="#hand_blue_auden"><unclear>W</unclear>.</del>
@@ -231,8 +232,8 @@
             </closer>
             <postscript>
               <p>
-                <lb/>P.S. Kennst Du die Gr<unclear>r</unclear>i<unclear>ek</unclear>ische Freunden von
-                <lb/>Jan<gap reason="illegible" unit="char" quantity="1"/>is.? Vie<unclear>l<subst><del rend="overwritten" hand="#hand_blue_auden">l</del><add place="superimposed" hand="#hand_blue_auden">e</add></subst>i</unclear>ic<unclear>h</unclear>t w<unclear>i</unclear>ssen sie etwas
+                <lb/>P.S. Kennst Du die <rs type="person" ref="#amp_person_259" ana="#ana_079">Gr<unclear>r</unclear>i<unclear>ek</unclear>ische Freunden von
+                <lb/><rs type="person" ref="#amp_person_23">Jan<gap reason="illegible" unit="char" quantity="1"/>is</rs></rs>.? Vie<unclear>l<subst><del rend="overwritten" hand="#hand_blue_auden">l</del><add place="superimposed" hand="#hand_blue_auden">e</add></subst>i</unclear>ic<unclear>h</unclear>t w<unclear>i</unclear>ssen sie etwas
               </p>
             </postscript>
           </div>
