@@ -135,7 +135,7 @@
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-02-11">TEI/XML template populated with csv2xml.py</change>
-      <change who="#tfruehwirth" when-iso="2025-02-11">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-02-11">Text transcribed; physDesc and profileDesc populated</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -186,7 +186,7 @@
             <opener>
               <dateline xml:lang="en">
                 <date>
-                  <lb/>Nov 13<hi rend="superscript"><unclear>th</unclear></hi>
+                  <lb/>Nov 13<hi rend="superscript">th</hi>
                 </date>
                 <placeName>
                   <address>
@@ -202,22 +202,22 @@
             </opener>
             <p>
               <lb/>Besten Dank für deinen Brief. Die
-              <lb/>politische Lage hier is so traurig : ich könnte nicht
-              <lb/>wählen entweder für Humphrey oder für Nixon.
+              <lb/>politische Lage hier is so tr<unclear>a</unclear>urig : ich könnte nicht
+              <lb/>wä<unclear>h</unclear>len entweder für Humphr<unclear>e</unclear>y oder <unclear>f</unclear>ür Nixon.
             </p>
             <p>
-              <lb/>Ich weiss dass alle Küche-Maschinen sind viel
-              <lb/>teuerer in Europa als in Amerika. Wenn Du und
-              <lb/>Christa wissen genau was sie brauchen, schreibe mir
-              <lb/>so fort und ich schicke das Geld.
+              <lb/>Ich weiss dass all<unclear><subst><del rend="overwritten" hand="#hand_blue_auden">u</del><add place="superimposed" hand="#hand_blue_auden">e</add></subst></unclear> Küche-Masch<unclear>in</unclear>en sind <unclear>v</unclear>iel
+              <lb/>t<unclear>e</unclear>uerer in Europa als in Amerika. Wenn Du und
+              <lb/>Christ<gap reason="illegible" unit="char" quantity="1"/> w<subst><del rend="overwritten" hand="#hand_blue_auden">eiss</del><add place="superimposed" hand="#hand_blue_auden">isss</add></subst>en genau was sie brauchen, schreibe mir
+              <lb/>so fort und ich schicke <unclear>d</unclear>as Geld.
             </p>
             <p>
-              <lb/>Ich bin ein bischen einsam, sonst es geht es
-              <lb/>mir ganz gut. Denke oft an Dir.
+              <lb/>Ich bin ein bischen einsam, sonst <del rend="overstrike" hand="#hand_blue_auden">es</del> geht es
+              <lb/>mir gan<unclear>z</unclear> gut. Denke oft an Dir.
             </p>
             <closer>
               <salute>
-                <lb/>immer dein Freund
+                <lb/>immer dei<unclear>n</unclear> Freund
               </salute>
               <signed>
                 <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
