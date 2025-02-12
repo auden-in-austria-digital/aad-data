@@ -135,7 +135,8 @@
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-02-11">TEI/XML template populated with csv2xml.py</change>
-      <change who="#tfruehwirth" when-iso="2025-02-11">Text transcribed; physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-02-11">Text transcribed; physDesc and profileDesc populated; hands, languages, and correspondence container structure marked up</change>
+      <change who="#tfruehwirth" when-iso="2025-02-12">Entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -203,12 +204,12 @@
             <p>
               <lb/>Besten Dank für deinen Brief. Die
               <lb/>politische Lage hier is so tr<unclear>a</unclear>urig : ich könnte nicht
-              <lb/>wä<unclear>h</unclear>len entweder für Humphr<unclear>e</unclear>y oder <unclear>f</unclear>ür Nixon.
+              <lb/><rs type="event" ref="#amp_event_id_116">wä<unclear>h</unclear>len entweder für <rs type="person" ref="#amp_person_261">Humphr<unclear>e</unclear>y</rs> oder <unclear>f</unclear>ür <rs type="person" ref="#amp_person_260">Nixon</rs></rs>.
             </p>
             <p>
               <lb/>Ich weiss dass all<unclear><subst><del rend="overwritten" hand="#hand_blue_auden">u</del><add place="superimposed" hand="#hand_blue_auden">e</add></subst></unclear> Küche-Masch<unclear>in</unclear>en sind <unclear>v</unclear>iel
-              <lb/>t<unclear>e</unclear>uerer in Europa als in Amerika. Wenn Du und
-              <lb/>Christ<gap reason="illegible" unit="char" quantity="1"/> w<subst><del rend="overwritten" hand="#hand_blue_auden">eiss</del><add place="superimposed" hand="#hand_blue_auden">isss</add></subst>en genau was sie brauchen, schreibe mir
+              <lb/>t<unclear>e</unclear>uerer in <rs type="place" ref="#amp_place_id_30">Europa</rs> als in <rs type="place" ref="#amp_place_id_15">Amerika</rs>. Wenn Du und
+              <lb/><rs type="person" ref="#amp_person_240">Christ<gap reason="illegible" unit="char" quantity="1"/></rs> w<subst><del rend="overwritten" hand="#hand_blue_auden">eiss</del><add place="superimposed" hand="#hand_blue_auden">isss</add></subst>en genau was sie brauchen, schreibe mir
               <lb/>so fort und ich schicke <unclear>d</unclear>as Geld.
             </p>
             <p>
