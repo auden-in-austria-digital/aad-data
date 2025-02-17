@@ -89,7 +89,7 @@
               </physDesc>
               <history>
                 <origin>
-                  <origDate notBefore-iso="1970-03-15T00:00:00-05:00" notAfter-iso="1970-03-15T23:59:59-05:00"/>
+                  <origDate notBefore-iso="1970-03-15T00:00:00-05:00" notAfter-iso="1970-03-15T23:59:59-05:00" ana="#ana_079"/>
                   <origPlace ref="https://d-nb.info/gnd/4042011-5">New York City</origPlace>
                 </origin>
               </history>
@@ -166,16 +166,16 @@
               </salute>
             </opener>
             <p>
-              <lb/>Besten Damk für deinen Brief. Es tut
+              <lb/>Besten Da<unclear>m</unclear>k für deinen Brief. Es tut
               <lb/>mir leid dass der Tank-stelle Plan zu grunde
               <lb/>gefallen ist. Es ist nicht nötig d<gap reason="illegible" unit="char" atLeast="1" atMost="2"/> Scheck
               <lb/>zurück zu schicken : zerre<gap reason="illegible" unit="char" atLeast="1" atMost="2"/> sich an .
             </p>
             <p>
               <lb/>Am ersten April reise <unclear><subst><del rend="overwritten" hand="#hand_blue_auden">s</del><add place="superimposed" hand="#hand_blue_auden">i</add></subst></unclear>ch zu erst nach
-              <lb/><rs type="place" ref="#amp_place_id_13">Athene</rs> und dann nach <rs type="place" ref="#amp_place_id_359">Jerusalem</rs>. Ich weiss noch
+              <lb/><rs type="place" ref="#amp_place_id_13">Athene</rs> und dann nach <rs type="place" ref="#amp_place_id_359">Jerusalem</rs>. <unclear>I</unclear>ch weiss noch
               <lb/>nicht genau wann <rs type="person" ref="#amp_person_4">Chester</rs> und ich nach <rs type="place" ref="#amp_place_id_10"><foreign xml:lang="en">Austria</foreign></rs>
-              <lb/>reisem&#x2013;glaube ungefähr 10<hi rend="superscript">ten</hi>.&#x2013; aber natürlich
+              <lb/>reise<unclear>m</unclear>&#x2013;glaube ungefähr 10<hi rend="superscript">ten</hi>.&#x2013; aber natürlich
               <lb/>lasse ich dich wissen vorher.
             </p>
             <closer>
