@@ -125,6 +125,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-02-13">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2025-02-13">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-02-17">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -140,6 +141,27 @@
       <div type="transcription" xml:id="transcription_aad_0059" xml:lang="de">
         <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00239/" ed="1r" type="envelope"/>
+          <ab hand="#hand_blue_auden" xml:lang="en">
+            <lb/><hi rend="underline" hand="#hand_blue_auden">Air-Mail<space quantity="1" unit="char"/></hi>
+          </ab>
+          <ab hand="#hand_blue_auden" xml:lang="en">
+            <lb/><rs type="person" ref="#amp_person_1">W<unclear>.</unclear>H<unclear>.</unclear>Auden</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_29">7<unclear>7</unclear> St Mark's Place
+              <lb/>New York City
+              <lb/>N.Y. 10003
+              <lb/>U.S.A.</rs>
+            </address>
+          </ab>
+          <ab hand="#hand_blue_auden">
+            <lb/><rs type="person" ref="#amp_person_107">Herrn
+            <lb/>Hugo Kurka</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
+              <lb/>Adal<unclear>b</unclear>ert Stiftergasse 22/28
+              <lb/><foreign xml:lang="en">Austria</foreign><unclear>'</unclear></rs>
+            </address>   
+          </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00240/" ed="1v" type="envelope"/>
         </div>
       </div>
