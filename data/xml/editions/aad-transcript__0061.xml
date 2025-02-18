@@ -131,7 +131,7 @@
         <div type="prose"><!-- or move below first pb -->
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00243/" ed="1r" type="card"/>
           <ab hand="#print_gray_sdr">
-            <lb/><rs type="event" ref="#amp_event_id_117">SCHWETZINGER FESTSPIELE</rs> 1961
+            <lb/><rs type="event" ref="#amp_event_id_118">SCHWETZINGER FESTSPIELE</rs> 1961
           </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00244/" ed="1v" type="card"/>
           <ab hand="#print_gray_sdr">
@@ -145,7 +145,7 @@
           <ab hand="#print_gray_sdr">
             <seg><lb/>Samstag, 20. Mai 1961</seg>
             <seg><lb/><rs type="event" ref="#amp_event_id_117">Uraufführung</rs></seg>
-            <seg><lb/><hi rend="italic">&#187;ELEGIE FÜR JUNGE LIEBENDE&#171;</hi></seg>
+            <seg><lb/><hi rend="italic">&#187;<rs type="lit_work" ref="#lit_work_id_211">ELEGIE FÜR JUNGE LIEBENDE</rs>&#171;</hi></seg>
             <seg><lb/>Oper in 3 Akten von <rs type="person" ref="#amp_person_1">W. H. Auden</rs> und <rs type="person" ref="#amp_person_4">Chester Kallman</rs></seg>
             <seg><lb/>Musik von <rs type="person" ref="#amp_person_79">Hans Werner Henze</rs></seg>
           </ab>
