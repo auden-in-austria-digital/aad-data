@@ -131,15 +131,15 @@
         <div type="prose"><!-- or move below first pb -->
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00243/" ed="1r" type="card"/>
           <ab hand="#print_gray_sdr">
-            <lb/><rs type="place" ref="#amp_place_id_366">SCHWETZINGER</rs> FESTSPIELE 1961
+            <lb/><rs type="event" ref="#amp_event_id_117">SCHWETZINGER FESTSPIELE</rs> 1961
           </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00244/" ed="1v" type="card"/>
           <ab hand="#print_gray_sdr">
             <lb/>Der <rs type="person" ref="#amp_person_262">Intendant des <rs type="org" ref="#amp_organization_103">Süddeutschen Rundfunks</rs></rs>
             <lb/>gibt sich die Ehre,
-            <lb/>im Anschluß an die Vorstellung zu einem
+            <lb/>im Anschluß an die <rs type="event" ref="#amp_event_id_117">Vorstellung</rs> zu einem
             <lb/><hi rend="italic">EMPFANG</hi>
-            <lb/>in das Hotel &#187;Europäischer Hof&#171; in <rs type="place" ref="#amp_place_id_369">Heidelberg</rs>
+            <lb/>in das <rs type="place" ref="#amp_place_id_370">Hotel &#187;Europäischer Hof&#171;</rs> in <rs type="place" ref="#amp_place_id_369">Heidelberg</rs>
             <lb/>einzuladen.
           </ab>
           <ab hand="#print_gray_sdr">
