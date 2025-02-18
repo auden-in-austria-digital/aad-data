@@ -89,7 +89,7 @@
               </physDesc>
               <history>
                 <origin>
-                  <origDate notBefore-iso="1960-05-20T00:00:00+01:00" notAfter-iso="1961-05-20T00:00:00+01:00"/>
+                  <origDate notBefore-iso="1960-05-20T00:00:00+01:00" notAfter-iso="1961-05-20T23:59:59+01:00"/>
                   <origPlace ref="https://d-nb.info/gnd/4058282-6">Stuttgart</origPlace>
                 </origin>
               </history>
