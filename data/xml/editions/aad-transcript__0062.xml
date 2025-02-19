@@ -82,10 +82,11 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote/>
+                  <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
+                  <handNote xml:id="hand_blue_kallman" scribeRef="#amp_person_4" medium="ink-blue">Handwriting in blue ink by Chester Kallman</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="print_gray_metz" scribeRef="#amp_organization_105" medium="print-gray">Preprinted writing in gray authored by Gebrüder Metz GmbH &#38; Co., sans-serif typeface</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -127,6 +128,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-02-18">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2025-02-18">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-02-19">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -143,7 +145,54 @@
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00245/" ed="1r" type="card"/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00246/" ed="1v" type="card"/>
+          <div>
+            <ab hand="#hand_blue_auden">
+              <lb/>m<hi rend="underline" hand="#hand_blue_auden">it Luft-Post</hi><unclear>.</unclear>
+            </ab>
+          </div>
+          <div>
+            <ab hand="#print_gray_metz">
+              <lb/>Theaterrestaurant &#x2013; Schloßcafé
+              <lb/>Schwetzingen &#x2013; Telefon 420
+            </ab>
+          </div>
           <div type="letter_message">
+            <p hand="#hand_blue_kallman">
+              <lb/><rs type="place" ref="#amp_place_id_373">Hier</rs> <rs type="event" ref="#amp_event_id_117">hätten <unclear>w</unclear>ir unser<unclear>'</unclear> Oper
+              <lb/>gemacht</rs> &#x2013; gut gemacht
+              <lb/>natürlich &#x2014; <rs type="person" ref="#amp_person_4">Chester</rs>
+            </p>
+            <p hand="#hand_blue_auden">
+              <lb/>Holfentlich haben sie ein
+              <lb/>schöne<unclear>&#xB7;</unclear> Pfingsten Reise
+              <lb/>gehabt.
+            </p>
+            <closer>
+              <salute>
+                <lb/>Grüsse
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>.
+              </signed>
+            </closer>
+          </div>
+          <div>
+            <ab hand="#print_gray_metz">
+              <lb/><rs type="place" ref="#amp_place_id_373">Rokoko-Theater im Schloß</rs>
+            </ab>
+            <ab hand="#print_gray_metz">
+              <lb/>- <rs type="org" ref="#amp_organization_105">Gebr. Metz</rs>, <rs type="place" ref="#amp_place_id_372">Tübingen</rs> / 830 R 31 OE Farbphotokarte nach Agfacolor-Aufnahme -
+            </ab>
+          </div>
+          <div>
+            <ab hand="#hand_blue_auden">
+              <lb/><rs type="person" ref="#amp_person_107">Hugo</rs> und <rs type="person" ref="#amp_person_240">Christa Kurka</rs>
+              <address>
+                <lb/><rs type="place" ref="#amp_place_id_371">WIEN IX
+                <lb/>Mühlnergasse 14/4
+                <lb/>Osterreich.</rs>
+              </address>   
+            </ab>
           </div>
         </div>
       </div>
