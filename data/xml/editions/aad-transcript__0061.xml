@@ -151,14 +151,14 @@
               <lb/>Musik von <rs type="person" ref="#amp_person_79">Hans Werner Henze</rs>
             </seg>
           </ab>
-          <ab hand="#print_gray_sdr">
+          <p hand="#print_gray_sdr">
             <lb/>Der <rs type="person" ref="#amp_person_262">Intendant des <rs type="org" ref="#amp_organization_103">Süddeutschen Rundfunks</rs></rs>
             <lb/>gibt sich die Ehre,
             <lb/>im Anschluß an die <rs type="event" ref="#amp_event_id_117">Vorstellung</rs> zu einem
             <lb/><hi rend="italic">EMPFANG</hi>
             <lb/>in das <rs type="place" ref="#amp_place_id_370">Hotel &#187;Europäischer Hof&#171;</rs> in <rs type="place" ref="#amp_place_id_369">Heidelberg</rs>
             <lb/>einzuladen.
-          </ab>
+          </p>
         </div>
       </div>
     </body>
