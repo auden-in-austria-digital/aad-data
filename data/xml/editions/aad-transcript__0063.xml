@@ -163,18 +163,18 @@
               </signed>
             </closer>
           </div>
-          <div>
-            <ab hand="#print_gray_fry" xml:lang="en">
-              <seg>
-                <lb/><hi rend="italic"><rs type="place" ref="#amp_place_id_374">TOWER</rs> AND <rs type="place" ref="#amp_place_id_375">TOWER BRIDGE</rs>, <rs type="place" ref="#amp_place_id_56">LONDON</rs>. 51</hi>
-              </seg>
-              <seg>
-                <lb/>Tower Bridge was built between 1886 and 1894 and
-                <lb/>designed by <rs type="person" ref="#amp_person_264">Jones</rs> and <rs type="person" ref="#amp_person_265">Barry</rs>.
-                <lb/>Parts of the <rs type="place" ref="#amp_place_id_374">Tower of London</rs> date back to 1078.
-              </seg>
+          <div hand="#print_gray_fry" xml:lang="en">
+            <ab>
+              <lb/><hi rend="italic"><rs type="place" ref="#amp_place_id_374">TOWER</rs> AND <rs type="place" ref="#amp_place_id_375">TOWER BRIDGE</rs>, <rs type="place" ref="#amp_place_id_56">LONDON</rs>. 51</hi>
             </ab>
-            <ab hand="#print_gray_fry" xml:lang="en">
+            <p>
+              <lb/>Tower Bridge was built between 1886 and 1894 and
+              <lb/>designed by <rs type="person" ref="#amp_person_264">Jones</rs> and <rs type="person" ref="#amp_person_265">Barry</rs>.
+            </p>
+            <p>
+              <lb/>Parts of the <rs type="place" ref="#amp_place_id_374">Tower of London</rs> date back to 1078.
+            </p>
+            <ab>
               <lb/>Published by <rs type="org" ref="#amp_organization_108">A.V. FRY &#38; Co., Ltd.</rs>, <rs type="place" ref="#amp_place_id_56">London</rs>. (<hi rend="italic">Copyright</hi>)
             </ab>
           </div>
