@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0063" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Autograph Card Signed W. H. Auden to Hugo Kurka 1963-10-23</title>
+        <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Autograph Card Signed W. H. Auden to Hugo Kurka 1963-10-23</title>
+          <interpGrp>
+            <interp>
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <repository ref="https://d-nb.info/gnd/1108283586">State Collections of Lower Austria</repository>
+                <collection>W. H. Auden Collection</collection>
+                <idno>Correspondence Hugo Kurka 063</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark/>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00247/">
+                        <width>138</width>
+                        <height>88</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00248/">
+                        <width>138</width>
+                        <height>88</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="print_gray_fry" scribeRef="#amp_organization_108" medium="print-gray">Preprinted writing in gray authored by A.V. Fry &#38; Co., Ltd., sans-serif typeface</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1963-10-23T00:00:00+01:00" notAfter-iso="1963-10-23T12:59:59+01:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4074335-4">London</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de"/>
+        <language ident="en"/>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent" subtype="airmail">
+          <placeName><rs type="place" ref="#amp_place_id_56">London</rs></placeName>
+          <address>
+            <district><rs type="place" ref="#amp_place_id_272">St John's Wood</rs></district>
+            <postCode>NW8</postCode>
+          </address>
+          <date notBefore-iso="1963-10-23T12:30:00+01:00" notAfter-iso="1963-10-23T12:59:59+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_107">Kurka, Hugo</persName>
+          <placeName><rs type="place" ref="#amp_place_id_356">Adalbert-Stifter-Straße 22</rs></placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#tfruehwirth" when-iso="2025-02-19">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2025-02-19">Text transcribed; physDesc and profileDesc populated; hands, languages, correspondence container structure, and entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="2410" lry="1634">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00247/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="2412" lry="1640">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00248/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0063" xml:lang="de">
+        <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00247/" ed="1r" type="card"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00248/" ed="1v" type="card"/>
+          <div>
+            <ab hand="#hand_blue_auden" xml:lang="en">
+              <lb/>Air-Mail
+            </ab>
+          </div>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <p>
+              <lb/>Alles <del rend="overstrike" hand="#hand_blue_auden"><unclear>G</unclear><gap reason="illegible" unit="char" atLeast="1" atMost="2"/>tes</del> Gutes
+            </p>
+            <closer>
+              <salute>
+                <lb/>Servus
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs> .
+              </signed>
+            </closer>
+          </div>
+          <div>
+            <ab hand="#print_gray_fry" xml:lang="en">
+              <seg>
+                <lb/><hi rend="italic"><rs type="place" ref="#amp_place_id_374">TOWER</rs> AND <rs type="place" ref="#amp_place_id_375">TOWER BRIDGE</rs>, <rs type="place" ref="#amp_place_id_56">LONDON</rs>. 51</hi>
+              </seg>
+              <seg>
+                <lb/>Tower Bridge was built between 1886 and 1894 and
+                <lb/>designed by <rs type="person" ref="#amp_person_264">Jones</rs> and <rs type="person" ref="#amp_person_265">Barry</rs>.
+                <lb/>Parts of the <rs type="place" ref="#amp_place_id_374">Tower of London</rs> date back to 1078.
+              </seg>
+            </ab>
+            <ab hand="#print_gray_fry" xml:lang="en">
+              <lb/>Published by <rs type="org" ref="#amp_organization_108">A.V. FRY &#38; Co., Ltd.</rs>, <rs type="place" ref="#amp_place_id_56">London</rs>. (<hi rend="italic">Copyright</hi>)
+            </ab>
+          </div>
+          <div>
+            <ab hand="#hand_blue_auden">
+              <lb/><rs type="person" ref="#amp_person_107"><unclear>He</unclear>rrn
+              <lb/>Hugo Kurka</rs>
+              <address>
+                <lb/><rs type="place" ref="#amp_place_id_356"><foreign xml:lang="en">Vienna</foreign> <del rend="overstrike" hand="#hand_blue_auden"><unclear>I</unclear></del> XX
+                <lb/>Adalbert Stiftergasse 22/28</rs>
+              </address>   
+            </ab>
+          </div>
+          <div>
+            <ab hand="#print_gray_fry" xml:lang="en">
+              <lb/><hi rend="italic">Colour Photograph by <rs type="org" ref="#amp_organization_108">A.V. FRY</rs>.</hi>
+            </ab>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
