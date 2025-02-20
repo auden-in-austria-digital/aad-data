@@ -25,31 +25,31 @@ dtype: int64
 ### `df.info()`
 ```
 <class 'pandas.core.frame.DataFrame'>
-RangeIndex: 242 entries, 0 to 241
+RangeIndex: 244 entries, 0 to 243
 Data columns (total 19 columns):
  #   Column          Non-Null Count  Dtype 
 ---  ------          --------------  ----- 
- 0   img             242 non-null    int64 
- 1   lrx             242 non-null    int64 
- 2   lry             242 non-null    int64 
- 3   width           242 non-null    int64 
- 4   height          242 non-null    int64 
- 5   type            242 non-null    object
- 6   ed              242 non-null    object
- 7   doc             242 non-null    object
- 8   title           242 non-null    object
- 9   author          242 non-null    object
- 10  author-uri      242 non-null    object
- 11  notBefore-iso   242 non-null    object
- 12  notAfter-iso    242 non-null    object
- 13  place           242 non-null    object
- 14  place-uri       242 non-null    object
- 15  repository      242 non-null    object
- 16  repository-uri  242 non-null    object
- 17  collection      242 non-null    object
- 18  idno            242 non-null    object
+ 0   img             244 non-null    int64 
+ 1   lrx             244 non-null    int64 
+ 2   lry             244 non-null    int64 
+ 3   width           244 non-null    int64 
+ 4   height          244 non-null    int64 
+ 5   type            244 non-null    object
+ 6   ed              244 non-null    object
+ 7   doc             244 non-null    object
+ 8   title           244 non-null    object
+ 9   author          244 non-null    object
+ 10  author-uri      244 non-null    object
+ 11  notBefore-iso   244 non-null    object
+ 12  notAfter-iso    244 non-null    object
+ 13  place           244 non-null    object
+ 14  place-uri       244 non-null    object
+ 15  repository      244 non-null    object
+ 16  repository-uri  244 non-null    object
+ 17  collection      244 non-null    object
+ 18  idno            244 non-null    object
 dtypes: int64(5), object(14)
-memory usage: 36.1+ KB
+memory usage: 36.3+ KB
 
 ```
 ### cleaned document data
@@ -119,6 +119,7 @@ doc
 0061  Süddeutscher Rundfunk                                         Printed Card Süddeutscher Rundfunk 1960-05-20--1961-05-20      Stuttgart
 0062           Auden, W. H.  Autograph Card Signed W. H. Auden and Chester Kallman to Christa Kurka and Hugo Kurka 1961-05-23        Hamburg
 0063           Auden, W. H.                                        Autograph Card Signed W. H. Auden to Hugo Kurka 1963-10-23         London
+0064           Auden, W. H.                                        Autograph Card Signed W. H. Auden to Hugo Kurka 1963-10-29         Oxford
 ```
 ### scatter plot
 
