@@ -158,7 +158,7 @@
           </div>
           <div type="letter_message">
             <p hand="#hand_blue_kallman">
-              <lb/><rs type="place" ref="#amp_place_id_373">Hier</rs> <rs type="event" ref="#amp_event_id_117">hätten <unclear>w</unclear>ir unser<unclear>'</unclear> Oper
+              <lb/><rs type="org" ref="#amp_organization_107">Hier</rs> <rs type="event" ref="#amp_event_id_117">hätten <unclear>w</unclear>ir unser<unclear>'</unclear> Oper
               <lb/>gemacht</rs> &#x2013; gut gemacht
               <lb/>natürlich &#x2014; <rs type="person" ref="#amp_person_4">Chester</rs>
             </p>
@@ -178,7 +178,7 @@
           </div>
           <div>
             <ab hand="#print_gray_metz">
-              <lb/><rs type="place" ref="#amp_place_id_373">Rokoko-Theater im Schloß</rs>
+              <lb/><rs type="org" ref="#amp_organization_107">Rokoko-Theater im Schloß</rs>
             </ab>
             <ab hand="#print_gray_metz">
               <lb/>&#x2013; <rs type="org" ref="#amp_organization_105">Gebr. Metz</rs>, <rs type="place" ref="#amp_place_id_372">Tübingen</rs> / 830 R 31 OE Farbphotokarte nach Agfacolo<gap reason="illegible" unit="char" quantity="1"/>-Aufnahme &#x2013;
