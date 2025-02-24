@@ -150,6 +150,11 @@
               <lb/>Air-Mail
             </ab>
           </div>
+          <div hand="#print_gray_fry" xml:lang="en">
+            <ab>
+              <lb/>POST CARD
+            </ab>
+          </div>
           <div type="letter_message" hand="#hand_blue_auden">
             <p>
               <lb/>Alles <del rend="overstrike" hand="#hand_blue_auden"><unclear>G</unclear><gap reason="illegible" unit="char" atLeast="1" atMost="2"/>tes</del> Gutes
