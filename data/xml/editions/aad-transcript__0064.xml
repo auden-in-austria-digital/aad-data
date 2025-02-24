@@ -108,11 +108,23 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="de"/>
+        <language ident="en"/>
       </langUsage>
+      <correspDesc>
+        <correspAction type="sent" subtype="airmail">
+          <placeName><rs type="place" ref="#amp_place_id_46">Oxford</rs></placeName>
+          <date notBefore-iso="1963-10-29T11:30:00+00:00" notAfter-iso="1963-10-29T11:59:59+00:00" ana="#ana_080"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_107">Kurka, Hugo</persName>
+          <placeName><rs type="place" ref="#amp_place_id_356">Adalbert-Stifter-Straße 22</rs></placeName>
+        </correspAction>
+      </correspDesc>
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-02-20">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2025-02-20">Text transcribed; physDesc and profileDesc populated; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -125,10 +137,57 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0064" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0064" xml:lang="de">
+        <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00249/" ed="1r" type="card"/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00250/" ed="1v" type="card"/>
+          <div>
+            <ab hand="#hand_blue_auden" xml:lang="en">
+              <lb/><hi rend="underline" hand="#hand_blue_auden">Air-Ma<unclear>il</unclear><space quantity="1" unit="char"/></hi>
+            </ab>
+          </div>
+          <div hand="#print_brown_penrose" xml:lang="en">
+            <ab>
+              <lb/>POST CARD
+            </ab>
+            <ab>
+              <lb/>925
+            </ab>
+            <ab>
+              <lb/><rs type="org" ref="#amp_organization_6">CHRIST CHURCH</rs> <rs type="place" ref="#amp_place_id_46">OXFORD</rs>
+              <lb/>Published by <rs type="org" ref="#amp_organization_110">Penrose &#38; Palmer</rs>, <rs type="place" ref="#amp_place_id_46">Oxford</rs>, and
+              <lb/>Printed by <rs type="org" ref="#amp_organization_111">The Vandyck Printers Ltd.</rs>, at <rs type="place" ref="#amp_place_id_376">Bristol</rs>
+            </ab>
+          </div>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <p>
+              <lb/><rs type="org" ref="#amp_organization_6">Hier</rs> bin ich
+              <lb/>für z<subst><del rend="overwritten" hand="#hand_blue_auden">e</del><add place="superimposed" hand="#hand_blue_auden">w</add></subst>ei Tage<unclear>.</unclear>
+            </p>
+            <closer>
+              <salute>
+                <lb/>Alles Gutes
+              </salute>
+              <salute>
+                <lb/>Dein
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
+              </signed>
+            </closer>
+          </div>
+          <div>
+            <ab hand="#hand_blue_auden">
+              <lb/><rs type="person" ref="#amp_person_107">Herrn
+              <lb/>Hugo Kurka</rs>
+              <address>
+                <lb/><rs type="place" ref="#amp_place_id_356"><foreign xml:lang="en">Vienna</foreign> XX
+                <lb/>Adalbert Stiftergasse 22/28
+                <lb/><foreign xml:lang="en">Austria</foreign></rs>
+              </address>   
+            </ab>
+          </div>
+        </div>
       </div>
     </body>
   </text>
