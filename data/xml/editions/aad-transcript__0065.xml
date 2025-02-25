@@ -115,7 +115,7 @@
       <correspDesc>
         <correspAction type="sent">
           <placeName><rs type="place" ref="#amp_place_id_1">Vienna</rs></placeName>
-          <date notBefore-iso="1965-05-21T00:00:00+01:00" notAfter-iso="1965-05-21T23:59:59+01:00"/>
+          <date notBefore-iso="1965-05-21T00:00:00+01:00" notAfter-iso="1965-05-21T23:59:59+01:00" ana="#ana_081"/>
         </correspAction>
         <correspAction type="received">
           <persName ref="#amp_person_107">Kurka, Hugo</persName>
@@ -170,7 +170,7 @@
               <lb/>CORRESPONDENCE ADDRES<del rend="overlaid">S ONLY</del>
             </ab>
             <ab>
-              <lb/>Photo by &#x2013; <rs type="org" ref="#amp_organization_112">Larkin Bros. Ltd.</rs>, <rs type="place" ref="#amp_place_id_56">London</rs>, W.C.<unclear>I</unclear>.
+              <lb/>Photo by - <rs type="org" ref="#amp_organization_112">Larkin Bros. Ltd.</rs>, <rs type="place" ref="#amp_place_id_56">London</rs>, W.C.<unclear>I.</unclear>
             </ab>
           </div>
           <div type="letter_message" hand="#hand_blue_auden">
