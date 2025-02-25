@@ -25,7 +25,7 @@
         <edition>
           <title level="a">Autograph Card Signed W. H. Auden to Hugo Kurka 1965-04-26--1965-05-21</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_081">
               <desc/>
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -85,11 +85,12 @@
                 </handDesc>
                 <typeDesc>
                   <typeNote xml:id="print_brown_unident_0065" medium="print-brown">Preprinted writing in brown authored by unidentified publisher, serif and sans-serif typefaces</typeNote>
+                  <typeNote xml:id="print_black_unident_0065" medium="print-black">Preprinted writing in black authored by unidentified publisher, sans-serif typeface</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
                 <origin>
-                  <origDate notBefore-iso="1965-04-26T00:00:00+01:00" notAfter-iso="1965-05-21T23:59:59+01:00"/>
+                  <origDate notBefore-iso="1965-04-26T00:00:00+01:00" notAfter-iso="1965-05-21T23:59:59+01:00" ana="#ana_081"/>
                   <origPlace ref="https://d-nb.info/gnd/4074335-4">London</origPlace>
                 </origin>
               </history>
@@ -125,6 +126,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-02-24">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2025-02-24">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-02-25">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -138,9 +140,63 @@
   <text>
     <body>
       <div type="transcription" xml:id="transcription_aad_0065" xml:lang="de">
-        <div/>
+        <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00251/" ed="1r" type="card"/>
+          <div>
+            <ab hand="#print_black_unident_0065" xml:lang="en">
+              <lb/><rs type="place" ref="#amp_place_id_377">EAST END</rs>,
+              <lb/><rs type="place" ref="#amp_place_id_378">ST. CUTHBERT'S CHURCH</rs>, <rs type="place" ref="#amp_place_id_234">KENSINGTON</rs>.
+            </ab>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00252/" ed="1v" type="card"/>
+          <div>
+            <ab hand="#hand_blue_auden">
+              <lb/><rs type="person" ref="#amp_person_107">Herrn
+              <lb/>Hugo Kurka</rs>
+              <address>
+                <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
+                <lb/>A<unclear>d</unclear>albert Stiftergasse 22/28</rs>
+              </address>   
+            </ab>
+          </div>
+          <div hand="#print_brown_unident_0065" xml:lang="en">
+            <ab>
+              <lb/>POST CARD
+            </ab>
+            <ab>
+              <lb/>BRITISH MADE
+            </ab>
+            <ab>
+              <lb/>CORRESPONDENCE ADDRES<del rend="overlaid">S ONLY</del>
+            </ab>
+            <ab>
+              <lb/>Photo by &#x2013; <rs type="org" ref="#amp_organization_112">Larkin Bros. Ltd.</rs>, <rs type="place" ref="#amp_place_id_56">London</rs>, W.C.<unclear>I</unclear>.
+            </ab>
+          </div>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <opener>
+              <salute>
+                <lb/>Lieber <rs type="person" ref="#amp_person_107">Hugo</rs>:
+              </salute>
+            </opener>
+            <p>
+              <lb/>Habe den <unclear>Helurschucken</unclear> für
+              <lb/>dein<unclear>e</unclear> Blazers.
+            </p>
+            <p>
+              <lb/>Komm <unclear>z</unclear>u Dir Mittwoch
+              <lb/><unclear><subst><del rend="overwritten" hand="#hand_blue_auden">a</del><add place="superimposed" hand="#hand_blue_auden">A</add></subst></unclear>bend<unclear><subst><del rend="overwritten" hand="#hand_blue_auden">.</del><add place="superimposed" hand="#hand_blue_auden">(</add></subst></unclear>26<hi rend="superscript">ten</hi>)
+            </p>
+            <closer>
+              <salute>
+                <lb/>d<unclear>e</unclear>in
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
+              </signed>
+            </closer>
+          </div>
+        </div>
       </div>
     </body>
   </text>
