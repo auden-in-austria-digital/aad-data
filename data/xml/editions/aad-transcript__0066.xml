@@ -25,7 +25,7 @@
         <edition>
           <title level="a">Autograph Card Signed W. H. Auden to Hugo Kurka 1960-11-19</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_082">
               <desc/>
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -89,7 +89,7 @@
               </physDesc>
               <history>
                 <origin>
-                  <origDate notBefore-iso="1960-11-19T00:00:00-06:00" notAfter-iso="1960-11-19T18:00:00-06:00"/>
+                  <origDate notBefore-iso="1960-11-19T00:00:00-06:00" notAfter-iso="1960-11-19T18:00:00-06:00" ana="#ana_082"/>
                   <origPlace ref="https://d-nb.info/gnd/4009921-0">Chicago</origPlace>
                 </origin>
               </history>
@@ -114,7 +114,7 @@
       <correspDesc>
         <correspAction type="sent" subtype="airmail">
           <placeName><rs type="place" ref="#amp_place_id_129">Chicago</rs></placeName>
-          <date notBefore-iso="1960-11-19T17:00:01-06:00" notAfter-iso="1960-11-19T18:00:00-06:00"/>
+          <date notBefore-iso="1960-11-19T17:00:01-06:00" notAfter-iso="1960-11-19T18:00:00-06:00" ana="#ana_082"/>
         </correspAction>
         <correspAction type="received">
           <persName ref="#amp_person_107">Kurka, Hugo</persName>
@@ -187,7 +187,7 @@
           <div hand="#print_brown_crocker" xml:lang="en">
             <ab>
               <lb/>PUBLISHED BY <rs type="org" ref="#amp_organization_113">H. S. CROCKER CO., INC.</rs>
-              <lb/>350 NO. CLARK STREET, <rs type="place" ref="#amp_place_id_129">CHICAGO 10, ILLINOIS</rs> &#xB7; PRINTED IN <rs type="place" ref="#amp_place_id_15">U. S. A.</rs>
+              <lb/>350 NO. CLARK STREET, <rs type="place" ref="#amp_place_id_129">CHICAGO</rs> 10, ILLINOIS &#xB7; PRINTED IN <rs type="place" ref="#amp_place_id_15">U. S. A.</rs>
             </ab>
             <ab>
               <lb/>MIRRO-KROME CARD BY <rs type="org" ref="#amp_organization_113">H. S. CROCKER CO., INC.</rs>, <rs type="place" ref="#amp_place_id_161">SAN FRANCISCO 1, CALIF.</rs>
@@ -198,7 +198,7 @@
               <lb/><rs type="person" ref="#amp_person_107">Herrn
               <lb/>Hugo Kurka</rs>
               <address>
-                <lb/><rs type="place" ref="#amp_place_id_356"><hi rend="underline" hand="#hand_blue_auden">WIEN IX</hi>
+                <lb/><rs type="place" ref="#amp_place_id_371"><hi rend="underline" hand="#hand_blue_auden">WIEN IX</hi>
                 <lb/>Mühlnergasse 14/4
                 <lb/><foreign xml:lang="en">Austria</foreign></rs>
               </address>   
