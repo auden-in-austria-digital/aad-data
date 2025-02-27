@@ -149,14 +149,14 @@
           </div>
           <div>
             <ab hand="#print_gray_klinke">
-              <lb/><rs type="place" ref="#amp_place_id_380">Berlin, Kurfürstendamm</rs>
+              <lb/><rs type="place" ref="#amp_place_id_17">Berlin</rs>, <rs type="place" ref="#amp_place_id_380">Kurfürstendamm</rs>
             </ab>
           </div>
           <div type="letter_message" hand="#hand_blue_auden">
             <p>
               <lb/>Grusse aus <rs type="place" ref="#amp_place_id_17">Berlin</rs>.
               <lb/>Will Dich so fort
-              <lb/>schreiben <del rend="overstrike" hand="#hand_blue_auden"><unclear>we</unclear></del> wenn ich
+              <lb/>schreiben <del rend="overstrike" hand="#hand_blue_auden"><unclear>w<gap reason="illegible" unit="char" quantity="1"/></unclear></del> wenn ich
               <lb/>wieder zu Hause bin .
             </p>
             <closer>
