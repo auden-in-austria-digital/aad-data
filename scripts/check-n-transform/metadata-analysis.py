@@ -116,7 +116,6 @@ df_date.set_index('notBefore-iso', inplace=True)  # Set datetime as index
 monthly_docs = df_date.resample('ME').size().groupby(level=0).sum()
 monthly_docs = monthly_docs[monthly_docs > 0]
 
-
 # Now, split into author-based dataframes (for Plot 2)
 df_auden = df_date[df_date['author'] == 'Auden, W. H.']
 df_other = df_date[df_date['author'] != 'Auden, W. H.']
