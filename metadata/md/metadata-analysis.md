@@ -1,5 +1,5 @@
-## `input_img_id.csv` analysis report
-### `df.isnull().sum()`
+## `input_img_id.csv` Analysis Report
+### Missing Values Summary (`df.isnull().sum()`)
 ```
 img               0
 lrx               0
@@ -22,7 +22,7 @@ collection        0
 idno              0
 dtype: int64
 ```
-### `df.info()`
+### DataFrame Info (`df.info()`)
 ```
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 254 entries, 0 to 253
@@ -52,7 +52,7 @@ dtypes: int64(5), object(14)
 memory usage: 37.8+ KB
 
 ```
-### cleaned document data
+### Cleaned Document Data
 ```
                      author                                                                                             title          place
 doc                                                                                                                                         
@@ -126,7 +126,7 @@ doc
 0068           Auden, W. H.  Autograph Card Signed W. H. Auden and Chester Kallman to Christa Kurka and Hugo Kurka 1961-05-25      Trondheim
 0069       Kallman, Chester                  Autograph Card Signed Chester Kallman to Christa Kurka and Hugo Kurka 1961-05-01        München
 ```
-### scatter plot
+### Scatter Plots
 
-![number of documents per month](docs_per_month.png)
-![number of documents per month by author](docs_per_month_by_author.png)
+![Number of Documents per Month](docs_per_month.png)
+![Number of Documents per Month by Author](docs_per_month_by_author.png)
