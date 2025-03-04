@@ -113,7 +113,9 @@ df_date.set_index('notBefore-iso', inplace=True)  # Set datetime as index
 # --- Compute Monthly Document Counts ---
 
 # Ensure total documents per month are counted before splitting by author (for Plot 1)
-monthly_docs = df_date.resample('ME').size()[lambda x: x > 0]  # Count all documents per month, filter out zero values
+monthly_docs = df_date.resample('ME').size().groupby(level=0).sum()
+monthly_docs = monthly_docs[monthly_docs > 0]
+
 
 # Now, split into author-based dataframes (for Plot 2)
 df_auden = df_date[df_date['author'] == 'Auden, W. H.']
