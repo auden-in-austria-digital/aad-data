@@ -177,7 +177,7 @@
             </p>
             <closer>
               <signed>
-                <lb/><rs type="person" ref="#amp_person_1">Chester</rs>
+                <lb/><rs type="person" ref="#amp_person_4">Chester</rs>
               </signed>
             </closer>
           </div>
@@ -199,7 +199,7 @@
               <lb/>886/26
             </ab>
             <ab>
-              <lb/>PRINTED IN NORWAY
+              <lb/>PRINTED IN <rs type="place" ref="#amp_place_id_383">NORWAY</rs>
             </ab>
           </div>
           <div>
