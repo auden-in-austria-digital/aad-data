@@ -85,6 +85,7 @@
                 </handDesc>
                 <typeDesc>
                   <typeNote xml:id="print_brown_sussmann" scribeRef="#amp_organization_118" medium="print-brown">Preprinted writing in brown authored by Bahnhofsbuchhandlung Max Sussmann, sans-serif typeface</typeNote>
+                  <typeNote xml:id="print_white_sussmann" scribeRef="#amp_organization_118" medium="print-white">Preprinted writing in white authored by Bahnhofsbuchhandlung Max Sussmann, sans-serif typeface</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -139,9 +140,67 @@
   <text>
     <body>
       <div type="transcription" xml:id="transcription_aad_0069" xml:lang="de">
-        <div/>
+        <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00259/" ed="1r" type="card"/>
+          <div>
+            <ab hand="#print_white_sussmann">
+              <lb/><rs type="place" ref="#amp_place_id_26">München</rs>. <rs type="place" ref="#amp_place_id_386">Karlsplatz</rs>-Rondell
+            </ab>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00260/" ed="1v" type="card"/>
+          <div hand="#print_brown_sussmann">
+            <ab>
+              <seg>
+                <lb/><rs type="place" ref="#amp_place_id_26">MÜNCHEN</rs>
+              </seg>
+              <seg>
+                <seg>
+                  <lb/><rs type="place" ref="#amp_place_id_386">Karlsplatz-Rondell</rs>
+                </seg>
+                <seg>
+                  <lb/>Segment of <rs type="place" ref="#amp_place_id_386">Karsplatz</rs>
+                </seg>
+                <seg>
+                  <lb/>Rond Point de la <rs type="place" ref="#amp_place_id_386">Karlsplatz</rs>
+                </seg>
+              </seg>
+            </ab>
+          </div>
+          <div type="letter_message" hand="#hand_blue_kallman">
+            <p>
+              <lb/>Kei<unclear>n</unclear> Blumen für mich !
+            </p>
+            <closer>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_4">C.</rs>
+              </signed>
+            </closer>
+          </div>
+          <div hand="#print_brown_sussmann">
+            <ab>
+              <seg>
+                <lb/>Nr. 832
+              </seg>
+              <seg>
+                <lb/><rs type="org" ref="#amp_organization_118">Bahnhofsbuchhandlung Max Sussmann</rs>,
+                <lb/><rs type="place" ref="#amp_place_id_387">München - Hauptbahnhof</rs>
+              </seg>
+            </ab>
+            <ab>
+              <lb/>Urheberrechtlich geschützt
+            </ab>
+          </div>
+          <div>
+            <ab hand="#hand_blue_kallman">
+              <lb/><rs type="person" ref="#amp_person_107">Her<unclear>rn</unclear></rs> <unclear>+</unclear> <rs type="person" ref="#amp_person_240">Frau KURKA</rs>
+              <address>
+                <lb/><rs type="place" ref="#amp_place_id_371">WIEN IX
+                <lb/>MÜLLNERGASSE  14/4
+                <lb/>Österreich</rs>
+              </address>   
+            </ab>
+          </div>
+        </div>
       </div>
     </body>
   </text>
