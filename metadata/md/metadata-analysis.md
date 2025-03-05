@@ -128,5 +128,4 @@ doc
 ```
 ### scatter plot
 
-![number of documents per month](docs_per_month.png)
 ![number of documents per month by author](docs_per_month_by_author.png)
