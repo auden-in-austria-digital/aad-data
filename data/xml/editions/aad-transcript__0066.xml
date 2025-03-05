@@ -151,14 +151,16 @@
               <lb/>CGO-38
             </ab>
             <ab>
-              <lb/><rs type="place" ref="#amp_place_id_379">MICHIGAN AVENUE</rs> SKYLINE
-            </ab>
-            <ab>
-              <lb/><rs type="place" ref="#amp_place_id_129">Chicago</rs>'s famous "Lake Front" skyline as seen from
-              <lb/>the <rs type="org" ref="#amp_organization_114">Museum of Natural History</rs>.
-            </ab>
-            <ab>
-              <lb/>Color photo by <rs type="person" ref="#amp_person_266">Wm. H. Nawodylo</rs>, <rs type="place" ref="#amp_place_id_129">Chicago</rs>
+              <seg>
+                <lb/><rs type="place" ref="#amp_place_id_379">MICHIGAN AVENUE</rs> SKYLINE
+              </seg>
+              <seg>
+                <lb/><rs type="place" ref="#amp_place_id_129">Chicago</rs>'s famous "Lake Front" skyline as seen from
+                <lb/>the <rs type="org" ref="#amp_organization_114">Museum of Natural History</rs>.
+              </seg>
+              <seg>
+                <lb/>Color photo by <rs type="person" ref="#amp_person_266">Wm. H. Nawodylo</rs>, <rs type="place" ref="#amp_place_id_129">Chicago</rs>
+              </seg>
             </ab>
           </div>
           <div type="letter_message" hand="#hand_blue_auden">
