@@ -154,9 +154,13 @@
               <lb/>925
             </ab>
             <ab>
-              <lb/><rs type="org" ref="#amp_organization_6">CHRIST CHURCH</rs> <rs type="place" ref="#amp_place_id_46">OXFORD</rs>
-              <lb/>Published by <rs type="org" ref="#amp_organization_110">Penrose &#38; Palmer</rs>, <rs type="place" ref="#amp_place_id_46">Oxford</rs>, and
-              <lb/>Printed by <rs type="org" ref="#amp_organization_111">The Vandyck Printers Ltd.</rs>, at <rs type="place" ref="#amp_place_id_376">Bristol</rs>
+              <seg>
+                <lb/><rs type="org" ref="#amp_organization_6">CHRIST CHURCH</rs> <rs type="place" ref="#amp_place_id_46">OXFORD</rs>
+              </seg>
+              <seg>
+                <lb/>Published by <rs type="org" ref="#amp_organization_110">Penrose &#38; Palmer</rs>, <rs type="place" ref="#amp_place_id_46">Oxford</rs>, and
+                <lb/>Printed by <rs type="org" ref="#amp_organization_111">The Vandyck Printers Ltd.</rs>, at <rs type="place" ref="#amp_place_id_376">Bristol</rs>
+              </seg>
             </ab>
           </div>
           <div type="letter_message" hand="#hand_blue_auden">
