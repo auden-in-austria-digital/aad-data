@@ -161,13 +161,15 @@
           </div>
           <div hand="#print_brown_unident_0065" xml:lang="en">
             <ab>
-              <lb/>POST CARD
-            </ab>
-            <ab>
-              <lb/>BRITISH MADE
-            </ab>
-            <ab>
-              <lb/>CORRESPONDENCE ADDRES<del rend="overlaid">S ONLY</del>
+              <seg>
+                <lb/>POST CARD
+              </seg>
+              <seg>
+                <lb/>BRITISH MADE
+              </seg>
+              <seg>
+                <lb/>CORRESPONDENCE ADDRES<del rend="overlaid">S ONLY</del>
+              </seg>
             </ab>
             <ab>
               <lb/>Photo by - <rs type="org" ref="#amp_organization_112">Larkin Bros. Ltd.</rs>, <rs type="place" ref="#amp_place_id_56">London</rs>, W.C.<unclear>I.</unclear>
