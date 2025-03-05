@@ -150,19 +150,17 @@
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00260/" ed="1v" type="card"/>
           <div hand="#print_brown_sussmann">
             <ab>
+              <lb/><rs type="place" ref="#amp_place_id_26">MÜNCHEN</rs>
+            </ab>
+            <ab>
               <seg>
-                <lb/><rs type="place" ref="#amp_place_id_26">MÜNCHEN</rs>
+                <lb/><rs type="place" ref="#amp_place_id_386">Karlsplatz-Rondell</rs>
               </seg>
               <seg>
-                <seg>
-                  <lb/><rs type="place" ref="#amp_place_id_386">Karlsplatz-Rondell</rs>
-                </seg>
-                <seg>
-                  <lb/>Segment of <rs type="place" ref="#amp_place_id_386">Karlsplatz</rs>
-                </seg>
-                <seg>
-                  <lb/>Rond Point de la <rs type="place" ref="#amp_place_id_386">Karlsplatz</rs>
-                </seg>
+                <lb/>Segment of <rs type="place" ref="#amp_place_id_386">Karlsplatz</rs>
+              </seg>
+              <seg>
+                <lb/>Rond Point de la <rs type="place" ref="#amp_place_id_386">Karlsplatz</rs>
               </seg>
             </ab>
           </div>
