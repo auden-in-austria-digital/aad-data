@@ -152,8 +152,12 @@
           </div>
           <div>
             <ab hand="#print_gray_metz">
-              <lb/>Theaterrestaurant &#x2013; Schloßcafé
-              <lb/><rs type="place" ref="#amp_place_id_366">Schwetzingen</rs> &#x2013; Telefon 420
+              <seg>
+                <lb/>Theaterrestaurant &#x2013; Schloßcafé
+              </seg>
+              <seg>
+                <lb/><rs type="place" ref="#amp_place_id_366">Schwetzingen</rs> &#x2013; Telefon 420
+              </seg>
             </ab>
           </div>
           <div type="letter_message" hand="#hand_blue_kallman">
@@ -169,20 +173,20 @@
               <lb/>schöne<unclear>&#xB7;</unclear> Pfingsten Reise
               <lb/>gehabt.
             </p>
-            <closer hand="#hand_blue_auden">
+            <closer>
               <salute>
                 <lb/>Grüsse
               </salute>
-              <signed hand="#hand_blue_auden">
+              <signed>
                 <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>.
               </signed>
             </closer>
           </div>
-          <div>
-            <ab hand="#print_gray_metz">
+          <div hand="#print_gray_metz">
+            <ab>
               <lb/><rs type="org" ref="#amp_organization_107">Rokoko-Theater im Schloß</rs>
             </ab>
-            <ab hand="#print_gray_metz">
+            <ab>
               <lb/>&#x2013; <rs type="org" ref="#amp_organization_105">Gebr. Metz</rs>, <rs type="place" ref="#amp_place_id_372">Tübingen</rs> / 830 R 31 OE Farbphotokarte nach Agfacolo<gap reason="illegible" unit="char" quantity="1"/>-Aufnahme &#x2013;
             </ab>
           </div>
