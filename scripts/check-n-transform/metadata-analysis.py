@@ -25,7 +25,7 @@ df_date['notBefore-iso'] = pd.to_datetime(df_date['notBefore-iso'], errors='coer
 df_date = df_date.dropna(subset=['notBefore-iso'])  # drop rows where UTC conversion failed
 
 df_date.set_index('notBefore-iso', inplace=True)  # set datetime objects as index
-
+'''
 monthly_docs = df_date.resample('ME').size()  # resample into groups by month, count document number per group in series
 
 plt.figure(figsize=(10, 5))    # initialize figure, set dimensions in inches
@@ -41,7 +41,7 @@ plt.grid(True)  # display grid lines
 plt.tight_layout()  # automatically adjust spacing between figure elements
 
 plt.savefig('./metadata/md/docs_per_month.png')  # save figure
-
+'''
 # doc-time-author plot
 
 # create author-based dataframes
@@ -81,6 +81,6 @@ with open('./metadata/md/metadata-analysis.md', 'w') as f:
     f.write(f'### cleaned document data\n')
     f.write(f'```\n{df_doc.to_string()}\n```\n')
     f.write(f'### scatter plot\n\n')
-    f.write(f'![number of documents per month](docs_per_month.png)\n')
+    #f.write(f'![number of documents per month](docs_per_month.png)\n')
     f.write(f'![number of documents per month by author](docs_per_month_by_author.png)')
     
