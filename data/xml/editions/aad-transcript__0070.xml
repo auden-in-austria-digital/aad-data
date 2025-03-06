@@ -125,7 +125,7 @@
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-03-05">TEI/XML template populated with csv2xml.py</change>
-      <change who="#tfruehwirth" when-iso="2025-03-05">Text transcribed; physDesc and profileDesc populated; hands, languages, correspondence container structure, and entities marked up</change>
+      <change who="#tfruehwirth" when-iso="2025-03-06">Text transcribed; physDesc and profileDesc populated; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
