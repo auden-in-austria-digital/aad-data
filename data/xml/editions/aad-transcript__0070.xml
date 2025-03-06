@@ -124,7 +124,7 @@
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-03-05">TEI/XML template populated with csv2xml.py</change>
-      <change who="#tfruehwirth" when-iso="2025-03-05">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-03-05">Text transcribed; physDesc and profileDesc populated; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -138,9 +138,59 @@
   <text>
     <body>
       <div type="transcription" xml:id="transcription_aad_0070" xml:lang="de">
-        <div/>
+        <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00263/" ed="1r" type="card"/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00264/" ed="1v" type="card"/>
+          <div hand="#hand_blue_auden">
+            <ab>
+              <lb/><del rend="overstrike" hand="#hand_blue_auden"><foreign xml:lang="en">Air</foreign></del><hi rend="underline" hand="#hand_blue_auden"><del rend="overstrike" hand="#hand_blue_auden">-</del>Luft-Post</hi>
+            </ab>
+          </div>
+          <div hand="#print_gray_gk" xml:lang="sv">
+            <ab>
+              <lb/><rs type="place" ref="#amp_place_id_388">Drottningholms Slott</rs>.
+            </ab>
+          </div>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <p>
+              <lb/>Grüsse
+              <lb/>aus
+              <lb/><rs type="place" ref="#amp_place_id_344">Stockh<unclear>olm</unclear></rs><unclear>.</unclear>
+            </p>
+            <closer>
+              <salute>
+                <lb/>dei<unclear>n</unclear>
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs> <unclear>&#xB7;</unclear>
+              </signed>
+            </closer>
+          </div>
+          <div hand="#print_gray_gk" xml:lang="sv">
+            <ab>
+              <seg>
+                <lb/>130/34
+              </seg>
+              <seg>
+                <lb/>Färgfoto: <rs type="person" ref="#amp_person_267">G. Alg&#229;rd</rs>.
+              </seg>
+            </ab>
+            <ab>
+              <lb/><rs type="org" ref="#amp_organization_135">GRAFISK KONST</rs>
+            </ab>
+          </div>
+          <div>
+            <ab hand="#hand_blue_auden">
+              <lb/><rs type="person" ref="#amp_person_107">Herrr Hugo K<unclear><subst><del rend="overwritten" hand="#hand_blue_auden">a</del><add place="superimposed" hand="#hand_blue_auden">u</add></subst></unclear>rka</rs>
+              <address>
+                <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
+                <lb/>Adalbertstiftergasse
+                <lb/>22/28
+                <lb/>Österreich.</rs>
+              </address>   
+            </ab>
+          </div>
+        </div>
       </div>
     </body>
   </text>
