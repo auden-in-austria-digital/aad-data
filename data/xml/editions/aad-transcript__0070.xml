@@ -89,7 +89,7 @@
               </physDesc>
               <history>
                 <origin>
-                  <origDate notBefore-iso="1964-04-18T00:00:00+01:00" notAfter-iso="1964-04-18T23:59:59+01:00"/>
+                  <origDate notBefore-iso="1964-04-18T00:00:00+01:00" notAfter-iso="1964-04-18T16:00:00+01:00"/>
                   <origPlace ref="https://d-nb.info/gnd/4057648-6">Stockholm</origPlace>
                 </origin>
               </history>
@@ -113,8 +113,9 @@
       </langUsage>
       <correspDesc>
         <correspAction type="sent" subtype="airmail">
+          <orgName><rs type="org" ref="#amp_organization_136">Post office Stockholm railway station</rs></orgName>
           <placeName><rs type="place" ref="#amp_place_id_344">Stockholm</rs></placeName>
-          <date notBefore-iso="1964-04-18T00:00:00+01:00" notAfter-iso="1964-04-18T23:59:59+01:00"/>
+          <date notBefore-iso="1964-04-18T15:00:01+01:00" notAfter-iso="1964-04-18T16:00:00+01:00"/>
         </correspAction>
         <correspAction type="received">
           <persName ref="#amp_person_107">Kurka, Hugo</persName>
