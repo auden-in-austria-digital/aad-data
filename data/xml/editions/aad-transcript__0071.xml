@@ -163,7 +163,7 @@
           </div>
           <div hand="#print_gray_leonar" xml:lang="is">
             <ab>
-              <lb/><del rend="overlaid"><gap reason="illegible" unit="char" atLeast="2" atMost="3"/></del>einkarétti: <rs type="person" ref="#amp_person_268">Hannes Pálsson</rs>, ljósmyndari, Engihlí&#240; 10, <rs type="place" ref="#amp_place_id_392">Rvík</rs>.
+              <lb/><del rend="overlaid"><gap reason="illegible" unit="char" atLeast="3" atMost="5"/></del>einkarétti: <rs type="person" ref="#amp_person_268">Hannes Pálsson</rs>, ljósmyndari, Engihlí&#240; 10, <rs type="place" ref="#amp_place_id_392">Rvík</rs>.
             </ab>
             <ab>
               <lb/><rs type="org" ref="#amp_organization_137">LEONAR</rs>
@@ -176,7 +176,7 @@
                 <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
                 <lb/>Adalbertstiftergasse
                 <lb/>22/28 .
-                <lb/><foreign xml:lang="en">Austr<unclear>ia</unclear></foreign></rs>
+                <lb/><foreign xml:lang="en">Austr<unclear>ia</unclear></foreign><unclear>.</unclear></rs>
               </address>   
             </ab>
           </div>
