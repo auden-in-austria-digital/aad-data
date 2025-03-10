@@ -84,13 +84,13 @@
                   <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/><!-- todo -->
+                  <typeNote xml:id="print_gray_leonar" scribeRef="#amp_organization_137" medium="print-gray">Preprinted writing in gray authored by Leonar, serif and sans-serif typefaces</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
                 <origin>
                   <origDate notBefore-iso="1964-04-09T00:00:00+00:00" notAfter-iso="1964-04-09T23:59:59+00:00"/>
-                  <origPlace ref="https://d-nb.info/gnd/5195049-2" ana="#ana_083">Ísafjörður</origPlace>
+                  <origPlace ref="https://d-nb.info/gnd/5195049-2" ana="#ana_083">Ísafjör&#240;ur</origPlace>
                 </origin>
               </history>
             </msDesc>
@@ -114,7 +114,7 @@
       </langUsage>
       <correspDesc>
         <correspAction type="sent" subtype="airmail">
-          <placeName><rs type="place" ref="#amp_place_id_390">Ísafjörður</rs></placeName>
+          <placeName><rs type="place" ref="#amp_place_id_390" ana="#ana_083">Ísafjör&#240;ur</rs></placeName>
           <date notBefore-iso="1964-04-09T00:00:00+00:00" notAfter-iso="1964-04-09T23:59:59+00:00"/>
         </correspAction>
         <correspAction type="received">
@@ -126,6 +126,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-03-06">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2025-03-06">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-03-10">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -141,7 +142,43 @@
       <div type="transcription" xml:id="transcription_aad_0071" xml:lang="de">
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00265/" ed="1r" type="card"/>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00266/" ed="1v" type="card"/>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <p>
+              <lb/>Grüsse aus
+              <lb/><rs type="place" ref="#amp_place_id_391">Island</rs>.
+            </p>
+            <p>
+              <lb/>Komme <rs type="place" ref="#amp_place_id_1">Wien</rs> an April
+              <lb/>24<hi rend="superscript">te<unclear>m</unclear></hi><unclear>.</unclear>
+            </p>
+            <closer>
+              <salute>
+                <lb/>Dein
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>.
+              </signed>
+            </closer>
+          </div>
+          <div hand="#print_gray_leonar" xml:lang="is">
+            <ab>
+              <lb/><del rend="overlaid"><gap reason="illegible" unit="char" atLeast="2" atMost="3"/></del>einkarétti: <rs type="person" ref="#amp_person_268">Hannes Pálsson</rs>, ljósmyndari, Engihlí&#240; 10, <rs type="place" ref="#amp_place_id_392">Rvík</rs>.
+            </ab>
+            <ab>
+              <lb/><rs type="org" ref="#amp_organization_137">LEONAR</rs>
+            </ab>
+          </div>
+          <div>
+            <ab hand="#hand_blue_auden">
+              <lb/><rs type="person" ref="#amp_person_107">Herr Hugo Kurka</rs>
+              <address>
+                <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
+                <lb/>Adalbertstiftergasse
+                <lb/>22/28 .
+                <lb/><foreign xml:lang="en">Austr<unclear>ia</unclear></foreign></rs>
+              </address>   
+            </ab>
+          </div>
         </div>
       </div>
     </body>
