@@ -127,7 +127,7 @@ doc
 0069       Kallman, Chester                  Autograph Card Signed Chester Kallman to Christa Kurka and Hugo Kurka 1961-05-01        München
 0070           Auden, W. H.                                        Autograph Card Signed W. H. Auden to Hugo Kurka 1964-04-18      Stockholm
 0071           Auden, W. H.                                        Autograph Card Signed W. H. Auden to Hugo Kurka 1964-04-09     Ísafjörður
-0072           Auden, W. H.                      Autograph Card Signed W. H. Auden to Christa Kurka and Hugo Kurka 1965-02-05         Berlin
+0072           Auden, W. H.                             Autograph Card W. H. Auden to Christa Kurka and Hugo Kurka 1965-02-03         Berlin
 ```
 ### scatter plot
 
