@@ -171,7 +171,7 @@
           <div type="letter_message" hand="#hand_blue_auden">
             <opener>
               <salute>
-                <lb/>Lieber <rs type="person" ref="#amp_person_107">H<unclear>g</unclear>o</rs> und <rs type="person" ref="#amp_person_240">Christa</rs>.
+                <lb/><unclear>'</unclear> Lieber <rs type="person" ref="#amp_person_107">H<unclear>g</unclear>o</rs> und <rs type="person" ref="#amp_person_240">Christa</rs>.
               </salute>
             </opener>
             <p>
@@ -184,8 +184,8 @@
               <lb/>gekriecht wo ich <unclear>die</unclear> <unclear>G</unclear>ute
               <lb/>Nachricht g<del rend="overstrike" hand="#hand_blue_auden">escrieben</del> geschrieben
               <lb/>habe d<unclear>a</unclear>s ich freigesprochen
-              <lb/>war? Ja , ich habe mein
-              <lb/>Fu<unclear>hre</unclear>nschein zuruck.
+              <lb/>war<unclear>?</unclear> Ja , ich habe mein
+              <lb/>Fu<unclear>hre</unclear>nsch<unclear>e</unclear>in zuruck.
             </p>
             <closer>
               <salute>
