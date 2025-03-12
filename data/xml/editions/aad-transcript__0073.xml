@@ -128,6 +128,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-03-11">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2025-03-11">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-03-11">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -144,6 +145,77 @@
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00269/" ed="1r" type="card"/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00270/" ed="1v" type="card"/>
+          <div hand="#print_black_salbaroli" xml:lang="it">
+            <ab>
+              <seg>
+                <lb/><rs type="place" ref="#amp_place_id_31">RAVENNA</rs>
+              </seg>
+              <seg>
+                <lb/><rs type="place" ref="#amp_place_id_395">S. Apollinare Nuovo</rs> - I Re Magi
+                <lb/>(Mosaico VI secolo)
+              </seg>
+              <seg xml:lang="fr">
+                <lb/><rs type="place" ref="#amp_place_id_395">St. Apollinare Neuf</rs> - Les Trois Rois Mages
+                <lb/>(Mosa&#239;que du VI s.)
+              </seg>
+              <seg xml:lang="en">
+                <lb/><rs type="place" ref="#amp_place_id_395">New St. Apollinare</rs> - The Three Wise Men
+                <lb/>(Mosaic of the VI cent.)
+              </seg>
+              <seg xml:lang="de">
+                <lb/><rs type="place" ref="#amp_place_id_395">Neu Hl. Apollinare</rs> - Die Hl. Drei Könige
+                <lb/>(Mosaik des VI Jhdrt.)
+              </seg>
+            </ab>
+          </div>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <opener>
+              <salute>
+                <lb/>Lieber H<unclear>g</unclear>o und <rs type="person" ref="#amp_person_240">Christa</rs>.
+              </salute>
+            </opener>
+            <p>
+              <lb/><del rend="overstrike" hand="#hand_blue_auden"><gap reason="illegible" unit="char" atLeast="2" atMost="3"/></del>Bin gestern zuruc<unclear>k</unclear> aus
+              <lb/><rs type="place" ref="#amp_place_id_159">Italien</rs> gekommen und habe <unclear>dein</unclear>
+              <lb/>Brief bekommen.
+            </p>
+            <p>
+              <lb/><unclear>H</unclear>ast Du nicht mei<unclear>m</unclear>e Karte
+              <lb/>gekriecht wo ich <unclear>die</unclear> <unclear>G</unclear>ute
+              <lb/>Nachricht g<del rend="overstrike" hand="#hand_blue_auden">escrieben</del> geschrieben
+              <lb/>habe d<unclear>a</unclear>s ich freigesprochen
+              <lb/>war? Ja , ich habe mein
+              <lb/>Fu<unclear>hre</unclear>nschein zuruck<unclear>..</unclear>
+            </p>
+            <closer>
+              <salute>
+                <lb/>Dein Freund
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs><unclear>..</unclear>
+              </signed>
+            </closer>
+          </div>
+          <div hand="#print_black_salbaroli" xml:lang="it">
+            <ab >
+              <lb/>3 - Ediz. <rs type="org" ref="#amp_organization_139">E. Salbaroli</rs> - <rs type="place" ref="#amp_place_id_31">Ravenna</rs>
+            </ab>
+            <ab>
+              <lb/>da fotocolor - Riproduzione vietata
+            </ab>
+          </div>
+          <div>
+            <ab hand="#hand_blue_auden">
+              <lb/><rs type="person" ref="#amp_person_107">Herr
+              <lb/>Hugo Kurka</rs>
+              <address>
+                <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
+                <lb/>Adalbert Stift<unclear>er</unclear>gasse
+                <lb/>22/28
+                <lb/>Österre<unclear>i</unclear><gap reason="illegible" unit="char" atLeast="1" atMost="2"/>h .</rs>
+              </address>   
+            </ab>
+          </div>
         </div>
       </div>
     </body>
