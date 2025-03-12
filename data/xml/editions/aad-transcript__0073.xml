@@ -155,7 +155,7 @@
                 <lb/>(Mosaico VI secolo)
               </seg>
               <seg xml:lang="fr">
-                <lb/><rs type="place" ref="#amp_place_id_395">St. Apollinare Neuf</rs> - Les Trois Rois Mages
+                <lb/><rs type="place" ref="#amp_place_id_395">St. Apollinare Neuf</rs> - Les Trois Rois Mage<del rend="overlaid">s</del>
                 <lb/>(Mosa&#239;que du VI s.)
               </seg>
               <seg xml:lang="en">
@@ -171,7 +171,7 @@
           <div type="letter_message" hand="#hand_blue_auden">
             <opener>
               <salute>
-                <lb/>Lieber H<unclear>g</unclear>o und <rs type="person" ref="#amp_person_240">Christa</rs>.
+                <lb/>Lieber <rs type="person" ref="#amp_person_107">H<unclear>g</unclear>o</rs> und <rs type="person" ref="#amp_person_240">Christa</rs>.
               </salute>
             </opener>
             <p>
@@ -185,7 +185,7 @@
               <lb/>Nachricht g<del rend="overstrike" hand="#hand_blue_auden">escrieben</del> geschrieben
               <lb/>habe d<unclear>a</unclear>s ich freigesprochen
               <lb/>war? Ja , ich habe mein
-              <lb/>Fu<unclear>hre</unclear>nschein zuruck<unclear>..</unclear>
+              <lb/>Fu<unclear>hre</unclear>nschein zuruck.
             </p>
             <closer>
               <salute>
