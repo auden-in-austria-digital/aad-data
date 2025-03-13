@@ -128,6 +128,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-03-12">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2025-03-12">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-03-13">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -144,6 +145,61 @@
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00271/" ed="1r" type="card"/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00272/" ed="1v" type="card"/>
+          <div hand="#print_black_kak" xml:lang="hu">
+            <ab>
+              <seg>
+                <seg>
+                  <lb/><rs type="place" ref="#amp_place_id_86">BUDAPEST</rs>. <rs type="place" ref="#amp_place_id_396">Royal szálló</rs>
+                </seg>
+                <seg xml:lang="en">
+                  <rs type="place" ref="#amp_place_id_396">Hotel "Royal"</rs>
+                </seg>
+                <seg xml:lang="ru">
+                  <rs type="place" ref="#amp_place_id_86">&#1041;&#1059;&#1044;&#1040;&#1055;&#1045;&#1064;&#1058;</rs>. <rs type="place" ref="#amp_place_id_396">&#1043;&#1086;&#1089;&#1090;&#1080;&#1085;&#1080;&#1094;&#1072; "&#1056;&#1086;&#1103;&#1083;"</rs>
+                </seg>
+              </seg>
+              <seg>
+                <foreign xml:lang="de">Foto</foreign>: <rs type="person" ref="#amp_person_269">Fényes</rs> <rs type="org" ref="#amp_organization_141">M. T. I.</rs>
+              </seg>
+            </ab>
+          </div>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <p>
+              <lb/>Grüsse a<unclear>u</unclear>s <rs type="place" ref="#amp_place_id_86">Budapest</rs>.
+              <lb/>Komm<unclear>_</unclear> zuruck Sonntag
+              <lb/>und will Dienstag <unclear><subst><del rend="overwritten" hand="#hand_blue_auden">a</del><add place="superimposed" hand="#hand_blue_auden">A</add></subst></unclear>bend
+              <lb/>nach <rs type="place" ref="#amp_place_id_1">Wie<unclear>n</unclear></rs> kommen<unclear>.</unclear>
+            </p>
+            <closer>
+              <salute>
+                <lb/>Dein
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>.
+              </signed>
+            </closer>
+          </div>
+          <div hand="#print_black_kak" xml:lang="hu">
+            <ab>
+              <lb/>EF 1407/643
+            </ab>
+            <ab>
+              <lb/>Ara: 2.&#x2014;Ft.
+            </ab>
+            <ab>
+              <lb/><rs type="org" ref="#amp_organization_140">Képz&#337;m&#369;vészeti Alap Kiadóvállalata</rs>, <rs type="place" ref="#amp_place_id_86">Budapest</rs>
+            </ab>
+          </div>
+          <div>
+            <ab hand="#hand_blue_auden">
+              <lb/><rs type="person" ref="#amp_person_107">Hugo</rs> und <rs type="person" ref="#amp_person_240">Christa Kurka</rs>
+              <address>
+                <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
+                <lb/>Adalbert<unclear><subst><del rend="overwritten" hand="#hand_blue_auden">s</del><add place="superimposed" hand="#hand_blue_auden">S</add></subst></unclear>tiftergasse 22/28
+                <lb/><unclear>O</unclear>sterreich.</rs>
+              </address>   
+            </ab>
+          </div>
         </div>
       </div>
     </body>
