@@ -31,6 +31,11 @@
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
             </interp>
+            <interp xml:id="ana_086">
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
           </interpGrp>
         </edition>
         <respStmt>
@@ -87,12 +92,12 @@
                   <handNote xml:id="hand_blue_unident_0075" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote><!-- todo -->
                 </handDesc>
                 <typeDesc>
-                  <typeNote xml:id="print_gray_alterocca" scribeRef="#amp_organization_142" medium="print-gray">Preprinted writing in gray authored by Stabilimento poligrafico Alterocca S.A., serif and sans-serif typefaces</typeNote>
+                  <typeNote xml:id="print_gray_alterocca" scribeRef="#amp_organization_142" medium="print-gray">Preprinted writing in gray authored by <rs type="org" ref="#amp_organization_142">Stabilimento poligrafico Alterocca S.A.</rs>, serif and sans-serif typefaces</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
                 <origin>
-                  <origDate notBefore-iso="1964-09-10T00:00:00+01:00" notAfter-iso="1968-11-24T23:59:59+01:00" ana="#ana_084"/>
+                  <origDate notBefore-iso="1964-09-10T00:00:00+01:00" notAfter-iso="1968-11-24T23:59:59+01:00" ana="#ana_085"/>
                   <origPlace ref="https://d-nb.info/gnd/4381880-8">Forio</origPlace>
                 </origin>
               </history>
@@ -118,8 +123,8 @@
       </langUsage>
       <correspDesc>
         <correspAction type="sent" subtype="airmail">
-          <placeName><rs type="place" ref="#amp_place_id_398">Naples</rs></placeName>
-          <date notBefore-iso="1964-09-10T00:00:00+01:00" notAfter-iso="1968-11-24T23:59:59+01:00" ana="#ana_084"/>
+          <placeName><rs type="place" ref="#amp_place_id_398" ana="#ana_086">Naples</rs></placeName>
+          <date notBefore-iso="1964-09-10T00:00:00+01:00" notAfter-iso="1968-11-24T23:59:59+01:00" ana="#ana_085"/>
         </correspAction>
         <correspAction type="received">
           <persName ref="#amp_person_107">Kurka, Hugo</persName>
@@ -130,6 +135,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-03-13">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2025-03-13">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-03-17">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -146,6 +152,86 @@
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00273/" ed="1r" type="card"/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00274/" ed="1v" type="card"/>
+          <div hand="#hand_blue_auden" xml:lang="it">
+            <ab>
+              <lb/>Via <hi rend="underline" hand="#hand_blue_auden">A</hi>erea
+            </ab>
+          </div>
+          <div hand="#print_gray_alterocca" xml:lang="it">
+            <ab>
+              <seg>
+                <lb/><rs type="place" ref="#amp_place_id_399">LACCO AMENO</rs>
+              </seg>
+              <seg>
+                <seg>
+                  <lb/>Panorama di notte
+                </seg>
+                <seg xml:lang="en">
+                  <lb/>Panorama by night
+                </seg>
+                <seg xml:lang="fr">
+                  <lb/>Panorama de nuit
+                </seg>
+                <seg xml:lang="de">
+                  <lb/>Panorama bei Nacht
+                </seg>
+              </seg>
+            </ab>
+          </div>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <p>
+              <lb/>Bin in <rs type="place" ref="#amp_place_id_159">Italien</rs> für
+              <lb/>eine Woche.
+            </p>
+            <closer>
+              <salute>
+                <lb/>Alles Gutes
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
+              </signed>
+            </closer>
+          </div>
+          <div type="letter_message" hand="#hand_blue_kallman">
+            <p>
+              <lb/>Ich auch&#x2013;und<hi rend="underline" hand="#hand_blue_kallman"> sehr</hi> Kalt ist'<hi rend="underline" hand="#hand_blue_kallman"><unclear><subst><del rend="overwritten whiteout" hand="#hand_blue_kallman">e</del><add place="superimposed" hand="#hand_blue_kallman">s</add></subst><del rend="whiteout" hand="#hand_blue_kallman">.</del></unclear></hi>
+              <lb/>für eine Griechische Weib.
+            </p>
+            <closer>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_4">Chester</rs>.
+              </signed>
+            </closer>
+          </div>
+          <div type="letter_message" hand="#hand_blue_unident_0075">
+            <p>
+              <lb/>mit beste Grüsse
+              <lb/>aus Forio,<rs type="person" ref="#amp_person_270" ana="#ana_085">Konstantin</rs>
+            </p>
+            <ab>
+              <lb/><gap reason="illegible" unit="char" atLeast="1"/>
+            </ab>
+          </div>
+          <div hand="#print_gray_alterocca" xml:lang="it">
+            <ab>
+              <lb/>F. 63984
+            </ab>
+            <ab>
+              <lb/>FOTOCOLOR - RIPRODUZIONE VIETATA
+            </ab>
+          </div>
+          <div hand="#hand_blue_auden">
+            <ab>
+              <lb/><rs type="person" ref="#amp_person_107">Her<unclear>r</unclear>n
+              <lb/>Hugo Kurka</rs>
+              <address>
+                <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
+                <lb/>Adalbert Stiftergasse
+                <lb/>22/28
+                <lb/>Austria</rs>
+              </address>   
+            </ab>
+          </div>
         </div>
       </div>
     </body>
