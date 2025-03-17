@@ -206,7 +206,7 @@
           <div type="letter_message" hand="#hand_blue_unident_0075">
             <p>
               <lb/>mit beste Grüsse
-              <lb/>aus Forio,<rs type="person" ref="#amp_person_270" ana="#ana_085">Konstantin</rs>
+              <lb/>aus <rs type="place" ref="#amp_place_id_400">Forio</rs>,<rs type="person" ref="#amp_person_270" ana="#ana_085">Konstantin</rs>
             </p>
             <ab>
               <lb/><gap reason="illegible" unit="char" atLeast="1"/>
