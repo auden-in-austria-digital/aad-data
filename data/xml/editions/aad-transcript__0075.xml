@@ -4,9 +4,10 @@
     <fileDesc>
       <titleStmt>
         <title level="s">Auden in Austria Digital (AAD)</title>
-        <title level="a">Autograph Card Signed W. H. Auden and Chester Kallman to Hugo Kurka 1964-09-10--1968-11-24</title><!-- todo -->
-        <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author><!-- todo -->
+        <title level="a">Autograph Card Signed W. H. Auden, Chester Kallman, and Konstantin Pittas to Hugo Kurka 1964-09-10--1968-11-24</title>
+        <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
         <author ref="https://d-nb.info/gnd/119544911">Kallman, Chester</author>
+        <author>Pittas, Konstantin</author>
         <editor>
           <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
           <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
@@ -24,7 +25,7 @@
       </titleStmt>
       <editionStmt>
         <edition>
-          <title level="a">Autograph Card Signed W. H. Auden and Chester Kallman to Hugo Kurka 1964-09-10--1968-11-24</title><!-- todo -->
+          <title level="a">Autograph Card Signed W. H. Auden, Chester Kallman, and Konstantin Pittas to Hugo Kurka 1964-09-10--1968-11-24</title>
           <interpGrp>
             <interp xml:id="ana_085">
               <desc/>
@@ -89,7 +90,7 @@
                 <handDesc>
                   <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
                   <handNote xml:id="hand_blue_kallman" scribeRef="#amp_person_4" medium="ink-blue">Handwriting in blue ink by Chester Kallman</handNote>
-                  <handNote xml:id="hand_blue_unident_0075" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote><!-- todo -->
+                  <handNote xml:id="hand_blue_pittas" scribeRef="#amp_person_251" medium="ink-blue">Handwriting in blue ink by Konstantin Pittas</handNote>
                 </handDesc>
                 <typeDesc>
                   <typeNote xml:id="print_gray_alterocca" scribeRef="#amp_organization_142" medium="print-gray">Preprinted writing in gray authored by <rs type="org" ref="#amp_organization_142">Stabilimento poligrafico Alterocca S.A.</rs>, serif and sans-serif typefaces</typeNote>
@@ -203,10 +204,10 @@
               </signed>
             </closer>
           </div>
-          <div type="letter_message" hand="#hand_blue_unident_0075">
+          <div type="letter_message" hand="#hand_blue_pittas">
             <p>
               <lb/>mit beste Grüsse
-              <lb/>aus <rs type="place" ref="#amp_place_id_400">Forio</rs>,<rs type="person" ref="#amp_person_270" ana="#ana_085">Konstantin</rs>
+              <lb/>aus <rs type="place" ref="#amp_place_id_400">Forio</rs>,<rs type="person" ref="#amp_person_251" ana="#ana_085">Konstantin</rs>
             </p>
             <ab>
               <lb/><gap reason="illegible" unit="char" atLeast="1"/>
