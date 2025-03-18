@@ -25,31 +25,31 @@ dtype: int64
 ### `df.info()`
 ```
 <class 'pandas.core.frame.DataFrame'>
-RangeIndex: 268 entries, 0 to 267
+RangeIndex: 270 entries, 0 to 269
 Data columns (total 19 columns):
  #   Column          Non-Null Count  Dtype 
 ---  ------          --------------  ----- 
- 0   img             268 non-null    int64 
- 1   lrx             268 non-null    int64 
- 2   lry             268 non-null    int64 
- 3   width           268 non-null    int64 
- 4   height          268 non-null    int64 
- 5   type            268 non-null    object
- 6   ed              268 non-null    object
- 7   doc             268 non-null    object
- 8   title           268 non-null    object
- 9   author          268 non-null    object
- 10  author-uri      268 non-null    object
- 11  notBefore-iso   268 non-null    object
- 12  notAfter-iso    268 non-null    object
- 13  place           268 non-null    object
- 14  place-uri       268 non-null    object
- 15  repository      268 non-null    object
- 16  repository-uri  268 non-null    object
- 17  collection      268 non-null    object
- 18  idno            268 non-null    object
+ 0   img             270 non-null    int64 
+ 1   lrx             270 non-null    int64 
+ 2   lry             270 non-null    int64 
+ 3   width           270 non-null    int64 
+ 4   height          270 non-null    int64 
+ 5   type            270 non-null    object
+ 6   ed              270 non-null    object
+ 7   doc             270 non-null    object
+ 8   title           270 non-null    object
+ 9   author          270 non-null    object
+ 10  author-uri      270 non-null    object
+ 11  notBefore-iso   270 non-null    object
+ 12  notAfter-iso    270 non-null    object
+ 13  place           270 non-null    object
+ 14  place-uri       270 non-null    object
+ 15  repository      270 non-null    object
+ 16  repository-uri  270 non-null    object
+ 17  collection      270 non-null    object
+ 18  idno            270 non-null    object
 dtypes: int64(5), object(14)
-memory usage: 39.9+ KB
+memory usage: 40.2+ KB
 
 ```
 ### cleaned document data
@@ -132,6 +132,7 @@ doc
 0074           Auden, W. H.                                    Autograph Card Signed W. H. Auden to Christa Kurka and Hugo Kurka 1964-10-16       Budapest
 0075           Auden, W. H.  Autograph Card Signed W. H. Auden, Chester Kallman, and Konstantin Pittas to Hugo Kurka 1964-09-10--1968-11-24          Forio
 0076           Auden, W. H.                                                      Autograph Card Signed W. H. Auden to Hugo Kurka 1961-06-09         Oxford
+0077           Auden, W. H.                       Autograph Card W. H. Auden and Chester Kallman to Christa Kurka and Hugo Kurka 1961-05-28      Trondheim
 ```
 ### scatter plot
 
