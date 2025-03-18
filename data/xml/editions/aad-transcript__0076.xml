@@ -140,75 +140,76 @@
   <text>
     <body>
       <div type="transcription" xml:id="transcription_aad_0076" xml:lang="de">
-        <div/>
+        <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00275/" ed="1r" type="card"/>
-        <div hand="#print_white_savage" xml:lang="en">
-          <ab>
-            <lb/><rs type="org" ref="#amp_organization_6">CHRIST CHURCH</rs>. <rs type="place" ref="#amp_place_id_46">OXFORD</rs>.
-          </ab>
-          <ab>
-            <lb/>206.
-          </ab>
-        </div>
+          <div hand="#print_white_savage" xml:lang="en">
+            <ab>
+              <lb/><rs type="org" ref="#amp_organization_6">CHRIST CHURCH</rs>. <rs type="place" ref="#amp_place_id_46">OXFORD</rs>.
+            </ab>
+            <ab>
+              <lb/>206.
+            </ab>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00276/" ed="1v" type="card"/>
-        <div hand="#hand_blue_auden" xml:lang="en">
-          <ab>
-            <lb/><hi rend="underline" hand="#hand_blue_auden"><space quantity="1" unit="char"/>Air-Mai</hi>l
-          </ab>
-        </div>
-        <div hand="#print_gray_savage" xml:lang="en">
-          <ab>
-            <lb/>POST CARD
-          </ab>
-          <ab>
-            <lb/>GREETINGS FROM <rs type="place" ref="#amp_place_id_46">OXFORD</rs>
-          </ab>
-          <ab>
-            <lb/>Published by <rs type="org" ref="#amp_organization_143">Alfred Savage Ltd</rs>, <rs type="place" ref="#amp_place_id_46">Oxford</rs>.
-          </ab>
-        </div>
-        <div type="letter_message" hand="#hand_blue_auden">
-          <opener>
-            <dateline>
-              <date xml:lang="en">
-                <lb/>June 9
-              </date>
-            </dateline>
-          </opener>
-          <p>
-            <lb/>Habe ein Brief aus <rs type="place" ref="#amp_place_id_1">Wien</rs>
-            <lb/>uber ei<unclear>n</unclear> Autoumfal
-            <lb/>g<unclear>e</unclear>kreicht. (Beschädi<del rend="overstrike" hand="#hand_blue_auden"><unclear>n</unclear></del>g<unclear>u</unclear>ng
-            <lb/><unclear>S</unclear>. 8<unclear>7</unclear>0).
-          </p>
-          <p>
-            <lb/>Bitte schreib mir
-            <lb/>vollig daruber.
-          </p>
-          <closer>
-            <salute>
-              <lb/>Dein
-            </salute>
-            <signed>
-              <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
-            </signed>
-          </closer>
-        </div>
-        <div hand="#print_gray_savage" xml:lang="en">
-          <ab>
-            <lb/>The Address only to be
-            <lb/>written here
-          </ab>
-        </div>
-        <div hand="#hand_blue_auden">
-          <ab>
-            <lb/><rs type="person" ref="#amp_person_107">He<unclear>r</unclear>r Hugo Kurka</rs>
-            <address>
-              <lb/><rs type="place" ref="#amp_place_id_371">Wien IX
-              <lb/>Mühlnergasse 14/4
-              <lb/><foreign xml:lang="en">Austria</foreign> .</rs>
-            </address>   
-          </ab>
+          <div hand="#hand_blue_auden" xml:lang="en">
+            <ab>
+              <lb/><hi rend="underline" hand="#hand_blue_auden"><space quantity="1" unit="char"/>Air-Mai</hi>l
+            </ab>
+          </div>
+          <div hand="#print_gray_savage" xml:lang="en">
+            <ab>
+              <lb/>POST CARD
+            </ab>
+            <ab>
+              <lb/>GREETINGS FROM <rs type="place" ref="#amp_place_id_46">OXFORD</rs>
+            </ab>
+            <ab>
+              <lb/>Published by <rs type="org" ref="#amp_organization_143">Alfred Savage Ltd</rs>, <rs type="place" ref="#amp_place_id_46">Oxford</rs>.
+            </ab>
+          </div>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <opener>
+              <dateline>
+                <date xml:lang="en">
+                  <lb/>June 9
+                </date>
+              </dateline>
+            </opener>
+            <p>
+              <lb/>Habe ein Brief aus <rs type="place" ref="#amp_place_id_1">Wien</rs>
+              <lb/>uber ei<unclear>n</unclear> Autoumfal
+              <lb/>g<unclear>e</unclear>kreicht. (Beschädi<del rend="overstrike" hand="#hand_blue_auden"><unclear>n</unclear></del>g<unclear>u</unclear>ng
+              <lb/><unclear>S</unclear>. 8<unclear>7</unclear>0).
+            </p>
+            <p>
+              <lb/>Bitte schreib mir
+              <lb/>vollig daruber.
+            </p>
+            <closer>
+              <salute>
+                <lb/>Dein
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
+              </signed>
+            </closer>
+          </div>
+          <div hand="#print_gray_savage" xml:lang="en">
+            <ab>
+              <lb/>The Address only to be
+              <lb/>written here
+            </ab>
+          </div>
+          <div hand="#hand_blue_auden">
+            <ab>
+              <lb/><rs type="person" ref="#amp_person_107">He<unclear>r</unclear>r Hugo Kurka</rs>
+              <address>
+                <lb/><rs type="place" ref="#amp_place_id_371">Wien IX
+                <lb/>Mühlnergasse 14/4
+                <lb/><foreign xml:lang="en">Austria</foreign> .</rs>
+              </address>   
+            </ab>
+          </div>
         </div>
       </div>
     </body>
