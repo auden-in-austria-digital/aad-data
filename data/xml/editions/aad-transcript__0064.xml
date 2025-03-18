@@ -84,7 +84,8 @@
                   <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote xml:id="print_brown_penrose" scribeRef="#amp_organization_110" medium="print-brown">Preprinted writing in brown and white authored by Penrose &#38; Palmer, serif typeface</typeNote>
+                  <typeNote xml:id="print_brown_penrose" scribeRef="#amp_organization_110" medium="print-brown">Preprinted writing in brown authored by Penrose &#38; Palmer, serif typeface</typeNote>
+                  <typeNote xml:id="print_white_penrose" scribeRef="#amp_organization_110" medium="print-white">Preprinted writing in white authored by Penrose &#38; Palmer, sans-serif typeface</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -141,7 +142,7 @@
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00249/" ed="1r" type="card"/>
           <div>
-            <ab hand="#print_brown_penrose">
+            <ab hand="#print_white_penrose">
               <lb/><rs type="org" ref="#amp_organization_6">CHRIST CHURCH</rs><unclear>,</unclear> <rs type="place" ref="#amp_place_id_46">OXFORD</rs>
             </ab>
           </div>
