@@ -163,6 +163,9 @@
           <ab>
             <lb/>GREETINGS FROM <rs type="place" ref="#amp_place_id_46">OXFORD</rs>
           </ab>
+          <ab>
+            <lb/>Published by <rs type="org" ref="#amp_organization_143">Alfred Savage Ltd</rs>, <rs type="place" ref="#amp_place_id_46">Oxford</rs>.
+          </ab>
         </div>
         <div type="letter_message" hand="#hand_blue_auden">
           <opener>
@@ -192,9 +195,6 @@
           </closer>
         </div>
         <div hand="#print_gray_savage" xml:lang="en">
-          <ab>
-            <lb/>Published by <rs type="org" ref="#amp_organization_143">Alfred Savage Ltd</rs>, <rs type="place" ref="#amp_place_id_46">Oxford</rs>.
-          </ab>
           <ab>
             <lb/>The Address only to be
             <lb/>written here
