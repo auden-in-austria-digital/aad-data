@@ -143,9 +143,42 @@
   <text>
     <body>
       <div type="transcription" xml:id="transcription_aad_0077" xml:lang="de">
-        <div/>
+        <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00277/" ed="1r" type="card"/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00278/" ed="1v" type="card"/>
+          <div hand="#print_blue_aune">
+            <ab>
+              <seg xml:lang="en">
+                <lb/>Norway. Midnight Sun at Hammerfest.
+              </seg>
+              <seg xml:lang="no">
+                <lb/>F-54-7. Midnattsol ved Hammerfest.
+              </seg>
+            </ab>
+          </div>
+          <div type="letter_message" hand="#hand_blue_kallman">
+            <opener>
+              <dateline>
+                <date>
+                  <lb/>28-05-61
+                </date>
+              </dateline>
+            </opener>
+            <p>
+              <lb/>
+              <lb/>
+              <lb/>
+              <lb/>
+            </p>
+            <closer>
+              <signed>
+                <lb/>
+              </signed>
+            </closer>
+          </div>
+          <div type="letter_message" hand="#hand_blue_auden">
+          </div>
+        </div>
       </div>
     </body>
   </text>
