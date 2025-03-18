@@ -141,8 +141,8 @@
       <div type="transcription" xml:id="transcription_aad_0064" xml:lang="de">
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00249/" ed="1r" type="card"/>
-          <div>
-            <ab hand="#print_white_penrose">
+          <div hand="#print_white_penrose" xml:lang="en">
+            <ab>
               <lb/><rs type="org" ref="#amp_organization_6">CHRIST CHURCH</rs><unclear>,</unclear> <rs type="place" ref="#amp_place_id_46">OXFORD</rs>
             </ab>
           </div>
