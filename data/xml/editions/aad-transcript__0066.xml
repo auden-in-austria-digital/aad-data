@@ -141,8 +141,8 @@
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00253/" ed="1r" type="card"/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00254/" ed="1v" type="card"/>
-          <div>
-            <ab hand="#hand_blue_auden" xml:lang="en">
+          <div hand="#hand_blue_auden" xml:lang="en">
+            <ab>
               <lb/>Ai<hi rend="underline" hand="#hand_blue_auden">r-Mai</hi>l
             </ab>
           </div>
@@ -195,8 +195,8 @@
               <lb/>MIRRO-KROME CARD BY <rs type="org" ref="#amp_organization_113">H. S. CROCKER CO., INC.</rs>, <rs type="place" ref="#amp_place_id_161">SAN FRANCISCO 1, CALIF.</rs>
             </ab>
           </div>
-          <div>
-            <ab hand="#hand_blue_auden">
+          <div hand="#hand_blue_auden">
+            <ab>
               <lb/><rs type="person" ref="#amp_person_107">Herrn
               <lb/>Hugo Kurka</rs>
               <address>
