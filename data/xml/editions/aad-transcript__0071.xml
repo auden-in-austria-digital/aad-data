@@ -169,8 +169,8 @@
               <lb/><rs type="org" ref="#amp_organization_137">LEONAR</rs>
             </ab>
           </div>
-          <div>
-            <ab hand="#hand_blue_auden">
+          <div hand="#hand_blue_auden">
+            <ab>
               <lb/><rs type="person" ref="#amp_person_107">Herr Hugo Kurka</rs>
               <address>
                 <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
