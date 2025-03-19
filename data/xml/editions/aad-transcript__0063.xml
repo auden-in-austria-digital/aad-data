@@ -145,14 +145,21 @@
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00247/" ed="1r" type="card"/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00248/" ed="1v" type="card"/>
-          <div>
-            <ab hand="#hand_blue_auden" xml:lang="en">
+          <div hand="#hand_blue_auden" xml:lang="en">
+            <ab>
               <lb/>Air-Mail
             </ab>
           </div>
           <div hand="#print_gray_fry" xml:lang="en">
             <ab>
+              <lb/><rs type="org" ref="#amp_organization_108">Fry</rs>'s
+            </ab>
+            <ab>
               <lb/>POST CARD
+            </ab>
+            <ab>
+              <lb/><rs type="org" ref="#amp_organization_147">T.P.C</rs>
+              <lb/>PRINTED
             </ab>
           </div>
           <div type="letter_message" hand="#hand_blue_auden">
@@ -193,8 +200,8 @@
               </address>   
             </ab>
           </div>
-          <div>
-            <ab hand="#print_gray_fry" xml:lang="en">
+          <div hand="#print_gray_fry" xml:lang="en">
+            <ab>
               <lb/><hi rend="italic">Colour Photograph by <rs type="org" ref="#amp_organization_108">A.V. FRY</rs>.</hi>
             </ab>
           </div>
