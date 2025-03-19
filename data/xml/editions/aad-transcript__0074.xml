@@ -162,6 +162,9 @@
                 <lb/><foreign xml:lang="de">Foto</foreign>: <rs type="person" ref="#amp_person_269">Fényes</rs> <rs type="org" ref="#amp_organization_141">M. T. I.</rs>
               </seg>
             </ab>
+            <ab>
+              <lb/><rs type="org" ref="#amp_organization_149">SZ</rs>
+            </ab>
           </div>
           <div type="letter_message" hand="#hand_blue_auden">
             <p>
@@ -190,8 +193,8 @@
               <lb/><rs type="org" ref="#amp_organization_140">Képz&#337;m&#369;vészeti Alap Kiadóvállalata</rs>, <rs type="place" ref="#amp_place_id_86">Budapest</rs>
             </ab>
           </div>
-          <div>
-            <ab hand="#hand_blue_auden">
+          <div hand="#hand_blue_auden">
+            <ab>
               <lb/><rs type="person" ref="#amp_person_107">Hugo</rs> und <rs type="person" ref="#amp_person_240">Christa Kurka</rs>
               <address>
                 <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
