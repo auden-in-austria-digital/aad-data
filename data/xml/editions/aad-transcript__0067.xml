@@ -85,6 +85,7 @@
                 </handDesc>
                 <typeDesc>
                   <typeNote xml:id="print_gray_klinke" scribeRef="#amp_organization_115" medium="print-gray">Preprinted writing in gray authored by Klinke &#38; Co., serif and sans-serif typefaces</typeNote>
+                  <typeNote xml:id="print_white_klinke" scribeRef="#amp_organization_115" medium="print-white">Preprinted writing in white authored by Klinke &#38; Co., serif and sans-serif typefaces</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -141,14 +142,20 @@
       <div type="transcription" xml:id="transcription_aad_0067" xml:lang="de">
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00255/" ed="1r" type="card"/>
+          <div hand="#print_white_klinke">
+            <ab>
+              <lb/><rs type="org" ref="#amp_organization_115"><unclear>KLINKE</unclear><gap reason="illegible" unit="char" quantity="1"/><unclear>CO</unclear></rs>
+              <lb/><rs type="place" ref="#amp_place_id_17">B<unclear>ER</unclear>LIN</rs>
+            </ab>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00256/" ed="1v" type="card"/>
-          <div>
-            <ab hand="#hand_blue_auden">
+          <div hand="#hand_blue_auden">
+            <ab>
               <lb/><hi rend="underline" hand="#hand_blue_auden">mit Luft-<unclear>P</unclear>ost<space quantity="1" unit="char"/></hi>
             </ab>
           </div>
-          <div>
-            <ab hand="#print_gray_klinke">
+          <div hand="#print_gray_klinke">
+            <ab>
               <lb/><rs type="place" ref="#amp_place_id_17">Berlin</rs>, <rs type="place" ref="#amp_place_id_380">Kurfürstendamm</rs>
             </ab>
           </div>
@@ -165,13 +172,13 @@
               </signed>
             </closer>
           </div>
-          <div>
-            <ab hand="#print_gray_klinke">
+          <div hand="#print_gray_klinke">
+            <ab>
               <lb/><rs type="org" ref="#amp_organization_115"><del rend="overlaid"><gap reason="illegible" unit="char" atLeast="1" atMost="2"/><unclear>d</unclear>ustrie<unclear>-F</unclear>oto</del>grafen Klinke &#38; Co.</rs>, <rs type="place" ref="#amp_place_id_381">Berlin-Tempelhof</rs> B 154
             </ab>
           </div>
-          <div>
-            <ab hand="#hand_blue_auden">
+          <div hand="#hand_blue_auden">
+            <ab>
               <lb/><rs type="person" ref="#amp_person_107">Hugo</rs> und <rs type="person" ref="#amp_person_240">Christa Kurka</rs>
               <address>
                 <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
