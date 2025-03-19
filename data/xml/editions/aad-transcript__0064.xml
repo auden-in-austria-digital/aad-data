@@ -147,8 +147,8 @@
             </ab>
           </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00250/" ed="1v" type="card"/>
-          <div>
-            <ab hand="#hand_blue_auden" xml:lang="en">
+          <div hand="#hand_blue_auden" xml:lang="en">
+            <ab>
               <lb/><hi rend="underline" hand="#hand_blue_auden">Air-Ma<unclear>il</unclear><space quantity="1" unit="char"/></hi>
             </ab>
           </div>
@@ -186,8 +186,8 @@
               </signed>
             </closer>
           </div>
-          <div>
-            <ab hand="#hand_blue_auden">
+          <div hand="#hand_blue_auden">
+            <ab>
               <lb/><rs type="person" ref="#amp_person_107">Herrn
               <lb/>Hugo Kurka</rs>
               <address>
