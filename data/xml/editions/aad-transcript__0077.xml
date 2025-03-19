@@ -182,10 +182,10 @@
           </div>
           <div hand="#print_blue_aune" xml:lang="no">
             <ab>
-              <lb/>ENERETT: <rs type="org" ref="#amp_organization_144">KNUT Aune KUNSTFORLAG</rs> - <foreign xml:lang="en">PRINTED IN <rs type="place" ref="#amp_place_id_383">NORWAY</rs></foreign>
+              <lb/><rs type="org" ref="#amp_organization_145">ULTRA</rs>
             </ab>
             <ab>
-              <lb/><rs type="org" ref="#amp_organization_145">ULTRA</rs>
+              <lb/>ENERETT: <rs type="org" ref="#amp_organization_144">KNUT Aune KUNSTFORLAG</rs> - <foreign xml:lang="en">PRINTED IN <rs type="place" ref="#amp_place_id_383">NORWAY</rs></foreign>
             </ab>
           </div>
           <div>
