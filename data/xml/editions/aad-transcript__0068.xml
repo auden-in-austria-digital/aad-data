@@ -86,7 +86,7 @@
                   <handNote xml:id="hand_blue_kallman" scribeRef="#amp_person_4" medium="ink-blue">Handwriting in blue ink by Chester Kallman</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote xml:id="print_black_mittet" scribeRef="#amp_organization_116" medium="print-black">Preprinted writing in black authored by <rs type="org" ref="#amp_organization_116">Mittet &#38; Co. A/S</rs>, serif and sans-serif typefaces</typeNote>
+                  <typeNote xml:id="print_black_mittet" scribeRef="#amp_organization_116" medium="print-black">Preprinted writing in black authored by Mittet &#38; Co. A/S, serif and sans-serif typefaces</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -146,13 +146,13 @@
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00257/" ed="1r" type="card"/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00258/" ed="1v" type="card"/>
-          <div>
-            <ab hand="#hand_blue_auden">
+          <div hand="#hand_blue_auden">
+            <ab>
               <lb/><hi rend="underline" hand="#hand_blue_auden">Flug-<space quantity="1" unit="char"/>Post</hi>
             </ab>
           </div>
-          <div>
-            <ab hand="#print_black_mittet" xml:lang="en">
+          <div hand="#print_black_mittet" xml:lang="en">
+            <ab>
               <seg>
                 <lb/><rs type="place" ref="#amp_place_id_384">Trondheim</rs>, <rs type="place" ref="#amp_place_id_383">Norway</rs>.
               </seg>
@@ -202,9 +202,12 @@
             <ab>
               <lb/>PRINTED IN <rs type="place" ref="#amp_place_id_383">NORWAY</rs>
             </ab>
+            <ab >
+              <lb/><rs type="org" ref="#amp_organization_116">Mittet</rs>
+            </ab>
           </div>
-          <div>
-            <ab hand="#hand_blue_auden">
+          <div hand="#hand_blue_auden">
+            <ab>
               <lb/><rs type="person" ref="#amp_person_107">Hugo</rs> und <rs type="person" ref="#amp_person_240">Christa Kurka</rs>
               <address>
                 <lb/><rs type="place" ref="#amp_place_id_371">Wien IX
