@@ -179,10 +179,10 @@
           </div>
           <div hand="#print_brown_andres">
             <ab>
-              <lb/><rs type="org" ref="#amp_organization_138">HANS ANDRES VERLAG</rs> <rs type="place" ref="#amp_place_id_17">BERLIN</rs>
+              <lb/><rs type="org" ref="#amp_organization_138">ANCO</rs>
             </ab>
             <ab>
-              <lb/><rs type="org" ref="#amp_organization_138">ANCO</rs>
+              <lb/><rs type="org" ref="#amp_organization_138">HANS ANDRES VERLAG</rs> <rs type="place" ref="#amp_place_id_17">BERLIN</rs>
             </ab>
           </div>
           <div hand="#hand_blue_auden">
