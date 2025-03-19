@@ -142,15 +142,15 @@
       <div type="transcription" xml:id="transcription_aad_0065" xml:lang="de">
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00251/" ed="1r" type="card"/>
-          <div>
-            <ab hand="#print_black_unident_0065" xml:lang="en">
+          <div hand="#print_black_unident_0065" xml:lang="en">
+            <ab>
               <lb/><rs type="place" ref="#amp_place_id_377">EAST END</rs>,
               <lb/><rs type="place" ref="#amp_place_id_378">ST. CUTHBERT'S CHURCH</rs>, <rs type="place" ref="#amp_place_id_234">KENSINGTON</rs>.
             </ab>
           </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00252/" ed="1v" type="card"/>
-          <div>
-            <ab hand="#hand_blue_auden">
+          <div hand="#hand_blue_auden">
+            <ab>
               <lb/><rs type="person" ref="#amp_person_107">Herrn
               <lb/>Hugo Kurka</rs>
               <address>
