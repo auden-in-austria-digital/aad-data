@@ -70,12 +70,12 @@
                     <support>
                       <watermark/>
                       <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00269/">
-                        <width>149</width>
-                        <height>106</height>
+                        <width>106</width>
+                        <height>149</height>
                       </dimensions>
                       <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00270/">
-                        <width>149</width>
-                        <height>106</height>
+                        <width>106</width>
+                        <height>149</height>
                       </dimensions>
                     </support>
                   </supportDesc>
