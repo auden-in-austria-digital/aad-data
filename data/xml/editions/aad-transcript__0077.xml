@@ -157,30 +157,28 @@
               </seg>
             </ab>
           </div>
-          <div type="letter_message" hand="#hand_blue_kallman">
-            <opener>
+          <div type="letter_message">
+            <opener hand="#hand_blue_kallman">
               <dateline>
                 <date>
                   <lb/>28-5-61
                 </date>
               </dateline>
             </opener>
-            <p>
+            <p hand="#hand_blue_kallman">
               <lb/>Schön ! Aber &#x2013; brauch ich das?
               <lb/>und die Fjörden. . . Doch,
               <lb/>wenn <unclear><subst><del rend="overwritten" hand="#hand_blue_kallman"><gap reason="illegible" unit="char" quantity="1"/></del><add place="superimposed" hand="#hand_blue_kallman">m</add></subst></unclear>ann Fisch liebt, hier
               <lb/>findet mann Paradies.
             </p>
             <closer>
-              <signed>
+              <signed hand="#hand_blue_kallman">
                 <lb/><rs type="person" ref="#amp_person_4">Die See<unclear>K</unclear>önigin (ex-Bauergräfin)</rs>
               </signed>
+              <signed hand="#hand_blue_auden">
+                <lb/><rs type="person" ref="#amp_person_1">Der <del rend="overstrike" hand="#hand_blue_auden">A</del>alter D<unclear>i</unclear>cker</rs>.
+              </signed>
             </closer>
-          </div>
-          <div type="letter_message" hand="#hand_blue_auden">
-            <ab>
-              <lb/><rs type="person" ref="#amp_person_1">Der <del rend="overstrike" hand="#hand_blue_auden">A</del>alter D<unclear>i</unclear>cker</rs>.
-            </ab>
           </div>
           <div hand="#print_blue_aune" xml:lang="no">
             <ab>
