@@ -130,6 +130,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-03-18">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2025-03-18">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-03-19">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -149,10 +150,10 @@
           <div hand="#print_blue_aune">
             <ab>
               <seg xml:lang="en">
-                <lb/>Norway. Midnight Sun at Hammerfest.
+                <lb/>Norway. Midnight Sun at <rs type="place" ref="#amp_place_id_401">Hammerfest</rs>.
               </seg>
               <seg xml:lang="no">
-                <lb/>F-54-7. Midnattsol ved Hammerfest.
+                <lb/>F-54-7. Midnattsol ved <rs type="place" ref="#amp_place_id_401">Hammerfest</rs>.
               </seg>
             </ab>
           </div>
@@ -165,18 +166,39 @@
               </dateline>
             </opener>
             <p>
-              <lb/>
-              <lb/>
-              <lb/>
-              <lb/>
+              <lb/>Schön ! Aber &#x2013; brauch ich das?
+              <lb/>und die Fjörden... Doch,
+              <lb/>wenn <unclear><subst><del rend="overwritten" hand="#hand_blue_kallman"><gap reason="illegible" unit="char" quantity="1"/></del><add place="superimposed" hand="#hand_blue_kallman">m</add></subst></unclear>ann Fisch liebt, hier
+              <lb/>findet mann Paradies.
             </p>
             <closer>
               <signed>
-                <lb/>
+                <lb/><rs type="person" ref="#amp_person_4">Die Seekönigin (ex-Bauergräfin)</rs>
               </signed>
             </closer>
           </div>
           <div type="letter_message" hand="#hand_blue_auden">
+            <ab>
+              <lb/><rs type="person" ref="#amp_person_1">Der <del rend="overstrike" hand="#hand_blue_auden">A</del>alter D<unclear>i</unclear>cker</rs>.
+            </ab>
+          </div>
+          <div hand="#print_blue_aune" xml:lang="no">
+            <ab>
+              <lb/>ENERETT: <rs type="org" ref="#amp_organization_144">KNUT Aune KUNSTFORLAG</rs> - <foreign xml:lang="en">PRINTED IN <rs type="place" ref="#amp_place_id_383">NORWAY</rs></foreign>
+            </ab>
+            <ab>
+              <lb/><rs type="org" ref="#amp_organization_145">ULTRA</rs>
+            </ab>
+          </div>
+          <div>
+            <ab hand="#hand_blue_kallman">
+              <lb/><rs type="person" ref="#amp_person_107">Hugo</rs> u. <rs type="person" ref="#amp_person_240">Christa KURKA</rs>
+              <address>
+                <lb/><rs type="place" ref="#amp_place_id_371">WIEN IX
+                <lb/>MÜLLNERGASSE 14/4
+                <lb/>ÖSTERREICH</rs>
+              </address>   
+            </ab>
           </div>
         </div>
       </div>
