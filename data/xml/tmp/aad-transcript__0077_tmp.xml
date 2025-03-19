@@ -90,7 +90,7 @@
               <history>
                 <origin>
                   <origDate notBefore-iso="1961-05-28T00:00:00+02:00" notAfter-iso="1961-05-28T23:59:59+02:00"/>
-                  <origPlace ref="https://d-nb.info/gnd/4070588-2">Trondheim</origPlace>
+                  <origPlace ref="https://d-nb.info/gnd/4042640-3">Kingdom of Norway</origPlace>
                 </origin>
               </history>
             </msDesc>
@@ -112,7 +112,7 @@
       </langUsage>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2025-03-18">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2025-03-19">TEI/XML template populated with csv2xml.py</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

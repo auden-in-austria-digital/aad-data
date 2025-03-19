@@ -70,12 +70,12 @@
                     <support>
                       <watermark/>
                       <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00269/">
-                        <width>149</width>
-                        <height>106</height>
+                        <width>106</width>
+                        <height>149</height>
                       </dimensions>
                       <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00270/">
-                        <width>149</width>
-                        <height>106</height>
+                        <width>106</width>
+                        <height>149</height>
                       </dimensions>
                     </support>
                   </supportDesc>
@@ -112,7 +112,7 @@
       </langUsage>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2025-03-18">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2025-03-19">TEI/XML template populated with csv2xml.py</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
