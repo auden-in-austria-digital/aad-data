@@ -145,13 +145,13 @@
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00245/" ed="1r" type="card"/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00246/" ed="1v" type="card"/>
-          <div>
-            <ab hand="#hand_blue_auden">
+          <div hand="#hand_blue_auden">
+            <ab>
               <lb/>m<hi rend="underline" hand="#hand_blue_auden">it Luft-Post</hi><unclear>.</unclear>
             </ab>
           </div>
-          <div>
-            <ab hand="#print_gray_metz">
+          <div hand="#print_gray_metz">
+            <ab>
               <seg>
                 <lb/>Theaterrestaurant &#x2013; Schloßcafé
               </seg>
