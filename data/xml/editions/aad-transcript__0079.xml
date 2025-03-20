@@ -143,7 +143,58 @@
       <div type="transcription" xml:id="transcription_aad_0079" xml:lang="de">
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00281/" ed="1r" type="card"/>
+          <div hand="#print_white_unident_0079" xml:lang="en">
+            <ab>
+              <lb/><rs type="org" ref="#amp_organization_6">CHRIST CHURCH</rs>, <rs type="place" ref="#amp_place_id_46">OXFORD</rs>.
+            </ab>
+            <ab>
+              <lb/>206<unclear>.</unclear>
+            </ab>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00282/" ed="1v" type="card"/>
+          <div hand="#hand_blue_auden" xml:lang="en">
+            <ab>
+              <lb/><del rend="overstrike" hand="#hand_blue_auden"><unclear><foreign xml:lang="de">mit</foreign></unclear></del> <hi rend="underline" hand="#hand_blue_auden">Air-Mail</hi>
+            </ab>
+          </div>
+          <div type="letter_message" hand="#hand_blue_kallman">
+            <opener>
+              <dateline>
+                <date>
+                  <lb/><hi rend="double-underline" hand="#hand_blue_kallman">25 OKT</hi>
+                </date>
+              </dateline>
+            </opener>
+            <p>
+              <lb/>Grüsse <unclear>m</unclear>ich alle am Samstag!
+              <lb/>Servus &#x2013; <rs type="person" ref="#amp_person_4">Chester</rs>
+            </p>
+          </div>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <p>
+              <lb/>Hier wohne ich.
+              <lb/>Leider dass Sie nicht
+              <lb/><unclear>Hi</unclear>er <del rend="overstrike" hand="#hand_blue_auden"><gap reason="illegible" unit="char" atLeast="2" atMost="4"/></del> sind
+            </p>
+            <closer>
+              <salute>
+                <lb/>Grusse
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>.
+              </signed>
+            </closer>
+          </div>
+          <div hand="#hand_blue_auden">
+            <ab>
+              <lb/><rs type="person" ref="#amp_person_107">Hugo</rs> und <rs type="person" ref="#amp_person_240">Christa Kurka</rs>
+              <address>
+                <lb/><rs type="place" ref="#amp_place_id_371">WIEN IX
+                <lb/>Mühlnergasse 14/4
+                <lb/><foreign xml:lang="en">Austria</foreign></rs>
+              </address>  
+            </ab>
+          </div>
         </div>
       </div>
     </body>
