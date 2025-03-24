@@ -171,6 +171,11 @@
               <lb/>Servus &#x2013; <rs type="person" ref="#amp_person_4">Chester</rs>
             </p>
           </div>
+          <div hand="#hand_blue_kallman">
+            <ab>
+              <lb/>&#8213;
+            </ab>
+          </div>
           <div type="letter_message" hand="#hand_blue_auden">
             <p>
               <lb/><rs type="org" ref="#amp_organization_6">Hier</rs> wohne ich.
