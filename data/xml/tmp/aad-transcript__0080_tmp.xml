@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0077" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0080" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title level="s">Auden in Austria Digital (AAD)</title>
-        <title level="a">Autograph Card W. H. Auden and Chester Kallman to Christa Kurka and Hugo Kurka 1961-05-28</title>
+        <title level="a">Autograph Card Signed W. H. Auden, Chester Kallman, and Konstantin Pittas to Christa Kurka and Hugo Kurka 1965-01-10</title>
         <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
         <editor>
           <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
@@ -23,7 +23,7 @@
       </titleStmt>
       <editionStmt>
         <edition>
-          <title level="a">Autograph Card W. H. Auden and Chester Kallman to Christa Kurka and Hugo Kurka 1961-05-28</title>
+          <title level="a">Autograph Card Signed W. H. Auden, Chester Kallman, and Konstantin Pittas to Christa Kurka and Hugo Kurka 1965-01-10</title>
           <interpGrp>
             <interp>
               <desc/>
@@ -62,20 +62,20 @@
               <msIdentifier>
                 <repository ref="https://d-nb.info/gnd/1108283586">State Collections of Lower Austria</repository>
                 <collection>W. H. Auden Collection</collection>
-                <idno>Correspondence Hugo Kurka 077</idno>
+                <idno>Correspondence Hugo Kurka 080</idno>
               </msIdentifier>
               <physDesc>
                 <objectDesc>
                   <supportDesc>
                     <support>
                       <watermark/>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00277/">
-                        <width>144</width>
-                        <height>105</height>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00283/">
+                        <width>133</width>
+                        <height>97</height>
                       </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00278/">
-                        <width>144</width>
-                        <height>105</height>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00284/">
+                        <width>133</width>
+                        <height>97</height>
                       </dimensions>
                     </support>
                   </supportDesc>
@@ -89,8 +89,8 @@
               </physDesc>
               <history>
                 <origin>
-                  <origDate notBefore-iso="1961-05-28T00:00:00+02:00" notAfter-iso="1961-05-28T23:59:59+02:00"/>
-                  <origPlace ref="https://d-nb.info/gnd/4042640-3">Kingdom of Norway</origPlace>
+                  <origDate notBefore-iso="1965-01-10T00:00:00+02:00" notAfter-iso="1965-01-10T23:59:59+02:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4003366-1">Athens</origPlace>
                 </origin>
               </history>
             </msDesc>
@@ -116,19 +116,19 @@
     </revisionDesc>
   </teiHeader>
   <facsimile>
-    <surface ulx="0" uly="0" lrx="2484" lry="1862">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00277/"/>
+    <surface ulx="0" uly="0" lrx="2320" lry="1770">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00283/"/>
     </surface>
-    <surface ulx="0" uly="0" lrx="2486" lry="1894">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00278/"/>
+    <surface ulx="0" uly="0" lrx="2316" lry="1768">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00284/"/>
     </surface>
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0077" xml:lang="">
+      <div type="transcription" xml:id="transcription_aad_0080" xml:lang="">
         <div/>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00277/" ed="1r" type="card"/>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00278/" ed="1v" type="card"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00283/" ed="1r" type="card"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00284/" ed="1v" type="card"/>
       </div>
     </body>
   </text>
