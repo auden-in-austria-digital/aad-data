@@ -32,6 +32,11 @@
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
             </interp>
+            <interp xml:id="ana_089">
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
           </interpGrp>
         </edition>
         <respStmt>
@@ -94,7 +99,7 @@
               <history>
                 <origin>
                   <origDate notBefore-iso="1965-01-10T00:00:00+02:00" notAfter-iso="1965-01-10T23:59:59+02:00"/>
-                  <origPlace ref="https://d-nb.info/gnd/4003366-1">Athens</origPlace>
+                  <origPlace ref="https://d-nb.info/gnd/4003366-1">&#913;&#952;&#942;&#957;&#945; (Athens)</origPlace>
                 </origin>
               </history>
             </msDesc>
@@ -132,7 +137,7 @@
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-03-24">TEI/XML template populated with csv2xml.py</change>
-      <change who="#tfruehwirth" when-iso="2025-03-24">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-03-24">Text transcribed; physDesc and profileDesc populated; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -158,20 +163,65 @@
               </dateline>
             </opener>
             <p>
-              <lb/>Wystans Besuch <unclear>k</unclear>o<gap reason="illegible" unit="char" quantity="1"/>mt jetzt
+              <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>s Besuch <unclear>k</unclear>o<gap reason="illegible" unit="char" quantity="1"/>mt jetzt
               <lb/><unclear>z</unclear>u ei<unclear>n</unclear> Ende -<unclear>z</unclear>u schnell,
               <lb/>aber sehr lustig . Viele
-              <lb/>Grüsse&#x2013;Chester
+              <lb/>Grüsse&#x2013;<rs type="person" ref="#amp_person_4">Chester</rs>
             </p>
           </div>
           <div type="letter_message" hand="#hand_blue_pittas">
+            <p>
+              <lb/>Viele Grüsse
+              <lb/>aus <rs type="place" ref="#amp_place_id_13">Athen</rs>
+            </p>
+            <closer>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_251">Konstantin<gap reason="illegible" unit="char" atLeast="1" atMost="2"/></rs>
+              </signed>
+            </closer>
           </div>
           <div type="letter_message" hand="#hand_blue_auden">
+            <p>
+              <lb/><del rend="overstrike" hand="#hand_blue_auden">Much lo<unclear>ve to</unclear> y<space quantity="1" unit="char"/></del>
+              <lb/>Holfentlich <unclear>s</unclear>ind s<unclear>i</unclear>e
+              <lb/>gl<unclear>uc</unclear>klich n<unclear>ach</unclear> Haus
+              <lb/>geko<unclear>mm</unclear>e<unclear>n.</unclear>
+            </p>
+            <closer>
+              <salute>
+                <lb/><unclear>A</unclear>lle<unclear>s</unclear>g<unclear>uts</unclear>
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs> .
+              </signed>
+            </closer>
           </div>
           <div hand="#print_black_unident_0080">
+            <ab>
+              <seg xml:lang="el">
+                <lb/><rs type="place" ref="#amp_place_id_13">&#913;&#920;&#919;&#925;&#913;&#921;</rs>: <rs type="place" ref="#amp_place_id_405">&#913;&#953; &#922;&#945;&#961;&#965;&#940;&#964;&#953;&#948;&#949;&#962;</rs>.
+              </seg>
+              <seg xml:lang="en">
+                <lb/><rs type="place" ref="#amp_place_id_13">ATHENS</rs>: <rs type="place" ref="#amp_place_id_405">Portico of the Caryatides</rs>.
+              </seg>
+              <seg xml:lang="fr">
+                <lb/><rs type="place" ref="#amp_place_id_13">ATHNÈNES</rs>: <rs type="place" ref="#amp_place_id_405">Portique de Caryatides</rs>.
+              </seg>
+              <seg xml:lang="de">
+                <lb/><rs type="place" ref="#amp_place_id_13">ATHEN</rs>: <rs type="place" ref="#amp_place_id_405">Karyatiden am Erechtieion</rs>.
+              </seg>
+            </ab>
           </div>
           <div hand="#hand_blue_kallman">
-            
+            <ab>
+              <lb/><rs type="person" ref="#amp_person_107">Herr</rs><unclear>+</unclear><rs type="person" ref="#amp_person_240">Frau KURKA</rs>
+              <address>
+                <lb/><rs type="place" ref="#amp_place_id_356" ana="#ana_089"><hi rend="underline" hand="#hand_blue_kallman"><unclear><subst><del rend="overwritten" hand="#hand_blue_kallman">V</del><add place="superimposed" hand="#hand_blue_kallman">&#914;</add></subst></unclear>&#921;&#42898;VV&#919; </hi>20
+                <lb/>Adalbertstiftergasse 22/28
+                <lb/>&#913;V&#931;&#932;&#929;&#921;&#913;
+                <lb/><hi rend="underline" hand="#hand_blue_kallman">WIEN</hi></rs>
+              </address>   
+            </ab>
           </div>
         </div>
       </div>
