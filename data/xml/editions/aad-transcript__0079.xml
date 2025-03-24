@@ -128,6 +128,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-03-20">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2025-03-20">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-03-24">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -172,9 +173,9 @@
           </div>
           <div type="letter_message" hand="#hand_blue_auden">
             <p>
-              <lb/>Hier wohne ich.
+              <lb/><rs type="org" ref="#amp_organization_6">Hier</rs> wohne ich.
               <lb/>Leider dass Sie nicht
-              <lb/><unclear>Hi</unclear>er <del rend="overstrike" hand="#hand_blue_auden"><gap reason="illegible" unit="char" atLeast="2" atMost="4"/></del> sind
+              <lb/><unclear>Hi</unclear>er <del rend="overstrike" hand="#hand_blue_auden"><unclear>bi</unclear><gap reason="illegible" unit="char" atLeast="1" atMost="2"/></del> sind
             </p>
             <closer>
               <salute>
