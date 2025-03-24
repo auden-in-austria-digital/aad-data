@@ -194,7 +194,7 @@
           </div>
           <div hand="#hand_blue_kallman">
             <ab>
-              <lb/><rs type="person" ref="#amp_person_107">Her<unclear>rn</unclear></rs> <unclear>+</unclear> <rs type="person" ref="#amp_person_240">Frau KURKA</rs>
+              <lb/><rs type="person" ref="#amp_person_107">Her<unclear>rn</unclear></rs><unclear>+</unclear><rs type="person" ref="#amp_person_240">Frau KURKA</rs>
               <address>
                 <lb/><rs type="place" ref="#amp_place_id_371">WIEN IX
                 <lb/>MÜLLNERGASSE  14/4
