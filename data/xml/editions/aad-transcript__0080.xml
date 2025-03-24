@@ -150,6 +150,19 @@
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00283/" ed="1r" type="card"/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00284/" ed="1v" type="card"/>
           <div type="letter_message" hand="#hand_blue_kallman">
+            <opener>
+              <dateline>
+                <date>
+                  <lb/><hi rend="double-underline" hand="#hand_blue_kallman">Jan 10</hi>
+                </date>
+              </dateline>
+            </opener>
+            <p>
+              <lb/>Wystans Besuch <unclear>k</unclear>o<gap reason="illegible" unit="char" quantity="1"/>mt jetzt
+              <lb/><unclear>z</unclear>u ei<unclear>n</unclear> Ende -<unclear>z</unclear>u schnell,
+              <lb/>aber sehr lustig . Viele
+              <lb/>Grüsse&#x2013;Chester
+            </p>
           </div>
           <div type="letter_message" hand="#hand_blue_pittas">
           </div>
