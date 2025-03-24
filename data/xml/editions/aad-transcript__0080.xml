@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0080" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Autograph Card Signed W. H. Auden, Chester Kallman, and Konstantin Pittas to Christa Kurka and Hugo Kurka 1965-01-10</title>
+        <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
+        <author ref="https://d-nb.info/gnd/119544911">Kallman, Chester</author>
+        <author ana="#ana_088">Pittas, Konstantin</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Autograph Card Signed W. H. Auden, Chester Kallman, and Konstantin Pittas to Christa Kurka and Hugo Kurka 1965-01-10</title>
+          <interpGrp>
+            <interp xml:id="ana_088">
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <repository ref="https://d-nb.info/gnd/1108283586">State Collections of Lower Austria</repository>
+                <collection>W. H. Auden Collection</collection>
+                <idno>Correspondence Hugo Kurka 080</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark/>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00283/">
+                        <width>133</width>
+                        <height>97</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00284/">
+                        <width>133</width>
+                        <height>97</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
+                  <handNote xml:id="hand_blue_kallman" scribeRef="#amp_person_4" medium="ink-blue">Handwriting in blue ink by Chester Kallman</handNote>
+                  <handNote xml:id="hand_blue_pittas" scribeRef="#amp_person_251" medium="ink-blue" ana="#ana_088">Handwriting in blue ink by Konstantin Pittas</handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="print_black_unident_0080" medium="print-black">Preprinted writing in black authored by unidentified publisher, serif typeface</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1965-01-10T00:00:00+02:00" notAfter-iso="1965-01-10T23:59:59+02:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4003366-1">Athens</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de"/>
+        <language ident="el"/>
+        <language ident="en"/>
+        <language ident="fr"/>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <orgName><rs type="org" ref="#amp_organization_152">Post office &#916;&#953;&#949;&#952;&#957;&#942;&#962; &#913;&#949;&#961;&#959;&#955;&#953;&#956;&#941;&#957;&#945;&#962; &#917;&#955;&#955;&#951;&#957;&#953;&#954;&#959;&#973; (Ellinikon International Airport)</rs></orgName>
+          <placeName><rs type="place" ref="#amp_place_id_404">&#917;&#955;&#955;&#951;&#957;&#953;&#954;&#972; (Elliniko)</rs></placeName>
+          <date notBefore-iso="1965-01-11T06:00:01+02:00" notAfter-iso="1965-01-11T07:00:00+02:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_240">Kurka, Christa</persName>
+          <persName ref="#amp_person_107">Kurka, Hugo</persName>
+          <placeName><rs type="place" ref="#amp_place_id_356">Adalbert-Stifter-Straße 22</rs></placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#tfruehwirth" when-iso="2025-03-24">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2025-03-24">physDesc and profileDesc populated</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="2320" lry="1770">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00283/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="2316" lry="1768">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00284/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0080" xml:lang="de">
+        <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00283/" ed="1r" type="card"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00284/" ed="1v" type="card"/>
+          <div type="letter_message" hand="#hand_blue_kallman">
+          </div>
+          <div type="letter_message" hand="#hand_blue_pittas">
+          </div>
+          <div type="letter_message" hand="#hand_blue_auden">
+          </div>
+          <div hand="#print_black_unident_0080">
+          </div>
+          <div hand="#hand_blue_kallman">
+            
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
