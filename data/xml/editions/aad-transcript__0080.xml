@@ -205,7 +205,7 @@
                 <lb/><rs type="place" ref="#amp_place_id_13">ATHENS</rs>: <rs type="place" ref="#amp_place_id_405">Portico of the Caryatides</rs>.
               </seg>
               <seg xml:lang="fr">
-                <lb/><rs type="place" ref="#amp_place_id_13">ATHNÈNES</rs>: <rs type="place" ref="#amp_place_id_405">Portique de Caryatides</rs>.
+                <lb/><rs type="place" ref="#amp_place_id_13">ATHÈNES</rs>: <rs type="place" ref="#amp_place_id_405">Portique de Caryatides</rs>.
               </seg>
               <seg xml:lang="de">
                 <lb/><rs type="place" ref="#amp_place_id_13">ATHEN</rs>: <rs type="place" ref="#amp_place_id_405">Karyatiden am Erechtieion</rs>.
