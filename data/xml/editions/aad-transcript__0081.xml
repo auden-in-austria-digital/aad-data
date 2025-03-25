@@ -92,6 +92,8 @@
                   <handNote/>
                 </handDesc>
                 <typeDesc>
+                  <typeNote xml:id="print_black_ptv" scribeRef="#amp_organization_40" medium="print-black">Preprinted writing in black authored by Austrian Postal and Telegraph Administration, sans-serif typeface</typeNote>
+                  <typeNote xml:id="print_gray_ptv" scribeRef="#amp_organization_40" medium="print-gray">Preprinted writing in gray authored by Austrian Postal and Telegraph Administration, sans-serif typeface</typeNote>
                   <typeNote xml:id="type_black_kallman" scribeRef="#amp_person_4" medium="type-black">Teletypewriting in black ink authored by Chester Kallman, monospaced serif typeface</typeNote>
                 </typeDesc>
               </physDesc>
@@ -141,6 +143,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-03-25">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2025-03-25">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-03-25">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -162,11 +165,36 @@
       <div type="transcription" xml:id="transcription_aad_0081" xml:lang="de">
         <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00285/" ed="1r" type="envelope"/>
+          <ab hand="#print_gray_ptv">
+            <lb/>TELEGRAMM
+          </ab>
+          <ab hand="#print_gray_ptv">
+            <lb/>T. Tg. 1 - 1006 D - BMZL. 41330 - 4/72
+          </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00286/" ed="1v" type="envelope"/>
         </div>
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00287/" ed="2r" type="sheet"/>
-          <div type="letter_message">
+          <div hand="#print_black_ptv">
+            <ab>
+              <lb/>EGRAMM <rs type="org" ref="#amp_organization_40">ÖSTERR. PTV</rs> TELEGRA
+            </ab>
+          </div>
+          <div>
+            <ab hand="#type_black_kallman">
+              <lb/><rs type="person" ref="#amp_person_107">hugo kurka</rs> <rs type="place" ref="#amp_place_id_356">adalbertstifterstrasze 20
+              <lb/>1200/wien</rs>
+            </ab>
+          </div>
+          <div type="letter_message" hand="#type_black_kallman">
+            <ab>
+              <lb/><rs type="event" ref="#amp_event_id_19">begraebnis</rs> 11 <space quantity="1" unit="char"/>uhr morgen donnerstag <rs type="place" ref="#amp_place_id_5">kirchstetten</rs>
+            </ab>
+            <closer>
+              <signed>
+                <lb/><space quantity="6" unit="char"/><rs type="person" ref="#amp_person_4">kallman</rs>
+              </signed>
+            </closer>
           </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00288/" ed="2v" type="sheet"/>
         </div>
