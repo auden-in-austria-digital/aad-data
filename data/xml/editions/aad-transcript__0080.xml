@@ -216,9 +216,9 @@
             <ab>
               <lb/><rs type="person" ref="#amp_person_107">Herr</rs><unclear>+</unclear><rs type="person" ref="#amp_person_240">Frau KURKA</rs>
               <address>
-                <lb/><rs type="place" ref="#amp_place_id_356" ana="#ana_089"><hi rend="underline" hand="#hand_blue_kallman"><unclear><subst><del rend="overwritten" hand="#hand_blue_kallman">V</del><add place="superimposed" hand="#hand_blue_kallman">&#914;</add></subst></unclear>&#921;&#42898;VV&#919; </hi>20
+                <lb/><rs type="place" ref="#amp_place_id_356" ana="#ana_089"><hi rend="underline" hand="#hand_blue_kallman"><foreign xml:lang="el"><unclear><subst><del rend="overwritten" hand="#hand_blue_kallman">V</del><add place="superimposed" hand="#hand_blue_kallman">&#914;</add></subst></unclear>&#921;&#42898;VV&#919;</foreign> </hi>20
                 <lb/>Adalbertstiftergasse 22/28
-                <lb/>&#913;V&#931;&#932;&#929;&#921;&#913;
+                <lb/><foreign xml:lang="el">&#913;V&#931;&#932;&#929;&#921;&#913;</foreign>
                 <lb/><hi rend="underline" hand="#hand_blue_kallman">WIEN</hi></rs>
               </address>   
             </ab>
