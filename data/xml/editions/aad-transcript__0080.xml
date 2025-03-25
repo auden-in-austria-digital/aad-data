@@ -99,7 +99,7 @@
               <history>
                 <origin>
                   <origDate notBefore-iso="1965-01-10T00:00:00+02:00" notAfter-iso="1965-01-10T23:59:59+02:00"/>
-                  <origPlace ref="https://d-nb.info/gnd/4003366-1">&#913;&#952;&#942;&#957;&#945; (Athens)</origPlace>
+                  <origPlace ref="https://d-nb.info/gnd/4003366-1">Athens</origPlace>
                 </origin>
               </history>
             </msDesc>
@@ -124,8 +124,8 @@
       </langUsage>
       <correspDesc>
         <correspAction type="sent">
-          <orgName><rs type="org" ref="#amp_organization_152">Post office &#916;&#953;&#949;&#952;&#957;&#942;&#962; &#913;&#949;&#961;&#959;&#955;&#953;&#956;&#941;&#957;&#945;&#962; &#917;&#955;&#955;&#951;&#957;&#953;&#954;&#959;&#973; (Ellinikon International Airport)</rs></orgName>
-          <placeName><rs type="place" ref="#amp_place_id_404">&#917;&#955;&#955;&#951;&#957;&#953;&#954;&#972; (Elliniko)</rs></placeName>
+          <orgName><rs type="org" ref="#amp_organization_152">Post office Ellinikon International Airport</rs></orgName>
+          <placeName><rs type="place" ref="#amp_place_id_404">Elliniko</rs></placeName>
           <date notBefore-iso="1965-01-11T06:00:01+02:00" notAfter-iso="1965-01-11T07:00:00+02:00"/>
         </correspAction>
         <correspAction type="received">
