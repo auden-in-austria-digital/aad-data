@@ -94,7 +94,7 @@
                 <typeDesc>
                   <typeNote xml:id="print_black_ptv" scribeRef="#amp_organization_40" medium="print-black">Preprinted writing in black authored by Austrian Postal and Telegraph Administration, sans-serif typeface</typeNote>
                   <typeNote xml:id="print_gray_ptv" scribeRef="#amp_organization_40" medium="print-gray">Preprinted writing in gray authored by Austrian Postal and Telegraph Administration, sans-serif typeface</typeNote>
-                  <typeNote xml:id="type_black_kallman" scribeRef="#amp_person_4" medium="type-black">Teletypewriting in black ink authored by Chester Kallman, serif typeface</typeNote>
+                  <typeNote xml:id="type_black_kallman" scribeRef="#amp_person_4" medium="type-black">Teletypewriting in black ink authored by Chester Kallman, monospaced sans-serif typeface</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -124,12 +124,15 @@
         <correspAction type="sent" subtype="telegram">
           <orgName><rs type="org" ref="#amp_organization_70">Post office Kirchstetten</rs></orgName>
           <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
-          <date notBefore-iso="1973-10-03T17:00:01+01:00" notAfter-iso="1973-10-03T18:00:00+01:00"/>
+          <date notBefore-iso="1973-10-03T17:05:00+01:00" notAfter-iso="1973-10-03T17:05:59+01:00"/>
+        </correspAction>
+        <correspAction type="transmitted">
+          <placeName><rs type="place" ref="#amp_place_id_9">St. Pölten</rs></placeName><!-- todo -->
         </correspAction>
         <correspAction type="transmitted">
           <orgName><rs type="org" ref="#amp_organization_91">District post office Brigittenau</rs></orgName>
           <placeName><rs type="place" ref="#amp_place_id_1">Vienna</rs></placeName>
-          <date notBefore-iso="1973-10-03T17:00:01+01:00" notAfter-iso="1973-10-03T18:00:00+01:00"/>
+          <date notBefore-iso="1973-10-03T17:50:00+01:00" notAfter-iso="1973-10-03T17:50:59+01:00"/>
         </correspAction>
         <correspAction type="received">
           <persName ref="#amp_person_107">Kurka, Hugo</persName>
