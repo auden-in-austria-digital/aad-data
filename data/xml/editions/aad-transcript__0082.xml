@@ -134,7 +134,7 @@
               <lb/><rs type="person" ref="#amp_person_271">St. Joseph</rs>
             </ab>
             <ab>
-              <lb/>Cum appr. eccl.
+              <lb/>Cum appr. <rs type="org" ref="#amp_organization_46">eccl.</rs>
             </ab>
           </div>
           <div hand="#print_black_unident_0082">
@@ -184,8 +184,8 @@
               <lb/>die Seele Deines Dieners, welchen
               <lb/>Du aus dieser Welt abberufen hast,
               <lb/>aufnehmen in das Reich des Frie-
-              <lb/>dens und des Lichtes, durch Jesus
-              <lb/>Christus, unseren Herrn!
+              <lb/>dens und des Lichtes, durch <rs type="person" ref="#amp_person_274">Jesus
+              <lb/>Christus</rs>, unseren Herrn!
             </p>
             <ab>
               <lb/><rs type="org" ref="#amp_organization_153">N.Ö. PRESSEHAUS</rs> <rs type="place" ref="#amp_place_id_9">ST. PÖLTEN</rs>
