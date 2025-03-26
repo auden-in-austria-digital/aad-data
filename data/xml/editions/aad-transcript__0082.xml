@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0082" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">In memoriam card N.N. 1973-09-30--1973-10-04</title>
+        <author ref="https://www.example.org">N.N.</author><!-- todo -->
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">In memoriam card N.N. 1973-09-30--1973-10-04</title>
+          <interpGrp>
+            <interp>
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <repository ref="https://d-nb.info/gnd/1108283586">State Collections of Lower Austria</repository>
+                <collection>W. H. Auden Collection</collection>
+                <idno>Correspondence Hugo Kurka 082</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark/>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00289/">
+                        <width>134</width>
+                        <height>111</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00290/">
+                        <width>134</width>
+                        <height>111</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote/>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="print_black_unident_0082" medium="print-black">Preprinted writing in black authored by unidentified author, sans-serif typeface</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1973-09-30T00:00:00+01:00" notAfter-iso="1973-10-04T10:59:59+01:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4051622-2">St. Pölten</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#tfruehwirth" when-iso="2025-03-26">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2025-03-26">Text transcribed; physDesc and profileDesc populated; hands, languages, prose container structure, and entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="2338" lry="1996">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00289/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="2332" lry="1992">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00290/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0082" xml:lang="de">
+        <div type="prose">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00289/" ed="1r" type="card"/>
+          <div hand="#print_black_unident_0082">
+            <ab>
+              <lb/><rs type="person" ref="#amp_person_271">St. Joseph</rs>
+            </ab>
+            <ab>
+              <lb/>Cum appr. eccl.
+            </ab>
+          </div>
+          <div hand="#print_black_unident_0082">
+            <ab>
+              <seg>
+                <lb/><rs type="person" ref="#amp_person_272">Pacher</rs>
+              </seg>
+              <seg>
+                <lb/>SV 1288
+              </seg>
+            </ab>
+            <ab>
+              <lb/><rs type="person" ref="#amp_person_273">Madonna</rs>
+            </ab>
+          </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00290/" ed="1v" type="card"/>
+          <div hand="#print_black_unident_0082">
+            <ab>
+              <lb/>&#10013;
+            </ab>
+            <p>
+              <seg>
+                <lb/>ZUR FROMMEN ERINNERUNG
+              </seg>
+              <seg>
+                <lb/>an Herrn
+              </seg>
+              <seg>
+                <lb/>Professor
+              </seg>
+              <seg>
+                <lb/><rs type="person" ref="#amp_person_1">W. H. Auden</rs>
+              </seg>
+              <seg>
+                <lb/>Dichter und Kritiker
+                <lb/>Träger zahlreicher Auszeichnungen
+              </seg>
+              <seg>
+                <lb/>welcher <rs type="event" ref="#amp_event_id_18">am Samstag, dem 29. Sep-
+                <lb/>tember 1973, plötzlich und unerwar-
+                <lb/>tet im 67. Lebensjahre aus seinem
+                <lb/>irdischen Wirken abberufen</rs> wurde.
+              </seg>
+            </p>
+            <p>
+              <lb/>Wir bitten Dich, o Herr, Du wollest
+              <lb/>die Seele Deines Dieners, welchen
+              <lb/>Du aus dieser Welt abberufen hast,
+              <lb/>aufnehmen in das Reich des Frie-
+              <lb/>dens und des Lichtes, durch Jesus
+              <lb/>Christus, unseren Herrn!
+            </p>
+            <ab>
+              <lb/><rs type="org" ref="#amp_organization_153">N.Ö. PRESSEHAUS</rs> <rs type="place" ref="#amp_place_id_9">ST. PÖLTEN</rs>
+            </ab>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
