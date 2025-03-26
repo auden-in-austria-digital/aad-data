@@ -187,9 +187,9 @@
             </ab>
           </div>
           <div type="letter_message" hand="#type_black_kallman">
-            <ab>
+            <p>
               <lb/><rs type="event" ref="#amp_event_id_19">begraebnis</rs> 11 <space quantity="1" unit="char"/>uhr morgen donnerstag <rs type="place" ref="#amp_place_id_5">kirchstetten</rs>
-            </ab>
+            </p>
             <closer>
               <signed>
                 <lb/><space quantity="6" unit="char"/><rs type="person" ref="#amp_person_4">kallman</rs>
