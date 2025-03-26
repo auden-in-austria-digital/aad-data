@@ -137,7 +137,7 @@ doc
 0079           Auden, W. H.                      Autograph Card Signed W. H. Auden and Chester Kallman to Christa Kurka and Hugo Kurka 1960-10-25             Oxford
 0080           Auden, W. H.  Autograph Card Signed W. H. Auden, Chester Kallman, and Konstantin Pittas to Christa Kurka and Hugo Kurka 1965-01-10             Athens
 0081       Kallman, Chester                                                                     Telegram Chester Kallman to Hugo Kurka 1973-10-03       Kirchstetten
-0082                   N.N.                                                                          In memoriam card N.N. 1973-09-30--1973-10-04         St. Pölten
+0082                   N.N.                                                                              Printed Card N.N. 1973-09-30--1973-10-04         St. Pölten
 ```
 ### scatter plot
 
