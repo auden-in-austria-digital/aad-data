@@ -84,7 +84,8 @@
                   <handNote/>
                 </handDesc>
                 <typeDesc>
-                  <typeNote xml:id="print_black_unident_0082" medium="print-black">Preprinted writing in black authored by unidentified author, serif and sans-serif typefaces</typeNote>
+                  <typeNote xml:id="print_black_unident_0082" medium="print-black">Preprinted writing in black authored by unidentified author, sans-serif typeface</typeNote>
+                  <typeNote xml:id="print_black_pressehaus" scribeRef="#amp_organization_153" medium="print-black">Preprinted writing in black authored by Niederösterreichische Pressehaus Druck- und Verlagsgesellschaft m.b.H., serif typeface</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -187,7 +188,7 @@
               <lb/>dens und des Lichtes, durch <rs type="person" ref="#amp_person_274">Jesus
               <lb/>Christus</rs>, unseren Herrn!
             </p>
-            <ab>
+            <ab hand="#print_black_pressehaus">
               <lb/><rs type="org" ref="#amp_organization_153">N.<unclear>Ö</unclear>. PRESS<unclear>E</unclear>HAUS</rs> <rs type="place" ref="#amp_place_id_9">ST. P<unclear>Ö</unclear>LTEN</rs>
             </ab>
           </div>
