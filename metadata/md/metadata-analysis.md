@@ -139,7 +139,7 @@ doc
 0081       Kallman, Chester                                                                     Telegram Chester Kallman to Hugo Kurka 1973-10-03       Kirchstetten
 0082                   N.N.                                                                              Printed Card N.N. 1973-10-01--1973-10-04         St. Pölten
 0083                   N.N.                                                                              Printed Card N.N. 1973-10-01--1973-10-04         St. Pölten
-0084       Kallman, Chester                         Printed Notice Bernard Auden, John Bicknell Auden, and Chester Kallman 1973-10-01--1973-10-04        Neulengbach
+0084       Kallman, Chester                         Printed Notice Bernard Auden, John Bicknell Auden, and Chester Kallman 1973-10-01--1973-10-02        Neulengbach
 ```
 ### scatter plot
 
