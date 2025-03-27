@@ -5,7 +5,7 @@
       <titleStmt>
         <title level="s">Auden in Austria Digital (AAD)</title>
         <title level="a">Printed Notice Bernard Auden, John Bicknell Auden, and Chester Kallman 1973-10-01--1973-10-02</title><!-- todo -->
-        <author>Auden, Bernard</author><!-- todo -->
+        <author ref="https://d-nb.info">Auden, Bernard</author><!-- todo -->
         <author ref="https://d-nb.info/gnd/1089340591">Auden, John Bicknell</author><!-- todo -->
         <author ref="https://d-nb.info/gnd/119544911">Kallman, Chester</author><!-- todo -->
         <editor>
