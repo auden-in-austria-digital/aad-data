@@ -136,7 +136,7 @@
             </ab>
             <ab>
               <lb/>"Siehe da, deine Mutter!"
-              <lb/><rs type="person" ref="#amp_person_276">Joh.</rs> 19, 27.
+              <lb/><rs type="lit_work" ref="#lit_work_id_212">Joh.</rs> 19, 27.
             </ab>
             <ab>
               <lb/>Cum appr. <rs type="org" ref="#amp_organization_46">eccl.</rs>
@@ -145,7 +145,7 @@
           <div hand="#print_black_unident_0083">
             <ab>
               <seg>
-                <lb/>Reni
+                <lb/><rs type="person" ref="#amp_person_277">Reni</rs>
               </seg>
               <seg>
                 <lb/>SV 1283
