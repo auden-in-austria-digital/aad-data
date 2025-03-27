@@ -110,6 +110,7 @@
     <profileDesc>
       <langUsage>
         <language ident="de"/>
+        <language ident="la"/>
       </langUsage>
     </profileDesc>
     <revisionDesc status="draft">
@@ -134,7 +135,7 @@
             <ab>
               <lb/><rs type="person" ref="#amp_person_271">St. Joseph</rs>
             </ab>
-            <ab>
+            <ab xml:lang="la">
               <lb/>Cum appr. <rs type="org" ref="#amp_organization_46">eccl.</rs>
             </ab>
           </div>

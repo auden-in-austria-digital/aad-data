@@ -110,6 +110,7 @@
     <profileDesc>
       <langUsage>
         <language ident="de"/>
+        <language ident="la"/>
       </langUsage>
     </profileDesc>
     <revisionDesc status="draft">
@@ -138,7 +139,7 @@
               <lb/>"Siehe da, deine Mutter!"
               <lb/><rs type="lit_work" ref="#lit_work_id_212">Joh.</rs> 19, 27.
             </ab>
-            <ab>
+            <ab xml:lang="la">
               <lb/>Cum appr. <rs type="org" ref="#amp_organization_46">eccl.</rs>
             </ab>
           </div>
@@ -156,7 +157,7 @@
               <lb/>Barmherzigkeit &#x2013; durch die
               <lb/>Verdienste deiner hl. Wunden."
             </ab>
-            <ab>
+            <ab xml:lang="la">
               <lb/>Cum appr. <rs type="org" ref="#amp_organization_46">eccl.</rs>
             </ab>
           </div>
