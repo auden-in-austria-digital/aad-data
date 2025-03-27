@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0084" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Printed Notice Bernard Auden, John Bicknell Auden, and Chester Kallman 1973-10-01--1973-10-02</title><!-- todo -->
+        <author>Auden, Bernard</author><!-- todo -->
+        <author ref="https://d-nb.info/gnd/1089340591">Auden, John Bicknell</author><!-- todo -->
+        <author ref="https://d-nb.info/gnd/119544911">Kallman, Chester</author><!-- todo -->
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Printed Notice Bernard Auden, John Bicknell Auden, and Chester Kallman 1973-10-01--1973-10-02</title><!-- todo -->
+          <interpGrp>
+            <interp>
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <repository ref="https://d-nb.info/gnd/1108283586">State Collections of Lower Austria</repository>
+                <collection>W. H. Auden Collection</collection>
+                <idno>Correspondence Hugo Kurka 084</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark/>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00293/">
+                        <width>210</width>
+                        <height>297</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00294/">
+                        <width>210</width>
+                        <height>297</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_blue_unident_0084" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote><!-- todo -->
+                </handDesc>
+                <typeDesc><!-- todo -->
+                  <typeNote xml:id="print_black_aak" scribeRef="#amp_person_4 #amp_person_88 #amp_person_278" medium="print-black">Preprinted writing in black authored by Bernard Auden, John Bicknell Auden, and Chester Kallman, serif and sans-serif typefaces</typeNote>
+                  <typeNote xml:id="print_black_willinger" scribeRef="#amp_organization_154" medium="print-black">Preprinted writing in black authored by Willinger, sans-serif typeface</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1973-10-01T00:00:00+01:00" notAfter-iso="1973-10-02T17:00:00+01:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4041812-1">Neulengbach</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de"/>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <orgName><rs type="org" ref="#amp_organization_70">Post office Kirchstetten</rs></orgName>
+          <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
+          <date notBefore-iso="1973-10-02T16:00:01+01:00" notAfter-iso="1973-10-02T17:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_240">Kurka, Christa</persName>
+          <placeName><rs type="place" ref="#amp_place_id_356">Adalbert-Stifter-Straße 22</rs></placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#tfruehwirth" when-iso="2025-03-27">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2025-03-27">Text transcribed; physDesc and profileDesc populated; hands, languages, prose container structure, and entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="3550" lry="4894">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00293/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3472" lry="4852">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00294/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0084" xml:lang="">
+        <div type="prose"><!-- todo -->
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00293/" ed="1r" type="sheet"/>
+          <div hand="#hand_blue_unident_0084">
+            <ab hand="#hand_blue_auden">
+              <lb/><rs type="person" ref="#amp_person_240">Christiana Kurka</rs>
+              <address>
+                <lb/><rs type="place" ref="#amp_place_id_356">Adalbert-Stifterstraße 22/28
+                <lb/>1200 Wien</rs>
+              </address>   
+            </ab>
+          </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00294/" ed="1v" type="sheet"/>
+          <div hand="#print_black_aak">
+            <ab>
+              <lb/>&#10013;
+            </ab>
+            <ab>
+              <lb/>Wir müssen
+              <lb/>einander lieben
+            </ab>
+            <p>
+              <seg>
+                <lb/>Gott, der Allmächtgie, hat nach einem schöpferischen irdischen
+                <lb/>Dasein, Herrn
+              </seg>
+              <seg>
+                <lb/><rs type="person" ref="#amp_person_1">W. H. Auden</rs>
+              </seg>
+              <seg>
+                <lb/>Dichter und Kritiker
+                <lb/>Träger versch. Auszeichnungen
+              </seg>
+              <seg>
+                <lb/><rs type="event" ref="#amp_event_id_18">am Samstag, dem 29. September 1973, plötzlich und unerwartet,
+                <lb/>im 67. Lebensjahre aus seinem irdischen Wirken abberufen</rs>.
+              </seg>
+            </p>
+            <p>
+              <lb/>Der teure Tote wird im <rs type="place" ref="#amp_place_id_2">Trauerhause Kirchstetten, Hinterholz 6</rs>
+              <lb/>aufgebahrt und <rs type="event" ref="#amp_event_id_19">Donnerstag, 4. Oktober 1973, um 11.00 Uhr, in die
+              <lb/><rs type="place" ref="#amp_place_id_332">Pfarrkirche</rs> geführt, dortselbst feierlich eingesegnet und sodann
+              <lb/>auf dem Ortsfriedhofe zur ewigen Ruhe bestattet</rs>.
+            </p>
+            <closer>
+              <dateline>
+                <lb/><placeName><rs type="place" ref="#amp_place_id_5">3062 Kirchstetten</rs></placeName>, im <date>Oktober 1973</date>
+              </dateline>
+              <salute>
+                <lb/>In tiefer Trauer:
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_4">Chester Simon Kallman</rs>
+              </signed>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_88">John</rs> und <rs type="person" ref="#amp_person_278">Bernard Auden</rs>
+                <lb/>Brüder samt Familien
+              </signed>
+            </closer>
+          </div>
+          <div hand="#print_black_willinger">
+            <ab>
+              <lb/><rs type="org" ref="#amp_organization_154">Willing<unclear>e</unclear>r</rs> <rs type="place" ref="#amp_place_id_47">Neul<unclear>e</unclear>ngbac<unclear>h</unclear></rs>
+            </ab>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
