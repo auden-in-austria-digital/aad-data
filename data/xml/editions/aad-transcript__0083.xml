@@ -83,7 +83,7 @@
                 <handDesc>
                   <handNote/>
                 </handDesc>
-                <typeDesc>
+                <typeDesc><!-- todo -->
                   <typeNote xml:id="print_black_unident_0083" medium="print-black">Preprinted writing in black authored by unidentified author, sans-serif typeface</typeNote>
                   <typeNote xml:id="print_black_pressehaus" scribeRef="#amp_organization_153" medium="print-black">Preprinted writing in black authored by Niederösterreichische Pressehaus Druck- und Verlagsgesellschaft m.b.H., serif typeface</typeNote>
                 </typeDesc>
