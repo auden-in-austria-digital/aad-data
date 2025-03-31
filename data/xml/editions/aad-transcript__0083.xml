@@ -168,20 +168,20 @@
             </ab>
             <p>
               <seg>
-                <lb/>ZUR FROMMEN ERINNERUNG
+                <lb/><hi rend="bold">ZUR FROMMEN ERINNERUNG</hi>
               </seg>
               <seg>
                 <lb/>an Herrn
               </seg>
               <seg>
-                <lb/>Professor
+                <lb/><hi rend="bold">Professor</hi>
               </seg>
               <seg>
                 <lb/><rs type="person" ref="#amp_person_1">W. H. Auden</rs>
               </seg>
               <seg>
-                <lb/>Dichter und Kritiker
-                <lb/>Träger zahlreicher Auszeichnungen
+                <lb/><hi rend="bold">Dichter und Kritiker
+                <lb/>Träger zahlreicher Auszeichnungen</hi>
               </seg>
               <seg>
                 <lb/>welcher <rs type="event" ref="#amp_event_id_18">am Samstag, dem 29. Sep-
