@@ -140,11 +140,11 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0084" xml:lang="">
+      <div type="transcription" xml:id="transcription_aad_0084" xml:lang="de">
         <div type="prose"><!-- todo -->
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00293/" ed="1r" type="sheet"/>
           <div hand="#hand_blue_unident_0084">
-            <ab hand="#hand_blue_auden">
+            <ab>
               <lb/><rs type="person" ref="#amp_person_240">Christiana Kurka</rs>
               <address>
                 <lb/><rs type="place" ref="#amp_place_id_356">Adalbert-Stifterstraße 22/28
