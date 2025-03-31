@@ -170,8 +170,8 @@
                 <lb/><rs type="person" ref="#amp_person_1">W. H. Auden</rs>
               </seg>
               <seg>
-                <lb/>Dichter und Kritiker
-                <lb/>Träger versch. Auszeichnungen
+                <lb/><hi rend="bold">Dichter</hi> und <hi rend="bold">Kritiker</hi>
+                <lb/><hi rend="bold">Träger versch. Auszeichnungen</hi>
               </seg>
               <seg>
                 <lb/><rs type="event" ref="#amp_event_id_18">am Samstag, dem 29. September 1973, plötzlich und unerwartet,
@@ -192,10 +192,10 @@
                 <lb/>In tiefer Trauer:
               </salute>
               <signed>
-                <lb/><rs type="person" ref="#amp_person_4">Chester Simon Kallman</rs>
+                <lb/><rs type="person" ref="#amp_person_4"><hi rend="bold">Chester Simon Kallman</hi></rs>
               </signed>
               <signed>
-                <lb/><rs type="person" ref="#amp_person_88">John</rs> und <rs type="person" ref="#amp_person_278">Bernard Auden</rs>
+                <lb/><rs type="person" ref="#amp_person_88"><hi rend="bold">John</hi></rs> und <rs type="person" ref="#amp_person_278"><hi rend="bold">Bernard Auden</hi></rs>
                 <lb/>Brüder samt Familien
               </signed>
             </closer>
