@@ -140,7 +140,7 @@ doc
 0082                   N.N.                                                                              Printed Card N.N. 1973-10-01--1973-10-04         St. Pölten
 0083                   N.N.                                                                              Printed Card N.N. 1973-10-01--1973-10-04         St. Pölten
 0084       Kallman, Chester                         Printed Notice Bernard Auden, John Bicknell Auden, and Chester Kallman 1973-10-01--1973-10-02        Neulengbach
-0085           Tappe, Horst                   Photograph Horst Tappe of W. H. Auden with Autograph Note Signed W. H. Auden 1965-01-01--1965-12-31               N.N.
+0085           Auden, W. H.                   Photograph Horst Tappe of W. H. Auden with Autograph Note Signed W. H. Auden 1965-01-01--1965-12-31               N.N.
 ```
 ### scatter plot
 
