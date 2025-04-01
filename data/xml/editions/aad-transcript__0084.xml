@@ -121,7 +121,7 @@
         </correspAction>
         <correspAction type="received">
           <persName ref="#amp_person_240">Kurka, Christa</persName>
-          <placeName><rs type="place" ref="#amp_place_id_356">Adalbert-Stifter-Straße 22</rs></placeName>
+          <placeName><rs type="place" ref="#amp_place_id_1">Vienna</rs></placeName>
         </correspAction>
       </correspDesc>
     </profileDesc>

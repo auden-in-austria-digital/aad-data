@@ -121,7 +121,7 @@
         <correspAction type="received">
           <persName ref="#amp_person_240">Kurka, Christa</persName>
           <persName ref="#amp_person_107">Kurka, Hugo</persName>
-          <placeName><rs type="place" ref="#amp_place_id_371">Müllnergasse 14</rs></placeName>
+          <placeName><rs type="place" ref="#amp_place_id_1">Vienna</rs></placeName>
         </correspAction>
       </correspDesc>
     </profileDesc>
