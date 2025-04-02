@@ -56,7 +56,7 @@ memory usage: 42.9+ KB
 ```
                      author                                                                                                                 title              place
 doc                                                                                                                                                                 
-0001           Auden, W. H.                                              Autograph Letter Signed W. H. Auden to Hugo Kurka 1960-07-25--1969-07-25       Kirchstetten
+0001           Auden, W. H.                                              Autograph Letter Signed W. H. Auden to Hugo Kurka 1961-07-25--1969-07-25       Kirchstetten
 0002           Auden, W. H.                                                          Autograph Letter Signed W. H. Auden to Hugo Kurka 1964-09-08       Kirchstetten
 0003           Auden, W. H.                                                          Autograph Letter Signed W. H. Auden to Hugo Kurka 1965-05-24       Kirchstetten
 0004           Auden, W. H.                                                          Autograph Letter Signed W. H. Auden to Hugo Kurka 1964-10-07       Kirchstetten
