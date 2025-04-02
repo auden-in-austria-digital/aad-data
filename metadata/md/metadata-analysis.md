@@ -116,7 +116,7 @@ doc
 0058           Auden, W. H.                                                          Autograph Letter Signed W. H. Auden to Hugo Kurka 1968-12-13      New York City
 0059           Auden, W. H.                                                                         Envelope W. H. Auden to Hugo Kurka 1969-02-21      New York City
 0060           Auden, W. H.                                                          Autograph Letter Signed W. H. Auden to Hugo Kurka 1970-03-15      New York City
-0061  Süddeutscher Rundfunk                                                             Printed Card Süddeutscher Rundfunk 1960-05-20--1961-05-20          Stuttgart
+0061  Süddeutscher Rundfunk                                                             Printed Card Süddeutscher Rundfunk 1961-01-01--1961-05-20          Stuttgart
 0062           Auden, W. H.                      Autograph Card Signed W. H. Auden and Chester Kallman to Christa Kurka and Hugo Kurka 1961-05-23            Hamburg
 0063           Auden, W. H.                                                            Autograph Card Signed W. H. Auden to Hugo Kurka 1963-10-23             London
 0064           Auden, W. H.                                                            Autograph Card Signed W. H. Auden to Hugo Kurka 1963-10-29             Oxford
