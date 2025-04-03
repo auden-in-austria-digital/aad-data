@@ -127,7 +127,7 @@
           <date notBefore-iso="1973-10-03T17:05:00+01:00" notAfter-iso="1973-10-03T17:05:59+01:00"/>
         </correspAction>
         <correspAction type="transmitted">
-          <placeName><rs type="place" ref="#amp_place_id_9">St. Pölten</rs></placeName><!-- todo -->
+          <placeName><rs type="place" ref="#amp_place_id_9">St. Pölten</rs></placeName>
         </correspAction>
         <correspAction type="transmitted">
           <orgName><rs type="org" ref="#amp_organization_91">District post office Brigittenau</rs></orgName>
