@@ -4,10 +4,10 @@
     <fileDesc>
       <titleStmt>
         <title level="s">Auden in Austria Digital (AAD)</title>
-        <title level="a">Printed Notice Bernard Auden, John Bicknell Auden, and Chester Kallman 1973-10-01--1973-10-02</title><!-- todo -->
-        <author ref="https://d-nb.info">Auden, Bernard</author><!-- todo -->
-        <author ref="https://d-nb.info/gnd/1089340591">Auden, John Bicknell</author><!-- todo -->
-        <author ref="https://d-nb.info/gnd/119544911">Kallman, Chester</author><!-- todo -->
+        <title level="a">Printed Notice Bernard Auden, John Bicknell Auden, and Chester Kallman 1973-10-01--1973-10-02</title>
+        <author ref="https://d-nb.info">Auden, Bernard</author>
+        <author ref="https://d-nb.info/gnd/1089340591">Auden, John Bicknell</author>
+        <author ref="https://d-nb.info/gnd/119544911">Kallman, Chester</author>
         <editor>
           <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
           <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
@@ -25,7 +25,7 @@
       </titleStmt>
       <editionStmt>
         <edition>
-          <title level="a">Printed Notice Bernard Auden, John Bicknell Auden, and Chester Kallman 1973-10-01--1973-10-02</title><!-- todo -->
+          <title level="a">Printed Notice Bernard Auden, John Bicknell Auden, and Chester Kallman 1973-10-01--1973-10-02</title>
           <interpGrp>
             <interp>
               <desc/>
@@ -85,7 +85,7 @@
                 <handDesc>
                   <handNote xml:id="hand_blue_unident_0084" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote><!-- todo -->
                 </handDesc>
-                <typeDesc><!-- todo -->
+                <typeDesc>
                   <typeNote xml:id="print_black_aak" scribeRef="#amp_person_4 #amp_person_88 #amp_person_278" medium="print-black">Preprinted writing in black authored by Bernard Auden, John Bicknell Auden, and Chester Kallman, serif and sans-serif typefaces</typeNote>
                   <typeNote xml:id="print_black_willinger" scribeRef="#amp_organization_154" medium="print-black">Preprinted writing in black authored by Willinger, sans-serif typeface</typeNote>
                 </typeDesc>
@@ -141,7 +141,7 @@
   <text>
     <body>
       <div type="transcription" xml:id="transcription_aad_0084" xml:lang="de">
-        <div type="prose"><!-- todo -->
+        <div type="prose">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00293/" ed="1r" type="sheet"/>
           <div hand="#hand_blue_unident_0084">
             <ab>
