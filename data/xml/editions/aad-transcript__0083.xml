@@ -4,8 +4,8 @@
     <fileDesc>
       <titleStmt>
         <title level="s">Auden in Austria Digital (AAD)</title>
-        <title level="a">Printed Card N.N. 1973-10-01--1973-10-04</title><!-- todo -->
-        <author ref="https://d-nb.info">N.N.</author><!-- todo -->
+        <title level="a">Printed Card N.N. 1973-10-01--1973-10-04</title>
+        <author ref="https://d-nb.info">N.N.</author>
         <editor>
           <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
           <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
@@ -23,7 +23,7 @@
       </titleStmt>
       <editionStmt>
         <edition>
-          <title level="a">Printed Card N.N. 1973-10-01--1973-10-04</title><!-- todo -->
+          <title level="a">Printed Card N.N. 1973-10-01--1973-10-04</title>
           <interpGrp>
             <interp>
               <desc/>
@@ -83,8 +83,9 @@
                 <handDesc>
                   <handNote/>
                 </handDesc>
-                <typeDesc><!-- todo -->
-                  <typeNote xml:id="print_black_unident_0083" medium="print-black">Preprinted writing in black authored by unidentified author, sans-serif typeface</typeNote>
+                <typeDesc>
+                  <typeNote xml:id="print_black_unident_0083_01" medium="print-black">Preprinted writing in black authored by unidentified author, sans-serif typeface</typeNote>
+                  <typeNote xml:id="print_black_unident_0083_02" medium="print-black">Preprinted writing in black authored by unidentified author, sans-serif typeface</typeNote>
                   <typeNote xml:id="print_black_pressehaus" scribeRef="#amp_organization_153" medium="print-black">Preprinted writing in black authored by Niederösterreichische Pressehaus Druck- und Verlagsgesellschaft m.b.H., serif typeface</typeNote>
                 </typeDesc>
               </physDesc>
@@ -131,7 +132,7 @@
       <div type="transcription" xml:id="transcription_aad_0083" xml:lang="">
         <div type="prose">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00291/" ed="1r" type="card"/>
-          <div hand="#print_black_unident_0083">
+          <div hand="#print_black_unident_0083_01">
             <ab>
               <lb/><rs type="person" ref="#amp_person_275">Dolci</rs>
             </ab>
@@ -143,7 +144,7 @@
               <lb/>Cum appr. <rs type="org" ref="#amp_organization_46">eccl.</rs>
             </ab>
           </div>
-          <div hand="#print_black_unident_0083">
+          <div hand="#print_black_unident_0083_01">
             <ab>
               <seg>
                 <lb/><rs type="person" ref="#amp_person_277">Reni</rs>
@@ -162,7 +163,7 @@
             </ab>
           </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00292/" ed="1v" type="card"/>
-          <div hand="#print_black_unident_0083">
+          <div hand="#print_black_unident_0083_02">
             <ab>
               <lb/>&#10013;
             </ab>
