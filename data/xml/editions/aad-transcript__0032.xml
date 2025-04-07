@@ -28,21 +28,21 @@
             <interp xml:id="ana_065">
               <desc> 
                 An entry dated 17-21 August 1964 in W. H. Auden's Kirchstetten guest book suggests that 
-                <rs type="person" ref="#amp_person_254" about="https://amp.acdh.oeaw.ac.at/amp_person_254.html" typeof="crm:E74_Group">
+                <rs type="person" ref="#amp_person_254" about="https://aad.acdh.oeaw.ac.at/amp_person_254.html" typeof="crm:E74_Group">
                   <rs property="rdfs:label">Gäste</rs>
                   <rs rel="crm:P107_has_current_or_former_member">comprised
                     <rs type="person" ref="#amp_person_96" resource="wd:Q62566483" typeof="crm:E21_Person">Auden and Kallman's close friend (and later biographer) <persName property="rdfs:label">Thekla Clark</persName></rs> and 
                     <rs type="person" ref="#amp_person_95" resource="wd:Q123679692" typeof="crm:E21_Person">her husband <persName property="rdfs:label">John Clark</persName></rs>
                   </rs>
                 </rs>.
-                <bibl>
-                  <title>Auden, Wystan Hugh, 1907-1973: Guest book: Kirchstetten, signatures and notes written in album, 82 pages, 1959-1974</title>
+                <bibl ref="#lit_work_id_213" about="https://aad.acdh.oeaw.ac.at/lit_work_id_213.html">
+                  <title property="dc:title">Auden, Wystan Hugh, 1907-1973: Guest book: Kirchstetten, signatures and notes written in album, 82 pages, 1959-1974</title>
                   <msIdentifier>
                     <country ref="https://d-nb.info/gnd/4078704-7"/>
                     <settlement ref="https://d-nb.info/gnd/4079879-3"/>
                     <repository ref="https://d-nb.info/gnd/3018790-4"/>
                     <collection>W. H. (Wystan Hugh) Auden Collection</collection>
-                    <idno>Miscellaneous: Container 2.7</idno>
+                    <idno property="dc:identifier">Miscellaneous: Container 2.7</idno>
                   </msIdentifier>
                   <biblScope unit="page" from="1" to="82"/>
                   <citedRange unit="page" from="12" to="12"/>
