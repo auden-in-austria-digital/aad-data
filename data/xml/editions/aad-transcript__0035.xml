@@ -126,13 +126,14 @@
       </langUsage>
       <correspDesc>
         <correspAction type="sent" subtype="airmail">
+          <orgName><rs type="org" ref="#amp_organization_98">United States Post Office Cooper Station</rs></orgName>
           <placeName><rs type="place" ref="#amp_place_id_28">New York City</rs></placeName>
           <address><postCode>3</postCode></address>
           <date notBefore-iso="1965-12-07T12:00:00-05:00" notAfter-iso="1965-12-07T23:59:59-05:00"/>
         </correspAction>
         <correspAction type="received">
           <persName ref="#amp_person_107">Kurka, Hugo</persName>
-          <placeName><rs type="place" ref="#amp_place_id_356">Adalbert-Stifter-Straße 22</rs></placeName>
+          <placeName><rs type="place" ref="#amp_place_id_1">Vienna</rs></placeName>
         </correspAction>
       </correspDesc>
     </profileDesc>

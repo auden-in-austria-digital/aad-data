@@ -126,7 +126,7 @@
         </correspAction>
         <correspAction type="received">
           <persName ref="#amp_person_107">Kurka, Hugo</persName>
-          <placeName><rs type="place" ref="#amp_place_id_356">Adalbert-Stifter-Straße 22</rs></placeName>
+          <placeName><rs type="place" ref="#amp_place_id_1">Vienna</rs></placeName>
         </correspAction>
       </correspDesc>
     </profileDesc>
@@ -157,7 +157,7 @@
           <ab hand="#hand_blue_auden" xml:lang="en">
             <lb/><rs type="person" ref="#amp_person_1">W.H.Auden</rs>
             <address>
-              <lb/><rs type="place" ref="#amp_place_id_29">77 St Mark's Place
+              <lb/><rs type="place" ref="#amp_place_id_29">7<unclear>7</unclear> St Mark's Place
               <lb/>Ne<unclear>w</unclear> York City
               <lb/>Ne<unclear>w</unclear> York 10003
               <lb/>U.S<unclear>.</unclear>A. <unclear>.</unclear></rs>
@@ -184,7 +184,7 @@
               <dateline>
                 <placeName>
                   <address xml:lang="en">
-                    <lb/><rs type="place" ref="#amp_place_id_29">77 St Mark's Place
+                    <lb/><rs type="place" ref="#amp_place_id_29"><unclear>77</unclear> St Mark's Place
                     <lb/>N.Y.C.
                     <lb/>N.Y. 10003</rs>
                   </address>
@@ -221,7 +221,7 @@
             <closer>
               <salute>
                 <lb/>Alles gut<unclear>es</unclear>
-                <lb/><unclear><del rend="overstrike" hand="#hand_blue_auden"><gap reason="illegible" unit="char" quantity="1"/></del></unclear> <unclear>i</unclear>mmer dei<unclear>n</unclear> Freund
+                <lb/><unclear><del rend="overstrike" hand="#hand_blue_auden"><gap reason="illegible" unit="char" quantity="1"/></del></unclear> <unclear>i</unclear>mmer dein Freund
               </salute>
               <signed>
                 <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>

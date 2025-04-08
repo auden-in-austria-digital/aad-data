@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0065" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Autograph Card Signed W. H. Auden to Hugo Kurka 1965-04-26--1965-05-21</title>
+        <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Autograph Card Signed W. H. Auden to Hugo Kurka 1965-04-26--1965-05-21</title>
+          <interpGrp>
+            <interp xml:id="ana_081">
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <repository ref="https://d-nb.info/gnd/1108283586">State Collections of Lower Austria</repository>
+                <collection>W. H. Auden Collection</collection>
+                <idno>Correspondence Hugo Kurka 065</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark/>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00251/">
+                        <width>88</width>
+                        <height>138</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00252/">
+                        <width>88</width>
+                        <height>138</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="print_brown_unident_0065" medium="print-brown">Preprinted writing in brown authored by unidentified publisher, serif and sans-serif typefaces</typeNote>
+                  <typeNote xml:id="print_black_unident_0065" medium="print-black">Preprinted writing in black authored by unidentified publisher, sans-serif typeface</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1965-04-26T00:00:00+01:00" notAfter-iso="1965-05-21T23:59:59+01:00" ana="#ana_081"/>
+                  <origPlace ref="https://d-nb.info/gnd/4074335-4">London</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de"/>
+        <language ident="en"/>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <placeName><rs type="place" ref="#amp_place_id_1">Vienna</rs></placeName>
+          <date notBefore-iso="1965-05-21T00:00:00+01:00" notAfter-iso="1965-05-21T23:59:59+01:00" ana="#ana_081"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_107">Kurka, Hugo</persName>
+          <placeName><rs type="place" ref="#amp_place_id_1">Vienna</rs></placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#tfruehwirth" when-iso="2025-02-24">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2025-02-24">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-02-25">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="1630" lry="2428">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00251/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="1644" lry="2416">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00252/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0065" xml:lang="de">
+        <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00251/" ed="1r" type="card"/>
+          <div hand="#print_black_unident_0065" xml:lang="en">
+            <ab>
+              <lb/><rs type="place" ref="#amp_place_id_377">EAST END</rs>,
+              <lb/><rs type="place" ref="#amp_place_id_378">ST. CUTHBERT'S CHURCH</rs>, <rs type="place" ref="#amp_place_id_234">KENSINGTON</rs>.
+            </ab>
+          </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00252/" ed="1v" type="card"/>
+          <div hand="#hand_blue_auden">
+            <ab>
+              <lb/><rs type="person" ref="#amp_person_107">Herrn
+              <lb/>Hugo Kurka</rs>
+              <address>
+                <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
+                <lb/>A<unclear>d</unclear>albert Stiftergasse 22/28</rs>
+              </address>   
+            </ab>
+          </div>
+          <div hand="#print_brown_unident_0065" xml:lang="en">
+            <ab>
+              <seg>
+                <lb/>POST CARD
+              </seg>
+              <seg>
+                <lb/>BRITISH MADE
+              </seg>
+              <seg>
+                <lb/>CORRESPONDENCE ADDRES<del rend="overlaid">S ONLY</del>
+              </seg>
+            </ab>
+            <ab>
+              <lb/>Photo by - <rs type="org" ref="#amp_organization_112">Larkin Bros. Ltd.</rs>, <rs type="place" ref="#amp_place_id_56">London</rs>, W.C.<unclear>I.</unclear>
+            </ab>
+          </div>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <opener>
+              <salute>
+                <lb/>Lieber <rs type="person" ref="#amp_person_107">Hugo</rs>:
+              </salute>
+            </opener>
+            <p>
+              <lb/>Habe den <unclear>Helurschucken</unclear> für
+              <lb/>dein<unclear>e</unclear> Blazers.
+            </p>
+            <p>
+              <lb/>Komm <unclear>z</unclear>u Dir Mittwoch
+              <lb/><unclear><subst><del rend="overwritten" hand="#hand_blue_auden">a</del><add place="superimposed" hand="#hand_blue_auden">A</add></subst></unclear>bend<unclear><subst><del rend="overwritten" hand="#hand_blue_auden">.</del><add place="superimposed" hand="#hand_blue_auden">(</add></subst></unclear>26<hi rend="superscript">ten</hi>)
+            </p>
+            <closer>
+              <salute>
+                <lb/>d<unclear>e</unclear>in
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
+              </signed>
+            </closer>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

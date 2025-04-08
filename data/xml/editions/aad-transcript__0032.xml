@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0032" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
   <teiHeader>
     <fileDesc>
@@ -29,15 +26,24 @@
           <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1964-08-18</title>
           <interpGrp>
             <interp xml:id="ana_065">
-              <desc>An entry dated 17-21 August 1964 in W. H. Auden's Kirchstetten guest book suggests that "Gäste" refers to two visitors staying at Auden and Kallman's Austrian home: the <rs ref="#amp_person_254">first of these</rs> <rs>can be identified as</rs> <rs ref="#amp_person_96">their close friend (and later biographer) Thekla Clark</rs>; <rs ref="#amp_person_255">the second</rs> <rs>as</rs> <rs ref="#amp_person_95">her husband John Clark</rs>.
-                <bibl>
-                  <title>Auden, Wystan Hugh, 1907-1973: Guest book: Kirchstetten, signatures and notes written in album, 82 pages, 1959-1974</title>
+              <desc> 
+                An entry dated 17-21 August 1964 in W. H. Auden's Kirchstetten guest book suggests that 
+                <rs type="person" ref="#amp_person_254" about="https://aad.acdh.oeaw.ac.at/amp_person_254.html" typeof="crm:E74_Group">
+                  <rs property="rdfs:label">Gäste</rs>
+                  <rs rel="crm:P107_has_current_or_former_member">comprised
+                    <rs type="person" ref="#amp_person_96" resource="wd:Q62566483" typeof="crm:E21_Person">Auden and Kallman's close friend (and later biographer) <persName property="rdfs:label">Thekla Clark</persName></rs> and 
+                    <rs type="person" ref="#amp_person_95" resource="wd:Q123679692" typeof="crm:E21_Person">her husband <persName property="rdfs:label">John Clark</persName></rs>
+                  </rs>
+                </rs>.
+                <bibl ref="#lit_work_id_213" about="https://aad.acdh.oeaw.ac.at/lit_work_id_213.html" typeof="crm:E31_Document"><!-- review -->
+                  <title property="dc:title">Auden, Wystan Hugh, 1907-1973: Guest book: Kirchstetten, signatures and notes written in album, 82 pages, 1959-1974</title><!-- review -->
+                  <date notBefore-iso="1959-01-01T00:00:00+01:00" notAfter-iso="1974-12-31T23:59:59+01:00" property="dc:date" content="1959-01-01T00:00:00+01:00/1974-12-31T23:59:59+01:00"/><!-- review -->
                   <msIdentifier>
                     <country ref="https://d-nb.info/gnd/4078704-7"/>
-                    <settlement ref="https://d-nb.info/gnd/4079879-3"/>
-                    <repository ref="https://d-nb.info/gnd/3018790-4"/>
-                    <collection>W. H. (Wystan Hugh) Auden Collection</collection>
-                    <idno>Miscellaneous: Container 2.7</idno>
+                    <settlement ref="https://d-nb.info/gnd/4079879-3" rel="crm:P55_has_current_location" resource="wd:Q16559"/><!-- review -->
+                    <repository ref="https://d-nb.info/gnd/3018790-4" rel="crm:P50_has_current_keeper" resource="wd:Q5671855"/><!-- review -->
+                    <collection property="crm:P46i_forms_part_of">W. H. (Wystan Hugh) Auden Collection</collection><!-- review -->
+                    <idno property="dc:identifier">Miscellaneous: Container 2.7</idno><!-- review -->
                   </msIdentifier>
                   <biblScope unit="page" from="1" to="82"/>
                   <citedRange unit="page" from="12" to="12"/>
@@ -128,6 +134,10 @@
     <encodingDesc>
       <listPrefixDef>
         <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+        <prefixDef ident="crm" matchPattern="([A-Za-z]+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/>
+        <prefixDef ident="rdfs" matchPattern="([A-Za-z]+)" replacementPattern="http://www.w3.org/2000/01/rdf-schema#$1"/>
+        <prefixDef ident="wd" matchPattern="([A-Za-z]+)" replacementPattern="https://www.wikidata.org/entity/$1"/>
+        <prefixDef ident="dc" matchPattern="([A-Za-z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><!-- review -->
       </listPrefixDef>
     </encodingDesc>
     <profileDesc>
@@ -143,7 +153,7 @@
         </correspAction>
         <correspAction type="received">
           <persName ref="#amp_person_107">Kurka, Hugo</persName>
-          <placeName><rs type="place" ref="#amp_place_id_356">Adalbert-Stifter-Straße 22</rs></placeName>
+          <placeName><rs type="place" ref="#amp_place_id_1">Vienna</rs></placeName>
         </correspAction>
       </correspDesc>
     </profileDesc>

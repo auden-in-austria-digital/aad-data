@@ -4,7 +4,7 @@
     <fileDesc>
       <titleStmt>
         <title level="s">Auden in Austria Digital (AAD)</title>
-        <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1960-08-29--1968-07-29</title>
+        <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1961-07-29--1968-07-29</title>
         <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
         <editor>
           <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
@@ -23,9 +23,9 @@
       </titleStmt>
       <editionStmt>
         <edition>
-          <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1960-08-29--1968-07-29</title>
+          <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1961-07-29--1968-07-29</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_090">
               <desc/>
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -97,7 +97,7 @@
               </physDesc>
               <history>
                 <origin>
-                  <origDate notBefore-iso="1960-08-29T00:00:00+01:00" notAfter-iso="1968-07-29T12:00:00+01:00"/>
+                  <origDate notBefore-iso="1961-07-29T00:00:00+01:00" notAfter-iso="1968-07-29T12:00:00+01:00" ana="#ana_090"/>
                   <origPlace ref="https://d-nb.info/gnd/4801892-2">Kirchstetten</origPlace>
                 </origin>
               </history>
@@ -123,11 +123,11 @@
         <correspAction type="sent">
           <orgName><rs type="org" ref="#amp_organization_70">Post office Kirchstetten</rs></orgName>
           <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
-          <date notBefore-iso="1960-08-29T11:00:01+01:00" notAfter-iso="1968-07-29T12:00:00+01:00"/>
+          <date notBefore-iso="1961-07-29T11:00:01+01:00" notAfter-iso="1968-07-29T12:00:00+01:00" ana="#ana_090"/>
         </correspAction>
         <correspAction type="received">
           <persName ref="#amp_person_107">Kurka, Hugo</persName>
-          <placeName><rs type="place" ref="#amp_place_id_356">Adalbert-Stifter-Straße 22</rs></placeName>
+          <placeName><rs type="place" ref="#amp_place_id_1">Vienna</rs></placeName>
         </correspAction>
       </correspDesc>
     </profileDesc>

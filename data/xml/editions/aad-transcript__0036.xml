@@ -127,7 +127,7 @@
         </correspAction>
         <correspAction type="received">
           <persName ref="#amp_person_107">Kurka, Hugo</persName>
-          <placeName><rs type="place" ref="#amp_place_id_356">Adalbert-Stifter-Straße 22</rs></placeName>
+          <placeName><rs type="place" ref="#amp_place_id_1">Vienna</rs></placeName>
         </correspAction>
       </correspDesc>
     </profileDesc>
@@ -217,7 +217,7 @@
             <postscript>
               <p>
                 <lb/><unclear>P</unclear>.S. Wahrsheinlich haben sie gelesen von d<unclear>e</unclear>r
-                <lb/><rs type="event" ref="#amp_event_id_4">'<foreign xml:lang="en">Blackout</foreign>' in <rs type="place" ref="#amp_place_id_28">New Yo<gap reason="illegible" unit="char" quantity="1"/>k</rs> am 9<hi rend="superscript">ten</hi></rs>. Es
+                <lb/><rs type="event" ref="#amp_event_id_4">'<foreign xml:lang="en">Blackout</foreign>' in <rs type="place" ref="#amp_place_id_28">New York</rs> am 9<hi rend="superscript">ten</hi></rs>. Es
                 <lb/>war was<unclear>!</unclear>
               </p>
             </postscript>

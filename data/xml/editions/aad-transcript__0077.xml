@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0077" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Autograph Card W. H. Auden and Chester Kallman to Christa Kurka and Hugo Kurka 1961-05-28</title>
+        <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
+        <author ref="https://d-nb.info/gnd/119544911">Kallman, Chester</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Autograph Card W. H. Auden and Chester Kallman to Christa Kurka and Hugo Kurka 1961-05-28</title>
+          <interpGrp>
+            <interp>
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <repository ref="https://d-nb.info/gnd/1108283586">State Collections of Lower Austria</repository>
+                <collection>W. H. Auden Collection</collection>
+                <idno>Correspondence Hugo Kurka 077</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark/>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00277/">
+                        <width>144</width>
+                        <height>105</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00278/">
+                        <width>144</width>
+                        <height>105</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
+                  <handNote xml:id="hand_blue_kallman" scribeRef="#amp_person_4" medium="ink-blue">Handwriting in blue ink by Chester Kallman</handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="print_blue_aune" scribeRef="#amp_organization_144" medium="print-blue">Preprinted writing in blue authored by Knut Aune Kunstforlag A/S, sans-serif typeface</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1961-05-28T00:00:00+02:00" notAfter-iso="1961-05-28T23:59:59+02:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4042640-3">Kingdom of Norway</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de"/>
+        <language ident="en"/>
+        <language ident="no"/>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent" subtype="airmail">
+          <orgName><rs type="org" ref="#amp_organization_146">Shipboard post office Trondheim - Kirkenes</rs></orgName>
+          <placeName><rs type="place" ref="#amp_place_id_383">Kingdom of Norway</rs></placeName>
+          <date notBefore-iso="1961-05-28T00:00:00+02:00" notAfter-iso="1961-05-28T23:59:59+02:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_240">Kurka, Christa</persName>
+          <persName ref="#amp_person_107">Kurka, Hugo</persName>
+          <placeName><rs type="place" ref="#amp_place_id_1">Vienna</rs></placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#tfruehwirth" when-iso="2025-03-18">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2025-03-18">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-03-19">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="2484" lry="1862">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00277/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="2486" lry="1894">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00278/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0077" xml:lang="de">
+        <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00277/" ed="1r" type="card"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00278/" ed="1v" type="card"/>
+          <div hand="#print_blue_aune">
+            <ab>
+              <seg xml:lang="en">
+                <lb/>Norway. Midnight Sun at <rs type="place" ref="#amp_place_id_401">Hammerfest</rs>.
+              </seg>
+              <seg xml:lang="no">
+                <lb/>F-54-7. Midnattsol ved <rs type="place" ref="#amp_place_id_401">Hammerfest</rs>.
+              </seg>
+            </ab>
+          </div>
+          <div type="letter_message">
+            <opener hand="#hand_blue_kallman">
+              <dateline>
+                <date>
+                  <lb/>28-5-61
+                </date>
+              </dateline>
+            </opener>
+            <p hand="#hand_blue_kallman">
+              <lb/>Schön ! Aber &#x2013; brauch ich das?
+              <lb/>und die Fjörden. . . Doch,
+              <lb/>wenn <unclear><subst><del rend="overwritten" hand="#hand_blue_kallman"><gap reason="illegible" unit="char" quantity="1"/></del><add place="superimposed" hand="#hand_blue_kallman">m</add></subst></unclear>ann Fisch liebt, hier
+              <lb/>findet mann Paradies.
+            </p>
+            <closer>
+              <signed hand="#hand_blue_kallman">
+                <lb/><rs type="person" ref="#amp_person_4">Die See<unclear>K</unclear>önigin (ex-Bauergräfin)</rs>
+              </signed>
+              <signed hand="#hand_blue_auden">
+                <lb/><rs type="person" ref="#amp_person_1">Der <del rend="overstrike" hand="#hand_blue_auden">A</del>alter D<unclear>i</unclear>cker</rs>.
+              </signed>
+            </closer>
+          </div>
+          <div hand="#print_blue_aune" xml:lang="no">
+            <ab>
+              <lb/><rs type="org" ref="#amp_organization_145">ULTRA</rs>
+            </ab>
+            <ab>
+              <lb/>ENERETT: <rs type="org" ref="#amp_organization_144">KNUT Aune KUNSTFORLAG</rs> - <foreign xml:lang="en">PRINTED IN <rs type="place" ref="#amp_place_id_383">NORWAY</rs></foreign>
+            </ab>
+          </div>
+          <div>
+            <ab hand="#hand_blue_kallman">
+              <lb/><rs type="person" ref="#amp_person_107">Hugo</rs> u. <rs type="person" ref="#amp_person_240">Christa KURKA</rs>
+              <address>
+                <lb/><rs type="place" ref="#amp_place_id_371">WIEN IX
+                <lb/>MÜLLNERGASSE 14/4
+                <lb/>ÖSTERREICH</rs>
+              </address>   
+            </ab>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

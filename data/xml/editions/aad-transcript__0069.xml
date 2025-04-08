@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0069" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Autograph Card Signed Chester Kallman to Christa Kurka and Hugo Kurka 1961-05-01</title>
+        <author ref="https://d-nb.info/gnd/119544911">Kallman, Chester</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Autograph Card Signed Chester Kallman to Christa Kurka and Hugo Kurka 1961-05-01</title>
+          <interpGrp>
+            <interp>
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <repository ref="https://d-nb.info/gnd/1108283586">State Collections of Lower Austria</repository>
+                <collection>W. H. Auden Collection</collection>
+                <idno>Correspondence Hugo Kurka 069</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark/>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00259/">
+                        <width>148</width>
+                        <height>105</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00260/">
+                        <width>148</width>
+                        <height>105</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_blue_kallman" scribeRef="#amp_person_4" medium="ink-blue">Handwriting in blue ink by Chester Kallman</handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="print_brown_lengauer" scribeRef="#amp_organization_148" medium="print-brown">Preprinted writing in brown authored by Münchener Bildkunstverlag August Lengauer, sans-serif typeface</typeNote>
+                  <typeNote xml:id="print_white_lengauer" scribeRef="#amp_organization_148" medium="print-white">Preprinted writing in white authored by Münchener Bildkunstverlag August Lengauer, sans-serif typeface</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1961-05-01T00:00:00+01:00" notAfter-iso="1961-05-01T23:00:00+01:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4127793-4">München</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de"/>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <orgName><rs type="org" ref="#amp_organization_119">Munich railway post office</rs></orgName>
+          <placeName><rs type="place" ref="#amp_place_id_26">Munich</rs></placeName>
+          <date notBefore-iso="1961-05-01T22:00:01+01:00" notAfter-iso="1961-05-01T23:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_240">Kurka, Christa</persName>
+          <persName ref="#amp_person_107">Kurka, Hugo</persName>
+          <placeName><rs type="place" ref="#amp_place_id_1">Vienna</rs></placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#tfruehwirth" when-iso="2025-03-04">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2025-03-05">Text transcribed; physDesc and profileDesc populated; hands, languages, correspondence container structure, and entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="2560" lry="1898">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00259/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="2566" lry="1896">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00260/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0069" xml:lang="de">
+        <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00259/" ed="1r" type="card"/>
+          <div hand="#print_white_lengauer">
+            <ab>
+              <lb/><rs type="place" ref="#amp_place_id_26">München</rs>. <rs type="place" ref="#amp_place_id_386">Karlsplatz</rs>-Rondell
+            </ab>
+          </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00260/" ed="1v" type="card"/>
+          <div hand="#print_brown_lengauer">
+            <ab>
+              <lb/><rs type="place" ref="#amp_place_id_26">MÜNCHEN</rs>
+            </ab>
+            <ab>
+              <seg>
+                <lb/><rs type="place" ref="#amp_place_id_386">Karlsplatz-Rondell</rs>
+              </seg>
+              <seg>
+                <lb/>Segment of <rs type="place" ref="#amp_place_id_386">Karlsplatz</rs>
+              </seg>
+              <seg>
+                <lb/>Rond Point de la <rs type="place" ref="#amp_place_id_386">Karlsplatz</rs>
+              </seg>
+            </ab>
+          </div>
+          <div type="letter_message" hand="#hand_blue_kallman">
+            <p>
+              <lb/>Kei<unclear>n</unclear> Blumen für mich !
+            </p>
+            <closer>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_4">C.</rs>
+              </signed>
+            </closer>
+          </div>
+          <div hand="#print_brown_lengauer">
+            <ab>
+              <seg>
+                <lb/>Nr. 832
+              </seg>
+              <seg>
+                <lb/><rs type="org" ref="#amp_organization_118">Bahnhofsbuchhandlung Max Sussmann</rs>,
+                <lb/><rs type="place" ref="#amp_place_id_387">München - Hauptbahnhof</rs>
+              </seg>
+            </ab>
+            <ab>
+              <lb/><rs type="org" ref="#amp_organization_148">LENGAUER</rs>
+              <lb/>KARTE
+            </ab>
+            <ab>
+              <lb/>Urheberrechtlich geschützt
+            </ab>
+          </div>
+          <div hand="#hand_blue_kallman">
+            <ab>
+              <lb/><rs type="person" ref="#amp_person_107">Her<unclear>rn</unclear></rs><unclear>+</unclear><rs type="person" ref="#amp_person_240">Frau KURKA</rs>
+              <address>
+                <lb/><rs type="place" ref="#amp_place_id_371">WIEN IX
+                <lb/>MÜLLNERGASSE  14/4
+                <lb/>Österreich</rs>
+              </address>   
+            </ab>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

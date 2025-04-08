@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0075" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Autograph Card Signed W. H. Auden, Chester Kallman, and Konstantin Pittas to Hugo Kurka 1964-09-10--1968-11-24</title>
+        <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
+        <author ref="https://d-nb.info/gnd/119544911">Kallman, Chester</author>
+        <author ana="#ana_085">Pittas, Konstantin</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Autograph Card Signed W. H. Auden, Chester Kallman, and Konstantin Pittas to Hugo Kurka 1964-09-10--1968-11-24</title>
+          <interpGrp>
+            <interp xml:id="ana_085">
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+            <interp xml:id="ana_086">
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <repository ref="https://d-nb.info/gnd/1108283586">State Collections of Lower Austria</repository>
+                <collection>W. H. Auden Collection</collection>
+                <idno>Correspondence Hugo Kurka 075</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark/>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00273/">
+                        <width>147</width>
+                        <height>102</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00274/">
+                        <width>147</width>
+                        <height>102</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
+                  <handNote xml:id="hand_blue_kallman" scribeRef="#amp_person_4" medium="ink-blue">Handwriting in blue ink by Chester Kallman</handNote>
+                  <handNote xml:id="hand_blue_pittas" scribeRef="#amp_person_251" medium="ink-blue" ana="#ana_085">Handwriting in blue ink by Konstantin Pittas</handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="print_gray_alterocca" scribeRef="#amp_organization_142" medium="print-gray">Preprinted writing in gray authored by Stabilimento poligrafico Alterocca S.A., serif and sans-serif typefaces</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1964-09-10T00:00:00+01:00" notAfter-iso="1968-11-24T23:59:59+01:00" ana="#ana_085"/>
+                  <origPlace ref="https://d-nb.info/gnd/4381880-8">Forio</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de"/>
+        <language ident="en"/>
+        <language ident="fr"/>
+        <language ident="it"/>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent" subtype="airmail">
+          <placeName><rs type="place" ref="#amp_place_id_398" ana="#ana_086">Naples</rs></placeName>
+          <date notBefore-iso="1964-09-10T00:00:00+01:00" notAfter-iso="1968-11-24T23:59:59+01:00" ana="#ana_085"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_107">Kurka, Hugo</persName>
+          <placeName><rs type="place" ref="#amp_place_id_1">Vienna</rs></placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#tfruehwirth" when-iso="2025-03-13">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2025-03-13">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-03-17">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="2542" lry="1824">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00273/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="2540" lry="1848">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00274/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0075" xml:lang="de">
+        <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00273/" ed="1r" type="card"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00274/" ed="1v" type="card"/>
+          <div hand="#hand_blue_auden" xml:lang="it">
+            <ab>
+              <lb/>Via <hi rend="underline" hand="#hand_blue_auden">A</hi>erea
+            </ab>
+          </div>
+          <div hand="#print_gray_alterocca" xml:lang="it">
+            <ab>
+              <seg>
+                <lb/><rs type="place" ref="#amp_place_id_399">LACCO AMENO</rs>
+              </seg>
+              <seg>
+                <seg>
+                  <lb/>Panorama di notte
+                </seg>
+                <seg xml:lang="en">
+                  <lb/>Panorama by night
+                </seg>
+                <seg xml:lang="fr">
+                  <lb/>Panorama de nuit
+                </seg>
+                <seg xml:lang="de">
+                  <lb/>Panorama bei Nacht
+                </seg>
+              </seg>
+            </ab>
+          </div>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <p>
+              <lb/>Bin in <rs type="place" ref="#amp_place_id_159">Italien</rs> für
+              <lb/>eine Woche.
+            </p>
+            <closer>
+              <salute>
+                <lb/>Alles Gutes
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
+              </signed>
+            </closer>
+          </div>
+          <div type="letter_message" hand="#hand_blue_kallman">
+            <p>
+              <lb/>Ich auch&#x2013;und<hi rend="underline" hand="#hand_blue_kallman"> sehr</hi> <unclear>K</unclear>alt ist'<unclear><hi rend="underline" hand="#hand_blue_kallman"><subst><del rend="overwritten whiteout" hand="#hand_blue_kallman">e</del><add place="superimposed" hand="#hand_blue_kallman">s</add></subst></hi><del rend="whiteout" hand="#hand_blue_kallman">.</del></unclear>
+              <lb/>für eine Griechische Wei<unclear>b.</unclear>
+            </p>
+            <closer>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_4">Chester</rs>.
+              </signed>
+            </closer>
+          </div>
+          <div type="letter_message" hand="#hand_blue_pittas">
+            <p>
+              <lb/>mit beste Grüsse
+              <lb/>aus <rs type="place" ref="#amp_place_id_400">Forio</rs>,<rs type="person" ref="#amp_person_251" ana="#ana_085">Konstantin</rs>
+            </p>
+            <ab>
+              <lb/><gap reason="illegible" unit="char" atLeast="1"/>
+            </ab>
+          </div>
+          <div hand="#print_gray_alterocca" xml:lang="it">
+            <ab>
+              <lb/>F. 63984
+            </ab>
+            <ab>
+              <lb/><rs type="org" ref="#amp_organization_142">ALTEROCCA</rs>
+              <lb/><rs type="place" ref="#amp_place_id_397">TERNI</rs>
+            </ab>
+            <ab>
+              <lb/>FOTOCOLOR - RIPRODUZIONE VIETATA
+            </ab>
+          </div>
+          <div hand="#hand_blue_auden">
+            <ab>
+              <lb/><rs type="person" ref="#amp_person_107">Her<unclear>r</unclear>n
+              <lb/>Hugo Kurka</rs>
+              <address>
+                <lb/><rs type="place" ref="#amp_place_id_356">Wien XX
+                <lb/>Adalbert Stiftergasse
+                <lb/>22/28
+                <lb/>Austria</rs>
+              </address>   
+            </ab>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
