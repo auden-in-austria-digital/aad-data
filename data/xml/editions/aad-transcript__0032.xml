@@ -35,14 +35,15 @@
                     <rs type="person" ref="#amp_person_95" resource="wd:Q123679692" typeof="crm:E21_Person">her husband <persName property="rdfs:label">John Clark</persName></rs>
                   </rs>
                 </rs>.
-                <bibl ref="#lit_work_id_213" about="https://aad.acdh.oeaw.ac.at/lit_work_id_213.html">
-                  <title property="dc:title">Auden, Wystan Hugh, 1907-1973: Guest book: Kirchstetten, signatures and notes written in album, 82 pages, 1959-1974</title>
+                <bibl ref="#lit_work_id_213" about="https://aad.acdh.oeaw.ac.at/lit_work_id_213.html" typeof="crm:E31_Document"><!-- review -->
+                  <title property="dc:title">Auden, Wystan Hugh, 1907-1973: Guest book: Kirchstetten, signatures and notes written in album, 82 pages, 1959-1974</title><!-- review -->
+                  <date notBefore-iso="1959-01-01T00:00:00+01:00" notAfter-iso="1974-12-31T23:59:59+01:00" property="dc:date" content="1959-01-01T00:00:00+01:00/1974-12-31T23:59:59+01:00"/><!-- review -->
                   <msIdentifier>
                     <country ref="https://d-nb.info/gnd/4078704-7"/>
-                    <settlement ref="https://d-nb.info/gnd/4079879-3"/>
-                    <repository ref="https://d-nb.info/gnd/3018790-4"/>
-                    <collection>W. H. (Wystan Hugh) Auden Collection</collection>
-                    <idno property="dc:identifier">Miscellaneous: Container 2.7</idno>
+                    <settlement ref="https://d-nb.info/gnd/4079879-3" rel="crm:P55_has_current_location" resource="wd:Q16559"/><!-- review -->
+                    <repository ref="https://d-nb.info/gnd/3018790-4" rel="crm:P50_has_current_keeper" resource="wd:Q5671855"/><!-- review -->
+                    <collection property="crm:P46i_forms_part_of">W. H. (Wystan Hugh) Auden Collection</collection><!-- review -->
+                    <idno property="dc:identifier">Miscellaneous: Container 2.7</idno><!-- review -->
                   </msIdentifier>
                   <biblScope unit="page" from="1" to="82"/>
                   <citedRange unit="page" from="12" to="12"/>
@@ -136,6 +137,7 @@
         <prefixDef ident="crm" matchPattern="([A-Za-z]+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/>
         <prefixDef ident="rdfs" matchPattern="([A-Za-z]+)" replacementPattern="http://www.w3.org/2000/01/rdf-schema#$1"/>
         <prefixDef ident="wd" matchPattern="([A-Za-z]+)" replacementPattern="https://www.wikidata.org/entity/$1"/>
+        <prefixDef ident="dc" matchPattern="([A-Za-z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><!-- review -->
       </listPrefixDef>
     </encodingDesc>
     <profileDesc>
