@@ -37,12 +37,12 @@
                 </rs>.
                 <bibl ref="#lit_work_id_213" about="https://aad.acdh.oeaw.ac.at/lit_work_id_213.html" typeof="crm:E31_Document"><!-- review -->
                   <title property="dc:title">Auden, Wystan Hugh, 1907-1973: Guest book: Kirchstetten, signatures and notes written in album, 82 pages, 1959-1974</title><!-- review -->
-                  <date notBefore-iso="1959-01-01T00:00:00+01:00" notAfter-iso="1974-12-31T23:59:59+01:00" property="dc:date" content="1959-01-01T00:00:00+01:00/1974-12-31T23:59:59+01:00"/><!-- review -->
+                  <date notBefore-iso="1959-01-01T00:00:00+01:00" notAfter-iso="1974-12-31T23:59:59+01:00" property="dc:date" content="1959-01-01T00:00:00+01:00/1974-12-31T23:59:59+01:00"/><!-- xsd data type? -->
                   <msIdentifier>
                     <country ref="https://d-nb.info/gnd/4078704-7"/>
                     <settlement ref="https://d-nb.info/gnd/4079879-3" rel="crm:P55_has_current_location" resource="wd:Q16559"/><!-- review -->
                     <repository ref="https://d-nb.info/gnd/3018790-4" rel="crm:P50_has_current_keeper" resource="wd:Q5671855"/><!-- review -->
-                    <collection property="crm:P46i_forms_part_of">W. H. (Wystan Hugh) Auden Collection</collection><!-- review -->
+                    <collection>W. H. (Wystan Hugh) Auden Collection</collection><!-- crm p46i possible with literal? -->
                     <idno property="dc:identifier">Miscellaneous: Container 2.7</idno><!-- review -->
                   </msIdentifier>
                   <biblScope unit="page" from="1" to="82"/>
