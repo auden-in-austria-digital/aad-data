@@ -25,31 +25,31 @@ dtype: int64
 ### `df.info()`
 ```
 <class 'pandas.core.frame.DataFrame'>
-RangeIndex: 306 entries, 0 to 305
+RangeIndex: 308 entries, 0 to 307
 Data columns (total 19 columns):
  #   Column          Non-Null Count  Dtype 
 ---  ------          --------------  ----- 
- 0   img             306 non-null    int64 
- 1   lrx             306 non-null    int64 
- 2   lry             306 non-null    int64 
- 3   width           306 non-null    int64 
- 4   height          306 non-null    int64 
- 5   type            306 non-null    object
- 6   ed              306 non-null    object
- 7   doc             306 non-null    object
- 8   title           306 non-null    object
- 9   author          306 non-null    object
- 10  author-uri      306 non-null    object
- 11  notBefore-iso   306 non-null    object
- 12  notAfter-iso    306 non-null    object
- 13  place           306 non-null    object
- 14  place-uri       306 non-null    object
- 15  repository      306 non-null    object
- 16  repository-uri  306 non-null    object
- 17  collection      306 non-null    object
- 18  idno            306 non-null    object
+ 0   img             308 non-null    int64 
+ 1   lrx             308 non-null    int64 
+ 2   lry             308 non-null    int64 
+ 3   width           308 non-null    int64 
+ 4   height          308 non-null    int64 
+ 5   type            308 non-null    object
+ 6   ed              308 non-null    object
+ 7   doc             308 non-null    object
+ 8   title           308 non-null    object
+ 9   author          308 non-null    object
+ 10  author-uri      308 non-null    object
+ 11  notBefore-iso   308 non-null    object
+ 12  notAfter-iso    308 non-null    object
+ 13  place           308 non-null    object
+ 14  place-uri       308 non-null    object
+ 15  repository      308 non-null    object
+ 16  repository-uri  308 non-null    object
+ 17  collection      308 non-null    object
+ 18  idno            308 non-null    object
 dtypes: int64(5), object(14)
-memory usage: 45.6+ KB
+memory usage: 45.8+ KB
 
 ```
 ### cleaned document data
@@ -150,6 +150,7 @@ doc
 0092           Auden, W. H.                                                         Autograph Letter Signed W. H. Auden to Hilde Spiel 1972-08-03       Kirchstetten
 0093           Auden, W. H.                                                         Autograph Letter Signed W. H. Auden to Hilde Spiel 1972-08-16       Kirchstetten
 0094           Auden, W. H.                                                         Autograph Letter Signed W. H. Auden to Hilde Spiel 1972-08-18       Kirchstetten
+0095           Auden, W. H.                                                         Autograph Letter Signed W. H. Auden to Hilde Spiel 1972-08-23       Kirchstetten
 ```
 ### scatter plot
 
