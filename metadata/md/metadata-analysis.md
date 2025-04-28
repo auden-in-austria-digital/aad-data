@@ -25,31 +25,31 @@ dtype: int64
 ### `df.info()`
 ```
 <class 'pandas.core.frame.DataFrame'>
-RangeIndex: 288 entries, 0 to 287
+RangeIndex: 300 entries, 0 to 299
 Data columns (total 19 columns):
  #   Column          Non-Null Count  Dtype 
 ---  ------          --------------  ----- 
- 0   img             288 non-null    int64 
- 1   lrx             288 non-null    int64 
- 2   lry             288 non-null    int64 
- 3   width           288 non-null    int64 
- 4   height          288 non-null    int64 
- 5   type            288 non-null    object
- 6   ed              288 non-null    object
- 7   doc             288 non-null    object
- 8   title           288 non-null    object
- 9   author          288 non-null    object
- 10  author-uri      288 non-null    object
- 11  notBefore-iso   288 non-null    object
- 12  notAfter-iso    288 non-null    object
- 13  place           288 non-null    object
- 14  place-uri       288 non-null    object
- 15  repository      288 non-null    object
- 16  repository-uri  288 non-null    object
- 17  collection      288 non-null    object
- 18  idno            288 non-null    object
+ 0   img             300 non-null    int64 
+ 1   lrx             300 non-null    int64 
+ 2   lry             300 non-null    int64 
+ 3   width           300 non-null    int64 
+ 4   height          300 non-null    int64 
+ 5   type            300 non-null    object
+ 6   ed              300 non-null    object
+ 7   doc             300 non-null    object
+ 8   title           300 non-null    object
+ 9   author          300 non-null    object
+ 10  author-uri      300 non-null    object
+ 11  notBefore-iso   300 non-null    object
+ 12  notAfter-iso    300 non-null    object
+ 13  place           300 non-null    object
+ 14  place-uri       300 non-null    object
+ 15  repository      300 non-null    object
+ 16  repository-uri  300 non-null    object
+ 17  collection      300 non-null    object
+ 18  idno            300 non-null    object
 dtypes: int64(5), object(14)
-memory usage: 42.9+ KB
+memory usage: 44.7+ KB
 
 ```
 ### cleaned document data
@@ -141,6 +141,12 @@ doc
 0083                   N.N.                                                                              Printed Card N.N. 1973-10-01--1973-10-04         St. Pölten
 0084       Kallman, Chester                         Printed Notice Bernard Auden, John Bicknell Auden, and Chester Kallman 1973-10-01--1973-10-02        Neulengbach
 0085           Auden, W. H.                   Photograph Horst Tappe of W. H. Auden with Autograph Note Signed W. H. Auden 1965-01-01--1965-12-31               N.N.
+0086           Auden, W. H.                                                         Autograph Letter Signed W. H. Auden to Hilde Spiel 1966-09-17       Kirchstetten
+0087           Auden, W. H.                                                         Autograph Letter Signed W. H. Auden to Hilde Spiel 1970-09-21       Kirchstetten
+0088           Auden, W. H.                                                         Autograph Letter Signed W. H. Auden to Hilde Spiel 1969-10-05       Kirchstetten
+0089           Auden, W. H.                                                         Autograph Letter Signed W. H. Auden to Hilde Spiel 1971-06-15       Kirchstetten
+0090           Auden, W. H.                                                             Typed Letter Signed W. H. Auden to Hilde Spiel 1972-07-19       Kirchstetten
+0091           Auden, W. H.                                                         Autograph Letter Signed W. H. Auden to Hilde Spiel 1972-07-26       Kirchstetten
 ```
 ### scatter plot
 
