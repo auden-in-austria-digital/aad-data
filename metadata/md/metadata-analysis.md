@@ -1,4 +1,5 @@
 ## `input_img_id.csv` analysis report
+
 ### `df.isnull().sum()`
 ```
 img               0
@@ -22,6 +23,7 @@ collection        0
 idno              0
 dtype: int64
 ```
+
 ### `df.info()`
 ```
 <class 'pandas.core.frame.DataFrame'>
@@ -52,6 +54,7 @@ dtypes: int64(5), object(14)
 memory usage: 50.0+ KB
 
 ```
+
 ### cleaned document data
 ```
                      author                                                                                                                                                     title                          place
@@ -160,6 +163,11 @@ doc
 0102           Spiel, Hilde                                                                                                   Copy Typed Letter Hilde Spiel to W. H. Auden 1972-08-15  St. Wolfgang im Salzkammergut
 0103           Spiel, Hilde  Copy Typed Letter Hilde Spiel to Bruno Kreisky with Copy Typescript Hilde Spiel Translation W. H. Auden Statement to Austrian Tax Authorities 1972-08-25  St. Wolfgang im Salzkammergut
 ```
-### scatter plot
+
+### Monthly Distribution
 
 ![number of documents per month by author](docs_per_month_by_author.png)
+
+### Annual Summary
+
+![annual document count by author](annual_docs_by_author.png)
