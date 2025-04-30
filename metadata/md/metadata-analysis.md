@@ -164,10 +164,10 @@ doc
 0103           Spiel, Hilde  Copy Typed Letter Hilde Spiel to Bruno Kreisky with Copy Typescript Hilde Spiel Translation W. H. Auden Statement to Austrian Tax Authorities 1972-08-25  St. Wolfgang im Salzkammergut
 ```
 
-### Monthly Distribution
+### distribution per month
 
 ![number of documents per month by author](docs_per_month_by_author.png)
 
-### Annual Summary
+### distribution per year
 
 ![annual document count by author](annual_docs_by_author.png)
