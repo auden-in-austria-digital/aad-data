@@ -46,10 +46,12 @@ plt.savefig('./metadata/md/docs_per_month.png')  # save figure
 
 # create author-based dataframes
 df_auden = df_date[df_date['author'] == 'Auden, W. H.']
-df_other = df_date[df_date['author'] != 'Auden, W. H.']
+df_kallman = df_date[df_date['author'] == 'Kallman, Chester']
+df_other = df_date[(df_date['author'] != 'Auden, W. H.') & (df_date['author'] != 'Kallman, Chester')]
 
 # resample into groups by month, count document number per group in series, filter out zero values
 monthly_auden = df_auden.resample('ME').size()[lambda x: x > 0]
+monthly_kallman = df_kallman.resample('ME').size()[lambda x: x > 0]
 monthly_other = df_other.resample('ME').size()[lambda x: x > 0]
 
 plt.figure(figsize=(10, 5))  # initialize figure, set dimensions in inches
@@ -57,6 +59,7 @@ plt.figure(figsize=(10, 5))  # initialize figure, set dimensions in inches
 offset = pd.DateOffset(days=7)  # introduce x-axis offset
 
 plt.scatter(monthly_auden.index - offset, monthly_auden, color='#000080', label='W. H. Auden', marker='.')  # plot Auden documents with offset
+plt.scatter(monthly_kallman.index, monthly_kallman, color='#008000', label='Chester Kallman', marker='.')  # plot Kallman documents with no offset
 plt.scatter(monthly_other.index + offset, monthly_other, color='#FFDB58', label='other', marker='.')  # plot other documents with reverse offset
 
 plt.gca().yaxis.set_major_locator(plt.MaxNLocator(integer=True))  # retrieve axes, set y-axis ticks to integers
