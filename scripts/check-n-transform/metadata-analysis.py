@@ -1,89 +1,215 @@
-import pandas as pd  # import pandas library
-import matplotlib.pyplot as plt  # import pyplot submodule of matplotlib library
-from io import StringIO  # import StringIO functionality from io module
+import pandas as pd
+import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
+from io import StringIO
+import numpy as np
 
-# inspect input_img_id.csv
 
-df = pd.read_csv('./metadata/csv/input_img_id.csv', dtype={'doc': 'str'})  # read csv into dataframe, retain string data type for doc values
-
-df_summary = df.isnull().sum()  # return True for None and NaN; sum up null values
-
-buffer = StringIO()  # initiate instance of StringIO class as temporary in-memory file-like buffer
-df.info(buf=buffer)  # send info() output to StringIO buffer object
-df_info = buffer.getvalue()  # pass buffer string to var
-
-# clean data
-
-df_doc = df.drop_duplicates(subset='doc')[['doc', 'author', 'title', 'place']]  # drop subsequent rows with duplicate doc values
-df_doc.set_index('doc', inplace=True)  # set doc values as index
-
-# visualize data
-# doc-time plot
-
-df_date = df.drop_duplicates(subset='doc')[['doc', 'author', 'notBefore-iso']]
-df_date['notBefore-iso'] = pd.to_datetime(df_date['notBefore-iso'], errors='coerce', utc=True)  # convert notBefore-iso string values to datetime objects, replace invalid string values with NaT values, standardize datetimes to UTC
-df_date = df_date.dropna(subset=['notBefore-iso'])  # drop rows where UTC conversion failed
-
-df_date.set_index('notBefore-iso', inplace=True)  # set datetime objects as index
-'''
-monthly_docs = df_date.resample('ME').size()  # resample into groups by month, count document number per group in series
-
-plt.figure(figsize=(10, 5))    # initialize figure, set dimensions in inches
-monthly_docs[monthly_docs > 0].plot(kind='line', marker='.', linestyle='None', color='#D4AF37')  # plot series in line plot if count < 0, set point markers, no lines, cyan color
-plt.gca().yaxis.set_major_locator(plt.MaxNLocator(integer=True))  # retrieve axes, set y-axis ticks to integers
-
-# add labels
-plt.title('number of documents per month (UTC)')
-plt.xlabel('time')
-plt.ylabel('number')
-
-plt.grid(True)  # display grid lines
-plt.tight_layout()  # automatically adjust spacing between figure elements
-
-plt.savefig('./metadata/md/docs_per_month.png')  # save figure
-'''
-# doc-time-author plot
-
-# create author-based dataframes
-df_auden = df_date[df_date['author'] == 'Auden, W. H.']
-df_kallman = df_date[df_date['author'] == 'Kallman, Chester']
-df_other = df_date[(df_date['author'] != 'Auden, W. H.') & (df_date['author'] != 'Kallman, Chester')]
-
-# resample into groups by month, count document number per group in series, filter out zero values
-monthly_auden = df_auden.resample('ME').size()[lambda x: x > 0]
-monthly_kallman = df_kallman.resample('ME').size()[lambda x: x > 0]
-monthly_other = df_other.resample('ME').size()[lambda x: x > 0]
-
-plt.figure(figsize=(16, 8), dpi=300)  # initialize figure, set dimensions in inches
-
-offset = pd.DateOffset(days=7)  # introduce x-axis offset
-
-plt.scatter(monthly_auden.index - offset, monthly_auden, color='#000080', label='W. H. Auden', marker='.')  # plot Auden documents with offset
-plt.scatter(monthly_kallman.index, monthly_kallman, color='#40E0D0', label='Chester Kallman', marker='.')  # plot Kallman documents with no offset
-plt.scatter(monthly_other.index + offset, monthly_other, color='#FFDB58', label='other', marker='.')  # plot other documents with reverse offset
-
-plt.gca().yaxis.set_major_locator(plt.MaxNLocator(integer=True))  # retrieve axes, set y-axis ticks to integers
-
-# add labels
-plt.title('number of documents per month (UTC) by author')
-plt.xlabel('time')
-plt.ylabel('number')
-
-plt.grid(True)  # display grid lines
-plt.legend()  # add legend of labels
-plt.tight_layout()  # automatically adjust spacing between figure elements
-
-plt.savefig('./metadata/md/docs_per_month_by_author.png', dpi=300, bbox_inches='tight')  # save figure, remove unnecessary whitespace around plot
-
-# create markdown report
-
-with open('./metadata/md/metadata-analysis.md', 'w') as f:
-    f.write(f'## `input_img_id.csv` analysis report\n')
-    f.write(f'### `df.isnull().sum()`\n```\n{df_summary}\n```\n')
-    f.write(f'### `df.info()`\n```\n{df_info}\n```\n')
-    f.write(f'### cleaned document data\n')
-    f.write(f'```\n{df_doc.to_string()}\n```\n')
-    f.write(f'### scatter plot\n\n')
-    #f.write(f'![number of documents per month](docs_per_month.png)\n')
-    f.write(f'![number of documents per month by author](docs_per_month_by_author.png)')
+def read_and_analyze_data(csv_path):
+    """Read CSV file and perform initial analysis"""
+    df = pd.read_csv(csv_path, dtype={'doc': 'str'})
     
+    # Get null value summary and dataframe info
+    null_summary = df.isnull().sum()
+    
+    buffer = StringIO()
+    df.info(buf=buffer)
+    df_info = buffer.getvalue()
+    
+    return df, null_summary, df_info
+
+
+def clean_and_prepare_data(df):
+    """Clean data and prepare it for visualization"""
+    # Create clean document dataframe
+    df_doc = df.drop_duplicates(subset='doc')[['doc', 'author', 'title', 'place']]
+    df_doc.set_index('doc', inplace=True)
+    
+    # Create date-based dataframe
+    df_date = df.drop_duplicates(subset='doc')[['doc', 'author', 'notBefore-iso']]
+    df_date['notBefore-iso'] = pd.to_datetime(df_date['notBefore-iso'], errors='coerce', utc=True)
+    df_date = df_date.dropna(subset=['notBefore-iso'])
+    df_date.set_index('notBefore-iso', inplace=True)
+    
+    return df_doc, df_date
+
+
+def create_author_dataframes(df_date):
+    """Create separate dataframes by author and resample by month"""
+    # Split by author
+    author_dfs = {
+        'Auden': df_date[df_date['author'] == 'Auden, W. H.'],
+        'Kallman': df_date[df_date['author'] == 'Kallman, Chester'],
+        'Other': df_date[(df_date['author'] != 'Auden, W. H.') & 
+                         (df_date['author'] != 'Kallman, Chester')]
+    }
+    
+    # Resample by month
+    monthly_counts = {
+        author: df.resample('ME').size()[lambda x: x > 0]
+        for author, df in author_dfs.items()
+    }
+    
+    return monthly_counts
+
+
+def create_monthly_scatter_plot(monthly_counts, output_path):
+    """Create an enhanced scatter plot of monthly document counts"""
+    # Set plot style and create figure
+    plt.style.use('seaborn-v0_8-whitegrid')
+    fig, ax = plt.subplots(figsize=(18, 10), dpi=300)
+    
+    # Define visual attributes
+    markers = {'Auden': 'o', 'Kallman': 's', 'Other': '^'}
+    colors = {'Auden': '#1f77b4', 'Kallman': '#2ca02c', 'Other': '#ff7f0e'}
+    labels = {'Auden': 'W. H. Auden', 'Kallman': 'Chester Kallman', 'Other': 'Other Authors'}
+    
+    # Plot each author's data
+    for author, counts in monthly_counts.items():
+        ax.scatter(
+            counts.index, counts,
+            s=100,
+            color=colors[author],
+            label=labels[author],
+            marker=markers[author],
+            alpha=0.7,
+            edgecolors='black',
+            linewidth=0.5
+        )
+    
+    # Configure axes
+    ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))
+    ax.xaxis.set_major_locator(mdates.YearLocator())
+    plt.xticks(rotation=45)
+    ax.yaxis.set_major_locator(plt.MaxNLocator(integer=True))
+    
+    # Add labels and styling
+    ax.set_title('Number of Documents per Month by Author', fontsize=16, pad=20)
+    ax.set_xlabel('Time', fontsize=14, labelpad=10)
+    ax.set_ylabel('Number of Documents', fontsize=14, labelpad=10)
+    
+    # Add legend and grid
+    ax.legend(fontsize=12, frameon=True, facecolor='white', edgecolor='gray', loc='upper right')
+    ax.grid(True, linestyle='--', alpha=0.7)
+    
+    # Save figure
+    plt.tight_layout()
+    plt.savefig(
+        output_path,
+        dpi=300,
+        bbox_inches='tight',
+        facecolor='white',
+        edgecolor='none'
+    )
+    plt.close()
+
+
+def create_annual_summary(df_date, colors, output_path):
+    """Create annual summary bar chart by author"""
+    # Group by year
+    df_date = df_date.copy()  # Create a copy to avoid modifying the original
+    df_date['year'] = df_date.index.year
+    author_counts = df_date.groupby(['year', 'author']).size().unstack(fill_value=0)
+    
+    # Ensure all author columns exist
+    for author in ['Auden, W. H.', 'Kallman, Chester']:
+        if author not in author_counts.columns:
+            author_counts[author] = 0
+    
+    # Create 'Other' column
+    columns_of_interest = ['Auden, W. H.', 'Kallman, Chester']
+    author_counts['Other'] = author_counts.drop(
+        columns=columns_of_interest, 
+        errors='ignore'
+    ).sum(axis=1)
+    
+    # Select only relevant columns in order
+    author_counts = author_counts[columns_of_interest + ['Other']]
+    
+    # Create bar chart
+    plt.style.use('seaborn-v0_8-whitegrid')
+    fig, ax = plt.subplots(figsize=(16, 8), dpi=300)
+    
+    author_counts.plot(
+        kind='bar', 
+        stacked=True,
+        color=[colors['Auden'], colors['Kallman'], colors['Other']],
+        ax=ax,
+        width=0.7
+    )
+    
+    # Add labels and styling
+    ax.set_title('Annual Document Count by Author', fontsize=16, pad=20)
+    ax.set_xlabel('Year', fontsize=14, labelpad=10)
+    ax.set_ylabel('Number of Documents', fontsize=14, labelpad=10)
+    
+    # Add legend and grid
+    ax.legend(
+        ['W. H. Auden', 'Chester Kallman', 'Other Authors'],
+        fontsize=12, 
+        frameon=True, 
+        facecolor='white', 
+        edgecolor='gray'
+    )
+    ax.grid(axis='y', linestyle='--', alpha=0.7)
+    
+    # Save figure
+    plt.tight_layout()
+    plt.savefig(
+        output_path,
+        dpi=300,
+        bbox_inches='tight',
+        facecolor='white',
+        edgecolor='none'
+    )
+    plt.close()
+
+
+def create_markdown_report(df_summary, df_info, df_doc, output_path):
+    """Generate markdown report with visualizations and analysis"""
+    with open(output_path, 'w') as f:
+        f.write(f'## `input_img_id.csv` analysis report\n\n')
+        f.write(f'### `df.isnull().sum()`\n```\n{df_summary}\n```\n\n')
+        f.write(f'### `df.info()`\n```\n{df_info}\n```\n\n')
+        f.write(f'### cleaned document data\n')
+        f.write(f'```\n{df_doc.to_string()}\n```\n\n')
+        f.write(f'### Monthly Distribution\n\n')
+        f.write(f'![number of documents per month by author](docs_per_month_by_author.png)\n\n')
+        f.write(f'### Annual Summary\n\n')
+        f.write(f'![annual document count by author](annual_docs_by_author.png)')
+
+
+def main():
+    """Main function to orchestrate the entire workflow"""
+    # Define paths
+    input_path = './metadata/csv/input_img_id.csv'
+    monthly_viz_path = './metadata/md/docs_per_month_by_author.png'
+    annual_viz_path = './metadata/md/annual_docs_by_author.png'
+    report_path = './metadata/md/metadata-analysis.md'
+    
+    # Define colors for consistency across visualizations
+    colors = {
+        'Auden': '#1f77b4',  # Deep blue
+        'Kallman': '#2ca02c',  # Strong green
+        'Other': '#ff7f0e'   # Vibrant orange
+    }
+    
+    # Read and analyze data
+    df, df_summary, df_info = read_and_analyze_data(input_path)
+    
+    # Clean and prepare data
+    df_doc, df_date = clean_and_prepare_data(df)
+    
+    # Create author dataframes and monthly counts
+    monthly_counts = create_author_dataframes(df_date)
+    
+    # Create visualizations
+    create_monthly_scatter_plot(monthly_counts, monthly_viz_path)
+    create_annual_summary(df_date, colors, annual_viz_path)
+    
+    # Create report
+    create_markdown_report(df_summary, df_info, df_doc, report_path)
+
+
+if __name__ == "__main__":
+    main()
