@@ -2,7 +2,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 from io import StringIO
-import numpy as np
 
 
 def read_and_analyze_data(csv_path):
@@ -59,23 +58,46 @@ def create_monthly_scatter_plot(monthly_counts, output_path):
     plt.style.use('seaborn-v0_8-whitegrid')
     fig, ax = plt.subplots(figsize=(18, 10), dpi=300)
     
-    # Define visual attributes
-    markers = {'Auden': 'o', 'Kallman': 's', 'Other': '^'}
-    colors = {'Auden': '#1f77b4', 'Kallman': '#2ca02c', 'Other': '#ff7f0e'}
-    labels = {'Auden': 'W. H. Auden', 'Kallman': 'Chester Kallman', 'Other': 'Other Authors'}
+    # Define colors to match original design
+    colors = {
+        'Auden': '#191970',    # Dark blue for Auden (as requested)
+        'Kallman': '#40E0D0',  # Turquoise for Kallman (as requested)
+        'Other': '#B59410'     # Gold for others (as requested)
+    }
     
-    # Plot each author's data
-    for author, counts in monthly_counts.items():
-        ax.scatter(
-            counts.index, counts,
-            s=100,
-            color=colors[author],
-            label=labels[author],
-            marker=markers[author],
-            alpha=0.7,
-            edgecolors='black',
-            linewidth=0.5
-        )
+    # Define offsets to match original design
+    offset = pd.DateOffset(days=7)
+    
+    # Plot each author's data with specific requirements
+    ax.scatter(
+        monthly_counts['Auden'].index - offset,  # Negative offset for Auden
+        monthly_counts['Auden'],
+        s=100,
+        color=colors['Auden'],
+        label='W. H. Auden',
+        marker='.',  # Dot marker as requested
+        alpha=0.7
+    )
+    
+    ax.scatter(
+        monthly_counts['Kallman'].index,  # No offset for Kallman
+        monthly_counts['Kallman'],
+        s=100,
+        color=colors['Kallman'],
+        label='Chester Kallman',
+        marker='.',  # Dot marker as requested
+        alpha=0.7
+    )
+    
+    ax.scatter(
+        monthly_counts['Other'].index + offset,  # Positive offset for others
+        monthly_counts['Other'],
+        s=100,
+        color=colors['Other'],
+        label='Other Authors',
+        marker='.',  # Dot marker as requested
+        alpha=0.7
+    )
     
     # Configure axes
     ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))
@@ -104,8 +126,14 @@ def create_monthly_scatter_plot(monthly_counts, output_path):
     plt.close()
 
 
-def create_annual_summary(df_date, colors, output_path):
+def create_annual_summary(df_date, output_path):
     """Create annual summary bar chart by author"""
+    # Define colors to match monthly visualization
+    colors = {
+        'Auden': '#191970',    # Dark blue for Auden
+        'Kallman': '#40E0D0',  # Turquoise for Kallman
+        'Other': '#B59410'     # Gold for others
+    }
     # Group by year
     df_date = df_date.copy()  # Create a copy to avoid modifying the original
     df_date['year'] = df_date.index.year
@@ -205,7 +233,7 @@ def main():
     
     # Create visualizations
     create_monthly_scatter_plot(monthly_counts, monthly_viz_path)
-    create_annual_summary(df_date, colors, annual_viz_path)
+    create_annual_summary(df_date, annual_viz_path)
     
     # Create report
     create_markdown_report(df_summary, df_info, df_doc, report_path)
