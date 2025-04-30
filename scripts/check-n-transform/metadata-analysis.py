@@ -1,21 +1,21 @@
-import pandas as pd
-import matplotlib.pyplot as plt
-import matplotlib.dates as mdates
-from io import StringIO
+import pandas as pd  # import pandas library
+import matplotlib.pyplot as plt  # import Matplotlib pyplot module
+import matplotlib.dates as mdates  # import Matplotlib dates module
+from io import StringIO  # import io StringIO module
 
 
 def read_and_analyze_data(csv_path):
-    """Read CSV file and perform initial analysis"""
-    df = pd.read_csv(csv_path, dtype={'doc': 'str'})
+    '''reads CSV file and performs overview analysis'''
+    df = pd.read_csv(csv_path, dtype={'doc': 'str'})  # initialize dataframe, treat `doc` values as string
     
-    # Get null value summary and dataframe info
-    null_summary = df.isnull().sum()
+    null_summary = df.isnull().sum()  # count null values in columns
     
-    buffer = StringIO()
-    df.info(buf=buffer)
-    df_info = buffer.getvalue()
+    # get dataframe info
+    buffer = StringIO()  # initialize in-memory text stream object
+    df.info(buf=buffer)  # send dataframe info to buffer (instead of printing)
+    df_info = buffer.getvalue()  # store buffer contents
     
-    return df, null_summary, df_info
+    return df, null_summary, df_info  # return dataframe, null-value summary, dataframe info
 
 
 def clean_and_prepare_data(df):
