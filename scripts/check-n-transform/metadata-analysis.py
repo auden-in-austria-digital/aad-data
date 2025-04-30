@@ -54,12 +54,12 @@ monthly_auden = df_auden.resample('ME').size()[lambda x: x > 0]
 monthly_kallman = df_kallman.resample('ME').size()[lambda x: x > 0]
 monthly_other = df_other.resample('ME').size()[lambda x: x > 0]
 
-plt.figure(figsize=(10, 5))  # initialize figure, set dimensions in inches
+plt.figure(figsize=(16, 8), dpi=300)  # initialize figure, set dimensions in inches
 
 offset = pd.DateOffset(days=7)  # introduce x-axis offset
 
 plt.scatter(monthly_auden.index - offset, monthly_auden, color='#000080', label='W. H. Auden', marker='.')  # plot Auden documents with offset
-plt.scatter(monthly_kallman.index, monthly_kallman, color='#008000', label='Chester Kallman', marker='.')  # plot Kallman documents with no offset
+plt.scatter(monthly_kallman.index, monthly_kallman, color='#40E0D0', label='Chester Kallman', marker='.')  # plot Kallman documents with no offset
 plt.scatter(monthly_other.index + offset, monthly_other, color='#FFDB58', label='other', marker='.')  # plot other documents with reverse offset
 
 plt.gca().yaxis.set_major_locator(plt.MaxNLocator(integer=True))  # retrieve axes, set y-axis ticks to integers
@@ -73,7 +73,7 @@ plt.grid(True)  # display grid lines
 plt.legend()  # add legend of labels
 plt.tight_layout()  # automatically adjust spacing between figure elements
 
-plt.savefig('./metadata/md/docs_per_month_by_author.png')  # save figure
+plt.savefig('./metadata/md/docs_per_month_by_author.png', dpi=300, bbox_inches='tight')  # save figure, remove unnecessary whitespace around plot
 
 # create markdown report
 
