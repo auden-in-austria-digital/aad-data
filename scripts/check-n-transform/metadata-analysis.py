@@ -94,7 +94,7 @@ def create_monthly_scatter_plot(monthly_counts, output_path):
         monthly_counts['Other'],
         s=100,
         color=colors['Other'],
-        label='Other Authors',
+        label='others',
         marker='.',  # Dot marker as requested
         alpha=0.7
     )
@@ -106,9 +106,9 @@ def create_monthly_scatter_plot(monthly_counts, output_path):
     ax.yaxis.set_major_locator(plt.MaxNLocator(integer=True))
     
     # Add labels and styling
-    ax.set_title('Number of Documents per Month by Author', fontsize=16, pad=20)
-    ax.set_xlabel('Time', fontsize=14, labelpad=10)
-    ax.set_ylabel('Number of Documents', fontsize=14, labelpad=10)
+    ax.set_title('number of documents per month (UTC) by author', fontsize=16, pad=20)
+    ax.set_xlabel('month', fontsize=14, labelpad=10)
+    ax.set_ylabel('number of documents', fontsize=14, labelpad=10)
     
     # Add legend and grid
     ax.legend(fontsize=12, frameon=True, facecolor='white', edgecolor='gray', loc='upper right')
@@ -167,13 +167,13 @@ def create_annual_summary(df_date, output_path):
     )
     
     # Add labels and styling
-    ax.set_title('Annual Document Count by Author', fontsize=16, pad=20)
-    ax.set_xlabel('Year', fontsize=14, labelpad=10)
-    ax.set_ylabel('Number of Documents', fontsize=14, labelpad=10)
+    ax.set_title('number of documents per year (UTC) by author', fontsize=16, pad=20)
+    ax.set_xlabel('year', fontsize=14, labelpad=10)
+    ax.set_ylabel('number of documents', fontsize=14, labelpad=10)
     
     # Add legend and grid
     ax.legend(
-        ['W. H. Auden', 'Chester Kallman', 'Other Authors'],
+        ['W. H. Auden', 'Chester Kallman', 'others'],
         fontsize=12, 
         frameon=True, 
         facecolor='white', 
@@ -201,9 +201,9 @@ def create_markdown_report(df_summary, df_info, df_doc, output_path):
         f.write(f'### `df.info()`\n```\n{df_info}\n```\n\n')
         f.write(f'### cleaned document data\n')
         f.write(f'```\n{df_doc.to_string()}\n```\n\n')
-        f.write(f'### Monthly Distribution\n\n')
+        f.write(f'### distribution per month\n\n')
         f.write(f'![number of documents per month by author](docs_per_month_by_author.png)\n\n')
-        f.write(f'### Annual Summary\n\n')
+        f.write(f'### distribution per year\n\n')
         f.write(f'![annual document count by author](annual_docs_by_author.png)')
 
 
