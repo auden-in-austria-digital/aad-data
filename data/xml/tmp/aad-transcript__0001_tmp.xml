@@ -4,7 +4,7 @@
     <fileDesc>
       <titleStmt>
         <title level="s">Auden in Austria Digital (AAD)</title>
-        <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1960-07-25--1969-07-25</title>
+        <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1961-07-25--1969-07-25</title>
         <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
         <editor>
           <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
@@ -23,7 +23,7 @@
       </titleStmt>
       <editionStmt>
         <edition>
-          <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1960-07-25--1969-07-25</title>
+          <title level="a">Autograph Letter Signed W. H. Auden to Hugo Kurka 1961-07-25--1969-07-25</title>
           <interpGrp>
             <interp>
               <desc/>
@@ -60,9 +60,9 @@
           <witness n="1">
             <msDesc>
               <msIdentifier>
-                <repository ref="https://d-nb.info/gnd/1108283586">State Collections of Lower Austria</repository>
-                <collection>W. H. Auden Collection</collection>
-                <idno>Correspondence Hugo Kurka 001</idno>
+                <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
+                <collection>Documentation Center for Literature in Lower Austria</collection>
+                <idno>LS-Aud 4.6.1</idno>
               </msIdentifier>
               <physDesc>
                 <objectDesc>
@@ -97,7 +97,7 @@
               </physDesc>
               <history>
                 <origin>
-                  <origDate notBefore-iso="1960-07-25T00:00:00+01:00" notAfter-iso="1969-07-25T23:59:59+01:00"/>
+                  <origDate notBefore-iso="1961-07-25T00:00:00+01:00" notAfter-iso="1969-07-25T23:59:59+01:00"/>
                   <origPlace ref="https://d-nb.info/gnd/4801892-2">Kirchstetten</origPlace>
                 </origin>
               </history>
@@ -120,7 +120,7 @@
       </langUsage>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2025-03-31">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2025-05-05">TEI/XML template populated with csv2xml.py</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
