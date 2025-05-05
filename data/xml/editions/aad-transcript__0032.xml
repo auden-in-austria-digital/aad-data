@@ -157,7 +157,7 @@
         </correspAction>
       </correspDesc>
     </profileDesc>
-    <revisionDesc status="draft">
+    <revisionDesc status="draft"><!-- update -->
       <change who="#tfruehwirth" when-iso="2024-11-07">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2024-11-07">physDesc and correspDesc populated</change>
       <change who="#tfruehwirth" when-iso="2024-11-08">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
