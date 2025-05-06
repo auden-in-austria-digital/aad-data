@@ -82,7 +82,7 @@
                 </objectDesc>
                 <handDesc>
                   <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
-                  <handNote xml:id="hand_gray_unident_0086_1" medium="pencil">Handwriting in pencil by unidentified writer</handNote>
+                  <handNote xml:id="hand_gray_unident_0086_1" medium="pencil">Handwriting in pencil by unidentified writer</handNote><!-- review -->
                   <handNote xml:id="hand_gray_unident_0086_2" medium="pencil">Handwriting in pencil by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
@@ -125,6 +125,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-05-05">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2025-05-05">physDesc and correspDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-05-06">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -141,7 +142,7 @@
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00299/" ed="1r" type="sheet"/>
           <div>
-            <ab hand="#hand_gray_unident_0086_1">
+            <ab hand="#hand_gray_unident_0086_1"><!-- review -->
               <lb/>15/ B26/1
             </ab>
           </div>
@@ -150,52 +151,50 @@
               <dateline>
                 <placeName>
                   <address xml:lang="de">
-                    <lb/><rs type="place" ref="#amp_place_id_29">77 St Mark's Place
-                    <lb/>New York City 3
-                    <lb/>New York 1003</rs>
+                    <lb/><rs type="place" ref="#amp_place_id_2">Kirchste<unclear>tt</unclear>en (Westbahn)
+                    <lb/>Hinterholz #6
+                    <lb/>N.Ö</rs>
                   </address>
                 </placeName>
                 <date>
-                  <lb/><foreign xml:lang="en">Dec</foreign> 7<hi rend="superscript">te<unclear>n</unclear></hi>. 1965
+                  <lb/>Sept 17<hi rend="superscript"><unclear>th</unclear></hi>
                 </date>
+                <seg hand="#hand_gray_unident_0086_2"><!-- review -->
+                  <date>
+                    <lb/>September 1966
+                  </date>
+                </seg>
               </dateline>
-              <lb/>Wie ist dein Englisch jezt ?
               <salute>
-                <lb/>Lieber <rs type="person" ref="#amp_person_107">Hugo</rs>:
+                <lb/>Dear <rs type="person" ref="#amp_person_78">D<hi rend="superscript">r</hi> Spiel</rs>:
               </salute>
             </opener>
             <p>
-              <lb/>Besten Dank für deinen Brief. Ich bin
-              <lb/><hi rend="underline" hand="#hand_blue_auden">so</hi> froh dass es <del rend="overstrike" hand="#hand_blue_auden">nicht</del> für <rs type="person" ref="#amp_person_240">Christa</rs> nicht nötig
-              <lb/>ist sich operieren zu lassen. Hiermit ein
-              <lb/>kleines Weinachtsgeschenk<unclear>.</unclear> In ein andere<unclear>n</unclear> Umschlag
-              <lb/>schicke ich dich ein <rs type="lit_work" ref="#lit_work_id_209" ana="#ana_067">Artikel von dem <hi rend="underline" hand="#hand_blue_auden"><rs type="org" ref="#amp_organization_20">Sunday Times</rs></hi></rs> .
+              <lb/>Thank you for your letter of Sept 15<hi rend="superscript">th</hi>.
+              <lb/>I should be very pleased to read to th<unclear>e</unclear>
+              <lb/><rs type="org" ref="#amp_organization_10">Osterreich<unclear>i</unclear>schen P.E.N<unclear>..</unclear></rs> The difficulty is
+              <lb/>the date. I hav<unclear>e</unclear> to go to <rs type="place" ref="#amp_place_id_17">Berlin</rs> next
+              <lb/>Monday for rehearsals of <hi rend="underline" hand="#hand_blue_auden">Die Bass<unclear>a</unclear>riden</hi>
+              <lb/>ret<unclear>uri</unclear>ng here on Sept 30<hi rend="superscript">th</hi>. Then,because of
+              <lb/>engagements in <rs type="place" ref="#amp_place_id_239">England</rs>, I have to leave <rs type="place" ref="#amp_place_id_10">Austria</rs>
+              <lb/>earlier than I usually do, on Oct 7<hi rend="superscript">th</hi>.
             </p>
             <p>
-              <lb/>Alles geht gut hier. Bin sehr beschäftig.
-              <lb/>Der " <rs type="event" ref="#amp_event_id_4"><foreign xml:lang="en">Blackout</foreign></rs>" war wa<unclear>s</unclear> ! Zum erst habe ich <del rend="overstrike" hand="#hand_blue_auden">d<gap reason="illegible" unit="char" atLeast="1" atMost="2"/></del>
-              <lb/><del rend="overstrike" hand="#hand_blue_auden">dega</del> gedacht.<unclear>"'</unclear> Oh, es wird nur funf minuten dauern."
-              <lb/>dann. "<unclear>Du</unclear> jedenfals <del rend="overstrike" hand="#hand_blue_auden">ist</del> ist es gut Kandelen im Haus
-              <lb/>zu haben<unclear>"'</unclear> und bin h<unclear>e</unclear>raus gegangen ihnen zu kaufen.
-              <lb/>Gott sei Dank. E<unclear>ine</unclear> Stunde später s<del rend="overstrike" hand="#hand_blue_auden">ie war</del> es gab kein
-              <lb/>einzige in der gegend.
+              <lb/>This means, in fact , th<gap reason="illegible" quantity="1" unit="char"/><unclear>t</unclear> the only two
+              <lb/>possible days for me are either Tuesday Oct 4<hi rend="superscript">th</hi>
+              <lb/>or Wednesday Oct 5<hi rend="superscript">th</hi>.
             </p>
             <p>
-              <lb/><rs type="person" ref="#amp_person_4">Chester</rs><unclear>&#xB7;</unclear>der alte Luder- hat nicht <del rend="overstrike" hand="#hand_blue_auden">geschie<unclear>'</unclear></del>
-              <lb/>geschrieben. Ich höre von <rs type="person" ref="#amp_person_253" ana="#ana_068">eine Bekannter</rs> das er <del rend="overstrike" hand="#hand_blue_auden">nich</del>t
-              <lb/>eine Wohnung nocht nicht gefunden hat und lebt
-              <lb/>in de<unclear>m</unclear> <rs type="place" ref="#amp_place_id_225">Hotel Altburgenhof</rs>. Ist <del rend="overstrike" hand="#hand_blue_auden">es<unclear>t</unclear></del> es wah<unclear>r</unclear> ?
-            </p>
-            <p>
-              <lb/>alles gutes mein Lieber. Wie schade dass wir
-              <lb/>für Wein<unclear>a</unclear>chten nicht bei einander sein können <unclear>!</unclear>
+              <lb/>Could you let me know if either of th<unclear>ese</unclear>
+              <lb/>da<unclear>te</unclear>s <unclear>i</unclear>s p<unclear>o</unclear>ssible for you, <unclear>&#8453;</unclear> Deutsche Sta<unclear>d</unclear>t<unclear>s</unclear>oper<unclear>.</unclear><!-- review -->
+              <lb/>West Berlin.<!-- review -->
             </p>
             <closer>
               <salute>
-                <lb/>immer dein Freund
+                <lb/>Yours sincerely
               </salute>
               <signed>
-                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
+                <lb/><rs type="person" ref="#amp_person_1">W<unclear>.</unclear>H.Aude<unclear>&#7751;</unclear></rs>
               </signed>
             </closer>
           </div>
