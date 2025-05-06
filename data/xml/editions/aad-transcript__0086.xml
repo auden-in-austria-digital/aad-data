@@ -166,7 +166,7 @@
                 </seg>
               </dateline>
               <salute>
-                <lb/>Dear <rs type="person" ref="#amp_person_78">D<hi rend="superscript">r</hi> Spiel</rs>:
+                <lb/>Dear <rs type="person" ref="#amp_person_78">D<hi rend="superscript">r</hi> Spiel</rs><unclear>:</unclear>
               </salute>
             </opener>
             <p>
@@ -175,7 +175,7 @@
               <lb/><rs type="org" ref="#amp_organization_10">Osterreich<unclear>i</unclear>schen P.E.N<unclear>..</unclear></rs> The difficulty is
               <lb/>the date. I hav<unclear>e</unclear> to go to <rs type="place" ref="#amp_place_id_17">Berlin</rs> next
               <lb/>Monday for rehearsals of <hi rend="underline" hand="#hand_blue_auden">Die Bass<unclear>a</unclear>riden</hi>
-              <lb/>ret<unclear>uri</unclear>ng here on Sept 30<hi rend="superscript">th</hi>. Then,because of
+              <lb/>ret<unclear>uni</unclear>ng here on Sept 30<hi rend="superscript">th</hi>. Then,because of
               <lb/>engagements in <rs type="place" ref="#amp_place_id_239">England</rs>, I have to leave <rs type="place" ref="#amp_place_id_10">Austria</rs>
               <lb/>earlier than I usually do, on Oct 7<hi rend="superscript">th</hi>.
             </p>
@@ -186,8 +186,8 @@
             </p>
             <p>
               <lb/>Could you let me know if either of th<unclear>ese</unclear>
-              <lb/>da<unclear>te</unclear>s <unclear>i</unclear>s p<unclear>o</unclear>ssible for you, <unclear>&#8453;</unclear> Deutsche Sta<unclear>d</unclear>t<unclear>s</unclear>oper<unclear>.</unclear><!-- review -->
-              <lb/>West Berlin.<!-- review -->
+              <lb/>da<unclear>te</unclear>s <unclear>i</unclear>s p<unclear>o</unclear>ssible for you, <unclear>&#8453;</unclear> <rs type="org" ref="#amp_organization_155">Deutsche Sta<unclear>d</unclear>t<unclear>s</unclear>oper</rs><unclear>,</unclear>
+              <lb/><rs type="place" ref="#amp_place_id_409">West Berlin</rs>.
             </p>
             <closer>
               <salute>
