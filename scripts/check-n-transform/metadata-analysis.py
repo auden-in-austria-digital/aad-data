@@ -19,23 +19,23 @@ def read_and_analyze_data(csv_path):
 
 
 def clean_and_prepare_data(df):
-    """Clean data and prepare it for visualization"""
-    # Create clean document dataframe
-    df_doc = df.drop_duplicates(subset='doc')[['doc', 'author', 'title', 'place']]
-    df_doc.set_index('doc', inplace=True)
+    '''cleans data and prepares for visualization'''
+    # create document-based dataframe
+    df_doc = df.drop_duplicates(subset='doc')[['doc', 'author', 'title', 'place']]  # remove duplicate rows with same `doc` values, keep only selected values
+    df_doc.set_index('doc', inplace=True)  # set `doc` value as index, modify dataframe directly
     
-    # Create date-based dataframe
+    # create date-based dataframe
     df_date = df.drop_duplicates(subset='doc')[['doc', 'author', 'notBefore-iso']]
-    df_date['notBefore-iso'] = pd.to_datetime(df_date['notBefore-iso'], errors='coerce', utc=True)
-    df_date = df_date.dropna(subset=['notBefore-iso'])
+    df_date['notBefore-iso'] = pd.to_datetime(df_date['notBefore-iso'], errors='coerce', utc=True)  # convert strings to datetime objects, convert unparseable dates to NaT, standardize to UTC
+    df_date = df_date.dropna(subset=['notBefore-iso'])  # remove rows with NaT
     df_date.set_index('notBefore-iso', inplace=True)
     
     return df_doc, df_date
 
 
 def create_author_dataframes(df_date):
-    """Create separate dataframes by author and resample by month"""
-    # Split by author
+    '''creates separate dataframes by author and resamples by month'''
+    # create dictionary of date-based dataframes by author
     author_dfs = {
         'Auden': df_date[df_date['author'] == 'Auden, W. H.'],
         'Kallman': df_date[df_date['author'] == 'Kallman, Chester'],
@@ -43,10 +43,10 @@ def create_author_dataframes(df_date):
                          (df_date['author'] != 'Kallman, Chester')]
     }
     
-    # Resample by month
+    # create dictionary that relates authors to series of month-documents counts
     monthly_counts = {
-        author: df.resample('ME').size()[lambda x: x > 0]
-        for author, df in author_dfs.items()
+        author: df.resample('ME').size()[lambda x: x > 0]  # make author the key; for value resample author-based dataframe by month-end, count entries, filter out zero values
+        for author, df in author_dfs.items()  # access authors_dfs dictionary as tuples
     }
     
     return monthly_counts
