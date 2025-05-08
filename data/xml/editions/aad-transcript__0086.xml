@@ -82,7 +82,7 @@
                 </objectDesc>
                 <handDesc>
                   <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
-                  <handNote xml:id="hand_gray_onb" scribeRef="#amp_organization_156" medium="pencil">Handwriting in pencil authored by <rs type="org" ref="#amp_organization_10">Austrian National Library</rs></handNote>
+                  <handNote xml:id="hand_gray_onb" scribeRef="#amp_organization_156" medium="pencil">Handwriting in pencil authored by <rs type="org" ref="#amp_organization_156">Austrian National Library</rs></handNote>
                   <handNote xml:id="hand_gray_unident_0086" medium="pencil">Handwriting in pencil by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
