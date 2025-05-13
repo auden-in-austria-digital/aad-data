@@ -60,9 +60,10 @@
           <witness n="1">
             <msDesc>
               <msIdentifier>
-                <repository ref="https://d-nb.info/gnd/1108283586">State Collections of Lower Austria</repository>
-                <collection>W. H. Auden Collection</collection>
-                <idno>Correspondence Hugo Kurka 061</idno>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
+                <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
+                <collection>Documentation Center for Literature in Lower Austria</collection>
+                <idno>LS-Aud 4.6.61</idno>
               </msIdentifier>
               <physDesc>
                 <objectDesc>
