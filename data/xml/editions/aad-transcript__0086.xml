@@ -30,6 +30,11 @@
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
             </interp>
+            <interp xml:id="ana_094">
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
           </interpGrp>
         </edition>
         <respStmt>
@@ -176,7 +181,7 @@
               <lb/>the date. I hav<unclear>e</unclear> to go to <rs type="place" ref="#amp_place_id_17">Berlin</rs> next
               <lb/>Monday for rehearsals of <hi rend="underline" hand="#hand_blue_auden"><rs type="lit_work" ref="#lit_work_id_214">Die Bass<unclear>a</unclear>riden</rs></hi>
               <lb/>ret<unclear>uni</unclear>ng here on Sept 30<hi rend="superscript">th</hi>. Then,because of
-              <lb/>engagements in <rs type="place" ref="#amp_place_id_239">England</rs>, I have to leave <rs type="place" ref="#amp_place_id_10">Austria</rs>
+              <lb/><rs type="note" ana="#ana_094">engagements in <rs type="place" ref="#amp_place_id_239">England</rs></rs>, I have to leave <rs type="place" ref="#amp_place_id_10">Austria</rs>
               <lb/>earlier than I usually do, on Oct 7<hi rend="superscript">th</hi>.
             </p>
             <p>
