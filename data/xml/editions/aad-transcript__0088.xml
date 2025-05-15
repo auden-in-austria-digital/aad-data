@@ -142,6 +142,73 @@
       <div type="transcription" xml:id="transcription_aad_0088" xml:lang="en">
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00303/" ed="1r" type="sheet"/>
+          <div>
+            <ab hand="#hand_gray_onb">
+              <lb/>15/B26/ 3
+            </ab>
+          </div>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <opener>
+              <dateline>
+                <date>
+                  <lb/>Oct 5<hi rend="superscript">th</hi> <gap quantity="1" unit="char"/>
+                </date>
+                <seg hand="#print_black_auden">
+                  <placeName>
+                    <address xml:lang="de">
+                      <lb/><rs type="place" ref="#amp_place_id_2">3062 KIRCHSTETTEN
+                      <lb/>BEZ. ST. PÖLTEN
+                      <lb/>HINTERHOLZ 6
+                      <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
+                    </address>
+                  </placeName>
+                </seg>
+              </dateline>
+              <salute>
+                <lb/>Dea<unclear>r</unclear> D<hi rend="superscript">r</hi> Spiel:
+              </salute>
+            </opener>
+            <p>
+              <lb/>I have ju<unclear>st</unclear> finish<unclear>ed</unclear> r<gap reason="illegible" atLeast="1" atMost="2" unit="char"/>ding
+              <lb/><hi rend="underline" hand="#hand_blue_auden">A Darken<unclear>ed</unclear> Room<space quantity="1" unit="char"/></hi>,which I enjoyed
+              <lb/>enormously. I <unclear>a</unclear>m m<unclear>ost</unclear> grat<unclear>e</unclear>f to
+              <lb/>you for sending it , as also for
+              <lb/>all the trouble yo<gap reason="illegible" quantity="1" unit="char"/> took with th<unclear>e</unclear>
+              <lb/>translations.
+            </p>
+            <closer>
+              <salute>
+                <lb/>Till ne<unclear>xt</unclear> year, then<unclear>.</unclear>
+              </salute>
+              <salute>
+                <lb/>yours since<unclear>rl</unclear>y
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan Auden</rs>
+              </signed>
+            </closer>
+            <postscript>
+              <p>
+                <lb/>P.S. Do you thi<unclear>n</unclear>k this <unclear>is</unclear> just criticis<unclear>m</unclear> ?
+              </p>
+            </postscript>
+          </div>
+          <div type="poem">
+            <head>
+              <lb/><hi rend="underline" hand="#hand_blue_auden">To Goethe: a Complaint</hi>
+            </head>
+            <lg>
+              <lb/><l>How wonderfully your songs begin</l>
+              <lb/><l>With praise <unclear>of</unclear> Nature and her <del rend="overstrike" hand="#hand_blue_auden">be<unclear>a</unclear><gap reason="illegible" quantity="1" unit="char"/>ty,</del>beauty,</l>
+              <lb/><l>But the<unclear><subst><del rend="overwritten" hand="#hand_blue_auden">re</del><add place="superimposed" hand="#hand_blue_auden">n</add></subst></unclear> , as if it were a duty,</l>
+              <lb/><l>You drag some god-dam<unclear><subst><del rend="overwritten" hand="#hand_blue_auden">m</del><add place="superimposed" hand="#hand_blue_auden">n</add></subst></unclear>ed sweetheart in .</l>
+              <lb/><l>Did you imagine she'd be flattered?</l>
+              <lb/><l>They never sound as if they mattered.</l>
+            </lg>
+            <ab>
+              <space extent="undefined quantity of characters plus minimum" min="10" unit="char"/>___
+            </ab>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00304/" ed="1v" type="sheet"/>
         </div>
       </div>
