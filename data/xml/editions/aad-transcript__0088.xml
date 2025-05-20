@@ -25,7 +25,7 @@
         <edition>
           <title level="a">Autograph Letter Signed W. H. Auden to Hilde Spiel with Manuscript W. H. Auden "To Goethe: a Complaint" 1969-10-05</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_095">
               <desc/>
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -93,7 +93,7 @@
               </physDesc>
               <history>
                 <origin>
-                  <origDate notBefore-iso="1969-10-05T00:00:00+01:00" notAfter-iso="1969-10-05T23:59:59+01:00"/>
+                  <origDate notBefore-iso="1969-10-05T00:00:00+01:00" notAfter-iso="1969-10-05T23:59:59+01:00" ana="#ana_095"/>
                   <origPlace ref="https://d-nb.info/gnd/4801892-2">Kirchstetten</origPlace>
                 </origin>
               </history>
@@ -117,7 +117,7 @@
       </langUsage>
       <correspDesc>
         <correspAction type="sent">
-          <date notBefore-iso="1969-10-05T00:00:00+01:00"/>
+          <date notBefore-iso="1969-10-05T00:00:00+01:00" ana="#ana_095"/>
         </correspAction>
         <correspAction type="received">
           <persName ref="#amp_person_78">Spiel, Hilde</persName>
