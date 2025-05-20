@@ -176,7 +176,7 @@
               <lb/>and <rs type="lit_work" ref="#lit_work_id_223">your transla<unclear>tio</unclear>ns</rs> in <hi rend="underline" hand="#hand_black_auden"><rs type="org" ref="#amp_organization_157">Ver Sacrum</rs></hi>.
             </p>
             <p hand="#hand_black_auden">
-              <lb/>S<unclear>h</unclear><gap reason="illegible" quantity="1" unit="char"/>ll look forward to reading
+              <lb/>Sh<gap reason="illegible" quantity="1" unit="char"/>ll look forward to reading
               <lb/><rs type="lit_work" ref="#lit_work_id_224" ana="#ana_096">your Vienna book</rs>.
             </p>
             <closer hand="#hand_black_auden">
@@ -187,7 +187,7 @@
                 <lb/>you<unclear>s</unclear> since<unclear>r</unclear>ely
               </salute>
               <signed>
-                <lb/>WH<unclear>.</unclear> Auden
+                <lb/><rs type="person" ref="#amp_person_1">WH<unclear>.</unclear> Auden</rs>
               </signed>
             </closer>
           </div>
