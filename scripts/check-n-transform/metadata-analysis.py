@@ -197,13 +197,13 @@ def create_annual_summary(df_date, output_path):
 def create_markdown_report(df_summary, df_info, df_doc, output_path):
     '''generates markdown report with visualizations and analysis'''
     with open(output_path, 'w') as f:  # open file in write mode
+        f.write(f'## `input_img_id.csv` analysis report\n\n')
         f.write(f'### cleaned document data\n')  # write text to file using f-string formatting and markdown syntax
         f.write(f'```\n{df_doc.to_string()}\n```\n\n')  # insert string representation of dataframe
         f.write(f'### distribution per month\n\n')
         f.write(f'![number of documents per month by author](docs_per_month_by_author.png)\n\n')  # insert image, indicate alt text
         f.write(f'### distribution per year\n\n')
         f.write(f'![annual document count by author](annual_docs_by_author.png)\n\n')
-        f.write(f'## `input_img_id.csv` analysis report\n\n')
         f.write(f'### `df.isnull().sum()`\n```\n{df_summary}\n```\n\n')
         f.write(f'### `df.info()`\n```\n{df_info}\n```')
 
