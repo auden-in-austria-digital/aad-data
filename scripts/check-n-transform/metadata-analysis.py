@@ -43,135 +43,135 @@ def create_author_dataframes(df_date):
                          (df_date['author'] != 'Kallman, Chester')]
     }
     
-    # create dictionary that relates authors to series of month-documents counts
+    # create dictionary that relates authors to pandas series of month-documents counts
     monthly_counts = {
-        author: df.resample('ME').size()[lambda x: x > 0]  # make author the key; for value resample author-based dataframe by month-end, count entries, filter out zero values
-        for author, df in author_dfs.items()  # access authors_dfs dictionary as tuples
+        author: df.resample('ME').size()[lambda x: x > 0]  # make author key; for value resample author-based dataframe by month-end, count entries, filter out zero values
+        for author, df in author_dfs.items()  # iterate through authors_dfs dictionary as tuples
     }
     
     return monthly_counts
 
 
 def create_monthly_scatter_plot(monthly_counts, output_path):
-    """Create an enhanced scatter plot of monthly document counts"""
-    # Set plot style and create figure
-    plt.style.use('seaborn-v0_8-whitegrid')
-    fig, ax = plt.subplots(figsize=(18, 10), dpi=300)
+    '''creates scatter plot of monthly document counts'''
+    # set plot style and create figure
+    plt.style.use('seaborn-v0_8-whitegrid')  # set visual style to white background with light grid lines
+    fig, ax = plt.subplots(figsize=(18, 10), dpi=300)  # create figue and axes objects (as current project in this plot); set dimensions in inches, set resolution
     
-    # Define colors to match original design
+    # create dictionaries of author colors
     colors = {
-        'Auden': '#191970',    # Dark blue for Auden (as requested)
-        'Kallman': '#40E0D0',  # Turquoise for Kallman (as requested)
-        'Other': '#B59410'     # Gold for others (as requested)
+        'Auden': '#191970',
+        'Kallman': '#40E0D0',
+        'Other': '#B59410'
     }
     
-    # Define offsets to match original design
+    # define offset
     offset = pd.DateOffset(days=7)
     
-    # Plot each author's data with specific requirements
-    ax.scatter(
-        monthly_counts['Auden'].index - offset,  # Negative offset for Auden
-        monthly_counts['Auden'],
-        s=100,
-        color=colors['Auden'],
-        label='W. H. Auden',
-        marker='.',  # Dot marker as requested
-        alpha=0.7
+    # plot individual author data (from multiple pandas series) with divergent offsets
+    ax.scatter(  # render the axes object as scatter plot
+        monthly_counts['Auden'].index - offset,  # pass x-axis values (index labels of pandas series); define negative offset
+        monthly_counts['Auden'],  # pass y-axis values (values of pandas series)
+        s=100,  # set marker size
+        color=colors['Auden'],  # set color
+        label='W. H. Auden',  # set label
+        marker='.',  # set marker style
+        alpha=0.7  # set marker opacity
     )
     
     ax.scatter(
-        monthly_counts['Kallman'].index,  # No offset for Kallman
+        monthly_counts['Kallman'].index,
         monthly_counts['Kallman'],
         s=100,
         color=colors['Kallman'],
         label='Chester Kallman',
-        marker='.',  # Dot marker as requested
+        marker='.',
         alpha=0.7
     )
     
     ax.scatter(
-        monthly_counts['Other'].index + offset,  # Positive offset for others
+        monthly_counts['Other'].index + offset,  # define positive offset
         monthly_counts['Other'],
         s=100,
         color=colors['Other'],
         label='others',
-        marker='.',  # Dot marker as requested
+        marker='.',
         alpha=0.7
     )
     
-    # Configure axes
-    ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))
-    ax.xaxis.set_major_locator(mdates.YearLocator())
-    plt.xticks(rotation=45)
-    ax.yaxis.set_major_locator(plt.MaxNLocator(integer=True))
+    # configure axes
+    ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y'))  # set x-axis labels to year format
+    ax.xaxis.set_major_locator(mdates.YearLocator())  # set major x-axis tick marks to beginning of each year
+    plt.xticks(rotation=90)  # align x-axis labels vertically
+    ax.yaxis.set_major_locator(plt.MaxNLocator(integer=True))  # set major y-axis tick marks to integer positions
     
-    # Add labels and styling
-    ax.set_title('number of documents per month (UTC) by author', fontsize=16, pad=20)
+    # configure title and labels
+    ax.set_title('number of documents per month (UTC) by author', fontsize=16, pad=20)  # set title; define font size and padding
     ax.set_xlabel('month', fontsize=14, labelpad=10)
     ax.set_ylabel('number of documents', fontsize=14, labelpad=10)
     
-    # Add legend and grid
+    # configure legend and grid
     ax.legend(fontsize=12, frameon=True, facecolor='white', edgecolor='gray', loc='upper right')
-    ax.grid(True, linestyle='--', alpha=0.7)
+    ax.grid(True, linestyle='--', alpha=0.7)  # set grid line style to dashed; set grid line opacity
     
-    # Save figure
-    plt.tight_layout()
+    plt.tight_layout()  # adjust plot paramaters for better fit
+
+    # save and close plot
     plt.savefig(
         output_path,
         dpi=300,
-        bbox_inches='tight',
-        facecolor='white',
-        edgecolor='none'
+        bbox_inches='tight',  # trim excess whitespace around plot
+        facecolor='white',  # set background to white
+        edgecolor='none'  # remove border
     )
     plt.close()
 
 
 def create_annual_summary(df_date, output_path):
-    """Create annual summary bar chart by author"""
-    # Define colors to match monthly visualization
+    '''creates bar chart of annual document count by author'''
+    # create dictionaries of author colors
     colors = {
-        'Auden': '#191970',    # Dark blue for Auden
-        'Kallman': '#40E0D0',  # Turquoise for Kallman
-        'Other': '#B59410'     # Gold for others
+        'Auden': '#191970',
+        'Kallman': '#40E0D0',
+        'Other': '#B59410'
     }
-    # Group by year
-    df_date = df_date.copy()  # Create a copy to avoid modifying the original
-    df_date['year'] = df_date.index.year
-    author_counts = df_date.groupby(['year', 'author']).size().unstack(fill_value=0)
+
+    # group by year
+    df_date = df_date.copy()  # copy date-based dataframe
+    df_date['year'] = df_date.index.year  # create column for years from datetime index
+    author_counts = df_date.groupby(['year', 'author']).size().unstack(fill_value=0)  # create pandas series with year-author multi-index and document numbers as values; make last level of multi-index column headings of new dataframe (and years as row indices), fill any NaN with 0
     
-    # Ensure all author columns exist
+    # add author columns (if there are no documents of these authors)
     for author in ['Auden, W. H.', 'Kallman, Chester']:
         if author not in author_counts.columns:
             author_counts[author] = 0
     
-    # Create 'Other' column
-    columns_of_interest = ['Auden, W. H.', 'Kallman, Chester']
-    author_counts['Other'] = author_counts.drop(
-        columns=columns_of_interest, 
-        errors='ignore'
-    ).sum(axis=1)
+    # create column for other authors
+    author_counts['Other'] = author_counts.drop(  # add resulting pandas series as column to dataframe
+        columns=['Auden, W. H.', 'Kallman, Chester']  # drop Auden and Kallman columns
+    ).sum(axis=1)  # add up values for each of remaining rows
     
-    # Select only relevant columns in order
-    author_counts = author_counts[columns_of_interest + ['Other']]
+    # reduce dataframe to relevant columns
+    author_counts = author_counts[['Auden, W. H.', 'Kallman, Chester', 'Other']]
     
-    # Create bar chart
+    # create bar chart
     plt.style.use('seaborn-v0_8-whitegrid')
     fig, ax = plt.subplots(figsize=(16, 8), dpi=300)
     
-    author_counts.plot(
-        kind='bar', 
-        stacked=True,
+    author_counts.plot(  # create plot directly from dataframe
+        kind='bar',  # set style to bar chart
+        stacked=True,  # stack bars for each author
         color=[colors['Auden'], colors['Kallman'], colors['Other']],
-        ax=ax,
-        width=0.7
+        ax=ax,  # plot on axes object specified above
+        width=0.7  # reduce bar width
     )
     
-    # Add labels and styling
+    # add title and labels
     ax.set_title('number of documents per year (UTC) by author', fontsize=16, pad=20)
     ax.set_xlabel('year', fontsize=14, labelpad=10)
     ax.set_ylabel('number of documents', fontsize=14, labelpad=10)
     
-    # Add legend and grid
+    # add legend and grid
     ax.legend(
         ['W. H. Auden', 'Chester Kallman', 'others'],
         fontsize=12, 
@@ -181,8 +181,9 @@ def create_annual_summary(df_date, output_path):
     )
     ax.grid(axis='y', linestyle='--', alpha=0.7)
     
-    # Save figure
     plt.tight_layout()
+
+    # save plot
     plt.savefig(
         output_path,
         dpi=300,
@@ -194,50 +195,40 @@ def create_annual_summary(df_date, output_path):
 
 
 def create_markdown_report(df_summary, df_info, df_doc, output_path):
-    """Generate markdown report with visualizations and analysis"""
-    with open(output_path, 'w') as f:
+    '''generates markdown report with visualizations and analysis'''
+    with open(output_path, 'w') as f:  # open file in write mode
+        f.write(f'### cleaned document data\n')  # write text to file using f-string formatting and markdown syntax
+        f.write(f'```\n{df_doc.to_string()}\n```\n\n')  # insert string representation of dataframe
+        f.write(f'### distribution per month\n\n')
+        f.write(f'![number of documents per month by author](docs_per_month_by_author.png)\n\n')  # insert image, indicate alt text
+        f.write(f'### distribution per year\n\n')
+        f.write(f'![annual document count by author](annual_docs_by_author.png)\n\n')
         f.write(f'## `input_img_id.csv` analysis report\n\n')
         f.write(f'### `df.isnull().sum()`\n```\n{df_summary}\n```\n\n')
-        f.write(f'### `df.info()`\n```\n{df_info}\n```\n\n')
-        f.write(f'### cleaned document data\n')
-        f.write(f'```\n{df_doc.to_string()}\n```\n\n')
-        f.write(f'### distribution per month\n\n')
-        f.write(f'![number of documents per month by author](docs_per_month_by_author.png)\n\n')
-        f.write(f'### distribution per year\n\n')
-        f.write(f'![annual document count by author](annual_docs_by_author.png)')
+        f.write(f'### `df.info()`\n```\n{df_info}\n```')
 
 
 def main():
-    """Main function to orchestrate the entire workflow"""
-    # Define paths
+    '''orchestrates workflow'''
+    # define paths
     input_path = './metadata/csv/input_img_id.csv'
     monthly_viz_path = './metadata/md/docs_per_month_by_author.png'
     annual_viz_path = './metadata/md/annual_docs_by_author.png'
     report_path = './metadata/md/metadata-analysis.md'
     
-    # Define colors for consistency across visualizations
-    colors = {
-        'Auden': '#1f77b4',  # Deep blue
-        'Kallman': '#2ca02c',  # Strong green
-        'Other': '#ff7f0e'   # Vibrant orange
-    }
+    df, df_summary, df_info = read_and_analyze_data(input_path)  # call read_and_analyze_data() function
     
-    # Read and analyze data
-    df, df_summary, df_info = read_and_analyze_data(input_path)
+    df_doc, df_date = clean_and_prepare_data(df)  # call clean_and_prepare_data() function
     
-    # Clean and prepare data
-    df_doc, df_date = clean_and_prepare_data(df)
+    monthly_counts = create_author_dataframes(df_date)  # call create_author_dataframes() function
     
-    # Create author dataframes and monthly counts
-    monthly_counts = create_author_dataframes(df_date)
-    
-    # Create visualizations
+    # call create_monthly_scatter_plot() and create_annual_summary() functions
     create_monthly_scatter_plot(monthly_counts, monthly_viz_path)
     create_annual_summary(df_date, annual_viz_path)
     
-    # Create report
-    create_markdown_report(df_summary, df_info, df_doc, report_path)
+    create_markdown_report(df_summary, df_info, df_doc, report_path)  # call create_markdown_report() function
 
 
+# execute if script is run directly (but not automatically upon import)
 if __name__ == "__main__":
     main()
