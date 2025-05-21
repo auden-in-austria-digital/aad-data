@@ -1,3 +1,5 @@
+## `input_img_id.csv` analysis report
+
 ### cleaned document data
 ```
                      author                                                                                                                                                     title                          place
@@ -114,8 +116,6 @@ doc
 ### distribution per year
 
 ![annual document count by author](annual_docs_by_author.png)
-
-## `input_img_id.csv` analysis report
 
 ### `df.isnull().sum()`
 ```
