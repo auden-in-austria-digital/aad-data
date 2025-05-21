@@ -1,60 +1,3 @@
-## `input_img_id.csv` analysis report
-
-### `df.isnull().sum()`
-```
-img               0
-lrx               0
-lry               0
-width             0
-height            0
-type              0
-ed                0
-doc               0
-title             0
-author            0
-author-uri        0
-notBefore-iso     0
-notAfter-iso      0
-place             0
-place-uri         0
-repository        0
-repository-uri    0
-collection        0
-idno              0
-dtype: int64
-```
-
-### `df.info()`
-```
-<class 'pandas.core.frame.DataFrame'>
-RangeIndex: 336 entries, 0 to 335
-Data columns (total 19 columns):
- #   Column          Non-Null Count  Dtype 
----  ------          --------------  ----- 
- 0   img             336 non-null    int64 
- 1   lrx             336 non-null    int64 
- 2   lry             336 non-null    int64 
- 3   width           336 non-null    int64 
- 4   height          336 non-null    int64 
- 5   type            336 non-null    object
- 6   ed              336 non-null    object
- 7   doc             336 non-null    object
- 8   title           336 non-null    object
- 9   author          336 non-null    object
- 10  author-uri      336 non-null    object
- 11  notBefore-iso   336 non-null    object
- 12  notAfter-iso    336 non-null    object
- 13  place           336 non-null    object
- 14  place-uri       336 non-null    object
- 15  repository      336 non-null    object
- 16  repository-uri  336 non-null    object
- 17  collection      336 non-null    object
- 18  idno            336 non-null    object
-dtypes: int64(5), object(14)
-memory usage: 50.0+ KB
-
-```
-
 ### cleaned document data
 ```
                      author                                                                                                                                                     title                          place
@@ -171,3 +114,60 @@ doc
 ### distribution per year
 
 ![annual document count by author](annual_docs_by_author.png)
+
+## `input_img_id.csv` analysis report
+
+### `df.isnull().sum()`
+```
+img               0
+lrx               0
+lry               0
+width             0
+height            0
+type              0
+ed                0
+doc               0
+title             0
+author            0
+author-uri        0
+notBefore-iso     0
+notAfter-iso      0
+place             0
+place-uri         0
+repository        0
+repository-uri    0
+collection        0
+idno              0
+dtype: int64
+```
+
+### `df.info()`
+```
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 336 entries, 0 to 335
+Data columns (total 19 columns):
+ #   Column          Non-Null Count  Dtype 
+---  ------          --------------  ----- 
+ 0   img             336 non-null    int64 
+ 1   lrx             336 non-null    int64 
+ 2   lry             336 non-null    int64 
+ 3   width           336 non-null    int64 
+ 4   height          336 non-null    int64 
+ 5   type            336 non-null    object
+ 6   ed              336 non-null    object
+ 7   doc             336 non-null    object
+ 8   title           336 non-null    object
+ 9   author          336 non-null    object
+ 10  author-uri      336 non-null    object
+ 11  notBefore-iso   336 non-null    object
+ 12  notAfter-iso    336 non-null    object
+ 13  place           336 non-null    object
+ 14  place-uri       336 non-null    object
+ 15  repository      336 non-null    object
+ 16  repository-uri  336 non-null    object
+ 17  collection      336 non-null    object
+ 18  idno            336 non-null    object
+dtypes: int64(5), object(14)
+memory usage: 50.0+ KB
+
+```
