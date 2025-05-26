@@ -4,7 +4,7 @@
     <fileDesc>
       <titleStmt>
         <title level="s">Auden in Austria Digital (AAD)</title>
-        <title level="a">Typed Letter Signed W. H. Auden to Hilde Spiel with Typescript W. H. Auden Statement to Austrian Tax Authorities 1972-07-19</title>
+        <title level="a">Typed Letter Signed W. H. Auden to Hilde Spiel 1972-07-19</title>
         <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
         <editor>
           <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
@@ -23,7 +23,7 @@
       </titleStmt>
       <editionStmt>
         <edition>
-          <title level="a">Typed Letter Signed W. H. Auden to Hilde Spiel with Typescript W. H. Auden Statement to Austrian Tax Authorities 1972-07-19</title>
+          <title level="a">Typed Letter Signed W. H. Auden to Hilde Spiel 1972-07-19</title>
           <interpGrp>
             <interp>
               <desc/>
@@ -201,7 +201,7 @@
               <lb/><space quantity="3" unit="char"/>of my point of view which <rs type="person" ref="#amp_person_241">my lawyer</rs> can read out.
             </p>
             <p>
-              <lb/><space quantity="3" unit="char"/>If I sent you a draft,could you possibly translate it for me?
+              <lb/><space quantity="3" unit="char"/>If I sent you a <rs type="lit_work" ref="#lit_work_id_99">draft</rs>,could you possibly translate it for me?
             </p>
             <closer>
               <salute>
