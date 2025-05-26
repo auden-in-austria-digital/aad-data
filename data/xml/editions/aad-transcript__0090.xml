@@ -25,7 +25,7 @@
         <edition>
           <title level="a">Typed Letter Signed W. H. Auden to Hilde Spiel 1972-07-19</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_097">
               <desc/>
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -195,10 +195,10 @@
             </p>
             <p>
               <lb/><space quantity="3" unit="char"/>Now I want your help in another matter. I have been having <del rend="overtyped" hand="#type_black_auden">terrib</del>
-              <lb/><space quantity="3" unit="char"/>terrible troubles with the <rs type="org" ref="#amp_organization_158"><foreign xml:lang="de">Finanzamt</foreign></rs>. It seems that it will come
+              <lb/><space quantity="3" unit="char"/>terrible troubles with the <rs type="org" ref="#amp_organization_158" ana="#ana_097"><foreign xml:lang="de">Finanzamt</foreign></rs>. It seems that it will come
               <lb/><space quantity="3" unit="char"/>to a court case,but this is unlikely to be before the New Year
-              <lb/><space quantity="3" unit="char"/>so that I shan't be here. I want to make a <rs type="lit_work" ref="#lit_work_id_105">personal statement</rs>
-              <lb/><space quantity="3" unit="char"/>of my point of view which <rs type="person" ref="#amp_person_241">my lawyer</rs> can read out.
+              <lb/><space quantity="3" unit="char"/>so that I shan't be here. I want to make a <rs type="lit_work" ref="#lit_work_id_105">personal statement
+              <lb/><space quantity="3" unit="char"/>of my point of view</rs> which <rs type="person" ref="#amp_person_241">my lawyer</rs> can read out.
             </p>
             <p>
               <lb/><space quantity="3" unit="char"/>If I sent you a <rs type="lit_work" ref="#lit_work_id_99">draft</rs>,could you possibly translate it for me?
