@@ -173,24 +173,24 @@
               <lb/><space quantity="4" unit="char"/>Many thanks for your letter and the <rs type="lit_work" ref="#lit_work_id_225">translations</rs> which seem to
               <lb/><space quantity="1" unit="char"/>me excellent. I'm enormously grateful to you for all the trouble
               <lb/><space quantity="1" unit="char"/>you have taken.
+            </p>
+            <p>
+              <lb/><space quantity="7" unit="char"/>As to your queries:
               <seg>
-                <lb/><space quantity="7" unit="char"/>As to your queries:
-                <seg>
-                  <lb/><space quantity="9" unit="char"/>I) <del rend="overtyped" hand="#type_black_auden">S</del> <del rend="overtyped" hand="#type_black_auden">schrafer</del> <foreign xml:lang="de"><hi rend="underline" hand="#type_black_auden">scharfer</hi> Käse</foreign> <space quantity="1" unit="char"/>is right.
-                </seg>
-                <seg>
-                  <lb/><space quantity="9" unit="char"/>2) <hi rend="underline" hand="#type_black_auden"><foreign xml:lang="de">lufthoch</foreign></hi> is fine
-                </seg>
-                <seg>
-                  <lb/><space quantity="9" unit="char"/>3) <hi rend="underline" hand="#type_black_auden"><foreign xml:lang="de">geil</foreign></hi> is better
-                </seg>
-                <seg>
-                  <lb/><space quantity="9" unit="char"/>4) <del rend="overtyped" hand="#type_black_auden">woner</del> <hi rend="underline" hand="#type_black_auden">wonder</hi> here is <del rend="overtyped" hand="#type_black_auden">Satuanen</del> <hi rend="underline" hand="#type_black_auden"><foreign xml:lang="de">Staunen</foreign></hi>
-                </seg>
-                <seg>
-                  <lb/><space quantity="9" unit="char"/>5) <hi rend="underline" hand="#type_black_auden"><unclear>&#7805;</unclear>&#7869;ndages</hi> means wine-harvests. I suppose orig<subst><del rend="overtyped" hand="#type_black_auden">ni</del><add place="superimposed" hand="#type_black_auden">in</add></subst>ally a
-                  <lb/><space quantity="12" unit="char"/>French word.
-                </seg>
+                <lb/><space quantity="9" unit="char"/>I) <del rend="overtyped" hand="#type_black_auden">S</del> <del rend="overtyped" hand="#type_black_auden">schrafer</del> <foreign xml:lang="de"><hi rend="underline" hand="#type_black_auden">scharfer</hi> Käse</foreign> <space quantity="1" unit="char"/>is right.
+              </seg>
+              <seg>
+                <lb/><space quantity="9" unit="char"/>2) <hi rend="underline" hand="#type_black_auden"><foreign xml:lang="de">lufthoch</foreign></hi> is fine
+              </seg>
+              <seg>
+                <lb/><space quantity="9" unit="char"/>3) <hi rend="underline" hand="#type_black_auden"><foreign xml:lang="de">geil</foreign></hi> is better
+              </seg>
+              <seg>
+                <lb/><space quantity="9" unit="char"/>4) <del rend="overtyped" hand="#type_black_auden">woner</del> <hi rend="underline" hand="#type_black_auden">wonder</hi> here is <del rend="overtyped" hand="#type_black_auden">Satuanen</del> <hi rend="underline" hand="#type_black_auden"><foreign xml:lang="de">Staunen</foreign></hi>
+              </seg>
+              <seg>
+                <lb/><space quantity="9" unit="char"/>5) <hi rend="underline" hand="#type_black_auden"><unclear>&#7805;</unclear>&#7869;ndages</hi> means wine-harvests. I suppose orig<subst><del rend="overtyped" hand="#type_black_auden">ni</del><add place="superimposed" hand="#type_black_auden">in</add></subst>ally a
+                <lb/><space quantity="12" unit="char"/>French word.
               </seg>
             </p>
             <p>
