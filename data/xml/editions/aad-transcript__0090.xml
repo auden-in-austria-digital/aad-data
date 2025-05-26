@@ -68,7 +68,7 @@
                 <objectDesc>
                   <supportDesc>
                     <support>
-                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00343/ https://iiif.acdh.oeaw.ac.at/aad/aad_00344/">NEUSIEDLER JAPAN POST</watermark>
+                      <watermark/>
                       <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00307/">
                         <width>210</width>
                         <height>297</height>
@@ -77,23 +77,7 @@
                         <width>210</width>
                         <height>297</height>
                       </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00343/">
-                        <width>210</width>
-                        <height>297</height>
-                      </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00344/">
-                        <width>210</width>
-                        <height>297</height>
-                      </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00345/">
-                        <width>209</width>
-                        <height>296</height>
-                      </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00346/">
-                        <width>209</width>
-                        <height>296</height>
-                      </dimensions>
-                      <ab facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00307/ https://iiif.acdh.oeaw.ac.at/aad/aad_00308/">
+                      <ab>
                         The paper surface contains indented typewriter impressions as well as inked marks of typewriting.
                       </ab>
                     </support>
@@ -143,7 +127,7 @@
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-05-05">TEI/XML template populated with csv2xml.py</change>
-      <change who="#tfruehwirth" when-iso="2025-05-26">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-05-26">Text transcribed; physDesc and profileDesc populated; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -152,18 +136,6 @@
     </surface>
     <surface ulx="0" uly="0" lrx="6032" lry="8461">
       <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00308/"/>
-    </surface>
-    <surface ulx="0" uly="0" lrx="6105" lry="8501">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00343/"/>
-    </surface>
-    <surface ulx="0" uly="0" lrx="6105" lry="8501">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00344/"/>
-    </surface>
-    <surface ulx="0" uly="0" lrx="6105" lry="8501">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00345/"/>
-    </surface>
-    <surface ulx="0" uly="0" lrx="6105" lry="8501">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00346/"/>
     </surface>
   </facsimile>
   <text>
@@ -194,11 +166,11 @@
                 </date>
               </dateline>
               <salute>
-                <lb/><space quantity="16" unit="char"/>Dear Dr <del rend="overtyped" hand="#type_black_auden">Speil</del> Spiel:
+                <lb/><space quantity="16" unit="char"/>Dear <rs type="person" ref="#amp_person_78">Dr <del rend="overtyped" hand="#type_black_auden">Speil</del> Spiel</rs>:
               </salute>
             </opener>
             <p>
-              <lb/><space quantity="4" unit="char"/>Many thanks for your letter and the translations which seem to
+              <lb/><space quantity="4" unit="char"/>Many thanks for your letter and the <rs type="lit_work" ref="#lit_work_id_225">translations</rs> which seem to
               <lb/><space quantity="1" unit="char"/>me excellent. I'm enormously grateful to you for all the trouble
               <lb/><space quantity="1" unit="char"/>you have taken.
               <seg>
@@ -222,25 +194,31 @@
               </seg>
             </p>
             <p>
-              <lb/>
+              <lb/><space quantity="3" unit="char"/>Now I want your help in another matter. I have been having <del rend="overtyped" hand="#type_black_auden">terrib</del>
+              <lb/><space quantity="3" unit="char"/>terrible troubles with the <rs type="org" ref="#amp_organization_158"><foreign xml:lang="de">Finanzamt</foreign></rs>. It seems that it will come
+              <lb/><space quantity="3" unit="char"/>to a court case,but this is unlikely to be before the New Year
+              <lb/><space quantity="3" unit="char"/>so that I shan't be here. I want to make a <rs type="lit_work" ref="#lit_work_id_105">personal statement</rs>
+              <lb/><space quantity="3" unit="char"/>of my point of view which <rs type="person" ref="#amp_person_241">my lawyer</rs> can read out.
+            </p>
+            <p>
+              <lb/><space quantity="3" unit="char"/>If I sent you a draft,could you possibly translate it for me?
             </p>
             <closer>
               <salute>
-                <lb/>
+                <lb/><space quantity="17" unit="char"/>with many thanks
               </salute>
               <salute>
-                <lb/>
+                <lb/><space quantity="19" unit="char"/>Yours ever
               </salute>
+              <signed hand="#hand_black_auden">
+                <lb/><rs type="person" ref="#amp_person_1">Wystan Auden</rs>
+              </signed>
               <signed>
-                <lb/>
+                <lb/><space quantity="26" unit="char"/><rs type="person" ref="#amp_person_1">W.H.Auden</rs>
               </signed>
             </closer>
           </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00308/" ed="1v" type="sheet"/>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00343/" ed="2r" type="sheet"/>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00344/" ed="2v" type="sheet"/>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00345/" ed="3r" type="sheet"/>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00346/" ed="3v" type="sheet"/>
         </div>
       </div>
     </body>
