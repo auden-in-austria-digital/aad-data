@@ -4,7 +4,7 @@
     <fileDesc>
       <titleStmt>
         <title level="s">Auden in Austria Digital (AAD)</title>
-        <title level="a">Copy Typed Letter Hilde Spiel to W. H. Auden 1972-07-21</title>
+        <title level="a">Copy Typed Letter Hilde Spiel to W. H. Auden 1972-08-01</title>
         <author ref="https://d-nb.info/gnd/118751980">Spiel, Hilde</author>
         <editor>
           <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
@@ -23,7 +23,7 @@
       </titleStmt>
       <editionStmt>
         <edition>
-          <title level="a">Copy Typed Letter Hilde Spiel to W. H. Auden 1972-07-21</title>
+          <title level="a">Copy Typed Letter Hilde Spiel to W. H. Auden 1972-08-01</title>
           <interpGrp>
             <interp>
               <desc/>
@@ -89,7 +89,7 @@
               </physDesc>
               <history>
                 <origin>
-                  <origDate notBefore-iso="1972-07-21T00:00:00+01:00" notAfter-iso="1972-07-21T23:59:59+01:00"/>
+                  <origDate notBefore-iso="1972-08-01T00:00:00+01:00" notAfter-iso="1972-08-01T23:59:59+01:00"/>
                   <origPlace ref="https://d-nb.info/gnd/4051632-5">St. Wolfgang im Salzkammergut</origPlace>
                 </origin>
               </history>
