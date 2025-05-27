@@ -102,7 +102,7 @@ doc
 0096           Auden, W. H.                                                                                             Autograph Letter Signed W. H. Auden to Hilde Spiel 1972-09-03                   Kirchstetten
 0097           Auden, W. H.                                                                                             Autograph Letter Signed W. H. Auden to Hilde Spiel 1972-09-18                   Kirchstetten
 0098           Spiel, Hilde                                                                                                   Copy Typed Letter Hilde Spiel to W. H. Auden 1970-09-18                         Vienna
-0099           Spiel, Hilde                                                                                                   Copy Typed Letter Hilde Spiel to W. H. Auden 1972-07-21  St. Wolfgang im Salzkammergut
+0099           Spiel, Hilde                                                                                                   Copy Typed Letter Hilde Spiel to W. H. Auden 1972-08-01  St. Wolfgang im Salzkammergut
 0100           Spiel, Hilde                                                                                                   Copy Typed Letter Hilde Spiel to W. H. Auden 1972-07-20  St. Wolfgang im Salzkammergut
 0101           Spiel, Hilde                                                                                       Copy Typed Letter Hilde Spiel to W. H. Auden 1972-07-01--1972-07-18  St. Wolfgang im Salzkammergut
 0102           Spiel, Hilde                                                                                                   Copy Typed Letter Hilde Spiel to W. H. Auden 1972-08-15  St. Wolfgang im Salzkammergut
