@@ -93,8 +93,8 @@ doc
 0087           Auden, W. H.                                                                                             Autograph Letter Signed W. H. Auden to Hilde Spiel 1970-09-21                   Kirchstetten
 0088           Auden, W. H.                                        Autograph Letter Signed W. H. Auden to Hilde Spiel with Manuscript W. H. Auden "To Goethe: a Complaint" 1969-10-05                   Kirchstetten
 0089           Auden, W. H.                                                                                             Autograph Letter Signed W. H. Auden to Hilde Spiel 1971-06-15                   Kirchstetten
-0090           Auden, W. H.                               Typed Letter Signed W. H. Auden to Hilde Spiel with Typescript W. H. Auden Statement to Austrian Tax Authorities 1972-07-19                   Kirchstetten
-0091           Auden, W. H.                                                                                             Autograph Letter Signed W. H. Auden to Hilde Spiel 1972-07-26                   Kirchstetten
+0090           Auden, W. H.                                                                                                 Typed Letter Signed W. H. Auden to Hilde Spiel 1972-07-19                   Kirchstetten
+0091           Auden, W. H.                           Autograph Letter Signed W. H. Auden to Hilde Spiel with Typescript W. H. Auden Statement to Austrian Tax Authorities 1972-07-26                   Kirchstetten
 0092           Auden, W. H.                                                                                             Autograph Letter Signed W. H. Auden to Hilde Spiel 1972-08-03                   Kirchstetten
 0093           Auden, W. H.                                                                                             Autograph Letter Signed W. H. Auden to Hilde Spiel 1972-08-16                   Kirchstetten
 0094           Auden, W. H.                                                                                             Autograph Letter Signed W. H. Auden to Hilde Spiel 1972-08-18                   Kirchstetten
