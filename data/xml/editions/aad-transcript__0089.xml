@@ -172,8 +172,8 @@
             <p hand="#hand_black_auden">
               <lb/>Thank<unclear>&#xB7;</unclear> you for your letter.
               <lb/>Of course, I shall be honored and
-              <lb/>delighted if you print <rs type="lit_work" ref="#lit_work_id_222">my <unclear>ve</unclear>r<unclear>se</unclear>s</rs>
-              <lb/>and <rs type="lit_work" ref="#lit_work_id_223">your transla<unclear>tio</unclear>ns</rs> in <hi rend="underline" hand="#hand_black_auden"><rs type="org" ref="#amp_organization_157">Ver Sacrum</rs></hi>.
+              <lb/>delighted if you print <rs type="lit_work" ref="#lit_work_id_37 #lit_work_id_57">my <unclear>ve</unclear>r<unclear>se</unclear>s</rs>
+              <lb/>and <rs type="lit_work" ref="#lit_work_id_222 #lit_work_id_223">your transla<unclear>tio</unclear>ns</rs> in <hi rend="underline" hand="#hand_black_auden"><rs type="org" ref="#amp_organization_157">Ver Sacrum</rs></hi>.
             </p>
             <p hand="#hand_black_auden">
               <lb/>Sh<gap reason="illegible" quantity="1" unit="char"/>ll look forward to reading
