@@ -229,8 +229,73 @@
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00310/" ed="1v" type="sheet"/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00343/" ed="2r" type="sheet"/>
           <div>
+            <ab hand="#hand_gray_onb">
+              <lb/>15\B969\4-Beil.
+            </ab>
           </div>
-          <div type="prose">
+          <div type="prose" hand="#type_black_auden">
+            <head>
+              <lb/><space quantity="23" unit="char"/><hi rend="underline" hand="#type_black_auden">STATEMENT</hi>
+            </head>
+            <salute>
+              <lb/>Gentlemen:
+            </salute>
+            <p>
+              <lb/><space quantity="4" unit="char"/>My stand-point is quite simple. One pays income-tax where one
+              <lb/><space quantity="1" unit="char"/>earns money,which in <subst><del rend="overtyped" hand="#type_black_auden"><unclear>j</unclear></del><add place="superimposed" hand="#type_black_auden">m</add></subst>y case,as a writer writing in English,means
+              <lb/><space quantity="1" unit="char"/>the United States and England. In Austria I don't earn a groschen;
+              <lb/><space quantity="1" unit="char"/>I only spend schillings.
+            </p>
+            <p>
+              <lb/><space quantity="21" unit="char"/>__
+              <lb/><space quantity="3" unit="char"/>You assert that I have a 'material' interest in Austria,by which
+              <lb/><space quantity="1" unit="char"/>you mean,I presume<subst><del rend="overwritten" hand="#hand_black_auden"> </del><add place="superimposed" hand="#hand_black_auden">,</add></subst>a 'financial' interest. This could only possibly.
+              <lb/><space quantity="1" unit="char"/>be true if I had to say to myself:"I must come to Austria because <del rend="overtyped" hand="#type_black_auden">onl</del>
+              <lb/><space quantity="1" unit="char"/>only in Austria can I work.<unclear>e</unclear> <space quantity="1" unit="char"/>But this is not the case. I have lived
+              <lb/><space quantity="1" unit="char"/>in <subst><del rend="overtyped" hand="#type_black_auden">may</del><add place="above" hand="#type_black_auden">many</add></subst> places and a number of countries and have always been able
+              <lb/><space quantity="1" unit="char"/>to work,wherever I was.
+            </p>
+            <p>
+              <lb/><space quantity="21" unit="char"/>__
+              <lb/><space quantity="1" unit="char"/>Of course I have a 'personal' interest in Austria: otherwise I
+              <lb/><space quantity="1" unit="char"/>should not come here. I like the landscape and I find the Austrians
+              <lb/><space quantity="1" unit="char"/>I meet charming and friendly.
+            </p>
+            <p>
+              <lb/><space quantity="24" unit="char"/>__
+              <lb/><space quantity="2" unit="char"/>You say,and it is true,that I once received an Austrian <del rend="overtyped" hand="#type_black_auden">prize</del>
+              <lb/><space quantity="2" unit="char"/>literary prize. That was a great honor of which I am very proud.
+              <lb/><space quantity="2" unit="char"/>But you cannot seriously believe,gentlemen,that I calculated:<del rend="overtyped" hand="#type_black_auden">é</del> " If
+              <lb/><space quantity="2" unit="char"/>I keep coming to Austria,perhaps I <subst><del rend="overtyped" hand="#type_black_auden">sahll</del><add place="above" hand="#type_black_auden">shall</add></subst> win a prize. Before I
+              <lb/><space quantity="2" unit="char"/>received it,I had never heard of this prize. It is also clear that
+              <lb/><space quantity="2" unit="char"/>I cannot receive it a second time. Again,you say that there is now
+              <lb/><space quantity="2" unit="char"/>a street in <del rend="overtyped" hand="#type_black_auden">Kir<unclear><subst><del rend="overtyped" hand="#type_black_auden">s</del><add place="superimposed" hand="#type_black_auden">c</add></subst></unclear>chstet<unclear>t</unclear>e</del>nKirchstetten named <del rend="overtyped" hand="#type_black_auden"><unclear>)u</unclear>denstrass</del>e<hi rend="underline" hand="#type_black_auden"><del rend="overtyped" hand="#type_black_auden">A</del>udenstrasse</hi>
+              <lb/><space quantity="2" unit="char"/>That was a most friendly gesture by the <foreign xml:lang="de">Gemeinde</foreign>,but I cannot
+              <lb/><space quantity="2" unit="char"/>be said to profit <del rend="overtyped" hand="#type_black_auden">finacially</del> f<subst><del rend="overtyped" hand="#type_black_auden">r</del><add place="superimposed" hand="#type_black_auden">i</add></subst>nancially from it.
+            </p>
+            <p>
+              <lb/><lb/><space quantity="17" unit="char"/>____
+              <lb/><space quantity="2" unit="char"/>You say,and it is true,that I have written some poems with an
+              <lb/><space quantity="2" unit="char"/>Austrian background. About this I have three points to make.
+              <seg>
+                <lb/><space quantity="3" unit="char"/>I) I have never received a penny in Austria <subst><del rend="overtyped" hand="#type_black_auden">fro</del><add place="above" hand="#type_black_auden">for</add></subst> my poems. A few
+                <lb/><space quantity="6" unit="char"/>have been translated into German,but it is the translators who
+                <lb/><space quantity="6" unit="char"/>get the money,not me.
+              </seg>
+              <seg>
+                <lb/><space quantity="4" unit="char"/>2) I don't think you understand how poems are written. What
+                <lb/><space quantity="7" unit="char"/>appears to be the theme is only a focus,an opportunity to
+                <lb/><space quantity="6" unit="char"/>express certain thoughts <del rend="overtyped" hand="#type_black_auden">the</del> about Nature,God,History,Mankind,
+                <lb/><space quantity="6" unit="char"/>etc,which may have been present in the poet's mind for a long
+                <lb/><space quantity="6" unit="char"/>time. For instance I wrote a poem for the twentieth <del rend="overtyped" hand="#type_black_auden">anniversy</del>
+                <lb/><space quantity="6" unit="char"/><del rend="overtyped" hand="#type_black_auden">anniversay</del> anniversary of Josef W<subst><del rend="overtyped" hand="#type_black_auden">ie</del><add place="superimposed" hand="#type_black_auden">ei</add></subst>nheber's death. But
+                <lb/><space quantity="6" unit="char"/>the <del rend="overtyped" hand="#type_black_auden">peom<space quantity="1" unit="char"/></del> poem is really about,firstly the l<subst><del rend="overtyped" hand="#type_black_auden">v<unclear>9</unclear></del><add place="superimposed" hand="#type_black_auden">ov</add></subst>e which any good
+                <lb/><space quantity="6" unit="char"/>poet,no matter what his nationa<subst><del rend="overtyped" hand="#type_black_auden">il</del><add place="superimposed" hand="#type_black_auden">li</add></subst>ty,has for his mother-ton<subst><del rend="overtyped" hand="#type_black_auden">h</del><add place="superimposed" hand="#type_black_auden">g</add></subst>ue,
+                <lb/><space quantity="6" unit="char"/>and,secondly about what happene<gap reason="illegible" quantity="1" unit="char"/>d after the war in those
+                <lb/><space quantity="6" unit="char"/>countrie<subst><del rend="overtyped" hand="#type_black_auden">d</del><add place="superimposed" hand="#type_black_auden">s</add></subst> which lost it,that is to say,not only Austria,but
+                <lb/><space quantity="6" unit="char"/>also Germany and Italy.
+              </seg>
+            </p>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00344/" ed="2v" type="sheet"/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00345/" ed="3r" type="sheet"/>
           </div>
