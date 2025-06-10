@@ -250,7 +250,7 @@
             <p>
               <lb/><space quantity="21" unit="char"/>__
               <lb/><space quantity="3" unit="char"/><rs type="note" ana="#ana_098">You assert that I have a 'material' interest in <rs type="place" ref="#amp_place_id_10">Austria</rs></rs>,by which
-              <lb/><space quantity="1" unit="char"/>you mean,I presume<subst><del rend="overwritten" hand="#hand_black_auden"> </del><add place="superimposed" hand="#hand_black_auden">,</add></subst>a 'financial' interest. This could only possibly.
+              <lb/><space quantity="1" unit="char"/>you mean,I presume<subst><del rend="overwritten" hand="#hand_black_auden"> </del><add place="superimposed" hand="#hand_black_auden">,</add></subst>a 'financial' interest. This could only possibly
               <lb/><space quantity="1" unit="char"/>be true if I had to say to myself:"I must come to <rs type="place" ref="#amp_place_id_10">Austria</rs> because <del rend="overtyped" hand="#type_black_auden">onl</del>
               <lb/><space quantity="1" unit="char"/>only in <rs type="place" ref="#amp_place_id_10">Austria</rs> can I work.<unclear><subst><del rend="overtyped" hand="#type_black_auden">e</del><add place="superimposed" hand="#type_black_auden">"</add></subst></unclear> <space quantity="1" unit="char"/>But this is not the case. I have lived
               <lb/><space quantity="1" unit="char"/>in <subst><del rend="overtyped" hand="#type_black_auden">may</del><add place="above" hand="#type_black_auden">many</add></subst> places and a number of countries and have always been able
@@ -259,7 +259,7 @@
             <p>
               <lb/><space quantity="21" unit="char"/>__
               <lb/><space quantity="1" unit="char"/>Of course I have a 'personal' interest in <rs type="place" ref="#amp_place_id_10">Austria</rs>: otherwise I
-              <lb/><space quantity="1" unit="char"/>should not come here. I like the landscape and I find the Austrians
+              <lb/><space quantity="1" unit="char"/><unclear>s</unclear>hould not come here. I like the landscape and I find the Austrians
               <lb/><space quantity="1" unit="char"/>I meet charming and friendly.
             </p>
             <p>
@@ -271,7 +271,7 @@
               <lb/><space quantity="2" unit="char"/>received it,I had never heard of this prize. It is also clear that
               <lb/><space quantity="2" unit="char"/>I cannot receive it a second time. Again,you say that there is now
               <lb/><space quantity="2" unit="char"/>a street in <del rend="overtyped" hand="#type_black_auden">Kir<unclear><subst><del rend="overtyped" hand="#type_black_auden">s</del><add place="superimposed" hand="#type_black_auden">c</add></subst></unclear>chstet<unclear>t</unclear>e</del>n<rs type="place" ref="#amp_place_id_5">Kirchstetten</rs> named <del rend="overtyped" hand="#type_black_auden"><unclear>)u</unclear>denstrass</del>e<hi rend="underline" hand="#type_black_auden"><rs type="note" ana="acdh:amp-transcript__0062.xml#ana_034"><del rend="overtyped" hand="#type_black_auden">A</del>udenstrasse</rs></hi>
-              <lb/><space quantity="2" unit="char"/>That was a most friendly gesture by the <foreign xml:lang="de">Gemeinde</foreign>,but I cannot
+              <lb/><space quantity="2" unit="char"/>That was a most friendly gesture by the <rs type="org" ref="#amp_organization_159"><foreign xml:lang="de">Gemeinde</foreign></rs>,but I cannot
               <lb/><space quantity="2" unit="char"/>be said to profit <del rend="overtyped" hand="#type_black_auden">finacially</del> f<subst><del rend="overtyped" hand="#type_black_auden">r</del><add place="superimposed" hand="#type_black_auden">i</add></subst>nancially from it.
             </p>
             <p>
@@ -311,8 +311,8 @@
             </fw>
             <p prev="true">
               <seg>
-                <lb/><space quantity="6" unit="char"/>Again,in I964 I wrote a poem called <hi rend="underline" hand="#hand_black_auden"><rs type="lit_work" ref="#lit_work_id_79">Whits<subst><del rend="overtyped" hand="#type_black_auden">i</del><add place="superimposed" hand="#type_black_auden">u</add></subst>nday in
-                <lb/><space quantity="1" unit="char"/>Kirchstetten</rs></hi>,because I happened to be here. But the setting is
+                <lb/><space quantity="6" unit="char"/>Again,in I964 I wrote a poem called <rs type="lit_work" ref="#lit_work_id_79"><hi rend="underline" hand="#hand_black_auden">Whits<subst><del rend="overtyped" hand="#type_black_auden">i</del><add place="superimposed" hand="#type_black_auden">u</add></subst>nday in</hi>
+                <lb/><space quantity="1" unit="char"/><hi rend="underline" hand="#hand_black_auden">Kirchstetten</hi></rs>,because I happened to be here. But the setting is
                 <lb/><space quantity="1" unit="char"/>unimpor<subst><del rend="overtyped" hand="#type_black_auden">at</del><add place="superimposed" hand="#type_black_auden">ta</add></subst>nt. What the <rs type="lit_work" ref="#lit_work_id_79">poem</rs> is really about is the question:
                 <lb/><unclear><subst><del rend="overtyped" hand="#type_black_auden">e</del><add place="superimposed" hand="#type_black_auden">"</add></subst></unclear>What,to a Christian,is the <del rend="overtyped" hand="#type_black_auden">signifinace</del> significance of Pentacost<subst><del rend="overtyped" hand="#type_black_auden">,</del><add place="superimposed" hand="#type_black_auden">?</add></subst>"
                 <lb/><space quantity="1" unit="char"/>And that is the same in all countries.
