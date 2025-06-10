@@ -142,6 +142,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-05-27">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2025-05-27">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-06-03">Text transcribed; hands, languages, correspondence and prose-document container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -221,8 +222,8 @@
                 <lb/>that I am no longer a <hi rend="underline" hand="#hand_black_auden"><foreign xml:lang="de">Grundbesit<unclear>z</unclear>e<unclear>r</unclear></foreign></hi>.
                 <lb/>I also now no longer have a bank
                 <lb/>account, and eve<unclear>r</unclear> my car is made <gap reason="illegible" quantity="1" unit="char"/><unclear>ver</unclear> to
-                <lb/>my <rs type="person" ref="#amp_person_32"><foreign xml:lang="de">Hausmeisterin</foreign></rs>. <unclear>My</unclear> only <foreign xml:lang="de"><subst><del rend="overwritten" hand="#hand_black_auden">e</del><add place="superimposed" hand="#hand_black_auden">E</add></subst>igentum</foreign>
-                <lb/>a<unclear>r</unclear> <unclear>n</unclear>y clothes and my typewriter<unclear>'</unclear>
+                <lb/>my <rs type="person" ref="#amp_person_32"><foreign xml:lang="de">Hau<unclear>s</unclear>meisterin</foreign></rs>. <unclear>My</unclear> only <foreign xml:lang="de"><subst><del rend="overwritten" hand="#hand_black_auden">e</del><add place="superimposed" hand="#hand_black_auden">E</add></subst>igentum</foreign>
+                <lb/>a<unclear>r</unclear> <unclear>n</unclear>y clothes and my typewr<unclear>i</unclear>ter<unclear>'</unclear>
               </p>
             </postscript>
           </div>
