@@ -158,4 +158,7 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
         tei_pb = etree.SubElement(tei_div1, 'pb', facs=img_url, ed=row['ed'], type=row['type'])  # add element in text node
 
         with open(file_name, 'w') as xml_file:  # open/create output XML file in write mode
-            xml_file.write(etree.tostring(root, encoding='utf-8', xml_declaration=True, pretty_print=True).decode('utf-8'))  # convert XML ElementTree structure to UTF-8-encoded byte string; add XML declaration, indentation, and line breaks; decode UTF-8 byte string into Unicode string
+            xml_content = etree.tostring(root, encoding='utf-8', xml_declaration=True, pretty_print=True).decode('utf-8')  # convert XML ElementTree structure to UTF-8-encoded byte string; add XML declaration, indentation, and line breaks; decode UTF-8 byte string into Unicode string
+            lines = xml_content.split('\n', 1)  # split string at first newline; pass strings to list
+            xml_content = lines[0] + '\n<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>\n' + lines[1]  # insert Schematron reference after XML declaration
+            xml_file.write(xml_content)
