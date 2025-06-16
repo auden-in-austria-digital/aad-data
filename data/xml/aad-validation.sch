@@ -32,4 +32,27 @@
         
     </sch:pattern>
     
+    <sch:pattern id="change-validation">
+        <sch:title>Change Element Requirements</sch:title>
+        
+        <sch:rule context="tei:revisionDesc">
+            <sch:assert test="count(tei:change) >= 2">
+                revisionDesc must contain at least two change elements; found: <sch:value-of select="count(tei:change)"/>
+            </sch:assert>
+            
+            <sch:assert test="tei:change[contains(., 'physDesc')]">
+                at least one change element must contain string "physDesc"
+            </sch:assert>
+            
+            <sch:assert test="tei:change[contains(., 'transcribed')]">
+                at least one change element must contain string "transcribed"
+            </sch:assert>
+            
+            <sch:assert test="tei:change[contains(., 'entities')]">
+                at least one change element must contain string "entities"
+            </sch:assert>
+        </sch:rule>
+        
+    </sch:pattern>
+    
 </sch:schema>
