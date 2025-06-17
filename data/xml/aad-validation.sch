@@ -48,7 +48,7 @@
                 at least one change element must contain string "transcribed"
             </sch:assert>
             
-            <sch:assert test="tei:change[contains(., 'entities')]">
+            <sch:assert test="tei:change[contains(., 'entities')] or tei:change[contains(., 'Entities')]">
                 at least one change element must contain string "entities"
             </sch:assert>
         </sch:rule>
