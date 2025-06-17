@@ -55,4 +55,15 @@
         
     </sch:pattern>
     
+    <sch:pattern id="corresp-validation">
+        <sch:title>CorrespDesc Requirements</sch:title>
+        
+        <sch:rule context="tei:titleStmt/tei:title[@level='a']">
+            <sch:assert test="not(contains(., ' to ')) or (//tei:correspDesc and count(//tei:correspDesc/tei:correspAction) > 1)">
+                documents with titles containing " to " must have correspDesc element with more than one correspAction element
+            </sch:assert>
+        </sch:rule>
+        
+    </sch:pattern>
+    
 </sch:schema>
