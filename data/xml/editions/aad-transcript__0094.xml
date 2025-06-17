@@ -29,7 +29,7 @@
         <edition>
           <title level="a">Autograph Letter Signed W. H. Auden to Hilde Spiel 1972-08-18</title>
           <interpGrp>
-            <interp xml:id="ana_099">
+            <interp xml:id="ana_099"><!-- replace acdh:amp-transcript__0031.xml#ana_031 -->
               <desc/>
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
