@@ -171,18 +171,18 @@
               </salute>
             </opener>
             <p>
-              <lb/>I'm enorm<unclear>ous</unclear>ly grateful to you
-              <lb/>for all the trouble your taking<unclear>,</unclear>
+              <lb/>I'<unclear>m</unclear> enorm<unclear>ous</unclear>ly grateful to you
+              <lb/>for all <unclear>the</unclear> trouble your taking<unclear>,</unclear>
             </p>
             <p>
               <lb/>I think the <rs type="lit_work" ref="#lit_work_id_99" ana="acdh:aad-transcript__0094.xml#ana_099">extra passage</rs> <unclear>s</unclear>ho<unclear>uld</unclear>
-              <lb/>come <foreign xml:lang="de">zum Schluss</foreign>, but if you
-              <lb/>think other<unclear>w</unclear>ise, in<unclear>s</unclear>ert it where
+              <lb/><unclear>c</unclear>ome <foreign xml:lang="de">zum Schluss</foreign>, but if you
+              <lb/>think <unclear>o</unclear>ther<unclear>w</unclear>ise, in<unclear>s</unclear>ert it where
               <lb/>you th<gap reason="illegible" atLeast="2" atMost="3" unit="char"/>k best.
             </p>
             <closer>
               <salute>
-                <lb/>yours <unclear><subst><del rend="overwritten" hand="#hand_blue_auden">ev</del><add place="superimposed" hand="#hand_blue_auden">gr</add></subst></unclear>atefully
+                <lb/>your<unclear>s</unclear> <unclear><subst><del rend="overwritten" hand="#hand_blue_auden">ev</del><add place="superimposed" hand="#hand_blue_auden">gr</add></subst></unclear>atefully
               </salute>
               <signed>
                 <lb/><rs type="person" ref="#amp_person_1">Wystan Auden</rs>
