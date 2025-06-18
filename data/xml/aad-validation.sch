@@ -100,4 +100,20 @@
         
     </sch:pattern>
     
+    
+    <sch:pattern id="hi-validation">
+        <sch:title>hi requirements</sch:title>
+        
+        <sch:rule context="tei:hi">
+            <sch:assert test="@rend = ('underline', 'superscript', 'bold', 'double-underline', 'italic')">
+                hi element must have rend attribute with value 'underline', 'superscript', 'bold', 'double-underline', or 'italic'; found: '<sch:value-of select="@rend"/>'
+            </sch:assert>
+            
+            <sch:assert test="@rend != 'underline' or (@hand and starts-with(@hand, '#'))">
+                if rend='underline', element must have hand attribute starting with '#'; found rend='<sch:value-of select="@rend"/>' and hand='<sch:value-of select="@hand"/>'
+            </sch:assert>
+        </sch:rule>
+        
+    </sch:pattern>
+    
 </sch:schema>
