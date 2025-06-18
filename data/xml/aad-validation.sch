@@ -7,7 +7,7 @@
     <sch:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
 
     <sch:pattern id="language-validation">
-        <sch:title>Language Element Requirements</sch:title>
+        <sch:title>language requirements</sch:title>
         
         <sch:rule context="tei:profileDesc">
             <sch:assert test="tei:langUsage">
@@ -33,7 +33,7 @@
     </sch:pattern>
     
     <sch:pattern id="change-validation">
-        <sch:title>Change Element Requirements</sch:title>
+        <sch:title>change requirements</sch:title>
         
         <sch:rule context="tei:revisionDesc">
             <sch:assert test="count(tei:change) >= 2">
@@ -55,12 +55,46 @@
         
     </sch:pattern>
     
-    <sch:pattern id="corresp-validation">
-        <sch:title>CorrespDesc Requirements</sch:title>
+    <sch:pattern id="correspAction-validation">
+        <sch:title>correspAction requirements</sch:title>
         
         <sch:rule context="tei:titleStmt/tei:title[@level='a']">
             <sch:assert test="not(contains(., ' to ')) or (//tei:correspDesc and count(//tei:correspDesc/tei:correspAction) > 1)">
                 documents with titles containing " to " must have correspDesc element with more than one correspAction element
+            </sch:assert>
+        </sch:rule>
+        
+    </sch:pattern>
+    
+    <sch:pattern id="del-validation">
+        <sch:title>del requirements</sch:title>
+        
+        <sch:rule context="tei:del">
+            <sch:assert test="@rend = ('overwritten', 'edited', 'overstrike', 'overtyped', 'overlaid')">
+                del element must have rend attribute with value 'overwritten', 'edited', 'overstrike', 'overtyped', or 'overlaid'; found: '<sch:value-of select="@rend"/>'
+            </sch:assert>
+            
+            <sch:assert test="@rend = 'overlaid' or @hand">
+                del element must have hand attribute (except when rend='overlaid')
+            </sch:assert>
+            
+            <sch:assert test="not(@hand) or ((@rend = 'overtyped' and starts-with(@hand, '#type_')) or (@rend != 'overtyped' and starts-with(@hand, '#hand_')))">
+                if rend='overtyped', hand value starts with '#type_', otherwise hand value starts with '#hand_'; found rend='<sch:value-of select="@rend"/>' and hand='<sch:value-of select="@hand"/>'
+            </sch:assert>
+        </sch:rule>
+        
+    </sch:pattern>
+    
+    <sch:pattern id="add-validation">
+        <sch:title>add requirements</sch:title>
+        
+        <sch:rule context="tei:add">
+            <sch:assert test="@place = ('superimposed', 'above', 'bottom', 'inline')">
+                add element must have place attribute with value 'superimposed', 'above', 'bottom', or 'inline'; found: '<sch:value-of select="@place"/>'
+            </sch:assert>
+
+            <sch:assert test="starts-with(@hand, '#hand_') or starts-with(@hand, '#type_')">
+                hand attribute must start with '#hand_' or '#type_'; found: '<sch:value-of select="@hand"/>'
             </sch:assert>
         </sch:rule>
         
