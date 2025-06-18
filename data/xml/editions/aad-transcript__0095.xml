@@ -128,6 +128,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-05-05">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2025-06-17">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-06-18">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -144,17 +145,17 @@
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00317/" ed="1r" type="sheet"/>
           <div>
-            <ab hand="">
-              <lb/>
+            <ab hand="#hand_gray_onb">
+              <lb/>15/B26/10
             </ab>
           </div>
-          <div type="letter_message" hand="">
+          <div type="letter_message" hand="#hand_blue_auden">
             <opener>
               <dateline>
                 <date>
-                  <lb/>
+                  <lb/>Augu<unclear>s</unclear>t 23<hi rend="superscript">rd</hi>.
                 </date>
-                <seg hand="">
+                <seg hand="#print_black_auden">
                   <placeName>
                     <address xml:lang="de">
                       <lb/><rs type="place" ref="#amp_place_id_2">3062 KIRCHSTETTEN
@@ -166,21 +167,25 @@
                 </seg>
               </dateline>
               <salute>
-                <lb/>
+                <lb/>Dear <rs type="person" ref="#amp_person_78">D<hi rend="superscript">r</hi> Spiel</rs>:
               </salute>
             </opener>
             <p>
-              <lb/>
+              <lb/>I'm enorm<unclear>ous</unclear>ly grateful to you
+              <lb/>for all the trouble your taking<unclear>,</unclear>
             </p>
             <p>
-              <lb/>
+              <lb/>I think the <rs type="lit_work" ref="#lit_work_id_99" ana="acdh:aad-transcript__0094.xml#ana_099">extra passage</rs> <unclear>s</unclear>ho<unclear>uld</unclear>
+              <lb/>come <foreign xml:lang="de">zum Schluss</foreign>, but if you
+              <lb/>think other<unclear>w</unclear>ise, in<unclear>s</unclear>ert it where
+              <lb/>you th<gap reason="illegible" atLeast="2" atMost="3" unit="char"/>k best.
             </p>
             <closer>
               <salute>
-                <lb/>
+                <lb/>yours <unclear><subst><del rend="overwritten" hand="#hand_blue_auden">ev</del><add place="superimposed" hand="#hand_blue_auden">gr</add></subst></unclear>atefully
               </salute>
               <signed>
-                <lb/>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan Auden</rs>
               </signed>
             </closer>
           </div>
