@@ -128,7 +128,7 @@
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-05-05">TEI/XML template populated with csv2xml.py</change>
-      <change who="#tfruehwirth" when-iso="2025-06-18">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-06-18">Text transcribed; physDesc and profileDesc populated; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -146,14 +146,14 @@
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00319/" ed="1r" type="sheet"/>
           <div>
             <ab hand="#hand_gray_onb">
-              <lb/>
+              <lb/>15/B26/11
             </ab>
           </div>
           <div type="letter_message">
             <opener>
               <dateline>
                 <date>
-                  <lb/><handShift new="#hand_blue_auden"/> <handShift new="#hand_gray_unident_0096"/>
+                  <lb/><handShift new="#hand_blue_auden"/>Sept 3<hi rend="superscript">rd</hi> <handShift new="#hand_gray_unident_0096"/>(1972 ?)
                 </date>
                 <seg hand="#print_black_auden">
                   <placeName>
@@ -167,21 +167,19 @@
                 </seg>
               </dateline>
               <salute hand="#hand_blue_auden">
-                <lb/>
+                <lb/>Dear <rs type="person" ref="#amp_person_78">Hilda</rs>:
               </salute>
             </opener>
             <p hand="#hand_blue_auden">
-              <lb/>
-            </p>
-            <p hand="#hand_blue_auden">
-              <lb/>
+              <lb/>Many thanks for your card
+              <lb/><hi rend="underline" hand="#hand_blue_auden"><foreign xml:lang="de">Weine<unclear>r</unclear>nsten</foreign></hi> is corre<unclear>c</unclear>t<unclear>,</unclear>
             </p>
             <closer hand="#hand_blue_auden">
               <salute>
-                <lb/>
+                <lb/>you<unclear>s</unclear> eve<unclear>n</unclear>
               </salute>
               <signed>
-                <lb/>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
               </signed>
             </closer>
           </div>
