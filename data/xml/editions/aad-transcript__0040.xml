@@ -53,7 +53,7 @@
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher ref="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+        <publisher ref="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities (ACDH)</publisher>
         <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
         <date when-iso="2027">2027</date>
         <availability>
