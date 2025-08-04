@@ -169,7 +169,7 @@
             <lb/><rs type="person" ref="#amp_person_78">D<hi rend="superscript">r</hi> Hild<unclear>a</unclear> Spiel</rs>
             <address xml:lang="de">
               <lb/><rs type="place" ref="#amp_place_id_411" ana="#ana_100">Wie<unclear>n</unclear> XIX
-              <lb/>Cottagegasse 65/11/3</rs>
+              <lb/>Co<unclear>t</unclear>tagegasse 65/11/3</rs>
             </address>   
           </ab>
           <ab hand="#hand_blue_unident_0097">
@@ -190,6 +190,11 @@
         </div>
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00321/" ed="2r" type="sheet"/>
+          <div>
+            <ab hand="#hand_gray_onb">
+              <lb/>15/B26/12
+            </ab>
+          </div>
           <div type="letter_message" hand="#hand_blue_auden">
             <opener>
               <dateline>
@@ -208,13 +213,13 @@
                 </seg>
               </dateline>
               <salute>
-                <lb/>Dear Hilda,
+                <lb/>Dear <rs type="person" ref="#amp_person_78">Hilda</rs>,
               </salute>
             </opener>
             <p>
               <lb/>Many thanks for your <unclear>l</unclear><gap reason="illegible" quantity="1" unit="char"/>t<unclear>t</unclear>e<gap reason="illegible" quantity="1" unit="char"/>
               <lb/>I simply can<gap reason="illegible" quantity="1" unit="char"/><unclear>ot</unclear> thank you
-              <lb/><unclear>e</unclear>no<unclear>u</unclear>gh for all you h<unclear>a</unclear>ve done
+              <lb/><unclear>e</unclear>no<unclear>u</unclear>gh for a<unclear>l</unclear>l yo<unclear>u</unclear> h<unclear>a</unclear>ve done
             </p>
             <closer>
               <signed>
