@@ -76,9 +76,12 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
             tei_resp2_name2 = etree.SubElement(tei_respstmt2, 'name', ref='https://orcid.org/0000-0002-0636-4476')
             tei_resp2_name2.set('{http://www.w3.org/XML/1998/namespace}id', 'delsner')
             tei_resp2_name2.text = 'Elsner, Daniel'
+            tei_resp2_name3 = etree.SubElement(tei_respstmt2, 'name', ref='https://orcid.org/0000-0001-6104-7484')
+            tei_resp2_name3.set('{http://www.w3.org/XML/1998/namespace}id', 'ahechtl')
+            tei_resp2_name3.text = 'Hechtl, Angelika'
             tei_pubstmt = etree.SubElement(tei_filedesc, 'publicationStmt')
             tei_publisher = etree.SubElement(tei_pubstmt, 'publisher', ref='https://d-nb.info/gnd/1226158307')
-            tei_publisher.text = 'Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)'
+            tei_publisher.text = 'Austrian Centre for Digital Humanities (ACDH)'
             tei_pubplace = etree.SubElement(tei_pubstmt, 'pubPlace', ref='https://d-nb.info/gnd/4066009-6')
             tei_pubplace.text = 'Vienna'
             tei_pubdate = etree.SubElement(tei_pubstmt, 'date')
