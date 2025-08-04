@@ -29,7 +29,7 @@
         <edition>
           <title level="a">Autograph Letter Signed W. H. Auden to Hilde Spiel 1972-09-18</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_100">
               <desc/>
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -140,7 +140,7 @@
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-05-05">TEI/XML template populated with csv2xml.py</change>
-      <change who="#tfruehwirth" when-iso="2025-08-04">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-08-04">Text transcribed; physDesc and profileDesc populated; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -162,11 +162,65 @@
       <div type="transcription" xml:id="transcription_aad_0097" xml:lang="en">
         <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00323/" ed="1r" type="envelope"/>
+          <ab hand="#hand_gray_onb">
+            <lb/>15/B26 _ Beil.
+          </ab>
+          <ab hand="#hand_blue_auden">
+            <lb/><rs type="person" ref="#amp_person_78">D<hi rend="superscript">r</hi> Hild<unclear>a</unclear> Spiel</rs>
+            <address xml:lang="de">
+              <lb/><rs type="place" ref="#amp_place_id_411" ana="#ana_100">Wie<unclear>n</unclear> XIX
+              <lb/>Cottagegasse 65/11/3</rs>
+            </address>   
+          </ab>
+          <ab hand="#hand_blue_unident_0097">
+            <lb/>1190
+          </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00324/" ed="1v" type="envelope"/>
+          <ab hand="#hand_blue_auden">
+            <lb/><rs type="person" ref="#amp_person_1">WH<unclear>.</unclear> Auden</rs>
+            <seg hand="#print_black_auden">
+              <address xml:lang="de">
+                <lb/><rs type="place" ref="#amp_place_id_2">3062 KIRCHSTETTEN
+                <lb/>BEZ. ST. PÖLTEN
+                <lb/>HINTERHOLZ 6
+                <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
+              </address>    
+            </seg> 
+          </ab>  
         </div>
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00321/" ed="2r" type="sheet"/>
           <div type="letter_message" hand="#hand_blue_auden">
+            <opener>
+              <dateline>
+                <date>
+                  <lb/>Sept 18<hi rend="superscript">th</hi> .
+                </date>
+                <seg hand="#print_black_auden">
+                  <placeName>
+                    <address xml:lang="de">
+                      <lb/><rs type="place" ref="#amp_place_id_2">3062 KIRCHSTETTEN
+                      <lb/>BEZ. ST. PÖLTEN
+                      <lb/>HINTERHOLZ 6
+                      <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
+                    </address>
+                  </placeName>
+                </seg>
+              </dateline>
+              <salute>
+                <lb/>Dear Hilda,
+              </salute>
+            </opener>
+            <p>
+              <lb/>Many thanks for your <unclear>l</unclear><gap reason="illegible" quantity="1" unit="char"/>t<unclear>t</unclear>e<gap reason="illegible" quantity="1" unit="char"/>
+              <lb/>I simply can<gap reason="illegible" quantity="1" unit="char"/><unclear>ot</unclear> thank you
+              <lb/><unclear>e</unclear>no<unclear>u</unclear>gh for all you h<unclear>a</unclear>ve done
+            </p>
+            <closer>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan</rs>
+              </signed>
+            </closer>
           </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00322/" ed="2v" type="sheet"/>
         </div>
