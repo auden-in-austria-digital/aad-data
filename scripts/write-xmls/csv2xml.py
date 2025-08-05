@@ -80,7 +80,7 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
             tei_resp2_name3.set('{http://www.w3.org/XML/1998/namespace}id', 'ahechtl')
             tei_resp2_name3.text = 'Hechtl, Angelika'
             tei_pubstmt = etree.SubElement(tei_filedesc, 'publicationStmt')
-            tei_publisher = etree.SubElement(tei_pubstmt, 'publisher', ref='https://d-nb.info/gnd/1226158307')
+            tei_publisher = etree.SubElement(tei_pubstmt, 'publisher', ref='https://d-nb.info/gnd/1123037736')
             tei_publisher.text = 'Austrian Centre for Digital Humanities (ACDH)'
             tei_pubplace = etree.SubElement(tei_pubstmt, 'pubPlace', ref='https://d-nb.info/gnd/4066009-6')
             tei_pubplace.text = 'Vienna'
