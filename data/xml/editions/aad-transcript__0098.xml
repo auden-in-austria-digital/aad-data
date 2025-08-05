@@ -152,21 +152,21 @@
             </opener>
             <p>
               <lb/><space quantity="7" unit="char"/>here are <rs type="lit_work" ref="#lit_work_id_215" ana="acdh:aad-transcript__0087.xml#ana_092">the German versions
-              <lb/>of <rs type="lit_work" ref="#lit_work_id_216">the <unclear>th</unclear>ree poems I was given to
+              <lb/>of <rs type="lit_work" ref="#lit_work_id_216">the <unclear>th</unclear>ree poems <rs type="person" ref="#amp_person_78">I</rs> was given to
               <lb/>translate</rs></rs>. I have done<unclear>m</unclear>y best,
               <lb/>I think, but most probably it isn't
               <lb/>good enough. One could spend weeks
               <lb/>trying to improve on it.
             </p>
             <p>
-              <lb/>I am sending you <rs type="lit_work" ref="#lit_work_id_217" ana="acdh:aad-transcript__0087.xml#ana_093">a little
+              <lb/><space quantity="7" unit="char"/>I am sending you <rs type="lit_work" ref="#lit_work_id_217" ana="acdh:aad-transcript__0087.xml#ana_093">a little
               <lb/>poem of my own</rs> so that you shouldn<subst><del rend="overtyped" hand="#type_cc_spiel">O</del><add place="superimposed" hand="#type_cc_spiel">'</add></subst>t
               <lb/>think that I have never tried to
               <lb/>lisp in numbe<unclear>r</unclear>s.
             </p>
             <closer>
               <salute>
-                <lb/>Yours sincerely,
+                <lb/><space quantity="7" unit="char"/>Yours sincerely,
               </salute>
             </closer>
           </div>
