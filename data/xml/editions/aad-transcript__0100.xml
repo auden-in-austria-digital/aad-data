@@ -135,6 +135,55 @@
       <div type="transcription" xml:id="transcription_aad_0100" xml:lang="en">
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00329/" ed="1r" type="sheet"/>
+          <div>
+            <ab hand="#hand_gray_onb">
+              <lb/>15|B8 70<unclear>|3</unclear>
+            </ab>
+          </div>
+          <div type="letter_message" hand="#type_cc_spiel">
+            <opener>
+              <dateline>
+                <date>
+                  <lb/><space/>
+                </date>
+              </dateline>
+              <salute>
+                <lb/>
+              </salute>
+            </opener>
+            <p>
+              <lb/><space/>
+              <lb/>
+              <lb/>
+              <lb/>
+              <lb/>
+              <lb/>
+              <lb/>
+              <lb/>
+              <lb/>
+              <seg>
+                <lb/><space/>
+                <lb/><space/>
+                <lb/><space/>
+              </seg>
+            </p>
+            <p>
+              <lb/><space/>
+              <lb/>
+              <lb/>
+              <lb/>
+              <lb/>
+              <lb/>
+            </p>
+            <closer>
+              <salute>
+                <lb/><space/>
+              </salute>
+              <salute>
+                <lb/><space/>
+              </salute>
+            </closer>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00330/" ed="1v" type="sheet"/>
         </div>
       </div>
