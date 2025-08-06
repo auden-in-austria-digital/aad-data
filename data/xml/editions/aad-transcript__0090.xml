@@ -34,6 +34,11 @@
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
             </interp>
+            <interp xml:id="ana_103">
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
           </interpGrp>
         </edition>
         <respStmt>
@@ -175,7 +180,7 @@
               </salute>
             </opener>
             <p>
-              <lb/><space quantity="4" unit="char"/>Many thanks for your letter and the <rs type="lit_work" ref="#lit_work_id_225">translations</rs> which seem to
+              <lb/><space quantity="4" unit="char"/>Many thanks for your letter and the <rs type="lit_work" ref="#lit_work_id_225" ana="#ana_103">translations</rs> which seem to
               <lb/><space quantity="1" unit="char"/>me excellent. I'm enormously grateful to you for all the trouble
               <lb/><space quantity="1" unit="char"/>you have taken.
             </p>
