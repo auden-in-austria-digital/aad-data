@@ -29,7 +29,7 @@
         <edition>
           <title level="a">Copy Typed Letter Hilde Spiel to W. H. Auden 1972-07-01--1972-07-18</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_104">
               <desc/>
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -95,7 +95,7 @@
               <history>
                 <origin>
                   <origDate notBefore-iso="1972-07-01T00:00:00+01:00" notAfter-iso="1972-07-18T23:59:59+01:00"/>
-                  <origPlace ref="https://d-nb.info/gnd/4051632-5">St. Wolfgang im Salzkammergut</origPlace>
+                  <origPlace ref="https://d-nb.info/gnd/4051632-5" ana="acdh:aad-transcript__0098.xml#ana_101">St. Wolfgang im Salzkammergut</origPlace>
                 </origin>
               </history>
             </msDesc>
@@ -119,7 +119,7 @@
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-05-05">TEI/XML template populated with csv2xml.py</change>
-      <change who="#tfruehwirth" when-iso="2025-08-07">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-08-07">Text transcribed; physDesc and profileDesc populated; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -135,7 +135,71 @@
       <div type="transcription" xml:id="transcription_aad_0101" xml:lang="en">
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00331/" ed="1r" type="sheet"/>
+          <div>
+            <ab hand="#hand_gray_onb">
+              <lb/>[Juli 1972]
+            </ab>
+          </div>
+          <div>
+            <ab hand="#hand_gray_onb">
+              <lb/>15<unclear>|</unclear>B870<unclear>|</unclear>4
+            </ab>
+          </div>
+          <div type="letter_message" hand="#type_cc_spiel">
+            <opener>
+              <dateline>
+                <lb/><space quantity="28" unit="char"/>xx 06138/515
+              </dateline>
+              <salute>
+                <lb/>Dear <rs type="person" ref="#amp_person_1">Mr Auden</rs>,
+              </salute>
+            </opener>
+            <p>
+              <lb/><space quantity="7" unit="char"/>reading in <rs type="lit_work" ref="#lit_work_id_241" ana="#ana_104"><rs type="person" ref="#amp_person_239">Robert Craft</rs>'s journal</rs>
+              <lb/>that you were confident once of making Goethe
+              <lb/>sound like a limey did not make my task any
+              <lb/>easier, nor did your avowed pride about
+              <lb/>your knowledge of metre. I don't know what
+              <lb/>you will think of my poor attempts to render
+              <lb/>your beautiful and meaningful poetry into
+              <lb/>anything like adequate German. There is no
+              <lb/>hope of getting the metre right, I'm afraid.
+              <lb/>It is probably worst where I have tried to
+              <lb/>rhyme as well<subst><del rend="overtyped" hand="#type_cc_spiel">m</del><add place="superimposed" hand="#type_cc_spiel">,</add></subst> as in <rs type="lit_work" ref="#lit_work_id_230">'Under Sirius'</rs>. Anyhow,
+              <lb/>if I don't succeed it is not for want of
+              <lb/>tr<subst><del rend="overtyped" hand="#type_cc_spiel">a</del><add place="superimposed" hand="#type_cc_spiel">y</add></subst>ing.
+            </p>
+            <p>
+              <lb/><space quantity="7" unit="char"/>A few short remarks on some doubtful
+              <lb/>points. In <rs type="lit_work" ref="#lit_work_id_228">'Since'</rs> I have translated rank
+              <lb/>cheese as <foreign xml:lang="de">scharfer Käse</foreign>, but one might also
+              <lb/>say <foreign xml:lang="de">krasser Käse</foreign> which is more wilful. In
+              <lb/><rs type="lit_work" ref="#lit_work_id_232">'Up there'</rs> I have allowed myself for once
+            </p>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00332/" ed="1v" type="sheet"/>
+            <p prev="true">
+              <lb/>the poetic licence od translati<subst><del rend="overtyped" hand="#type_cc_spiel">g</del><add place="superimposed" hand="#type_cc_spiel">n</add></subst>g aloft with
+              <lb/><foreign xml:lang="de">lufthoch</foreign>. In <rs type="lit_work" ref="#lit_work_id_234">'Profile'</rs>, if you don't want to
+              <lb/>do without the alliteration in hungry or horny
+              <lb/>I could use <foreign xml:lang="de">hitzig</foreign> instead of <foreign xml:lang="de">geil</foreign>. Where
+              <lb/>you speak of the night in the <rs type="lit_work" ref="#lit_work_id_235">Freud poem</rs> I am
+              <lb/>not sure whether y<subst><del rend="overtyped" hand="#type_cc_spiel"><unclear>u</unclear></del><add place="superimposed" hand="#type_cc_spiel">o</add></subst>u mean <foreign xml:lang="de">Wunder</foreign> or <foreign xml:lang="de">Staunen</foreign>
+              <lb/>when you talk of a sense of wonder it alone
+              <lb/>can offer. And in <rs type="lit_work" ref="#lit_work_id_237">'Mezzogiorno'</rs> I was stymied
+              <lb/>by one word : vendages. This is not be found
+              <lb/>anywhere, but nearest to expressions of feud,
+              <lb/>wine-harvest or a commercial sense. Please
+              <lb/>enlighten me there.
+            </p>
+            <p>
+              <lb/><space quantity="5" unit="char"/>I am at the <rs type="place" ref="#amp_place_id_413">above address</rs> until September.
+            </p>
+            <closer>
+              <salute>
+                <lb/><space quantity="29" unit="char"/>Yours sincerely,
+              </salute>
+            </closer>
+          </div>
         </div>
       </div>
     </body>
