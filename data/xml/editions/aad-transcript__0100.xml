@@ -120,6 +120,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-05-05">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2025-08-06">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-08-07">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -137,50 +138,50 @@
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00329/" ed="1r" type="sheet"/>
           <div>
             <ab hand="#hand_gray_onb">
-              <lb/>15|B8 70<unclear>|3</unclear>
+              <lb/>15|B 870<unclear>|3</unclear>
             </ab>
           </div>
           <div type="letter_message" hand="#type_cc_spiel">
             <opener>
               <dateline>
                 <date>
-                  <lb/><space/>
+                  <lb/><space quantity="25" unit="char"/>20th July 1972
                 </date>
               </dateline>
               <salute>
-                <lb/>
+                <lb/>Dear <rs type="person" ref="#amp_person_1">Mr Auden</rs>,
               </salute>
             </opener>
             <p>
-              <lb/><space/>
-              <lb/>
-              <lb/>
-              <lb/>
-              <lb/>
-              <lb/>
-              <lb/>
-              <lb/>
-              <lb/>
-              <seg>
-                <lb/><space/>
-                <lb/><space/>
-                <lb/><space/>
+              <lb/><space quantity="4" unit="char"/><rs type="person" ref="#amp_person_78">I</rs> am very glad the <rs type="lit_work" ref="#lit_work_id_225" ana="acdh:aad-transcript__0090.xml#ana_103">translations</rs> seem
+              <lb/>good to you . If you want anything improved
+              <lb/>when you have looked at them a bit more
+              <lb/>closely, do let me know. Meanwhile would
+              <lb/>you insert the word '<foreign xml:lang="de">Weinernten</foreign>' in the
+              <lb/>empty spot in the last verse of <rs type="lit_work" ref="#lit_work_id_238">'Mezzo-
+              <lb/>giorno'</rs>, and alter the two last lines of
+              <lb/>the last verse but three of <rs type="lit_work" ref="#lit_work_id_236">'Freud'</rs> in the
+              <lb/>following way :
+              <seg xml:lang="de">
+                <lb/><space quantity="5" unit="char"/>nicht nur,weil sie allein uns noch zum
+                <lb/><space quantity="34" unit="char"/>Staunen
+                <lb/><space quantity="1" unit="char"/>bewegen kann, sondern auch, etc.
               </seg>
             </p>
             <p>
-              <lb/><space/>
-              <lb/>
-              <lb/>
-              <lb/>
-              <lb/>
-              <lb/>
+              <lb/><space quantity="4" unit="char"/>Of course I shall translate your <rs type="lit_work" ref="#lit_work_id_99">state-
+              <lb/>ment</rs>, if you give me a week or two for it.
+              <lb/>(I am <rs type="lit_work" ref="#lit_work_id_240">doing <rs type="person" ref="#amp_person_283">Stoppard</rs>'s <rs type="lit_work" ref="#lit_work_id_239">'Jumpers'</rs></rs> at the
+              <lb/>moment). How unpleasant for you. Have you
+              <lb/>got a good chartered accountant? I know
+              <lb/><rs type="person" ref="#amp_person_282">Kreisky</rs>'s - perhaps he can help.
             </p>
             <closer>
               <salute>
-                <lb/><space/>
+                <lb/><space quantity="5" unit="char"/>Best regards,
               </salute>
               <salute>
-                <lb/><space/>
+                <lb/><space quantity="18" unit="char"/>Yours sincerely,
               </salute>
             </closer>
           </div>
