@@ -95,7 +95,7 @@
               <history>
                 <origin>
                   <origDate notBefore-iso="1972-08-01T00:00:00+01:00" notAfter-iso="1972-08-01T23:59:59+01:00" ana="#ana_102"/>
-                  <origPlace ref="https://d-nb.info/gnd/4051632-5">St. Wolfgang im Salzkammergut</origPlace>
+                  <origPlace ref="https://d-nb.info/gnd/4051632-5" ana="acdh:aad-transcript__0098.xml#ana_101">St. Wolfgang im Salzkammergut</origPlace>
                 </origin>
               </history>
             </msDesc>
