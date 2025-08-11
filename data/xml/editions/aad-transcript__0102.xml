@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0102" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Copy Typed Letter Hilde Spiel to W. H. Auden 1972-08-15</title>
+        <author ref="https://d-nb.info/gnd/118751980">Spiel, Hilde</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Copy Typed Letter Hilde Spiel to W. H. Auden 1972-08-15</title>
+          <interpGrp>
+            <interp>
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <repository ref="https://d-nb.info/gnd/2020893-5">Austrian National Library</repository>
+                <collection>Literary Archive</collection>
+                <idno>ÖLA 15/91, Group 2.2, 15/B870/5</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark/>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00333/">
+                        <width>150</width>
+                        <height>210</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00334/">
+                        <width>150</width>
+                        <height>210</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_gray_onb" scribeRef="#amp_organization_156" medium="pencil">Handwriting in pencil authored by <rs type="org" ref="#amp_organization_156">Austrian National Library</rs></handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="type_cc_spiel" scribeRef="#amp_person_78" medium="type-cc">Carbon copy of typewriting by Hilde Spiel</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1972-08-15T00:00:00+01:00" notAfter-iso="1972-08-15T23:59:59+01:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4051632-5" ana="acdh:aad-transcript__0098.xml#ana_101">St. Wolfgang im Salzkammergut</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#tfruehwirth" when-iso="2025-05-05">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2025-08-11">Text transcribed; physDesc and profileDesc populated; hands, languages, correspondence container structure, and entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="4411" lry="6145">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00333/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="4411" lry="6145">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00334/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0102" xml:lang="en">
+        <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00333/" ed="1r" type="sheet"/>
+          <div>
+            <ab hand="#hand_gray_onb">
+              <lb/>15/B870/5
+            </ab>
+          </div>
+          <div type="letter_message" hand="#type_cc_spiel">
+            <opener>
+              <dateline>
+                <lb/><space extent="undefined quantity of characters" min="3" unit="char"/>xxx 515
+                <date>
+                  <lb/><space extent="undefined quantity of characters" min="1" unit="char"/>15th August 1972
+                </date>
+              </dateline>
+              <salute>
+                <lb/>Dear <rs type="person" ref="#amp_person_1">Mr Auden</rs>,
+              </salute>
+            </opener>
+            <p>
+              <lb/><space quantity="8" unit="char"/>Here is a <rs type="lit_work" ref="#lit_work_id_103">German version of
+              <lb/><rs type="lit_work" ref="#lit_work_id_105">your statement</rs></rs>, slightly amended. <rs type="person" ref="#amp_person_78">I</rs>
+              <lb/>hope it will help. If I don't hear from
+              <lb/>you <subst><del rend="overtyped" hand="#type_cc_spiel">e</del><add place="superimposed" hand="#type_cc_spiel">w</add></subst>ithin a few days I shall take it
+              <lb/>that you approve of the wording, and
+              <lb/>will send the statement with a covering
+              <lb/>letter to <rs type="person" ref="#amp_person_282">Chancellor Kreisky</rs> , asking him
+              <lb/>to look into the <rs type="event" ref="#amp_event_id_45">matter</rs>.
+            </p>
+            <closer>
+              <salute>
+                <lb/><space/>Yours
+              </salute>
+            </closer>
+          </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00334/" ed="1v" type="sheet"/>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
