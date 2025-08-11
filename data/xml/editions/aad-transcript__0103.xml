@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0103" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Copy Typed Letter Hilde Spiel to Bruno Kreisky with Copy Typescript Hilde Spiel Translation W. H. Auden Statement to Austrian Tax Authorities 1972-08-25</title>
+        <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
+        <author ref="https://d-nb.info/gnd/118751980">Spiel, Hilde</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Copy Typed Letter Hilde Spiel to Bruno Kreisky with Copy Typescript Hilde Spiel Translation W. H. Auden Statement to Austrian Tax Authorities 1972-08-25</title>
+          <interpGrp>
+            <interp>
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <repository ref="https://d-nb.info/gnd/2020893-5">Austrian National Library</repository>
+                <collection>Literary Archive</collection>
+                <idno>ÖLA 15/91, Group 2.2, 15/B969/4</idno>
+                <idno>ÖLA 15/91, Group 2.2, 15/B870/5-Beil.</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark/>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00341/">
+                        <width>210</width>
+                        <height>297</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00342/">
+                        <width>210</width>
+                        <height>297</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00335/">
+                        <width>210</width>
+                        <height>297</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00336/">
+                        <width>210</width>
+                        <height>297</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00337/">
+                        <width>210</width>
+                        <height>298</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00338/">
+                        <width>210</width>
+                        <height>298</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00339/">
+                        <width>210</width>
+                        <height>298</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00340/">
+                        <width>210</width>
+                        <height>298</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_gray_onb" scribeRef="#amp_organization_156" medium="pencil">Handwriting in pencil authored by <rs type="org" ref="#amp_organization_156">Austrian National Library</rs></handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="type_cc_spiel" scribeRef="#amp_person_78" medium="type-cc">Carbon copy of typewriting by Hilde Spiel</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1972-08-25T00:00:00+01:00" notAfter-iso="1972-08-25T23:59:59+01:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4051632-5" ana="acdh:aad-transcript__0098.xml#ana_101">St. Wolfgang im Salzkammergut</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#tfruehwirth" when-iso="2025-05-05">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2025-08-11">physDesc and profileDesc populated</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="6040" lry="8501">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00341/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="6040" lry="8501">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00342/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="6085" lry="8461">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00335/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="6085" lry="8554">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00336/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="6113" lry="8489">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00337/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="6113" lry="8501">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00338/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="6113" lry="8501">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00339/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="6040" lry="8501">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00340/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0103" xml:lang="de">
+        <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00341/" ed="1r" type="sheet"/>
+          <div>
+            <ab hand="#hand_gray_onb">
+              <lb/>15\B969|4
+            </ab>
+          </div>
+          <div type="letter_message" hand="#type_cc_spiel">
+            <opener>
+              <dateline>
+                <date>
+                  <lb/><space quantity="43" unit="char"/>25-8-1972
+                </date>
+                <persName>
+                  <lb/><rs type="person" ref="#amp_person_282">Herrn Bundeskanzler
+                  <lb/>Dr.Bruno Kreisky</rs>
+                </persName>
+                <placeName>
+                  <address>
+                    <lb/><rs type="place" ref="#amp_place_id_415">1190 Wien
+                    <lb/>Armbrustergasse 15</rs>
+                  </address>
+                </placeName>
+              </dateline>
+              <salute>
+                <lb/>Sehr verehrter <rs type="person" ref="#amp_person_282">Herr Bundeskanzler</rs>!
+              </salute>
+            </opener>
+            <p>
+              <lb/><space/>
+              <lb/>
+              <lb/>
+              <lb/>
+              <lb/>
+              <lb/>
+            </p>
+            <p>
+              <lb/><space/>
+              <lb/>
+              <lb/>
+              <lb/>
+              <lb/>
+              <lb/>
+              <lb/>
+            </p>
+            <p>
+              <lb/><space/>
+              <lb/>
+              <lb/>
+              <lb/>
+              <lb/>
+              <lb/>
+              <lb/>
+            </p>
+            <closer>
+              <salute>
+                <lb/><space/>
+              </salute>
+              <signed>
+                <lb/><space/>
+              </signed>
+            </closer>
+          </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00342/" ed="1v" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00335/" ed="2r" type="sheet"/>
+          <div>
+            <ab hand="#hand_gray_onb">
+              <lb/>15\B870\<subst><del rend="overwritten" hand="#hand_gray_onb"><unclear>1</unclear></del><add place="superimposed" hand="#hand_gray_onb">5</add></subst>-Beil.
+            </ab>
+          </div>
+          <div type="prose" hand="#type_cc_spiel">
+          </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00336/" ed="2v" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00337/" ed="3r" type="sheet"/>
+          <div>
+            <ab hand="#hand_gray_onb">
+              <lb/>15|B870<unclear>|</unclear>5-Beil.
+            </ab>
+          </div>
+          <div type="prose" hand="#type_cc_spiel">
+          </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00338/" ed="3v" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00339/" ed="4r" type="sheet"/>
+          <div>
+            <ab hand="#hand_gray_onb">
+              <lb/>15\B870<unclear>\</unclear>5-Beil.
+            </ab>
+          </div>
+          <div type="prose" hand="#type_cc_spiel">
+          </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00340/" ed="4v" type="sheet"/>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
