@@ -157,13 +157,13 @@
               <lb/>hope it will help. If I don't hear from
               <lb/>you <subst><del rend="overtyped" hand="#type_cc_spiel">e</del><add place="superimposed" hand="#type_cc_spiel">w</add></subst>ithin a few days I shall take it
               <lb/>that you approve of the wording, and
-              <lb/>will send the statement with a covering
+              <lb/>will send the <rs type="lit_work" ref="#lit_work_id_103">statement</rs> with a covering
               <lb/>letter to <rs type="person" ref="#amp_person_282">Chancellor Kreisky</rs> , asking him
               <lb/>to look into the <rs type="event" ref="#amp_event_id_45">matter</rs>.
             </p>
             <closer>
               <salute>
-                <lb/><space/>Yours
+                <lb/><space quantity="6" unit="char"/>Yours
               </salute>
             </closer>
           </div>
