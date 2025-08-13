@@ -145,6 +145,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-05-05">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2025-08-11">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-08-13">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -257,37 +258,37 @@
               <lb/><space quantity="4" unit="char"/>Mein Standpunkt ist sehr einfach : Man bezahlt dort
               <lb/>Einkommensteuer, wo man Geld verdient, das<unclear><subst><del rend="erased" hand="#type_cc_spiel"><gap reason="illegible" quantity="1" unit="char"/></del><add place="superimposed" hand="#type_cc_spiel"><space quantity="1" unit="char"/></add></subst></unclear> heisst in meinem
               <lb/>Fall, als Schriftsteller, der englisch schreibt, in den
-              <lb/>Vereinigten Staaten und in England. In Österreich verdiene
+              <lb/><rs type="place" ref="#amp_place_id_15">Vereinigten Staaten</rs> und in <rs type="place" ref="#amp_place_id_239">England</rs>. In <rs type="place" ref="#amp_place_id_10">Österreich</rs> verdiene
               <lb/>ich keinen Groschen, ich gebe lediglich Schillinge aus.
             </p>
             <p>
-              <lb/><space quantity="4" unit="char"/>Sie behaupten, ich hätte ein 'materielles Interesse' an
-              <lb/>Österreich, womit Sie vermutlich ein 'finanzielles' Interesse
+              <lb/><space quantity="4" unit="char"/><rs type="note" ana="acdh:aad-transcript__0091.xml#ana_098">Sie behaupten, ich hätte ein 'materielles Interesse' an
+              <lb/><rs type="place" ref="#amp_place_id_10">Österreich</rs></rs>, womit Sie vermutlich ein 'finanzielles' Interesse
               <lb/>meinen. Das könnte nur dann möglicherweise richtig sein,wenn
-              <lb/>ich mir sagen müsste :'Ich muss nach Österreich gehen, weil
-              <lb/>ich nur in Österreich arbeiten kann'. Das ist aber nicht der
+              <lb/>ich mir sagen müsste :'Ich muss nach <rs type="place" ref="#amp_place_id_10">Österreich</rs> gehen, weil
+              <lb/>ich nur in <rs type="place" ref="#amp_place_id_10">Österreich</rs> arbeiten kann'. Das ist aber nicht der
               <lb/>Fall. Ich habe an vielen Orten und in den verschiedensten
               <lb/>Ländern gelebt, und war imstande, zu arbeiten, wo immer
               <lb/>ich auch war.
             </p>
             <p>
               <lb/><space quantity="4" unit="char"/>Ich habe natürlich e<unclear>in</unclear> 'persönliches' Interesse an
-              <lb/>Österreich,sonst käme ich nicht hierher. Mir gefällt die Land-
+              <lb/><rs type="place" ref="#amp_place_id_10">Österreich</rs>,sonst käme ich nicht hierher. Mir gefällt die Land-
               <lb/>schaft und ich finde die Österreicher, die ich kennen lerne,
               <lb/>freundlich und charmant.
             </p>
             <p>
-              <lb/><space quantity="5" unit="char"/>Sie sagen wahrheitsgemäss, dass ich einmal einen österrei-
-              <lb/>chischen Literaturpreis erhalten habe. Das war eine grosse
+              <lb/><space quantity="5" unit="char"/>Sie sagen wahrheitsgemäss, dass <rs type="event" ref="#amp_event_id_46">ich einmal einen österrei-
+              <lb/>chischen Literaturpreis erhalten habe</rs>. Das war eine grosse
               <lb/>Ehre, auf die ich sehr stolz bin. Aber Sie können doch nicht
-              <lb/>ernstlich glauben, meine Herren, dass ich mir ausgerechnet
-              <lb/>habe :'Wenn ich weiter nach Österreich gehe, wird mir vielleicht
+              <lb/>ernstlich glauben, <rs type="org" ref="#amp_organization_158" ana="acdh:aad-transcript__0090.xml#ana_097">meine Herren</rs>, dass ich mir ausgerechnet
+              <lb/>habe :'Wenn ich weiter nach <rs type="place" ref="#amp_place_id_10">Österreich</rs> gehe, wird mir vielleicht
               <lb/>ein Preis verliehen werden'? Bevor er mir zuerkannt wurde,hatte
               <lb/>ich noch nie von diesem Preis gehört. Es ist auch klar,dass
               <lb/>ich ihn kein zweites Mal erhalten kann. <space quantity="1" unit="char"/>Dann sagen Sie auch,
-              <lb/>dass man in Kirchstetten eine Strasse nach mir Audenstrasse
+              <lb/>dass man in <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs> eine Strasse nach mir <rs type="note" ana="acdh:amp-transcript__0062.xml#ana_034">Audenstrasse</rs>
               <lb/>genannt hat. Das war eine sehr liebensw<subst><del rend="overtyped" hand="#type_cc_spiel">r</del><add place="superimposed" hand="#type_cc_spiel">ü</add></subst>rdige Geste von Seiten
-              <lb/>der Gemeinde, aber man kann nicht behaupten, dass ich finanziell
+              <lb/>der <rs type="org" ref="#amp_organization_159">Gemeinde</rs>, aber man kann nicht behaupten, dass ich finanziell
               <lb/>Nutzen daraus ziehe.
             </p>
             <p>
@@ -295,7 +296,7 @@
               <lb/>mit österreichischer Thematik geschrieben habe. Dazu möchte
               <lb/>ich drei Feststellungen machen:
               <seg>
-                <lb/><space quantity="4" unit="char"/>1. Ich habe in Österreich niemals auch nur einen Penny für
+                <lb/><space quantity="4" unit="char"/>1. Ich habe in <rs type="place" ref="#amp_place_id_10">Österreich</rs> niemals auch nur einen Penny für
                 <lb/><space quantity="7" unit="char"/>meine Gedichte erhalten. Ein paar von ihnen wurden ins
                 <lb/><space quantity="7" unit="char"/>Deutsche übersetzt, aber in diesem Fall bekamen die
               </seg>
@@ -323,17 +324,17 @@
                 <lb/><space quantity="4" unit="char"/>Gedanken über die Natur, über Gott, die Geschichte, die
                 <lb/><space quantity="4" unit="char"/>Menschheit usw., die der Dichter schon sehr lange im Kopf
                 <lb/><space quantity="4" unit="char"/>gehabt haben mag, Ausdruck zu verleihen. Ich habe zum
-                <lb/><space quantity="4" unit="char"/>Beispiel ein Gedicht zum 20.Todestag von Josef Weinheber
-                <lb/><space quantity="4" unit="char"/>geschrieben. Aber das Gedicht handelt im Grunde von anderen
+                <lb/><space quantity="4" unit="char"/>Beispiel ein <rs type="lit_work" ref="#lit_work_id_60">Gedicht zum 20.Todestag von <rs type="person" ref="#amp_person_5">Josef Weinheber</rs></rs>
+                <lb/><space quantity="4" unit="char"/>geschrieben. Aber das <rs type="lit_work" ref="#lit_work_id_60">Gedicht</rs> handelt im Grunde von anderen
                 <lb/><space quantity="4" unit="char"/>Dingen : erstens<unclear><subst><del rend="erased" hand="#type_cc_spiel"><gap reason="illegible" quantity="1" unit="char"/></del><add place="superimposed" hand="#type_cc_spiel"><space quantity="1" unit="char"/></add></subst></unclear>von der Liebe, die jeder gute Dichter,
                 <lb/><space quantity="4" unit="char"/>welcher Nationalität er auch sei, zu seiner Muttersprache
-                <lb/><space quantity="4" unit="char"/>hegt, und zweitens davon, was nach dem Krieg in den Ländern
+                <lb/><space quantity="4" unit="char"/>hegt, und zweitens davon, was nach dem <rs type="event" ref="#amp_event_id_54">Krieg</rs> in den Ländern
                 <lb/><space quantity="4" unit="char"/>geschehen ist, die ihn verloren haben, da<unclear>s</unclear><subst><del rend="erased" hand="#type_cc_spiel">s</del><add place="superimposed" hand="#type_cc_spiel"><space quantity="1" unit="char"/></add></subst>heisst, nicht
-                <lb/><space quantity="4" unit="char"/>nur in Österreich, sondern auch in Deutschland und Italien.
-                <lb/><space quantity="4" unit="char"/>1964 wiederum habe ich ein Gedicht mit dem Titel 'Pfingst<unclear><subst><del rend="overtyped" hand="#type_cc_spiel">.</del><add place="superimposed" hand="#type_cc_spiel">-</add></subst></unclear>
-                <lb/><space quantity="4" unit="char"/>sonntag in Kirchstetten' geschrieben, weil ich mich zu-
-                <lb/><space quantity="4" unit="char"/>fällig dort aufhielt. Aber der Ort ist unwichtig. In Wahr-
-                <lb/><space quantity="4" unit="char"/>heit geht es in diesem Gedicht um die Frage : Worin besteht
+                <lb/><space quantity="4" unit="char"/>nur in <rs type="place" ref="#amp_place_id_10">Österreich</rs>, sondern auch in <rs type="place" ref="#amp_place_id_20">Deutschland</rs> und <rs type="place" ref="#amp_place_id_159">Italien</rs>.
+                <lb/><space quantity="4" unit="char"/>1964 wiederum habe ich ein Gedicht mit dem Titel <rs type="lit_work" ref="#lit_work_id_79">'Pfingst<unclear><subst><del rend="overtyped" hand="#type_cc_spiel">.</del><add place="superimposed" hand="#type_cc_spiel">-</add></subst></unclear>
+                <lb/><space quantity="4" unit="char"/>sonntag in Kirchstetten'</rs> geschrieben, weil ich mich zu-
+                <lb/><space quantity="4" unit="char"/>fällig <rs type="place" ref="#amp_place_id_5">dort</rs> aufhielt. Aber der Ort ist unwichtig. In Wahr-
+                <lb/><space quantity="4" unit="char"/>heit geht es in diesem <rs type="lit_work" ref="#lit_work_id_79">Gedicht</rs> um die Frage : Worin besteht
                 <lb/><space quantity="4" unit="char"/>für einen Christen die Bedeutung des Pente<subst><del rend="overtyped" hand="#type_cc_spiel">v</del><add place="superimposed" hand="#type_cc_spiel"><unclear>c</unclear></add></subst>ost-Festes?
                 <lb/><space quantity="4" unit="char"/>Und dies gilt für alle Länder auf gleiche Art.
               </seg>
@@ -346,18 +347,18 @@
                 <lb/><space quantity="4" unit="char"/>einer Minderheit gelesen. So stammt der weitaus grösste
                 <lb/><space quantity="4" unit="char"/>Teil meines Einkommens nicht aus dem Verkauf meiner Ge-
                 <lb/><space quantity="4" unit="char"/>dichtbände, sondern aus Buchrezensionen, Übeersetzungen,
-                <lb/><space quantity="4" unit="char"/>Vorträgen usw., Tätigkei<unclear><add place="inline" hand="#type_cc_spiel">t</add>en</unclear>, die mit Ö<subst><del rend="overtyped" hand="#type_cc_spiel">d</del><add place="superimposed" hand="#type_cc_spiel">s</add></subst>terreich nichts zu
+                <lb/><space quantity="4" unit="char"/>Vorträgen usw., Tätigkei<unclear><add place="inline" hand="#type_cc_spiel">t</add>en</unclear>, die mit <rs type="place" ref="#amp_place_id_10">Ö<subst><del rend="overtyped" hand="#type_cc_spiel">d</del><add place="superimposed" hand="#type_cc_spiel">s</add></subst>terreich</rs> nichts zu
                 <lb/><space quantity="4" unit="char"/>tun haben. Und wenn schon vom Übersetzen die Rede ist :
                 <lb/><space quantity="4" unit="char"/>Sie sagen wahrheitsgemäss, dass ich ein grosses Interesse
                 <lb/><space quantity="4" unit="char"/>an deutscher und österreichischer Literatur habe - ich
                 <lb/><space quantity="4" unit="char"/>darf hinzufügen, auch an der Musik - , aber ich muss nicht
-                <lb/><space quantity="4" unit="char"/>nach Österreich kommen, um sie zu lesen oder zu hören.
+                <lb/><space quantity="4" unit="char"/>nach <rs type="place" ref="#amp_place_id_10">Österreich</rs> kommen, um sie zu lesen oder zu hören.
               </seg>
             </p>
             <p>
-              <lb/><space quantity="4" unit="char"/>Sie fragen schliesslich, weshalb ich die Hälfte meines
-              <lb/>Besitzes in Kirchstetten an Mr.Chester Kallman<unclear><subst><del rend="erased" hand="#type_cc_spiel">n</del><add place="superimposed" hand="#type_cc_spiel"><space quantity="1" unit="char"/></add></subst></unclear>überschrieben
-              <lb/>habe, der ja nicht mit mir verwandt ist. Mr Kallman ist mein
+              <lb/><space quantity="4" unit="char"/>Sie fragen schliesslich, weshalb ich die Hälfte <rs type="place" ref="#amp_place_id_2">meines
+              <lb/>Besitzes in <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></rs> an <rs type="person" ref="#amp_person_4">Mr.Chester Kallman</rs><unclear><subst><del rend="erased" hand="#type_cc_spiel">n</del><add place="superimposed" hand="#type_cc_spiel"><space quantity="1" unit="char"/></add></subst></unclear>überschrieben
+              <lb/>habe, der ja nicht mit mir verwandt ist. <rs type="person" ref="#amp_person_4">Mr Kallman</rs> ist mein
             </p>
           </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00338/" ed="3v" type="sheet"/>
@@ -374,12 +375,12 @@
             <p prev="true">
               <lb/>Erbe. Ich habe keine Kinder und er ist seit Jahren mein litera-
               <lb/>rischer Mitarbeiter. Wir haben gemeinsam fünf neue Opern<subst><del rend="overtyped" hand="#type_cc_spiel">k</del><add place="superimposed" hand="#type_cc_spiel">l</add></subst>ibretti
-              <lb/>verfasst, 'The Rake's Progress' (Weg eines Wüstlings), 'Elegy
-              <lb/>for Young <unclear>L</unclear>overs' (Elegie für junge Liebende), 'The Bassarids'
-              <lb/>(Die Bassariden) und 'Love's Labours Lost' (Verlorene Liebes-
-              <lb/>müh'). Und wir haben gemeinsam 'Die Zauberflöte', 'Don Gio-
-              <lb/>vanni', 'Die sieben Todsünden', 'Mahagonny' und 'Archifanfaro'
-              <lb/>neu ins Englische übersetzt. Ich bin jetzt fünfundsechzig Jahre
+              <lb/>verfasst, <rs type="lit_work" ref="#lit_work_id_16">'The Rake's Progress'</rs> (Weg eines Wüstlings), <rs type="lit_work" ref="#lit_work_id_17">'Elegy
+              <lb/>for Young <unclear>L</unclear>overs'</rs> (Elegie für junge Liebende), <rs type="lit_work" ref="#lit_work_id_18">'The Bassarids'</rs>
+              <lb/>(Die Bassariden) und <rs type="lit_work" ref="#lit_work_id_20">'Love's Labours Lost'</rs> (Verlorene Liebes-
+              <lb/>müh'). Und wir haben gemeinsam <rs type="lit_work" ref="#lit_work_id_21">'Die Zauberflöte'</rs>, <rs type="lit_work" ref="#lit_work_id_22">'Don Gio-
+                <lb/>vanni'</rs>, <rs type="lit_work" ref="#lit_work_id_23">'Die sieben Todsünden'</rs>, <rs type="lit_work" ref="#lit_work_id_24">'Mahagonny'</rs> und <rs type="lit_work" ref="#lit_work_id_25">'Archifanfaro'</rs>
+              <lb/>neu <rs type="lit_work" ref="#lit_work_id_16 #lit_work_id_17 #lit_work_id_18 #lit_work_id_20 #lit_work_id_148 #lit_work_id_149 #lit_work_id_150 #lit_work_id_151 #lit_work_id_152">ins Englische übersetzt</rs>. Ich bin jetzt fünfundsechzig Jahre
               <lb/>alt und muss mit jeder Möglichkeit rechnen, etwa mit einem
               <lb/>Herzanfall. Wie Sie selbst besser wissen als ich, ergeben sich
               <lb/>im Falle eines plötzlichen Ablebens grosse Schwierigkeiten
@@ -390,21 +391,21 @@
               <lb/><space quantity="5" unit="char"/>Sie sehen aus all dem, dass die von Ihnen angeführten
               <lb/>Gründe, aus denen Sie mich besteuern wollen, nicht stichhaltig
               <lb/>sind. Am me<add place="inline" hand="#type_cc_spiel">i</add>sten aber spricht dagegen, dass ich im Laufe eines
-              <lb/>Jahres immer weniger als se<subst><del rend="overtyped" hand="#type_cc_spiel">d</del><add place="superimposed" hand="#type_cc_spiel">c</add></subst>hs Monate in Österreich verbringe
+              <lb/>Jahres immer weniger als se<subst><del rend="overtyped" hand="#type_cc_spiel">d</del><add place="superimposed" hand="#type_cc_spiel">c</add></subst>hs Monate in <rs type="place" ref="#amp_place_id_10">Österreich</rs> verbringe
               <lb/>u<subst><del rend="overtyped" hand="#type_cc_spiel">d</del><add place="superimposed" hand="#type_cc_spiel">n</add></subst>d mich niemals auch nur drei Monate lang laufend hier
               <lb/>aufhalte.
             </p>
             <p>
               <lb/><space quantity="5" unit="char"/>Ein Wort zum Schluss. Wenn dieser für mein Gefühl völlig
-              <lb/>ungerechtfertigte Unsinn nicht aufhört, werde ich Österreich
+              <lb/>ungerechtfertigte Unsinn nicht aufhört, werde ich <rs type="place" ref="#amp_place_id_10">Österreich</rs>
               <lb/>verlassen, um nie wiederzukehren, wa<unclear><subst><del rend="overtyped" hand="#type_cc_spiel">w</del><add place="superimposed" hand="#type_cc_spiel">s</add></subst></unclear> für mich und vielleicht
-              <lb/>auch für die Ladenbesitzer von Kirchstetten sehr tr<unclear>a</unclear>urig
-              <lb/>wäre. Eines aber kann ich Ihnen nicht verhehlen, meine Herren :
+              <lb/>auch für die Ladenbesitzer von <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs> sehr tr<unclear>a</unclear>urig
+              <lb/>wäre. Eines aber kann ich Ihnen nicht verhehlen, <rs type="org" ref="#amp_organization_158" ana="acdh:aad-transcript__0090.xml#ana_097">meine Herren</rs> :
               <lb/>sollte dies eint<subst><del rend="overtyped" hand="#type_cc_spiel">e</del><add place="superimposed" hand="#type_cc_spiel"><unclear>r</unclear></add></subst>eten, dann könnte es <unclear><subst><del rend="overtyped" hand="#type_cc_spiel">v</del><add place="superimposed" hand="#type_cc_spiel">e</add></subst></unclear>inen weltweiten <unclear>S</unclear>kandal
               <lb/>nach sich ziehen.
             </p>
             <signed>
-              <lb/><space quantity="44" unit="char"/>W.H.Auden
+              <lb/><space quantity="44" unit="char"/><rs type="person" ref="#amp_person_1">W.H.Auden</rs>
             </signed>
           </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00340/" ed="4v" type="sheet"/>
