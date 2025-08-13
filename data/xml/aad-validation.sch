@@ -70,16 +70,16 @@
         <sch:title>del requirements</sch:title>
         
         <sch:rule context="tei:del">
-            <sch:assert test="@rend = ('overwritten', 'edited', 'overstrike', 'overtyped', 'overlaid')">
-                del element must have rend attribute with value 'overwritten', 'edited', 'overstrike', 'overtyped', or 'overlaid'; found: '<sch:value-of select="@rend"/>'
+            <sch:assert test="@rend = ('overwritten', 'edited', 'overstrike', 'overtyped', 'overlaid', 'erased')">
+                del element must have rend attribute with value 'overwritten', 'edited', 'overstrike', 'overtyped', 'overlaid', or 'erased'; found: '<sch:value-of select="@rend"/>'
             </sch:assert>
             
             <sch:assert test="@rend = 'overlaid' or @hand">
                 del element must have hand attribute (except when rend='overlaid')
             </sch:assert>
             
-            <sch:assert test="not(@hand) or ((@rend = 'overtyped' and starts-with(@hand, '#type_')) or (@rend != 'overtyped' and starts-with(@hand, '#hand_')))">
-                if rend='overtyped', hand value starts with '#type_', otherwise hand value starts with '#hand_'; found rend='<sch:value-of select="@rend"/>' and hand='<sch:value-of select="@hand"/>'
+            <sch:assert test="not(@hand) or ((@rend = ('overtyped', 'erased') and starts-with(@hand, '#type_')) or (@rend != ('overtyped', 'erased') and starts-with(@hand, '#hand_')))">
+                if rend='overtyped' or rend='erased', hand value starts with '#type_', otherwise hand value starts with '#hand_'; found rend='<sch:value-of select="@rend"/>' and hand='<sch:value-of select="@hand"/>'
             </sch:assert>
         </sch:rule>
         
