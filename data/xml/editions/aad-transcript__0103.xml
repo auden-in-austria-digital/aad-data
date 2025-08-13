@@ -205,37 +205,37 @@
               </salute>
             </opener>
             <p>
-              <lb/><space/>
-              <lb/>
-              <lb/>
-              <lb/>
-              <lb/>
-              <lb/>
+              <lb/><space quantity="5" unit="char"/>Obwohl Sie mir immer mit <subst><del rend="overtyped" hand="#type_cc_spiel">f</del><add place="superimposed" hand="#type_cc_spiel">d</add></subst>em grössten Verständnis
+              <lb/>und jeglicher Art von Hilfsbereitschaft entgegengekommen
+              <lb/>sind, habe <rs type="person" ref="#amp_person_78">ich</rs> nach Möglichkeit vermieden, mich in all den
+              <lb/>öffentlichen und privaten Auseinandersetzungen, in die ich
+              <lb/>seit meiner Rückkehr nach Wien verwickelt wurde, an Sie
+              <lb/>zu wenden.
             </p>
             <p>
-              <lb/><space/>
-              <lb/>
-              <lb/>
-              <lb/>
-              <lb/>
-              <lb/>
-              <lb/>
+              <lb/><space quantity="5" unit="char"/>Darf ich es heute im Falle eines anderen, mir bekannten
+              <lb/>Schriftstellers tun. Es scheint, dass durch das ungeschickte
+              <lb/>Verhalten der Steuerbehörden ein Mann<unclear><subst><del rend="erased" hand="#type_cc_spiel">a</del><add place="superimposed" hand="#type_cc_spiel"><space quantity="1" unit="char"/></add></subst></unclear>aus <rs type="place" ref="#amp_place_id_10">Österreich</rs> hinaus-
+              <lb/>geekelt zu werden droht, dessen wiederholte Anwesenheit unserem
+              <lb/>Land zur Ehre gereicht : <rs type="person" ref="#amp_person_1">W.H.Auden</rs>, neben <rs type="person" ref="#amp_person_68">Ezra Pound</rs> der be-
+              <lb/>deutendste lebende Lyriker in englischer Sprache und ein
+              <lb/>präsumtiver Nobelpreisträger.
             </p>
             <p>
-              <lb/><space/>
-              <lb/>
-              <lb/>
-              <lb/>
-              <lb/>
-              <lb/>
-              <lb/>
+              <lb/><space quantity="5" unit="char"/>Es fällt mir schwer, Sie zu bitten, sehr verehrter <rs type="person" ref="#amp_person_282">Herr
+              <lb/>Bundeskanzler</rs>, sich die Zeit zu nehmen, die <rs type="lit_work" ref="#lit_work_id_226">beiliegende Er-
+              <lb/>klärung <rs type="person" ref="#amp_person_1">W.H.Auden</rs>s</rs> zu lesen. Aber ich meine, Sie sollten es
+              <lb/>tun. Er wehrt sich darin gegen eine Besteuerung in <rs type="place" ref="#amp_place_id_10">Österreich</rs>
+              <lb/>mit wirklich einleuchtenden Gründen. Ich wäre Ihnen sehr
+              <lb/>dankbar, wenn Sie sich der Sache dem <rs type="org" ref="#amp_organization_161">Finanzministerium</rs> gegen-
+              <lb/>über annehmen könnten.
             </p>
             <closer>
               <salute>
-                <lb/><space/>
+                <lb/><space quantity="4" unit="char"/>Mit aufrichtigen Empfehlungen,
               </salute>
               <signed>
-                <lb/><space/>
+                <lb/><space quantity="34" unit="char"/>Ihre
               </signed>
             </closer>
           </div>
@@ -247,6 +247,59 @@
             </ab>
           </div>
           <div type="prose" hand="#type_cc_spiel">
+            <head>
+              <lb/><space quantity="18" unit="char"/><hi rend="underline" hand="#type_cc_spiel"><rs type="lit_work" ref="#lit_work_id_226">Erklärung</rs></hi>
+            </head>
+            <salute>
+              <lb/><rs type="org" ref="#amp_organization_158" ana="acdh:aad-transcript__0090.xml#ana_097">Meine Herren !</rs>:
+            </salute>
+            <p>
+              <lb/><space quantity="4" unit="char"/>Mein Standpunkt ist sehr einfach : Man bezahlt dort
+              <lb/>Einkommensteuer, wo man Geld verdient, das<unclear><subst><del rend="erased" hand="#type_cc_spiel"><gap reason="illegible" quantity="1" unit="char"/></del><add place="superimposed" hand="#type_cc_spiel"><space quantity="1" unit="char"/></add></subst></unclear> heisst in meinem
+              <lb/>Fall, als Schriftsteller, der englisch schreibt, in den
+              <lb/>Vereinigten Staaten und in England. In Österreich verdiene
+              <lb/>ich keinen Groschen, ich gebe lediglich Schillinge aus.
+            </p>
+            <p>
+              <lb/><space quantity="4" unit="char"/>Sie behaupten, ich hätte ein 'materielles Interesse' an
+              <lb/>Österreich, womit Sie vermutlich ein 'finanzielles' Interesse
+              <lb/>meinen. Das könnte nur dann möglicherweise richtig sein,wenn
+              <lb/>ich mir sagen müsste :'Ich muss nach Österreich gehen, weil
+              <lb/>ich nur in Österreich arbeiten kann'. Das ist aber nicht der
+              <lb/>Fall. Ich habe an vielen Orten und in den verschiedensten
+              <lb/>Ländern gelebt, und war imstande, zu arbeiten, wo immer
+              <lb/>ich auch war.
+            </p>
+            <p>
+              <lb/><space quantity="4" unit="char"/>Ich habe natürlich e<unclear>in</unclear> 'persönliches' Interesse an
+              <lb/>Österreich,sonst käme ich nicht hierher. Mir gefällt die Land-
+              <lb/>schaft und ich finde die Österreicher, die ich kennen lerne,
+              <lb/>freundlich und charmant.
+            </p>
+            <p>
+              <lb/><space quantity="5" unit="char"/>Sie sagen wahrheitsgemäss, dass ich einmal einen österrei-
+              <lb/>chischen Literaturpreis erhalten habe. Das war eine grosse
+              <lb/>Ehre, auf die ich sehr stolz bin. Aber Sie können doch nicht
+              <lb/>ernstlich glauben, meine Herren, dass ich mir ausgerechnet
+              <lb/>habe :'Wenn ich weiter nach Österreich gehe, wird mir vielleicht
+              <lb/>ein Preis verliehen werden'? Bevor er mir zuerkannt wurde,hatte
+              <lb/>ich noch nie von diesem Preis gehört. Es ist auch klar,dass
+              <lb/>ich ihn kein zweites Mal erhalten kann. <space quantity="1" unit="char"/>Dann sagen Sie auch,
+              <lb/>dass man in Kirchstetten eine Strasse nach mir Audenstrasse
+              <lb/>genannt hat. Das war eine sehr liebensw<subst><del rend="overtyped" hand="#type_cc_spiel">r</del><add place="superimposed" hand="#type_cc_spiel">ü</add></subst>rdige Geste von Seiten
+              <lb/>der Gemeinde, aber man kann nicht behaupten, dass ich finanziell
+              <lb/>Nutzen daraus ziehe.
+            </p>
+            <p>
+              <lb/><space quantity="4" unit="char"/>Sie sagen ferner wahrheitsgemäss, dass ich einige Gedichte
+              <lb/>mit österreichischer Thematik geschrieben habe. Dazu möchte
+              <lb/>ich drei Feststellungen machen:
+              <seg>
+                <lb/><space quantity="4" unit="char"/>1. Ich habe in Österreich niemals auch nur einen Penny für
+                <lb/><space quantity="7" unit="char"/>meine Gedichte erhalten. Ein paar von ihnen wurden ins
+                <lb/><space quantity="7" unit="char"/>Deutsche übersetzt, aber in diesem Fall bekamen die
+              </seg>
+            </p>
           </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00336/" ed="2v" type="sheet"/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00337/" ed="3r" type="sheet"/>
