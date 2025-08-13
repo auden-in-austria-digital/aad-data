@@ -267,7 +267,7 @@
               <lb/>meinen. Das könnte nur dann möglicherweise richtig sein,wenn
               <lb/>ich mir sagen müsste :'Ich muss nach <rs type="place" ref="#amp_place_id_10">Österreich</rs> gehen, weil
               <lb/>ich nur in <rs type="place" ref="#amp_place_id_10">Österreich</rs> arbeiten kann'. Das ist aber nicht der
-              <lb/>Fall. Ich habe an vielen Orten und in den verschiedensten
+              <lb/>Fall. Ich habe an vielen Orten und in den verschiedens<subst><del rend="overtyped" hand="#type_cc_spiel"><unclear>r</unclear></del><add place="superimposed" hand="#type_cc_spiel">t</add></subst>en
               <lb/>Ländern gelebt, und war imstande, zu arbeiten, wo immer
               <lb/>ich auch war.
             </p>
@@ -347,7 +347,7 @@
                 <lb/><space quantity="4" unit="char"/>einer Minderheit gelesen. So stammt der weitaus grösste
                 <lb/><space quantity="4" unit="char"/>Teil meines Einkommens nicht aus dem Verkauf meiner Ge-
                 <lb/><space quantity="4" unit="char"/>dichtbände, sondern aus Buchrezensionen, Übeersetzungen,
-                <lb/><space quantity="4" unit="char"/>Vorträgen usw., Tätigkei<unclear><add place="inline" hand="#type_cc_spiel">t</add>en</unclear>, die mit <rs type="place" ref="#amp_place_id_10">Ö<subst><del rend="overtyped" hand="#type_cc_spiel">d</del><add place="superimposed" hand="#type_cc_spiel">s</add></subst>terreich</rs> nichts zu
+                <lb/><space quantity="4" unit="char"/>Vorträgen usw., Tätigkei<unclear><add place="inline" hand="#type_cc_spiel">t</add>en</unclear>, die mit <rs type="place" ref="#amp_place_id_10">Ö<unclear><subst><del rend="overtyped" hand="#type_cc_spiel">d</del><add place="superimposed" hand="#type_cc_spiel">s</add></subst></unclear>terreich</rs> nichts zu
                 <lb/><space quantity="4" unit="char"/>tun haben. Und wenn schon vom Übersetzen die Rede ist :
                 <lb/><space quantity="4" unit="char"/>Sie sagen wahrheitsgemäss, dass ich ein grosses Interesse
                 <lb/><space quantity="4" unit="char"/>an deutscher und österreichischer Literatur habe - ich
@@ -379,10 +379,10 @@
               <lb/>for Young <unclear>L</unclear>overs'</rs> (Elegie für junge Liebende), <rs type="lit_work" ref="#lit_work_id_18">'The Bassarids'</rs>
               <lb/>(Die Bassariden) und <rs type="lit_work" ref="#lit_work_id_20">'Love's Labours Lost'</rs> (Verlorene Liebes-
               <lb/>müh'). Und wir haben gemeinsam <rs type="lit_work" ref="#lit_work_id_21">'Die Zauberflöte'</rs>, <rs type="lit_work" ref="#lit_work_id_22">'Don Gio-
-                <lb/>vanni'</rs>, <rs type="lit_work" ref="#lit_work_id_23">'Die sieben Todsünden'</rs>, <rs type="lit_work" ref="#lit_work_id_24">'Mahagonny'</rs> und <rs type="lit_work" ref="#lit_work_id_25">'Archifanfaro'</rs>
-              <lb/>neu <rs type="lit_work" ref="#lit_work_id_16 #lit_work_id_17 #lit_work_id_18 #lit_work_id_20 #lit_work_id_148 #lit_work_id_149 #lit_work_id_150 #lit_work_id_151 #lit_work_id_152">ins Englische übersetzt</rs>. Ich bin jetzt fünfundsechzig Jahre
+              <lb/>vanni'</rs>, <rs type="lit_work" ref="#lit_work_id_23">'Die sieben Todsünden'</rs>, <rs type="lit_work" ref="#lit_work_id_24">'Mahagonny'</rs> und <rs type="lit_work" ref="#lit_work_id_25">'Archifanfaro'</rs>
+              <lb/>neu <rs type="lit_work" ref="#lit_work_id_148 #lit_work_id_149 #lit_work_id_150 #lit_work_id_151 #lit_work_id_152">ins Englische übersetzt</rs>. Ich bin jetzt fünfundsechzig Jahre
               <lb/>alt und muss mit jeder Möglichkeit rechnen, etwa mit einem
-              <lb/>Herzanfall. Wie Sie selbst besser wissen als ich, ergeben sich
+              <lb/>Herzanfall. Wie Sie selbst besser wiss<unclear><subst><del rend="overtyped" hand="#type_cc_spiel">d</del><add place="superimposed" hand="#type_cc_spiel">e</add></subst></unclear>n als ich, ergeben sich
               <lb/>im Falle eines plötzlichen Ablebens grosse Schwierigkeiten
               <lb/>für den Erben von Grundbesitz, besonders in einem fremden
               <lb/>Land.
@@ -390,8 +390,8 @@
             <p>
               <lb/><space quantity="5" unit="char"/>Sie sehen aus all dem, dass die von Ihnen angeführten
               <lb/>Gründe, aus denen Sie mich besteuern wollen, nicht stichhaltig
-              <lb/>sind. Am me<add place="inline" hand="#type_cc_spiel">i</add>sten aber spricht dagegen, dass ich im Laufe eines
-              <lb/>Jahres immer weniger als se<subst><del rend="overtyped" hand="#type_cc_spiel">d</del><add place="superimposed" hand="#type_cc_spiel">c</add></subst>hs Monate in <rs type="place" ref="#amp_place_id_10">Österreich</rs> verbringe
+              <lb/>sind. Am m<unclear>e<add place="inline" hand="#type_cc_spiel">i</add>st</unclear>en aber spricht dagegen, dass ich im Laufe eines
+              <lb/>Jahres immer weniger als se<unclear><subst><del rend="overtyped" hand="#type_cc_spiel">d</del><add place="superimposed" hand="#type_cc_spiel">c</add></subst></unclear>hs Monate in <rs type="place" ref="#amp_place_id_10">Österreich</rs> verbringe
               <lb/>u<subst><del rend="overtyped" hand="#type_cc_spiel">d</del><add place="superimposed" hand="#type_cc_spiel">n</add></subst>d mich niemals auch nur drei Monate lang laufend hier
               <lb/>aufhalte.
             </p>
