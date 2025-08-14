@@ -140,6 +140,7 @@
     <profileDesc>
       <langUsage>
         <language ident="de"/>
+        <language ident="en"/>
       </langUsage>
     </profileDesc>
     <revisionDesc status="draft">
@@ -218,7 +219,7 @@
               <lb/>Schriftstellers tun. Es scheint, dass durch das ungeschickte
               <lb/>Verhalten der Steuerbehörden ein Mann<unclear><subst><del rend="erased" hand="#type_cc_spiel">a</del><add place="superimposed" hand="#type_cc_spiel"><space quantity="1" unit="char"/></add></subst></unclear>aus <rs type="place" ref="#amp_place_id_10">Österreich</rs> hinaus-
               <lb/>geekelt zu werden droht, dessen wiederholte Anwesenheit unserem
-              <lb/>Land zur Ehre gereicht : <rs type="person" ref="#amp_person_1">W.H.Auden</rs>, neben <rs type="person" ref="#amp_person_68">Ezra Pound</rs> der be-
+              <lb/>Land zur Ehre gereicht : <rs type="person" ref="#amp_person_1">W.H.Auden</rs>, neben <rs type="person" ref="#amp_person_68"><unclear>E</unclear>zra Pound</rs> der be-
               <lb/>deutendste lebende Lyriker in englischer Sprache und ein
               <lb/>präsumtiver Nobelpreisträger.
             </p>
@@ -252,7 +253,7 @@
               <lb/><space quantity="18" unit="char"/><hi rend="underline" hand="#type_cc_spiel"><rs type="lit_work" ref="#lit_work_id_226">Erklärung</rs></hi>
             </head>
             <salute>
-              <lb/><rs type="org" ref="#amp_organization_158" ana="acdh:aad-transcript__0090.xml#ana_097">Meine Herren !</rs>:
+              <lb/><rs type="org" ref="#amp_organization_158" ana="acdh:aad-transcript__0090.xml#ana_097">Meine Herren</rs> !
             </salute>
             <p>
               <lb/><space quantity="4" unit="char"/>Mein Standpunkt ist sehr einfach : Man bezahlt dort
@@ -268,7 +269,7 @@
               <lb/>ich mir sagen müsste :'Ich muss nach <rs type="place" ref="#amp_place_id_10">Österreich</rs> gehen, weil
               <lb/>ich nur in <rs type="place" ref="#amp_place_id_10">Österreich</rs> arbeiten kann'. Das ist aber nicht der
               <lb/>Fall. Ich habe an vielen Orten und in den verschiedens<subst><del rend="overtyped" hand="#type_cc_spiel"><unclear>r</unclear></del><add place="superimposed" hand="#type_cc_spiel">t</add></subst>en
-              <lb/>Ländern gelebt, und war imstande, zu arbeiten, wo immer
+              <lb/>Ländern <subst><del rend="overtyped" hand="#type_cc_spiel">f</del><add place="superimposed" hand="#type_cc_spiel">g</add></subst>elebt, und war imstande, zu arbeiten, wo immer
               <lb/>ich auch war.
             </p>
             <p>
@@ -289,7 +290,7 @@
               <lb/>dass man in <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs> eine Strasse nach mir <rs type="note" ana="acdh:amp-transcript__0062.xml#ana_034">Audenstrasse</rs>
               <lb/>genannt hat. Das war eine sehr liebensw<subst><del rend="overtyped" hand="#type_cc_spiel">r</del><add place="superimposed" hand="#type_cc_spiel">ü</add></subst>rdige Geste von Seiten
               <lb/>der <rs type="org" ref="#amp_organization_159">Gemeinde</rs>, aber man kann nicht behaupten, dass ich finanziell
-              <lb/>Nutzen daraus ziehe.
+              <lb/>Nu<unclear>t</unclear>zen daraus ziehe.
             </p>
             <p>
               <lb/><space quantity="4" unit="char"/>Sie sagen ferner wahrheitsgemäss, dass ich einige Gedichte
@@ -335,7 +336,7 @@
                 <lb/><space quantity="4" unit="char"/>sonntag in Kirchstetten'</rs> geschrieben, weil ich mich zu-
                 <lb/><space quantity="4" unit="char"/>fällig <rs type="place" ref="#amp_place_id_5">dort</rs> aufhielt. Aber der Ort ist unwichtig. In Wahr-
                 <lb/><space quantity="4" unit="char"/>heit geht es in diesem <rs type="lit_work" ref="#lit_work_id_79">Gedicht</rs> um die Frage : Worin besteht
-                <lb/><space quantity="4" unit="char"/>für einen Christen die Bedeutung des Pente<subst><del rend="overtyped" hand="#type_cc_spiel">v</del><add place="superimposed" hand="#type_cc_spiel"><unclear>c</unclear></add></subst>ost-Festes?
+                <lb/><space quantity="4" unit="char"/>für einen Christen die Bedeutung des <foreign xml:lang="en">Pente<subst><del rend="overtyped" hand="#type_cc_spiel">v</del><add place="superimposed" hand="#type_cc_spiel"><unclear>c</unclear></add></subst>ost</foreign>-Festes?
                 <lb/><space quantity="4" unit="char"/>Und dies gilt für alle Länder auf gleiche Art.
               </seg>
               <seg>
@@ -343,7 +344,7 @@
                 <lb/><space quantity="4" unit="char"/>zielle Situation eines Dichters. Ein Romanschriftsteller
                 <lb/><space quantity="4" unit="char"/>kann, wenn er erfolgreich ist, mit seinen Büchern eine
                 <lb/><space quantity="4" unit="char"/>Menge Geld verdienen. Ein Lyriker kann das nicht, selbst
-                <lb/><space quantity="4" unit="char"/>wenn er sehr bekannt ist, denn Gedichte werden nur von
+                <lb/><space quantity="4" unit="char"/>wenn er sehr bekannt ist, d<unclear>e</unclear>nn Gedichte werden nur von
                 <lb/><space quantity="4" unit="char"/>einer Minderheit gelesen. So stammt der weitaus grösste
                 <lb/><space quantity="4" unit="char"/>Teil meines Einkommens nicht aus dem Verkauf meiner Ge-
                 <lb/><space quantity="4" unit="char"/>dichtbände, sondern aus Buchrezensionen, Übeersetzungen,
@@ -357,8 +358,8 @@
             </p>
             <p>
               <lb/><space quantity="4" unit="char"/>Sie fragen schliesslich, weshalb ich die Hälfte <rs type="place" ref="#amp_place_id_2">meines
-              <lb/>Besitzes in <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></rs> an <rs type="person" ref="#amp_person_4">Mr.Chester Kallman</rs><unclear><subst><del rend="erased" hand="#type_cc_spiel">n</del><add place="superimposed" hand="#type_cc_spiel"><space quantity="1" unit="char"/></add></subst></unclear>überschrieben
-              <lb/>habe, der ja nicht mit mir verwandt ist. <rs type="person" ref="#amp_person_4">Mr Kallman</rs> ist mein
+              <lb/>Besitzes in <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></rs> an <rs type="person" ref="#amp_person_4"><foreign xml:lang="en">Mr.</foreign>Chester Kallman</rs><unclear><subst><del rend="erased" hand="#type_cc_spiel">n</del><add place="superimposed" hand="#type_cc_spiel"><space quantity="1" unit="char"/></add></subst></unclear>überschrieben
+              <lb/>habe, der ja nicht mit mir verwandt ist. <rs type="person" ref="#amp_person_4"><foreign xml:lang="en">Mr</foreign> Kallman</rs> ist mein
             </p>
           </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00338/" ed="3v" type="sheet"/>
