@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0090" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Typed Letter Signed W. H. Auden to Hilde Spiel 1972-07-19</title>
+        <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Typed Letter Signed W. H. Auden to Hilde Spiel 1972-07-19</title>
+          <interpGrp>
+            <interp xml:id="ana_097">
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+            <interp xml:id="ana_103">
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">AAustrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <repository ref="https://d-nb.info/gnd/2020893-5">Austrian National Library</repository>
+                <collection>Literary Archive</collection>
+                <idno>ÖLA 15/91, Group 2.1, 15/B26/5</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark/>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00307/">
+                        <width>210</width>
+                        <height>297</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00308/">
+                        <width>210</width>
+                        <height>297</height>
+                      </dimensions>
+                      <ab>
+                        The paper surface contains indented typewriter impressions as well as inked marks of typewriting.
+                      </ab>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_gray_onb" scribeRef="#amp_organization_156" medium="pencil">Handwriting in pencil authored by <rs type="org" ref="#amp_organization_156">Austrian National Library</rs></handNote>
+                  <handNote xml:id="hand_black_auden" scribeRef="#amp_person_1" medium="ink-black">Handwriting in black ink by W. H. Auden</handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="type_black_auden" scribeRef="#amp_person_1" medium="type-black">Typewriting in black ink by W. H. Auden, monospaced slab-serif typeface</typeNote>
+                  <typeNote xml:id="print_black_auden" scribeRef="#amp_person_1" medium="print-black">Preprinted writing in black authored by W. H. Auden, sans-serif Grotesque-family typeface</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1972-07-19T00:00:00+01:00" notAfter-iso="1972-07-19T23:59:59+01:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4801892-2">Kirchstetten</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de"/>
+        <language ident="en"/>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1972-07-19T00:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_78">Spiel, Hilde</persName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#tfruehwirth" when-iso="2025-05-05">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2025-05-26">Text transcribed; physDesc and profileDesc populated; hands, languages, correspondence container structure, and entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="6032" lry="8461">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00307/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="6032" lry="8461">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00308/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0090" xml:lang="en">
+        <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00307/" ed="1r" type="sheet"/>
+          <div>
+            <ab hand="#hand_gray_onb">
+              <lb/>15/B26/5
+            </ab>
+          </div>
+          <div type="letter_message" hand="#type_black_auden">
+            <opener>
+              <dateline>
+                <seg hand="#print_black_auden">
+                  <placeName>
+                    <address xml:lang="de">
+                      <lb/><rs type="place" ref="#amp_place_id_2">3062 KIRCHSTETTEN
+                      <lb/>BEZ. ST. PÖLTEN
+                      <lb/>HINTERHOLZ 6
+                      <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
+                    </address>
+                  </placeName>
+                </seg>
+                <date>
+                  <lb/>July I9th
+                </date>
+              </dateline>
+              <salute>
+                <lb/><space quantity="16" unit="char"/>Dear <rs type="person" ref="#amp_person_78">Dr <del rend="overtyped" hand="#type_black_auden">Speil</del> Spiel</rs>:
+              </salute>
+            </opener>
+            <p>
+              <lb/><space quantity="4" unit="char"/>Many thanks for your letter and the <rs type="lit_work" ref="#lit_work_id_225" ana="#ana_103">translations</rs> which seem to
+              <lb/><space quantity="1" unit="char"/>me excellent. I'm enormously grateful to you for all the trouble
+              <lb/><space quantity="1" unit="char"/>you have taken.
+            </p>
+            <p>
+              <lb/><space quantity="7" unit="char"/>As to your queries:
+              <seg>
+                <lb/><space quantity="9" unit="char"/>I) <del rend="overtyped" hand="#type_black_auden">S</del> <del rend="overtyped" hand="#type_black_auden">schrafer</del> <foreign xml:lang="de"><hi rend="underline" hand="#type_black_auden">scharfer</hi> Käse</foreign> <space quantity="1" unit="char"/>is right.
+              </seg>
+              <seg>
+                <lb/><space quantity="9" unit="char"/>2) <hi rend="underline" hand="#type_black_auden"><foreign xml:lang="de">lufthoch</foreign></hi> is fine
+              </seg>
+              <seg>
+                <lb/><space quantity="9" unit="char"/>3) <hi rend="underline" hand="#type_black_auden"><foreign xml:lang="de">geil</foreign></hi> is better
+              </seg>
+              <seg>
+                <lb/><space quantity="9" unit="char"/>4) <del rend="overtyped" hand="#type_black_auden">woner</del> <hi rend="underline" hand="#type_black_auden">wonder</hi> here is <del rend="overtyped" hand="#type_black_auden">Satuanen</del> <hi rend="underline" hand="#type_black_auden"><foreign xml:lang="de">Staunen</foreign></hi>
+              </seg>
+              <seg>
+                <lb/><space quantity="9" unit="char"/>5) <hi rend="underline" hand="#type_black_auden"><unclear>&#7805;</unclear>&#7869;ndages</hi> means wine-harvests. I suppose orig<subst><del rend="overtyped" hand="#type_black_auden">ni</del><add place="superimposed" hand="#type_black_auden">in</add></subst>ally a
+                <lb/><space quantity="12" unit="char"/>French word.
+              </seg>
+            </p>
+            <p>
+              <lb/><space quantity="3" unit="char"/>Now I want your help in another matter. I have been having <del rend="overtyped" hand="#type_black_auden">terrib</del>
+              <lb/><space quantity="3" unit="char"/>terrible troubles with the <rs type="org" ref="#amp_organization_158" ana="#ana_097"><foreign xml:lang="de">Finanzamt</foreign></rs>. It seems that it will come
+              <lb/><space quantity="3" unit="char"/>to a court case,but this is unlikely to be before the New Year
+              <lb/><space quantity="3" unit="char"/>so that I shan't be here. I want to make a <rs type="lit_work" ref="#lit_work_id_105">personal statement
+              <lb/><space quantity="3" unit="char"/>of my point of view</rs> which <rs type="person" ref="#amp_person_241">my lawyer</rs> can read out.
+            </p>
+            <p>
+              <lb/><space quantity="3" unit="char"/>If I sent you a <rs type="lit_work" ref="#lit_work_id_99">draft</rs>,could you possibly translate it for me?
+            </p>
+            <closer>
+              <salute>
+                <lb/><space quantity="17" unit="char"/>with many thanks
+              </salute>
+              <salute>
+                <lb/><space quantity="19" unit="char"/>Yours ever
+              </salute>
+              <signed hand="#hand_black_auden">
+                <lb/><rs type="person" ref="#amp_person_1">Wystan Auden</rs>
+              </signed>
+              <signed>
+                <lb/><space quantity="26" unit="char"/><rs type="person" ref="#amp_person_1">W.H.Auden</rs>
+              </signed>
+            </closer>
+          </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00308/" ed="1v" type="sheet"/>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

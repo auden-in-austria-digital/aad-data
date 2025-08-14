@@ -144,8 +144,7 @@ for row in data:
                 doc_dict[doc_id][place_uri_index] != place_uri or
                 doc_dict[doc_id][repo_index] != repository or
                 doc_dict[doc_id][repo_uri_index] != repo_uri or
-                doc_dict[doc_id][coll_index] != collection or
-                doc_dict[doc_id][idno_index] != idno):
+                doc_dict[doc_id][coll_index] != collection):
             raise ValueError(f'Inconsistent document values detected in line {row_num}.')
     else:
         doc_dict[doc_id] = row

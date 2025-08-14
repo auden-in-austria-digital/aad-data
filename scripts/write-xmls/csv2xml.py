@@ -76,9 +76,12 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
             tei_resp2_name2 = etree.SubElement(tei_respstmt2, 'name', ref='https://orcid.org/0000-0002-0636-4476')
             tei_resp2_name2.set('{http://www.w3.org/XML/1998/namespace}id', 'delsner')
             tei_resp2_name2.text = 'Elsner, Daniel'
+            tei_resp2_name3 = etree.SubElement(tei_respstmt2, 'name', ref='https://orcid.org/0000-0001-6104-7484')
+            tei_resp2_name3.set('{http://www.w3.org/XML/1998/namespace}id', 'ahechtl')
+            tei_resp2_name3.text = 'Hechtl, Angelika'
             tei_pubstmt = etree.SubElement(tei_filedesc, 'publicationStmt')
-            tei_publisher = etree.SubElement(tei_pubstmt, 'publisher', ref='https://d-nb.info/gnd/1226158307')
-            tei_publisher.text = 'Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)'
+            tei_publisher = etree.SubElement(tei_pubstmt, 'publisher', ref='https://d-nb.info/gnd/1123037736')
+            tei_publisher.text = 'Austrian Centre for Digital Humanities (ACDH)'
             tei_pubplace = etree.SubElement(tei_pubstmt, 'pubPlace', ref='https://d-nb.info/gnd/4066009-6')
             tei_pubplace.text = 'Vienna'
             tei_pubdate = etree.SubElement(tei_pubstmt, 'date')
@@ -158,4 +161,13 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
         tei_pb = etree.SubElement(tei_div1, 'pb', facs=img_url, ed=row['ed'], type=row['type'])  # add element in text node
 
         with open(file_name, 'w') as xml_file:  # open/create output XML file in write mode
-            xml_file.write(etree.tostring(root, encoding='utf-8', xml_declaration=True, pretty_print=True).decode('utf-8'))  # convert XML ElementTree structure to UTF-8-encoded byte string; add XML declaration, indentation, and line breaks; decode UTF-8 byte string into Unicode string
+            xml_content = etree.tostring(root, encoding='utf-8', xml_declaration=True, pretty_print=True).decode('utf-8')  # convert XML ElementTree structure to UTF-8-encoded byte string; add XML declaration, indentation, and line breaks; decode UTF-8 byte string into Unicode string
+            lines = xml_content.split('\n', 1)  # split string at first newline; pass strings to list
+            # list schema references after XML declaration
+            xml_models = [
+                '<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>',
+                '<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>',
+                '<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"\n\tschematypens="http://purl.oclc.org/dsdl/schematron"?>'
+            ]
+            xml_content = lines[0] + '\n' + '\n'.join(xml_models) + '\n' + lines[1]  # insert schema references after XML declaration
+            xml_file.write(xml_content)

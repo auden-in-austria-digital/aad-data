@@ -1,4 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><!-- TEI+RDFa does not validate against tei_all -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0032" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
   <teiHeader>
     <fileDesc>
@@ -37,12 +41,12 @@
                 </rs>.
                 <bibl ref="#lit_work_id_213" about="https://aad.acdh.oeaw.ac.at/lit_work_id_213.html" typeof="crm:E31_Document"><!-- review -->
                   <title property="dc:title">Auden, Wystan Hugh, 1907-1973: Guest book: Kirchstetten, signatures and notes written in album, 82 pages, 1959-1974</title><!-- review -->
-                  <date notBefore-iso="1959-01-01T00:00:00+01:00" notAfter-iso="1974-12-31T23:59:59+01:00" property="dc:date" content="1959-01-01T00:00:00+01:00/1974-12-31T23:59:59+01:00"/><!-- review -->
+                  <date notBefore-iso="1959-01-01T00:00:00+01:00" notAfter-iso="1974-12-31T23:59:59+01:00" property="dc:date" content="1959-01-01T00:00:00+01:00/1974-12-31T23:59:59+01:00"/><!-- xsd data type? -->
                   <msIdentifier>
                     <country ref="https://d-nb.info/gnd/4078704-7"/>
                     <settlement ref="https://d-nb.info/gnd/4079879-3" rel="crm:P55_has_current_location" resource="wd:Q16559"/><!-- review -->
                     <repository ref="https://d-nb.info/gnd/3018790-4" rel="crm:P50_has_current_keeper" resource="wd:Q5671855"/><!-- review -->
-                    <collection property="crm:P46i_forms_part_of">W. H. (Wystan Hugh) Auden Collection</collection><!-- review -->
+                    <collection>W. H. (Wystan Hugh) Auden Collection</collection><!-- crm p46i possible with literal? -->
                     <idno property="dc:identifier">Miscellaneous: Container 2.7</idno><!-- review -->
                   </msIdentifier>
                   <biblScope unit="page" from="1" to="82"/>
@@ -63,10 +67,11 @@
           <resp>ODD/RNG TEI/XML schema</resp>
           <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
           <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher ref="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
         <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
         <date when-iso="2027">2027</date>
         <availability>
@@ -82,9 +87,10 @@
           <witness n="1">
             <msDesc>
               <msIdentifier>
-                <repository ref="https://d-nb.info/gnd/1108283586">State Collections of Lower Austria</repository>
-                <collection>W. H. Auden Collection</collection>
-                <idno>Correspondence Hugo Kurka 032</idno>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
+                <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
+                <collection>Documentation Center for Literature in Lower Austria</collection>
+                <idno>LS-Aud 4.6.32</idno>
               </msIdentifier>
               <physDesc>
                 <objectDesc>
@@ -134,9 +140,9 @@
     <encodingDesc>
       <listPrefixDef>
         <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
-        <prefixDef ident="crm" matchPattern="([A-Za-z]+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/>
+        <prefixDef ident="crm" matchPattern="([A-Za-z0-9_]+)" replacementPattern="http://www.cidoc-crm.org/cidoc-crm/$1"/><!-- improved matchPattern value -->
         <prefixDef ident="rdfs" matchPattern="([A-Za-z]+)" replacementPattern="http://www.w3.org/2000/01/rdf-schema#$1"/>
-        <prefixDef ident="wd" matchPattern="([A-Za-z]+)" replacementPattern="https://www.wikidata.org/entity/$1"/>
+        <prefixDef ident="wd" matchPattern="([A-Za-z0-9]+)" replacementPattern="http://www.wikidata.org/entity/$1"/><!-- improved matchPattern value -->
         <prefixDef ident="dc" matchPattern="([A-Za-z]+)" replacementPattern="http://purl.org/dc/terms/$1"/><!-- review -->
       </listPrefixDef>
     </encodingDesc>
@@ -157,7 +163,7 @@
         </correspAction>
       </correspDesc>
     </profileDesc>
-    <revisionDesc status="draft">
+    <revisionDesc status="draft"><!-- update -->
       <change who="#tfruehwirth" when-iso="2024-11-07">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2024-11-07">physDesc and correspDesc populated</change>
       <change who="#tfruehwirth" when-iso="2024-11-08">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>

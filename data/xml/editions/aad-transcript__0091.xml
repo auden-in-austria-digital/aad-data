@@ -1,0 +1,359 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0091" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Autograph Letter Signed W. H. Auden to Hilde Spiel with Typescript W. H. Auden Statement to Austrian Tax Authorities 1972-07-26</title>
+        <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Autograph Letter Signed W. H. Auden to Hilde Spiel with Typescript W. H. Auden Statement to Austrian Tax Authorities 1972-07-26</title>
+          <interpGrp>
+            <interp xml:id="ana_098">
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <repository ref="https://d-nb.info/gnd/2020893-5">Austrian National Library</repository>
+                <collection>Literary Archive</collection>
+                <idno>ÖLA 15/91, Group 2.1, 15/B26/6</idno>
+                <idno>ÖLA 15/91, Group 2.2, 15/B969/4-Beil.</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00343/ https://iiif.acdh.oeaw.ac.at/aad/aad_00344/">NEUSIEDLER JAPAN POST</watermark>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00309/">
+                        <width>150</width>
+                        <height>211</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00310/">
+                        <width>150</width>
+                        <height>211</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00343/">
+                        <width>210</width>
+                        <height>297</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00344/">
+                        <width>210</width>
+                        <height>297</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00345/">
+                        <width>209</width>
+                        <height>296</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00346/">
+                        <width>209</width>
+                        <height>296</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_gray_onb" scribeRef="#amp_organization_156" medium="pencil">Handwriting in pencil authored by <rs type="org" ref="#amp_organization_156">Austrian National Library</rs></handNote>
+                  <handNote xml:id="hand_black_auden" scribeRef="#amp_person_1" medium="ink-black">Handwriting in black ink by W. H. Auden</handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="type_black_auden" scribeRef="#amp_person_1" medium="type-black">Typewriting in black ink by W. H. Auden, monospaced slab-serif typeface</typeNote>
+                  <typeNote xml:id="print_black_auden" scribeRef="#amp_person_1" medium="print-black">Preprinted writing in black authored by W. H. Auden, sans-serif Grotesque-family typeface</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1972-07-26T00:00:00+01:00" notAfter-iso="1972-07-26T23:59:59+01:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4801892-2">Kirchstetten</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de"/>
+        <language ident="en"/>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1972-07-26T00:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_78">Spiel, Hilde</persName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#tfruehwirth" when-iso="2025-05-27">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2025-05-27">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-06-03">Text transcribed; hands, languages, correspondence and prose-document container structure, and entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="4407" lry="6101">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00309/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="4407" lry="6101">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00310/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="6105" lry="8501">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00343/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="6105" lry="8501">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00344/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="6105" lry="8501">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00345/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="6105" lry="8501">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00346/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0091" xml:lang="en">
+        <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00309/" ed="1r" type="sheet"/>
+          <div>
+            <ab hand="#hand_gray_onb">
+              <lb/>15/B26/6
+            </ab>
+          </div>
+          <div type="letter_message" hand="#hand_black_auden">
+            <opener>
+              <dateline>
+                <date>
+                  <lb/>July 26<hi rend="superscript"><unclear>th</unclear></hi>
+                </date>
+                <seg hand="#print_black_auden">
+                  <placeName>
+                    <address xml:lang="de">
+                      <lb/><rs type="place" ref="#amp_place_id_2">3062 KIRCHSTETTEN
+                      <lb/>BEZ. ST. PÖLTEN
+                      <lb/>HINTERHOLZ 6
+                      <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
+                    </address>
+                  </placeName>
+                </seg>
+              </dateline>
+              <salute>
+                <lb/>Dear <rs type="person" ref="#amp_person_78">D<hi rend="superscript">r</hi> Spiel</rs>:
+              </salute>
+            </opener>
+            <p>
+              <lb/>Many thanks for your letter.
+              <lb/>It is awfully kind of you to
+              <lb/>be willing to t<unclear>r</unclear>anslate <rs type="lit_work" ref="#lit_work_id_99">my 'State<unclear>m</unclear>ent<unclear>'&#xB7;</unclear>
+              <lb/>which I here<unclear>with</unclear> enclose</rs>.
+            </p>
+            <p>
+              <lb/>If y<unclear>ou</unclear> can say a word t<unclear>o</unclear> <rs type="person" ref="#amp_person_282">Kreisky</rs>.
+              <lb/>I should be <unclear>mo</unclear>st grateful<unclear>.</unclear>
+            </p>
+            <closer>
+              <salute>
+                <lb/>yours ever
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">Wystan Auden</rs>
+              </signed>
+            </closer>
+            <postscript>
+              <p>
+                <lb/>P.S. What has made the <rs type="org" ref="#amp_organization_158" ana="acdh:aad-transcript__0090.xml#ana_097"><foreign xml:lang="de">Finanzamt</foreign></rs>
+                <lb/>cross is that I made over my share
+                <lb/>of th<unclear>e</unclear> property to <rs type="person" ref="#amp_person_4">Chester Kallman</rs>, so
+                <lb/>that I am no longer a <hi rend="underline" hand="#hand_black_auden"><foreign xml:lang="de">Grundbesit<unclear>z</unclear>e<unclear>r</unclear></foreign></hi>.
+                <lb/>I also now no longer have a bank
+                <lb/>account, and eve<unclear>r</unclear> my car is made <gap reason="illegible" quantity="1" unit="char"/><unclear>ver</unclear> to
+                <lb/>my <rs type="person" ref="#amp_person_32"><foreign xml:lang="de">Hau<unclear>s</unclear>meisterin</foreign></rs>. <unclear>My</unclear> only <foreign xml:lang="de"><subst><del rend="overwritten" hand="#hand_black_auden">e</del><add place="superimposed" hand="#hand_black_auden">E</add></subst>igentum</foreign>
+                <lb/>a<unclear>r</unclear> <unclear>n</unclear>y clothes and my typewr<unclear>i</unclear>ter<unclear>'</unclear>
+              </p>
+            </postscript>
+          </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00310/" ed="1v" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00343/" ed="2r" type="sheet"/>
+          <div>
+            <ab hand="#hand_gray_onb">
+              <lb/>15\B969\4-Beil.
+            </ab>
+          </div>
+          <div type="prose" hand="#type_black_auden">
+            <head>
+              <lb/><space quantity="23" unit="char"/><hi rend="underline" hand="#type_black_auden"><rs type="lit_work" ref="#lit_work_id_99">STATEMENT</rs></hi>
+            </head>
+            <salute>
+              <lb/><rs type="org" ref="#amp_organization_158" ana="acdh:aad-transcript__0090.xml#ana_097">Gentlemen</rs>:
+            </salute>
+            <p>
+              <lb/><space quantity="4" unit="char"/>My stand-point is quite simple. One pays income-tax where one
+              <lb/><space quantity="1" unit="char"/>earns money,which in <subst><del rend="overtyped" hand="#type_black_auden"><unclear>j</unclear></del><add place="superimposed" hand="#type_black_auden">m</add></subst>y case,as a writer writing in English,means
+              <lb/><space quantity="1" unit="char"/>the <rs type="place" ref="#amp_place_id_15">United States</rs> and <rs type="place" ref="#amp_place_id_239">England</rs>. In <rs type="place" ref="#amp_place_id_10">Austria</rs> I don't earn a groschen;
+              <lb/><space quantity="1" unit="char"/>I only spend schillings.
+            </p>
+            <p>
+              <lb/><space quantity="21" unit="char"/>__
+              <lb/><space quantity="3" unit="char"/><rs type="note" ana="#ana_098">You assert that I have a 'material' interest in <rs type="place" ref="#amp_place_id_10">Austria</rs></rs>,by which
+              <lb/><space quantity="1" unit="char"/>you mean,I presume<subst><del rend="overwritten" hand="#hand_black_auden"> </del><add place="superimposed" hand="#hand_black_auden">,</add></subst>a 'financial' interest. This could only possibly
+              <lb/><space quantity="1" unit="char"/>be true if I had to say to myself:"I must come to <rs type="place" ref="#amp_place_id_10">Austria</rs> because <del rend="overtyped" hand="#type_black_auden">onl</del>
+              <lb/><space quantity="1" unit="char"/>only in <rs type="place" ref="#amp_place_id_10">Austria</rs> can I work.<unclear><subst><del rend="overtyped" hand="#type_black_auden">e</del><add place="superimposed" hand="#type_black_auden">"</add></subst></unclear> <space quantity="1" unit="char"/>But this is not the case. I have lived
+              <lb/><space quantity="1" unit="char"/>in <subst><del rend="overtyped" hand="#type_black_auden">may</del><add place="above" hand="#type_black_auden">many</add></subst> places and a number of countries and have always been able
+              <lb/><space quantity="1" unit="char"/>to work,wherever I was.
+            </p>
+            <p>
+              <lb/><space quantity="21" unit="char"/>__
+              <lb/><space quantity="1" unit="char"/>Of course I have a 'personal' interest in <rs type="place" ref="#amp_place_id_10">Austria</rs>: otherwise I
+              <lb/><space quantity="1" unit="char"/><unclear>s</unclear>hould not come here. I like the landscape and I find the Austrians
+              <lb/><space quantity="1" unit="char"/>I meet charming and friendly.
+            </p>
+            <p>
+              <lb/><space quantity="24" unit="char"/>__
+              <lb/><space quantity="2" unit="char"/>You say,and it is true,that <rs type="event" ref="#amp_event_id_46">I once received an Austrian <del rend="overtyped" hand="#type_black_auden">prize</del>
+              <lb/><space quantity="2" unit="char"/>literary prize</rs>. That was a great honor of which I am very proud.
+              <lb/><space quantity="2" unit="char"/>But you cannot seriously believe,<rs type="org" ref="#amp_organization_158" ana="acdh:aad-transcript__0090.xml#ana_097">gentlemen</rs>,that I calculated:<del rend="overtyped" hand="#type_black_auden">é</del> " If
+              <lb/><space quantity="2" unit="char"/>I keep coming to <rs type="place" ref="#amp_place_id_10">Austria</rs>,perhaps I <subst><del rend="overtyped" hand="#type_black_auden">sahll</del><add place="above" hand="#type_black_auden">shall</add></subst> win a prize. Before I
+              <lb/><space quantity="2" unit="char"/>received it,I had never heard of this prize. It is also clear that
+              <lb/><space quantity="2" unit="char"/>I cannot receive it a second time. Again,you say that there is now
+              <lb/><space quantity="2" unit="char"/>a street in <del rend="overtyped" hand="#type_black_auden">Kir<unclear><subst><del rend="overtyped" hand="#type_black_auden">s</del><add place="superimposed" hand="#type_black_auden">c</add></subst></unclear>chstet<unclear>t</unclear>e</del>n<rs type="place" ref="#amp_place_id_5">Kirchstetten</rs> named <del rend="overtyped" hand="#type_black_auden"><unclear>)u</unclear>denstrass</del>e<hi rend="underline" hand="#type_black_auden"><rs type="note" ana="acdh:amp-transcript__0062.xml#ana_034"><del rend="overtyped" hand="#type_black_auden">A</del>udenstrasse</rs></hi>
+              <lb/><space quantity="2" unit="char"/>That was a most friendly gesture by the <rs type="org" ref="#amp_organization_159"><foreign xml:lang="de">Gemeinde</foreign></rs>,but I cannot
+              <lb/><space quantity="2" unit="char"/>be said to profit <del rend="overtyped" hand="#type_black_auden">finacially</del> f<subst><del rend="overtyped" hand="#type_black_auden">r</del><add place="superimposed" hand="#type_black_auden">i</add></subst>nancially from it.
+            </p>
+            <p>
+              <lb/><lb/><space quantity="17" unit="char"/>____
+              <lb/><space quantity="2" unit="char"/>You say,and it is true,that I have written some poems with an
+              <lb/><space quantity="2" unit="char"/>Austrian background. About this I have three points to make.
+              <seg>
+                <lb/><space quantity="3" unit="char"/>I) I have never received a penny in <rs type="place" ref="#amp_place_id_10">Austria</rs> <subst><del rend="overtyped" hand="#type_black_auden">fro</del><add place="above" hand="#type_black_auden">for</add></subst> my poems. A few
+                <lb/><space quantity="6" unit="char"/>have been translated into German,but it is the translators who
+                <lb/><space quantity="6" unit="char"/>get the money,not me.
+              </seg>
+              <seg>
+                <lb/><space quantity="4" unit="char"/>2) I don't think you understand how poems are written. What
+                <lb/><space quantity="7" unit="char"/>appears to be the theme is only a focus,an opportunity to
+                <lb/><space quantity="6" unit="char"/>express certain thoughts <del rend="overtyped" hand="#type_black_auden">the</del> about Nature,God,History,Mankind,
+                <lb/><space quantity="6" unit="char"/>etc,which may have been present in the poet's mind for a long
+                <lb/><space quantity="6" unit="char"/>time. For instance I wrote a <rs type="lit_work" ref="#lit_work_id_60">poem for the twentieth <del rend="overtyped" hand="#type_black_auden">anniversy</del>
+                <lb/><space quantity="6" unit="char"/><del rend="overtyped" hand="#type_black_auden">anniversay</del> anniversary of <rs type="person" ref="#amp_person_5">Josef W<subst><del rend="overtyped" hand="#type_black_auden">ie</del><add place="superimposed" hand="#type_black_auden">ei</add></subst>nheber</rs>'s death</rs>. But
+                <lb/><space quantity="6" unit="char"/>the <del rend="overtyped" hand="#type_black_auden">peom<space quantity="1" unit="char"/></del> <rs type="lit_work" ref="#lit_work_id_60">poem</rs> is really about,firstly the l<subst><del rend="overtyped" hand="#type_black_auden">v<unclear>9</unclear></del><add place="superimposed" hand="#type_black_auden">ov</add></subst>e which any good
+                <lb/><space quantity="6" unit="char"/>poet,no matter what his nationa<subst><del rend="overtyped" hand="#type_black_auden">il</del><add place="superimposed" hand="#type_black_auden">li</add></subst>ty,has for his mother-ton<subst><del rend="overtyped" hand="#type_black_auden">h</del><add place="superimposed" hand="#type_black_auden">g</add></subst>ue,
+                <lb/><space quantity="6" unit="char"/>and,secondly about what happene<gap reason="illegible" quantity="1" unit="char"/>d after the <rs type="event" ref="#amp_event_id_54">war</rs> in those
+                <lb/><space quantity="6" unit="char"/>countrie<subst><del rend="overtyped" hand="#type_black_auden">d</del><add place="superimposed" hand="#type_black_auden">s</add></subst> which lost it,that is to say,not only <rs type="place" ref="#amp_place_id_10">Austria</rs>,but
+                <lb/><space quantity="6" unit="char"/>also <rs type="place" ref="#amp_place_id_20">Germany</rs> and <rs type="place" ref="#amp_place_id_159">Italy</rs>.
+              </seg>
+            </p>
+          </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00344/" ed="2v" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00345/" ed="3r" type="sheet"/>
+          <div>
+            <ab hand="#hand_gray_onb">
+              <lb/>15|B969<unclear>|</unclear>4-Beil.
+            </ab>
+          </div>
+          <div type="prose" hand="#type_black_auden">
+            <fw type="pageNum">
+              <lb/><space quantity="48" unit="char"/>(2
+            </fw>
+            <p prev="true">
+              <seg>
+                <lb/><space quantity="6" unit="char"/>Again,in I964 I wrote a poem called <rs type="lit_work" ref="#lit_work_id_79"><hi rend="underline" hand="#hand_black_auden">Whits<subst><del rend="overtyped" hand="#type_black_auden">i</del><add place="superimposed" hand="#type_black_auden">u</add></subst>nday in</hi>
+                <lb/><space quantity="1" unit="char"/><hi rend="underline" hand="#hand_black_auden">Kirchstetten</hi></rs>,because I happened to be here. But the setting is
+                <lb/><space quantity="1" unit="char"/>unimpor<subst><del rend="overtyped" hand="#type_black_auden">at</del><add place="superimposed" hand="#type_black_auden">ta</add></subst>nt. What the <rs type="lit_work" ref="#lit_work_id_79">poem</rs> is really about is the question:
+                <lb/><unclear><subst><del rend="overtyped" hand="#type_black_auden">e</del><add place="superimposed" hand="#type_black_auden">"</add></subst></unclear>What,to a Christian,is the <del rend="overtyped" hand="#type_black_auden">signifinace</del> significance of Pentacost<subst><del rend="overtyped" hand="#type_black_auden">,</del><add place="superimposed" hand="#type_black_auden">?</add></subst>"
+                <lb/><space quantity="1" unit="char"/>And that is the same in all countries.
+              </seg>
+              <seg>
+                <lb/><space quantity="1" unit="char"/>3) I dont think you understand the financial situation of a poet.
+                <lb/><space quantity="4" unit="char"/>A novelist,if he is successful,<subst><del rend="overtyped" hand="#type_black_auden">amy</del><add place="above" hand="#type_black_auden">may</add></subst> earn a great deal of money
+                <lb/><space quantity="4" unit="char"/>from his novels. A poet,even if he is well known,cannot,for
+                <lb/><space quantity="4" unit="char"/>poems are only read by a minority. The greater part of my
+                <lb/><space quantity="4" unit="char"/>income,for example,comes not from the sale of my volumes of
+                <lb/><space quantity="4" unit="char"/>poetry,but <del rend="overtyped" hand="#type_black_auden">form</del> book-reviews,translations,etc,activities which
+                <lb/><space quantity="4" unit="char"/>have nothing to do with <rs type="place" ref="#amp_place_id_10">Austria</rs>. Tal<subst><del rend="overtyped" hand="#type_black_auden">o</del><add place="superimposed" hand="#type_black_auden">k</add></subst>ing of translations,
+                <lb/><space quantity="4" unit="char"/>reminds me that you say,quite truly,that I have a great
+                <lb/><space quantity="4" unit="char"/>interest in German and Austrian literature - let me add music -
+                <lb/><space quantity="4" unit="char"/>but I don't have to come to <rs type="place" ref="#amp_place_id_10">Austria</rs> in <del rend="overtyped" hand="#type_black_auden">oder</del> order to read and
+                <lb/><space quantity="4" unit="char"/>listen to it.
+              </seg>
+            </p>
+            <p>
+              <lb/><space quantity="17" unit="char"/>__&#710;
+              <lb/><space quantity="4" unit="char"/>In conclusion I must say this. If this,to my mind,unj<subst><del rend="overtyped" hand="#type_black_auden">y</del><add place="superimposed" hand="#type_black_auden">u</add></subst>st
+              <lb/><space quantity="4" unit="char"/>foolishness goes any further,I shall leave <rs type="place" ref="#amp_place_id_10">Austria</rs> for ever,
+              <lb/><space quantity="4" unit="char"/>never to return,which would be very sad for me and perhaps also
+              <lb/><space quantity="4" unit="char"/>for the shopkeepers. And,if I have to,I must tell you frankly,
+              <lb/><space quantity="4" unit="char"/><rs type="org" ref="#amp_organization_158" ana="acdh:aad-transcript__0090.xml#ana_097">Gentlemen</rs>,that I am in the position to make a world-scandal.
+            </p>
+            <ab>
+              <lb/><space quantity="28" unit="char"/>______
+            </ab>
+            <signed>
+              <lb/><space quantity="34" unit="char"/><rs type="person" ref="#amp_person_1">W.H.AUDEN</rs>
+            </signed>
+          </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00346/" ed="3v" type="sheet"/>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

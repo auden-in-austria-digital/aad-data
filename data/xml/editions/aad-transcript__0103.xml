@@ -1,0 +1,417 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0103" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Copy Typed Letter Hilde Spiel to Bruno Kreisky with Copy Typescript Hilde Spiel Translation W. H. Auden Statement to Austrian Tax Authorities 1972-08-25</title>
+        <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
+        <author ref="https://d-nb.info/gnd/118751980">Spiel, Hilde</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Copy Typed Letter Hilde Spiel to Bruno Kreisky with Copy Typescript Hilde Spiel Translation W. H. Auden Statement to Austrian Tax Authorities 1972-08-25</title>
+          <interpGrp>
+            <interp>
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <repository ref="https://d-nb.info/gnd/2020893-5">Austrian National Library</repository>
+                <collection>Literary Archive</collection>
+                <idno>ÖLA 15/91, Group 2.2, 15/B969/4</idno>
+                <idno>ÖLA 15/91, Group 2.2, 15/B870/5-Beil.</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark/>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00341/">
+                        <width>210</width>
+                        <height>297</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00342/">
+                        <width>210</width>
+                        <height>297</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00335/">
+                        <width>210</width>
+                        <height>297</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00336/">
+                        <width>210</width>
+                        <height>297</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00337/">
+                        <width>210</width>
+                        <height>298</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00338/">
+                        <width>210</width>
+                        <height>298</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00339/">
+                        <width>210</width>
+                        <height>298</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00340/">
+                        <width>210</width>
+                        <height>298</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_gray_onb" scribeRef="#amp_organization_156" medium="pencil">Handwriting in pencil authored by <rs type="org" ref="#amp_organization_156">Austrian National Library</rs></handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="type_cc_spiel" scribeRef="#amp_person_78" medium="type-cc">Carbon copy of typewriting by Hilde Spiel</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1972-08-25T00:00:00+01:00" notAfter-iso="1972-08-25T23:59:59+01:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4051632-5" ana="acdh:aad-transcript__0098.xml#ana_101">St. Wolfgang im Salzkammergut</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de"/>
+        <language ident="en"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#tfruehwirth" when-iso="2025-05-05">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2025-08-11">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-08-13">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="6040" lry="8501">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00341/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="6040" lry="8501">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00342/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="6085" lry="8461">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00335/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="6085" lry="8554">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00336/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="6113" lry="8489">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00337/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="6113" lry="8501">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00338/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="6113" lry="8501">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00339/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="6040" lry="8501">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00340/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0103" xml:lang="de">
+        <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00341/" ed="1r" type="sheet"/>
+          <div>
+            <ab hand="#hand_gray_onb">
+              <lb/>15\B969|4
+            </ab>
+          </div>
+          <div type="letter_message" hand="#type_cc_spiel">
+            <opener>
+              <dateline>
+                <date>
+                  <lb/><space quantity="43" unit="char"/>25-8-1972
+                </date>
+                <persName>
+                  <lb/><rs type="person" ref="#amp_person_282">Herrn Bundeskanzler
+                  <lb/>Dr.Bruno Kreisky</rs>
+                </persName>
+                <placeName>
+                  <address>
+                    <lb/><rs type="place" ref="#amp_place_id_415">1190 Wien
+                    <lb/>Armbrustergasse 15</rs>
+                  </address>
+                </placeName>
+              </dateline>
+              <salute>
+                <lb/>Sehr verehrter <rs type="person" ref="#amp_person_282">Herr Bundeskanzler</rs>!
+              </salute>
+            </opener>
+            <p>
+              <lb/><space quantity="5" unit="char"/>Obwohl Sie mir immer mit <subst><del rend="overtyped" hand="#type_cc_spiel">f</del><add place="superimposed" hand="#type_cc_spiel">d</add></subst>em grössten Verständnis
+              <lb/>und jeglicher Art von Hilfsbereitschaft entgegengekommen
+              <lb/>sind, habe <rs type="person" ref="#amp_person_78">ich</rs> nach Möglichkeit vermieden, mich in all den
+              <lb/>öffentlichen und privaten Auseinandersetzungen, in die ich
+              <lb/>seit meiner Rückkehr nach <rs type="place" ref="#amp_place_id_1">Wien</rs> verwickelt wurde, an Sie
+              <lb/>zu wenden.
+            </p>
+            <p>
+              <lb/><space quantity="5" unit="char"/>Darf ich es heute im Falle eines anderen, mir bekannten
+              <lb/>Schriftstellers tun. Es scheint, dass durch das ungeschickte
+              <lb/>Verhalten der Steuerbehörden ein Mann<unclear><subst><del rend="erased" hand="#type_cc_spiel">a</del><add place="superimposed" hand="#type_cc_spiel"><space quantity="1" unit="char"/></add></subst></unclear>aus <rs type="place" ref="#amp_place_id_10">Österreich</rs> hinaus-
+              <lb/>geekelt zu werden droht, dessen wiederholte Anwesenheit unserem
+              <lb/>Land zur Ehre gereicht : <rs type="person" ref="#amp_person_1">W.H.Auden</rs>, neben <rs type="person" ref="#amp_person_68"><unclear>E</unclear>zra Pound</rs> der be-
+              <lb/>deutendste lebende Lyriker in englischer Sprache und ein
+              <lb/>präsumtiver Nobelpreisträger.
+            </p>
+            <p>
+              <lb/><space quantity="5" unit="char"/>Es fällt mir schwer, Sie zu bitten, sehr verehrter <rs type="person" ref="#amp_person_282">Herr
+              <lb/>Bundeskanzler</rs>, sich die Zeit zu nehmen, die <rs type="lit_work" ref="#lit_work_id_226">beiliegende Er-
+              <lb/>klärung <rs type="person" ref="#amp_person_1">W.H.Auden</rs>s</rs> zu lesen. Aber ich meine, Sie sollten es
+              <lb/>tun. Er wehrt sich darin gegen eine Besteuerung in <rs type="place" ref="#amp_place_id_10">Österreich</rs>
+              <lb/>mit wirklich einleuchtenden Gründen. Ich wäre Ihnen sehr
+              <lb/>dankbar, wenn Sie sich der Sache dem <rs type="org" ref="#amp_organization_161">Finanzministerium</rs> gegen-
+              <lb/>über annehmen könnten.
+            </p>
+            <closer>
+              <salute>
+                <lb/><space quantity="4" unit="char"/>Mit aufrichtigen Empfehlungen,
+              </salute>
+              <signed>
+                <lb/><space quantity="34" unit="char"/>Ihre
+              </signed>
+            </closer>
+          </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00342/" ed="1v" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00335/" ed="2r" type="sheet"/>
+          <div>
+            <ab hand="#hand_gray_onb">
+              <lb/>15\B870\<subst><del rend="overwritten" hand="#hand_gray_onb"><unclear>1</unclear></del><add place="superimposed" hand="#hand_gray_onb">5</add></subst>-Beil.
+            </ab>
+          </div>
+          <div type="prose" hand="#type_cc_spiel">
+            <head>
+              <lb/><space quantity="18" unit="char"/><hi rend="underline" hand="#type_cc_spiel"><rs type="lit_work" ref="#lit_work_id_226">Erklärung</rs></hi>
+            </head>
+            <salute>
+              <lb/><rs type="org" ref="#amp_organization_158" ana="acdh:aad-transcript__0090.xml#ana_097">Meine Herren</rs> !
+            </salute>
+            <p>
+              <lb/><space quantity="4" unit="char"/>Mein Standpunkt ist sehr einfach : Man bezahlt dort
+              <lb/>Einkommensteuer, wo man Geld verdient, das<unclear><subst><del rend="erased" hand="#type_cc_spiel"><gap reason="illegible" quantity="1" unit="char"/></del><add place="superimposed" hand="#type_cc_spiel"><space quantity="1" unit="char"/></add></subst></unclear> heisst in meinem
+              <lb/>Fall, als Schriftsteller, der englisch schreibt, in den
+              <lb/><rs type="place" ref="#amp_place_id_15">Vereinigten Staaten</rs> und in <rs type="place" ref="#amp_place_id_239">England</rs>. In <rs type="place" ref="#amp_place_id_10">Österreich</rs> verdiene
+              <lb/>ich keinen Groschen, ich gebe lediglich Schillinge aus.
+            </p>
+            <p>
+              <lb/><space quantity="4" unit="char"/><rs type="note" ana="acdh:aad-transcript__0091.xml#ana_098">Sie behaupten, ich hätte ein 'materielles Interesse' an
+              <lb/><rs type="place" ref="#amp_place_id_10">Österreich</rs></rs>, womit Sie vermutlich ein 'finanzielles' Interesse
+              <lb/>meinen. Das könnte nur dann möglicherweise richtig sein,wenn
+              <lb/>ich mir sagen müsste :'Ich muss nach <rs type="place" ref="#amp_place_id_10">Österreich</rs> gehen, weil
+              <lb/>ich nur in <rs type="place" ref="#amp_place_id_10">Österreich</rs> arbeiten kann'. Das ist aber nicht der
+              <lb/>Fall. Ich habe an vielen Orten und in den verschiedens<subst><del rend="overtyped" hand="#type_cc_spiel"><unclear>r</unclear></del><add place="superimposed" hand="#type_cc_spiel">t</add></subst>en
+              <lb/>Ländern <subst><del rend="overtyped" hand="#type_cc_spiel">f</del><add place="superimposed" hand="#type_cc_spiel">g</add></subst>elebt, und war imstande, zu arbeiten, wo immer
+              <lb/>ich auch war.
+            </p>
+            <p>
+              <lb/><space quantity="4" unit="char"/>Ich habe natürlich e<unclear>in</unclear> 'persönliches' Interesse an
+              <lb/><rs type="place" ref="#amp_place_id_10">Österreich</rs>,sonst käme ich nicht hierher. Mir gefällt die Land-
+              <lb/>schaft und ich finde die Österreicher, die ich kennen lerne,
+              <lb/>freundlich und charmant.
+            </p>
+            <p>
+              <lb/><space quantity="5" unit="char"/>Sie sagen wahrheitsgemäss, dass <rs type="event" ref="#amp_event_id_46">ich einmal einen österrei-
+              <lb/>chischen Literaturpreis erhalten habe</rs>. Das war eine grosse
+              <lb/>Ehre, auf die ich sehr stolz bin. Aber Sie können doch nicht
+              <lb/>ernstlich glauben, <rs type="org" ref="#amp_organization_158" ana="acdh:aad-transcript__0090.xml#ana_097">meine Herren</rs>, dass ich mir ausgerechnet
+              <lb/>habe :'Wenn ich weiter nach <rs type="place" ref="#amp_place_id_10">Österreich</rs> gehe, wird mir vielleicht
+              <lb/>ein Preis verliehen werden'? Bevor er mir zuerkannt wurde,hatte
+              <lb/>ich noch nie von diesem Preis gehört. Es ist auch klar,dass
+              <lb/>ich ihn kein zweites Mal erhalten kann. <space quantity="1" unit="char"/>Dann sagen Sie auch,
+              <lb/>dass man in <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs> eine Strasse nach mir <rs type="note" ana="acdh:amp-transcript__0062.xml#ana_034">Audenstrasse</rs>
+              <lb/>genannt hat. Das war eine sehr liebensw<subst><del rend="overtyped" hand="#type_cc_spiel">r</del><add place="superimposed" hand="#type_cc_spiel">ü</add></subst>rdige Geste von Seiten
+              <lb/>der <rs type="org" ref="#amp_organization_159">Gemeinde</rs>, aber man kann nicht behaupten, dass ich finanziell
+              <lb/>Nu<unclear>t</unclear>zen daraus ziehe.
+            </p>
+            <p>
+              <lb/><space quantity="4" unit="char"/>Sie sagen ferner wahrheitsgemäss, dass ich einige Gedichte
+              <lb/>mit österreichischer Thematik geschrieben habe. Dazu möchte
+              <lb/>ich drei Feststellungen machen:
+              <seg>
+                <lb/><space quantity="4" unit="char"/>1. Ich habe in <rs type="place" ref="#amp_place_id_10">Österreich</rs> niemals auch nur einen Penny für
+                <lb/><space quantity="7" unit="char"/>meine Gedichte erhalten. Ein paar von ihnen wurden ins
+                <lb/><space quantity="7" unit="char"/>Deutsche übersetzt, aber in diesem Fall bekamen die
+              </seg>
+            </p>
+          </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00336/" ed="2v" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00337/" ed="3r" type="sheet"/>
+          <div>
+            <ab hand="#hand_gray_onb">
+              <lb/>15|B870<unclear>|</unclear>5-Beil.
+            </ab>
+          </div>
+          <div type="prose" hand="#type_cc_spiel">
+            <fw type="pageNum">
+              <lb/><space quantity="51" unit="char"/>2
+            </fw>
+            <p prev="true">
+              <seg>
+                <lb/><space quantity="5" unit="char"/>Übersetzer das Geld, nicht ich.
+              </seg>
+              <seg>
+                <lb/><space quantity="1" unit="char"/>2. Ich glaube, Sie sind sich nicht im Klaren darüber, wie
+                <lb/><space quantity="4" unit="char"/>Gedichte ents<unclear><subst><del rend="erased" hand="#type_cc_spiel"><gap reason="illegible" quantity="1" unit="char"/></del><add place="superimposed" hand="#type_cc_spiel">t</add></subst></unclear>e<unclear><subst><del rend="erased" hand="#type_cc_spiel"><gap reason="illegible" quantity="1" unit="char"/></del><add place="superimposed" hand="#type_cc_spiel">h</add></subst></unclear>en. Was gewöhnlich für das Thema gehalten
+                <lb/><space quantity="4" unit="char"/>wird, ist nur ein Blickwinkel, ein Anlass, um gewissen
+                <lb/><space quantity="4" unit="char"/>Gedanken über die Natur, über Gott, die Geschichte, die
+                <lb/><space quantity="4" unit="char"/>Menschheit usw., die der Dichter schon sehr lange im Kopf
+                <lb/><space quantity="4" unit="char"/>gehabt haben mag, Ausdruck zu verleihen. Ich habe zum
+                <lb/><space quantity="4" unit="char"/>Beispiel ein <rs type="lit_work" ref="#lit_work_id_60">Gedicht zum 20.Todestag von <rs type="person" ref="#amp_person_5">Josef Weinheber</rs></rs>
+                <lb/><space quantity="4" unit="char"/>geschrieben. Aber das <rs type="lit_work" ref="#lit_work_id_60">Gedicht</rs> handelt im Grunde von anderen
+                <lb/><space quantity="4" unit="char"/>Dingen : erstens<unclear><subst><del rend="erased" hand="#type_cc_spiel"><gap reason="illegible" quantity="1" unit="char"/></del><add place="superimposed" hand="#type_cc_spiel"><space quantity="1" unit="char"/></add></subst></unclear>von der Liebe, die jeder gute Dichter,
+                <lb/><space quantity="4" unit="char"/>welcher Nationalität er auch sei, zu seiner Muttersprache
+                <lb/><space quantity="4" unit="char"/>hegt, und zweitens davon, was nach dem <rs type="event" ref="#amp_event_id_54">Krieg</rs> in den Ländern
+                <lb/><space quantity="4" unit="char"/>geschehen ist, die ihn verloren haben, da<unclear>s</unclear><subst><del rend="erased" hand="#type_cc_spiel">s</del><add place="superimposed" hand="#type_cc_spiel"><space quantity="1" unit="char"/></add></subst>heisst, nicht
+                <lb/><space quantity="4" unit="char"/>nur in <rs type="place" ref="#amp_place_id_10">Österreich</rs>, sondern auch in <rs type="place" ref="#amp_place_id_20">Deutschland</rs> und <rs type="place" ref="#amp_place_id_159">Italien</rs>.
+                <lb/><space quantity="4" unit="char"/>1964 wiederum habe ich ein Gedicht mit dem Titel <rs type="lit_work" ref="#lit_work_id_79">'Pfingst<unclear><subst><del rend="overtyped" hand="#type_cc_spiel">.</del><add place="superimposed" hand="#type_cc_spiel">-</add></subst></unclear>
+                <lb/><space quantity="4" unit="char"/>sonntag in Kirchstetten'</rs> geschrieben, weil ich mich zu-
+                <lb/><space quantity="4" unit="char"/>fällig <rs type="place" ref="#amp_place_id_5">dort</rs> aufhielt. Aber der Ort ist unwichtig. In Wahr-
+                <lb/><space quantity="4" unit="char"/>heit geht es in diesem <rs type="lit_work" ref="#lit_work_id_79">Gedicht</rs> um die Frage : Worin besteht
+                <lb/><space quantity="4" unit="char"/>für einen Christen die Bedeutung des <foreign xml:lang="en">Pente<subst><del rend="overtyped" hand="#type_cc_spiel">v</del><add place="superimposed" hand="#type_cc_spiel"><unclear>c</unclear></add></subst>ost</foreign>-Festes?
+                <lb/><space quantity="4" unit="char"/>Und dies gilt für alle Länder auf gleiche Art.
+              </seg>
+              <seg>
+                <lb/><space quantity="1" unit="char"/>3. Ich glaube, Sie sind sich nicht im Klaren über die finan-
+                <lb/><space quantity="4" unit="char"/>zielle Situation eines Dichters. Ein Romanschriftsteller
+                <lb/><space quantity="4" unit="char"/>kann, wenn er erfolgreich ist, mit seinen Büchern eine
+                <lb/><space quantity="4" unit="char"/>Menge Geld verdienen. Ein Lyriker kann das nicht, selbst
+                <lb/><space quantity="4" unit="char"/>wenn er sehr bekannt ist, d<unclear>e</unclear>nn Gedichte werden nur von
+                <lb/><space quantity="4" unit="char"/>einer Minderheit gelesen. So stammt der weitaus grösste
+                <lb/><space quantity="4" unit="char"/>Teil meines Einkommens nicht aus dem Verkauf meiner Ge-
+                <lb/><space quantity="4" unit="char"/>dichtbände, sondern aus Buchrezensionen, Übeersetzungen,
+                <lb/><space quantity="4" unit="char"/>Vorträgen usw., Tätigkei<unclear><add place="inline" hand="#type_cc_spiel">t</add>en</unclear>, die mit <rs type="place" ref="#amp_place_id_10">Ö<unclear><subst><del rend="overtyped" hand="#type_cc_spiel">d</del><add place="superimposed" hand="#type_cc_spiel">s</add></subst></unclear>terreich</rs> nichts zu
+                <lb/><space quantity="4" unit="char"/>tun haben. Und wenn schon vom Übersetzen die Rede ist :
+                <lb/><space quantity="4" unit="char"/>Sie sagen wahrheitsgemäss, dass ich ein grosses Interesse
+                <lb/><space quantity="4" unit="char"/>an deutscher und österreichischer Literatur habe - ich
+                <lb/><space quantity="4" unit="char"/>darf hinzufügen, auch an der Musik - , aber ich muss nicht
+                <lb/><space quantity="4" unit="char"/>nach <rs type="place" ref="#amp_place_id_10">Österreich</rs> kommen, um sie zu lesen oder zu hören.
+              </seg>
+            </p>
+            <p>
+              <lb/><space quantity="4" unit="char"/>Sie fragen schliesslich, weshalb ich die Hälfte <rs type="place" ref="#amp_place_id_2">meines
+              <lb/>Besitzes in <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></rs> an <rs type="person" ref="#amp_person_4"><foreign xml:lang="en">Mr.</foreign>Chester Kallman</rs><unclear><subst><del rend="erased" hand="#type_cc_spiel">n</del><add place="superimposed" hand="#type_cc_spiel"><space quantity="1" unit="char"/></add></subst></unclear>überschrieben
+              <lb/>habe, der ja nicht mit mir verwandt ist. <rs type="person" ref="#amp_person_4"><foreign xml:lang="en">Mr</foreign> Kallman</rs> ist mein
+            </p>
+          </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00338/" ed="3v" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00339/" ed="4r" type="sheet"/>
+          <div>
+            <ab hand="#hand_gray_onb">
+              <lb/>15\B870<unclear>\</unclear>5-Beil.
+            </ab>
+          </div>
+          <div type="prose" hand="#type_cc_spiel">
+            <fw type="pageNum">
+              <lb/><space quantity="54" unit="char"/>3
+            </fw>
+            <p prev="true">
+              <lb/>Erbe. Ich habe keine Kinder und er ist seit Jahren mein litera-
+              <lb/>rischer Mitarbeiter. Wir haben gemeinsam fünf neue Opern<subst><del rend="overtyped" hand="#type_cc_spiel">k</del><add place="superimposed" hand="#type_cc_spiel">l</add></subst>ibretti
+              <lb/>verfasst, <rs type="lit_work" ref="#lit_work_id_16">'The Rake's Progress'</rs> (Weg eines Wüstlings), <rs type="lit_work" ref="#lit_work_id_17">'Elegy
+              <lb/>for Young <unclear>L</unclear>overs'</rs> (Elegie für junge Liebende), <rs type="lit_work" ref="#lit_work_id_18">'The Bassarids'</rs>
+              <lb/>(Die Bassariden) und <rs type="lit_work" ref="#lit_work_id_20">'Love's Labours Lost'</rs> (Verlorene Liebes-
+              <lb/>müh'). Und wir haben gemeinsam <rs type="lit_work" ref="#lit_work_id_21">'Die Zauberflöte'</rs>, <rs type="lit_work" ref="#lit_work_id_22">'Don Gio-
+              <lb/>vanni'</rs>, <rs type="lit_work" ref="#lit_work_id_23">'Die sieben Todsünden'</rs>, <rs type="lit_work" ref="#lit_work_id_24">'Mahagonny'</rs> und <rs type="lit_work" ref="#lit_work_id_25">'Archifanfaro'</rs>
+              <lb/>neu <rs type="lit_work" ref="#lit_work_id_148 #lit_work_id_149 #lit_work_id_150 #lit_work_id_151 #lit_work_id_152">ins Englische übersetzt</rs>. Ich bin jetzt fünfundsechzig Jahre
+              <lb/>alt und muss mit jeder Möglichkeit rechnen, etwa mit einem
+              <lb/>Herzanfall. Wie Sie selbst besser wiss<unclear><subst><del rend="overtyped" hand="#type_cc_spiel">d</del><add place="superimposed" hand="#type_cc_spiel">e</add></subst></unclear>n als ich, ergeben sich
+              <lb/>im Falle eines plötzlichen Ablebens grosse Schwierigkeiten
+              <lb/>für den Erben von Grundbesitz, besonders in einem fremden
+              <lb/>Land.
+            </p>
+            <p>
+              <lb/><space quantity="5" unit="char"/>Sie sehen aus all dem, dass die von Ihnen angeführten
+              <lb/>Gründe, aus denen Sie mich besteuern wollen, nicht stichhaltig
+              <lb/>sind. Am m<unclear>e<add place="inline" hand="#type_cc_spiel">i</add>st</unclear>en aber spricht dagegen, dass ich im Laufe eines
+              <lb/>Jahres immer weniger als se<unclear><subst><del rend="overtyped" hand="#type_cc_spiel">d</del><add place="superimposed" hand="#type_cc_spiel">c</add></subst></unclear>hs Monate in <rs type="place" ref="#amp_place_id_10">Österreich</rs> verbringe
+              <lb/>u<subst><del rend="overtyped" hand="#type_cc_spiel">d</del><add place="superimposed" hand="#type_cc_spiel">n</add></subst>d mich niemals auch nur drei Monate lang laufend hier
+              <lb/>aufhalte.
+            </p>
+            <p>
+              <lb/><space quantity="5" unit="char"/>Ein Wort zum Schluss. Wenn dieser für mein Gefühl völlig
+              <lb/>ungerechtfertigte Unsinn nicht aufhört, werde ich <rs type="place" ref="#amp_place_id_10">Österreich</rs>
+              <lb/>verlassen, um nie wiederzukehren, wa<unclear><subst><del rend="overtyped" hand="#type_cc_spiel">w</del><add place="superimposed" hand="#type_cc_spiel">s</add></subst></unclear> für mich und vielleicht
+              <lb/>auch für die Ladenbesitzer von <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs> sehr tr<unclear>a</unclear>urig
+              <lb/>wäre. Eines aber kann ich Ihnen nicht verhehlen, <rs type="org" ref="#amp_organization_158" ana="acdh:aad-transcript__0090.xml#ana_097">meine Herren</rs> :
+              <lb/>sollte dies eint<subst><del rend="overtyped" hand="#type_cc_spiel">e</del><add place="superimposed" hand="#type_cc_spiel"><unclear>r</unclear></add></subst>eten, dann könnte es <unclear><subst><del rend="overtyped" hand="#type_cc_spiel">v</del><add place="superimposed" hand="#type_cc_spiel">e</add></subst></unclear>inen weltweiten <unclear>S</unclear>kandal
+              <lb/>nach sich ziehen.
+            </p>
+            <signed>
+              <lb/><space quantity="44" unit="char"/><rs type="person" ref="#amp_person_1">W.H.Auden</rs>
+            </signed>
+          </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00340/" ed="4v" type="sheet"/>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

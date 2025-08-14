@@ -1,4 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0056" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
   <teiHeader>
     <fileDesc>
@@ -41,10 +45,11 @@
           <resp>ODD/RNG TEI/XML schema</resp>
           <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
           <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher ref="https://d-nb.info/gnd/1226158307">Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
         <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
         <date when-iso="2027">2027</date>
         <availability>
@@ -60,9 +65,10 @@
           <witness n="1">
             <msDesc>
               <msIdentifier>
-                <repository ref="https://d-nb.info/gnd/1108283586">State Collections of Lower Austria</repository>
-                <collection>W. H. Auden Collection</collection>
-                <idno>Correspondence Hugo Kurka 056</idno>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
+                <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
+                <collection>Documentation Center for Literature in Lower Austria</collection>
+                <idno>LS-Aud 4.6.56</idno>
               </msIdentifier>
               <physDesc>
                 <objectDesc>
@@ -205,7 +211,7 @@
             <p>
               <lb/>Ich weiss nicht was ich machen
               <lb/>soll. Ich h<unclear>a</unclear>be ges<unclear>ch</unclear>r<unclear>ie</unclear>be<unclear>n</unclear> an <rs type="person" ref="#amp_person_14" ana="acdh:amp-transcript__0012.xml#ana_013">mein A<unclear>v</unclear>okat</rs>
-              <lb/>und an <rs type="person" ref="#amp_person_21">Herr Holfmann</rs> zu w<unclear>i</unclear>ssen genau
+              <lb/>und an <rs type="person" ref="#amp_person_21">Herr Hoffmann</rs> zu w<unclear>i</unclear>ssen genau
               <lb/>was passiert ist und habe kein Wort ge<unclear>k</unclear>riecht.
               <lb/><rs type="person" ref="#amp_person_4">Chester</rs> hat ensch<unclear>i</unclear>eden <unclear><del rend="overstrike" hand="#hand_blue_auden">z</del></unclear> nach Weinachten nach
               <lb/><rs type="place" ref="#amp_place_id_1">Wien</rs> zu kommen, und <unclear>i</unclear>ch weiss nicht an
