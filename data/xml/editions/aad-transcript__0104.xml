@@ -133,6 +133,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-08-21">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2025-08-21">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-08-25">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -148,6 +149,52 @@
       <div type="transcription" xml:id="transcription_aad_0104" xml:lang="de">
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00347/" ed="1r" type="sheet"/>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <opener>
+              <dateline>
+                <date>
+                  <lb/>29<hi rend="superscript">te<unclear>n</unclear></hi> A<unclear>u</unclear>g<unclear>u</unclear>st<unclear>.</unclear>
+                </date>
+                <seg hand="#print_black_auden">
+                  <placeName>
+                    <address>
+                      <lb/><rs type="place" ref="#amp_place_id_2">3062 KIRCHSTETTEN
+                      <lb/>BEZ. ST. PÖLTEN
+                      <lb/>HINTERHOLZ 6
+                      <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
+                    </address>
+                  </placeName>
+                </seg>
+              </dateline>
+              <salute>
+                <lb/>Sehr ver<unclear>e</unclear>hter <rs type="person" ref="#amp_person_284">Herr Urbach</rs><unclear>:</unclear>
+              </salute>
+            </opener>
+            <p>
+              <lb/>Be<unclear>s</unclear>te<unclear>n</unclear> D<unclear>a</unclear>nk für Ihren <subst><del rend="overwritten" hand="#hand_blue_auden"><gap reason="illegible" quantity="1" unit="char"/></del><add place="superimposed" hand="#hand_blue_auden">B</add></subst><gap reason="illegible" atLeast="3" atMost="4" unit="char"/>f<unclear>.</unclear>
+              <lb/>Sebstverständl<unclear>i</unclear>c<unclear>h</unclear> w<unclear>e</unclear>r<unclear>d</unclear>e Ich sehr froh
+              <lb/>und <del rend="overstrike" hand="#hand_blue_auden">s<unclear>l</unclear></del>stolz sein wenn <del rend="overstrike" hand="#hand_blue_auden">D<unclear>l</unclear><gap reason="illegible" quantity="1" unit="char"/></del><rs type="person" ref="#amp_person_220">Frau Stau<unclear>b</unclear></rs>
+              <lb/>macht de<unclear>r</unclear> Ubersätzu<unclear>&#324;</unclear>gen .
+            </p>
+            <p>
+              <lb/>Wenn <subst><del rend="overwritten" hand="#hand_blue_auden">S</del><add place="superimposed" hand="#hand_blue_auden">s</add></subst>ie Zeit ha<unclear>b</unclear>, vielle<unclear>s</unclear><unclear>c</unclear>ht könnten <unclear>S</unclear>ie
+              <lb/>auch <hi rend="underline" hand="#hand_blue_auden"><rs type="lit_work" ref="#lit_work_id_161">August 1968</rs></hi> (<rs type="lit_work" ref="#lit_work_id_137">City W<gap reason="illegible" atLeast="5" atMost="7"/> Walls</rs>)
+              <lb/>ube<unclear>n</unclear>sätze<unclear>&#324;</unclear>
+            </p>
+            <closer>
+              <salute>
+                <lb/>mit fre<unclear>u</unclear>rdlichster Grüs<gap reason="illegible" quantity="1" unit="char"/>e<unclear>n</unclear>
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">W.H.Auden</rs> <unclear>.</unclear>
+              </signed>
+            </closer>
+          </div>
+          <div>
+            <ab hand="#hand_gray_unident_0104">
+              <lb/><gap reason="illegible" atLeast="1" atMost="2"/>
+            </ab>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00348/" ed="1v" type="sheet"/>
         </div>
       </div>
