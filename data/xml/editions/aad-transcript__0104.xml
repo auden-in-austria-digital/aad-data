@@ -29,7 +29,7 @@
         <edition>
           <title level="a">Autograph Letter Signed W. H. Auden to Reinhard Urbach 1970-08-29</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_105">
               <desc/>
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -66,7 +66,7 @@
             <msDesc>
               <msIdentifier>
                 <repository ref="https://d-nb.info/gnd/2175892-X">Austrian Society for Literature</repository>
-                <collection>ÖGfL Archiv</collection>
+                <collection>ÖGfL-Archiv</collection>
                 <idno>Autographensammlung 1 C2</idno>
               </msIdentifier>
               <physDesc>
@@ -98,7 +98,7 @@
               </physDesc>
               <history>
                 <origin>
-                  <origDate notBefore-iso="1970-08-29T00:00:00+01:00" notAfter-iso="1970-08-29T23:59:59+01:00"/>
+                  <origDate notBefore-iso="1970-08-29T00:00:00+01:00" notAfter-iso="1970-08-29T23:59:59+01:00" ana="#ana_105"/>
                   <origPlace ref="https://d-nb.info/gnd/4801892-2">Kirchstetten</origPlace>
                 </origin>
               </history>
@@ -122,11 +122,11 @@
       </langUsage>
       <correspDesc>
         <correspAction type="sent">
-          <date notBefore-iso="1970-08-29T00:00:00+01:00"/>
+          <date notBefore-iso="1970-08-29T00:00:00+01:00" ana="#ana_105"/>
         </correspAction>
         <correspAction type="received">
           <persName ref="#amp_person_284">Urbach, Reinhard</persName>
-          <orgName ref="#amp_organization_9">Austrian Society for Literature</orgName>
+          <orgName><rs type="org" ref="#amp_organization_9">Austrian Society for Literature</rs></orgName>
         </correspAction>
       </correspDesc>
     </profileDesc>
@@ -172,18 +172,18 @@
             </opener>
             <p>
               <lb/>Be<unclear>s</unclear>te<unclear>n</unclear> D<unclear>a</unclear>nk für Ihren <subst><del rend="overwritten" hand="#hand_blue_auden"><gap reason="illegible" quantity="1" unit="char"/></del><add place="superimposed" hand="#hand_blue_auden">B</add></subst><gap reason="illegible" atLeast="3" atMost="4" unit="char"/>f<unclear>.</unclear>
-              <lb/>Sebstverständl<unclear>i</unclear>c<unclear>h</unclear> w<unclear>e</unclear>r<unclear>d</unclear>e Ich sehr froh
+              <lb/>Sebstverständl<unclear>i</unclear>c<unclear>h</unclear> w<unclear>&#235;</unclear>r<unclear>d</unclear>e Ich sehr froh
               <lb/>und <del rend="overstrike" hand="#hand_blue_auden">s<unclear>l</unclear></del>stolz sein wenn <del rend="overstrike" hand="#hand_blue_auden">D<unclear>l</unclear><gap reason="illegible" quantity="1" unit="char"/></del><rs type="person" ref="#amp_person_220">Frau Stau<unclear>b</unclear></rs>
-              <lb/>macht de<unclear>r</unclear> Ubersätzu<unclear>&#324;</unclear>gen .
+              <lb/>macht de<unclear>r</unclear> <rs type="lit_work" ref="#lit_work_id_242">Ubersätzu<unclear>&#324;</unclear>gen</rs> .
             </p>
             <p>
               <lb/>Wenn <subst><del rend="overwritten" hand="#hand_blue_auden">S</del><add place="superimposed" hand="#hand_blue_auden">s</add></subst>ie Zeit ha<unclear>b</unclear>, vielle<unclear>s</unclear><unclear>c</unclear>ht könnten <unclear>S</unclear>ie
-              <lb/>auch <hi rend="underline" hand="#hand_blue_auden"><rs type="lit_work" ref="#lit_work_id_161">August 1968</rs></hi> (<rs type="lit_work" ref="#lit_work_id_137">City W<gap reason="illegible" atLeast="5" atMost="7"/> Walls</rs>)
+              <lb/>auch <hi rend="underline" hand="#hand_blue_auden"><rs type="lit_work" ref="#lit_work_id_161">August 1968</rs></hi> (<rs type="lit_work" ref="#lit_work_id_137">City W<gap reason="illegible" quantity="1" unit="char"/><unclear>t</unclear><gap reason="illegible" atLeast="4" atMost="5"/> Walls</rs>)
               <lb/>ube<unclear>n</unclear>sätze<unclear>&#324;</unclear>
             </p>
             <closer>
               <salute>
-                <lb/>mit fre<unclear>u</unclear>rdlichster Grüs<gap reason="illegible" quantity="1" unit="char"/>e<unclear>n</unclear>
+                <lb/>mit fre<unclear>u</unclear>rdlichster Grüs<gap reason="illegible" quantity="1" unit="char"/>e<unclear>r</unclear>
               </salute>
               <signed>
                 <lb/><rs type="person" ref="#amp_person_1">W.H.Auden</rs> <unclear>.</unclear>
