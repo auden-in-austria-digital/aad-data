@@ -116,8 +116,8 @@ for row in data:
         raise ValueError(f'Error in line {row_num}: repository-URI value must correspond to URL pattern.')
 
     # specify collection value restrictions
-    if not all(char.isalpha() or char.isspace() or char == '.' for char in row[coll_index]):
-        raise TypeError(f'Error in line {row_num}: collection value must contain only alphabetic characters, spaces, and periods.')
+    if not all(char.isalpha() or char.isspace() or char == '.' or char == '-' for char in row[coll_index]):
+        raise TypeError(f'Error in line {row_num}: collection value must contain only alphabetic characters, spaces, periods, and hyphens.')
 
     # extract field values of current row
     doc_id = row[doc_index]
