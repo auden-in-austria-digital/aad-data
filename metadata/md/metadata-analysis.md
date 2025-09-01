@@ -108,6 +108,7 @@ doc
 0102           Spiel, Hilde                                                                                                   Copy Typed Letter Hilde Spiel to W. H. Auden 1972-08-15  St. Wolfgang im Salzkammergut
 0103           Spiel, Hilde  Copy Typed Letter Hilde Spiel to Bruno Kreisky with Copy Typescript Hilde Spiel Translation W. H. Auden Statement to Austrian Tax Authorities 1972-08-25  St. Wolfgang im Salzkammergut
 0104           Auden, W. H.                                                                                         Autograph Letter Signed W. H. Auden to Reinhard Urbach 1970-08-29                   Kirchstetten
+0105           Auden, W. H.                                                                                          Autograph Letter Signed W. H. Auden to Wolfgang Kraus 1962-10-06                   Kirchstetten
 ```
 
 ### distribution per month
@@ -145,30 +146,30 @@ dtype: int64
 ### `df.info()`
 ```
 <class 'pandas.core.frame.DataFrame'>
-RangeIndex: 338 entries, 0 to 337
+RangeIndex: 340 entries, 0 to 339
 Data columns (total 19 columns):
  #   Column          Non-Null Count  Dtype 
 ---  ------          --------------  ----- 
- 0   img             338 non-null    int64 
- 1   lrx             338 non-null    int64 
- 2   lry             338 non-null    int64 
- 3   width           338 non-null    int64 
- 4   height          338 non-null    int64 
- 5   type            338 non-null    object
- 6   ed              338 non-null    object
- 7   doc             338 non-null    object
- 8   title           338 non-null    object
- 9   author          338 non-null    object
- 10  author-uri      338 non-null    object
- 11  notBefore-iso   338 non-null    object
- 12  notAfter-iso    338 non-null    object
- 13  place           338 non-null    object
- 14  place-uri       338 non-null    object
- 15  repository      338 non-null    object
- 16  repository-uri  338 non-null    object
- 17  collection      338 non-null    object
- 18  idno            338 non-null    object
+ 0   img             340 non-null    int64 
+ 1   lrx             340 non-null    int64 
+ 2   lry             340 non-null    int64 
+ 3   width           340 non-null    int64 
+ 4   height          340 non-null    int64 
+ 5   type            340 non-null    object
+ 6   ed              340 non-null    object
+ 7   doc             340 non-null    object
+ 8   title           340 non-null    object
+ 9   author          340 non-null    object
+ 10  author-uri      340 non-null    object
+ 11  notBefore-iso   340 non-null    object
+ 12  notAfter-iso    340 non-null    object
+ 13  place           340 non-null    object
+ 14  place-uri       340 non-null    object
+ 15  repository      340 non-null    object
+ 16  repository-uri  340 non-null    object
+ 17  collection      340 non-null    object
+ 18  idno            340 non-null    object
 dtypes: int64(5), object(14)
-memory usage: 50.3+ KB
+memory usage: 50.6+ KB
 
 ```
