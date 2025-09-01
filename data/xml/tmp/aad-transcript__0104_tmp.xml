@@ -66,7 +66,7 @@
             <msDesc>
               <msIdentifier>
                 <repository ref="https://d-nb.info/gnd/2175892-X">Austrian Society for Literature</repository>
-                <collection>ÖGfL Archive</collection>
+                <collection>ÖGfL-Archiv</collection>
                 <idno>Autographensammlung 1 C2</idno>
               </msIdentifier>
               <physDesc>
@@ -117,7 +117,7 @@
       </langUsage>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2025-08-21">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2025-09-01">TEI/XML template populated with csv2xml.py</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
