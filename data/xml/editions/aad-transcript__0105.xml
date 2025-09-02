@@ -148,7 +148,7 @@
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00349/" ed="1r" type="sheet"/>
           <div hand="#hand_gray_unident_0105">
             <ab>
-              <lb/>9649942
+              <lb/>96<unclear>4</unclear>9942
             </ab>
           </div>
           <div type="letter_message" hand="#hand_blue_auden">
@@ -188,8 +188,10 @@
             </p>
             <p>
               <lb/>Meine <del rend="overstrike" hand="#hand_blue_auden">Eng<unclear>l</unclear></del> New York <foreign xml:lang="en">address</foreign> ist<unclear>&#xB7;</unclear>
-              <lb/><rs type="place" ref="#amp_place_id_29">77 St Mark's Place . New York City 3.
-              <lb/>New York .U.S<unclear>.</unclear>A.</rs>
+              <seg>
+                <lb/><rs type="place" ref="#amp_place_id_29">77 St Mark's Place . New York City 3.
+                <lb/>New <unclear>Y</unclear>ork .U.S<unclear>.</unclear>A.</rs>
+              </seg>
             </p>
             <closer>
               <salute>
