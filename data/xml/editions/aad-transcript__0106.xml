@@ -150,6 +150,60 @@
       <div type="transcription" xml:id="transcription_aad_0106" xml:lang="en">
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00351/" ed="1r" type="sheet"/>
+          <div type="letter_message" hand="#type_black_auden">
+            <opener>
+              <dateline>
+                <seg hand="#print_black_auden">
+                  <placeName>
+                    <address xml:lang="de">
+                      <lb/><rs type="place" ref="#amp_place_id_2">3062 KIRCHSTETTEN
+                      <lb/>BEZ. ST. PÖLTEN
+                      <lb/>HINTERHOLZ 6
+                      <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
+                    </address>
+                  </placeName>
+                </seg>
+                <date>
+                  <lb/>July I6th,I97I
+                </date>
+              </dateline>
+              <salute>
+                <lb/><space/>
+              </salute>
+            </opener>
+            <p>
+              <lb/><space/>
+              <lb/>
+              <seg>
+                <lb/><space/>I)A
+              </seg>
+              <seg>
+                <lb/><space/>
+                <lb/><space/>
+                <lb/><space/>
+              </seg>
+            </p>
+            <closer>
+              <salute>
+                <lb/><space/>
+              </salute>
+              <signed hand="#hand_blue_auden">
+                <lb/>
+              </signed>
+              <signed>
+                <lb/><space/>
+              </signed>
+            </closer>
+          </div>
+          <div hand="#hand_gray_unident_0106">
+            <ab>
+              <lb/>
+            </ab>
+            <ab>
+              <lb/>
+              <lb/>
+            </ab>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00352/" ed="1v" type="sheet"/>
         </div>
       </div>
