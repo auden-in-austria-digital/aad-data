@@ -130,6 +130,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-09-01">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2025-09-01">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-09-02">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -145,6 +146,60 @@
       <div type="transcription" xml:id="transcription_aad_0105" xml:lang="de">
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00349/" ed="1r" type="sheet"/>
+          <div hand="#hand_gray_unident_0105">
+            <ab>
+              <lb/>9649942
+            </ab>
+          </div>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <opener>
+              <dateline>
+                <date>
+                  <lb/><del rend="overstrike" hand="#hand_blue_auden"><unclear>O</unclear></del> 6<hi rend="superscript">ten</hi> Okt, 1962
+                </date>
+                <seg hand="#print_black_auden">
+                  <placeName>
+                    <address>
+                      <lb/><rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN (WESTBAHN)
+                      <lb/>HINTERHOLZ 6
+                      <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
+                    </address>
+                  </placeName>
+                </seg>
+              </dateline>
+              <salute>
+                <lb/>Liebe<unclear>r</unclear> <rs type="person" ref="#amp_person_137">Dok<unclear>to</unclear>r Krau<unclear>s</unclear></rs>:
+              </salute>
+            </opener>
+            <p>
+              <lb/>Besten Dank für Ihren liebeswurdigen
+              <lb/>Brief. Ich <unclear>h</unclear><gap reason="illegible" atLeast="0" atMost="1" unit="char"/>be zwei Bitte.
+              <seg>
+                <lb/>1) D<subst><del rend="overwritten" hand="#hand_blue_auden">ie</del><add place="superimposed" hand="#hand_blue_auden">er</add></subst> <del rend="overstrike" hand="#hand_blue_auden">Vor<unclear>m</unclear>a<unclear>m</unclear>e</del> Vorname von <rs type="person" ref="#amp_person_243">Herr
+                <lb/>Gasser</rs>. Ich möchte ihm ein Gluckwunsch
+                <lb/>Telegra<unclear>m</unclear> fur <del rend="overstrike" hand="#hand_blue_auden"><unclear>s</unclear></del>de<unclear>m</unclear> <rs type="event" ref="#amp_event_id_25">Auffü<unclear>r</unclear>hung</rs> schic<unclear>ke</unclear>n.<unclear>.</unclear>
+              </seg>
+              <seg>
+                <lb/>2) Er hat die zeiten von <del rend="overstrike" hand="#hand_blue_auden">Cal<unclear>i</unclear>b</del>
+                <lb/><hi rend="underline" hand="#hand_blue_auden"><rs type="lit_work" ref="#lit_work_id_277">Caliba<subst><del rend="overwritten" hand="#hand_blue_auden"><gap reason="illegible" quantity="1" unit="char"/></del><add place="superimposed" hand="#hand_blue_auden">n</add></subst> zum <unclear>P</unclear>ublikum</rs></hi> mitgen<subst><del rend="overwritten" hand="#hand_blue_auden"><unclear>u</unclear></del><add place="superimposed" hand="#hand_blue_auden">o</add></subst><unclear>n</unclear>men.
+                <lb/><del rend="overstrike" hand="#hand_blue_auden"><unclear>u</unclear>nd</del> Konnen Sie so gut seim,i<unclear><subst><del rend="overwritten" hand="#hand_blue_auden">m</del><add place="superimposed" hand="#hand_blue_auden">h</add></subst></unclear>m zu
+                <lb/>bitten <unclear>d</unclear>ieser Zeiten mir zuruc<unclear>k</unclear>zuschicke<unclear>n</unclear>.
+              </seg>
+            </p>
+            <p>
+              <lb/>Meine <del rend="overstrike" hand="#hand_blue_auden">Eng<unclear>l</unclear></del> New York <foreign xml:lang="en">address</foreign> ist<unclear>&#xB7;</unclear>
+              <lb/><rs type="place" ref="#amp_place_id_29">77 St Mark's Place . New York City 3.
+              <lb/>New York .U.S<unclear>.</unclear>A.</rs>
+            </p>
+            <closer>
+              <salute>
+                <lb/>mit herz<unclear><del rend="overwritten" hand="#hand_blue_auden">i</del></unclear>licher Grüsse
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">W.H. Auden</rs><unclear>&#xB7;</unclear>
+              </signed>
+            </closer>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00350/" ed="1v" type="sheet"/>
         </div>
       </div>
