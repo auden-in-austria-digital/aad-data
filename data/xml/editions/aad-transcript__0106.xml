@@ -135,6 +135,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-09-02">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2025-09-02">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-09-03">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -168,40 +169,40 @@
                 </date>
               </dateline>
               <salute>
-                <lb/><space/>
+                <lb/><space quantity="13" unit="char"/>Dear <rs type="person" ref="#amp_person_137">Dr Kraus</rs>:
               </salute>
             </opener>
             <p>
-              <lb/><space/>
-              <lb/>
+              <lb/><space quantity="6" unit="char"/>Many thanks for your letter. Could you let me know
+              <lb/>two things.
               <seg>
-                <lb/><space/>I)A
+                <lb/><space quantity="2" unit="char"/>I)About how many pages is the <rs type="lit_work" ref="#lit_work_id_67" ana="#ana_106">volume</rs> to contain?
               </seg>
               <seg>
-                <lb/><space/>
-                <lb/><space/>
-                <lb/><space/>
+                <lb/><space quantity="2" unit="char"/>2) You speak of <hi rend="underline" hand="#type_black_auden"><foreign xml:lang="de">Manuskripten</foreign></hi>. Does this <del rend="overtyped" hand="#type_black_auden">eman</del> mean that
+                <lb/><space quantity="5" unit="char"/>you only wnat poems which have not been published in
+                <lb/><space quantity="4" unit="char"/>English in book form?
               </seg>
             </p>
             <closer>
               <salute>
-                <lb/><space/>
+                <lb/><space quantity="23" unit="char"/>Yours sincerely
               </salute>
               <signed hand="#hand_blue_auden">
-                <lb/>
+                <lb/><rs type="person" ref="#amp_person_1">W.H<unclear>-</unclear>Auden</rs>
               </signed>
               <signed>
-                <lb/><space/>
+                <lb/><space/><rs type="person" ref="#amp_person_1">W.H.Auden</rs>
               </signed>
             </closer>
           </div>
           <div hand="#hand_gray_unident_0106">
             <ab>
-              <lb/>
+              <lb/>200 -2<unclear>5</unclear>0
             </ab>
             <ab>
-              <lb/>
-              <lb/>
+              <lb/>60 -<unclear>12</unclear>0 <unclear>E</unclear><gap reason="illegible" atLeast="2" atMost="3" unit="char"/>l
+              <lb/><unclear>T</unclear>e<unclear>xt</unclear>
             </ab>
           </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00352/" ed="1v" type="sheet"/>
