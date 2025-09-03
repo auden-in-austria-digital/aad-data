@@ -186,13 +186,13 @@
             </p>
             <closer>
               <salute>
-                <lb/><space quantity="23" unit="char"/>Yours sincerely
+                <lb/><space quantity="19" unit="char"/>Yours sincerely
               </salute>
               <signed hand="#hand_blue_auden">
                 <lb/><rs type="person" ref="#amp_person_1">W.H<unclear>-</unclear>Auden</rs>
               </signed>
               <signed>
-                <lb/><space quantity="27" unit="char"/><rs type="person" ref="#amp_person_1">W.H.Auden</rs>
+                <lb/><space quantity="23" unit="char"/><rs type="person" ref="#amp_person_1">W.H.Auden</rs>
               </signed>
             </closer>
           </div>
