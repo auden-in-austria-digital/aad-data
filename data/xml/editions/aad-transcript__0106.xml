@@ -192,7 +192,7 @@
                 <lb/><rs type="person" ref="#amp_person_1">W.H<unclear>-</unclear>Auden</rs>
               </signed>
               <signed>
-                <lb/><space/><rs type="person" ref="#amp_person_1">W.H.Auden</rs>
+                <lb/><space quantity="27" unit="char"/><rs type="person" ref="#amp_person_1">W.H.Auden</rs>
               </signed>
             </closer>
           </div>
@@ -201,7 +201,7 @@
               <lb/>200 -2<unclear>5</unclear>0
             </ab>
             <ab>
-              <lb/>60 -<unclear>12</unclear>0 <unclear>E</unclear><gap reason="illegible" atLeast="2" atMost="3" unit="char"/>l
+              <lb/>60 -<unclear>12</unclear>0 <unclear>E</unclear><gap reason="illegible" atLeast="2" atMost="3" unit="char"/><unclear>l</unclear>
               <lb/><unclear>T</unclear>e<unclear>xt</unclear>
             </ab>
           </div>
