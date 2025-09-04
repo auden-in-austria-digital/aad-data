@@ -132,6 +132,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-09-04">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2025-09-04">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-09-04">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -147,6 +148,55 @@
       <div type="transcription" xml:id="transcription_aad_0107" xml:lang="en">
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00355/" ed="1r" type="sheet"/>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <opener hand="#print_black_auden">
+              <dateline>
+                <seg hand="#hand_blue_auden">
+                  <date>
+                    <lb/>May 3rd<unclear>.</unclear>
+                  </date>
+                </seg>
+                <placeName>
+                  <address xml:lang="de">
+                    <lb/><rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN (WESTBAHN)
+                    <lb/>HINTERHOLZ 6
+                    <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
+                  </address>
+                </placeName>
+                <persName>
+                  <lb/><rs type="person" ref="#amp_person_1">W. H. AUDEN</rs>
+                </persName>
+              </dateline>
+              <salute hand="#hand_blue_auden">
+                <lb/>Dear <rs type="person" ref="#amp_person_137">D<hi rend="superscript">r</hi> Kraus</rs>:
+              </salute>
+            </opener>
+            <p>
+              <lb/>Yo<unclear>u</unclear> letter of March 28<hi rend="superscript">th</hi> were forwarded <rs type="place" ref="#amp_place_id_29">to
+              <lb/>me in New York</rs>,j<unclear>u</unclear>st missed, and only
+              <lb/>got <rs type="place" ref="#amp_place_id_2">here</rs> again yesterday.
+            </p>
+            <p>
+              <lb/>I gre<unclear>a</unclear>tly apprecia<unclear>te</unclear> the honor of your
+              <lb/>invitati<unclear>n</unclear> to attend the <rs type="event" ref="#amp_event_id_31"><unclear>c</unclear>onference on <hi rend="underline" hand="#hand_blue_auden">literatu</hi>re:
+              <lb/><hi rend="underline" hand="#hand_blue_auden">tradition and revolutio<unclear>r</unclear></hi></rs> ,<del rend="overstrike" hand="#hand_blue_auden"><unclear>in</unclear></del> next October.
+            </p>
+            <p>
+              <lb/>Unfortu<unclear>na</unclear>tely, I have <rs type="event" ref="#amp_event_id_30" cert="medium">engagements in
+              <lb/>E<unclear>n</unclear>gland at that time</rs>, so cannot accept.
+            </p>
+            <p>
+              <lb/>Thank you very mu<unclear>c</unclear>h for asking me.
+            </p>
+            <closer>
+              <salute>
+                <lb/>yours since<unclear>re</unclear>ly
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">W<unclear>.</unclear>H<unclear>.</unclear>Auden</rs>
+              </signed>
+            </closer>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00356/" ed="1v" type="sheet"/>
         </div>
       </div>
