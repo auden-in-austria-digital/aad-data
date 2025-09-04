@@ -118,31 +118,9 @@
     <sch:pattern id="hand-type-validation">
         <sch:title>handNote and typeNote requirements</sch:title>
         
-        <sch:rule context="tei:handNote">
-            <sch:assert test="@xml:id">
-                handNote element must have xml:id attribute
-            </sch:assert>
-            
-            <sch:assert test="@medium">
-                handNote element must have medium attribute
-            </sch:assert>
-            
-            <sch:assert test="normalize-space(.) != ''">
-                handNote element must have text content
-            </sch:assert>
-        </sch:rule>
-        
-        <sch:rule context="tei:typeNote">
-            <sch:assert test="@xml:id">
-                typeNote element must have xml:id attribute
-            </sch:assert>
-            
-            <sch:assert test="@medium">
-                typeNote element must have medium attribute
-            </sch:assert>
-            
-            <sch:assert test="normalize-space(.) != ''">
-                typeNote element must have text content
+        <sch:rule context="tei:physDesc">
+            <sch:assert test="tei:handDesc/tei:handNote[@xml:id and @medium and normalize-space(.) != ''] or tei:typeDesc/tei:typeNote[@xml:id and @medium and normalize-space(.) != '']">
+                at least one handNote or typeNote element must have xml:id and medium attributes as well as text content
             </sch:assert>
         </sch:rule>
         
