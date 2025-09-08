@@ -129,6 +129,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-09-04">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2025-09-04">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-09-08">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -144,6 +145,45 @@
       <div type="transcription" xml:id="transcription_aad_0108" xml:lang="de">
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00357/" ed="1r" type="sheet"/>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <opener>
+              <dateline xml:lang="en">
+                <placeName>
+                  <address>
+                    <lb/><rs type="place" ref="#amp_place_id_29">77 St Mark's Place
+                    <lb/>New York City
+                    <lb/>New York 10003
+                    <lb/>U.S.A</rs>
+                  </address>
+                </placeName>
+                <date>
+                  <lb/>Jan 1<unclear>0</unclear><hi rend="superscript">th</hi>, <unclear>19</unclear>67
+                </date>
+              </dateline>
+              <salute>
+                <lb/>Sehr verehrter <rs type="person" ref="#amp_person_137">Doktor Kraus</rs>
+              </salute>
+            </opener>
+            <p>
+              <lb/>Ich danke Ih<subst><del rend="overwritten" hand="#hand_blue_auden">e<unclear>r</unclear>e</del><add place="superimposed" hand="#hand_blue_auden"><unclear>r</unclear></add></subst>n für <unclear>I</unclear>hren Brief
+              <lb/>von 9<hi rend="superscript">t<unclear>e</unclear>n</hi> Januar.
+            </p>
+            <p>
+              <lb/>Ich wer<gap reason="illegible" atLeast="1" atMost="2" unit="char"/>e sehr gern ein Teilneh<unclear>m</unclear>er
+              <lb/><del rend="overstrike" hand="#hand_blue_auden">and</del> an den <rs type="event" ref="#amp_event_id_31">Ko<unclear>n</unclear>gress , April 2<hi rend="superscript">ten</hi>- 26<hi rend="superscript">ten</hi></rs> sein <unclear>,</unclear>
+              <lb/>aber hoffentlich sprechen wir nicht me<gap reason="illegible" quantity="1" unit="char"/><unclear>r</unclear>
+              <lb/>von '<foreign xml:lang="en">Art <unclear>and</unclear> Society</foreign>.' Ich bin satt
+              <lb/><unclear>d</unclear>avom.
+            </p>
+            <closer>
+              <salute>
+                <lb/><unclear>I</unclear>h<unclear>n</unclear> e<unclear>n</unclear>gebe<unclear>n</unclear>en
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">W.H. Auden</rs>
+              </signed>
+            </closer>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00358/" ed="1v" type="sheet"/>
         </div>
       </div>
