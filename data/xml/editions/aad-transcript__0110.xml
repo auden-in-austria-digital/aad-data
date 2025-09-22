@@ -129,6 +129,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-09-09">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2025-09-22">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-09-22">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -144,6 +145,46 @@
       <div type="transcription" xml:id="transcription_aad_0110" xml:lang="de">
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00375/" ed="1r" type="sheet"/>
+          <div type="letter_message" hand="#hand_blue_auden">
+            <opener>
+              <dateline>
+                <date>
+                  <lb/>5<hi rend="superscript">ten</hi> August, 19<unclear>7</unclear>1
+                </date>
+                <seg hand="#print_black_auden">
+                  <placeName>
+                    <address>
+                      <lb/><rs type="place" ref="#amp_place_id_2">3062 KIRCHSTETTEN
+                      <lb/>BEZ. ST. PÖLTEN
+                      <lb/>HINTERHOLZ 6
+                      <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
+                    </address>
+                  </placeName>
+                </seg>
+              </dateline>
+              <salute>
+                <lb/>Sehr verehrter <rs type="person" ref="#amp_person_137">Doktor Kraus</rs>:
+              </salute>
+            </opener>
+            <p>
+              <lb/>Ihren Brief dankend erhalten<unclear>.</unclear>
+              <lb/>Ich habe im Haus<hi rend="underline" hand="#hand_blue_auden"> <rs type="lit_work" ref="#lit_work_id_134">About The House</rs> </hi>und
+              <lb/><hi rend="underline" hand="#hand_blue_auden"><rs type="lit_work" ref="#lit_work_id_137">City Without Walls</rs></hi> , und könnt<unclear><del rend="overstrike" hand="#hand_blue_auden">en</del></unclear> <unclear>d</unclear>iese<unclear>n</unclear>
+              <lb/>nach <rs type="place" ref="#amp_place_id_1">Wi<unclear>e</unclear>n</rs> bringen wenn es möglich wä<unclear>r</unclear>e
+              <lb/>Gedichte da<unclear>v</unclear>on zu <del rend="overstrike" hand="#hand_blue_auden">übere<subst><del rend="overwritten" hand="#hand_blue_auden"><gap reason="illegible" quantity="1" unit="char"/>e</del><add place="superimposed" hand="#hand_blue_auden"><gap reason="illegible" quantity="1" unit="char"/></add></subst>tzen.</del> <unclear>ü</unclear>bersetzung.
+            </p>
+            <p>
+              <lb/>Hiermit ein Ube<unclear>r</unclear>se<unclear>t</unclear>zung von eine<unclear>r</unclear>.
+            </p>
+            <closer>
+              <salute>
+                <lb/>Ihre e<unclear>r</unclear>gebener
+              </salute>
+              <signed>
+                <lb/><rs type="person" ref="#amp_person_1">W<unclear>.</unclear>H Auden</rs>
+              </signed>
+            </closer>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00376/" ed="1v" type="sheet"/>
         </div>
       </div>
