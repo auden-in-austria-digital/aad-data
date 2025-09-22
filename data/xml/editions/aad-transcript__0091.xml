@@ -141,6 +141,7 @@
         </correspAction>
         <correspAction type="received">
           <persName ref="#amp_person_78">Spiel, Hilde</persName>
+          <placeName><rs type="place" ref="#amp_place_id_414" ana="acdh:aad-transcript__0098.xml#ana_101">St. Wolfgang im Salzkammergut</rs></placeName>
         </correspAction>
       </correspDesc>
     </profileDesc>

@@ -123,6 +123,7 @@
         <correspAction type="received">
           <persName ref="#amp_person_137">Kraus, Wolfgang</persName>
           <orgName><rs type="org" ref="#amp_organization_9">Austrian Society for Literature</rs></orgName>
+          <placeName><rs type="place" ref="#amp_place_id_1" ana="acdh:aad-transcript__0104.xml#ana_108">Vienna</rs></placeName>
         </correspAction>
       </correspDesc>
     </profileDesc>

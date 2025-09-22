@@ -34,6 +34,11 @@
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
             </interp>
+            <interp xml:id="ana_108">
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
           </interpGrp>
         </edition>
         <respStmt>
@@ -127,6 +132,7 @@
         <correspAction type="received">
           <persName ref="#amp_person_284">Urbach, Reinhard</persName>
           <orgName><rs type="org" ref="#amp_organization_9">Austrian Society for Literature</rs></orgName>
+          <placeName><rs type="place" ref="#amp_place_id_1" ana="#ana_108">Vienna</rs></placeName>
         </correspAction>
       </correspDesc>
     </profileDesc>
