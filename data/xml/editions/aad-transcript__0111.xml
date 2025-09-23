@@ -149,6 +149,89 @@
       <div type="transcription" xml:id="transcription_aad_0111" xml:lang="en">
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00377/" ed="1r" type="sheet"/>
+          <div type="letter_message" hand="#type_black_auden">
+            <opener>
+              <dateline xml:lang="de">
+                <seg hand="#print_black_auden">
+                  <placeName>
+                    <address>
+                      <lb/><rs type="place" ref="#amp_place_id_2">3062 KIRCHSTETTEN
+                      <lb/>BEZ. ST. PÖLTEN
+                      <lb/>HINTERHOLZ 6
+                      <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
+                    </address>
+                  </placeName>
+                </seg>
+                <date>
+                  <lb/>
+                </date>
+              </dateline>
+            </opener>
+          </div>
+          <div>
+            <ab hand="#hand_gray_oegfl">
+              <lb/>
+            </ab>
+          </div>
+          <div type="letter_message" hand="#type_black_auden">
+            <opener>
+              <salute>
+                <lb/><space/><foreign xml:lang="de"></foreign>
+              </salute>
+            </opener>
+            <p>
+              <lb/><space/>
+              <lb/><space/>
+              <lb/><space/>
+              <lb/><space/>
+              <lb/><space/>
+              <lb/><space/>
+              <seg>
+                <lb/><space/>
+                <lb/><space/>
+                <lb/><space/>
+                <lb/><space/>
+                <lb/><space/>
+              </seg>
+              <seg>
+                <lb/><space/>
+                <lb/><space/>
+                <lb/><space/>
+                <lb/><space/>
+                <lb/><space/>
+              </seg>
+            </p>
+            <p>
+              <lb/><space/>
+              <lb/><space/>
+            </p>
+            <closer xml:lang="de">
+              <salute>
+                <lb/><space/>
+              </salute>
+              <signed hand="#hand_blue_auden">
+                <lb/>
+              </signed>
+              <signed>
+                <lb/><space/>
+              </signed>
+              <dateline>
+                <persName>
+                  <lb/><space/>
+                </persName>
+                <orgName>
+                  <lb/><space/>
+                </orgName>
+                <placeName>
+                  <address>
+                    <lb/><space/><rs>
+                    <lb/><space/>
+                    <lb/><space/></rs>
+                  </address>
+                </placeName>
+              </dateline>
+            </closer>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00378/" ed="1v" type="sheet"/>
         </div>
       </div>
