@@ -180,25 +180,25 @@
               </salute>
             </opener>
             <p>
-              <lb/><space/>
-              <lb/><space/>
+              <lb/><space/><subst><del rend="overtyped" hand="#type_black_auden"/><add place="superimposed" hand="#type_black_auden"/></subst>
+              <lb/><space/><del rend="overtyped" hand="#type_black_auden"/>
               <lb/><space/>
               <lb/><space/>
               <lb/><space/>
               <lb/><space/>
               <seg>
-                <lb/><space/>
-                <lb/><space/>
-                <lb/><space/>
-                <lb/><space/>
-                <lb/><space/>
+                <lb/><space/><hi rend="underline" hand="#type_black_auden"/>
+                <lb/><space/><del rend="overstrike" hand="#hand_gray_unident_0111"/>
+                <lb/><space/><add place="inline" hand="#hand_black_unident_0111"/>
+                <lb/><space/><add place="inline" hand="#hand_gray_unident_0111"/><del rend="overstrike" hand="#hand_gray_unident_0111"/><add place="inline" hand="#hand_black_unident_0111"/>
+                <lb/><space/><add place="inline" hand="#hand_gray_unident_0111"/><add place="inline" hand="#hand_black_unident_0111"/>
               </seg>
               <seg>
-                <lb/><space/>
-                <lb/><space/>
-                <lb/><space/>
-                <lb/><space/>
-                <lb/><space/>
+                <lb/><space/><hi rend="underline" hand="#type_black_auden"/>
+                <lb/><space/><add place="inline" hand="#hand_gray_unident_0111"/><add place="inline" hand="#hand_black_unident_0111"/>
+                <lb/><space/><add place="inline" hand="#hand_gray_unident_0111"/><add place="inline" hand="#hand_black_unident_0111"/>
+                <lb/><space/><add place="inline" hand="#hand_gray_unident_0111"/><add place="inline" hand="#hand_black_unident_0111"/>
+                <lb/><space/><add place="inline" hand="#hand_gray_unident_0111"/><add place="inline" hand="#hand_black_unident_0111"/>
               </seg>
             </p>
             <p>
