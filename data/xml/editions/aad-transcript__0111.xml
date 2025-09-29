@@ -88,7 +88,7 @@
                 <handDesc>
                   <handNote xml:id="hand_gray_unident_0111" medium="pencil">Handwriting in pencil by unidentified writer</handNote>
                   <handNote xml:id="hand_black_unident_0111" medium="ink-black">Handwriting in black ink by unidentified writer</handNote>
-                  <handNote xml:id="hand_gray_oegfl" scribeRef="#amp_organization_9" medium="pencil">Handwriting in pencil authored by <rs type="org" ref="#amp_organization_9">Austrian Society for Literature</rs></handNote>
+                  <handNote xml:id="hand_gray_oegfl" scribeRef="#amp_organization_9" medium="pencil">Handwriting in pencil authored by Austrian Society for Literature</handNote>
                   <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
                 </handDesc>
                 <typeDesc>
@@ -182,7 +182,7 @@
             </opener>
             <p>
               <lb/><space quantity="12" unit="char"/>T<unclear>h</unclear>ank you for your letter of <foreign xml:lang="de">29ten Ju<subst><del rend="overtyped" hand="#type_black_auden">l</del><add place="superimposed" hand="#type_black_auden">n</add></subst>i</foreign>,and the honor of your
-              <lb/><space quantity="8" unit="char"/>invitation to read at the <rs type="org" ref="#amp_organization_9">Gesellschaft</rs> on <foreign xml:lang="de">29ten <del rend="overtyped" hand="#type_black_auden">Spet</del> September</foreign>.
+              <lb/><space quantity="8" unit="char"/>invitation to <rs type="event" ref="#amp_event_id_120">read at the <rs type="org" ref="#amp_organization_9">Gesellschaft</rs> on <foreign xml:lang="de">29ten <del rend="overtyped" hand="#type_black_auden">Spet</del> September</foreign></rs>.
               <lb/><space quantity="8" unit="char"/>It seems to me only proper that the main part of my programme
               <lb/><space quantity="8" unit="char"/>should have a specific relation to <rs type="place" ref="#amp_place_id_10">Austria</rs>. So,for the benefit of
               <lb/><space quantity="8" unit="char"/>whoever is going to do the translations,it will include the
@@ -195,9 +195,9 @@
                 <lb/><space quantity="16" unit="char"/><add place="inline" hand="#hand_gray_unident_0111">&#x2015; </add><rs type="lit_work" ref="#lit_work_id_79">Whitsunday in Kir<del rend="overtyped" hand="#type_black_auden">s</del>chste<subst><del rend="overtyped" hand="#type_black_auden">e</del><add place="superimposed" hand="#type_black_auden">t</add></subst>ten</rs><unclear><add place="above" hand="#hand_gray_unident_0111"><gap reason="illegible" atLeast="1" atMost="3"/></add></unclear><add place="inline" hand="#hand_black_unident_0111"> &#x2713;</add>
               </seg>
               <seg>
-                <lb/><space quantity="9" unit="char"/>from <hi rend="underline" hand="#type_black_auden"><rs type="lit_work" ref="#lit_work_id_137">CITY WITHOUT WALLS</rs>  </hi>
+                <lb/><space quantity="9" unit="char"/>from <hi rend="underline" hand="#type_black_auden"><rs type="lit_work" ref="#lit_work_id_137">CITY WITHOUT WALLS</rs><space quantity="2" unit="char"/></hi>
                 <lb/><space quantity="15" unit="char"/><add place="inline" hand="#hand_gray_unident_0111">&#x2015;</add><rs type="lit_work" ref="#lit_work_id_60">Joseph Weinheber</rs><add place="inline" hand="#hand_black_unident_0111"> &#x2713;</add>
-                <lb/><space quantity="15" unit="char"/><add place="inline" hand="#hand_gray_unident_0111">&#x2015;</add><rs type="lit_work" ref="#lit_work_id_107">Elegy for Emma Eiermann</rs>.<add place="inline" hand="#hand_black_unident_0111"> &#x2713;</add>
+                <lb/><space quantity="15" unit="char"/><add place="inline" hand="#hand_gray_unident_0111">&#x2015;</add><rs type="lit_work" ref="#lit_work_id_107">Elegy for Emma Eiermann</rs>.<add place="inline" hand="#hand_black_unident_0111"> <unclear>&#x2713;</unclear></add>
                 <lb/><space quantity="15" unit="char"/><add place="inline" hand="#hand_gray_unident_0111">&#x2015;</add><rs type="lit_work" ref="#lit_work_id_161">August I968</rs><add place="inline" hand="#hand_black_unident_0111"> &#x2713;</add>
                 <lb/><space quantity="15" unit="char"/><add place="inline" hand="#hand_gray_unident_0111">&#x2015;</add><rs type="lit_work" ref="#lit_work_id_38">Prologue at Sixty</rs>.<add place="inline" hand="#hand_black_unident_0111"> &#x2713;</add>
               </seg>
@@ -221,13 +221,13 @@
                   <lb/><space quantity="2" unit="char"/><rs type="person" ref="#amp_person_137">Dr Wolfgang Kraus</rs>
                 </persName>
                 <orgName>
-                  <lb/><space/><rs type="org" ref="#amp_organization_9">Osterreichische Gesellschaft Fur Literatur</rs>
+                  <lb/><space quantity="2" unit="char"/><rs type="org" ref="#amp_organization_9">Osterreichische Gesellschaft Fur Literatur</rs>
                 </orgName>
                 <placeName>
                   <address>
-                    <lb/><space/><rs type="place" ref="#amp_place_id_177">IOIO Wien I
-                    <lb/><space/>Palais Wilczek
-                    <lb/><space/>Herrengasse 5</rs>
+                    <lb/><space quantity="2" unit="char"/><rs type="place" ref="#amp_place_id_177">IOIO Wien I
+                    <lb/><space quantity="2" unit="char"/>Palais Wilczek
+                    <lb/><space quantity="2" unit="char"/>Herrengasse 5</rs>
                   </address>
                 </placeName>
               </dateline>
