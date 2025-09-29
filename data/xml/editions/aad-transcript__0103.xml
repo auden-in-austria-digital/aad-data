@@ -197,7 +197,7 @@
                 </persName>
                 <placeName>
                   <address>
-                    <lb/><rs type="place" ref="#amp_place_id_415">1190 Wien
+                    <lb/><rs type="place" ref="#amp_place_id_415">119O Wien
                     <lb/>Armbrustergasse 15</rs>
                   </address>
                 </placeName>
@@ -325,7 +325,7 @@
                 <lb/><space quantity="4" unit="char"/>Gedanken über die Natur, über Gott, die Geschichte, die
                 <lb/><space quantity="4" unit="char"/>Menschheit usw., die der Dichter schon sehr lange im Kopf
                 <lb/><space quantity="4" unit="char"/>gehabt haben mag, Ausdruck zu verleihen. Ich habe zum
-                <lb/><space quantity="4" unit="char"/>Beispiel ein <rs type="lit_work" ref="#lit_work_id_60">Gedicht zum 20.Todestag von <rs type="person" ref="#amp_person_5">Josef Weinheber</rs></rs>
+                <lb/><space quantity="4" unit="char"/>Beispiel ein <rs type="lit_work" ref="#lit_work_id_60">Gedicht zum 2O.Todestag von <rs type="person" ref="#amp_person_5">Josef Weinheber</rs></rs>
                 <lb/><space quantity="4" unit="char"/>geschrieben. Aber das <rs type="lit_work" ref="#lit_work_id_60">Gedicht</rs> handelt im Grunde von anderen
                 <lb/><space quantity="4" unit="char"/>Dingen : erstens<unclear><subst><del rend="erased" hand="#type_cc_spiel"><gap reason="illegible" quantity="1" unit="char"/></del><add place="superimposed" hand="#type_cc_spiel"><space quantity="1" unit="char"/></add></subst></unclear>von der Liebe, die jeder gute Dichter,
                 <lb/><space quantity="4" unit="char"/>welcher Nationalität er auch sei, zu seiner Muttersprache
