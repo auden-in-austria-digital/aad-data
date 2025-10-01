@@ -115,6 +115,7 @@ doc
 0109           Auden, W. H.                                                                                           Autograph Letter Signed W. H. Auden to Hella Bronold 1973-07-24                   Kirchstetten
 0110           Auden, W. H.                                                                                          Autograph Letter Signed W. H. Auden to Wolfgang Kraus 1971-08-05                   Kirchstetten
 0111           Auden, W. H.                                                                                              Typed Letter Signed W. H. Auden to Wolfgang Kraus 1970-07-01                   Kirchstetten
+0112        Kraus, Wolfgang                                                                                                Copy Typed Letter Wolfgang Kraus to W. H. Auden 1972-08-28                         Vienna
 ```
 
 ### distribution per month
@@ -152,30 +153,30 @@ dtype: int64
 ### `df.info()`
 ```
 <class 'pandas.core.frame.DataFrame'>
-RangeIndex: 352 entries, 0 to 351
+RangeIndex: 354 entries, 0 to 353
 Data columns (total 19 columns):
  #   Column          Non-Null Count  Dtype 
 ---  ------          --------------  ----- 
- 0   img             352 non-null    int64 
- 1   lrx             352 non-null    int64 
- 2   lry             352 non-null    int64 
- 3   width           352 non-null    int64 
- 4   height          352 non-null    int64 
- 5   type            352 non-null    object
- 6   ed              352 non-null    object
- 7   doc             352 non-null    object
- 8   title           352 non-null    object
- 9   author          352 non-null    object
- 10  author-uri      352 non-null    object
- 11  notBefore-iso   352 non-null    object
- 12  notAfter-iso    352 non-null    object
- 13  place           352 non-null    object
- 14  place-uri       352 non-null    object
- 15  repository      352 non-null    object
- 16  repository-uri  352 non-null    object
- 17  collection      352 non-null    object
- 18  idno            352 non-null    object
+ 0   img             354 non-null    int64 
+ 1   lrx             354 non-null    int64 
+ 2   lry             354 non-null    int64 
+ 3   width           354 non-null    int64 
+ 4   height          354 non-null    int64 
+ 5   type            354 non-null    object
+ 6   ed              354 non-null    object
+ 7   doc             354 non-null    object
+ 8   title           354 non-null    object
+ 9   author          354 non-null    object
+ 10  author-uri      354 non-null    object
+ 11  notBefore-iso   354 non-null    object
+ 12  notAfter-iso    354 non-null    object
+ 13  place           354 non-null    object
+ 14  place-uri       354 non-null    object
+ 15  repository      354 non-null    object
+ 16  repository-uri  354 non-null    object
+ 17  collection      354 non-null    object
+ 18  idno            354 non-null    object
 dtypes: int64(5), object(14)
-memory usage: 52.4+ KB
+memory usage: 52.7+ KB
 
 ```
