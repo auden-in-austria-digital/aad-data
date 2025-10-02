@@ -89,7 +89,7 @@
                   <handNote xml:id="hand_gray_oegfl" scribeRef="#amp_organization_9" medium="pencil">Handwriting in pencil authored by <rs type="org" ref="#amp_organization_9">Austrian Society for Literature</rs></handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote xml:id="type_cc_kraus" scribeRef="#amp_person_137" medium="type-cc">Carbon copy of typewriting by, or authored by, Wolfgang Kraus</typeNote>
+                  <typeNote xml:id="type_cc_kraus" scribeRef="#amp_person_137" medium="type-cc">Carbon copy of typewriting authored by Wolfgang Kraus</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -119,6 +119,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-10-01">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2025-10-01">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-10-02">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -136,54 +137,53 @@
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00381/" ed="1r" type="sheet"/>
           <div>
             <ab hand="#hand_gray_oegfl">
-              <lb/>
+              <lb/><unclear>A</unclear>2
             </ab>
           </div>
           <div type="letter_message" hand="#type_cc_kraus">
             <opener>
               <dateline>
                 <persName>
-                  <lb/>
-                  <lb/>
+                  <lb/><rs type="person" ref="#amp_person_1">Herrn
+                  <lb/>W.H.Auden</rs>
                 </persName>
                 <placeName>
                   <address>
-                    <lb/><rs>
-                    <lb/></rs>
+                    <lb/><rs type="place" ref="#amp_place_id_2">Hinterholz 6
+                    <lb/>3062 <space quantity="1" unit="char"/>Kirchstetten</rs>
                   </address>
                 </placeName>
-                <lb/><placeName></placeName>, <date></date>
+                <lb/><space quantity="48" unit="char"/><placeName><rs type="place" ref="#amp_place_id_1">Wien</rs></placeName>, <date>28.August 1972</date>
               </dateline>
               <salute>
-                <lb/>
+                <lb/>Lieber <rs type="person" ref="#amp_person_1">Herr Auden</rs>,
               </salute>
             </opener>
             <p>
-              <lb/>
-              <lb/>
-              <lb/>
-              <lb/>
-              <lb/>
-              <lb/>
-              <lb/>
-              <lb/>
-              <lb/>
+              <lb/>ich habe heute Vormittag sofort mit dem <rs type="person" ref="#amp_person_285">Sekretär des <rs type="person" ref="#amp_person_282">Bundes-
+              <lb/>kanzlers</rs></rs> gesprochen, der mir sagte, Ihr <rs type="event" ref="#amp_event_id_45">Steuerproblem</rs> ist mit
+              <lb/>Sicherheit positiv zu lösen. Bitte rufen Sie in den nächsten
+              <lb/>Tagen zwischen 10 und 11 Uhr Vormittag Herrn <rs type="person" ref="#amp_person_285">Dr.Mussi</rs> im <rs type="org" ref="#amp_organization_164">Bun-
+              <lb/>deskanzleramt</rs> an unter der Tel.Nr.6615 weiterwählen 2244 oder
+              <lb/>6615 weiterwählen 2446. Herr <rs type="person" ref="#amp_person_285">Dr.Mussi</rs> ist orientiert und wird
+              <lb/>Sie um Ihren Besuch bitten, wobei es wichtig wäre, daß Sie ver-
+              <lb/>schiedene Unterlagen, die Ihnen Kummer bereiten, mitbringen.
             </p>
             <p>
-              <lb/>
-              <lb/>
+              <lb/>Ich bin überzeugt, daß sich alles auf einem guten Weg befindet,
+              <lb/>bitte machen Sie sich keine Sorgen mehr.
             </p>
             <closer>
               <salute>
-                <lb/><space/>
-                <lb/><space/>
+                <lb/><space quantity="31" unit="char"/>Alle guten Wünsche und Grüße
+                <lb/><space quantity="41" unit="char"/>von Ihrem
               </salute>
               <signed>
-                <lb/><space/>
-                <lb/><space/>
+                <lb/><space quantity="37" unit="char"/>(<rs type="person" ref="#amp_person_137">Dr.Wolfgang Kraus</rs>)
+                <lb/><space quantity="38" unit="char"/>telephonisch diktiert
               </signed>
               <seg>
-                <lb/>
+                <lb/>EXPRESS
               </seg>
             </closer>
           </div>
