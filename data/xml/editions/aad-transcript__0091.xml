@@ -244,9 +244,11 @@
             <head>
               <lb/><space quantity="23" unit="char"/><hi rend="underline" hand="#type_black_auden"><rs type="lit_work" ref="#lit_work_id_99">STATEMENT</rs></hi>
             </head>
-            <salute>
-              <lb/><rs type="org" ref="#amp_organization_158" ana="acdh:aad-transcript__0090.xml#ana_097">Gentlemen</rs>:
-            </salute>
+            <opener>
+              <salute>
+                <lb/><rs type="org" ref="#amp_organization_158" ana="acdh:aad-transcript__0090.xml#ana_097">Gentlemen</rs>:
+              </salute>
+            </opener>
             <p>
               <lb/><space quantity="4" unit="char"/>My stand-point is quite simple. One pays income-tax where one
               <lb/><space quantity="1" unit="char"/>earns money,which in <subst><del rend="overtyped" hand="#type_black_auden"><unclear>j</unclear></del><add place="superimposed" hand="#type_black_auden">m</add></subst>y case,as a writer writing in English,means

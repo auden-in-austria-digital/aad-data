@@ -252,9 +252,11 @@
             <head>
               <lb/><space quantity="18" unit="char"/><hi rend="underline" hand="#type_cc_spiel"><rs type="lit_work" ref="#lit_work_id_226">Erklärung</rs></hi>
             </head>
-            <salute>
-              <lb/><rs type="org" ref="#amp_organization_158" ana="acdh:aad-transcript__0090.xml#ana_097">Meine Herren</rs> !
-            </salute>
+            <opener>
+              <salute>
+                <lb/><rs type="org" ref="#amp_organization_158" ana="acdh:aad-transcript__0090.xml#ana_097">Meine Herren</rs> !
+              </salute>
+            </opener>
             <p>
               <lb/><space quantity="4" unit="char"/>Mein Standpunkt ist sehr einfach : Man bezahlt dort
               <lb/>Einkommensteuer, wo man Geld verdient, das<unclear><subst><del rend="erased" hand="#type_cc_spiel"><gap reason="illegible" quantity="1" unit="char"/></del><add place="superimposed" hand="#type_cc_spiel"><space quantity="1" unit="char"/></add></subst></unclear> heisst in meinem
