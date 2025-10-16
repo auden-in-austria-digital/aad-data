@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17367281.svg)](https://doi.org/10.5281/zenodo.17367281)
+
 # aad-data
 
 Repository for editorial data and data-creation workflows in the **Auden in Austria Digital** project.
