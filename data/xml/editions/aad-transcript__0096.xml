@@ -154,7 +154,7 @@
             <opener>
               <dateline>
                 <date>
-                  <lb/><handShift new="#hand_blue_auden"/>Sept 3<hi rend="superscript">rd</hi> <handShift new="#hand_gray_unident_0096"/>(1972 ?)
+                  <lb/><handShift new="#hand_blue_auden"/>Sept 3<hi rend="superscript">rd</hi><add place="inline" hand="#hand_gray_unident_0096"><space quantity="1" unit="char"/>(1972 ?)</add>
                 </date>
                 <seg hand="#print_black_auden">
                   <placeName>

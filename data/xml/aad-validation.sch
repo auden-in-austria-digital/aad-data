@@ -100,7 +100,6 @@
         
     </sch:pattern>
     
-    
     <sch:pattern id="hi-validation">
         <sch:title>hi requirements</sch:title>
         
@@ -111,6 +110,17 @@
             
             <sch:assert test="@rend != 'underline' or (@hand and starts-with(@hand, '#'))">
                 if rend='underline', element must have hand attribute starting with '#'; found rend='<sch:value-of select="@rend"/>' and hand='<sch:value-of select="@hand"/>'
+            </sch:assert>
+        </sch:rule>
+        
+    </sch:pattern>
+    
+    <sch:pattern id="hand-type-validation">
+        <sch:title>handNote and typeNote requirements</sch:title>
+        
+        <sch:rule context="tei:physDesc">
+            <sch:assert test="tei:handDesc/tei:handNote[@xml:id and @medium and normalize-space(.) != ''] or tei:typeDesc/tei:typeNote[@xml:id and @medium and normalize-space(.) != '']">
+                at least one handNote or typeNote element must have xml:id and medium attributes as well as text content
             </sch:assert>
         </sch:rule>
         

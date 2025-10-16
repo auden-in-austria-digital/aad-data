@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0112" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Copy Typed Letter Wolfgang Kraus to W. H. Auden 1972-08-28</title>
+        <author ref="https://d-nb.info/gnd/116413298">Kraus, Wolfgang</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Copy Typed Letter Wolfgang Kraus to W. H. Auden 1972-08-28</title>
+          <interpGrp>
+            <interp>
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <repository ref="https://d-nb.info/gnd/2175892-X">Austrian Society for Literature</repository>
+                <collection>ÖGfL-Archiv</collection>
+                <idno>A-Z VIII A28</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark/>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00381/">
+                        <width>210</width>
+                        <height>297</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00382/">
+                        <width>210</width>
+                        <height>297</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_gray_oegfl" scribeRef="#amp_organization_9" medium="pencil">Handwriting in pencil authored by <rs type="org" ref="#amp_organization_9">Austrian Society for Literature</rs></handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="type_cc_kraus" scribeRef="#amp_person_137" medium="type-cc">Carbon copy of typewriting authored by Wolfgang Kraus</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1972-08-28T00:00:00+01:00" notAfter-iso="1972-08-28T23:59:59+01:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#tfruehwirth" when-iso="2025-10-01">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2025-10-01">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-10-02">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="3790" lry="5160">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00381/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3788" lry="5158">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00382/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0112" xml:lang="de">
+        <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00381/" ed="1r" type="sheet"/>
+          <div>
+            <ab hand="#hand_gray_oegfl">
+              <lb/><unclear>A</unclear>2
+            </ab>
+          </div>
+          <div type="letter_message" hand="#type_cc_kraus">
+            <opener>
+              <dateline>
+                <persName>
+                  <lb/><rs type="person" ref="#amp_person_1">Herrn
+                  <lb/>W.H.Auden</rs>
+                </persName>
+                <placeName>
+                  <address>
+                    <lb/><rs type="place" ref="#amp_place_id_2">Hinterholz 6
+                    <lb/>3062 <space quantity="1" unit="char"/>Kirchstetten</rs>
+                  </address>
+                </placeName>
+                <lb/><space quantity="48" unit="char"/><placeName><rs type="place" ref="#amp_place_id_1">Wien</rs></placeName>, <date>28.August 1972</date>
+              </dateline>
+              <salute>
+                <lb/>Lieber <rs type="person" ref="#amp_person_1">Herr Auden</rs>,
+              </salute>
+            </opener>
+            <p>
+              <lb/>ich habe heute Vormittag sofort mit dem <rs type="person" ref="#amp_person_285">Sekretär des <rs type="person" ref="#amp_person_282">Bundes-
+              <lb/>kanzlers</rs></rs> gesprochen, der mir sagte, Ihr <rs type="event" ref="#amp_event_id_45">Steuerproblem</rs> ist mit
+              <lb/>Sicherheit positiv zu lösen. Bitte rufen Sie in den nächsten
+              <lb/>Tagen zwischen 1O und 11 Uhr Vormittag Herrn <rs type="person" ref="#amp_person_285">Dr.Mussi</rs> im <rs type="org" ref="#amp_organization_164">Bun-
+              <lb/>deskanzleramt</rs> an unter der Tel.Nr.6615 weiterwählen 2244 oder
+              <lb/>6615 weiterwählen 2446. Herr <rs type="person" ref="#amp_person_285">Dr.Mussi</rs> ist orientiert und wird
+              <lb/>Sie um Ihren Besuch bitten, wobei es wichtig wäre, daß Sie ver-
+              <lb/>schiedene Unterlagen, die Ihnen Kummer bereiten, mitbringen.
+            </p>
+            <p>
+              <lb/>Ich bin überzeugt, daß sich alles auf einem guten Weg befindet,
+              <lb/>bitte machen Sie sich keine Sorgen mehr.
+            </p>
+            <closer>
+              <salute>
+                <lb/><space quantity="31" unit="char"/>Alle guten Wünsche und Grüße
+                <lb/><space quantity="41" unit="char"/>von Ihrem
+              </salute>
+              <signed>
+                <lb/><space quantity="37" unit="char"/>(<rs type="person" ref="#amp_person_137">Dr.Wolfgang Kraus</rs>)
+                <lb/><space quantity="38" unit="char"/>telephonisch diktiert
+              </signed>
+              <seg>
+                <lb/>EXPRESS
+              </seg>
+            </closer>
+          </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00382/" ed="1v" type="sheet"/>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0111" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Typed Letter Signed W. H. Auden to Wolfgang Kraus 1970-07-01</title>
+        <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Typed Letter Signed W. H. Auden to Wolfgang Kraus 1970-07-01</title>
+          <interpGrp>
+            <interp>
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <repository ref="https://d-nb.info/gnd/2175892-X">Austrian Society for Literature</repository>
+                <collection>ÖGfL-Archiv</collection>
+                <idno>Autographensammlung 1 C2</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00377/ https://iiif.acdh.oeaw.ac.at/aad/aad_00378/">Myrtle Mill</watermark>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00377/">
+                        <width>210</width>
+                        <height>296</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00378/">
+                        <width>210</width>
+                        <height>296</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_gray_unident_0111" medium="pencil">Handwriting in pencil by unidentified writer</handNote>
+                  <handNote xml:id="hand_black_unident_0111" medium="ink-black">Handwriting in black ink by unidentified writer</handNote>
+                  <handNote xml:id="hand_gray_oegfl" scribeRef="#amp_organization_9" medium="pencil">Handwriting in pencil authored by Austrian Society for Literature</handNote>
+                  <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="type_black_auden" scribeRef="#amp_person_1" medium="type-black">Typewriting in black ink by W. H. Auden, monospaced slab-serif typeface</typeNote>
+                  <typeNote xml:id="print_black_auden" scribeRef="#amp_person_1" medium="print-black">Preprinted writing in black authored by W. H. Auden, sans-serif Grotesque-family typeface</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1970-07-01T00:00:00+01:00" notAfter-iso="1970-07-01T23:59:59+01:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4801892-2">Kirchstetten</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de"/>
+        <language ident="en"/>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1970-07-01T00:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_137">Kraus, Wolfgang</persName>
+          <orgName ref="#amp_organization_9">Austrian Society for Literature</orgName>
+          <placeName><rs type="place" ref="#amp_place_id_1">Vienna</rs></placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#tfruehwirth" when-iso="2025-09-23">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2025-09-23">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth" when-iso="2025-09-29">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="3790" lry="5156">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00377/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3786" lry="5152">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00378/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0111" xml:lang="en">
+        <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00377/" ed="1r" type="sheet"/>
+          <div type="letter_message" hand="#type_black_auden">
+            <opener>
+              <dateline xml:lang="de">
+                <seg hand="#print_black_auden">
+                  <placeName>
+                    <address>
+                      <lb/><rs type="place" ref="#amp_place_id_2">3062 KIRCHSTETTEN
+                      <lb/>BEZ. ST. PÖLTEN
+                      <lb/>HINTERHOLZ 6
+                      <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
+                    </address>
+                  </placeName>
+                </seg>
+                <date>
+                  <lb/>Isten,Juli,I97O
+                </date>
+              </dateline>
+            </opener>
+          </div>
+          <div>
+            <ab hand="#hand_gray_oegfl">
+              <lb/><unclear>A</unclear> -2
+            </ab>
+          </div>
+          <div type="letter_message" hand="#type_black_auden">
+            <opener>
+              <salute xml:lang="de">
+                <lb/><space quantity="23" unit="char"/>Sehr verehrter <rs type="person" ref="#amp_person_137">Doktor Kraus</rs>:
+              </salute>
+            </opener>
+            <p>
+              <lb/><space quantity="12" unit="char"/>T<unclear>h</unclear>ank you for your letter of <foreign xml:lang="de">29ten Ju<subst><del rend="overtyped" hand="#type_black_auden">l</del><add place="superimposed" hand="#type_black_auden">n</add></subst>i</foreign>,and the honor of your
+              <lb/><space quantity="8" unit="char"/>invitation to <rs type="event" ref="#amp_event_id_120">read at the <rs type="org" ref="#amp_organization_9">Gesellschaft</rs> on <foreign xml:lang="de">29ten <del rend="overtyped" hand="#type_black_auden">Spet</del> September</foreign></rs>.
+              <lb/><space quantity="8" unit="char"/>It seems to me only proper that the main part of my programme
+              <lb/><space quantity="8" unit="char"/>should have a specific relation to <rs type="place" ref="#amp_place_id_10">Austria</rs>. So,for the benefit of
+              <lb/><space quantity="8" unit="char"/>whoever is going to do the translations,it will include the
+              <lb/><space quantity="8" unit="char"/>following poems.
+              <seg>
+                <lb/><space quantity="10" unit="char"/>from <hi rend="underline" hand="#type_black_auden"><rs type="lit_work" ref="#lit_work_id_134">ABOUT THE HOUSE</rs></hi>
+                <lb/><space quantity="16" unit="char"/><del rend="overstrike" hand="#hand_gray_unident_0111"><rs type="lit_work" ref="#lit_work_id_310">Thanksgiving for a Habitat</rs></del>.
+                <lb/><space quantity="16" unit="char"/><rs type="lit_work" ref="#lit_work_id_37">The Cave of Making</rs>.<add place="inline" hand="#hand_black_unident_0111"> &#x2713;</add>
+                <lb/><space quantity="16" unit="char"/><add place="inline" hand="#hand_gray_unident_0111"><unclear>3 </unclear></add><del rend="overstrike" hand="#hand_gray_unident_0111"><rs type="lit_work" ref="#lit_work_id_311">Ascension Day,I964</rs></del><add place="inline" hand="#hand_black_unident_0111"> &#x2713;</add>
+                <lb/><space quantity="16" unit="char"/><add place="inline" hand="#hand_gray_unident_0111">&#x2015; </add><rs type="lit_work" ref="#lit_work_id_79">Whitsunday in Kir<del rend="overtyped" hand="#type_black_auden">s</del>chste<subst><del rend="overtyped" hand="#type_black_auden">e</del><add place="superimposed" hand="#type_black_auden">t</add></subst>ten</rs><unclear><add place="above" hand="#hand_gray_unident_0111"><gap reason="illegible" atLeast="1" atMost="3"/></add></unclear><add place="inline" hand="#hand_black_unident_0111"> &#x2713;</add>
+              </seg>
+              <seg>
+                <lb/><space quantity="9" unit="char"/>from <hi rend="underline" hand="#type_black_auden"><rs type="lit_work" ref="#lit_work_id_137">CITY WITHOUT WALLS</rs><space quantity="2" unit="char"/></hi>
+                <lb/><space quantity="15" unit="char"/><add place="inline" hand="#hand_gray_unident_0111">&#x2015;</add><rs type="lit_work" ref="#lit_work_id_60">Joseph Weinheber</rs><add place="inline" hand="#hand_black_unident_0111"> &#x2713;</add>
+                <lb/><space quantity="15" unit="char"/><add place="inline" hand="#hand_gray_unident_0111">&#x2015;</add><rs type="lit_work" ref="#lit_work_id_107">Elegy for Emma Eiermann</rs>.<add place="inline" hand="#hand_black_unident_0111"> <unclear>&#x2713;</unclear></add>
+                <lb/><space quantity="15" unit="char"/><add place="inline" hand="#hand_gray_unident_0111">&#x2015;</add><rs type="lit_work" ref="#lit_work_id_161">August I968</rs><add place="inline" hand="#hand_black_unident_0111"> &#x2713;</add>
+                <lb/><space quantity="15" unit="char"/><add place="inline" hand="#hand_gray_unident_0111">&#x2015;</add><rs type="lit_work" ref="#lit_work_id_38">Prologue at Sixty</rs>.<add place="inline" hand="#hand_black_unident_0111"> &#x2713;</add>
+              </seg>
+            </p>
+            <p>
+              <lb/><space quantity="9" unit="char"/>When I have timed the reading,I will let you know what else I
+              <lb/><space quantity="9" unit="char"/>intend to read.
+            </p>
+            <closer>
+              <salute xml:lang="de">
+                <lb/><space quantity="17" unit="char"/>Ihr ergebener
+              </salute>
+              <signed hand="#hand_blue_auden">
+                <lb/><rs type="person" ref="#amp_person_1">Wystan Auden</rs>
+              </signed>
+              <signed>
+                <lb/><space quantity="30" unit="char"/><rs type="person" ref="#amp_person_1">W.H.Auden</rs>
+              </signed>
+              <dateline>
+                <persName>
+                  <lb/><space quantity="2" unit="char"/><rs type="person" ref="#amp_person_137">Dr Wolfgang Kraus</rs>
+                </persName>
+                <orgName>
+                  <lb/><space quantity="2" unit="char"/><rs type="org" ref="#amp_organization_9">Osterreichische Gesellschaft Fur Literatur</rs>
+                </orgName>
+                <placeName>
+                  <address>
+                    <lb/><space quantity="2" unit="char"/><rs type="place" ref="#amp_place_id_177">IOIO Wien I
+                    <lb/><space quantity="2" unit="char"/>Palais Wilczek
+                    <lb/><space quantity="2" unit="char"/>Herrengasse 5</rs>
+                  </address>
+                </placeName>
+              </dateline>
+            </closer>
+          </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00378/" ed="1v" type="sheet"/>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

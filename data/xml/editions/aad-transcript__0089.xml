@@ -171,7 +171,7 @@
                 </seg>
               </dateline>
               <salute>
-                <lb/><handShift new="#hand_blue_auden"/>D<subst><del rend="overwritten" hand="#hand_black_auden"><unclear>ea</unclear></del><add place="superimposed" hand="#hand_black_auden">ear</add></subst><unclear>r</unclear> <handShift new="#hand_black_auden"/><rs type="person" ref="#amp_person_78">Miss Spiel</rs>:
+                <lb/><handShift new="#hand_blue_auden"/>D<subst><del rend="overwritten" hand="#hand_black_auden"><unclear>ea</unclear></del><add place="superimposed" hand="#hand_black_auden">ear</add></subst><unclear>r</unclear> <handShift new="#hand_black_auden"/><rs type="person" ref="#amp_person_78">Miss Spiel</rs>:<!-- alternative markup solution with retrace element -->
               </salute>
             </opener>
             <p hand="#hand_black_auden">

@@ -148,7 +148,7 @@
           <div type="letter_message" hand="#type_cc_spiel">
             <opener>
               <dateline>
-                <lb/><space quantity="28" unit="char"/>xx 06138/515
+                <lb/><space quantity="28" unit="char"/>xx O6138/515
               </dateline>
               <salute>
                 <lb/>Dear <rs type="person" ref="#amp_person_1">Mr Auden</rs>,
