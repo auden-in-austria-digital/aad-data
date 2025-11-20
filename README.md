@@ -28,7 +28,7 @@ The [write-xmls](.github/workflows/write-xmls.yml) GitHub-Actions workflow (`on:
 ```mermaid
 flowchart TD;
     input_img_id.csv---|on:push| check-n-transform;
-    check-n-transform-->A{validate-scv.py};
+    check-n-transform-->A{validate-csv.py};
     A-->|#9989;| img2doc-csv.py;
     A-->|#9989;| metadata-analysis.py;
     img2doc-csv.py-->output_doc_id.csv;
