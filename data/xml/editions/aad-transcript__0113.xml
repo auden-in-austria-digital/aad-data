@@ -131,10 +131,53 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0113" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0113" xml:lang="en">
+        <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00383/" ed="1r" type="sheet"/>
+          <div>
+            <ab hand="#hand_gray_oegfl">
+              <lb/>A2
+              <lb/>Auden
+            </ab>
+          </div>
+          <div type="letter_message" hand="#type_cc_bronold">
+            <opener>
+              <dateline>
+                <date>
+                  <lb/><space quantity="29" unit="char"/>October 1st, l973.
+                </date>
+              </dateline>
+              <salute>
+                <lb/>Dear Mr. Kallman,
+              </salute>
+            </opener>
+            <p>
+              <lb/><space quantity="6" unit="char"/>Dr. Kraus being absent from Vienna the sad task
+              <lb/>falls upon me to express our sincerest sympathies to you.
+              <lb/>It would be vain to try and find words of comfort, all we
+              <lb/>can do is say that we feal with you.
+            </p>
+            <p>
+              <lb/><space quantity="6" unit="char"/>I just want to add that the lecture on Friday went
+              <lb/>very well indeed. Mr. Auden seemed to enjoy himself, and
+              <lb/>the public responded enthusiastically. He closed with the
+              <lb/>two funny four-liners on Goethe and Kant, and the applause
+              <lb/>turned into a delighted ovation. In our sorrow we are
+              <lb/>glad to think that there was alst occasion where people
+              <lb/>could show him how deeply they appreciated his art, but
+              <lb/>also how fond they were of him.
+            </p>
+            <closer>
+              <salute>
+                <lb/><space quantity="28" unit="char"/>Sincerely yours,
+              </salute>
+              <signed>
+                <lb/><space quantity="28" unit="char"/>(Hella Bronold)
+              </signed>
+            </closer>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00384/" ed="1v" type="sheet"/>
+        </div>
       </div>
     </body>
   </text>
