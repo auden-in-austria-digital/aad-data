@@ -29,7 +29,7 @@
         <edition>
           <title level="a">Copy Typed Letter Hella Bronold to Chester Kallman 1973-10-01</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_109">
               <desc/>
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -87,6 +87,7 @@
                 </objectDesc>
                 <handDesc>
                   <handNote xml:id="hand_gray_oegfl" scribeRef="#amp_organization_9" medium="pencil">Handwriting in pencil authored by <rs type="org" ref="#amp_organization_9">Austrian Society for Literature</rs></handNote>
+                  <handNote xml:id="hand_blue_bronold" scribeRef="#amp_person_135" medium="ink-blue">Handwriting in blue ink by Hella Bronold</handNote>
                 </handDesc>
                 <typeDesc>
                   <typeNote xml:id="type_cc_bronold" scribeRef="#amp_person_135" medium="type-cc">Carbon copy of typewriting authored by Hella Bronold</typeNote>
@@ -95,7 +96,7 @@
               <history>
                 <origin>
                   <origDate notBefore-iso="1973-10-01T00:00:00+01:00" notAfter-iso="1973-10-01T23:59:59+01:00"/>
-                  <origPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</origPlace>
+                  <origPlace ref="https://d-nb.info/gnd/4066009-6" ana="acdh:aad-transcript__0104.xml#ana_108">Vienna</origPlace>
                 </origin>
               </history>
             </msDesc>
@@ -119,6 +120,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2025-12-02">TEI/XML template populated with csv2xml.py</change>
       <change who="#smayer" when-iso="2025-12-02">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth #smayer" when-iso="2025-12-04">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -148,31 +150,31 @@
                 </date>
               </dateline>
               <salute>
-                <lb/>Dear Mr. Kallman,
+                <lb/>Dear <rs type="person" ref="#amp_person_4">Mr. Kallman</rs>,
               </salute>
             </opener>
             <p>
-              <lb/><space quantity="6" unit="char"/>Dr. Kraus being absent from Vienna the sad task
+              <lb/><space quantity="6" unit="char"/><rs type="person" ref="#amp_person_137">Dr. Kraus</rs> being absent from <rs type="place" ref="#amp_place_id_1">Vienna</rs> the sad task
               <lb/>falls upon me to express our sincerest sympathies to you.
-              <lb/>It would be vain to try and find words of comfort, all we
-              <lb/>can do is say that we feal with you.
+              <lb/>It would be vain to try an<add hand="#hand_blue_bronold" place="inline">d</add> find words of comfort, all we
+              <lb/>can do is say that we fe<subst><del rend="erased" hand="#type_cc_bronold">l</del><add hand="#type_cc_bronold" place="superimposed">e</add></subst>l with you.
             </p>
             <p>
-              <lb/><space quantity="6" unit="char"/>I just want to add that the lecture on Friday went
-              <lb/>very well indeed. Mr. Auden seemed to enjoy himself, and
-              <lb/>the public responded enthusiastically. He closed with the
-              <lb/>two funny four-liners on Goethe and Kant, and the applause
-              <lb/>turned into a delighted ovation. In our sorrow we are
-              <lb/>glad to think that there was alst occasion where people
+              <lb/><space quantity="6" unit="char"/>I just want to add that the <rs type="event" ref="#amp_event_id_3">lecture</rs> on Friday went
+              <lb/>very well indeed. <space quantity="1" unit="char"/><rs type="person" ref="#amp_person_1">Mr. Auden</rs> seemed to enjoy himself, and
+              <lb/>the public responded enthusiastically. <space quantity="1" unit="char"/>He closed with the
+              <lb/><rs type="lit_work" ref="#lit_work_id_312" ana="#ana_109">two funny four-liners</rs> on <rs type="person" ref="#amp_person_11">Goethe</rs> and <rs type="person" ref="#amp_person_319">Kant</rs>, and the applause
+              <lb/>turned into a delighted ovation. <space quantity="1" unit="char"/>In our sorrow we are
+              <lb/>glad to think that there was a l<subst><del rend="erased" hand="#type_cc_bronold">l</del><add hand="#type_cc_bronold" place="superimposed">a</add></subst>st occasion where people
               <lb/>could show him how deeply they appreciated his art, but
               <lb/>also how fond they were of him.
             </p>
             <closer>
               <salute>
-                <lb/><space quantity="28" unit="char"/>Sincerely yours,
+                <lb/><space quantity="28" unit="char"/><subst><del rend="erased" hand="#type_cc_bronold"><unclear>C</unclear></del><add hand="#type_cc_bronold" place="superimposed">S</add></subst>incerely yours,
               </salute>
               <signed>
-                <lb/><space quantity="28" unit="char"/>(Hella Bronold)
+                <lb/><space quantity="27" unit="char"/>(<rs type="person" ref="#amp_person_135">Hella Bronold</rs>)
               </signed>
             </closer>
           </div>
