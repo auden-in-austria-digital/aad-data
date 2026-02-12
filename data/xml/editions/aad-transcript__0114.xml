@@ -137,7 +137,7 @@
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00385/" ed="1r" type="sheet"/>
           <div>
             <ab hand="#hand_gray_oegfl">
-              <lb/>A2 Auden
+              <lb/>A2 <rs type="person" ref="#amp_person_1">Auden</rs>
             </ab>
           </div>
           <div type="letter_message" hand="#type_cc_bronold">
@@ -159,7 +159,7 @@
                 <lb/><del rend="overstrike" hand="#hand_blue_bronold">Die Manager</del>
                 <lb/>Einsame Überlegene
                 <lb/>Pfingstsonntag in Kirchstetten
-                <lb/>Josef Weinheber
+                <lb/><rs type="lit_work" ref="#lit_work_id_89">Josef Weinheber</rs>
                 <lb/>Elegie
                 <lb/>Prolog mit Sechzig
                 <lb/>Profil
@@ -182,7 +182,7 @@
             </p>
             <closer>
               <salute>
-                <lb/><space unit="char" quantity="6"/>Veilen Dank und herzliche Grüsse
+                <lb/><space unit="char" quantity="6"/>V<subst><del rend="metamark" hand="#hand_blue_bronold">ei</del><add place="inline" hand="#hand_blue_bronold">ie</add></subst>len Dank und herzliche Grüsse
               </salute>
               <salute>
                 <lb/><space unit="char" quantity="43"/>Ihre
