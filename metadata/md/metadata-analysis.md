@@ -117,6 +117,7 @@ doc
 0111           Auden, W. H.                                                                                              Typed Letter Signed W. H. Auden to Wolfgang Kraus 1970-07-01                   Kirchstetten
 0112        Kraus, Wolfgang                                                                                                Copy Typed Letter Wolfgang Kraus to W. H. Auden 1972-08-28                         Vienna
 0113         Bronold, Hella                                                                                             Copy Typed Letter Hella Bronold to Chester Kallman 1973-10-01                         Vienna
+0114         Bronold, Hella                                                                                               Copy Typed Letter Hella Bronold to Achim Benning 1973-09-12                         Vienna
 ```
 
 ### distribution per month
@@ -153,31 +154,31 @@ dtype: int64
 
 ### `df.info()`
 ```
-<class 'pandas.core.frame.DataFrame'>
-RangeIndex: 356 entries, 0 to 355
+<class 'pandas.DataFrame'>
+RangeIndex: 358 entries, 0 to 357
 Data columns (total 19 columns):
- #   Column          Non-Null Count  Dtype 
----  ------          --------------  ----- 
- 0   img             356 non-null    int64 
- 1   lrx             356 non-null    int64 
- 2   lry             356 non-null    int64 
- 3   width           356 non-null    int64 
- 4   height          356 non-null    int64 
- 5   type            356 non-null    object
- 6   ed              356 non-null    object
- 7   doc             356 non-null    object
- 8   title           356 non-null    object
- 9   author          356 non-null    object
- 10  author-uri      356 non-null    object
- 11  notBefore-iso   356 non-null    object
- 12  notAfter-iso    356 non-null    object
- 13  place           356 non-null    object
- 14  place-uri       356 non-null    object
- 15  repository      356 non-null    object
- 16  repository-uri  356 non-null    object
- 17  collection      356 non-null    object
- 18  idno            356 non-null    object
-dtypes: int64(5), object(14)
-memory usage: 53.0+ KB
+ #   Column          Non-Null Count  Dtype
+---  ------          --------------  -----
+ 0   img             358 non-null    int64
+ 1   lrx             358 non-null    int64
+ 2   lry             358 non-null    int64
+ 3   width           358 non-null    int64
+ 4   height          358 non-null    int64
+ 5   type            358 non-null    str  
+ 6   ed              358 non-null    str  
+ 7   doc             358 non-null    str  
+ 8   title           358 non-null    str  
+ 9   author          358 non-null    str  
+ 10  author-uri      358 non-null    str  
+ 11  notBefore-iso   358 non-null    str  
+ 12  notAfter-iso    358 non-null    str  
+ 13  place           358 non-null    str  
+ 14  place-uri       358 non-null    str  
+ 15  repository      358 non-null    str  
+ 16  repository-uri  358 non-null    str  
+ 17  collection      358 non-null    str  
+ 18  idno            358 non-null    str  
+dtypes: int64(5), str(14)
+memory usage: 53.3 KB
 
 ```
