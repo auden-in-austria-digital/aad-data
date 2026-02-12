@@ -86,10 +86,11 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote/>
+                  <handNote xml:id="hand_gray_oegfl" scribeRef="#amp_organization_9" medium="pencil">Handwriting in pencil authored by <rs type="org" ref="#amp_organization_9">Austrian Society for Literature</rs></handNote>
+                  <handNote xml:id="hand_blue_bronold" scribeRef="#amp_person_135" medium="ink-blue">Handwriting in blue ink by Hella Bronold</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="type_cc_bronold" scribeRef="#amp_person_135" medium="type-cc">Carbon copy of typewriting authored by Hella Bronold</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -113,11 +114,12 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="de"/>
       </langUsage>
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2026-02-12">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer #ahechtl #tfruehwirth" when-iso="2026-02-12">physDesc and profileDesc populated</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -131,9 +133,64 @@
   <text>
     <body>
       <div type="transcription" xml:id="transcription_aad_0114" xml:lang="">
-        <div/>
+        <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00385/" ed="1r" type="sheet"/>
+          <div>
+            <ab hand="#hand_gray_oegfl">
+              <lb/>A2 Auden
+            </ab>
+          </div>
+          <div type="letter_message" hand="#type_cc_bronold">
+            <opener>
+              <dateline>
+                <date>
+                  <lb/><space unit="char" quantity="42"/>12.Sept. 1973
+                </date>
+              </dateline>
+              <salute>
+                <lb/>Lieber Herr Benning<subst><del rend="erased" hand="#type_cc_bronold">?</del><add place="superimposed" hand="#type_cc_bronold">,</add></subst>
+              </salute>
+            </opener>
+            <p>
+              <lb/>anbei folgende Auden-Gedichte:
+              <seg>
+                <lb/>Lied
+                <lb/>Der unbekannte Bürger
+                <lb/><del rend="overstrike" hand="#hand_blue_bronold">Die Manager</del>
+                <lb/>Einsame Überlegene
+                <lb/>Pfingstsonntag in Kirchstetten
+                <lb/>Josef Weinheber
+                <lb/>Elegie
+                <lb/>Prolog mit Sechzig
+                <lb/>Profil
+                <lb/>Einige Zeilen für Dr.Walter Birk
+                <lb/>Knittelverse eines Altbürgers
+                <lb/>Altersheim
+                <lb/>Kurze Ode an den Kuckuck
+                <lb/>Mondlandung
+              </seg>
+            </p>
+            <p>
+              <lb/><space unit="char" quantity="5"/>Ich habe sie in der Reihenfolge gelassen, wie sie im Buch
+              <lb/>stehen werden, nämlich chronologisch. <space unit="char" quantity="1"/>Selbstverständlich
+              <lb/>können <subst><del rend="overtyped" hand="#type_cc_bronold">s</del><add place="superimposed" hand="#type_cc_bronold">S</add></subst>ie umstellen, wenn Sie es besser finden. <space unit="char" quantity="1"/>Auch was
+              <lb/>die Länge betrifft, so weiss ich nicht, ob ich genug oder zu
+              <lb/>viel ausgewählt habe. <space unit="char" quantity="1"/><subst><del rend="overtyped" hand="#type_cc_bronold">E</del><add place="superimposed" hand="#type_cc_bronold">I</add></subst>hre Lesung soll 35 bis 40 Minuten
+              <lb/>dauern. <space unit="char" quantity="1"/>Wenn es zuviel ist, so bitte ich Sie nur zu beachten,
+              <lb/>dass Sie von jedem <subst><del rend="overtyped" hand="#type_cc_bronold">P</del><add place="superimposed" hand="#type_cc_bronold">Ü</add></subst>bersetzer ein Gedicht überlassen - sonst
+              <lb/>gibt's wi<add place="inline" hand="#type_cc_bronold">e</add>der Verstimmungen.
+            </p>
+            <closer>
+              <salute>
+                <lb/><space unit="char" quantity="6"/>Veilen Dank und herzliche Grüsse
+              </salute>
+              <salute>
+                <lb/><space unit="char" quantity="43"/>Ihre
+              </salute>
+            </closer>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00386/" ed="1v" type="sheet"/>
+        </div>
       </div>
     </body>
   </text>
