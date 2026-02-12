@@ -3,13 +3,13 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0054" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0114" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title level="s">Auden in Austria Digital (AAD)</title>
-        <title level="a">Typed Letter Signed W. H. Auden to Hugo Kurka 1969-01-11</title>
-        <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
+        <title level="a">Copy Typed Letter Hella Bronold to Achim Benning 1973-09-12</title>
+        <author ref="https://d-nb.info/gnd/1206944536">Bronold, Hella</author>
         <editor>
           <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
           <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
@@ -27,7 +27,7 @@
       </titleStmt>
       <editionStmt>
         <edition>
-          <title level="a">Typed Letter Signed W. H. Auden to Hugo Kurka 1969-01-11</title>
+          <title level="a">Copy Typed Letter Hella Bronold to Achim Benning 1973-09-12</title>
           <interpGrp>
             <interp>
               <desc/>
@@ -65,30 +65,22 @@
           <witness n="1">
             <msDesc>
               <msIdentifier>
-                <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
-                <collection>Documentation Center for Literature in Lower Austria</collection>
-                <idno>LS-Aud 4.6.54</idno>
+                <repository ref="https://d-nb.info/gnd/2175892-X">Austrian Society for Literature</repository>
+                <collection>ÖGfL-Archiv</collection>
+                <idno>A-Z XV A30</idno>
               </msIdentifier>
               <physDesc>
                 <objectDesc>
                   <supportDesc>
                     <support>
                       <watermark/>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00219/">
-                        <width>241</width>
-                        <height>105</height>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00385/">
+                        <width>209</width>
+                        <height>297</height>
                       </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00220/">
-                        <width>241</width>
-                        <height>105</height>
-                      </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00221/">
-                        <width>216</width>
-                        <height>280</height>
-                      </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00222/">
-                        <width>216</width>
-                        <height>280</height>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00386/">
+                        <width>209</width>
+                        <height>297</height>
                       </dimensions>
                     </support>
                   </supportDesc>
@@ -102,8 +94,8 @@
               </physDesc>
               <history>
                 <origin>
-                  <origDate notBefore-iso="1969-01-11T00:00:00-05:00" notAfter-iso="1969-01-11T23:59:59-05:00"/>
-                  <origPlace ref="https://d-nb.info/gnd/4042011-5">New York City</origPlace>
+                  <origDate notBefore-iso="1973-09-12T00:00:00+01:00" notAfter-iso="1973-09-12T23:59:59+01:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</origPlace>
                 </origin>
               </history>
             </msDesc>
@@ -129,27 +121,19 @@
     </revisionDesc>
   </teiHeader>
   <facsimile>
-    <surface ulx="0" uly="0" lrx="4022" lry="1924">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00219/"/>
+    <surface ulx="0" uly="0" lrx="3770" lry="5168">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00385/"/>
     </surface>
-    <surface ulx="0" uly="0" lrx="4024" lry="1928">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00220/"/>
-    </surface>
-    <surface ulx="0" uly="0" lrx="3626" lry="4646">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00221/"/>
-    </surface>
-    <surface ulx="0" uly="0" lrx="3630" lry="4648">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00222/"/>
+    <surface ulx="0" uly="0" lrx="3766" lry="5168">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00386/"/>
     </surface>
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0054" xml:lang="">
+      <div type="transcription" xml:id="transcription_aad_0114" xml:lang="">
         <div/>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00219/" ed="1r" type="envelope"/>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00220/" ed="1v" type="envelope"/>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00221/" ed="2r" type="sheet"/>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00222/" ed="2v" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00385/" ed="1r" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00386/" ed="1v" type="sheet"/>
       </div>
     </body>
   </text>
