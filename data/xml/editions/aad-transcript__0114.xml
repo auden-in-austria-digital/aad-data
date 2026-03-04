@@ -120,6 +120,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2026-02-12">TEI/XML template populated with csv2xml.py</change>
       <change who="#smayer #ahechtl #tfruehwirth" when-iso="2026-02-12">physDesc and profileDesc populated</change>
+      <change who="#smayer #ahechtl #tfruehwirth" when-iso="2026-03-04">text transcribed; markup entities, languages, hands</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -148,26 +149,26 @@
                 </date>
               </dateline>
               <salute>
-                <lb/>Lieber Herr Benning<subst><del rend="erased" hand="#type_cc_bronold">?</del><add place="superimposed" hand="#type_cc_bronold">,</add></subst>
+                <lb/>Lieber <rs type="person" ref="amp_person_129">Herr Benning</rs><subst><del rend="erased" hand="#type_cc_bronold">?</del><add place="superimposed" hand="#type_cc_bronold">,</add></subst>
               </salute>
             </opener>
             <p>
-              <lb/>anbei folgende Auden-Gedichte:
+              <lb/>anbei folgende <rs type="person" ref="#amp_person_1">Auden</rs>-Gedichte:
               <seg>
-                <lb/>Lied
-                <lb/>Der unbekannte Bürger
-                <lb/><del rend="overstrike" hand="#hand_blue_bronold">Die Manager</del>
-                <lb/>Einsame Überlegene
-                <lb/>Pfingstsonntag in Kirchstetten
+                <lb/><rs type="lit_work" ref="#lit_work_id_313">Lied</rs>
+                <lb/><rs type="lit_work" ref="#lit_work_id_314">Der unbekannte Bürger</rs>
+                <lb/><del rend="overstrike" hand="#hand_blue_bronold"><rs type="lit_work" ref="#lit_work_id_315">Die Manager</rs></del>
+                <lb/><rs type="lit_work" ref="#lit_work_id_316">Einsame Überlegene</rs>
+                <lb/><rs type="lit_work" ref="#lit_work_id_317">Pfingstsonntag in Kirchstetten</rs>
                 <lb/><rs type="lit_work" ref="#lit_work_id_89">Josef Weinheber</rs>
-                <lb/>Elegie
-                <lb/>Prolog mit Sechzig
-                <lb/>Profil
-                <lb/>Einige Zeilen für Dr.Walter Birk
-                <lb/>Knittelverse eines Altbürgers
-                <lb/>Altersheim
-                <lb/>Kurze Ode an den Kuckuck
-                <lb/>Mondlandung
+                <lb/><rs type="lit_work" ref="#lit_work_id_318">Elegie</rs>
+                <lb/><rs type="lit_work" ref="#lit_work_id_319">Prolog mit Sechzig</rs>
+                <lb/><rs type="lit_work" ref="#lit_work_id_234">Profil</rs>
+                <lb/><rs type="lit_work" ref="#lit_work_id_320">Einige Zeilen für Dr.Walter Birk</rs>
+                <lb/><rs type="lit_work" ref="#lit_work_id_222">Knittelverse eines Altbürgers</rs>
+                <lb/><rs type="lit_work" ref="#lit_work_id_321">Altersheim</rs>
+                <lb/><rs type="lit_work" ref="#lit_work_id_322">Kurze Ode an den Kuckuck</rs>
+                <lb/><rs type="lit_work" ref="#lit_work_id_323">Mondlandung</rs>
               </seg>
             </p>
             <p>
@@ -177,7 +178,7 @@
               <lb/>die Länge betrifft, so weiss ich nicht, ob ich genug oder zu
               <lb/>viel ausgewählt habe. <space unit="char" quantity="1"/><subst><del rend="overtyped" hand="#type_cc_bronold">E</del><add place="superimposed" hand="#type_cc_bronold">I</add></subst>hre Lesung soll 35 bis 40 Minuten
               <lb/>dauern. <space unit="char" quantity="1"/>Wenn es zuviel ist, so bitte ich Sie nur zu beachten,
-              <lb/>dass Sie von jedem <subst><del rend="overtyped" hand="#type_cc_bronold">P</del><add place="superimposed" hand="#type_cc_bronold">Ü</add></subst>bersetzer ein Gedicht überlassen - sonst
+              <lb/>dass Sie von <rs type="person" ref="amp_person_214 amp_person_220 amp_person_222 amp_person_173 amp_person_78 amp_person_216 amp_person_218">jedem <subst><del rend="overtyped" hand="#type_cc_bronold">P</del><add place="superimposed" hand="#type_cc_bronold">Ü</add></subst>bersetzer</rs> ein Gedicht überlassen - sonst
               <lb/>gibt's wi<add place="inline" hand="#type_cc_bronold">e</add>der Verstimmungen.
             </p>
             <closer>
