@@ -13,6 +13,7 @@
         <editor>
           <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
           <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484">Hechtl, Angelika</name>
         </editor>
         <funder>
           <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
@@ -31,7 +32,7 @@
           <interpGrp>
             <interp>
               <desc/>
-              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
             </interp>
           </interpGrp>
@@ -40,6 +41,7 @@
           <resp>Data model, transcription, TEI/XML markup, commentary</resp>
           <name sameAs="#tfruehwirth"/>
           <name sameAs="#smayer"/>
+          <name sameAs="#ahechtl"/>
         </respStmt>
         <respStmt>
           <resp>ODD/RNG TEI/XML schema</resp>
@@ -133,7 +135,7 @@
       </langUsage>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2026-03-04">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2026-03-11">TEI/XML template populated with csv2xml.py</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
