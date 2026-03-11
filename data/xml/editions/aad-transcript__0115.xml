@@ -29,7 +29,7 @@
         <edition>
           <title level="a">Copy Typed Letter Hella Bronold to W. H. Auden 1973-09-24</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_111">
               <desc/>
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -132,18 +132,19 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0115" xml:lang="">
+      <div type="transcription" xml:id="transcription_aad_0115" xml:lang="en">
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00387/" ed="1r" type="sheet"/>
-        <div>
-          <ab hand="#hand_gray_oegfl">
-            <lb/>A2
-          </ab>
+          <div>
+            <ab hand="#hand_gray_oegfl">
+              <lb/>A2
+            </ab>
+          </div>
           <div type="letter_message" hand="#type_cc_bronold">
             <opener>
               <dateline>  
                 <date>
-                  <lb/><space unit="char" quantity="24"/>Vienna, September 24th, 1973
+                  <lb/><space unit="char" quantity="24"/>Vienna, September 24th, l973
                 </date>
               </dateline>
               <salute>
@@ -152,8 +153,8 @@
             </opener>
             <p>
               <lb/><space unit="char" quantity="4"/><rs type="person" ref="#amp_person_137">Dr. Kraus</rs> is at present in <rs type="place" ref="#amp_place_id_420">Istanbul</rs> on vacation.
-              <lb/>I hope yqu have meanwhile received the printe<subst><del rend="overtyped" hand="#type_cc_bronold">s</del><add place="superimposed" hand="#type_cc_bronold">d</add></subst> invitation
-              <lb/>for the 28th. Gladly, we will send one of our assistants,
+              <lb/>I hope y<subst><del rend="erased" hand="#type_cc_bronold"><unclear>i</unclear></del><add place="superimposed" hand="#type_cc_bronold">o</add></subst>u have meanwhile received the printe<subst><del rend="erased" hand="#type_cc_bronold">s</del><add place="superimposed" hand="#type_cc_bronold">d</add></subst> invitation
+              <lb/>for <rs type="event" ref="#amp_event_id_3">the 28th</rs>. Gladly, we will send one of our assistants,
               <lb/><rs type="person" ref="#amp_person_284">Mr. Urbach</rs>, to call on you at the <rs type="place" ref="#amp_place_id_225">Altenburger Hof</rs> and walk
               <lb/>with you to the <rs type="place" ref="#amp_place_id_351">Josefsplatz</rs>. <space unit="char" quantity="1"/>It takes five minutes to walk,
               <lb/>by car it would be at least fifteen. <space unit="char" quantity="1"/>I hope 7h45 is agree-
@@ -161,24 +162,25 @@
             </p>
             <p>
               <lb/><space unit="char" quantity="5"/>According to <rs type="person" ref="#amp_person_137">Dr. Kraus</rs>' wishes I have selected the
-              <lb/>poems to be read by <rs type="person" ref="amp_person_129">Mr. Benning</rs>, and he will need about 35
-              <lb/>to 40 minutes. <space unit="char" quantity="1"/>We would be very glad if you could crde
-              <lb/>for 15 to 20 minutes, so that the whole program lasts for
+              <lb/><rs type="lit_work" ana="#ana_111">poems to be read by <rs type="person" ref="amp_person_129">Mr. Benning</rs></rs>, and he will need about 35
+              <lb/>to 40 minutes. <space unit="char" quantity="1"/>We would be very glad if you <subst><del rend="erased" hand="#type_cc_bronold"><unclear>w</unclear></del><add place="superimposed" hand="#type_cc_bronold">c</add></subst>ould <subst><del rend="overtyped" hand="#type_cc_bronold">chos</del><add place="superimposed" hand="#type_cc_bronold">read</add></subst><unclear><del rend="erased" hand="#type_cc_bronold">e</del></unclear>
+              <lb/>for l5 to 20 minutes, so that the whole program lasts for
               <lb/>about one hour.
             </p>
             <closer>
               <salute>
                 <lb/><space unit="char" quantity="5"/>With best regards,
               </salute>
-                <salute>
-                  <lb/><space unit="char" quantity="30"/>Sincerly yours,
-                </salute>
+              <salute>
+                <lb/><space unit="char" quantity="30"/>Sincerly yours,
+              </salute>
               <signed>
-                  <space unit="char" quantity="29"/>(<rs type="person" ref="#amp_person_135">Hella Bronold</rs>)
+                <lb/><space unit="char" quantity="29"/>(<rs type="person" ref="#amp_person_135">Hella Bronold</rs>)
               </signed>            
             </closer>
           </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00388/" ed="1v" type="sheet"/>
+        </div>
       </div>
     </body>
   </text>
