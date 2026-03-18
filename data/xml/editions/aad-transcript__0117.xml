@@ -120,7 +120,8 @@
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2026-03-18">TEI/XML template populated with csv2xml.py</change>
-      <change who="#ahechtl" when-iso="2026-03-18">add basic structure and metadata</change>
+      <change who="#ahechtl" when-iso="2026-03-18">add basic structure, metadata, transcription</change>
+      <change who="#ahechtl" when-iso="2026-03-18">add entities: persons, places and dates</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -139,8 +140,8 @@
         <div type="letter_message" hand="type_cc_kraus">
           <opener>
             <persName>
-              <lb/>Herrn
-              <lb/>W. H. Auden
+              <lb/><rs type="person" ref="#amp_person_1">Herrn
+              <lb/>W. H. Auden</rs>
           </persName>
           <address>
               <lb/><rs type="place" ref="#amp_place_id_2">Hinterholz 6
@@ -150,29 +151,31 @@
               <date>Wien, 31. Juli 1973</date>
             </dateline>
             <salute>
-              <lb/>Lieber Herr Auden,
+              <lb/>Lieber <rs type="person" ref="#amp_person_1">Herr Auden</rs>,
             </salute>
           </opener>
           <p>
-            <lb/>Frau Bronold, die eben auf Urlaub gefahren ist, hinter-
-            <lb/>läßt mir die Nachricht, daß Sie zwar auch am 28. September
-            <lb/>abends bei uns lesen können, Ihnen aber der 27. lieber wäre.
-            <lb/>Nun haben wir leider am 27. September Schwierigkeiten mit
+            <lb/><space quantity="5" unit="char"/><rs type="person" ref="amp_person_135">Frau Bronold</rs>, die eben auf Urlaub gefahren ist, hinter-
+            <lb/>läßt mir die Nachricht, daß Sie zwar auch am <date when="1973-09-28">28. September</date>
+            <lb/>abends bei uns lesen können, Ihnen aber der <date when="1973-09-27">27.</date> lieber wäre.
+            <lb/>Nun haben wir leider am <date when="1973-09-27">27. September</date> Schwierigkeiten mit
             <lb/>dem Saal, weil dort irgendwelche Handwerker tätig sind, so
-            <lb/>wäre ich doch sehr dankbar, wenn wir den 28. September fixie-
+            <lb/>wäre ich doch sehr dankbar, wenn wir den <date when="1973-09-28">28. September</date> fixie-
             <lb/>ren könnten.
           </p>
           <p>
-            <lb/>Ich bin schwer in der Arbeit an meinem Buch, würde mich
+            <lb/><space quantity="5" unit="char"/>Ich bin schwer in der Arbeit an meinem Buch, würde mich
             <lb/>aber freuen, Sie demnächst wieder besuchen zu können. Hoffent-
             <lb/>lich geht es Ihnen gut?
           </p>
           <closer>
             <salute>
-              <lb/>Mit vielen herzlichen Grüssen und Wünschen
-              <lb/>Ihr
+              <lb/><space quantity="5" unit="char"/>Mit vielen her<subst><del rend="erased" hand="#type_cc_kraus"><unclear>r</unclear></del><add place="superimposed" hand="#type_cc_kraus">z</add></subst>lichen Grüssen und Wünschen
+              <lb/><space quantity="40" unit="char"/>Ihr
             </salute>
-            <signed>(Dr. Wolfgang Kraus)</signed>
+            <signed>
+              <lb/><space quantity="35" unit="char"/>(<rs type="person" ref="#amp_person_137">Dr. Wolfgang Kraus</rs>)
+            </signed>
           </closer>
         </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00392/" ed="1v" type="sheet"/>
