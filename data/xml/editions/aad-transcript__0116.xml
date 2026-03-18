@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0116" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0116" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -120,6 +120,9 @@
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2026-03-11">TEI/XML template populated with csv2xml.py</change>
+      <change who="#ahechtl" when-iso="2026-03-11">add lang, basic structure</change>
+      <change who="#ahechtl" when-iso="2026-03-16">add transcription</change>
+      <change who="#ahechtl" when-iso="2026-03-17">add entities: persons, dates, places</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -132,10 +135,57 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0116" xml:lang="">
-        <div/>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00389/" ed="1r" type="sheet"/>
+      <div type="transcription" xml:id="transcription_aad_0116" xml:lang="de">
+        <div type="letter">
+          <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00389/" ed="1r" type="sheet"/>
+          <div type="letter_message" hand="type_cc_kraus">
+            <opener>
+                <persName>
+                  <lb/><rs type="person" ref="#amp_person_137">Dr. Wolfgang Kraus</rs>
+                </persName>
+                <address>
+                    <lb/><rs type="place" ref="#amp_place_423">Berggasse 6/9
+                    <lb/>1090 Wien</rs>
+                </address>
+                <persName>
+                  <lb/><rs type="person" ref="#amp_person_1">Herrn
+                  <lb/>W. H. Auden</rs>
+                </persName>
+                <address>
+                    <lb/><rs type="place" ref="#amp_place_id_2">Hinterholz 6
+                    <lb/>3062 Kirchstetten</rs> <space quantity="20" unit="char"/> 
+                </address>
+                <dateline>
+                  <date>6. August 1973</date>
+                </dateline>
+              <salute>
+                <lb/>Lieber <rs type="person" ref="#amp_person_1">Herr Auden</rs>,
+              </salute>         
+            </opener>
+              <p>
+                <lb/><space unit="char" quantity="5"/>mein <rs type="person" ref="#amp_person_320">Freund Zbigniew Herbert</rs> wird am <date when="1973-08-09">Donnerstag, den 9.</date>
+                <lb/>und Freitag, den <date when="1973-08-10">10. August</date> in <rs type="place" ref="#amp_place_id_1">Wien</rs> sein. Wir würden uns sehr
+                <lb/>freuen, wenn wir Sie an einem dieser beiden Tage zum Tee be-
+                <lb/>suchen könnten, so etwa um 1/2 5 Uhr. Lassen Sie mich doch
+                <lb/>bitte mit einer Zeile wissen, ob und an welchem Tag es Ihnen
+                <lb/>recht ist.
+              </p>
+              <p>
+                <lb/><space quantity="5" unit="char"/>Hoffentlich geht es Ihnen trotz der Hitze gut und, die
+                <lb/>Arbeit gedeiht!
+              </p>
+              <closer>
+                <salute>
+                  <lb/><space quantity="5" unit="char"/>Alle guten Wünsche und Grüsse
+                  <lb/><space quantity="40" unit="char"/>Ihr
+                </salute>
+                <signed>
+                  <lb/><space quantity="30" unit="char"/>(<rs type="person" ref="#amp_person_137">Dr. Wolfgang Kraus)</rs>
+                </signed>
+              </closer>
+            </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00390/" ed="1v" type="sheet"/>
+        </div>
       </div>
     </body>
   </text>
