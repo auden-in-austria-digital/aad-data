@@ -180,7 +180,7 @@
                   <lb/><space quantity="40" unit="char"/>Ihr
                 </salute>
                 <signed>
-                  <lb/><space quantity="30" unit="char"/>(<rs type="person" ref="#amp_person_137">Dr. Wolfgang Kraus)</rs>
+                  <lb/><space quantity="30" unit="char"/>(<rs type="person" ref="#amp_person_137">Dr. Wolfgang Kraus</rs>)
                 </signed>
               </closer>
             </div>
