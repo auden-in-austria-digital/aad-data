@@ -91,7 +91,7 @@
                   <handNote/>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="type_cc_kraus" scribeRef="#amp_person_137" medium="type-cc">Carbon copy of typewriting authored by Wolfgang Kraus</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
