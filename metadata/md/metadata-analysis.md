@@ -121,6 +121,8 @@ doc
 0115         Bronold, Hella                                                                                                 Copy Typed Letter Hella Bronold to W. H. Auden 1973-09-24                         Vienna
 0116        Kraus, Wolfgang                                                                                                Copy Typed Letter Wolfgang Kraus to W. H. Auden 1973-08-06                         Vienna
 0117        Kraus, Wolfgang                                                                                                Copy Typed Letter Wolfgang Kraus to W. H. Auden 1973-07-31                         Vienna
+0118         Bronold, Hella                                                                                                 Copy Typed Letter Hella Bronold to W. H. Auden 1973-07-20                         Vienna
+0119         Bronold, Hella                                                                                                 Copy Typed Letter Hella Bronold to W. H. Auden 1973-06-22                         Vienna
 ```
 
 ### distribution per month
@@ -158,30 +160,30 @@ dtype: int64
 ### `df.info()`
 ```
 <class 'pandas.DataFrame'>
-RangeIndex: 364 entries, 0 to 363
+RangeIndex: 368 entries, 0 to 367
 Data columns (total 19 columns):
  #   Column          Non-Null Count  Dtype
 ---  ------          --------------  -----
- 0   img             364 non-null    int64
- 1   lrx             364 non-null    int64
- 2   lry             364 non-null    int64
- 3   width           364 non-null    int64
- 4   height          364 non-null    int64
- 5   type            364 non-null    str  
- 6   ed              364 non-null    str  
- 7   doc             364 non-null    str  
- 8   title           364 non-null    str  
- 9   author          364 non-null    str  
- 10  author-uri      364 non-null    str  
- 11  notBefore-iso   364 non-null    str  
- 12  notAfter-iso    364 non-null    str  
- 13  place           364 non-null    str  
- 14  place-uri       364 non-null    str  
- 15  repository      364 non-null    str  
- 16  repository-uri  364 non-null    str  
- 17  collection      364 non-null    str  
- 18  idno            364 non-null    str  
+ 0   img             368 non-null    int64
+ 1   lrx             368 non-null    int64
+ 2   lry             368 non-null    int64
+ 3   width           368 non-null    int64
+ 4   height          368 non-null    int64
+ 5   type            368 non-null    str  
+ 6   ed              368 non-null    str  
+ 7   doc             368 non-null    str  
+ 8   title           368 non-null    str  
+ 9   author          368 non-null    str  
+ 10  author-uri      368 non-null    str  
+ 11  notBefore-iso   368 non-null    str  
+ 12  notAfter-iso    368 non-null    str  
+ 13  place           368 non-null    str  
+ 14  place-uri       368 non-null    str  
+ 15  repository      368 non-null    str  
+ 16  repository-uri  368 non-null    str  
+ 17  collection      368 non-null    str  
+ 18  idno            368 non-null    str  
 dtypes: int64(5), str(14)
-memory usage: 54.2 KB
+memory usage: 54.8 KB
 
 ```
