@@ -133,7 +133,7 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0114" xml:lang="">
+      <div type="transcription" xml:id="transcription_aad_0114" xml:lang="de">
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00385/" ed="1r" type="sheet"/>
           <div>
@@ -149,7 +149,7 @@
                 </date>
               </dateline>
               <salute>
-                <lb/>Lieber <rs type="person" ref="amp_person_129">Herr Benning</rs><subst><del rend="erased" hand="#type_cc_bronold">?</del><add place="superimposed" hand="#type_cc_bronold">,</add></subst>
+                <lb/>Lieber <rs type="person" ref="#amp_person_129">Herr Benning</rs><subst><del rend="erased" hand="#type_cc_bronold">?</del><add place="superimposed" hand="#type_cc_bronold">,</add></subst>
               </salute>
             </opener>
             <p>
