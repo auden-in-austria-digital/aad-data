@@ -145,20 +145,20 @@
             </date>
           </dateline>
           <salute>
-            <lb/>Dear <rs>Mr. Auden</rs>,</salute>
+            <lb/>Dear <rs type="person" ref="#amp_person_1">Mr. Auden</rs>,</salute>
         </opener>
         <p>
-          <lb/><space quantity="4" unit="char"/><rs>Dr. Kraus</rs> is not in <rs>Vienna</rs>, and I do not know
-          <lb/>for certain whether you have finally agreed to the
+          <lb/><space quantity="4" unit="char"/><rs type="person" ref="#amp_person_137">Dr. Kraus</rs> is not in <rs type="place" ref="amp_place_id_1">Vienna</rs>, and I do not know
+          <lb/>for cert<subst><del>e</del><add>a</add></subst>in whether you have finally agreed to the
           <lb/>date of the presentation for your book: we would
           <lb/>like to do it on Friday, 28th of September. 20h.
           <lb/>We would like you to read some poems in English,
-          <lb/>some other would be read in German by an actor
-          <lb/>from the <rs>Burgtheater</rs>.
+          <lb/>some othe<hi rend="collision">rs</hi> would be read in German by an actor
+          <lb/>from the <rs type="organization" ref="amp_organization_59">Burgtheater</rs>.
         </p>
         <p>
-          <lb/><space quantity="4" unit="char"/>I am going on vacation, but somebody will be in
-          <lb/>the office all over the summer. So, please, dconfirm
+          <lb/><space quantity="4" unit="char"/>I am going on vacation, but some<unclear reason="faint">b</unclear>ody will be in
+          <lb/>the office all over the summer. So, please, <subst><del rend=" hand="#type_cc_bronold">d</del><add>c</add></subst>onfirm
           <lb/>the date.
         </p>
         <closer>
@@ -166,7 +166,7 @@
             <lb/><space quantity="26" unit="char"/>Sincerely yours,
           </salute>
           <signed>
-            <lb/><space quantity="26" unit="char"/>(<rs>Hela Bronold</rs>)
+            <lb/><space quantity="26" unit="char"/>(<rs type="person" ref="#amp_person_135">Hela Bronold</rs>)
           </signed>
         </closer>
       </div>  
