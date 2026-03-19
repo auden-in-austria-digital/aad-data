@@ -91,7 +91,7 @@
                   <handNote/>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="type_cc_bronold" scribeRef="#amp_person_135" medium="type-cc">Carbon copy of typewriting authored by Hella Bronold</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -115,11 +115,12 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="en"/>
       </langUsage>
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2026-03-18">TEI/XML template populated with csv2xml.py</change>
+      <change who="#ahechtl" when-iso="2026-03-19">add basic structure to document</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -132,9 +133,22 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0118" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0118" xml:lang="en">
+        <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00393/" ed="1r" type="sheet"/>
+      <div type="letter_message" hand="#type_cc_bronold">
+        <opener>
+          <dateline></dateline>
+          <salute></salute>
+        </opener>
+        <p></p>
+        <p></p>
+        <closer>
+          <salute></salute>
+          <signed></signed>
+        </closer>
+      </div>  
+        </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00394/" ed="1v" type="sheet"/>
       </div>
     </body>
