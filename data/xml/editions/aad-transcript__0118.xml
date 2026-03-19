@@ -122,6 +122,8 @@
       <change who="#tfruehwirth" when-iso="2026-03-18">TEI/XML template populated with csv2xml.py</change>
       <change who="#ahechtl" when-iso="2026-03-19">add basic structure to document</change>
       <change who="#ahechtl" when-iso="2026-03-19">add basic transcription, entities</change>
+      <change who="#ahechtl" when-iso="2026-03-20">add textual features</change>
+      <change who="#ahechtl" when-iso="2026-03-20">finetuning</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -149,16 +151,16 @@
         </opener>
         <p>
           <lb/><space quantity="4" unit="char"/><rs type="person" ref="#amp_person_137">Dr. Kraus</rs> is not in <rs type="place" ref="amp_place_id_1">Vienna</rs>, and I do not know
-          <lb/>for cert<subst><del>e</del><add>a</add></subst>in whether you have finally agreed to the
-          <lb/>date of the presentation for your book: we would
+          <lb/>for cert<subst><del rend="erased" hand="#type_cc_bronold">e</del><add place="superimposed" hand="#type_cc_bronold">a</add></subst>in whether you have finally agreed to the
+          <lb/>date of the presentation for your book: <space quantity="1" unit="char"/>we would
           <lb/>like to do it on Friday, 28th of September. 20h.
           <lb/>We would like you to read some poems in English,
           <lb/>some othe<hi rend="collision">rs</hi> would be read in German by an actor
-          <lb/>from the <rs type="organization" ref="amp_organization_59">Burgtheater</rs>.
+          <lb/>from the <rs type="org" ref="#amp_organization_59">Burgtheater</rs>.
         </p>
         <p>
           <lb/><space quantity="4" unit="char"/>I am going on vacation, but some<unclear reason="faint">b</unclear>ody will be in
-          <lb/>the office all over the summer. So, please, <subst><del rend=" hand="#type_cc_bronold">d</del><add>c</add></subst>onfirm
+          <lb/>the office all over the summer. So, please, <subst><del rend="erased" hand="#type_cc_bronold">d</del><add place="superimposed" hand="#type_cc_bronold">c</add></subst>onfirm
           <lb/>the date.
         </p>
         <closer>
