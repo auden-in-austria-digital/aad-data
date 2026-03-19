@@ -121,6 +121,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2026-03-18">TEI/XML template populated with csv2xml.py</change>
       <change who="#ahechtl" when-iso="2026-03-19">add basic structure to document</change>
+      <change who="#ahechtl" when-iso="2026-03-19">add basic transcription, entities</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -138,14 +139,35 @@
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00393/" ed="1r" type="sheet"/>
       <div type="letter_message" hand="#type_cc_bronold">
         <opener>
-          <dateline></dateline>
-          <salute></salute>
+          <dateline>
+            <date>
+              <lb/><space quantity="21" unit="char"/>July 20th, l973.
+            </date>
+          </dateline>
+          <salute>
+            <lb/>Dear <rs>Mr. Auden</rs>,</salute>
         </opener>
-        <p></p>
-        <p></p>
+        <p>
+          <lb/><space quantity="4" unit="char"/><rs>Dr. Kraus</rs> is not in <rs>Vienna</rs>, and I do not know
+          <lb/>for certain whether you have finally agreed to the
+          <lb/>date of the presentation for your book: we would
+          <lb/>like to do it on Friday, 28th of September. 20h.
+          <lb/>We would like you to read some poems in English,
+          <lb/>some other would be read in German by an actor
+          <lb/>from the <rs>Burgtheater</rs>.
+        </p>
+        <p>
+          <lb/><space quantity="4" unit="char"/>I am going on vacation, but somebody will be in
+          <lb/>the office all over the summer. So, please, dconfirm
+          <lb/>the date.
+        </p>
         <closer>
-          <salute></salute>
-          <signed></signed>
+          <salute>
+            <lb/><space quantity="26" unit="char"/>Sincerely yours,
+          </salute>
+          <signed>
+            <lb/><space quantity="26" unit="char"/>(<rs>Hela Bronold</rs>)
+          </signed>
         </closer>
       </div>  
         </div>
