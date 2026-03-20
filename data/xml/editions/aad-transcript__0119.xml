@@ -88,10 +88,10 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote/>
+                  <handNote xml:id="hand_gray_oegfl" scribeRef="#amp_organization_9" medium="pencil">Handwriting in pencil authored by <rs type="org" ref="#amp_organization_9">Austrian Society for Literature</rs></handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="type_cc_bronold" scribeRef="#amp_person_135" medium="type-cc">Carbon copy of typewriting authored by Hella Bronold</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -115,11 +115,12 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="en"/>
       </langUsage>
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2026-03-18">TEI/XML template populated with csv2xml.py</change>
+      <change who="#ahechtl" when-iso="2026-03-20">add basic structure to document</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -132,10 +133,24 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0119" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0119" xml:lang="en">
+        <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00395/" ed="1r" type="sheet"/>
+        <opener>
+          <dateline></dateline>
+          <salute></salute>
+        </opener>
+        <p>
+          <lb/>
+        </p>
+        <closer>
+          <salute>
+          </salute>
+          <signed>
+          </signed>
+        </closer>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00396/" ed="1v" type="sheet"/>
+        </div>
       </div>
     </body>
   </text>
