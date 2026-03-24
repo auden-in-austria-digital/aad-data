@@ -9,7 +9,7 @@
       <titleStmt>
         <title level="s">Auden in Austria Digital (AAD)</title>
         <title level="a">Copy Typed Letter Hella Bronold to Achim Benning 1973-09-12</title>
-        <author ref="https://d-nb.info/gnd/1206944536" xml:id="ana_109">Bronold, Hella</author>
+        <author ref="https://d-nb.info/gnd/1206944536" ana="#ana_110">Bronold, Hella</author>
         <editor>
           <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
           <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
@@ -178,7 +178,7 @@
               <lb/>die Länge betrifft, so weiss ich nicht, ob ich genug oder zu
               <lb/>viel ausgewählt habe. <space unit="char" quantity="1"/><subst><del rend="overtyped" hand="#type_cc_bronold">E</del><add place="superimposed" hand="#type_cc_bronold">I</add></subst>hre Lesung soll 35 bis 40 Minuten
               <lb/>dauern. <space unit="char" quantity="1"/>Wenn es zuviel ist, so bitte ich Sie nur zu beachten,
-              <lb/>dass Sie von <rs type="person" ref="amp_person_214 amp_person_220 amp_person_222 amp_person_173 amp_person_78 amp_person_216 amp_person_218">jedem <subst><del rend="overtyped" hand="#type_cc_bronold">P</del><add place="superimposed" hand="#type_cc_bronold">Ü</add></subst>bersetzer</rs> ein Gedicht überlassen - sonst
+              <lb/>dass Sie von <rs type="person" ref="#amp_person_214 #amp_person_220 #amp_person_222 #amp_person_173 #amp_person_78 #amp_person_216 #amp_person_218">jedem <subst><del rend="overtyped" hand="#type_cc_bronold">P</del><add place="superimposed" hand="#type_cc_bronold">Ü</add></subst>bersetzer</rs> ein Gedicht überlassen - sonst
               <lb/>gibt's wi<add place="inline" hand="#type_cc_bronold">e</add>der Verstimmungen.
             </p>
             <closer>
