@@ -136,17 +136,35 @@
       <div type="transcription" xml:id="transcription_aad_0119" xml:lang="en">
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00395/" ed="1r" type="sheet"/>
+        <div>
+            <ab hand="#hand_gray_oegfl">
+              <lb/>A2
+            </ab>
+          </div>
         <opener>
-          <dateline></dateline>
-          <salute></salute>
+          <dateline>
+            <lb/>June 22nd, l973.
+          </dateline>
+          <salute>
+            <lb/>Dear Mr. Auden,
+          </salute>
         </opener>
         <p>
-          <lb/>
+          <lb/>This is just to enquire: did yau obtain a
+          <lb/>settlement satsifactory for you with the revenue
+          <lb/>people or will further efforts on our and the
+          <lb/>Chancellory's part be necessary? People are going
+          <lb/>on vacation, and we would like to know.
         </p>
         <closer>
           <salute>
+            <lb/>With kindest regards from Dr. Kraus,
+          </salute>
+          <salute>
+            <lb/>Sincerely yours,
           </salute>
           <signed>
+            <lb/>(ella Bronold)
           </signed>
         </closer>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00396/" ed="1v" type="sheet"/>
