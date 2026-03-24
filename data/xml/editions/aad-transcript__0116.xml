@@ -120,8 +120,8 @@
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2026-03-11">TEI/XML template populated with csv2xml.py</change>
-      <change who="#ahechtl" when-iso="2026-03-11">add lang, basic structure</change>
-      <change who="#ahechtl" when-iso="2026-03-16">add transcription</change>
+      <change who="#ahechtl" when-iso="2026-03-11">add lang, basic structure of physDesc</change>
+      <change who="#ahechtl" when-iso="2026-03-16">text transcribed</change>
       <change who="#ahechtl" when-iso="2026-03-17">add entities: persons, dates, places</change>
     </revisionDesc>
   </teiHeader>
@@ -163,20 +163,22 @@
               </salute>         
             </opener>
               <p>
-                <lb/><space unit="char" quantity="5"/>mein <rs type="person" ref="#amp_person_320">Freund Zbigniew Herbert</rs> wird am <date when="1973-08-09">Donnerstag, den 9.</date>
-                <lb/>und Freitag, den <date when="1973-08-10">10. August</date> in <rs type="place" ref="#amp_place_id_1">Wien</rs> sein. Wir würden uns sehr
+                <lb/><space unit="char" quantity="5"/>mein Freund <rs type="person" ref="#amp_person_320">Zbigniew Herbert</rs> wird am Donnerstag, den 9.
+                <lb/>und Freitag, den 10. August in <rs type="place" ref="#amp_place_id_1">Wien</rs> sein. Wir würden uns sehr
                 <lb/>freuen, wenn wir Sie an einem dieser beiden Tage zum Tee be-
                 <lb/>suchen könnten, so etwa um 1/2 5 Uhr. Lassen Sie mich doch
                 <lb/>bitte mit einer Zeile wissen, ob und an welchem Tag es Ihnen
                 <lb/>recht ist.
               </p>
               <p>
-                <lb/><space quantity="5" unit="char"/>Hoffentlich geht es Ihnen trotz der Hitze gut und, die
+                <lb/><space quantity="5" unit="char"/>Hoffentlich geht es Ihnen trotz der Hitze gut und<subst><del rend="erased" hand="#type_cc_kraus"><gap unit="char" quantity="1" reason="illegible"/></del><add place="superimposed" hand="#type_cc_kraus"><space quantity="1" unit="char"/></add></subst>die
                 <lb/>Arbeit gedeiht!
               </p>
               <closer>
                 <salute>
                   <lb/><space quantity="5" unit="char"/>Alle guten Wünsche und Grüsse
+                </salute>
+                <salute>
                   <lb/><space quantity="40" unit="char"/>Ihr
                 </salute>
                 <signed>
