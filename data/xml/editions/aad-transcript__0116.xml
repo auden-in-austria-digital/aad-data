@@ -144,7 +144,7 @@
                 <lb/><rs type="person" ref="#amp_person_137">Dr. Wolfgang Kraus</rs>
               </persName>
               <address>
-                  <lb/><rs type="place" ref="#amp_place_423">Berggasse 6/9
+                  <lb/><rs type="place" ref="#amp_place_id_423">Berggasse 6/9
                   <lb/>1090 Wien</rs>
               </address>
               <persName>
@@ -153,7 +153,7 @@
               </persName>
               <address>
                 <lb/><rs type="place" ref="#amp_place_id_2">Hinterholz 6
-                <lb/>3062 Kirchstetten</rs> <space quantity="20" unit="char"/></address><space unit="char" quantity="22"/><dateline><placeName><rs type="place" ref="#amp_place_1">Wien</rs></placeName>, <date>6. August 1973</date></dateline>
+                <lb/>3062 Kirchstetten</rs> <space quantity="20" unit="char"/></address><space unit="char" quantity="22"/><dateline><placeName><rs type="place" ref="#amp_place_id_1">Wien</rs></placeName>, <date>6. August 1973</date></dateline>
               <salute>
                 <lb/>Lieber <rs type="person" ref="#amp_person_1">Herr Auden</rs>,
               </salute>         
