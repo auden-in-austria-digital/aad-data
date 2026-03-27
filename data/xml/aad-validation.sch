@@ -44,8 +44,8 @@
                 at least one change element must contain string "physDesc"
             </sch:assert>
             
-            <sch:assert test="tei:change[contains(., 'transcribed')]">
-                at least one change element must contain string "transcribed"
+            <sch:assert test="tei:change[contains(., 'transcribed')] or tei:change[contains(., 'transcription')]">
+                at least one change element must contain string "transcribed" or "transcription"
             </sch:assert>
             
             <sch:assert test="tei:change[contains(., 'entities')] or tei:change[contains(., 'Entities')]">
