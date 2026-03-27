@@ -121,6 +121,8 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2026-03-18">TEI/XML template populated with csv2xml.py</change>
       <change who="#ahechtl" when-iso="2026-03-20">add basic structure to document</change>
+      <change who="#ahechtl" when-iso="2026-03-26">populate physDesc, transcription</change>
+      <change who="#ahechtl" when-iso="2026-03-27">entity markup, encoding of textual phenomena</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -140,33 +142,35 @@
             <ab hand="#hand_gray_oegfl">
               <lb/>A2
             </ab>
-          </div>
+        </div>
+        <div type="letter_message" hand="#type_cc_bronold">
         <opener>
           <dateline>
-            <lb/>June 22nd, l973.
+            <lb/><space quantity="25" unit="char"/><date>June 22nd, l973</date>.
           </dateline>
           <salute>
-            <lb/>Dear Mr. Auden,
+            <lb/>Dear <rs type="person" ref="#amp_person_1"><hi rend="raised">M</hi>r. Auden</rs>,
           </salute>
         </opener>
         <p>
-          <lb/>This is just to enquire: did yau obtain a
+          <lb/><space quantity="5" unit="char"/>This is just to enquire: did y<subst><del rend="erased" hand="#type_cc_bronold" cert="medium">c</del><add place="superimposed" hand="#type_cc_bronold">o</add></subst>u obtain a
           <lb/>settlement satsifactory for you with the revenue
           <lb/>people or will further efforts on our and the
-          <lb/>Chancellory's part be necessary? People are going
+          <lb/><rs type="person" ref="#amp_person_282">Chancellory's</rs> part be necessary? People are going
           <lb/>on vacation, and we would like to know.
         </p>
         <closer>
           <salute>
-            <lb/>With kindest regards from Dr. Kraus,
+            <lb/><space quantity="7" unit="char"/>With kindest regards from <rs type="person" ref="#amp_person_137">Dr. Kraus</rs>,
           </salute>
           <salute>
-            <lb/>Sincerely yours,
+            <lb/><space quantity="31" unit="char"/>Sincerely yours,
           </salute>
           <signed>
-            <lb/>(ella Bronold)
+            <lb/><hi rend="raised">(</hi><rs type="person" ref="#amp_person_135"><hi rend="raised">H</hi>ella <hi rend="raised">B</hi>ronold</rs>)
           </signed>
         </closer>
+        </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00396/" ed="1v" type="sheet"/>
         </div>
       </div>
