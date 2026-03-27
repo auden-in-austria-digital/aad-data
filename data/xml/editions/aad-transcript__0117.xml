@@ -120,8 +120,9 @@
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2026-03-18">TEI/XML template populated with csv2xml.py</change>
-      <change who="#ahechtl" when-iso="2026-03-18">add basic structure, metadata, transcription</change>
+      <change who="#ahechtl" when-iso="2026-03-18">add basic structure, metadata, transcription, populate physDesc</change>
       <change who="#ahechtl" when-iso="2026-03-18">add entities: persons, places and dates</change>
+      <change who="#ahechtl" when-iso="2026-03-27">remove encoded dates in transcription</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -137,30 +138,32 @@
       <div type="transcription" xml:id="transcription_aad_0117" xml:lang="de">
         <div/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00391/" ed="1r" type="sheet"/>
-        <div type="letter_message" hand="type_cc_kraus">
+        <div type="letter_message" hand="#type_cc_kraus">
           <opener>
             <persName>
               <lb/><rs type="person" ref="#amp_person_1">Herrn
               <lb/>W. H. Auden</rs>
-          </persName>
-          <address>
-              <lb/><rs type="place" ref="#amp_place_id_2">Hinterholz 6
-              <lb/>3062 Kirchstetten</rs>
-            </address>
-            <dateline>
-              <date>Wien, 31. Juli 1973</date>
-            </dateline>
+            </persName>
+            <placeName>
+              <address>
+                <lb/><rs type="place" ref="#amp_place_id_2">Hinterholz 6
+                <lb/>3062 Kirchstetten</rs>
+              </address>
+            </placeName>
+          <dateline>
+              <date><rs type="place" ref="#amp_place_id_1">Wien</rs>, 31. Juli 1973</date>
+          </dateline>
             <salute>
               <lb/>Lieber <rs type="person" ref="#amp_person_1">Herr Auden</rs>,
             </salute>
           </opener>
           <p>
-            <lb/><space quantity="5" unit="char"/><rs type="person" ref="amp_person_135">Frau Bronold</rs>, die eben auf Urlaub gefahren ist, hinter-
-            <lb/>läßt mir die Nachricht, daß Sie zwar auch am <date when="1973-09-28">28. September</date>
-            <lb/>abends bei uns lesen können, Ihnen aber der <date when="1973-09-27">27.</date> lieber wäre.
-            <lb/>Nun haben wir leider am <date when="1973-09-27">27. September</date> Schwierigkeiten mit
+            <lb/><space quantity="5" unit="char"/><rs type="person" ref="#amp_person_135">Frau Bronold</rs>, die eben auf Urlaub gefahren ist, hinter-
+            <lb/>läßt mir die Nachricht, daß Sie zwar auch am 28. September
+            <lb/>abends bei uns lesen können, Ihnen aber der 27. lieber wäre.
+            <lb/>Nun haben wir leider am 27. September Schwierigkeiten mit
             <lb/>dem Saal, weil dort irgendwelche Handwerker tätig sind, so
-            <lb/>wäre ich doch sehr dankbar, wenn wir den <date when="1973-09-28">28. September</date> fixie-
+            <lb/>wäre ich doch sehr dankbar, wenn wir den 28. September fixie-
             <lb/>ren könnten.
           </p>
           <p>
