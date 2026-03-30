@@ -150,7 +150,7 @@
             <lb/>Dear <rs type="person" ref="#amp_person_1">Mr. Auden</rs>,</salute>
         </opener>
         <p>
-          <lb/><space quantity="4" unit="char"/><rs type="person" ref="#amp_person_137">Dr. Kraus</rs> is not in <rs type="place" ref="amp_place_id_1">Vienna</rs>, and I do not know
+          <lb/><space quantity="4" unit="char"/><rs type="person" ref="#amp_person_137">Dr. Kraus</rs> is not in <rs type="place" ref="#amp_place_id_1">Vienna</rs>, and I do not know
           <lb/>for cert<subst><del rend="erased" hand="#type_cc_bronold">e</del><add place="superimposed" hand="#type_cc_bronold">a</add></subst>in whether you have finally agreed to the
           <lb/>date of the presentation for your book: <space quantity="1" unit="char"/>we would
           <lb/>like to do it on Friday, 28th of September. 20h.
