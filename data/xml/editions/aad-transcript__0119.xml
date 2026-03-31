@@ -97,7 +97,7 @@
               <history>
                 <origin>
                   <origDate notBefore-iso="1973-06-22T00:00:00+01:00" notAfter-iso="1973-06-22T23:59:59+01:00"/>
-                  <origPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</origPlace>
+                  <origPlace ref="https://d-nb.info/gnd/4066009-6" ana="acdh:aad-transcript__0104.xml#ana_108">Vienna</origPlace>
                 </origin>
               </history>
             </msDesc>
@@ -122,7 +122,7 @@
       <change who="#tfruehwirth" when-iso="2026-03-18">TEI/XML template populated with csv2xml.py</change>
       <change who="#ahechtl" when-iso="2026-03-20">add basic structure to document</change>
       <change who="#ahechtl" when-iso="2026-03-26">populate physDesc, transcription</change>
-      <change who="#ahechtl" when-iso="2026-03-27">entity markup, encoding of textual phenomena</change>
+      <change who="#ahechtl" when-iso="2026-03-27">entities markup, encoding of textual phenomena</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -149,14 +149,14 @@
             <lb/><space quantity="25" unit="char"/><date>June 22nd, l973</date>.
           </dateline>
           <salute>
-            <lb/>Dear <rs type="person" ref="#amp_person_1"><hi rend="raised">M</hi>r. Auden</rs>,
+            <lb/>Dear <rs type="person" ref="#amp_person_1">Mr. Auden</rs>,
           </salute>
         </opener>
         <p>
-          <lb/><space quantity="5" unit="char"/>This is just to enquire: did y<subst><del rend="erased" hand="#type_cc_bronold" cert="medium">c</del><add place="superimposed" hand="#type_cc_bronold">o</add></subst>u obtain a
-          <lb/>settlement satsifactory for you with the revenue
-          <lb/>people or will further efforts on our and the
-          <lb/><rs type="person" ref="#amp_person_282">Chancellory's</rs> part be necessary? People are going
+          <lb/><space quantity="5" unit="char"/>This is just to enquire: <space unit="char" quantity="1"/>did y<subst><del rend="erased" hand="#type_cc_bronold">i</del><add place="superimposed" hand="#type_cc_bronold">o</add></subst>u obtain a
+          <lb/><rs type="event" ref="#amp_event_id_45">settlement</rs> satsifactory for you with the <rs type="org" ref="#amp_organization_158">revenue
+          <lb/>people</rs> or will further efforts on our and the
+          <lb/><rs type="org" ref="#amp_organization_164">Chancellory</rs>'s part be necessary? <space unit="char" quantity="1"/>People are going
           <lb/>on vacation, and we would like to know.
         </p>
         <closer>
@@ -167,7 +167,7 @@
             <lb/><space quantity="31" unit="char"/>Sincerely yours,
           </salute>
           <signed>
-            <lb/><hi rend="raised">(</hi><rs type="person" ref="#amp_person_135"><hi rend="raised">H</hi>ella <hi rend="raised">B</hi>ronold</rs>)
+            <lb/><space quantity="30" unit="char"/>(<rs type="person" ref="#amp_person_135">Hella Bronold</rs>)
           </signed>
         </closer>
         </div>
