@@ -137,7 +137,7 @@
       <div type="transcription" xml:id="transcription_aad_0121" xml:lang="de">
         <div/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00399/" ed="1r" type="sheet"/>
-        <div>
+        <div type="letter_message" hand="#type_cc_urbach">
           <opener>
             <persName>
               <lb/><rs type="person" ref="#amp_person_220">Frau
