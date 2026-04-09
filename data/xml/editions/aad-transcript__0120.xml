@@ -30,7 +30,7 @@
         <edition>
           <title level="a">Copy Typed Letter Reinhard Urbach to W. H. Auden 1970-09-03</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_113">
               <desc/>
               <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -88,7 +88,7 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote xml:id="hand_black_urbach" scribeRef="#amp_person_284" medium="ink-black">Handwriting in pen by Reinhard Urbach</handNote>
+                  <handNote xml:id="hand_black_urbach" scribeRef="#amp_person_284" medium="ink-black">Handwriting in black ink by Reinhard Urbach</handNote>
                 </handDesc>
                 <typeDesc>
                   <typeNote xml:id="type_cc_urbach" scribeRef="#amp_person_284" medium="type-cc">Carbon copy of typewriting by Reinhard Urbach</typeNote>
@@ -136,9 +136,9 @@
   <text>
     <body>
       <div type="transcription" xml:id="transcription_aad_0120" xml:lang="de">
-        <div/>
+        <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00397/" ed="1r" type="sheet"/>
-        <div>
+          <div type="letter_message" hand="#type_cc_urbach">
           <opener>
             <persName>
               <lb/><rs type="person" ref="#amp_person_1">Herrn
@@ -147,11 +147,11 @@
             <placeName>
               <address>
                 <lb/><rs type="place" ref="#amp_place_id_2">Hinterholz 6
-                <lb/>3062 Kirchstetten</rs>
+                  <lb/>3062 <space quantity="1" unit="char"/>Kirchstetten</rs>
               </address>
           </placeName>
             <dateline>
-              <lb/><space quantity="38" unit="char"/><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>3. September 1970</date>
+              <lb/><space quantity="38" unit="char"/><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>3.September 1970</date>
             </dateline>
             <salute>
               <lb/>Lieber <rs type="person" ref="#amp_person_1">Herr Auden</rs>,
@@ -159,15 +159,15 @@
           </opener>
           <p>
             <lb/>verzeihen Sie bitte noch einmal, daß ich Sie gestern "überfallen"
-            <lb/>habe, aber die Zeit dräng<subst><del rend="erased" hand="#type_cc_urbach">g</del><add place="superimposed" hand="#type_cc_urbach">t</add><add place="inline" hand="#hand_black_urbach">e</add></subst> nun schon <subst><del rend="overtyped" hand="#type_cc_urbach" cert="low">g</del><add place="superimposed" hand="#type_cc_urbach">s</add></subst>ehr. Heute habe ich die Ge-
-            <lb/>dichte, die zu übersetzen sind, an <rs type="person" ref="#amp_person_78">Frau Dr.Spiel</rs> und <rs type="person" ref="#amp_person_220">Frau Staub</rs>
+            <lb/>habe, aber die Zeit dräng<unclear><subst><del rend="erased" hand="#type_cc_urbach">g</del><add place="superimposed" hand="#type_cc_urbach">t</add></subst></unclear><add place="inline" hand="#hand_black_urbach">e</add> nun schon <subst><del rend="overtyped" hand="#type_cc_urbach"><unclear>y</unclear></del><add place="superimposed" hand="#type_cc_urbach">s</add></subst>ehr. Heute habe ich die <rs type="lit_work" ref="#lit_work_id_37 #lit_work_id_107 #lit_work_id_161 #lit_work_id_38">Ge-
+            <lb/>dichte, die zu übersetzen sind</rs>, an <rs type="person" ref="#amp_person_78">Frau Dr.Spiel</rs> und <rs type="person" ref="#amp_person_220">Frau Staub</rs>
             <lb/>weitergegeben. Ich hoffe, daß Sie mit den Übersetzungen zufrieden
             <lb/>sein werden. Ich habe die <rs type="person" ref="#amp_person_78 #amp_person_220">beiden Damen</rs> gebeten, die Übersetzungen
-            <lb/>bis zum 20. September fertig zu machen. Danach werde ich sie Ihnen
+            <lb/>bis zum 20.September fertig zu machen. Danach werde ich sie Ihnen
             <lb/>gleich schicken.
           </p>
           <p>
-            <lb/>Heute möchte ich nur schnell die drei geliehenen Bücher zurück-
+            <lb/>Heute möchte ich nur schnell die <rs type="lit_work" ana="#ana_113">drei geliehenen Bücher</rs> zurück-
             <lb/>schicken.
           </p>
           <closer>
@@ -177,10 +177,9 @@
               <lb/><space quantity="39" unit="char"/>(<rs type="person" ref="#amp_person_284">Reinhard Urbach</rs>)
             </signed>
             </closer>
-          
-        </div>
-        
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00398/" ed="1v" type="sheet"/>
+                  </div>
+                <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00398/" ed="1v" type="sheet"/>
+          </div>
       </div>
     </body>
   </text>
