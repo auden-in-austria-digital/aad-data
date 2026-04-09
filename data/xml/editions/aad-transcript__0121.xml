@@ -141,12 +141,14 @@
           <opener>
             <persName>
               <lb/><rs type="person" ref="#amp_person_220">Frau
-              <lb/>Hertha Staub</rs>
+              <lb/><subst><del rend="overtyped" hand="#type_cc_urbach">F</del><add place="superimposed" hand="#type_cc_urbach">H</add></subst>ertha Staub</rs>
               </persName>
+            <orgName>
+              <lb/><rs type="org" ref="#amp_organization_233">Dokumentationsstelle</rs>
+            </orgName>
             <placeName>
               <address>
-                <lb/><rs type="place" ref="#amp_place_id_425">Dokumentationsstelle
-                <lb/>Gumpendorferstr. 15
+                <lb/><rs type="place" ref="#amp_place_id_425">Gumpendorferstr.15
                 <lb/>1060 Wien</rs>
               </address>
             </placeName>
@@ -156,13 +158,13 @@
             </salute>
           </opener>
           <p>
-            <lb/>leider komme ich erst heute dazu, Ihnen die Gedichte von <rs type="person" ref="#amp_person_1">Auden</rs>
+            <lb/>leider komme ich erst heute dazu, Ihnen die <rs type="lit_work" ref="#lit_work_id_161 #lit_work_id_38 #lit_work_id_324 #lit_work_id_325" ana="acdh:aad-typescript__0120.xml#ana_114">Gedichte von <rs type="person" ref="#amp_person_1">Auden</rs></rs>
             <lb/>zu schicken, mit der Bitte sie zu übersetzen. Die Zeit drängt
             <lb/>schon sehr, aber wir haben erst gestern von <rs type="person" ref="#amp_person_1">Herrn Auden</rs> die Be-
             <lb/>stätigung bekommen, daß er Sie mit der Übersetzung betraut sehen
             <lb/>möchte und Ihnen für diese vier Übersetzungen auch die Autorisa-
-            <lb/>tion gibt. Ich könnte mir denken, daß entweder "<rs>Literatur und
-            <lb/>Kritik</rs>" oder "<rs>Wort und Wahrheit</rs>" sehr an der Publikation dieser
+            <lb/>tion gibt. Ich könnte mir denken, daß entweder "<rs type="org" ref="#amp_organization_231">Literatur und
+            <lb/>Kritik</rs>" oder "<rs type="org" ref="#amp_organization_232">Wort und Wahrheit</rs>" sehr an der Publikation dieser
             <lb/>Übersetzungen interessiert wären; zumindest würde ich mich sehr
             <lb/>dafür einsetzen, daß die Gedichte später auch gedruckt werden.
             <lb/>Es ist mir klar, daß ich Ihnen eine große Last aufbürde, aber

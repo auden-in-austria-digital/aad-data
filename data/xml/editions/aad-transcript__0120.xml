@@ -35,6 +35,11 @@
               <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
             </interp>
+            <interp xml:id="ana_114">
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
           </interpGrp>
         </edition>
         <respStmt>
@@ -159,7 +164,7 @@
           </opener>
           <p>
             <lb/>verzeihen Sie bitte noch einmal, daß ich Sie gestern "überfallen"
-            <lb/>habe, aber die Zeit dräng<unclear><subst><del rend="erased" hand="#type_cc_urbach">g</del><add place="superimposed" hand="#type_cc_urbach">t</add></subst></unclear><add place="inline" hand="#hand_black_urbach">e</add> nun schon <subst><del rend="overtyped" hand="#type_cc_urbach"><unclear>y</unclear></del><add place="superimposed" hand="#type_cc_urbach">s</add></subst>ehr. Heute habe ich die <rs type="lit_work" ref="#lit_work_id_37 #lit_work_id_107 #lit_work_id_161 #lit_work_id_38">Ge-
+            <lb/>habe, aber die Zeit dräng<unclear><subst><del rend="erased" hand="#type_cc_urbach">g</del><add place="superimposed" hand="#type_cc_urbach">t</add></subst></unclear><add place="inline" hand="#hand_black_urbach">e</add> nun schon <subst><del rend="overtyped" hand="#type_cc_urbach"><unclear>y</unclear></del><add place="superimposed" hand="#type_cc_urbach">s</add></subst>ehr. Heute habe ich die <rs type="lit_work" ref="#lit_work_id_37 #lit_work_id_107 #lit_work_id_161 #lit_work_id_38 #lit_work_id_324 #lit_work_id_325" ana="#ana_114">Ge-
             <lb/>dichte, die zu übersetzen sind</rs>, an <rs type="person" ref="#amp_person_78">Frau Dr.Spiel</rs> und <rs type="person" ref="#amp_person_220">Frau Staub</rs>
             <lb/>weitergegeben. Ich hoffe, daß Sie mit den Übersetzungen zufrieden
             <lb/>sein werden. Ich habe die <rs type="person" ref="#amp_person_78 #amp_person_220">beiden Damen</rs> gebeten, die Übersetzungen
