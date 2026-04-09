@@ -135,7 +135,7 @@
   <text>
     <body>
       <div type="transcription" xml:id="transcription_aad_0121" xml:lang="de">
-        <div/>
+        <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00399/" ed="1r" type="sheet"/>
         <div type="letter_message" hand="#type_cc_urbach">
           <opener>
@@ -181,6 +181,7 @@
           </closer>
         </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00400/" ed="1v" type="sheet"/>
+      </div>
       </div>
     </body>
   </text>
