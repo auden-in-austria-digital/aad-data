@@ -209,25 +209,29 @@
               <lb/><rs type="person" ref="#amp_person_1">W.H. Auden</rs>
             </signed>
           </closer>
-      </div type="enclosure">
+        </div>
+      <div type="enclosure">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00404/" ed="1v" type="sheet"/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00401/" ed="2r" type="sheet"/>
         <div type="letter" hand="#type_cc_auden ">
-        </lb>3062 KIRCHSTETTEN
-        </lb>BEZ. ST. POLTEN
-        </lb>HINTERHOLZ 8
-        </lb>N.-Ö. AUSTRIA
-        </lb>A-2 Auden
-        </lb>From <hi rend="underline">ABOUT THE HOUSE</hi>
-        </lb>4 The Cave of Making (p 8-II)
-        </lb>from <hi rend="underline">CITY WITHOUT WALIS</hi>
-        </lb>1In Memoriam Emma Eiermann/ (p 2I-23)
-        </lb>1Prologue at Sixty (p II7-I2I)
-        </lb>From <hi>Cxoxlxlxexcxtxexdx xSxxx COLLECTED SHORTER POEMS</hi>
-        </lb>nein 1In Praise of Limestone (p 238-24I)
-        </lb>Unpublished/in book form.
-        </lb>nein 2Old People's Home (enclosed)
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00402/" ed="2v" type="sheet"/>
+        <lb/>3062 KIRCHSTETTEN
+        <lb/>BEZ. ST. POLTEN
+        <lb/>HINTERHOLZ 8
+        <lb/>N.-Ö. AUSTRIA
+        <lb/>A-2 Auden
+        <lb/>From <hi rend="underline">ABOUT THE HOUSE</hi>
+        <lb/>4 The Cave of Making (p 8-II)
+        <lb/>from <hi rend="underline">CITY WITHOUT WALIS</hi>
+        <lb/>1In Memoriam Emma Eiermann/ (p 2I-23)
+        <lb/>1Prologue at Sixty (p II7-I2I)
+        <lb/>From <hi>Cxoxlxlxexcxtxexdx xSxxx COLLECTED SHORTER POEMS</hi>
+        <lb/>nein 1In Praise of Limestone (p 238-24I)
+        <lb/>Unpublished/in book form.
+        <lb/>nein 2Old People's Home (enclosed)
+        </div>
+      </div>
+      <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00402/" ed="2v" type="sheet"/>
+      </div>
       </div>
     </body>
   </text>
