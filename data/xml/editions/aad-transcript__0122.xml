@@ -99,6 +99,9 @@
                   <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
                   <handNote xml:id="hand_blue_urbach" scribeRef="#amp_person_284" medium="ink-blue">Handwriting in blue ink by Reinhard Urbach</handNote>
                   <handNote xml:id="hand_gray_onb" scribeRef="#amp_organization_156" medium="pencil">Handwriting in pencil authored by <rs type="org" ref="#amp_organization_156">Austrian National Library</rs></handNote>
+                  <handNote xml:id="hand_gray_unident_0122_01" medium="pencil">Handwriting in pencil by unidentified writer</handNote>
+                  <handNote xml:id="hand_gray_unident_0122_02" medium="pencil">Handwriting in pencil by unidentified writer</handNote>
+                  <handNote xml:id="hand_gray_unident_0122_03" medium="pencil">Handwriting in pencil by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
                   <typeNote xml:id="type_cc_urbach" scribeRef="#amp_person_284" medium="type-cc">Carbon copy of typewriting by Reinhard Urbach</typeNote>
@@ -164,63 +167,66 @@
             </persName>
             <placeName>
               <address>
-                <lb/>3062 Kirchstetten
-                <lb/>Hinterholz 6
+                <lb/><rs type="place" ref="#amp_place_id_2">3062 Kirchstetten
+                <lb/>Hinterholz 6</rs>
               </address>
             </placeName>
-            <dateline><lb/><rs type="place" ref="#amp_place_id_1">Wien</rs>, 11.August 1970</dateline>  
+            <dateline><lb/><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>11.August 1970</date></dateline>  
             <salute>
               <lb/>Sehr verehrter <rs type="person" ref="#amp_person_1">Herr Auden</rs>!
             </salute>
           </opener>
           <p>
-            <lb/>Im Namen von <rs>Dr. Kraus</rs> möchte ich Ihnen sehr herzlich für Ihren
-            <lb/>Brief danken. Wir haben hier "<rs>About the house</rs>" und würden uns
-            <lb/>sehr freuen, wenn Sie uns "<rs>City without walls</rs>" für kurze Zeit
+            <lb/>Im Namen von <rs type="person" ref="#amp_person_137">Dr. Kraus</rs> möchte ich Ihnen sehr herzlich für Ihren
+            <lb/>Brief danken. Wir haben hier "<rs type="lit_work" ref="#lit_work_id_134">About the house</rs>" und würden uns
+            <lb/>sehr freuen, wenn Sie uns "<rs type="lit_work" ref="#lit_work_id_137">City without walls</rs>" für kurze Zeit
             <lb/>zur Verfügung stellen könnten. Vielleicht könnten Sie auch an-
-            <lb/>streichen, welche Gedichte aus den beiden Bänden Sie übersetzt
+            <lb/>streichen, welche Gedichte aus den <rs>beiden Bänden</rs> Sie übersetzt
             <lb/>haben wollen. Es genügt natürlich, wenn Sie uns den Band mit der
-            <lb/>Post schicken. Wir wollen Ihnen mit einer Reise nach <rs>Wien</rs> keine
+            <lb/>Post schicken. Wir wollen Ihnen mit einer Reise nach <rs type="place" ref="#amp_place_id_1">Wien</rs> keine
             <lb/>Unannehmlichkeiten machen.
           </p>
           <closer>
             <lb/>Mit herzlichen Grüßen
-            <lb/>Ihr
-            <lb/><rs type="person" ref="#amp_person_284">Reinhard Urbach</rs>
+            <seg hand="#ink-blue_urbach">
+              <lb/>Ihr
+              <lb/><rs type="person" ref="#amp_person_284">Reinhard Urbach</rs>
+            </seg>
             <lb/>(<rs type="person" ref="#amp_person_284">Reinhard Urbach</rs>)
           </closer>
         </div>
 
-        <div type="enclosure">
+        <div type="enclosure" hand="#ink-blue_auden">
           <opener>
-            <lb/>Sehr ge verehrter <rs type="person" ref="#amp_person_284">Herr Urbach</rs>:
+            <lb/>Sehr <del>ge</del> verehrter <rs type="person" ref="#amp_person_284">Herr Urbach</rs>:
           </opener>
             <p>
-            </lb>Hiermit die Büche und
-            </lb>ein Lit
+            <lb/>Hiermit die Büche und
+            <lb/>ein List
           </p>
           <closer>
             <signed>
-              </lb><rs type="person" ref="#amp_person_1">W.H. Auden</rs>
+              <lb/><rs type="person" ref="#amp_person_1">W.H. Auden</rs>
             </signed>
           </closer>
       </div type="enclosure">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00404/" ed="1v" type="sheet"/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00401/" ed="2r" type="sheet"/>
+        <div type="letter" hand="#type_cc_auden ">
         </lb>3062 KIRCHSTETTEN
         </lb>BEZ. ST. POLTEN
         </lb>HINTERHOLZ 8
         </lb>N.-Ö. AUSTRIA
         </lb>A-2 Auden
-        </lb>From ABOUT THE HOUSE
-        </lb>The Cave of Making (p 8-II)
-        </lb>from CITY WITHOUT WALIS
-        </lb>In Memoriam Emma Eiermann (p 2I-23)
-        </lb>Prologue at Sixty (p II7-I2I)
-        </lb>From COLLECTED SHORTER POEMS
-        </lb>In Praise of Limestone (p 238-24I)
+        </lb>From <hi rend="underline">ABOUT THE HOUSE</hi>
+        </lb>4 The Cave of Making (p 8-II)
+        </lb>from <hi rend="underline">CITY WITHOUT WALIS</hi>
+        </lb>1In Memoriam Emma Eiermann/ (p 2I-23)
+        </lb>1Prologue at Sixty (p II7-I2I)
+        </lb>From <hi>Cxoxlxlxexcxtxexdx xSxxx COLLECTED SHORTER POEMS</hi>
+        </lb>nein 1In Praise of Limestone (p 238-24I)
         </lb>Unpublished/in book form.
-        </lb>aen Old People's Home (enclosed)
+        </lb>nein 2Old People's Home (enclosed)
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00402/" ed="2v" type="sheet"/>
       </div>
     </body>
