@@ -96,10 +96,13 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote/>
+                  <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
+                  <handNote xml:id="hand_blue_urbach" scribeRef="#amp_person_284" medium="ink-blue">Handwriting in blue ink by Reinhard Urbach</handNote>
+                  <handNote xml:id="hand_gray_onb" scribeRef="#amp_organization_156" medium="pencil">Handwriting in pencil authored by <rs type="org" ref="#amp_organization_156">Austrian National Library</rs></handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="type_cc_urbach" scribeRef="#amp_person_284" medium="type-cc">Carbon copy of typewriting by Reinhard Urbach</typeNote>
+                  <typeNote xml:id="type_cc_auden" scribeRef="#amp_person_1" medium="type-cc">Carbon copy of typewriting by W. H. Auden</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -123,11 +126,13 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="de"/>
+        <language ident="en"/>
       </langUsage>
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2026-04-22">TEI/XML template populated with csv2xml.py</change>
+      <change who="#ahechtl" when-iso="2026-04-22">add physDesc, structure, basic transcription</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -146,11 +151,76 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0122" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0122" xml:lang="de">
+        <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00403/" ed="1r" type="sheet"/>
+        <div type="letter_message" hand="#type_cc_urbach">
+          <opener>
+            <lb/>ÖSTERREICHISCHE GESELLSCHAFT FÜR LITERATUR
+            <lb/>PALAIS WILCZEK, 1O1O WIEN I, HERRENGASSE 5 TEL. 63 81 59, 63 08 64
+            <persName>
+              <lb/><rs type="person" ref="#amp_person_1">Herrn
+              <lb/>W.H.Auden</rs>
+            </persName>
+            <placeName>
+              <address>
+                <lb/>3062 Kirchstetten
+                <lb/>Hinterholz 6
+              </address>
+            </placeName>
+            <dateline><lb/><rs type="place" ref="#amp_place_id_1">Wien</rs>, 11.August 1970</dateline>  
+            <salute>
+              <lb/>Sehr verehrter <rs type="person" ref="#amp_person_1">Herr Auden</rs>!
+            </salute>
+          </opener>
+          <p>
+            <lb/>Im Namen von <rs>Dr. Kraus</rs> möchte ich Ihnen sehr herzlich für Ihren
+            <lb/>Brief danken. Wir haben hier "<rs>About the house</rs>" und würden uns
+            <lb/>sehr freuen, wenn Sie uns "<rs>City without walls</rs>" für kurze Zeit
+            <lb/>zur Verfügung stellen könnten. Vielleicht könnten Sie auch an-
+            <lb/>streichen, welche Gedichte aus den beiden Bänden Sie übersetzt
+            <lb/>haben wollen. Es genügt natürlich, wenn Sie uns den Band mit der
+            <lb/>Post schicken. Wir wollen Ihnen mit einer Reise nach <rs>Wien</rs> keine
+            <lb/>Unannehmlichkeiten machen.
+          </p>
+          <closer>
+            <lb/>Mit herzlichen Grüßen
+            <lb/>Ihr
+            <lb/><rs type="person" ref="#amp_person_284">Reinhard Urbach</rs>
+            <lb/>(<rs type="person" ref="#amp_person_284">Reinhard Urbach</rs>)
+          </closer>
+        </div>
+
+        <div type="enclosure">
+          <opener>
+            <lb/>Sehr ge verehrter <rs type="person" ref="#amp_person_284">Herr Urbach</rs>:
+          </opener>
+            <p>
+            </lb>Hiermit die Büche und
+            </lb>ein Lit
+          </p>
+          <closer>
+            <signed>
+              </lb><rs type="person" ref="#amp_person_1">W.H. Auden</rs>
+            </signed>
+          </closer>
+      </div type="enclosure">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00404/" ed="1v" type="sheet"/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00401/" ed="2r" type="sheet"/>
+        </lb>3062 KIRCHSTETTEN
+        </lb>BEZ. ST. POLTEN
+        </lb>HINTERHOLZ 8
+        </lb>N.-Ö. AUSTRIA
+        </lb>A-2 Auden
+        </lb>From ABOUT THE HOUSE
+        </lb>The Cave of Making (p 8-II)
+        </lb>from CITY WITHOUT WALIS
+        </lb>In Memoriam Emma Eiermann (p 2I-23)
+        </lb>Prologue at Sixty (p II7-I2I)
+        </lb>From COLLECTED SHORTER POEMS
+        </lb>In Praise of Limestone (p 238-24I)
+        </lb>Unpublished/in book form.
+        </lb>aen Old People's Home (enclosed)
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00402/" ed="2v" type="sheet"/>
       </div>
     </body>
