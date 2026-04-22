@@ -137,7 +137,7 @@
       <div type="transcription" xml:id="transcription_aad_0123" xml:lang="de">
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00405/" ed="1r" type="sheet"/>
-        <div tpye="letter_message" hand="#type_cc_urbach">
+        <div type="letter_message" hand="#type_cc_urbach">
           <opener>
             <persName>
               <lb/><rs type="person" ref="#amp_person_1">Herrn
@@ -157,10 +157,10 @@
             <lb/>haben <rs type="person" ref="#amp_person_78">Frau Prof.Hilde Spiel</rs> gefragt, ob sie von Ihnen Gedichte
             <lb/>übersetzen würde. Sie wäre dazu bereit, und nun möchte ich Sie
             <lb/>fragen, verehrter <rs type="person" ref="#amp_person_1">Herr Auden</rs>, ob Sie damit einverstanden sind,
-            <lb/>daß <rs type="person" ref="#amp_person_220">Frau Staub</rs> einige Gedichte übersetzt und sich die Arbeit
-            <lb/>mit <rs type="person" ref="#amp_person_1">Herr Auden</rs> teilt. Sie wissen vielleicht, daß Frau <rs type="person" ref="#amp_person_78">Prof.
+            <lb/>daß <rs type="person" ref="#amp_person_78">Frau Spiel</rs> einige Gedichte übersetzt und sich die Arbeit
+            <lb/>mit <rs type="person" ref="#amp_person_220">Frau Staub</rs> teilt. Sie wissen vielleicht, daß Frau <rs type="person" ref="#amp_person_78">Prof.
             <lb/>Spiel</rs> (Generalsekretärin der <rs type="org" ref="#amp_org_10">Österreichischen PEN-Clubs</rs>) Ihr
-            <lb/>letztes <rs type="lit_work" ref="#">Gedichtbuch</rs> in "Wort und Wahrheit" besprochen hat. Es
+            <lb/>letztes <rs type="lit_work" ref="#">Gedichtbuch</rs> in "<rs type="org" ref="#amp_organization_232">Wort und Wahrheit</rs>" besprochen hat. Es
             <lb/>besteht die Absicht, die von ihr übersetzten Gedichte in "<rs type="org" ref="#amp_organization_157">Ver
             <lb/>sacrum</rs>" abzudrucken. Die von <rs type="person" ref="#amp_person_220">Frau Staub</rs> übersetzten Gedichte
             <lb/>könnten leicht in "<rs type="org" ref="#amp_organization_231">Literatur und Kritik</rs>", der Österreichischen
@@ -168,7 +168,7 @@
           </p>
           <p>
             <lb/>Wir würden uns sehr freuen, wenn wir auf diese Weise Ihrem Werk
-            <lb/>in Österreich zu vermehrter Publikation verhelfen könnten. Nun
+            <lb/>in <rs type="place" ref="#amp_place_id_10">Österreich</rs> zu vermehrter Publikation verhelfen könnten. Nun
             <lb/>besteht aber doch die Frage, von der <rs type="person" ref="#amp_person_78">Frau Spiel</rs> die Übersetzung
             <lb/>abhängig gemacht hat: Wer hat die Rechte zur Übersetzung Ihrer
             <lb/>Gedichte ins Deutsche? Besteht da eine juridische Abmachung?
