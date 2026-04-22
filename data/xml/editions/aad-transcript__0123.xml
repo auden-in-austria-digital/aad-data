@@ -91,7 +91,7 @@
                   <handNote/>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="type_cc_urbach" scribeRef="#amp_person_284" medium="type-cc">Carbon copy of typewriting by Reinhard Urbach</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -115,11 +115,13 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="de"/>
       </langUsage>
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2026-04-22">TEI/XML template populated with csv2xml.py</change>
+      <change who="#ahechtl" when-iso="2026-04-17">Initial transcription, basic structure, metadata, populate physDesc</change>
+      <change who="#ahechtl" when-iso="2026-04-20">add entities: persons, places and dates</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -132,10 +134,58 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0123" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0123" xml:lang="de">
+        <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00405/" ed="1r" type="sheet"/>
+        <div tpye="letter_message" hand="#type_cc_urbach">
+          <opener>
+            <persName>
+              <lb/><rs type="person" ref="#amp_person_1">Herrn
+              <lb/>W.H.Auden</rs>
+            </persName>
+            <placeName>
+              <lb/><rs type="place" ref="#amp_place_id_2">Hinterholz 6
+              <lb/>3062 K i r c h s t e t t e n</rs>
+            </placeName>
+            <lb/><space quantity="46" unit="char"/><dateline><lb/><rs>Wien</rs>, <date>21.August 1970</date></dateline>
+            <salute>
+              <lb/>Lieber <rs type="person" ref="#amp_person_1">Herr Auden</rs>!
+            </salute>
+          </opener>
+          <p>
+            <lb/>Leider muß ich Ihnen heute gleich noch einmal schreiben. Wir
+            <lb/>haben <rs type="person" ref="#amp_person_78">Frau Prof.Hilde Spiel</rs> gefragt, ob sie von Ihnen Gedichte
+            <lb/>übersetzen würde. Sie wäre dazu bereit, und nun möchte ich Sie
+            <lb/>fragen, verehrter <rs type="person" ref="#amp_person_1">Herr Auden</rs>, ob Sie damit einverstanden sind,
+            <lb/>daß <rs type="person" ref="#amp_person_220">Frau Staub</rs> einige Gedichte übersetzt und sich die Arbeit
+            <lb/>mit <rs type="person" ref="#amp_person_1">Herr Auden</rs> teilt. Sie wissen vielleicht, daß Frau <rs type="person" ref="#amp_person_78">Prof.
+            <lb/>Spiel</rs> (Generalsekretärin der <rs type="org" ref="#amp_org_10">Österreichischen PEN-Clubs</rs>) Ihr
+            <lb/>letztes <rs type="lit_work" ref="#">Gedichtbuch</rs> in "Wort und Wahrheit" besprochen hat. Es
+            <lb/>besteht die Absicht, die von ihr übersetzten Gedichte in "<rs type="org" ref="#amp_organization_157">Ver
+            <lb/>sacrum</rs>" abzudrucken. Die von <rs type="person" ref="#amp_person_220">Frau Staub</rs> übersetzten Gedichte
+            <lb/>könnten leicht in "<rs type="org" ref="#amp_organization_231">Literatur und Kritik</rs>", der Österreichischen
+            <lb/>Literaturzeitschrift,zum Abdruck kommen.
+          </p>
+          <p>
+            <lb/>Wir würden uns sehr freuen, wenn wir auf diese Weise Ihrem Werk
+            <lb/>in Österreich zu vermehrter Publikation verhelfen könnten. Nun
+            <lb/>besteht aber doch die Frage, von der <rs type="person" ref="#amp_person_78">Frau Spiel</rs> die Übersetzung
+            <lb/>abhängig gemacht hat: Wer hat die Rechte zur Übersetzung Ihrer
+            <lb/>Gedichte ins Deutsche? Besteht da eine juridische Abmachung?
+          </p>
+          <p>
+            <lb/>I<subst><del rend="overtyped" hand="#type_cc_urbach">x</del><add place="superimposed" hand="#type_cc_urbach">c</add></subst>h wäre Ihnen sehr dankbar, wenn Sie mir so bald wie möglich
+            <lb/>über die rechtlichen Verhältnisse Auskunft geben könnten.
+          </p>
+          <closer>
+            <salute>
+              <lb/><space quantity="34" unit="char"/>Mit sehr herzlichen Grüßen</salute>
+            <signed>
+              <lb/><space quantity="38" unit="char"/>(<rs type="person" ref="#amp_person_284">Reinhard Urbach</rs>)</signed>
+          </closer>
+        </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00406/" ed="1v" type="sheet"/>
+        </div>
       </div>
     </body>
   </text>
