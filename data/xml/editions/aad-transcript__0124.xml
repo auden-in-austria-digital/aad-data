@@ -91,7 +91,7 @@
                   <handNote/>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="type_cc_urbach" scribeRef="#amp_person_284" medium="type-cc">Carbon copy of typewriting by Reinhard Urbach</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -115,11 +115,12 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="de"/>
       </langUsage>
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2026-04-22">TEI/XML template populated with csv2xml.py</change>
+      <change who="#ahechtl" when-iso="2026-04-23">add basic structure, metadata, transcription, populate physDesc</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -132,9 +133,43 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0124" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0124" xml:lang="de">
+        <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00407/" ed="1r" type="sheet"/>
+        <div type="letter_message" hand="#type_cc_urbach">
+        <opener>
+          <persName>
+            <lb/><rs type="person" ref="#amp_person_1">Herrn
+            <lb/>H.W.Auden</rs>
+          </persName>
+          <placeName>
+            <lb/><rs type="place" ref="#amp_place_id_2">3062 Kirchstetten
+            <lb/>Bez.St.Pölten
+            <lb/>Hinterholz 6</rs>
+          </placeName>
+          <dateline>
+            <lb/><space quantity="42" unit="char"/><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>20. August 1970</date>
+          </dateline>
+          <salute>
+            <lb/>Verehrter <rs type="person" ref="#amp_person_1">Herr Auden</rs>!
+          </salute>
+        </opener>
+        <p>
+          <lb/>Vielen Dank dafür, da0ß Sie uns Ihre <rs>Gedichtbände</rs> zur Verfügung
+          <lb/>gestellt haben, und vielen Dank auch für das nachgeschickte Ge-
+          <lb/>dicht. Nun haben wir keine Sorgen mehr, daß <rs>der Abend</rs> zu kurz
+          <lb/>werden könnte.
+        </p>
+        <p>
+          <lb/>Ist es Ihnen recht, daß <rs type="person" ref="#amp_person_220">Frau Hertha Staub</rs> Ihre Gedichte über-
+          <lb/>setzt? So viel ich weiß, kennen Sie sie gut. Und ich hoffe, daß
+          <lb/>die Übersetzungen zu Ihrer Zufriedenheit ausfallen werden. Wenn
+          <lb/>wir im September dazu noch Zeit haben, werde ich Ihnen die Über-
+          <lb/>setzungen sehr gern schicken und Sie um Ihr Urteil und um even-
+          <lb/>tuelle Verbesserungen bitten.
+        </p>
+        <lb/>34Mit sehr herzlichen Grüßen
+        <lb/>39(<rs type="person" ref="#amp_person_284">Reinhard Urbach</rs>)
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00408/" ed="1v" type="sheet"/>
       </div>
     </body>
