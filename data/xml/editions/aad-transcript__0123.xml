@@ -147,7 +147,9 @@
               <lb/><rs type="place" ref="#amp_place_id_2">Hinterholz 6
               <lb/>3062 K i r c h s t e t t e n</rs>
             </placeName>
-            <lb/><space quantity="46" unit="char"/><dateline><lb/><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>21.August 1970</date></dateline>
+            <dateline>
+              <lb/><space quantity="46" unit="char"/><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>21.August 1970</date>
+            </dateline>
             <salute>
               <lb/>Lieber <rs type="person" ref="#amp_person_1">Herr Auden</rs>!
             </salute>
