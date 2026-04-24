@@ -169,8 +169,14 @@
           <lb/>setzungen sehr gern schicken und Sie um Ihr Urteil und um even-
           <lb/>tuelle Verbesserungen bitten.
         </p>
-        <lb/><space quantity="34" unit="char"/>Mit sehr herzlichen Grüßen
-        <lb/><space quantity="39" unit="char"/>(<rs type="person" ref="#amp_person_284">Reinhard Urbach</rs>)
+        <closer>
+          <salute>
+            <lb/><space quantity="34" unit="char"/>Mit sehr herzlichen Grüßen
+          </salute>
+          <signed>
+            <lb/><space quantity="39" unit="char"/>(<rs type="person" ref="#amp_person_284">Reinhard Urbach</rs>)
+          </signed>
+        </closer>
       </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00408/" ed="1v" type="sheet"/>
       </div>
