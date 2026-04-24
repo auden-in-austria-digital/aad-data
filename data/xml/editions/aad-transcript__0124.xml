@@ -121,6 +121,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2026-04-22">TEI/XML template populated with csv2xml.py</change>
       <change who="#ahechtl" when-iso="2026-04-23">add basic structure, metadata, transcription, populate physDesc</change>
+      <change who="#ahechtl" when-iso="2026-04-24">add entities: persons, places, date, literary works, events</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -155,9 +156,9 @@
           </salute>
         </opener>
         <p>
-          <lb/>Vielen Dank dafür, da0ß Sie uns Ihre <rs>Gedichtbände</rs> zur Verfügung
-          <lb/>gestellt haben, und vielen Dank auch für das nachgeschickte Ge-
-          <lb/>dicht. Nun haben wir keine Sorgen mehr, daß <rs>der Abend</rs> zu kurz
+          <lb/>Vielen Dank dafür, da<subst><del rend="erased" hand="#type_cc_urbach">0</del><add place="superimposed" hand="#type_cc_urbach">ß</add></subst> Sie uns Ihre <rs type="lit_work" ref="#lit_work_id_134 #lit_work_id_137 #lit_work_id_135">Gedichtbände</rs> zur Verfügung
+          <lb/>gestellt haben, und vielen Dank auch für das <rs>nachgeschickte Ge-
+          <lb/>dicht</rs>. Nun haben wir keine Sorgen mehr, daß <rs type="event" ref="#amp_event_id_120">der Abend</rs> zu kurz
           <lb/>werden könnte.
         </p>
         <p>
@@ -168,8 +169,8 @@
           <lb/>setzungen sehr gern schicken und Sie um Ihr Urteil und um even-
           <lb/>tuelle Verbesserungen bitten.
         </p>
-        <lb/>34Mit sehr herzlichen Grüßen
-        <lb/>39(<rs type="person" ref="#amp_person_284">Reinhard Urbach</rs>)
+        <lb/><space quantity="34" unit="char"/>Mit sehr herzlichen Grüßen
+        <lb/><space quantity="39" unit="char"/>(<rs type="person" ref="#amp_person_284">Reinhard Urbach</rs>)
       </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00408/" ed="1v" type="sheet"/>
       </div>
