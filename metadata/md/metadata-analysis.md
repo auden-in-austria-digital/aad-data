@@ -128,6 +128,8 @@ doc
 0122       Urbach, Reinhard  Typed Letter Signed Reinhard Urbach to W. H. Auden 1970-08-11 with Autograph Letter Signed W. H. Auden to Reinhard Urbach with Typed Notes W. H. Auden 1970-08-11--1970-08-29                         Vienna
 0123       Urbach, Reinhard                                                                                                                    Copy Typed Letter Reinhard Urbach to W. H. Auden 1970-08-21                         Vienna
 0124       Urbach, Reinhard                                                                                                                    Copy Typed Letter Reinhard Urbach to W. H. Auden 1970-08-20                         Vienna
+0125       Urbach, Reinhard                                                                                                                    Copy Typed Letter Reinhard Urbach to W. H. Auden 1970-08-11                         Vienna
+0126          Breicha, Otto                                                                                                                       Copy Typed Letter Otto Breicha to Hilde Spiel 1970-08-07                         Vienna
 ```
 
 ### distribution per month
@@ -165,30 +167,30 @@ dtype: int64
 ### `df.info()`
 ```
 <class 'pandas.DataFrame'>
-RangeIndex: 380 entries, 0 to 379
+RangeIndex: 384 entries, 0 to 383
 Data columns (total 19 columns):
  #   Column          Non-Null Count  Dtype
 ---  ------          --------------  -----
- 0   img             380 non-null    int64
- 1   lrx             380 non-null    int64
- 2   lry             380 non-null    int64
- 3   width           380 non-null    int64
- 4   height          380 non-null    int64
- 5   type            380 non-null    str  
- 6   ed              380 non-null    str  
- 7   doc             380 non-null    str  
- 8   title           380 non-null    str  
- 9   author          380 non-null    str  
- 10  author-uri      380 non-null    str  
- 11  notBefore-iso   380 non-null    str  
- 12  notAfter-iso    380 non-null    str  
- 13  place           380 non-null    str  
- 14  place-uri       380 non-null    str  
- 15  repository      380 non-null    str  
- 16  repository-uri  380 non-null    str  
- 17  collection      380 non-null    str  
- 18  idno            380 non-null    str  
+ 0   img             384 non-null    int64
+ 1   lrx             384 non-null    int64
+ 2   lry             384 non-null    int64
+ 3   width           384 non-null    int64
+ 4   height          384 non-null    int64
+ 5   type            384 non-null    str  
+ 6   ed              384 non-null    str  
+ 7   doc             384 non-null    str  
+ 8   title           384 non-null    str  
+ 9   author          384 non-null    str  
+ 10  author-uri      384 non-null    str  
+ 11  notBefore-iso   384 non-null    str  
+ 12  notAfter-iso    384 non-null    str  
+ 13  place           384 non-null    str  
+ 14  place-uri       384 non-null    str  
+ 15  repository      384 non-null    str  
+ 16  repository-uri  384 non-null    str  
+ 17  collection      384 non-null    str  
+ 18  idno            384 non-null    str  
 dtypes: int64(5), str(14)
-memory usage: 56.5 KB
+memory usage: 57.1 KB
 
 ```
