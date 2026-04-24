@@ -120,6 +120,7 @@
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2026-04-24">TEI/XML template populated with csv2xml.py</change>
+      <change who="#ahechtl" when-iso="2026-04-24">Add basic transcription</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -133,9 +134,34 @@
   <text>
     <body>
       <div type="transcription" xml:id="transcription_aad_0125" xml:lang="">
-        <div/>
+        <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00409/" ed="1r" type="sheet"/>
+        <div type="letter_message" hand="#type_cc_urbach">
+          <opener>
+            Herrn
+            W.H.Auden
+            3062 Kirchstetten
+            Hinterholz 6
+            Wien, 11. August 1970
+            Sehr verehrter Herr Auden!
+        </opener>
+          <p>
+            Im Namen von Dr. Kraus möchte ich Ihnen sehr herzlich für Ihren
+            Brief danken. Wir haben hier "About the House" und würden uns
+            sehr freuen, wenn Sie uns "City without walls" für kurze Zeit
+            zur Verfügung stellen könnten. Vielleicht könnten Sie auch an-
+            streichen, welche Gedichte aus den beiden Bänden Sie übersetzt
+            haben wollen. Es genügt natürlich, wenn Sie uns den Band mit der
+            Post schicken. Wir wollen Ihnen mit einer Reise nach Wien keine
+            Unannehmlichkeiten machen.
+          </p>
+          <closer>
+            Mit herzlichen Grüßen
+            (Reinhard Urbach)
+          </closer>
+        </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00410/" ed="1v" type="sheet"/>
+      </div>
       </div>
     </body>
   </text>
