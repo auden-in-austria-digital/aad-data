@@ -156,11 +156,11 @@
             </salute>
         </opener>
           <p>
-            <lb/>Im Namen von <rs>Dr.Kraus</rs> möchte ich Ihnen sehr herzlich für Ihren 
-            <lb/>Brief danken. Wir haben hier "<rs type="lit_work" ref="#lit_work_id_134">About the <subst><del>h</del><add>H</add></subst>ouse</rs>" und würden uns
+            <lb/>Im Namen von <rs type="person" ref="#amp_person_137">Dr.Kraus</rs> möchte ich Ihnen sehr herzlich für Ihren 
+            <lb/>Brief danken. Wir haben hier "<rs type="lit_work" ref="#lit_work_id_134">About the <subst><del rend="erased" hand="#type_cc_urbach">h</del><add place="superimposed" hand="#type_cc_urbach">H</add></subst>ouse</rs>" und würden uns
             <lb/>sehr freuen, wenn Sie uns "<rs type="lit_work" ref="#lit_work_id_137">City without walls</rs>" für kurze Zeit
             <lb/>zur Verfügung stellen könnten. Vielleicht könnten Sie auch an-
-            <lb/>streichen, welche Gedichte aus den <rs type="lit_work" ref="#lit_work_id_134 #lit_work_id_137">beiden Bänden</rs> Sie übersetzt
+            <lb/>streichen, <subst><del rend="erased" hand="#type_cc_urbach">q</del><add place="superimposed" hand="#type_cc_urbach">w</add></subst>elche Gedichte aus den <rs type="lit_work" ref="#lit_work_id_134 #lit_work_id_137">beiden Bänden</rs> Sie übersetzt
             <lb/>haben wollen. Es genügt natürlich, wenn Sie uns den Band mit der
             <lb/>Post schicken. Wir wollen Ihnen mit einer Reise nach <rs type="place" ref="#amp_place_id_1">Wien</rs> keine
             <lb/>Unannehmlichkeiten machen.
@@ -169,9 +169,9 @@
             <salute>
               <lb/>Mit herzlichen Grüßen
             </salute>
-            <rs>
-              <lb/>(<rs>Reinhard Urbach</rs>)
-            </rs>
+            <signed>
+              <lb/>(<rs type="person" ref="#amp_person_284">Reinhard Urbach</rs>)
+            </signed>
           </closer>
         </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00410/" ed="1v" type="sheet"/>
