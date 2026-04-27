@@ -135,7 +135,7 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0125" xml:lang="">
+      <div type="transcription" xml:id="transcription_aad_0125" xml:lang="de">
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00409/" ed="1r" type="sheet"/>
         <div type="letter_message" hand="#type_cc_urbach">
@@ -149,7 +149,7 @@
               <lb/>Hinterholz 6</rs>
             </placeName>
             <dateline>
-              <lb/><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>11. August 1970</date>
+              <lb/><space quantity="39" unit="char"/><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>11. August 1970</date>
             </dateline>
             <salute>
               <lb/>Sehr verehrter <rs type="person" ref="#amp_person_1">Herr Auden</rs>!
@@ -167,10 +167,10 @@
           </p>
           <closer>
             <salute>
-              <lb/>Mit herzlichen Grüßen
+              <lb/><space quantity="35" unit="char"/>Mit herzlichen Grüßen
             </salute>
             <signed>
-              <lb/>(<rs type="person" ref="#amp_person_284">Reinhard Urbach</rs>)
+              <lb/><space quantity="38" unit="char"/>(<rs type="person" ref="#amp_person_284">Reinhard Urbach</rs>)
             </signed>
           </closer>
         </div>
