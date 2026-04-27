@@ -136,6 +136,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2026-04-22">TEI/XML template populated with csv2xml.py</change>
       <change who="#ahechtl" when-iso="2026-04-22">add physDesc, structure, basic transcription</change>
+      <change who="#ahechtl" when-iso="2026-04-24">add entities: persons, places, date, literary works, events</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -219,12 +220,12 @@
         <lb/>HINTERHOLZ 8
         <lb/>N.-Ö. AUSTRIA
         <lb/>A-2 Auden
-        <lb/>From <hi rend="underline">ABOUT THE HOUSE</hi>
+        <lb/>From <hi rend="underline"><rs type="lit_work" ref="#lit_work_id_134">ABOUT THE HOUSE</rs></hi>
         <lb/>4 The Cave of Making (p 8-II)
-        <lb/>from <hi rend="underline">CITY WITHOUT WALIS</hi>
+        <lb/>from <hi rend="underline"><rs type="lit_work" ref="#lit_work_id_137">CITY WITHOUT WALIS</rs></hi>
         <lb/>1In Memoriam Emma Eiermann/ (p 2I-23)
         <lb/>1Prologue at Sixty (p II7-I2I)
-        <lb/>From <hi>Cxoxlxlxexcxtxexdx xSxxx COLLECTED SHORTER POEMS</hi>
+        <lb/>From <hi rend="underline"><subst><del>C</del><add>c</add></subst><subst><del>o</del><add>o</add></subst>lxlxexcxtxexdx xSxxx <rs>COLLECTED SHORTER POEMS</rs></hi>
         <lb/>nein 1In Praise of Limestone (p 238-24I)
         <lb/>Unpublished/in book form.
         <lb/>nein 2Old People's Home (enclosed)
