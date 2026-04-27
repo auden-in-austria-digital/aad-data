@@ -91,7 +91,7 @@
                   <handNote/>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="type_cc_breicha" scribeRef="#amp_person_152" medium="type-cc">Carbon copy of typewriting authored by Otto Breicha</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -115,11 +115,14 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="de"/>
       </langUsage>
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2026-04-24">TEI/XML template populated with csv2xml.py</change>
+      <change who="#ahechtl" when-iso="2026-04-24">Add basic transcription</change>
+      <change who="#ahechtl" when-iso="2026-04-27">populate physDesc, update structure</change>
+      <change who="#ahechtl" when-iso="2026-04-27">add entities: persons, places, date, org, events</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -133,10 +136,53 @@
   <text>
     <body>
       <div type="transcription" xml:id="transcription_aad_0126" xml:lang="">
-        <div/>
+        <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00411/" ed="1r" type="sheet"/>
+        <div type="letter_message" hand="#type_cc_breicha">
+          <opener>
+            <persName>
+              <lb/><rs type="person" ref="#amp_person_78">Frau
+              <lb/>Prof. Dr. Hilde SPIEL</rs>
+            </persName>
+            <placeName>
+              <lb/><rs type="place" ref="#amp_place_id_414">St. Wolfgang</rs>
+            </placeName>
+              <dateline>
+                <lb/><space quantity="35" unit="char"/><rs type="place" ref="#amp_place_id_1">Wien</rs>
+                <lb/><space quantity="35" unit="char"/><date>7. 8. 1970</date>
+              </dateline>
+              <salute>
+                <lb/>Sehr geehrte gnädige Frau !
+              </salute>
+      </opener>
+        <p>
+          <lb/>Schnell noch ein Nachsatz, der mit der <rs type="org" ref="#amp_organization_9">Gesellschaft
+          <lb/>für Literatur</rs> zu tun hat: Wie Sie vielleicht ge-
+          <lb/>lesen haben, beginnen wir die Saison mit einer
+          <lb/><rs type="event" ref="#amp_event_id_120">Auden-Lesung</rs>. In diesem Zusammenhang die Frage, resp.
+          <lb/>Bitte: Haben Sie was von seiner neueren Lyrik über-
+          <lb/>setzt (und würden Sie das für <rs type="event" ref="#amp_event_id_120">diesen Abend</rs> zur
+          <lb/>Verfügung stellen, und wie käme ich dazu) ? Bezw.
+          <lb/> (wenn es nicht zu unverschämt ist) würden Sie was
+          <lb/>Neueres übersetzen wollen ? Schliesslich könnte man
+          <lb/>es ja auch noch für <rs type="org" ref="#amp_organization_157">Ver Sacrum</rs> verwenden..
+        </p>
+        <p>
+          <lb/>Bitte gelegentlich eine Zeile in dieser Sache !
+        </p>
+        <closer>
+          <salute>
+            <lb/>Mit besten Empfehlungen und Grüssen Ihres sehr
+            <lb/>ergebenen:
+          </salute>
+          <signed>
+            <lb/><space quantity="25" unit="char"/>(<rs type="person" ref="#amp_person_152">Otto Breicha</rs>)
+          </signed>
+      </closer>
+      </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00412/" ed="1v" type="sheet"/>
       </div>
+    </div>
     </body>
   </text>
 </TEI>
