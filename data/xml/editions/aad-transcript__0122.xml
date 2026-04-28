@@ -137,6 +137,7 @@
       <change who="#tfruehwirth" when-iso="2026-04-22">TEI/XML template populated with csv2xml.py</change>
       <change who="#ahechtl" when-iso="2026-04-22">add physDesc, structure, basic transcription</change>
       <change who="#ahechtl" when-iso="2026-04-24">add entities: persons, places, date, literary works, events</change>
+      <change who="#ahechtl" when-iso="2026-04-26">add more entities</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -182,7 +183,7 @@
             <lb/>Brief danken. Wir haben hier "<rs type="lit_work" ref="#lit_work_id_134">About the house</rs>" und würden uns
             <lb/>sehr freuen, wenn Sie uns "<rs type="lit_work" ref="#lit_work_id_137">City without walls</rs>" für kurze Zeit
             <lb/>zur Verfügung stellen könnten. Vielleicht könnten Sie auch an-
-            <lb/>streichen, welche Gedichte aus den <rs>beiden Bänden</rs> Sie übersetzt
+            <lb/>streichen, welche Gedichte aus den <rs type="lit_work" ref="#lit_work_id_134 #lit_work_id_137">beiden Bänden</rs> Sie übersetzt
             <lb/>haben wollen. Es genügt natürlich, wenn Sie uns den Band mit der
             <lb/>Post schicken. Wir wollen Ihnen mit einer Reise nach <rs type="place" ref="#amp_place_id_1">Wien</rs> keine
             <lb/>Unannehmlichkeiten machen.
@@ -214,21 +215,26 @@
       <div type="enclosure">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00404/" ed="1v" type="sheet"/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00401/" ed="2r" type="sheet"/>
-        <div type="letter" hand="#type_cc_auden ">
-        <lb/>3062 KIRCHSTETTEN
-        <lb/>BEZ. ST. POLTEN
-        <lb/>HINTERHOLZ 8
-        <lb/>N.-Ö. AUSTRIA
-        <lb/>A-2 Auden
-        <lb/>From <hi rend="underline"><rs type="lit_work" ref="#lit_work_id_134">ABOUT THE HOUSE</rs></hi>
-        <lb/>4 The Cave of Making (p 8-II)
-        <lb/>from <hi rend="underline"><rs type="lit_work" ref="#lit_work_id_137">CITY WITHOUT WALIS</rs></hi>
-        <lb/>1In Memoriam Emma Eiermann/ (p 2I-23)
-        <lb/>1Prologue at Sixty (p II7-I2I)
-        <lb/>From <hi rend="underline"><subst><del>C</del><add>c</add></subst><subst><del>o</del><add>o</add></subst>lxlxexcxtxexdx xSxxx <rs>COLLECTED SHORTER POEMS</rs></hi>
-        <lb/>nein 1In Praise of Limestone (p 238-24I)
-        <lb/>Unpublished/in book form.
-        <lb/>nein 2Old People's Home (enclosed)
+        <div type="letter" hand="#type_cc_auden">
+        <opener>
+          <placeName>
+            <lb/><rs type="place" ref="#amp_place_id_2">3062 KIRCHSTETTEN
+            <lb/>BEZ. ST. POLTEN
+            <lb/>HINTERHOLZ 8
+            <lb/>N.-Ö. AUSTRIA</rs>
+          </placeName>
+        </opener>
+        <p>
+          <lb/><add hand="#hand_gray_onb">A-2 Auden</add>
+          <lb/>From <hi rend="underline"><rs type="lit_work" ref="#lit_work_id_134">ABOUT THE HOUSE</rs></hi>
+          <lb/><space quantity="4" unit="char"/><add hand="#hand_gray_unident_0122_01">-</add><rs type="lit_work" ref="#lit_work_id_37">The Cave of Making</rs> (p 8-II)
+          <lb/>from <hi rend="underline"><rs type="lit_work" ref="#lit_work_id_137">CITY WITHOUT WALIS</rs></hi>
+          <lb/><space quantity="1" unit="char"/><add hand="#hand_gray_unident_0122_01">-</add>In Memoriam Emma Eiermann/ (p 2I-23) <add hand="#hand_gray_unident_0122_02">no Transl</add>
+          <lb/><space quantity="1" unit="char"/><add hand="#hand_gray_unident_0122_01">-</add><rs type="lit_work" ref="#lit_work_id_38">Prologue at Sixty</rs> (p II7-I2I)
+          <lb/>From <hi rend="underline"><subst><del>C</del><add>c</add></subst><subst><del>o</del><add>o</add></subst>lxlxexcxtxexdx xSxxx <rs type="lit_work" ref="#lit_work_id_135">COLLECTED SHORTER POEMS</rs></hi>
+          <lb/><space quantity="1" unit="char"/><add hand="#hand_gray_unident_0122_03">nein</add> <rs type="lit_work" ref="#lit_work_id_324">In Praise of Limestone</rs> (p 238-24I)
+          <lb/>Unpublished/in book form.
+          <lb/><space quantity="2" unit="char"/><add hand="#hand_gray_unident_0122_03">nein</add> <rs type="lit_work" ref="#lit_work_id_325">Old People's Home</rs> (enclosed)</p>
         </div>
       </div>
       <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00402/" ed="2v" type="sheet"/>
