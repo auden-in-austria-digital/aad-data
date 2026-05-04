@@ -130,6 +130,7 @@ doc
 0124       Urbach, Reinhard                                                                                                                    Copy Typed Letter Reinhard Urbach to W. H. Auden 1970-08-20                         Vienna
 0125       Urbach, Reinhard                                                                                                                    Copy Typed Letter Reinhard Urbach to W. H. Auden 1970-08-11                         Vienna
 0126          Breicha, Otto                                                                                                                       Copy Typed Letter Otto Breicha to Hilde Spiel 1970-08-07                         Vienna
+0127         Bronold, Hella                                                                                                                      Copy Typed Letter Hella Bronold to Hilde Spiel 1970-09-03                         Vienna
 ```
 
 ### distribution per month
@@ -167,30 +168,30 @@ dtype: int64
 ### `df.info()`
 ```
 <class 'pandas.DataFrame'>
-RangeIndex: 384 entries, 0 to 383
+RangeIndex: 386 entries, 0 to 385
 Data columns (total 19 columns):
  #   Column          Non-Null Count  Dtype
 ---  ------          --------------  -----
- 0   img             384 non-null    int64
- 1   lrx             384 non-null    int64
- 2   lry             384 non-null    int64
- 3   width           384 non-null    int64
- 4   height          384 non-null    int64
- 5   type            384 non-null    str  
- 6   ed              384 non-null    str  
- 7   doc             384 non-null    str  
- 8   title           384 non-null    str  
- 9   author          384 non-null    str  
- 10  author-uri      384 non-null    str  
- 11  notBefore-iso   384 non-null    str  
- 12  notAfter-iso    384 non-null    str  
- 13  place           384 non-null    str  
- 14  place-uri       384 non-null    str  
- 15  repository      384 non-null    str  
- 16  repository-uri  384 non-null    str  
- 17  collection      384 non-null    str  
- 18  idno            384 non-null    str  
+ 0   img             386 non-null    int64
+ 1   lrx             386 non-null    int64
+ 2   lry             386 non-null    int64
+ 3   width           386 non-null    int64
+ 4   height          386 non-null    int64
+ 5   type            386 non-null    str  
+ 6   ed              386 non-null    str  
+ 7   doc             386 non-null    str  
+ 8   title           386 non-null    str  
+ 9   author          386 non-null    str  
+ 10  author-uri      386 non-null    str  
+ 11  notBefore-iso   386 non-null    str  
+ 12  notAfter-iso    386 non-null    str  
+ 13  place           386 non-null    str  
+ 14  place-uri       386 non-null    str  
+ 15  repository      386 non-null    str  
+ 16  repository-uri  386 non-null    str  
+ 17  collection      386 non-null    str  
+ 18  idno            386 non-null    str  
 dtypes: int64(5), str(14)
-memory usage: 57.1 KB
+memory usage: 57.4 KB
 
 ```
