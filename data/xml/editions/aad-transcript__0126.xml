@@ -152,7 +152,7 @@
                 <lb/><space quantity="35" unit="char"/><date>7. 8. 1970</date>
               </dateline>
               <salute>
-                <lb/>Sehr geehrte gnädige Frau !
+                <lb/>Sehr geehrte <rs type="person" ref="#amp_person_78">gnädige Frau</rs> !
               </salute>
       </opener>
         <p>
@@ -163,9 +163,9 @@
           <lb/>Bitte: Haben Sie was von <rs type="person" ref="#amp_person_1">seiner</rs> neueren Lyrik über-
           <lb/>setzt (und würden Sie das für <rs type="event" ref="#amp_event_id_120">diesen Abend</rs> zur
           <lb/>Verfügung stellen, und wie käme ich dazu) ? Bezw.
-          <lb/> (wenn es nicht zu unverschämt ist) würden Sie was
+          <lb/>(wenn es nicht zu unverschämt ist) würden Sie was
           <lb/>Neueres übersetzen wollen ? Schliesslich könnte man
-          <lb/>es ja auch noch für <rs type="org" ref="#amp_organization_157">Ver Sacrum</rs> verwenden..
+          <lb/>es ja auch noch für <rs type="org" ref="#amp_organization_157">Ver Sacrum</rs> verwenden ..
         </p>
         <p>
           <lb/>Bitte gelegentlich eine Zeile in dieser Sache !
