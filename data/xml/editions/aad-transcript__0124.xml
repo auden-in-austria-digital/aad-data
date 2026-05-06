@@ -30,8 +30,8 @@
         <edition>
           <title level="a">Copy Typed Letter Reinhard Urbach to W. H. Auden 1970-08-20</title>
           <interpGrp>
-            <interp>
-              <desc/>
+            <interp xml:id="ana_115">
+            <desc/>
               <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
             </interp>
@@ -149,7 +149,7 @@
             <lb/>Hinterholz 6</rs>
           </placeName>
           <dateline>
-            <lb/><space quantity="42" unit="char"/><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>20. August 1970</date>
+            <lb/><space quantity="42" unit="char"/><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>20.August 1970</date>
           </dateline>
           <salute>
             <lb/>Verehrter <rs type="person" ref="#amp_person_1">Herr Auden</rs>!
@@ -157,12 +157,12 @@
         </opener>
         <p>
           <lb/>Vielen Dank dafür, da<subst><del rend="erased" hand="#type_cc_urbach">0</del><add place="superimposed" hand="#type_cc_urbach">ß</add></subst> Sie uns Ihre <rs type="lit_work" ref="#lit_work_id_134 #lit_work_id_137 #lit_work_id_135">Gedichtbände</rs> zur Verfügung
-          <lb/>gestellt haben, und vielen Dank auch für das <rs>nachgeschickte Ge-
+          <lb/>gestellt haben, und vielen Dank auch für das <rs type="lit_work" ana="#ana_115">nachgeschickte Ge-
           <lb/>dicht</rs>. Nun haben wir keine Sorgen mehr, daß <rs type="event" ref="#amp_event_id_120">der Abend</rs> zu kurz
           <lb/>werden könnte.
         </p>
         <p>
-          <lb/>Ist es Ihnen recht, daß <rs type="person" ref="#amp_person_220">Frau Hertha Staub</rs> Ihre Gedichte über-
+          <lb/>Ist es Ihnen recht, daß <rs type="person" ref="#amp_person_220">Frau Hertha Staub</rs> Ihre <rs type="lit_work" ref="#lit_work_id_37 #lit_work_id_107 #lit_work_id_38 #lit_work_id_324 #lit_work_id_325">Gedichte</rs> über-
           <lb/>setzt? So viel ich weiß, kennen Sie sie gut. Und ich hoffe, daß
           <lb/>die Übersetzungen zu Ihrer Zufriedenheit ausfallen werden. Wenn
           <lb/>wir im September dazu noch Zeit haben, werde ich Ihnen die Über-
