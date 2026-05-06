@@ -91,7 +91,7 @@
                   <handNote/>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="type_cc_bronold" scribeRef="#amp_person_135" medium="type-cc">Carbon copy of typewriting by Hella Bronold</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -120,7 +120,9 @@
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2026-05-04">TEI/XML template populated with csv2xml.py</change>
-      <change who="#ahechtl" when-iso="2026-05-04">Add basic transcription</change>
+      <change who="#ahechtl" when-iso="2026-05-04">Add structure and basic transcription</change>
+      <change who="#ahechtl" when-iso="2026-05-05">Populate physDesc</change>
+      <change who="#ahechtl" when-iso="2026-05-06">Add entities markup</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -134,9 +136,54 @@
   <text>
     <body>
       <div type="transcription" xml:id="transcription_aad_0127" xml:lang="de">
-        <div/>
+        <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00413/" ed="1r" type="sheet"/>
+        <div type="letter_message" hand="#type_cc_bronold">
+        <opener>
+          <persName>
+            <lb/><rs type="person" ref="#amp_person_78">Frau
+            <lb/>Dr. Hilde Spiel</rs>
+          </persName>
+          <placeName>
+            <lb/><rs type="place" ref="#amp_place_id_413">Haus am Bach
+            <lb/>5360 St. Wolfgang im
+            <lb/>Salzkammergut</rs>
+          </placeName>
+          <dateline>
+            <lb/><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>3.September 1970</date>
+          </dateline>
+          <salute>
+            <lb/>Liebe <rs type="person" ref="#amp_person_78">Hilde!</rs>
+          </salute>
+        </opener>
+        <p>
+          <lb/>In großer Eile <subst><del rend="erased" hand="#type_cc_bronold">und</del><add place="superimposed" hand="#type_cc_bronold"> - da</add></subst> die Zeit ja leider schon sehr drängt - über-
+          <lb/>sende ich Dir die <rs>Auden_Gedichte</rs>. Wir sind Dir sehr dankbar, daß
+          <lb/>Du sie übersetzen willst (möglichst bitte bis 20.9.), <rs type="person" ref="#amp_person_1">Auden</rs> selbst
+          <lb/>ist damit sehr einverstanden und überläßt Dir selbstverständlich
+          <lb/>die deutschen Rechte der Veröffentlichung. Du weißt ja, wie er ist,
+          <lb/>er möchte gern die Übersetzungen sehen, bevor sie vorgelesen werden.
+          <lb/>Die <rs type="event" ref="#amp_event_id_120">Veranstaltung</rs> ist am 29. Bitte laß uns doch wissen, ob Du die
+          <lb/>Übersetzungen dann nach <rs type="place" ref="#amp_place_id_1">Wien</rs> mitbringst oder noch <rs type="place" ref="#amp_place_id_413">draußen</rs> bleibst
+          <lb/>und sie mit Post schickst, damit wir wissen, wann wir damit rechnen
+          <lb/>können.
+        </p>
+        <p>
+          <lb/>Meine Tage in <rs type="place" ref="#amp_place_id_37">Salzburg</rs> waren heuer sehr kurz, außerdem habe ich mir
+          <lb/>gedacht, daß Du mit vielen Besuchern und den <rs type="event" ref="#amp_event_id_121">Festspielen</rs> sicher über-
+          <lb/>beansprucht bist und mich daher nicht gemeldet.
+        </p>
+          <closer>
+            <salute>
+              <lb/>Ich freue mich auf ein Wiedersehen in <rs type="place" ref="#amp_place_id_1">Wien</rs> und bin mit herzlichem
+              <lb/>Dank und vielen Grüßen an Dich und den lieben <rs type="person" ref="#amp_person_321">Flesch</rs>
+            </salute>
+          <signed>
+            <lb/>Deine</signed>
+        </closer>
+        </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00414/" ed="1v" type="sheet"/>
+      </div>
       </div>
     </body>
   </text>
