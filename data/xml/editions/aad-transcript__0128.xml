@@ -88,10 +88,10 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote/>
+                  <handNote xml:id="hand_gray_oegfl" scribeRef="#amp_organization_9" medium="pencil">Handwriting in pencil authored by <rs type="org" ref="#amp_organization_9">Austrian Society for Literature</rs></handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="type_cc_kraus" scribeRef="#amp_person_137" medium="type-cc">Carbon copy of typewriting by Wolfgang Kraus</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -115,11 +115,13 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="de"/>
       </langUsage>
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2026-05-06">TEI/XML template populated with csv2xml.py</change>
+      <change who="#ahechtl" when-iso="2026-05-06">Add basic transcription and populate physDesc</change>
+      <change who="#ahechtl" when-iso="2026-05-11">Entities markup: places, persons, lit_works, orgs</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -132,11 +134,68 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0128" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0128" xml:lang="de">
+        <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00415/" ed="1r" type="sheet"/>
+        <div type="letter_message" hand="#type_cc_kraus">
+        <opener>
+          <lb/>A-2
+          <persName><lb/><rs type="person" ref="#amp_person_1">Mr. W.H. Auden</rs></persName>
+          <placeName>
+            <lb/><rs type="place" ref="#amp_place_id_2">Hinterholz <subst><del>5</del><add place="superimosed" hand="#type_cc_kraus">6</add></subst>
+            <lb/>3062 Kirchstetten</rs></placeName><space quantity="17" unit="char"/><dateline><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>31. Juli 1970</date>.</dateline>
+          <salute>
+            <lb/>Sehr verehrter lieber <rs type="person" ref="#amp_person_1">Mr. Auden</rs>,
+          </salute>
+        </opener>
+        <p>
+          <lb/><space quantity="5" unit="char"/>Ich danke Ihnen sehr herzlich für Ihre Zusage, am 29.
+          <lb/>September bei uns, im Grossen Saal des <rs type="place" ref="#amp_place_id_85">Palais Palffy</rs>, zu
+          <lb/><rs type="event" ref="#amp_event_id_120">lesen</rs>. Nun haben sich leider bei dem von Ihnen vorgeschlage-
+          <lb/>nen Programm Schwierigkeiten ergeben, bei deren Lös<subst><del rend="erased" hand="#type_cc_kraus">i</del><add place="superimposed" hand="#type_cc_kraus">u</add></subst>ng ich
+          <lb/>Sie um Ihre Hilfe bitten möchte:
+        </p>
+        <p>
+          <lb/><space quantity="6" unit="char"/>Abgesehen davon, dass <rs type="lit_work" ref="#lit_work_id_137">CITY WITHOUT WALLS</rs> derzeit in
+          <lb/><rs type="place" ref="#amp_place_id_1">Wien</rs> nicht greifbar ist - auch die Bibliothek des <rs type="org" ref="amp_organization_16">British
+          <lb/><subst><del rend="erased" hand="#type_cc_kraus">Sl</del><add place="superimposed" hand="#type_cc_kraus">Co</add></subst>ucil</rs> besitzt es nicht - so wären wir auch nicht in der
+          <lb/>Lage, die Gedichte neu übersetzen zu lassen. Durch den
+          <lb/>Tod erst von <rs type="person" ref="#amp_person_59">Gerhard Fritsch</rs> und nun meines lieben <subst><del rend="erased" hand="#type_cc_kraus">f</del><add place="superimposed" hand="#type_cc_kraus">F</add></subst>reundes
+          <lb/><rs type="person" ref="amp_person_218">Herbert Zand</rs> sind wir der beiden einzigen wirklich qualifizie<subst><del rend="erased">-</del><add>r</add></subst>-
+          <lb/>ten Übersetzer von Gedichten beraubt. W<subst><del rend="erased" hand="#type_cc_kraus">r</del><add place="superimposed" hand="#type_cc_kraus">i</add></subst>r haben nun in
+          <lb/>"<rs type="org" ref="amp_organization_232">Wort und Wärheitt</rs> und in der "<rs type="org" ref="amp_organization_41">Neuen Rundscha</rs>u" nach bereits
+          <lb/>vorhandenen Übersetzungen gesucht und folgendes gefunden:
+        </p>
+        <p>
+          <lb/><space quantity="4" unit="char"/><rs type="lit_work" ref="#lit_work_id_89">Josef Weinheber</rs>
+          <lb/><space quantity="4" unit="char"/><rs type="lit_work" ref="#lit_work_id_317">BPfingstsonntag in Kirchstetten</rs>
+          <lb/><space quantity="4" unit="char"/><rs type="lit_work" ref="#lit_work_id_323">Mondlandung</rs>
+          <lb/><space quantity="4" unit="char"/><rs type="lit_work" ref="#">Freitagskind</rs><abbr></abbr>und eventuell
+          <lb/><space quantity="4" unit="char"/><rs type="lit_work" ref="#">Gedenkmal für eine Stadt</rs>.
+        </p>
+        <p>
+          <lb/>Meine Bitte geht nun dahin, uns zu sagen, ob vielleicht
+          <lb/>irgendo anders noch Übersetzungen erschienen sind. (Die
+          <lb/><rs>NEUEN GEDICHTE</rs>, <rs type="org" ref="#amp_organization_234">Limes Verlag</rs>, 1957, sind leider auch nicht
+          <lb/>greifbahr und enthalten vermutlich keines der angegebenen Ge-
+          <lb/>dichte aus <rs type="lit_work" ref="#lit_work_id_134">ABOUT THE HOUSE</rs>.) <space quantity="1" unit="char"/>Ich bedaure sehr, dass ich
+          <lb/>Ihnen Mühe machen muss.
+        </p>
+        <closer>
+        <salute>
+          <lb/><space quantity="5" unit="char"/>Mit den herzlichsten Empfehlungen</salute>
+        <salute>
+          <lb/><space quantity="40" unit="char"/>Ihr Ihnen sehr ergebener
+        </salute>
+        <signed>
+          <lb/><space quantity="40" unit="char"/>(<rs type="person" ref="#amp_person_137">Dr. Wolfgang Kraus</rs>)
+        </signed>
+      </closer>
+
+        </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00416/" ed="1v" type="sheet"/>
       </div>
+    </div>
     </body>
   </text>
 </TEI>
