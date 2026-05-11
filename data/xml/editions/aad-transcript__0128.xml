@@ -168,12 +168,12 @@
         </p>
         <p>
           <lb/><space quantity="4" unit="char"/><rs type="lit_work" ref="#lit_work_id_89">Josef Weinheber</rs>
-          <lb/><space quantity="4" unit="char"/><rs type="lit_work" ref="#lit_work_id_317">BPfingstsonntag in Kirchstetten</rs>
+          <lb/><space quantity="4" unit="char"/><rs type="lit_work" ref="#lit_work_id_317"><subst><del rend="erased" hand="#type_cc_kraus">B</del><add place="superimposed" hand="#type_cc_kraus">P</add></subst>fingstsonntag in Kirchstetten</rs>
           <lb/><space quantity="4" unit="char"/><rs type="lit_work" ref="#lit_work_id_323">Mondlandung</rs>
-          <lb/><space quantity="4" unit="char"/><rs type="lit_work" ref="#">Freitagskind</rs><abbr></abbr>und eventuell
+          <lb/><space quantity="4" unit="char"/><rs type="lit_work" ref="#">Freitagskind</rs><space quantity="19" unit="char"/>und eventuell
           <lb/><space quantity="4" unit="char"/><rs type="lit_work" ref="#">Gedenkmal für eine Stadt</rs>.
         </p>
-        <p>
+        <p>d>B
           <lb/>Meine Bitte geht nun dahin, uns zu sagen, ob vielleicht
           <lb/>irgendo anders noch Übersetzungen erschienen sind. (Die
           <lb/><rs>NEUEN GEDICHTE</rs>, <rs type="org" ref="#amp_organization_234">Limes Verlag</rs>, 1957, sind leider auch nicht
@@ -191,7 +191,6 @@
           <lb/><space quantity="40" unit="char"/>(<rs type="person" ref="#amp_person_137">Dr. Wolfgang Kraus</rs>)
         </signed>
       </closer>
-
         </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00416/" ed="1v" type="sheet"/>
       </div>
