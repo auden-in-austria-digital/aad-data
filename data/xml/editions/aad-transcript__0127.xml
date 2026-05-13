@@ -9,7 +9,7 @@
       <titleStmt>
         <title level="s">Auden in Austria Digital (AAD)</title>
         <title level="a">Copy Typed Letter Hella Bronold to Hilde Spiel 1970-09-03</title>
-        <author ref="https://d-nb.info/gnd/1206944536">Bronold, Hella</author>
+        <author ref="https://d-nb.info/gnd/1206944536" ana="#ana_116">Bronold, Hella</author>
         <editor>
           <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
           <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
@@ -30,7 +30,12 @@
         <edition>
           <title level="a">Copy Typed Letter Hella Bronold to Hilde Spiel 1970-09-03</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_116">
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+            <interp xml:id="ana_117">
               <desc/>
               <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -142,23 +147,23 @@
         <opener>
           <persName>
             <lb/><rs type="person" ref="#amp_person_78">Frau
-            <lb/>Dr. Hilde Spiel</rs>
+            <lb/>Dr.Hilde Spiel</rs>
           </persName>
           <placeName>
             <lb/><rs type="place" ref="#amp_place_id_413">Haus am Bach
-            <lb/>5360 St. Wolfgang im
+            <lb/>5360 St.Wolfgang im
             <lb/>Salzkammergut</rs>
           </placeName>
           <dateline>
-            <lb/><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>3.September 1970</date>
+            <lb/><space unit="char" quantity="43"/><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>3.September 1970</date>
           </dateline>
           <salute>
-            <lb/>Liebe <rs type="person" ref="#amp_person_78">Hilde!</rs>
+            <lb/>Liebe <rs type="person" ref="#amp_person_78">Hilde</rs>!
           </salute>
         </opener>
         <p>
-          <lb/>In großer Eile <subst><del rend="erased" hand="#type_cc_bronold">und</del><add place="superimposed" hand="#type_cc_bronold"> - da</add></subst> die Zeit ja leider schon sehr drängt - über-
-          <lb/>sende ich Dir die <rs>Auden_Gedichte</rs>. Wir sind Dir sehr dankbar, daß
+          <lb/>In großer Eile <unclear><del hand="#type_cc_bronold" rend="erased"><del hand="#type_cc_bronold" rend="overtyped">u</del>n</del>da</unclear> die Zeit ja leider schon sehr drängt - über-
+          <lb/>sende ich Dir die <rs ana="#ana_117" type="lit_work">Auden_Gedichte</rs>. Wir sind Dir sehr dankbar, daß
           <lb/>Du sie übersetzen willst (möglichst bitte bis 20.9.), <rs type="person" ref="#amp_person_1">Auden</rs> selbst
           <lb/>ist damit sehr einverstanden und überläßt Dir selbstverständlich
           <lb/>die deutschen Rechte der Veröffentlichung. Du weißt ja, wie er ist,
@@ -178,8 +183,9 @@
               <lb/>Ich freue mich auf ein Wiedersehen in <rs type="place" ref="#amp_place_id_1">Wien</rs> und bin mit herzlichem
               <lb/>Dank und vielen Grüßen an Dich und den lieben <rs type="person" ref="#amp_person_321">Flesch</rs>
             </salute>
-          <signed>
-            <lb/>Deine</signed>
+          <salute>
+            <lb/><space unit="char" quantity="37"/>Deine
+          </salute>
         </closer>
         </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00414/" ed="1v" type="sheet"/>
