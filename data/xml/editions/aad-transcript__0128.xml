@@ -137,12 +137,12 @@
       <div type="transcription" xml:id="transcription_aad_0128" xml:lang="de">
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00415/" ed="1r" type="sheet"/>
-        <div type="letter_message" hand="#type_cc_kraus">
-          <div>
+        <div>
               <ab hand="#hand_gray_oegfl">
               <lb/>A-Z
             </ab>
           </div>
+        <div type="letter_message" hand="#type_cc_kraus">
         <opener>
           <persName>
             <lb/><rs type="person" ref="#amp_person_1">Mr. W.H. Auden</rs>
