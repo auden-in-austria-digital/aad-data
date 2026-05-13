@@ -220,7 +220,7 @@
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00404/" ed="1v" type="sheet"/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00401/" ed="2r" type="sheet"/>
         <div type="letter" hand="#type_cc_auden">
-        <opener>
+        <opener hand="#print_black_auden">
           <placeName>
             <lb/><rs type="place" ref="#amp_place_id_2">3062 KIRCHSTETTEN
             <lb/>BEZ. ST. POLTEN
@@ -235,7 +235,7 @@
           <lb/>from <hi rend="underline"><rs type="lit_work" ref="#lit_work_id_137">CITY WITHOUT WALIS</rs></hi>
           <lb/><space quantity="1" unit="char"/><add hand="#hand_gray_unident_0122_01">-</add>In Memoriam Emma Eiermann/ (p 2I-23) <add hand="#hand_gray_unident_0122_02">no Transl</add>
           <lb/><space quantity="1" unit="char"/><add hand="#hand_gray_unident_0122_01">-</add><rs type="lit_work" ref="#lit_work_id_38">Prologue at Sixty</rs> (p II7-I2I)
-          <lb/>From <hi rend="underline"><subst><del>C</del><add>c</add></subst><subst><del>o</del><add>o</add></subst>lxlxexcxtxexdx xSxxx <rs type="lit_work" ref="#lit_work_id_135">COLLECTED SHORTER POEMS</rs></hi>
+          <lb/>From <hi rend="underline"><subst><del rend="overtyped" hand="#type_black_auden">Collected S</del></subst><rs type="lit_work" ref="#lit_work_id_135">COLLECTED SHORTER POEMS</rs></hi>
           <lb/><space quantity="1" unit="char"/><add hand="#hand_gray_unident_0122_03">nein</add> <rs type="lit_work" ref="#lit_work_id_324">In Praise of Limestone</rs> (p 238-24I)
           <lb/>Unpublished/in book form.
           <lb/><space quantity="2" unit="char"/><add hand="#hand_gray_unident_0122_03">nein</add> <rs type="lit_work" ref="#lit_work_id_325">Old People's Home</rs> (enclosed)</p>

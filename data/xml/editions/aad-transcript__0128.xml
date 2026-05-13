@@ -138,9 +138,15 @@
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00415/" ed="1r" type="sheet"/>
         <div type="letter_message" hand="#type_cc_kraus">
+          <div>
+              <ab hand="#hand_gray_oegfl">
+              <lb/>A-Z
+            </ab>
+          </div>
         <opener>
-          <lb/>A-2
-          <persName><lb/><rs type="person" ref="#amp_person_1">Mr. W.H. Auden</rs></persName>
+          <persName>
+            <lb/><rs type="person" ref="#amp_person_1">Mr. W.H. Auden</rs>
+          </persName>
           <placeName>
             <lb/><rs type="place" ref="#amp_place_id_2">Hinterholz <subst><del>5</del><add place="superimosed" hand="#type_cc_kraus">6</add></subst>
             <lb/>3062 Kirchstetten</rs></placeName><space quantity="17" unit="char"/><dateline><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>31. Juli 1970</date>.</dateline>
@@ -163,7 +169,7 @@
           <lb/>Tod erst von <rs type="person" ref="#amp_person_59">Gerhard Fritsch</rs> und nun meines lieben <subst><del rend="erased" hand="#type_cc_kraus">f</del><add place="superimposed" hand="#type_cc_kraus">F</add></subst>reundes
           <lb/><rs type="person" ref="amp_person_218">Herbert Zand</rs> sind wir der beiden einzigen wirklich qualifizie<subst><del rend="erased">-</del><add>r</add></subst>-
           <lb/>ten Übersetzer von Gedichten beraubt. W<subst><del rend="erased" hand="#type_cc_kraus">r</del><add place="superimposed" hand="#type_cc_kraus">i</add></subst>r haben nun in
-          <lb/>"<rs type="org" ref="amp_organization_232">Wort und Wärheitt</rs> und in der "<rs type="org" ref="amp_organization_41">Neuen Rundscha</rs>u" nach bereits
+          <lb/>"<rs type="org" ref="amp_organization_232">Wort und Warheit</rs> und in der "<rs type="org" ref="amp_organization_41">Neuen Rundscha</rs>u" nach bereits
           <lb/>vorhandenen Übersetzungen gesucht und folgendes gefunden:
         </p>
         <p>
@@ -177,7 +183,7 @@
           <lb/>Meine Bitte geht nun dahin, uns zu sagen, ob vielleicht
           <lb/>irgendo anders noch Übersetzungen erschienen sind. (Die
           <lb/><rs>NEUEN GEDICHTE</rs>, <rs type="org" ref="#amp_organization_234">Limes Verlag</rs>, 1957, sind leider auch nicht
-          <lb/>greifbahr und enthalten vermutlich keines der angegebenen Ge-
+          <lb/>greif<subst><del rend="erased" hand="#type_cc_kraus">ab</del><add place="superimposed" hand="#type_cc_kraus">ba</add></subst>ar und enthalten vermutlich keines der angegebenen Ge-
           <lb/>dichte aus <rs type="lit_work" ref="#lit_work_id_134">ABOUT THE HOUSE</rs>.) <space quantity="1" unit="char"/>Ich bedaure sehr, dass ich
           <lb/>Ihnen Mühe machen muss.
         </p>
