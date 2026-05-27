@@ -138,7 +138,7 @@
       <div type="transcription" xml:id="transcription_aad_0130" xml:lang="de">
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00419/" ed="1r" type="sheet"/>
-        <div type="letter_message" hand="#hand_cc_kraus">
+        <div type="letter_message" hand="#type_cc_kraus">
         <opener>
           <lb/>Herrn<space quantity="29" unit="char"/><dateline><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>5. Oktober 1962.</date></dateline>
           <persName>
@@ -155,16 +155,16 @@
         <p>
           <lb/><space quantity="5" unit="char"/>Ich möchte Ihnen für den unvergesslichen <rs type="event" ref="#amp_event_id_25">Abend</rs> in meinem
           <lb/>und im Namen aller unserer Gäste nochmals meinen aufrichtigen
-          <lb/>Dank aussprechen. Der Eindruck, den diese <rs type="event" ref="#amp_event_id_25">Lesung</rs> im Publi<subst><del rend="erased" hand="type_cc_kraus">um</del><add place="superimposed" hand="type_cc_kraus">ku</add></subst>m
+          <lb/>Dank aussprechen. <space quantity="1" unit="char"/>Der Eindruck, den diese <rs type="event" ref="#amp_event_id_25">Lesung</rs> im Publi<subst><del rend="erased" hand="type_cc_kraus">um</del><add place="superimposed" hand="type_cc_kraus">ku</add></subst>m
           <lb/>hinterlassen hat, war, wie ich mich nachher überzeugen konnte,
-          <lb/>unmittelbar und tief. Ich möchte Ihnen gerne sagen, dass Sie
+          <lb/>unmittelbar und tief. <space quantity="1" unit="char"/>Ich möchte Ihnen gerne sagen, dass Sie
           <lb/>in Wien viele gute Freunde gewonnen haben.
         </p>
         <p>
           <lb/><space quantity="5" unit="char"/>Ich verreise am 12. Oktober nach <rs type="place" ref="#amp_place_id_461">Jugoslawien</rs>, Sie selbst
           <lb/>werden ja bald in <rs type="place" ref="#amp_place_id_28">New York</rs> sein, doch hoffe ich sehr auf ein
           <lb/>gutes Wiedersehen, wenn Sie im Frühjar nach <rs type="place" ref="#amp_place_id_2">Kirchstetten</rs> zu-
-          <lb/>rückkommen. Lassen Sie uns doch vielleicht noch Ihre <rs type="place" ref="#amp_place_id_28">New Yorker</rs>
+          <lb/>rückkommen. <space quantity="1" unit="char"/>Lassen Sie uns doch vielleicht noch Ihre <rs type="place" ref="#amp_place_id_28">New Yorker</rs>
           <lb/>Adresse wissen, möglicherweise führt mich der Weg in nächster
           <lb/>Zeit einmal dorthin, dann würde ich mir erlauben, von mir
           <lb/>hören zu lassen.
