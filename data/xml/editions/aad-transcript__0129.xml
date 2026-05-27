@@ -140,7 +140,7 @@
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00417/" ed="1r" type="sheet"/>
         <div>
           <ab hand="#hand_gray_oegfl">
-            <lb/>A-Z
+            <lb/>A-<unclear>2</unclear>
           </ab>
         </div>
         <div type="letter_message" hand="#type_cc_kraus">
@@ -151,7 +151,7 @@
             </persName>
             <placeName>
               <lb/><rs type="place" ref="#amp_place_id_2">Hinterholz 5
-              <lb/>3062 K i r c h s t e t t e n</rs>
+              <lb/>3062 <space quantity="1" unit="char"/>K i r c h s t e t t e n</rs>
             </placeName>
             <dateline><lb/><space quantity="43" unit="char"/><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>29.Juni 1970</date></dateline>
             <salute>
@@ -162,8 +162,8 @@
             <lb/>
             <lb/>Es wäre uns eine große Ehre und Freude, wenn Sie an einem
             <lb/>Abend in unserer "<rs type="org" ref="#amp_organization_9">Gesellschaft</rs>" wieder aus Ihren Gedichten
-            <lb/>lesen könnten. Wir möchten diese Veranstaltung im großen
-            <lb/>Saal des <rs type="place" ref="#amp_place_id_85">Palais Palffy</rs> abzhalten, und stellen uns den Verlauf
+            <lb/>lesen könnten. Wir möchten <rs type="event" ref="#amp_event_id_120">diese Veranstaltung</rs> im großen
+            <lb/>Saal des <rs type="place" ref="#amp_place_id_85">Palais Palffy</rs> ab<subst><del rend="erased" hand="#type_cc_kraus">z</del><add place="superimposed" hand="#type_cc_kraus">h</add></subst>alten, und stellen uns den Verlauf
             <lb/>so vor, daß Sie einige Gedichte selbst in englischer Sprache
             <lb/>lesen und dann ein Schauspieler - wir würden uns wieder um
             <lb/><rs type="person" ref="#amp_person_243">Wolfgang Gasser</rs> vom <rs type="org" ref="#amp_organization_59">Burgtheater</rs> bemühen - den Rest des Abends
@@ -173,8 +173,8 @@
           <lb/>
           <lb/>Als Honorar könnten wir S 1.500.- anbieten, als Termin würden
           <lb/>wir den 29.September vorschlagen und gerne mit Ihrem Abend
-          <lb/>unsere Saison beg<subst><del rend="erased" hand="#type_cc_kraus">einen</del><add place="superimposed" hand="type_cc_kraus">innen</add></subst> (ein früheres Datum wäre nicht so gün-
-          <lb/>stig, da viele interessierte Zuhörer noch von <rs type="place" ref="#amp_place_id_1">Wien</rs> abwesend
+          <lb/>unsere Saison beg<unclear><subst><del rend="erased" hand="#type_cc_kraus">einnen</del><add place="superimposed" hand="#type_cc_kraus">innen<space quantity="1" unit="char"/></add></subst></unclear>(ein früheres Datum wäre nicht so gün-
+          <lb/>stig, da viele interessierte Zuhörer noch von <rs type="place" ref="#amp_place_id_1"><unclear>W</unclear>ien</rs> abwesend
           <lb/>wären).
         </p>
         <p>
@@ -188,10 +188,10 @@
               <lb/>Mit den besten Empfehlungen und Wünschen
             </salute>
             <salute>
-              <lb/>Ihr Ihnen sehr ergebener
+              <lb/><space quantity="38" unit="char"/>Ihr Ihnen sehr ergebener
             </salute>
             <signed>
-              <lb/>(<rs type="person" ref="#amp_person_137">Dr.Wolfgang Kraus</rs>)
+              <lb/><space quantity="41" unit="char"/>(<rs type="person" ref="#amp_person_137">Dr.Wolfgang Kraus</rs>)
             </signed>
         </closer>
         <!-- 1.500 Schülling 1970 entspricht 2025 einer Kaufkraft von €652,26 https://finanzbildung.oenb.at/docroot/waehrungsrechner/#/-->
