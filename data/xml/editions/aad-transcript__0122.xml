@@ -136,6 +136,23 @@
         <language ident="de"/>
         <language ident="en"/>
       </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1970-08-11T08:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <date notBefore-iso="1970-08-11T08:00:00+01:00"/>
+          <placeName><rs type="place" ref="#amp_place_id_2">Kirchstetten</rs></placeName>
+        </correspAction>
+        <correspAction type="sent">
+          <date notBefore-iso="1970-08-11T08:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_284">Urbach, Reinhard</persName>
+          <date notBefore-iso="1970-08-11T08:00:00+01:00"/>
+        </correspAction>
+      </correspDesc>
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2026-04-22">TEI/XML template populated with csv2xml.py</change>
@@ -163,10 +180,14 @@
       <div type="transcription" xml:id="transcription_aad_0122" xml:lang="de">
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00403/" ed="1r" type="sheet"/>
-        <div type="letter_message" hand="#type_cc_urbach">
+        <div type="letter_message" hand="#type_black_urbach">
           <opener>
-            <lb/>ÖSTERREICHISCHE GESELLSCHAFT FÜR LITERATUR
-            <lb/>PALAIS WILCZEK, 1O1O WIEN I, HERRENGASSE 5 TEL. 63 81 59, 63 08 64
+            <seg hand="#print_black_oegfl">
+              <orgName>
+                <lb/><rs type="org" ref="#amp_organization_9">ÖSTERREICHISCHE GESELLSCHAFT FÜR LITERATUR</rs>
+              </orgName>
+              <lb/><placeName><rs type="place" ref="#amp_place_id_177">PALAIS WILCZEK, 1O1O WIEN I, HERRENGASSE 5</rs></placeName> TEL. 63 81 59, 63 08 64
+            </seg>
             <persName>
               <lb/><rs type="person" ref="#amp_person_1">Herrn
               <lb/>W.H.Auden</rs>
@@ -177,13 +198,13 @@
                 <lb/>Hinterholz 6</rs>
               </address>
             </placeName>
-            <dateline><lb/><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>11.August 1970</date></dateline>  
+            <lb/><dateline><space unit="char" quantity="40"/><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>11.August 1970</date></dateline>  
             <salute>
               <lb/>Sehr verehrter <rs type="person" ref="#amp_person_1">Herr Auden</rs>!
             </salute>
           </opener>
           <p>
-            <lb/>Im Namen von <rs type="person" ref="#amp_person_137">Dr. Kraus</rs> möchte ich Ihnen sehr herzlich für Ihren
+            <lb/>Im Namen von <rs type="person" ref="#amp_person_137">Dr.Kraus</rs> möchte ich Ihnen sehr herzlich für Ihren
             <lb/>Brief danken. Wir haben hier "<rs type="lit_work" ref="#lit_work_id_134">About the house</rs>" und würden uns
             <lb/>sehr freuen, wenn Sie uns "<rs type="lit_work" ref="#lit_work_id_137">City without walls</rs>" für kurze Zeit
             <lb/>zur Verfügung stellen könnten. Vielleicht könnten Sie auch an-
@@ -193,21 +214,28 @@
             <lb/>Unannehmlichkeiten machen.
           </p>
           <closer>
-            <lb/>Mit herzlichen Grüßen
-            <seg hand="#ink-blue_urbach">
+            <salute>
+            <lb/><space unit="char" quantity="35"/>Mit herzlichen Grüßen
+            </salute>
+            <salute hand="#hand_blue_urbach">
               <lb/>Ihr
+              </salute>
+            <signed hand="#hand_blue_urbach">
               <lb/><rs type="person" ref="#amp_person_284">Reinhard Urbach</rs>
-            </seg>
-            <lb/>(<rs type="person" ref="#amp_person_284">Reinhard Urbach</rs>)
+            </signed>
+              <signed>
+                <lb/><space unit="char" quantity="38"/>(<rs type="person" ref="#amp_person_284">Reinhard Urbach</rs>)
+              </signed>
           </closer>
-        </div>
-
-        <div type="enclosure" hand="#ink-blue_auden">
+        </div>          
+          <div type="letter_message" hand="#hand_blue_auden">
           <opener>
-            <lb/>Sehr <del>ge</del> verehrter <rs type="person" ref="#amp_person_284">Herr Urbach</rs>:
-          </opener>
+            <salute>
+              <lb/>Sehr <del hand="#hand_blue_auden" rend="overstrike">ge</del> verehrter <rs type="person" ref="#amp_person_284">Herr Urbach</rs>:
+            </salute>
+           </opener>
             <p>
-            <lb/>Hiermit die Büche und
+              <lb/>Hiermit die <rs type="lit_work" ref="#lit_work_id_137 #lit_work_id_135">Büche</rs> und
             <lb/>ein List
           </p>
           <closer>
@@ -215,30 +243,54 @@
               <lb/><rs type="person" ref="#amp_person_1">W.H. Auden</rs>
             </signed>
           </closer>
-        </div>
-      <div type="enclosure">
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00404/" ed="1v" type="sheet"/>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00401/" ed="2r" type="sheet"/>
-        <div type="letter" hand="#type_cc_auden">
+            </div>
+      <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00404/" ed="1v" type="sheet"/>
+          <div type="enclosure" hand="#type_black_auden">
+         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00401/" ed="2r" type="sheet"/>
+        
         <opener hand="#print_black_auden">
           <placeName>
             <lb/><rs type="place" ref="#amp_place_id_2">3062 KIRCHSTETTEN
-            <lb/>BEZ. ST. POLTEN
-            <lb/>HINTERHOLZ 8
-            <lb/>N.-Ö. AUSTRIA</rs>
+            <lb/>BEZ. ST. PÖLTEN
+            <lb/>HINTERHOLZ 6
+            <lb/>N.-Ö., AUSTRIA</rs>
           </placeName>
         </opener>
-        <p>
-          <lb/><add hand="#hand_gray_onb">A-2 Auden</add>
-          <lb/>From <hi rend="underline"><rs type="lit_work" ref="#lit_work_id_134">ABOUT THE HOUSE</rs></hi>
-          <lb/><space quantity="4" unit="char"/><add hand="#hand_gray_unident_0122_01">-</add><rs type="lit_work" ref="#lit_work_id_37">The Cave of Making</rs> (p 8-II)
-          <lb/>from <hi rend="underline"><rs type="lit_work" ref="#lit_work_id_137">CITY WITHOUT WALIS</rs></hi>
-          <lb/><space quantity="1" unit="char"/><add hand="#hand_gray_unident_0122_01">-</add>In Memoriam Emma Eiermann/ (p 2I-23) <add hand="#hand_gray_unident_0122_02">no Transl</add>
-          <lb/><space quantity="1" unit="char"/><add hand="#hand_gray_unident_0122_01">-</add><rs type="lit_work" ref="#lit_work_id_38">Prologue at Sixty</rs> (p II7-I2I)
-          <lb/>From <hi rend="underline"><subst><del rend="overtyped" hand="#type_black_auden">Collected S</del></subst><rs type="lit_work" ref="#lit_work_id_135">COLLECTED SHORTER POEMS</rs></hi>
+          </div>
+          <div>
+            <ab hand="#hand_gray_oegfl">
+            <lb/>A-2 Auden  
+            </ab>
+          </div>
+          <div type="enclosure" hand="#type_black_auden">
+        <ab>
+          <lb/>From <hi rend="underline" hand="#type_black_auden"><rs type="lit_work" ref="#lit_work_id_134">ABOUT THE HOUSE</rs></hi>
+          <lb xml:id="list_element_1"/><space quantity="4" unit="char"/><rs type="lit_work" ref="#lit_work_id_37">The Cave of Making</rs><space quantity="3" unit="char"/> (p 8-II<subst><del rend="overtyped" hand="#type_black_auden">*</del><add place="superimposed" hand="#type_black_auden">)</add></subst>
+          </ab>
+            <ab>
+              <add place="left" corresp="#list_element_1" hand="#hand_gray_unident_0122_01">-</add>
+            </ab>
+          <ab>
+           <lb/>from <hi rend="underline" hand="#type_black_auden"><rs type="lit_work" ref="#lit_work_id_137">CITY WITHOUT WALLS</rs></hi>
+            <lb xml:id="list_element_2"/><space quantity="1" unit="char"/><add hand="#hand_gray_unident_0122_01">-</add><rs type="lit_work" ref="#lit_work_id_107">In Memoriam Emma Eiermann</rs>/<space quantity="3" unit="char"/>(p 2I-23) <add hand="#hand_gray_unident_0122_02">no <unclear>Transl</unclear></add>
+          
+            <lb xml:id="list_element_3"/><space quantity="1" unit="char"/><add hand="#hand_gray_unident_0122_01">-</add><rs type="lit_work" ref="#lit_work_id_38">Prologue at Sixty</rs> (p II7-I2I) 
+          </ab>
+            <ab>
+              <add place="left" corresp="#list_element_2" hand="#hand_gray_unident_0122_01">-</add>
+            </ab>
+            <ab>
+              <add place="left" corresp="#list_element_3" hand="#hand_gray_unident_0122_01">-</add>
+            </ab>
+          
+         <ab> 
+           <lb/>From <hi rend="underline"><subst><del rend="overtyped" hand="#type_black_auden">Collected S</del></subst><rs type="lit_work" ref="#lit_work_id_135">COLLECTED SHORTER POEMS</rs></hi>
           <lb/><space quantity="1" unit="char"/><add hand="#hand_gray_unident_0122_03">nein</add> <rs type="lit_work" ref="#lit_work_id_324">In Praise of Limestone</rs> (p 238-24I)
-          <lb/>Unpublished/in book form.
-          <lb/><space quantity="2" unit="char"/><add hand="#hand_gray_unident_0122_03">nein</add> <rs type="lit_work" ref="#lit_work_id_325">Old People's Home</rs> (enclosed)</p>
+         </ab>
+          <ab>
+            <lb/>Unpublished/in book form.
+          <lb/><space quantity="2" unit="char"/><add hand="#hand_gray_unident_0122_03">nein</add> <rs type="lit_work" ref="#lit_work_id_325">Old People's Home</rs> (enclosed)
+          </ab>
         </div>
       </div>
       <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00402/" ed="2v" type="sheet"/>
