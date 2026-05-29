@@ -99,7 +99,7 @@
                   <handNote/>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="type_cc_kraus" scribeRef="#amp_person_137" medium="type-cc">Carbon copy of typewriting authored by Wolfgang Kraus</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -123,11 +123,13 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="de"/>
       </langUsage>
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2026-05-15">TEI/XML template populated with csv2xml.py</change>
+      <change who="#ahechtl" when-iso="2026-05-22">add transcription</change>
+      <change who="#ahechtl" when-iso="2026-05-26">Populate physDesc, add structure; Entities markup: places, persons</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -146,12 +148,70 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0131" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0131" xml:lang="de">
+        <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00421/" ed="1r" type="sheet"/>
+        <div type="letter_message" hand="#type_cc_kraus">
+        <opener>
+          <lb/>Herrn<space quantity="28" unit="char"/><dateline><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>14. September 1962.</date></dateline>
+          <persName>
+            <lb/><rs type="person" ref="#amp_person_1">W.H. Auden</rs>
+          </persName>
+          <placeName>
+            <lb/><rs type="place" ref="#amp_place_id_2">Kirchstetten
+            <lb/>Hin<subst><del rend="erased" hand="type_cc_kraus">er</del><add place="superimposed" hand="type_cc_kraus">te</add></subst>rholz 5</rs>
+          </placeName>
+          <salute>
+            <lb/>Sehr verehrter, lieber <rs type="person" ref="#amp_person_1">Herr Auden</rs>,
+          </salute>
+        </opener>
+        <p>
+          <lb/><space quantity="5" unit="char"/>Herr <rs>Prof. Hamburger</rs> war so freundlich, die Verbindung
+          <lb/>mit Ihnen herzustellen und damit einen von mir langgehegten
+          <lb/>Wunsch zu erfüllen. <space quantity="1" unit="char"/>Mit besonderer Freude hörte ich, dass
+          <lb/>es Ihnen möglich wäre, in der ersten Oktoberhälfte in den
+          <lb/>Räumen unserer Gesellschaft eine Vorlesung aus Ihren Werken
+          <lb/>zu halten. <space quantity="1" unit="char"/>Ich weiss nicht, lieber <rs type="person" ref="#amp_person_1">Herr Auden</rs>, ob es Ihnen
+          <lb/>angenehm wäre, Ihre Werke auch in deutscher Sprache zu lesen.
+          <lb/>Wir hätten die Möglichkeit, einen Schasspieler des <rs>Burgthea-
+          <lb/>ters</rs> für die Lesung von Übersetzungen zu gewinnen, würden Sie
+          <lb/>aber auf jeden Fall bitten, jeweils den englischen Text zu
+          <lb/>lesen. <space quantity="1" unit="char"/>Besonders schön wäre es natürlich, wenn Sie einleitend
+          <lb/>ein paar Worte über Sich und Ihre Arbeit womöglich in deutscher
+          <lb/>Sprache zum Auditorium sprechen könnten. <space quantity="1" unit="char"/>Selbstverständlich
+          <lb/>werde ich Sie dem Publikum kurz vorstellen.
+        </p>
+        <p>
+          <lb/><space quantity="5" unit="char"/>Besonders willkommen wäre es uns, wenn Sie etwa vier oder
+          <lb/>fünf Tage vor Ihrem Abend einmal zu uns kommen könnten, da wir
+          <lb/>dann gern einige Interviews mit Presse und Rundfunk arrangieren
+          <lb/>möchten, um schon vorher die Aufmerksamkeit auf Sie und die
+          <lb/><rs>Vorlesung</rs> zu richten. Natürlich würden wir es Ihnen überlassen,
+          <lb/>was an diesem Abend gelesen wird, ich stelle mir vor, dass
+          <lb/>die Gesamtdauer sowohl Ihrer als auch der deutschsprachigen
+          <lb/>Lesung etwa 75 Minuten ausmacht.
+          <lb/><space quantity="5" unit="char"/>Als Honorar erlauben wir uns, Ihnen einen Betrag von
+          <lb/>1.000 Schilling anzubieten.
+          <lb/><space quantity="5" unit="char"/>Es wird Sie vielleicht interessieren, dass sich unser
+          <lb/>Besucherkrais hauptsächlich aus Autoren, den verschiedensten
+          <lb/>Persönlichkeiten des Wiener kulturellen Lebens und Studenten
+          <lb/>zusammensetzt und kein Eintrittspreis verlangt wird.</p>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00422/" ed="1v" type="sheet"/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00423/" ed="2r" type="sheet"/>
+        <div type="letter_message" hand="#type_cc_kraus">
+          <lb/><space quantity="22" unit="char"/>-2-
+          <p>
+            <lb/><space quantity="5" unit="char"/>Als Datum der Veranstaltung würden wir Ihnen den
+            <lb/>4. Oktober vorschlagen. <space quantity="1" unit="char"/>Bitte, sagen Sie uns doch bald,
+            <lb/>ob Sie mit unserem Vorschlag einverstanden sind!
+            <lb/><space quantity="5" unit="char"/>Mit den besten Wünschen und Empfehlungen
+            <lb/><space quantity="34" unit="char"/>Ihr Ihnen sehr ergebener
+            <lb/><space quantity="34" unit="char"/>(Dr. Wolfgang Kraus)
+          </p>
+        </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00424/" ed="2v" type="sheet"/>
+      </div>
       </div>
     </body>
   </text>
