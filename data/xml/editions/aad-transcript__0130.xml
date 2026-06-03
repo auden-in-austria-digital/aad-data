@@ -180,6 +180,9 @@
           <salute>
             <lb/><space quantity="32" unit="char"/>Ihr Ihnen sehr ergebener
           </salute>
+          <signed hand="#hand_blue_kraus">
+            <lb/><space quantity="40" unit="char"/><rs type="person" ref="#amp_person_137"><unclear/></rs>
+          </signed>
           <signed>
             <lb/><space quantity="31" unit="char"/>(<rs type="person" ref="#amp_person_137">Dr. Wolfgang Kraus</rs>)</signed>
         </closer>
