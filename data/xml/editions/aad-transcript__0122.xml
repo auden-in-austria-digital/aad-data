@@ -138,19 +138,21 @@
       </langUsage>
       <correspDesc>
         <correspAction type="sent">
+          <persName ref="#amp_person_284">Urbach, Reinhard</persName>
           <date notBefore-iso="1970-08-11T08:00:00+01:00"/>
         </correspAction>
         <correspAction type="received">
           <persName ref="#amp_person_1">Auden, W. H.</persName>
-          <date notBefore-iso="1970-08-11T08:00:00+01:00"/>
           <placeName><rs type="place" ref="#amp_place_id_2">Kirchstetten</rs></placeName>
         </correspAction>
         <correspAction type="sent">
-          <date notBefore-iso="1970-08-11T08:00:00+01:00"/>
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <date notBefore-iso="1970-08-11T08:00:00+01:00" notAfter-iso="1970-08-20T23:59:59+01:00"/>
         </correspAction>
         <correspAction type="received">
           <persName ref="#amp_person_284">Urbach, Reinhard</persName>
-          <date notBefore-iso="1970-08-11T08:00:00+01:00"/>
+          <date notBefore-iso="1970-08-11T08:00:00+01:00" notAfter-iso="1970-08-20T23:59:59+01:00"/>
+          <placeName><rs type="place" ref="#amp_place_id_1">Vienna</rs></placeName>
         </correspAction>
       </correspDesc>
     </profileDesc>
@@ -245,9 +247,8 @@
           </closer>
             </div>
       <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00404/" ed="1v" type="sheet"/>
+      <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00401/" ed="2r" type="sheet"/>
           <div type="enclosure" hand="#type_black_auden">
-         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00401/" ed="2r" type="sheet"/>
-        
         <opener hand="#print_black_auden">
           <placeName>
             <lb/><rs type="place" ref="#amp_place_id_2">3062 KIRCHSTETTEN
@@ -272,9 +273,9 @@
             </ab>
           <ab>
            <lb/>from <hi rend="underline" hand="#type_black_auden"><rs type="lit_work" ref="#lit_work_id_137">CITY WITHOUT WALLS</rs></hi>
-            <lb xml:id="list_element_2"/><space quantity="1" unit="char"/><add hand="#hand_gray_unident_0122_01">-</add><rs type="lit_work" ref="#lit_work_id_107">In Memoriam Emma Eiermann</rs>/<space quantity="3" unit="char"/>(p 2I-23) <add hand="#hand_gray_unident_0122_02">no <unclear>Transl</unclear></add>
-          
-            <lb xml:id="list_element_3"/><space quantity="1" unit="char"/><add hand="#hand_gray_unident_0122_01">-</add><rs type="lit_work" ref="#lit_work_id_38">Prologue at Sixty</rs> (p II7-I2I) 
+            <lb xml:id="list_element_2"/><space quantity="1" unit="char"/><rs type="lit_work" ref="#lit_work_id_107">In Memoriam Emma Eiermann</rs>/<space quantity="3" unit="char"/>(p 2I-23) <add hand="#hand_gray_unident_0122_02">no <unclear>Transl</unclear></add>
+
+            <lb xml:id="list_element_3"/><space quantity="1" unit="char"/><rs type="lit_work" ref="#lit_work_id_38">Prologue at Sixty</rs> (p II7-I2I)
           </ab>
             <ab>
               <add place="left" corresp="#list_element_2" hand="#hand_gray_unident_0122_01">-</add>
@@ -284,7 +285,7 @@
             </ab>
           
          <ab> 
-           <lb/>From <hi rend="underline"><subst><del rend="overtyped" hand="#type_black_auden">Collected S</del></subst><rs type="lit_work" ref="#lit_work_id_135">COLLECTED SHORTER POEMS</rs></hi>
+           <lb/>From <hi rend="underline" hand="#type_black_auden"><subst><del rend="overtyped" hand="#type_black_auden">Collected S</del><add place="superimposed" hand="#type_black_auden"><rs type="lit_work" ref="#lit_work_id_135">COLLECTED SHORTER POEMS</rs></add></subst></hi>
           <lb/><space quantity="1" unit="char"/><add hand="#hand_gray_unident_0122_03">nein</add> <rs type="lit_work" ref="#lit_work_id_324">In Praise of Limestone</rs> (p 238-24I)
          </ab>
           <ab>
