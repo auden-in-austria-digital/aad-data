@@ -159,7 +159,7 @@
           </persName>
           <placeName>
             <lb/><rs type="place" ref="#amp_place_id_2">Kirchstetten
-            <lb/>Hin<subst><del rend="erased" hand="type_cc_kraus">er</del><add place="superimposed" hand="type_cc_kraus">te</add></subst>rholz 5</rs>
+            <lb/>Hin<subst><del rend="overtyped" hand="#type_cc_kraus"><unclear>er</unclear></del><add place="superimposed" hand="#type_cc_kraus">te</add></subst>rholz 5</rs>
           </placeName>
           <salute>
             <lb/>Sehr verehrter, lieber <rs type="person" ref="#amp_person_1">Herr Auden</rs>,
@@ -193,7 +193,7 @@
           <lb/><space quantity="5" unit="char"/>Als Honorar erlauben wir uns, Ihnen einen Betrag von
           <lb/>1.000 Schilling anzubieten.
           <lb/><space quantity="5" unit="char"/>Es wird Sie vielleicht interessieren, dass sich unser
-          <lb/>Besucherkr<subst><del rend="erased" hand="type_cc_kraus">i</del><add place="superimposed" hand="type_cc_kraus">e</add></subst>is hauptsächlich aus Autoren, den verschiedensten
+          <lb/>Besucherkr<subst><del rend="overtyped" hand="#type_cc_kraus">i</del><add place="superimposed" hand="#type_cc_kraus">e</add></subst>is hauptsächlich aus Autoren, den verschiedensten
           <lb/>Persönlichkeiten des Wiener kulturellen Lebens und Studenten
           <lb/>zusammensetzt und kein Eintrittspreis verlangt wird.</p>
           </div>
