@@ -91,7 +91,7 @@
                   <handNote/>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="type_cc_bronold" scribeRef="#amp_person_135" medium="type-cc">Carbon copy of typewriting by Hella Bronold</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -115,11 +115,13 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="de"/>
       </langUsage>
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2026-05-15">TEI/XML template populated with csv2xml.py</change>
+      <change who="#ahechtl" when-iso="2026-05-28">Add basic transcription and populate physDesc</change>
+      <change who="#ahechtl" when-iso="2026-06-01">Markup entities: persons, places, date, literary works</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -132,10 +134,37 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0132" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0132" xml:lang="de">
+        <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00425/" ed="1r" type="sheet"/>
+        <div type="letter_message" hand="#type_cc_bronold">
+        <opener>
+          <lb/>Herrn<space quantity="36" unit="char"/><dateline><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>9. Oktober 1962</date></dateline>.
+          <persName>
+            <lb/><rs type="person" ref="#amp_person_1">W.H. Auden</rs>
+          </persName>
+          <placeName>
+            <lb/><rs type="place" ref="#amp_place_id_2">Kirchstetten</rs>
+          </placeName>
+          <salute>
+            <lb/>Sehr geehrter <rs type="person" ref="#amp_person_1">Herr Auden</rs>,
+          </salute>
+        </opener>
+        <p>
+        <lb/><space quantity="4" unit="char"/>In Abwesenheit von <rs type="person" ref="#amp_person_137">Herrn Dr. Kraus</rs> erlaube ich mir? Ihnen
+        <lb/>Ihre Frage zu beantworten: <space quantity="1" unit="char"/>der Vorname von <rs type="person" ref="#amp_person_243">Herrn Gasser</rs> ist
+        <lb/>Manfred.</p>
+        <p><space quantity="5" unit="char"/>Die <rs type="lit_work" ref="#lit_work_id_277">"Caliban"-Manuskriptseiten</rs> lege ich bei.</p>
+        <closer>
+          <salute>
+            <lb/><space quantity="5" unit="char"/>Mit allen guten Wünschen und den besten Empfehlungen</salute>
+          <signed>
+            <lb/><space quantity="31" unit="char"/>(<rs type="person" ref="#amp_person_135">Hella Bronold</rs>)
+          </signed>
+        </closer>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00426/" ed="1v" type="sheet"/>
+      </div>
       </div>
     </body>
   </text>
