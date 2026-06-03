@@ -151,7 +151,7 @@
           </salute>
         </opener>
         <p>
-        <lb/><space quantity="4" unit="char"/>In Abwesenheit von <rs type="person" ref="#amp_person_137">Herrn Dr. Kraus</rs> erlaube ich mir? Ihnen
+          <lb/><space quantity="4" unit="char"/>In Abwesenheit von <rs type="person" ref="#amp_person_137">Herrn Dr. Kraus</rs> erlaube ich mir<subst><del rend="erased" hand="#type_cc_bronold">?</del><add place="superimposed" hand="#type_cc_bronold">,</add></subst> Ihnen
         <lb/>Ihre Frage zu beantworten: <space quantity="1" unit="char"/>der Vorname von <rs type="person" ref="#amp_person_243">Herrn Gasser</rs> ist
         <lb/>Manfred.</p>
         <p><space quantity="5" unit="char"/>Die <rs type="lit_work" ref="#lit_work_id_277">"Caliban"-Manuskriptseiten</rs> lege ich bei.</p>
