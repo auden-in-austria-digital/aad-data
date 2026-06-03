@@ -153,7 +153,7 @@
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00421/" ed="1r" type="sheet"/>
         <div type="letter_message" hand="#type_cc_kraus">
         <opener>
-          <lb/>Herrn<space quantity="28" unit="char"/><dateline><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>14. September 1962.</date></dateline>
+          <lb/>Herrn<space quantity="28" unit="char"/><dateline><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>14. September 1962</date></dateline>.
           <persName>
             <lb/><rs type="person" ref="#amp_person_1">W.H. Auden</rs>
           </persName>
@@ -173,9 +173,9 @@
           <lb/>Räumen unserer <rs type="org" ref="#amp_organization_9">Gesellschaft</rs> eine Vorlesung aus Ihren Werken
           <lb/>zu halten. <space quantity="1" unit="char"/>Ich weiss nicht, lieber <rs type="person" ref="#amp_person_1">Herr Auden</rs>, ob es Ihnen
           <lb/>angenehm wäre, Ihre Werke auch in deutscher Sprache zu lesen.
-          <lb/>Wir hätten die Möglichkeit, einen Scha<subst><del rend="erased" hand="type_cc_kraus">s</del><add place="superimposed" hand="type_cc_kraus">u</add></subst>spieler des <rs type="org" ref="#amp_organization_59">Burgthea-
+          <lb/>Wir hätten die Möglichkeit, einen Scha<subst><del rend="erased" hand="#type_cc_kraus">s</del><add place="superimposed" hand="#type_cc_kraus">u</add></subst>spieler des <rs type="org" ref="#amp_organization_59">Burgthea-
           <lb/>ters</rs> für die Lesung von Übersetzungen zu gewinnen, würden Sie
-          <lb/>aber auf jeden Fall bitten, jeweils den englischen Text zu
+          <lb/>aber auf <subst><del rend="overtyped" hand="#type_cc_kraus">u</del><add place="superimposed" hand="#type_cc_kraus">j</add></subst>eden Fall bitten, jeweils den englischen Text zu
           <lb/>lesen. <space quantity="1" unit="char"/>Besonders schön wäre es natürlich, wenn Sie einleitend
           <lb/>ein paar Worte über <subst><del rend="erased" hand="type_cc_kraus">s</del><add place="superimposed" hand="type_cc_kraus">S</add></subst>ich und Ihre Arbeit womöglich in deutscher
           <lb/>Sprache zum Auditorium sprechen könnten. <space quantity="1" unit="char"/>Selbstverständlich
