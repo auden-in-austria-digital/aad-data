@@ -177,7 +177,7 @@
           <lb/>ters</rs> für die Lesung von Übersetzungen zu gewinnen, würden Sie
           <lb/>aber auf <subst><del rend="overtyped" hand="#type_cc_kraus">u</del><add place="superimposed" hand="#type_cc_kraus">j</add></subst>eden Fall bitten, jeweils den englischen Text zu
           <lb/>lesen. <space quantity="1" unit="char"/>Besonders schön wäre es natürlich, wenn Sie einleitend
-          <lb/>ein paar Worte über <subst><del rend="erased" hand="type_cc_kraus">s</del><add place="superimposed" hand="type_cc_kraus">S</add></subst>ich und Ihre Arbeit womöglich in deutscher
+          <lb/>ein paar Worte über <subst><del rend="erased" hand="#type_cc_kraus">S</del><add place="superimposed" hand="#type_cc_kraus">s</add></subst>ich und Ihre Arbeit womöglich in deutscher
           <lb/>Sprache zum Auditorium sprechen könnten. <space quantity="1" unit="char"/>Selbstverständlich
           <lb/>werde ich Sie dem Publikum kurz vorstellen.
         </p>
@@ -201,10 +201,10 @@
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00423/" ed="2r" type="sheet"/>
         <div type="letter_message" hand="#type_cc_kraus">
           <opener>
-            <lb/><space quantity="22" unit="char"/>-2-
+            <lb/><space quantity="22" unit="char"/>- 2 -
           </opener>
           <p>
-            <lb/><space quantity="5" unit="char"/>Als Datum der <rs type="event" ref="#amp_event_id_25">Vorlesung</rs> würden wir Ihnen den
+            <lb/><space quantity="5" unit="char"/>Als Datum der <rs type="event" ref="#amp_event_id_25">Veranstaltung</rs> würden wir Ihnen den
             <lb/>4. Oktober vorschlagen. <space quantity="1" unit="char"/>Bitte, sagen Sie uns doch bald,
             <lb/>ob Sie mit unserem Vorschlag einverstanden sind!
           </p>
