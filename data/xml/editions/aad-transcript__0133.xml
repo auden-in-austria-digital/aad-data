@@ -91,7 +91,7 @@
                   <handNote/>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="type_cc_zand" scribeRef="#amp_person_218" medium="type-cc">Carbon copy of typewriting authored by Herbert Zand</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -115,11 +115,13 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="de"/>
       </langUsage>
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2026-06-09">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-06-09">add transcription</change>
+      <change who="#smayer" when-iso="2026-06-09">populate physDesc, add structure; entities markup: places, persons, events, organizations</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -132,11 +134,56 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0133" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0133" xml:lang="de">
+        <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00433/" ed="1r" type="sheet"/>
+           <div type="letter_message" hand="#type_cc_zand">
+              <opener>
+                  <lb/><space quantity="42" unit="char"/><dateline><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>21.3.1967</date></dateline>
+                  <lb/>Herrn
+              <persName>
+                  <lb/><rs type="person" ref="#amp_person_1">W. H. Auden</rs>
+              </persName>
+              <placeName>
+                  <lb/><rs type="place" ref="#amp_place_id_2">Hinterholz 5
+                  <lb/>3062 <hi rend="underline" hand="#type_cc_zand">Kirchstetten</hi></rs>
+              </placeName>
+                <salute>
+                  <lb/>Sehr verehrter <rs type="person" ref="#amp_person_1">Herr Auden</rs>,
+                </salute>
+              </opener>
+                <p>
+                  <lb/><space quantity="3" unit="char"/>Unser Round-Table-Gespräch über <rs type="event" ref="#amp_event_id_31">"Literatur als Tradition und
+                  <lb/>Revolution"</rs> erhält nun mit den allmählich einlangenden Referaten
+                  <lb/>der Teilnehmer einen bereits klarer erkennbaren Umriss. 
+               </p>
+               <p>
+                  <lb/><space quantity="3" unit="char"/>Wir möchten Ihnen nun doch noch einmal sagen, wie sehr wir
+                  <lb/>uns über Ihre Zusage freuen und dass wir Ihre Beteiligung an der
+                  <lb/>Diskussion für ausserordentlich wichtig halten - es fehlt zwar
+                  <lb/>nicht an gegensätzlichen Standpunkten, und die Diskussion wird
+                  <lb/>gewiss in Fluss kommen, aber wir möchten sie doch so weit wie 
+                  <lb/>nur möglich vorantreiben und dabei wäre uns Ihr Mitdenken und
+                  <lb/>Eingreifen ganz sicherlich eine grosse Hilfe.
+                </p>
+              <closer>
+                  <lb/><space quantity="3" unit="char"/>Wir rechnen fest mit Ihrer Teilnahme, danken Ihnen nochmals
+                  <lb/>und <salute>bleiben mit den besten Wünschen</salute>
+                <salute>
+                  <lb/><space quantity="35" unit="char"/>Ihre
+                </salute>
+                  <signed>
+                  <lb/><space quantity="35" unit="char"/><rs type="org" ref="#amp_organization_9">Österreichische Gesellschaft
+                  <lb/><space quantity="41" unit="char"/>für Literatur</rs>
+                </signed>
+                <signed>
+                  <lb/><space quantity="39" unit="char"/><rs type="person" ref="#amp_person_218">Herbert Zand</rs>
+                </signed>
+              </closer>
+            </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00434/" ed="1v" type="sheet"/>
       </div>
+     </div>
     </body>
   </text>
 </TEI>
