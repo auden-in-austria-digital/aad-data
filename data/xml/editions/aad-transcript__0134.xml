@@ -120,6 +120,7 @@
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2026-06-09">TEI/XML template populated with csv2xml.py</change>
+      <change who="#ahechtl" when-iso="2026-06-09">add plain transcription</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -135,6 +136,29 @@
       <div type="transcription" xml:id="transcription_aad_0134" xml:lang="">
         <div/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00435/" ed="1r" type="sheet"/>
+                Herrn
+Wien, 9. Februar 1967.
+W.H. Auden
+17 St. Mark's Place
+New York City, N.Y. 10003
+Sehr verehrter, lieber Herr Auden,
+Haben Sie Dank für Ihren Brief vom 10. Januar! Ich
+freue mich ganz ausserordentlich über Ihre Zusage und dass
+ich Sie bei unserem Kongress sehen werde. Das Thema unse-
+res Kongresses "Literatur als Tradition und Revolution
+ist auch von uns aus nicht als gesellschaftspolitische Dis-
+kussion gemeint, auch wir möchten über "art and society
+einen Schritt hinauskommen. Jedenfalls hoffe ich, dass es
+einen lebhaften Gedankenaustausch geben wird.
+Die heutige Gelegenheit möchte ich nicht versäumen und
+Sie auch bitten, unsere herzlichsten Glückwünsche zu Ihrem
+60. Geburtstag entgegenzunehmen. Wir sind immer wieder
+froh darüber, dass Sie zu uns nach Österreich gekommen
+sind und wünschen Ihnen hier noch viele gute und frucht-
+bare Jahre.
+Mit allen guten Wünschen und Grüssen
+Ihr Ihnen sehr ergebener
+(Dr. Wolfgang Kraus)
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00436/" ed="1v" type="sheet"/>
       </div>
     </body>

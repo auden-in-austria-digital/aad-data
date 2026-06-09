@@ -120,7 +120,7 @@
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2026-06-09">TEI/XML template populated with csv2xml.py</change>
-      <change who="#smayer" when-iso="2026-06-09">add transcription</change>
+      <change who="#ahechtl" when-iso="2026-06-09">add plain transcription</change>
       <change who="#smayer" when-iso="2026-06-09">populate physDesc, add structure; entities markup: places, persons, events, organizations</change>
     </revisionDesc>
   </teiHeader>
