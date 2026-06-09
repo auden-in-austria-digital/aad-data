@@ -120,6 +120,7 @@
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2026-06-09">TEI/XML template populated with csv2xml.py</change>
+      <change who="#ahechtl" when-iso="2026-06-09">add plain transcription</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -135,6 +136,28 @@
       <div type="transcription" xml:id="transcription_aad_0133" xml:lang="">
         <div/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00433/" ed="1r" type="sheet"/>
+        Wien, 21.3.1967
+Herrn
+W. H. Auden
+Hinterholz 5
+3062 Kirchstetten
+Sehr verehrter Herr Auden,
+Unser Round-Table-Gespräch über "Literatur als Tradition und
+Revolution" erhält nun mit den allmählich einlangenden Referaten
+der Teilnehmer einen bereits klarer erkennbaren Umriss.
+Wir möchten Ihnen nun doch noch einmal sagen, wie sehr wir
+uns über Ihre Zusage freuen und dass wir Ihre Beteiligung an der
+Diskussion für ausserordentlich wichtig halten - es fehlt zwar
+nicht an gegensätzlichen Standpunkten, und die Diskussion wird
+gewiss in Fluss kommen, aber wir möchten sie doch so weit wie
+nur möglich vorantreiben und dabei wäre uns Ihr Mitdenken und
+Eingreifen ganz sicherlich eine grosse Hilfe.
+Wir rechnen fest mit Ihrer Teilnahme, danken Ihnen nochmals
+und bleiben mit den besten Wünschen
+Ihre
+Österreichische Gesellschaft
+für Literatur
+Herbert Zand
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00434/" ed="1v" type="sheet"/>
       </div>
     </body>
