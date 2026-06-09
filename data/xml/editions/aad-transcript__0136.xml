@@ -120,6 +120,7 @@
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2026-06-09">TEI/XML template populated with csv2xml.py</change>
+      <change who="#ahechtl" when-iso="2026-06-09">Add plain transcription</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -135,6 +136,48 @@
       <div type="transcription" xml:id="transcription_aad_0136" xml:lang="">
         <div/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00443/" ed="1r" type="sheet"/>
+Mr.
+Vienna, 28 March 1966
+W.H.Auden
+Hinterholz 5
+Kirchstetten
+Niederösterreich
+Dear Sir,
+Last year the "Österreichische Gesellschaft für Literatur"
+arranged two International Round-Table Conferences to discuss
+"The theatre of today and today in the theatre" and "The novel
+in the present century". Both were attended by some of the lead
+ing writers and crities of the day, and the world-wide interest
+evidenced by the long extracts from the discussions in newspapers,
+literary periodicals, and radio and TV reports has led us to plan
+a further Conference next autumn to discuss "Literature: tradi¬
+tion and revolution". A feature of the Conference, as in the case
+of last year's, will be the presence of leading authorities from
+both East and West.
+The Conference will be from 23-25 October 1966 in Vienna,
+the three mornings being set aside for discussions in the
+presence of an invited audience of journalists and critics. The
+languages of the Conference will be English, French and German.
+As last year, a number of journalists from both East and West
+will come to Vienna with the special purpose of reporting on
+this Conference. On the third evening all those taking part in
+the Conference will foregather in the Redoutensaal of the Hofburg
+for a meeting, open to the public, at which the results of the
+Conference will be summarised.
+May we have the pleasure of inviting you to this Conference?
+We are confident that anything you have to say will be much
+appreciated by all present. You will shortly be sent further
+details; but meanwhile it would greatly assist us if you would
+let us know whether you can accept our invitation or not. We are
+glad to be able to offer you a compensation of S 3.000, and we
+shall of course be responsible for your air ticket and your
+hotel accommodation, in case you should not be in Austria.
+Hoping to receive your acceptance in dug course,
+I remain with cordial greetings,
+Yours truly,
+(Dr. Wolfgang Kraus)
+Invitations have been sent to
+(See encl.)
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00444/" ed="1v" type="sheet"/>
       </div>
     </body>
