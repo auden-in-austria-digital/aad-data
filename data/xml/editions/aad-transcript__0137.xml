@@ -88,10 +88,11 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote/>
+                  <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
+                  <handNote xml:id="hand_gray_oegfl" scribeRef="#amp_organization_9" medium="pencil">Handwriting in pencil authored by <rs type="org" ref="#amp_organization_9">Austrian Society for Literature</rs></handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="print_black_auden" scribeRef="#amp_person_1" medium="print-black">Preprinted writing in black authored by W. H. Auden, sans-serif Grotesque-family typeface</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -115,11 +116,25 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="en"/>
+        <language ident="de"/>
       </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1972-07-03T00:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_135">Bronold, Hella</persName>
+          <orgName><rs type="org" ref="#amp_organization_9">Austrian Society for Literature</rs></orgName>
+          <placeName><rs type="place" ref="#amp_place_id_1" ana="acdh:aad-transcript__0104.xml#ana_108">Vienna</rs></placeName>
+        </correspAction>
+      </correspDesc>
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2026-06-09">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-06-10">plain transcription added</change>
+      <change who="#smayer" when-iso="2026-06-10">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-06-10">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -132,30 +147,63 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0137" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0137" xml:lang="en">
+        <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00447/" ed="1r" type="sheet"/>
-        A.
-        300IXiXEXSrarreX
-        3ten Jula
-        01257.00ireX
-        M1·10010120
-        N.Ö..AarXie
-        Dear Miss Bronold:
-        Have just receird yours letter afte
-        a trip I had to make to Londo
-        The Finanzamt St Pölten demands
-        S 149.881 as Income tave for 1969
-        I think thies absurdlay high , but hre sand
-        I would pay it in three wistallments
-        over threse years. If anything cans be
-        dons , of course I would be pleared,
-        Could you ash Dr Kraus to get un touch
-        with me, since there am one an twe prothug
-        I wich to descass with ham.
-        yours sinerret
-        W.H.Auden
+        <div>
+          <ab hand="#hand_gray_oegfl">
+            <lb/>A<unclear>-</unclear>2
+          </ab>
+        </div>
+        <div type="letter_message" hand="#hand_blue_auden">
+          <opener>
+            <dateline>
+              <date>
+                <lb/>3ten Juli
+              </date>
+            </dateline>
+            <seg hand="#print_black_auden" xml:lang="de">
+              <placeName>
+                <address>
+                  <lb/><rs type="place" ref="#amp_place_id_2">3062 KIRCHSTETTEN
+                  <lb/>BEZ. ST. PÖLTEN
+                  <lb/>HINTERHOLZ 6
+                  <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
+                </address>
+              </placeName>
+            </seg>
+            <salute>
+              <lb/>Dear <rs type="person" ref="#amp_person_135">Miss Bronold</rs>:
+            </salute>
+          </opener>
+          <p>
+            <lb/>Have just receiv<unclear>ed</unclear> your letter after
+            <lb/>a trip I had to make to <rs type="place" ref="#amp_place_id_56">London</rs>
+          </p>
+          <p>
+            <lb/>The <rs type="org" ref="#amp_organization_158"><foreign xml:lang="de">Finanzamt</foreign> St Pölten</rs> <rs type="event" ref="#amp_event_id_45">demands
+            <lb/>S 149,981 as Income Tax f<unclear>or</unclear> 1969</rs>.
+            <lb/>I think th<unclear>is</unclear> absurdly high, but have said
+            <lb/>I would pay it in three installments
+            <lb/>over three years. If anything <hi rend="underline" hand="#hand_blue_auden">ca<unclear>n</unclear></hi> be
+            <lb/>done, of course I would be pleased.
+          </p>
+          <p>
+            <lb/>Could you ask <rs type="person" ref="#amp_person_137">Dr Kraus</rs> to get in touch
+            <lb/>with me, since there a<unclear>re</unclear> one or two problems
+            <lb/>I wish to discuss with him.
+          </p>
+          <closer>
+            <salute>
+              <lb/>Yours sinc<unclear>e</unclear>rely
+            </salute>
+            <signed>
+              <lb/><rs type="person" ref="#amp_person_1">W<unclear>.</unclear>H Auden</rs>
+            </signed>
+          </closer>
+        </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00448/" ed="1v" type="sheet"/>
+      </div>
       </div>
     </body>
   </text>
