@@ -249,6 +249,7 @@
       <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00404/" ed="1v" type="sheet"/>
       <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00401/" ed="2r" type="sheet"/>
           <div type="enclosure" hand="#type_black_auden">
+            <div type="prose">
         <opener hand="#print_black_auden">
           <placeName>
             <lb/><rs type="place" ref="#amp_place_id_2">3062 KIRCHSTETTEN
@@ -263,19 +264,18 @@
             <lb/>A-2 Auden  
             </ab>
           </div>
-          <div type="enclosure" hand="#type_black_auden">
+          <div type="prose" hand="#type_black_auden">
         <ab>
           <lb/>From <hi rend="underline" hand="#type_black_auden"><rs type="lit_work" ref="#lit_work_id_134">ABOUT THE HOUSE</rs></hi>
           <lb xml:id="list_element_1"/><space quantity="4" unit="char"/><rs type="lit_work" ref="#lit_work_id_37">The Cave of Making</rs><space quantity="3" unit="char"/> (p 8-II<subst><del rend="overtyped" hand="#type_black_auden">*</del><add place="superimposed" hand="#type_black_auden">)</add></subst>
-          </ab>
-            <ab>
-              <add place="left" corresp="#list_element_1" hand="#hand_gray_unident_0122_01">-</add>
-            </ab>
-          <ab>
+        </ab>
+        <ab>
+          <add place="left" corresp="#list_element_1" hand="#hand_gray_unident_0122_01">-</add>
+        </ab>
+        <ab>
            <lb/>from <hi rend="underline" hand="#type_black_auden"><rs type="lit_work" ref="#lit_work_id_137">CITY WITHOUT WALLS</rs></hi>
-            <lb xml:id="list_element_2"/><space quantity="1" unit="char"/><rs type="lit_work" ref="#lit_work_id_107">In Memoriam Emma Eiermann</rs>/<space quantity="3" unit="char"/>(p 2I-23) <add hand="#hand_gray_unident_0122_02">no <unclear>Transl</unclear></add>
-
-            <lb xml:id="list_element_3"/><space quantity="1" unit="char"/><rs type="lit_work" ref="#lit_work_id_38">Prologue at Sixty</rs> (p II7-I2I)
+            <lb xml:id="list_element_2"/><space quantity="1" unit="char"/><rs type="lit_work" ref="#lit_work_id_107">In Memoriam Emma Eiermann</rs>/<space quantity="3" unit="char"/>(p 2I-23) <add hand="#hand_gray_unident_0122_02" place="right">no <unclear>Transl</unclear></add>
+            <lb xml:id="list_element_3"/><space quantity="1" unit="char"/><rs type="lit_work" ref="#lit_work_id_38">Prologue at Sixty</rs><space quantity="14" unit="char"/>(p II7-I2I)
           </ab>
             <ab>
               <add place="left" corresp="#list_element_2" hand="#hand_gray_unident_0122_01">-</add>
@@ -283,17 +283,27 @@
             <ab>
               <add place="left" corresp="#list_element_3" hand="#hand_gray_unident_0122_01">-</add>
             </ab>
-          
          <ab> 
-           <lb/>From <hi rend="underline" hand="#type_black_auden"><subst><del rend="overtyped" hand="#type_black_auden">Collected S</del><add place="superimposed" hand="#type_black_auden"><rs type="lit_work" ref="#lit_work_id_135">COLLECTED SHORTER POEMS</rs></add></subst></hi>
-          <lb/><space quantity="1" unit="char"/><add hand="#hand_gray_unident_0122_03">nein</add> <rs type="lit_work" ref="#lit_work_id_324">In Praise of Limestone</rs> (p 238-24I)
+           <lb/><hi rend="underline" hand="#type_black_auden">From <del rend="overtyped" hand="#type_black_auden">Collected S </del> <rs type="lit_work" ref="#lit_work_id_135">COLLECTED SHORTER POEMS</rs></hi>
+           <lb xml:id="list_element_4"/><space quantity="1" unit="char"/><rs type="lit_work" ref="#lit_work_id_324">In Praise of Limestone</rs><space quantity="7" unit="char"/>(p 238-24I)
          </ab>
+            <ab>
+              <add place="left" corresp="#list_element_4" hand="#hand_gray_unident_0122_02">nein</add>
+            </ab>
+            <ab>
+              <lb/><space quantity="13" unit="char"/>____
+            </ab>
+            
           <ab>
-            <lb/>Unpublished/in book form.
-          <lb/><space quantity="2" unit="char"/><add hand="#hand_gray_unident_0122_03">nein</add> <rs type="lit_work" ref="#lit_work_id_325">Old People's Home</rs> (enclosed)
+            <lb/><hi rend="underline" hand="#type_black_auden">Unpublished<subst><del hand="#type_black_auden" rend="overtyped">.</del><add hand="#type_black_auden" place="inline"> </add></subst>in book form.</hi>
+            <lb xml:id="list_element_5"/><space quantity="2" unit="char"/><rs type="lit_work" ref="#lit_work_id_325">Old People's Home</rs> (enclosed)
           </ab>
+            <ab>
+              <add place="left" corresp="#list_element_5" hand="#hand_gray_unident_0122_02">nein</add>
+            </ab>
         </div>
       <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00402/" ed="2v" type="sheet"/>
+      </div>
       </div>
       </div>
     </body>
