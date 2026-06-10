@@ -203,10 +203,12 @@
           </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00422/" ed="1v" type="sheet"/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00423/" ed="2r" type="sheet"/>
-        <div type="letter_message" hand="#type_cc_kraus">
-          <opener>
+          <div hand="#type_cc_kraus">
+          <fw type="pageNum">
             <lb/><space quantity="22" unit="char"/>- 2 -
-          </opener>
+          </fw>
+        </div>
+        <div type="letter_message" hand="#type_cc_kraus">
           <p>
             <lb/><space quantity="5" unit="char"/>Als Datum der <rs type="event" ref="#amp_event_id_25">Veranstaltung</rs> würden wir Ihnen den
             <lb/>4. Oktober vorschlagen. <space quantity="1" unit="char"/>Bitte, sagen Sie uns doch bald,
