@@ -10,6 +10,7 @@
         <title level="s">Auden in Austria Digital (AAD)</title>
         <title level="a">Typed Letter Signed Reinhard Urbach to W. H. Auden 1970-08-11 with Autograph Letter Signed W. H. Auden to Reinhard Urbach with Typed Notes W. H. Auden 1970-08-11--1970-08-20</title>
         <author ref="https://d-nb.info/gnd/11731398X">Urbach, Reinhard</author>
+        <author ref="https://d-nb.info/gnd/2175892-X">Austrian Society for Literature</author>
         <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
         <editor>
           <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
@@ -149,6 +150,7 @@
         </correspAction>
         <correspAction type="received">
           <persName ref="#amp_person_284">Urbach, Reinhard</persName>
+          <orgName><rs type="org" ref="#amp_organization_9">Austrian Society for Literature</rs></orgName>
           <date notBefore-iso="1970-08-11T08:00:00+01:00" notAfter-iso="1970-08-20T23:59:59+01:00"/>
           <placeName><rs type="place" ref="#amp_place_id_1">Vienna</rs></placeName>
         </correspAction>
