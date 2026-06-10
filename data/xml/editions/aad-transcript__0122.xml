@@ -177,10 +177,10 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0122" xml:lang="de">
+      <div type="transcription" xml:id="transcription_aad_0122">
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00403/" ed="1r" type="sheet"/>
-        <div type="letter_message" hand="#type_black_urbach">
+          <div type="letter_message" hand="#type_black_urbach" xml:lang="de">
           <opener>
             <seg hand="#print_black_oegfl">
               <orgName>
@@ -228,7 +228,7 @@
               </signed>
           </closer>
         </div>          
-          <div type="letter_message" hand="#hand_blue_auden">
+          <div type="letter_message" hand="#hand_blue_auden" xml:lang="de">
           <opener>
             <salute>
               <lb/>Sehr <del hand="#hand_blue_auden" rend="overstrike">ge</del> verehrter <rs type="person" ref="#amp_person_284">Herr Urbach</rs>:
@@ -247,13 +247,13 @@
       <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00404/" ed="1v" type="sheet"/>
       <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00401/" ed="2r" type="sheet"/>
           <div type="enclosure" hand="#type_black_auden">
-            <div type="prose">
+            <div type="prose" xml:lang="en">
         <opener hand="#print_black_auden">
-          <placeName>
+          <placeName xml:lang="de">
             <lb/><rs type="place" ref="#amp_place_id_2">3062 KIRCHSTETTEN
             <lb/>BEZ. ST. PÖLTEN
             <lb/>HINTERHOLZ 6
-            <lb/>N.-Ö., AUSTRIA</rs>
+              <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
           </placeName>
         </opener>
           </div>
@@ -282,10 +282,10 @@
               <add place="left" corresp="#list_element_3" hand="#hand_gray_unident_0122_01">-</add>
             </ab>
          <ab> 
-           <lb/><hi rend="underline" hand="#type_black_auden">From <del rend="overtyped" hand="#type_black_auden">Collected S </del> <rs type="lit_work" ref="#lit_work_id_135">COLLECTED SHORTER POEMS</rs></hi>
+           <lb/><hi rend="underline" hand="#type_black_auden">From <del rend="overtyped" hand="#type_black_auden">Collected S </del><space quantity="1" unit="char"/><rs type="lit_work" ref="#lit_work_id_135">COLLECTED SHORTER POEMS</rs></hi>
            <lb xml:id="list_element_4"/><space quantity="1" unit="char"/><rs type="lit_work" ref="#lit_work_id_324">In Praise of Limestone</rs><space quantity="7" unit="char"/>(p 238-24I)
          </ab>
-            <ab>
+            <ab xml:lang="de">
               <add place="left" corresp="#list_element_4" hand="#hand_gray_unident_0122_02">nein</add>
             </ab>
             <ab>
@@ -296,7 +296,7 @@
             <lb/><hi rend="underline" hand="#type_black_auden">Unpublished<subst><del hand="#type_black_auden" rend="overtyped">.</del><add hand="#type_black_auden" place="inline"> </add></subst>in book form.</hi>
             <lb xml:id="list_element_5"/><space quantity="2" unit="char"/><rs type="lit_work" ref="#lit_work_id_325">Old People's Home</rs> (enclosed)
           </ab>
-            <ab>
+            <ab xml:lang="de">
               <add place="left" corresp="#list_element_5" hand="#hand_gray_unident_0122_02">nein</add>
             </ab>
         </div>
