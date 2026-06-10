@@ -91,7 +91,7 @@
                   <handNote/>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="type_cc_kraus" scribeRef="#amp_person_137" medium="type-cc">Carbon copy of typewriting by Wolfgang Kraus</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -115,12 +115,14 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="de"/>
       </langUsage>
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2026-06-09">TEI/XML template populated with csv2xml.py</change>
       <change who="#ahechtl" when-iso="2026-06-09">add plain transcription</change>
+      <change who="#ahechtl" when-iso="2026-06-10">Populate physDesc, add structure</change>
+      <change who="#ahechtl" when-iso="2026-06-10">Entities markup: places, persons</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -133,34 +135,50 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0134" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0134" xml:lang="de">
+        <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00435/" ed="1r" type="sheet"/>
-                Herrn
-Wien, 9. Februar 1967.
-W.H. Auden
-17 St. Mark's Place
-New York City, N.Y. 10003
-Sehr verehrter, lieber Herr Auden,
-Haben Sie Dank für Ihren Brief vom 10. Januar! Ich
-freue mich ganz ausserordentlich über Ihre Zusage und dass
-ich Sie bei unserem Kongress sehen werde. Das Thema unse-
-res Kongresses "Literatur als Tradition und Revolution
-ist auch von uns aus nicht als gesellschaftspolitische Dis-
-kussion gemeint, auch wir möchten über "art and society
-einen Schritt hinauskommen. Jedenfalls hoffe ich, dass es
-einen lebhaften Gedankenaustausch geben wird.
-Die heutige Gelegenheit möchte ich nicht versäumen und
-Sie auch bitten, unsere herzlichsten Glückwünsche zu Ihrem
-60. Geburtstag entgegenzunehmen. Wir sind immer wieder
-froh darüber, dass Sie zu uns nach Österreich gekommen
-sind und wünschen Ihnen hier noch viele gute und frucht-
-bare Jahre.
-Mit allen guten Wünschen und Grüssen
-Ihr Ihnen sehr ergebener
-(Dr. Wolfgang Kraus)
+        <div type="letter_message" hand="#type_cc_kraus">
+            <opener>
+              <lb/>Herrn<space quantity="" unit="char"/><dateline>Wien, 9. Februar 1967</dateline>.
+              <persName>
+                <lb/><rs type="person" ref="#amp_person_1">W.H. Auden</rs>
+              </persName>
+              <placeName>
+                <lb/>17 St. Mark's Place
+              <lb/>New York City, N.Y. 10003
+            </placeName>
+              <salute>
+                <lb/>Sehr verehrter, lieber <rs type="person" ref="#amp_person_1">Herr Auden</rs>,
+              </salute>
+            </opener>
+            <p>
+              <lb/><space quantity="5" unit="char"/>Haben Sie Dank für Ihren Brief vom 10. Januar! Ich
+              <lb/>freue mich ganz ausserordentlich über Ihre Zusage und dass
+              <lb/>ich Sie bei unserem <rs type="event">Kongress</rs> sehen werde. Das Thema unse-
+              <lb/>res <rs type="event">Kongresses</rs> "Literatur als Tradition und Revolution
+              <lb/>ist auch von uns aus nicht als gesellschaftspolitische Dis-
+              <lb/>kussion gemeint, auch wir möchten über "art and society
+              <lb/>einen Schritt hinauskommen. Jedenfalls hoffe ich, dass es
+              <lb/>einen lebhaften Gedankenaustausch geben wird.
+            </p>
+            <p>
+              <lb/><space quantity="5" unit="char"/>Die heutige Gelegenheit möchte ich nicht versäumen und
+              <lb/>Sie auch bitten, unsere herzlichsten Glückwünsche zu Ihrem
+              <lb/><rs type="event">60. Geburtstag</rs> entgegenzunehmen. Wir sind immer wieder
+              <lb/>froh darüber, dass Sie zu uns nach Österreich gekommen
+              <lb/>sind und wünschen Ihnen hier noch viele gute und frucht-
+              <lb/>bare Jahre.
+            </p>
+            <closer>
+              <lb/><space quantity="5" unit="char"/>Mit allen guten Wünschen und Grüssen
+              <lb/><space quantity="34" unit="char"/>Ihr Ihnen sehr ergebener
+              <lb/><space quantity="34" unit="char"/>(Dr. Wolfgang Kraus)
+            </closer>
+        </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00436/" ed="1v" type="sheet"/>
       </div>
+    </div>
     </body>
   </text>
 </TEI>
