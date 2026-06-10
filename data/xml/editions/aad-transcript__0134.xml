@@ -140,7 +140,7 @@
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00435/" ed="1r" type="sheet"/>
         <div type="letter_message" hand="#type_cc_kraus">
             <opener>
-              <lb/>Herrn<space quantity="" unit="char"/><dateline>Wien, 9. Februar 1967</dateline>.
+              <lb/>Herrn<space quantity="32" unit="char"/><dateline>Wien, 9. Februar 1967</dateline>.
               <persName>
                 <lb/><rs type="person" ref="#amp_person_1">W.H. Auden</rs>
               </persName>
