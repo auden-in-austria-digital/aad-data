@@ -138,7 +138,6 @@
       </langUsage>
       <correspDesc>
         <correspAction type="sent">
-          <persName ref="#amp_person_284">Urbach, Reinhard</persName>
           <date notBefore-iso="1970-08-11T08:00:00+01:00"/>
         </correspAction>
         <correspAction type="received">
@@ -146,7 +145,6 @@
           <placeName><rs type="place" ref="#amp_place_id_2">Kirchstetten</rs></placeName>
         </correspAction>
         <correspAction type="sent">
-          <persName ref="#amp_person_1">Auden, W. H.</persName>
           <date notBefore-iso="1970-08-11T08:00:00+01:00" notAfter-iso="1970-08-20T23:59:59+01:00"/>
         </correspAction>
         <correspAction type="received">
