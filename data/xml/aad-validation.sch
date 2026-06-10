@@ -89,8 +89,8 @@
         <sch:title>add requirements</sch:title>
         
         <sch:rule context="tei:add">
-            <sch:assert test="@place = ('superimposed', 'above', 'bottom', 'inline', 'left')">
-                add element must have place attribute with value 'superimposed', 'above', 'bottom', 'inline', or 'left'; found: '<sch:value-of select="@place"/>'
+            <sch:assert test="@place = ('superimposed', 'above', 'bottom', 'inline', 'left', 'right')">
+                add element must have place attribute with value 'superimposed', 'above', 'bottom', 'inline', 'left', or 'right'; found: '<sch:value-of select="@place"/>'
             </sch:assert>
 
             <sch:assert test="starts-with(@hand, '#hand_') or starts-with(@hand, '#type_')">
