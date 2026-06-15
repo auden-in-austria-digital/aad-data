@@ -136,44 +136,53 @@
       <div type="transcription" xml:id="transcription_aad_0135" xml:lang="">
         <div/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00439/" ed="1r" type="sheet"/>
-Kr. W.H. Auden
-Wien, 9. Januar 1967.
-77 St. Mark s Place
-New York, N.Y. 3
-Sehr verehrter, lieber Herr Auden,
-Es hat mir unendlich leid getan, dass ich bei der Ver-
-leihung des "Österreichischen Staatspreises für Europäische
-Literatur“ - dessen Jury ich ja angehört habe - nicht anwesend
-sein konnte, da ich auf einem Erholungsurlaub war. Nun hatten
-wir ursprünglich vorgesehen, um die Zeit der Preisverleihung
-einen West-Ost-Kongress über das Thema "Literatur als Tradition
-und Revolution" durchzuführen und wollten Sie bitten, an diesem
-Kongress als Ehrengast teilzunehmen. Das Jahr vorher hatten wir
-einen ähnlichen Kongress, und der damalige Preisträger, Herr
-Zbigniew Herbert, nahm in gleicher Weise daran teil.
-Nun mussten wir wegen politischer Schwierigkeiten den Kon-
-gress auf den Termin vom 24. bis 26. April 1967 verschieben.
-Wir erlauben uns die Anfrage, ob es Ihnen möglich wäre, an un-
-serem Symposion, das starkes internationales Interesse findet,
-teilzunehmen. Ich möchte gleich sagen, dass dies von Ihnen
-keine grosse Aktivität erfordern würde, es wäre uns eine Ehre,
-Sie mit dabei zu haben. Einen Aufriss der Themenkreise, sowie
-die vorgesehenen Teilnehmer, die zum Grossteil bereits zugesagt
-haben, lege ich bei.
-Es geht uns auch darum, mit der Teilnahme des jeweiligen
-Trägers des "Österreichichen Staatspreises für europäische Li-
-teratur" an unseren Symposien eine Art Tradition zu schaffen,
-die jedes Jahr erneurt werden soll. Sie würden mir eine grosse
-Freude machen, wenn Sie uns zusagen könnten.
-./.
+        <opener>
+          <lb/><persName>Mr. W.H. Auden
+        </persName>
+        <lb/><dateline><rs>Wien</rs>, <date>9. Januar 1967</date>.</dateline>
+        <lb/>77 St. Mark s Place
+        <lb/>New York, N.Y. 3
+        <lb/>Sehr verehrter, lieber Herr Auden,
+      </opener>
+        <p>
+          <lb/>Es hat mir unendlich leid getan, dass ich bei der Ver-
+          <lb/>leihung des "Österreichischen Staatspreises für Europäische
+          <lb/>Literatur“ - dessen Jury ich ja angehört habe - nicht anwesend
+          <lb/>sein konnte, da ich auf einem Erholungsurlaub war. Nun hatten
+          <lb/>wir ursprünglich vorgesehen, um die Zeit der Preisverleihung
+          <lb/>einen West-Ost-Kongress über das Thema "Literatur als Tradition
+          <lb/>und Revolution" durchzuführen und wollten Sie bitten, an diesem
+          <lb/>Kongress als Ehrengast teilzunehmen. Das Jahr vorher hatten wir
+          <lb/>einen ähnlichen Kongress, und der damalige Preisträger, Herr
+          <lb/>Zbigniew Herbert, nahm in gleicher Weise daran teil.
+          </p>
+        <p>
+          <lb/>Nun mussten wir wegen politischer Schwierigkeiten den Kon-
+          <lb/>gress auf den Termin vom 24. bis 26. April 1967 verschieben.
+          <lb/>Wir erlauben uns die Anfrage, ob es Ihnen möglich wäre, an un-
+          <lb/>serem Symposion, das starkes internationales Interesse findet,
+          <lb/>teilzunehmen. Ich möchte gleich sagen, dass dies von Ihnen
+          <lb/>keine grosse Aktivität erfordern würde, es wäre uns eine Ehre,
+          <lb/>Sie mit dabei zu haben. Einen Aufriss der Themenkreise, sowie
+          <lb/>die vorgesehenen Teilnehmer, die zum Grossteil bereits zugesagt
+          <lb/>haben, lege ich bei.
+        </p>
+          <p>Es geht uns auch darum, mit der Teilnahme des jeweiligen
+          Trägers des "Österreichichen Staatspreises für europäische Li-
+          teratur" an unseren Symposien eine Art Tradition zu schaffen,
+          die jedes Jahr erneurt werden soll. Sie würden mir eine grosse
+          Freude machen, wenn Sie uns zusagen könnten.</p>
+          <fw type="catch" place="bottom">./.</fw>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00440/" ed="1v" type="sheet"/>
-Übrigens werde ich in nächster Zeit das Vergnügen haben,
-mich besonders mit Ihnen zu befassen, da, wie ich dem Kalender
-entnehme, ein gewichtiger Geburtstag naht, der mir Gelegenheit
-gibtr über Sie und Ihr Werk zu schreiben.
-Mit den herzlichsten Grüssen und Wünschen
-Ihr Ihnen sehr ergebener
-(Dr. Wolfgang Kraus)
+        <p>Übrigens werde ich in nächster Zeit das Vergnügen haben,
+        mich besonders mit Ihnen zu befassen, da, wie ich dem Kalender
+        entnehme, ein gewichtiger Geburtstag naht, der mir Gelegenheit
+        gibtr über Sie und Ihr Werk zu schreiben.</p>
+        <closer>
+          Mit den herzlichsten Grüssen und Wünschen
+        Ihr Ihnen sehr ergebener
+        <signed>(Dr. Wolfgang Kraus)</signed>
+      </closer>
       </div>
     </body>
   </text>
