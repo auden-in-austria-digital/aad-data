@@ -137,6 +137,7 @@
       <div type="transcription" xml:id="transcription_aad_0135" xml:lang="de">
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00439/" ed="1r" type="sheet"/>
+        <div type="letter_message" hand="#type_cc_kraus">
         <opener>
           <lb/><persName>Mr. <rs type="person" ref="#amp_person_1">W.H. Auden</rs>
         </persName>
@@ -198,6 +199,7 @@
           </signed>
         </closer>
       </div>
+    </div>
     </div>
   </body>
 </text>
