@@ -139,9 +139,10 @@
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00439/" ed="1r" type="sheet"/>
         <div type="letter_message" hand="#type_cc_kraus">
         <opener>
-          <lb/><persName>Mr. <rs type="person" ref="#amp_person_1">W.H. Auden</rs>
-        </persName>
-        <lb/><dateline><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>9. Januar 1967</date></dateline>
+          <persName>
+          <lb/>Mr. <rs type="person" ref="#amp_person_1">W.H. Auden</rs>
+          </persName>
+          <lb/><dateline><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>9. Januar 1967</date></dateline>
         <placeName>
           <lb/><rs type="place" ref="#amp_place_id_29">77 St. Mark s Place
           <lb/>New York, N.Y. 3</rs>
@@ -150,18 +151,18 @@
           <lb/>Sehr verehrter, lieber <rs type="person" ref="#amp_person_1">Herr Auden</rs>,
         </salute>
       </opener>
-        <p>
-          <lb/>Es hat mir unendlich leid getan, dass ich bei der Ver-
-          <lb/>leihung des "Österreichischen Staatspreises für Europäische
-          <lb/>Literatur“ - dessen Jury ich ja angehört habe - nicht anwesend
-          <lb/>sein konnte, da ich auf einem Erholungsurlaub war. Nun hatten
-          <lb/>wir ursprünglich vorgesehen, um die Zeit der Preisverleihung
-          <lb/>einen West-Ost-Kongress über das Thema "Literatur als Tradition
-          <lb/>und Revolution" durchzuführen und wollten Sie bitten, an diesem
-          <lb/>Kongress als Ehrengast teilzunehmen. Das Jahr vorher hatten wir
-          <lb/>einen ähnlichen Kongress, und der damalige Preisträger, Herr
-          <lb/>Zbigniew Herbert, nahm in gleicher Weise daran teil.
-          </p>
+      <p>
+        <lb/>Es hat mir unendlich leid getan, dass ich bei der Ver-
+        <lb/>leihung des "Österreichischen Staatspreises für Europäische
+        <lb/>Literatur“ - dessen Jury ich ja angehört habe - nicht anwesend
+        <lb/>sein konnte, da ich auf einem Erholungsurlaub war. Nun hatten
+        <lb/>wir ursprünglich vorgesehen, um die Zeit der Preisverleihung
+        <lb/>einen West-Ost-Kongress über das Thema "Literatur als Tradition
+        <lb/>und Revolution" durchzuführen und wollten Sie bitten, an diesem
+        <lb/>Kongress als Ehrengast teilzunehmen. Das Jahr vorher hatten wir
+        <lb/>einen ähnlichen Kongress, und der damalige Preisträger, Herr
+        <lb/>Zbigniew Herbert, nahm in gleicher Weise daran teil.
+      </p>
         <p>
           <lb/>Nun mussten wir wegen politischer Schwierigkeiten den Kon-
           <lb/>gress auf den Termin vom 24. bis 26. April 1967 verschieben.
