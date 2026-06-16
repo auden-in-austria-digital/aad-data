@@ -140,14 +140,14 @@
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00435/" ed="1r" type="sheet"/>
         <div type="letter_message" hand="#type_cc_kraus">
             <opener>
-              <lb/>Herrn<space quantity="32" unit="char"/><dateline>Wien, 9. Februar 1967</dateline>.
+              <lb/>Herrn<space quantity="32" unit="char"/><dateline><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>9. Februar 1967</date></dateline>.
               <persName>
                 <lb/><rs type="person" ref="#amp_person_1">W.H. Auden</rs>
               </persName>
               <placeName>
-                <lb/>17 St. Mark's Place
-              <lb/>New York City, N.Y. 10003
-            </placeName>
+                <rs type="place" ref="#amp_place_id_29"><lb/>17 St. Mark's Place
+                <lb/>New York City, N.Y. 10003</rs>
+              </placeName>
               <salute>
                 <lb/>Sehr verehrter, lieber <rs type="person" ref="#amp_person_1">Herr Auden</rs>,
               </salute>
@@ -171,9 +171,15 @@
               <lb/>bare Jahre.
             </p>
             <closer>
-              <lb/><space quantity="5" unit="char"/>Mit allen guten Wünschen und Grüssen
-              <lb/><space quantity="34" unit="char"/>Ihr Ihnen sehr ergebener
-              <lb/><space quantity="34" unit="char"/>(Dr. Wolfgang Kraus)
+              <salute>
+                <lb/><space quantity="5" unit="char"/>Mit allen guten Wünschen und Grüssen
+              </salute>
+              <salute>
+                <lb/><space quantity="34" unit="char"/>Ihr Ihnen sehr ergebener
+              </salute>
+              <signed>
+                <lb/><space quantity="34" unit="char"/>(Dr. Wolfgang Kraus)
+              </signed>
             </closer>
         </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00436/" ed="1v" type="sheet"/>
