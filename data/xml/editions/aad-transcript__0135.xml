@@ -91,7 +91,7 @@
                   <handNote/>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="type_cc_kraus" scribeRef="#amp_person_137" medium="type-cc">Carbon copy of typewriting authored by Wolfgang Kraus</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -115,12 +115,13 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="de"/>
       </langUsage>
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2026-06-09">TEI/XML template populated with csv2xml.py</change>
       <change who="#ahechtl" when-iso="2026-06-09">add plain transcription</change>
+      <change who="#ahechtl" when-iso="2026-06-10">Populate physDesc, add structure</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -133,16 +134,20 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0135" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0135" xml:lang="de">
+        <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00439/" ed="1r" type="sheet"/>
         <opener>
-          <lb/><persName>Mr. W.H. Auden
+          <lb/><persName>Mr. <rs type="person" ref="#amp_person_1">W.H. Auden</rs>
         </persName>
-        <lb/><dateline><rs>Wien</rs>, <date>9. Januar 1967</date>.</dateline>
-        <lb/>77 St. Mark s Place
-        <lb/>New York, N.Y. 3
-        <lb/>Sehr verehrter, lieber Herr Auden,
+        <lb/><dateline><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>9. Januar 1967</date></dateline>
+        <placeName>
+          <lb/><rs type="place" ref="#amp_place_id_29">77 St. Mark s Place
+          <lb/>New York, N.Y. 3</rs>
+        </placeName>
+        <salute>
+          <lb/>Sehr verehrter, lieber <rs type="person" ref="#amp_person_1">Herr Auden</rs>,
+        </salute>
       </opener>
         <p>
           <lb/>Es hat mir unendlich leid getan, dass ich bei der Ver-
@@ -167,23 +172,33 @@
           <lb/>die vorgesehenen Teilnehmer, die zum Grossteil bereits zugesagt
           <lb/>haben, lege ich bei.
         </p>
-          <p>Es geht uns auch darum, mit der Teilnahme des jeweiligen
-          Trägers des "Österreichichen Staatspreises für europäische Li-
-          teratur" an unseren Symposien eine Art Tradition zu schaffen,
-          die jedes Jahr erneurt werden soll. Sie würden mir eine grosse
-          Freude machen, wenn Sie uns zusagen könnten.</p>
-          <fw type="catch" place="bottom">./.</fw>
+        <p>
+          <lb/>Es geht uns auch darum, mit der Teilnahme des jeweiligen
+          <lb/>Trägers des "Österreichichen Staatspreises für europäische Li-
+          <lb/>teratur" an unseren Symposien eine Art Tradition zu schaffen,
+          <lb/>die jedes Jahr erneurt werden soll. Sie würden mir eine grosse
+          <lb/>Freude machen, wenn Sie uns zusagen könnten.
+        </p>
+        <fw type="catch" place="bottom">./.</fw>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00440/" ed="1v" type="sheet"/>
-        <p>Übrigens werde ich in nächster Zeit das Vergnügen haben,
-        mich besonders mit Ihnen zu befassen, da, wie ich dem Kalender
-        entnehme, ein gewichtiger Geburtstag naht, der mir Gelegenheit
-        gibtr über Sie und Ihr Werk zu schreiben.</p>
+        <p>
+          <lb/><space quantity="5" unit="char"/>Übrigens werde ich in nächster Zeit das Vergnügen haben,
+          <lb/>mich besonders mit Ihnen zu befassen, da, wie ich dem Kalender
+          <lb/>entnehme, ein gewichtiger <rs>Geburtstag</rs> naht, der mir Gelegenheit
+          <lb/>gibt<subst><del>m</del><add>,</add></subst> über Sie und Ihr Werk zu schreiben.</p>
         <closer>
-          Mit den herzlichsten Grüssen und Wünschen
-        Ihr Ihnen sehr ergebener
-        <signed>(Dr. Wolfgang Kraus)</signed>
-      </closer>
+          <salute>
+            <lb/><space quantity="6" unit="char"/>Mit den herzlichsten Grüssen und Wünschen
+          </salute>
+          <salute>
+            <lb/><space quantity="33" unit="char"/>Ihr Ihnen sehr ergebener
+          </salute>
+          <signed>
+            <lb/><space quantity="33" unit="char"/>(<rs type="person" ref="#amp_person_137">Dr. Wolfgang Kraus</rs>)
+          </signed>
+        </closer>
       </div>
-    </body>
-  </text>
+    </div>
+  </body>
+</text>
 </TEI>
