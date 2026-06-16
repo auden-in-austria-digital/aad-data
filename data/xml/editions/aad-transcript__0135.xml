@@ -164,7 +164,7 @@
         <p>
           <lb/>Nun mussten wir wegen politischer Schwierigkeiten den Kon-
           <lb/>gress auf den Termin vom 24. bis 26. April 1967 verschieben.
-          <lb/>Wir erlauben uns die Anfrage, ob es Ihnen möglich wäre, an un-
+          <lb/>Wir erlau<subst><del rend="erased" hand="#type_cc_kraus">g</del><add place="superimposed" hand="#type_cc_kraus">b</add></subst>en uns die Anfrage, ob es Ihnen möglich wäre, an un-
           <lb/>serem Symposion, das starkes internationales Interesse findet,
           <lb/>teilzunehmen. Ich möchte gleich sagen, dass dies von Ihnen
           <lb/>keine grosse Aktivität erfordern würde, es wäre uns eine Ehre,
@@ -174,18 +174,18 @@
         </p>
         <p>
           <lb/>Es geht uns auch darum, mit der Teilnahme des jeweiligen
-          <lb/>Trägers des "Österreichichen Staatspreises für europäische Li-
+          <lb/>Trägers des "Österreichi<add rend="inline" hand="#type_cc_kraus">s</add>chen Staatspreises für europäische Li-
           <lb/>teratur" an unseren Symposien eine Art Tradition zu schaffen,
           <lb/>die jedes Jahr erneurt werden soll. Sie würden mir eine grosse
           <lb/>Freude machen, wenn Sie uns zusagen könnten.
         </p>
-        <fw type="catch" place="bottom">./.</fw>
+        <fw type="catch" place="bottom"><space quantity="57" unit="char"/>./.</fw>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00440/" ed="1v" type="sheet"/>
         <p>
           <lb/><space quantity="5" unit="char"/>Übrigens werde ich in nächster Zeit das Vergnügen haben,
           <lb/>mich besonders mit Ihnen zu befassen, da, wie ich dem Kalender
           <lb/>entnehme, ein gewichtiger <rs>Geburtstag</rs> naht, der mir Gelegenheit
-          <lb/>gibt<subst><del>m</del><add>,</add></subst> über Sie und Ihr Werk zu schreiben.</p>
+          <lb/>gibt<subst><del rend="erased" hand="#type_cc_kraus">m</del><add place="superimposed" hand="#type_cc_kraus">,</add></subst> über Sie und Ihr Werk zu schreiben.</p>
         <closer>
           <salute>
             <lb/><space quantity="6" unit="char"/>Mit den herzlichsten Grüssen und Wünschen
