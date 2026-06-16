@@ -154,15 +154,15 @@
             </salute>
         </opener>
           <p>
-            <lb/><space quantity="5" unit="char"/>Last year the "<rs>Österreichische Gesellschaft für Literatur</rs>"
+            <lb/><space quantity="5" unit="char"/>Last year the "<rs type="org" ref="#amp_organization_9">Österreichische Gesellschaft für Literatur</rs>"
             <lb/>arranged two International Round-Table Conferences to discuss
-            <lb/>"The theatre of today and today in the theatre" and "The novel
-            <lb/>in the present century". Both were attended by some of the lead-
+            <lb/>"<rs>The theatre of today and today in the theatre</rs>" and "<rs>The novel
+            <lb/>in the present century</rs>". Both were attended by some of the lead-
             <lb/>ing writers and crities of the day, and the world-wide interest
             <lb/>evidenced by the long extracts from the discussions in newspapers,
             <lb/>literary periodicals, and radio and TV reports has led us to plan
-            <lb/>a further Conference next autumn to discuss "Literature: tradi-
-            <lb/>tion and revolution". A feature of the Conference, as in the case
+            <lb/>a further Conference next autumn to discuss "<rs>Literature: tradi-
+            <lb/>tion and revolution</rs>". A feature of the Conference, as in the case
             <lb/>of last year's, will be the presence of leading authorities from
             <lb/>both East and West.
           </p>
@@ -201,9 +201,13 @@
           <signed>
             <lb/><space quantity="38" unit="char"/><rs>Dr. Wolfgang Kraus</rs>
           </signed>
-          <lb/>Invitations have been sent to
-          <lb/>(See encl.)
         </closer>
+        <postscript>
+          <p>
+            <lb/>Invitations have been sent to
+            <lb/>(See encl.)
+          </p>
+        </postscript>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00444/" ed="1v" type="sheet"/>
       </div>
       </div>
