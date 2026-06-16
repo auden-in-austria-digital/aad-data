@@ -117,13 +117,15 @@
     <profileDesc>
       <langUsage>
         <language ident="en"/>
+        <language ident="de"/>
       </langUsage>
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2026-06-09">TEI/XML template populated with csv2xml.py</change>
       <change who="#ahechtl" when-iso="2026-06-09">Add plain transcription</change>
-      <change who="#ahechtl" when-iso="2026-09-11">Add basic structure</change>
-      <change who="#ahechtl" when-iso="2026-09-11">Add physDesc, entities markup</change>
+      <change who="#ahechtl" when-iso="2026-06-16">Add basic structure</change>
+      <change who="#ahechtl" when-iso="2026-06-16">Add physDesc, entities markup</change>
+      <change who="#smayer" when-iso="2026-06-16">languages, entities marked up; text features added</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -139,30 +141,31 @@
       <div type="transcription" xml:id="transcription_aad_0136" xml:lang="en">
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00443/" ed="1r" type="sheet"/>
+          <div type="letter_message" hand="#type_cc_kraus">
           <opener>
-            <lb/>Mr.<dateline><rs type="place" ref="#amp_place_id_1">Vienna</rs>, <date>28 March 1966</date></dateline>
+            <lb/>Mr.<space quantity="38" unit="char"/><dateline><rs type="place" ref="#amp_place_id_1">Vienna</rs>, <date>28 March 1966</date></dateline>
             <persName>
               <lb/><rs type="person" ref="#amp_person_1">W.H.Auden</rs>
             </persName>
             <placeName>
               <lb/><rs type="place" ref="#amp_place_id_2">Hinterholz 5
               <lb/>Kirchstetten
-              <lb/>Niederösterreich</rs>
+              <lb/><foreign xml:lang="de">Niederösterreich</foreign></rs>
             </placeName>
             <salute>
               <lb/>Dear Sir,
             </salute>
         </opener>
           <p>
-            <lb/><space quantity="5" unit="char"/>Last year the "<rs type="org" ref="#amp_organization_9">Österreichische Gesellschaft für Literatur</rs>"
+            <lb/><space quantity="5" unit="char"/>Last year the "<rs type="org" ref="#amp_organization_9"><foreign xml:lang="de">Österreichische Gesellschaft für Literatur</foreign></rs>"
             <lb/>arranged two International Round-Table Conferences to discuss
-            <lb/>"<rs>The theatre of today and today in the theatre</rs>" and "<rs>The novel
+            <lb/>"<rs type="event" ref="#amp_event_id_154">The theatre of today and today in the theatre</rs>" and "<rs type="event" ref="#amp_event_id_155">The novel
             <lb/>in the present century</rs>". Both were attended by some of the lead-
-            <lb/>ing writers and crities of the day, and the world-wide interest
+            <lb/>ing writers and critics of the day, and the world-wide interest
             <lb/>evidenced by the long extracts from the discussions in newspapers,
             <lb/>literary periodicals, and radio and TV reports has led us to plan
-            <lb/>a further Conference next autumn to discuss "<rs>Literature: tradi-
-            <lb/>tion and revolution</rs>". A feature of the Conference, as in the case
+            <lb/>a further Conference next autumn to discuss <rs type="event" ref="#amp_event_id_31">"Literature: tradi-
+            <lb/>tion and revolution"</rs>. A feature of the Conference, as in the case
             <lb/>of last year's, will be the presence of leading authorities from
             <lb/>both East and West.
           </p>
@@ -171,8 +174,8 @@
             <lb/>the three mornings being set aside for discussions in the
             <lb/>presence of an invited audience of journalists and critics. The
             <lb/>languages of the Conference will be English, French and German.
-            <lb/>As last year, a number of journalists <subst><del rend="erased" hand="#type_cc_kraus"><unclear></unclear></del><add place="superimposed" hand="#hand_black_kraus">from</add></subst> both East and West
-            <lb/>will come to <rs type="place" ref="#amp_place_id_1">Vienna</rs> with the special purpose of reporting on
+            <lb/>As last year, a number of journalists <subst><del rend="erased" hand="#type_cc_kraus"><gap reason="illegible" quantity="4" unit="character"/></del><add place="superimposed" hand="#hand_black_kraus">from</add></subst> both East and West
+            <lb/>will come to <rs type="place" ref="#amp_place_id_1">Vienna</rs> with the special purpose of repor<subst><del rend="erased" hand="#type_cc_kraus"><unclear>o</unclear></del><add place="superimposed" hand="#type_cc_kraus">t</add></subst>ing on
             <lb/>this Conference. On the third evening all those taking part in
             <lb/>the Conference will foregather in the Redoutensaal of the <rs type="place" ref="#amp_place_id_89">Hofburg</rs>
             <lb/>for a meeting, open to the public, at which the results of the
@@ -186,31 +189,32 @@
           <lb/>let us know whether you can accept our invitation or not. We are
           <lb/>glad to be able to offer you a compensation of S 3.000, and we
           <lb/>shall of course be responsible for your air ticket and your
-          <lb/>hotel accommodation, <add place="end" hand="#type_kraus">in case you should not be in Austria.</add>
+          <lb/>hotel accommodation, <add place="inline" hand="#type_kraus">in case you should not be in <rs type="place" ref="#amp_place_id_10">Austria</rs>.</add>
         </p>
         <closer>
           <salute>
-            <lb/><space quantity="5" unit="char"/>Hoping to receive your acceptance in dug course,
+            <lb/><space quantity="5" unit="char"/>Hoping to receive your acceptance in du<subst><del rend="erased" hand="#type_cc_kraus">r</del><add place="superimposed" hand="#type_cc_kraus">e</add></subst> course,
           </salute>
           <salute>
             <lb/><space quantity="21" unit="char"/>I remain with cordial greetings,
           </salute>
           <salute>
-            <lb/><space quantity="41" unit="char"/>I remain with cordial greetings,
+            <lb/><space quantity="41" unit="char"/>Yours truly,
           </salute>
           <signed>
-            <lb/><space quantity="38" unit="char"/><rs>Dr. Wolfgang Kraus</rs>
+            <lb/><space quantity="38" unit="char"/>(<rs type="person" ref="#amp_person_137">Dr. Wolfgang Kraus</rs>)
           </signed>
         </closer>
         <postscript>
           <p>
-            <lb/>Invitations have been sent to
+            <lb/><hi rend="underline" hand="#type_cc_kraus">Invitations have been sent to</hi>
             <lb/>(See encl.)
           </p>
         </postscript>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00444/" ed="1v" type="sheet"/>
+        </div>
       </div>
-      </div>
+     </div>
     </body>
   </text>
 </TEI>
