@@ -75,7 +75,7 @@
                 <objectDesc>
                   <supportDesc>
                     <support>
-                      <watermark/>
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00447/ https://iiif.acdh.oeaw.ac.at/aad/aad_00448/">KINGSTONE/PAPER</watermark>
                       <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00447/">
                         <width>147</width>
                         <height>209</height>
