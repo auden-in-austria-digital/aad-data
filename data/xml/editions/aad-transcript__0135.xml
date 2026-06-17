@@ -137,9 +137,9 @@
   <text>
     <body>
       <div type="transcription" xml:id="transcription_aad_0135" xml:lang="de">
-        <div type="letter" hand="#type_cc_kraus">
+        <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00439/" ed="1r" type="sheet"/>
-        <div type="letter_message">
+          <div type="letter_message" hand="#type_cc_kraus">
         <opener>
           <persName>
           <lb/>Mr. <rs type="person" ref="#amp_person_1">W.H. Auden</rs></persName><space quantity="22" unit="char"/><dateline><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>9. Januar l967</date>.</dateline>  
@@ -182,11 +182,11 @@
           <lb/>Freude machen, wenn Sie uns zusagen könnten.
         </p>
        </div>
-          <div>
+          <div hand="#type_cc_kraus">
             <fw><space quantity="57" unit="char"/>./.</fw>
           </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00440/" ed="1v" type="sheet"/>
-        <div type="letter_message">
+          <div type="letter_message" hand="#type_cc_kraus">
         <p>
           <lb/><space quantity="5" unit="char"/>Übrigens werde ich in nächster Zeit das Vergnügen haben,
           <lb/>mich besonders mit Ihnen zu befassen, da, wie ich dem Kalender
