@@ -151,7 +151,7 @@
         </salute>
       </opener>
       <p>
-        <lb/>Es hat mir unendlich leid getan, dass ich bei der Ver-
+        <lb/><space quantity="5" unit="char"/>Es hat mir unendlich leid getan, dass ich bei der Ver-
         <lb/>leihung des "<rs type="event" ref="#amp_event_id_46">Österreichischen Staatspreises für Europäische
         <lb/>Literatur</rs>“ - dessen Jury ich ja angehört habe - nicht anwesend
         <lb/>sein konnte, da ich auf einem Erholungsurlaub war. <space quantity="1" unit="char"/>Nun hatten
@@ -163,7 +163,7 @@
         <lb/><rs type="person" ref="#amp_person_320">Zbigniew Herbert</rs>, nahm in gleicher Weise daran teil.
       </p>
         <p>
-          <lb/>Nun mussten wir wegen politischer Schwierigkeiten den <rs type="event" ref="#amp_event_id_31">Kon-
+          <lb/><space quantity="5" unit="char"/>Nun mussten wir wegen politischer Schwierigkeiten den <rs type="event" ref="#amp_event_id_31">Kon-
           <lb/>gress</rs> auf den Termin vom 24. bis 26. April 1967 verschieben.
           <lb/>Wir erlau<subst><del rend="erased" hand="#type_cc_kraus">g</del><add place="superimposed" hand="#type_cc_kraus">b</add></subst>en uns die Anfrage, ob es Ihnen möglich wäre, an un-
           <lb/>serem Symposion, das starkes internationales Interesse findet,
@@ -174,7 +174,7 @@
           <lb/>haben, lege ich bei.
         </p>
         <p>
-          <lb/>Es geht uns auch darum, mit der Teilnahme des jeweiligen
+          <lb/><space quantity="5" unit="char"/>Es geht uns auch darum, mit der Teilnahme des jeweiligen
           <lb/>Trägers des "Österreichi<add rend="inline" hand="#type_cc_kraus">s</add>chen Staatspreises für europäische Li-
           <lb/>teratur" an unseren Symposien eine Art Tradition zu schaffen,
           <lb/>die jedes Jahr erneurt werden soll. <space quantity="1" unit="char"/>Sie würden mir eine grosse
