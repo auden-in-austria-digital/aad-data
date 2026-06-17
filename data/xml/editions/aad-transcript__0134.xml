@@ -10,6 +10,7 @@
         <title level="s">Auden in Austria Digital (AAD)</title>
         <title level="a">Copy Typed Letter Wolfgang Kraus to W. H. Auden 1967-02-09</title>
         <author ref="https://d-nb.info/gnd/116413298">Kraus, Wolfgang</author>
+        <author ref="https://d-nb.info/gnd/2175892-X">Austrian Society for Literature</author>
         <editor>
           <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
           <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
@@ -91,7 +92,7 @@
                   <handNote/>
                 </handDesc>
                 <typeDesc>
-                  <typeNote xml:id="type_cc_kraus" scribeRef="#amp_person_137" medium="type-cc">Carbon copy of typewriting by Wolfgang Kraus</typeNote>
+                  <typeNote xml:id="type_cc_kraus" scribeRef="#amp_person_137" medium="type-cc">Carbon copy of typewriting authored by Wolfgang Kraus</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -116,6 +117,7 @@
     <profileDesc>
       <langUsage>
         <language ident="de"/>
+        <language ident="en"/>
       </langUsage>
     </profileDesc>
     <revisionDesc status="draft">
@@ -140,12 +142,12 @@
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00435/" ed="1r" type="sheet"/>
         <div type="letter_message" hand="#type_cc_kraus">
             <opener>
-              <lb/>Herrn<space quantity="32" unit="char"/><dateline><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>9. Februar 1967</date></dateline>.
+              <lb/>Herrn<space quantity="32" unit="char"/><dateline><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>9. Februar l967</date></dateline>.
               <persName>
                 <lb/><rs type="person" ref="#amp_person_1">W.H. Auden</rs>
               </persName>
               <placeName>
-                <rs type="place" ref="#amp_place_id_29"><lb/>17 St. Mark's Place
+                <lb/><rs type="place" ref="#amp_place_id_29">77 St. Mark's Place
                 <lb/>New York City, N.Y. 10003</rs>
               </placeName>
               <salute>
@@ -153,12 +155,12 @@
               </salute>
             </opener>
             <p>
-              <lb/><space quantity="5" unit="char"/>Haben Sie Dank für Ihren Brief vom 10. Januar! Ich
-              <lb/>freue mich ganz ausserordentlich über Ihre Zusage und dass
-              <lb/>ich Sie bei unserem <rs type="event" ref="#amp_event_id_31">Kongress</rs> sehen werde. <space quantity="1" unit="char"/>Das Thema unse-
-              <lb/>res <rs type="event" ref="#amp_event_id_31">Kongresses</rs> "Literatur als Tradition und Revolution"
+              <lb/><space quantity="5" unit="char"/>Haben Sie Dank für Ihren Brief vom 10. Januar!<space quantity="1" unit="char"/> Ich
+              <lb/>f<subst><del hand="#type_cc_kraus" rend="erased">e</del><add hand="#type_cc_kraus" place="superimposed">r</add></subst>eue mich ganz ausserordentlich über Ihre Zusage und dass
+              <lb/>ich Sie bei unserem Kongress sehen werde. <space quantity="1" unit="char"/>Das Thema unse-
+              <lb/>res <rs type="event" ref="#amp_event_id_31">Kongresses "Literatur als Tradition und Revolution"</rs>
               <lb/>ist auch von uns aus nicht als gesellschaftspolitische Dis-
-              <lb/>kussion gemeint, auch wir möchten über "art and society"
+              <lb/>kussion gemeint, auch wir möchten über "<foreign xml:lang="en">art and society</foreign>"
               <lb/>einen Schritt hinauskommen. <space quantity="1" unit="char"/>Jedenfalls hoffe ich, dass es
               <lb/>einen lebhaften Gedankenaustausch geben wird.
             </p>
