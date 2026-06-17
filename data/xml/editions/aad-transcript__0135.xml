@@ -141,7 +141,7 @@
         <div type="letter_message" hand="#type_cc_kraus">
         <opener>
           <persName>
-          <lb/>Mr. <rs type="person" ref="#amp_person_1">W.H. Auden</rs></persName><dateline><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>9. Januar 1967</date></dateline>  
+          <lb/>Mr. <rs type="person" ref="#amp_person_1">W.H. Auden</rs></persName><space quantity="23" unit="char"/><dateline><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>9. Januar 1967</date></dateline>  
         <placeName>
           <lb/><rs type="place" ref="#amp_place_id_29">77 St. Mark s Place
           <lb/>New York, N.Y. 3</rs>
