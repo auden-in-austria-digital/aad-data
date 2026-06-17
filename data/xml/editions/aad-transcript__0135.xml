@@ -182,7 +182,9 @@
           <lb/>Freude machen, wenn Sie uns zusagen könnten.
         </p>
        </div>
-        <fw><space quantity="57" unit="char"/>./.</fw>
+          <div>
+            <fw><space quantity="57" unit="char"/>./.</fw>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00440/" ed="1v" type="sheet"/>
         <div type="letter_message">
         <p>
