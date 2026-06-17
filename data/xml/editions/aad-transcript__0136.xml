@@ -10,6 +10,7 @@
         <title level="s">Auden in Austria Digital (AAD)</title>
         <title level="a">Copy Typed Letter Wolfgang Kraus to W. H. Auden 1966-03-28</title>
         <author ref="https://d-nb.info/gnd/116413298">Kraus, Wolfgang</author>
+        <author ref="https://d-nb.info/gnd/2175892-X">Austrian Society for Literature</author>
         <editor>
           <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
           <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
@@ -88,7 +89,7 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote xml:id="hand_black_kraus" scribeRef="#amp_person_137" medium="pen-black">Handwriting in black ballpoint pen by Wolfgang Kraus</handNote>
+                  <handNote xml:id="hand_black_kraus" scribeRef="#amp_person_137" medium="ink-black">Handwriting in black ink by Wolfgang Kraus</handNote>
                 </handDesc>
                 <typeDesc>
                   <typeNote xml:id="type_cc_kraus" scribeRef="#amp_person_137" medium="type-cc">Carbon copy of typewriting authored by Wolfgang Kraus</typeNote>
@@ -157,15 +158,15 @@
             </salute>
         </opener>
           <p>
-            <lb/><space quantity="5" unit="char"/>Last year the "<rs type="org" ref="#amp_organization_9"><foreign xml:lang="de">Österreichische Gesellschaft für Literatur</foreign></rs>"
+            <lb/><space quantity="5" unit="char"/>Last year the "<rs type="org" ref="#amp_organization_9">Österreichische Gesellschaft für Literatur</rs>"
             <lb/>arranged two International Round-Table Conferences to discuss
             <lb/>"<rs type="event" ref="#amp_event_id_154">The theatre of today and today in the theatre</rs>" and "<rs type="event" ref="#amp_event_id_155">The novel
             <lb/>in the present century</rs>". Both were attended by some of the lead-
             <lb/>ing writers and critics of the day, and the world-wide interest
             <lb/>evidenced by the long extracts from the discussions in newspapers,
             <lb/>literary periodicals, and radio and TV reports has led us to plan
-            <lb/>a further Conference next autumn to discuss <rs type="event" ref="#amp_event_id_31">"Literature: tradi-
-            <lb/>tion and revolution"</rs>. A feature of the Conference, as in the case
+            <lb/>a further Conference next autumn to discuss "<rs type="event" ref="#amp_event_id_31">Literature: tradi-
+            <lb/>tion and revolution</rs>". A feature of the Conference, as in the case
             <lb/>of last year's, will be the presence of leading authorities from
             <lb/>both East and West.
           </p>
@@ -174,7 +175,7 @@
             <lb/>the three mornings being set aside for discussions in the
             <lb/>presence of an invited audience of journalists and critics. The
             <lb/>languages of the Conference will be English, French and German.
-            <lb/>As last year, a number of journalists <subst><del rend="erased" hand="#type_cc_kraus"><gap reason="illegible" quantity="4" unit="character"/></del><add place="superimposed" hand="#hand_black_kraus">from</add></subst> both East and West
+            <lb/>As last year, a number of journalists <subst><del rend="erased" hand="#type_cc_kraus"><unclear>both</unclear></del><add place="superimposed" hand="#hand_black_kraus">from</add></subst> both East and West
             <lb/>will come to <rs type="place" ref="#amp_place_id_1">Vienna</rs> with the special purpose of repor<subst><del rend="erased" hand="#type_cc_kraus"><unclear>o</unclear></del><add place="superimposed" hand="#type_cc_kraus">t</add></subst>ing on
             <lb/>this Conference. On the third evening all those taking part in
             <lb/>the Conference will foregather in the Redoutensaal of the <rs type="place" ref="#amp_place_id_89">Hofburg</rs>
@@ -189,7 +190,7 @@
           <lb/>let us know whether you can accept our invitation or not. We are
           <lb/>glad to be able to offer you a compensation of S 3.000, and we
           <lb/>shall of course be responsible for your air ticket and your
-          <lb/>hotel accommodation, <add place="inline" hand="#type_kraus">in case you should not be in <rs type="place" ref="#amp_place_id_10">Austria</rs>.</add>
+          <lb/>hotel accommodation<subst><del rend="overtyped" hand="#type_kraus">.</del><add place="superimposed" hand="#type_kraus">,</add></subst><add place="inline" hand="#type_kraus"> in case you should not be in <rs type="place" ref="#amp_place_id_10">Austria</rs>.</add>
         </p>
         <closer>
           <salute>
