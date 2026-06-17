@@ -122,7 +122,7 @@
       <change who="#tfruehwirth" when-iso="2026-06-09">TEI/XML template populated with csv2xml.py</change>
       <change who="#ahechtl" when-iso="2026-06-09">add plain transcription</change>
       <change who="#ahechtl" when-iso="2026-06-10">Populate physDesc, add structure</change>
-      <change who="#ahechtl" when-iso="2026-06-10">Entities markup: places, persons</change>
+      <change who="#ahechtl" when-iso="2026-06-16">Entities markup: places, persons</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -155,18 +155,18 @@
             <p>
               <lb/><space quantity="5" unit="char"/>Haben Sie Dank für Ihren Brief vom 10. Januar! Ich
               <lb/>freue mich ganz ausserordentlich über Ihre Zusage und dass
-              <lb/>ich Sie bei unserem <rs type="event">Kongress</rs> sehen werde. Das Thema unse-
-              <lb/>res <rs type="event">Kongresses</rs> "Literatur als Tradition und Revolution
+              <lb/>ich Sie bei unserem <rs type="event" ref="#amp_event_id_31">Kongress</rs> sehen werde. <space quantity="1" unit="char"/>Das Thema unse-
+              <lb/>res <rs type="event" ref="#amp_event_id_31">Kongresses</rs> "Literatur als Tradition und Revolution"
               <lb/>ist auch von uns aus nicht als gesellschaftspolitische Dis-
-              <lb/>kussion gemeint, auch wir möchten über "art and society
-              <lb/>einen Schritt hinauskommen. Jedenfalls hoffe ich, dass es
+              <lb/>kussion gemeint, auch wir möchten über "art and society"
+              <lb/>einen Schritt hinauskommen. <space quantity="1" unit="char"/>Jedenfalls hoffe ich, dass es
               <lb/>einen lebhaften Gedankenaustausch geben wird.
             </p>
             <p>
               <lb/><space quantity="5" unit="char"/>Die heutige Gelegenheit möchte ich nicht versäumen und
               <lb/>Sie auch bitten, unsere herzlichsten Glückwünsche zu Ihrem
-              <lb/><rs type="event">60. Geburtstag</rs> entgegenzunehmen. Wir sind immer wieder
-              <lb/>froh darüber, dass Sie zu uns nach Österreich gekommen
+              <lb/><rs type="event" ref="#amp_event_id_156">60. Geburtstag</rs> entgegenzunehmen. <space quantity="1" unit="char"/>Wir sind immer wieder
+              <lb/>froh darüber, dass Sie zu uns nach <rs type="place" ref="#amp_place_id_10">Österreich</rs> gekommen
               <lb/>sind und wünschen Ihnen hier noch viele gute und frucht-
               <lb/>bare Jahre.
             </p>
@@ -178,7 +178,7 @@
                 <lb/><space quantity="34" unit="char"/>Ihr Ihnen sehr ergebener
               </salute>
               <signed>
-                <lb/><space quantity="34" unit="char"/>(Dr. Wolfgang Kraus)
+                <lb/><space quantity="34" unit="char"/>(<rs type="person" ref="#amp_person_137">Dr. Wolfgang Kraus</rs>)
               </signed>
             </closer>
         </div>
