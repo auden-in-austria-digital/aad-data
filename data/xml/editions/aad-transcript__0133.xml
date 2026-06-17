@@ -168,8 +168,10 @@
                   <lb/>Eingreifen ganz sicherlich eine grosse Hilfe.
                 </p>
               <closer>
+                <salute>
                   <lb/><space quantity="3" unit="char"/>Wir rechnen fest mit Ihrer Teilnahme, danken Ihnen nochmals
-                  <lb/>und <salute>bleiben mit den besten Wünschen</salute>
+                  <lb/>und bleiben mit den besten Wünschen
+                </salute>
                 <salute>
                   <lb/><space quantity="35" unit="char"/>Ihre
                 </salute>
