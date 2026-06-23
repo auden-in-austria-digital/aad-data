@@ -90,7 +90,6 @@
                 <handDesc>
                   <handNote xml:id="hand_gray_unident_0138_01" medium="pencil">Handwriting in pencil by unidentified writer</handNote>
                   <handNote xml:id="hand_gray_unident_0138_02" medium="pencil">Handwriting in pencil by unidentified writer</handNote>
-                  <handNote xml:id="hand_gray_unident_0138_03" medium="pencil">Handwriting in pencil by unidentified writer</handNote>
                   <handNote xml:id="hand_blue_unident_0138" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                   <handNote xml:id="hand_green_unident_0138" medium="ink-green">Handwriting in green ink by unidentified writer</handNote>
                 </handDesc>
@@ -141,7 +140,7 @@
     <body>
       <div type="transcription" xml:id="transcription_aad_0138" xml:lang="de">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00429/" ed="1r" type="sheet"/>
-        <div type="prose" hand="#type_cc_oegfl" >  
+        <div type="prose" hand="#type_cc_oegfl">  
             <head>
                 <lb/>Literatur:<space quantity="1" unit="char"/> Tradition und Revolution
               <seg>
@@ -153,36 +152,36 @@
               <lb/>I. Liste:
             </ab>
             <ab>
-              <lb/><hi rend="underline" hand="#type_cc_oegfl">Österreich:</hi>
-              <lb xml:id="list_element_1"/><subst><del rend="overstrike" hand="hand_gray_unident_0138_01">Heimito von Doderer</del><add place="above" hand="#hand_gray_unident_0138_01">Friedrich Heer</add></subst><add place="inline" hand="#hand_gray_unident_0138_01">✓</add>
-              <lb xml:id="list_element_2"/>Herbert Eisenreich
-              <lb xml:id="list_element_3"/><del rend="overstrike" hand="hand_gray_unident_0138_01">Ingeborg Bachmann</del>
+              <lb/><hi rend="underline" hand="#type_cc_oegfl"><rs type="place" ref="#amp_place_id_10">Österreich</rs>:</hi>
+              <lb xml:id="list_element_1"/><subst><del rend="overstrike" hand="#hand_gray_unident_0138_01"><rs type="person" ref="#amp_person_373">Heimito von Doderer</rs></del><add place="above" hand="#hand_gray_unident_0138_01"><rs type="person" ref="#amp_person_54">Friedrich Heer</rs></add></subst><add place="inline" hand="#hand_gray_unident_0138_01">✓</add>
+              <lb xml:id="list_element_2"/><rs type="person" ref="#amp_person_355">Herbert Eisenreich</rs>
+              <lb xml:id="list_element_3"/><del rend="overstrike" hand="#hand_gray_unident_0138_01"><rs type="person" ref="#amp_person_374">Ingeborg Bachmann</rs></del>
             </ab>
             <ab>
-              <lb/><hi rend="underline" hand="#type_cc_oegfl">F<subst><del rend="overtyped" hand="type_cc_oegfl">a</del><add place="superimposed" hand="#type_cc_oegfl">r</add></subst>ankreich</hi>:
-              <lb xml:id="list_element_4"/>Pierre Emmanuel
-              <lb xml:id="list_element_5"/>Claude Simon <add place="inline" hand="#hand_gray_unident_0138_01"><unclear>/</unclear> Paris</add>
+              <lb/><hi rend="underline" hand="#type_cc_oegfl"><rs type="place" ref="#amp_place_id_83">F<subst><del rend="overtyped" hand="#type_cc_oegfl">a</del><add place="superimposed" hand="#type_cc_oegfl">r</add></subst>ankreich</rs></hi>:
+              <lb xml:id="list_element_4"/><rs type="person" ref="#amp_person_377">Pierre Emmanuel</rs>
+              <lb xml:id="list_element_5"/><rs type="person" ref="#amp_person_368">Claude Simon</rs> <add place="inline" hand="#hand_gray_unident_0138_01"><unclear>/</unclear> <rs type="place" ref="#amp_place_id_84">Paris</rs></add>
             </ab>
             <ab>
               <add place="left" corresp="#list_element_5" hand="#hand_gray_unident_0138_01">-</add>
             </ab>
             <ab>
-              <lb/><hi rend="underline" hand="#type_cc_oegfl">England:</hi>
-              <lb xml:id="list_element_6"/><del rend="overstrike" hand="hand_blue_unident_0138">George Steiner</del>
-              <lb xml:id="list_element_7"/>F<subst><del rend="overtyped" hand="type_cc_oegfl">a</del><add place="superimposed" hand="#type_cc_oegfl">r</add></subst>ank Kermode
-              <lb xml:id="list_element_8"/><del rend="overstrike" hand="#hand_gray_unident_0138_01">W.H. Auden</del>
+              <lb/><hi rend="underline" hand="#type_cc_oegfl"><rs type="place" ref="#amp_place_id_239">England</rs>:</hi>
+              <lb xml:id="list_element_6"/><del rend="overstrike" hand="#hand_blue_unident_0138"><rs type="person" ref="#amp_person_166">George Steiner</rs></del>
+              <lb xml:id="list_element_7"/><rs type="person" ref="#amp_person_382">F<subst><del rend="overtyped" hand="#type_cc_oegfl">a</del><add place="superimposed" hand="#type_cc_oegfl">r</add></subst>ank Kermode</rs>
+              <lb xml:id="list_element_8"/><del rend="overstrike" hand="#hand_gray_unident_0138_01"><rs type="person" ref="#amp_person_1">W.H. Auden</rs></del>
             </ab>
             <ab>
-              <lb/><hi rend="underline" hand="#type_cc_oegfl">USA:</hi>
-              <lb xml:id="list_element_9"/>Saul Bellow
-              <lb xml:id="list_element_10"/>Mary M<del rend="strikethrough" hand="#hand_gray_unident_0138_01">a</del>cCarthy
-              <lb xml:id="list_element_11"/><del rend="overstrike" hand="hand_blue_unident_0138">Vladimir Nabokov <hi rend="underline" hand="#type_cc_oegfl">oder</hi></del>
-              <lb xml:id="list_element_12"/>Edmund Wilson
+              <lb/><hi rend="underline" hand="#type_cc_oegfl"><rs type="place" ref="#amp_place_id_15">USA</rs>:</hi>
+              <lb xml:id="list_element_9"/><rs type="person" ref="#amp_person_387">Saul Bellow</rs>
+              <lb xml:id="list_element_10"/><rs type="person" ref="#amp_person_72">Mary M<del rend="overstrike" hand="#hand_gray_unident_0138_01">a</del>cCarthy</rs>
+              <lb xml:id="list_element_11"/><del rend="overstrike" hand="#hand_blue_unident_0138"><rs type="person" ref="#amp_person_388">Vladimir Nabokov</rs> <hi rend="underline" hand="#type_cc_oegfl">oder</hi></del>
+              <lb xml:id="list_element_12"/><rs type="person" ref="#amp_person_84">Edmund Wilson</rs>
             </ab>
             <ab>
-              <lb/><hi rend="underline" hand="#type_cc_oegfl">Italien:</hi>
-              <lb xml:id="list_element_13"/>Umberto Eco
-              <lb xml:id="list_element_14"/>Alberto Moravia
+              <lb/><hi rend="underline" hand="#type_cc_oegfl"><rs type="place" ref="#amp_place_id_159">Italien</rs>:</hi>
+              <lb xml:id="list_element_13"/><rs type="person" ref="#amp_person_392">Umberto Eco</rs>
+              <lb xml:id="list_element_14"/><rs type="person" ref="#amp_person_393">Alberto Moravia</rs>
             </ab>
             <ab>
               <add place="right" corresp="#list_element_13" hand="#hand_gray_unident_0138_02"><unclear>urgieren</unclear></add>
@@ -191,128 +190,157 @@
               <add place="right" corresp="#list_element_14" hand="#hand_gray_unident_0138_02"><unclear>- '</unclear></add>
             </ab>
             <ab>
-              <lb/><hi rend="underline" hand="#type_cc_oegfl">Deutschland:</hi>
-              <lb xml:id="list_element_15"/>Walter Höllerer
-              <lb xml:id="list_element_16"/>Th.W. Adorno
-              <lb xml:id="list_element_17"/>M. Reich-Ranicki
-              <lb xml:id="list_element_18"/>H.E. Holthusen
+              <lb/><hi rend="underline" hand="#type_cc_oegfl"><rs type="place" ref="#amp_place_id_20">Deutschland</rs>:</hi>
+              <lb xml:id="list_element_15"/><rs type="person" ref="#amp_person_360">Walter Höllerer</rs>
+              <lb xml:id="list_element_16"/><rs type="person" ref="#amp_person_395">Th.W. Adorno</rs>
+              <lb xml:id="list_element_17"/><rs type="person" ref="#amp_person_75">M. Reich-Ranicki</rs>
+              <lb xml:id="list_element_18"/><rs type="person" ref="#amp_person_213">H.E. Holthusen</rs>
             </ab>
             <ab>
-              <lb/><hi rend="underline" hand="#type_cc_oegfl">Schweiz:</hi>
-              <lb xml:id="list_element_19"/><del rend="overstrike" hand="hand_blue_unident_0138">Emil Staiger</del>
-              <lb xml:id="list_element_20"/>Werner Weber
-              <lb xml:id="list_element_21"/>Ger<subst><del rend="metamark" hand="#hand_gray_unident_0138_01">ad</del><add place="inline" hand="#hand_gray_unident_0138_01">da</add></subst> Zeltner-Neukomm
-            </ab>
-            <ab>
-              <add place="below" corresp="#list_element_21" hand="#hand_green_unident_0138"><unclear>&#8596;</unclear></add>
-            </ab>
-            <ab>
-              <add place="right" corresp="#list_element_21" hand="#hand_gray_unident_0138_01"><unclear>&#8594;</unclear></add>
+              <lb/><hi rend="underline" hand="#type_cc_oegfl"><rs type="place" ref="#amp_place_id_97">Schweiz</rs>:</hi>
+              <lb xml:id="list_element_19"/><del rend="overstrike" hand="#hand_blue_unident_0138"><rs type="person" ref="#amp_person_405">Emil Staiger</rs></del>
             </ab>
             <cb n="2"/>
             <ab>
               <lb/><space extent="undefined quantity of characters" min="1" unit="char"/>II. Liste
             </ab>
             <ab>
-              <lb xml:id="list_element_22"/><space extent="undefined quantity of characters" min="1" unit="char"/>A.P. Gütersloh
-              <lb xml:id="list_element_23"/><space extent="undefined quantity of characters" min="1" unit="char"/>Ilse Aichinger
-              <lb xml:id="list_element_24"/><space extent="undefined quantity of characters" min="1" unit="char"/><del rend="overstrike" hand="hand_gray_unident_0138_01">Friedrich Heer</del>
+              <lb xml:id="list_element_20"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_375">A.P. Gütersloh</rs>
+              <lb xml:id="list_element_21"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_376">Ilse Aichinger</rs>
+              <lb xml:id="list_element_22"/><space extent="undefined quantity of characters" min="1" unit="char"/><del rend="overstrike" hand="#hand_gray_unident_0138_01"><rs type="person" ref="#amp_person_54">Friedrich Heer</rs></del>
             </ab>
             <ab>
-              <lb xml:id="list_element_25"/><space extent="undefined quantity of characters" min="1" unit="char"/>Jean Franc<add place="superimposed" hand="#type_cc_oegfl">,</add>ois Revel
-              <lb xml:id="list_element_26"/><space extent="undefined quantity of characters" min="1" unit="char"/>Maurice Nadeau
-              <lb xml:id="list_element_27"/><space extent="undefined quantity of characters" min="1" unit="char"/>Robert Pinget
-              <lb xml:id="list_element_28"/><space extent="undefined quantity of characters" min="1" unit="char"/>Eugen Ionesco
+              <lb xml:id="list_element_23"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_378">Jean Franc<add place="superimposed" hand="#type_cc_oegfl">,</add>ois Revel</rs>
+              <lb xml:id="list_element_24"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_379">Maurice Nadeau</rs>
+              <lb xml:id="list_element_25"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_380">Robert Pinget</rs>
+              <lb xml:id="list_element_26"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_381">Eugen Ionesco</rs>
             </ab>
             <ab>
-              <lb xml:id="list_element_29"/><space extent="undefined quantity of characters" min="1" unit="char"/>Arnold Hauser
-              <lb xml:id="list_element_30"/><space extent="undefined quantity of characters" min="1" unit="char"/>Dan Jacobson <add place="inline" hand="hand_blue_unident_0138">9,D<unclear>u</unclear>nst<unclear>a</unclear>n Rd,L<unclear>dn</unclear> NW 11</add>
-              <lb xml:id="list_element_31"/><space extent="undefined quantity of characters" min="1" unit="char"/>Iris Murdoch
-              <lb xml:id="list_element_32"/><space extent="undefined quantity of characters" min="1" unit="char"/>Robert Kee
-              <lb xml:id="list_element_33"/><space extent="undefined quantity of characters" min="1" unit="char"/>Philip Toynbee <add place="inline" hand="hand_blue_unident_0138">,B<unclear>ar</unclear>nhouse</add> <add place="below" hand="hand_blue_unident_0138">Br<unclear>o</unclear>ckweir N.R.</add> <add place="below" hand="hand_blue_unident_0138"><unclear>Chep</unclear>stow, Monm<unclear>outh</unclear>sh.</add>
+              <lb xml:id="list_element_27"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_383">Arnold Hauser</rs>
+              <lb xml:id="list_element_28"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_384">Dan Jacobson</rs> <add place="inline" hand="#hand_blue_unident_0138">9,D<unclear>u</unclear>nst<unclear>a</unclear>n Rd,<rs type="place" ref="#amp_place_id_56">L<unclear>dn</unclear></rs> NW 11</add>
+              <lb xml:id="list_element_29"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_385">Iris Murdoch</rs>
+              <lb xml:id="list_element_30"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_386">Robert Kee</rs>
+              <add place="bottom" hand="#hand_blue_unident_0138">
+                <lb/>c/o <rs type="org" ref="#amp_organization_239">Martin Se<unclear>k</unclear>er + Warburg L<unclear>td</unclear></rs>
+                <lb/>7,John street ,<rs type="place" ref="#amp_place_id_56">L<unclear>on</unclear>d<unclear>on</unclear></rs> <unclear>W.C.</unclear> 1
+              </add>
+              <lb xml:id="list_element_31"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_91">Philip Toynbee</rs> <add place="inline" hand="#hand_blue_unident_0138">,B<unclear>ar</unclear>nhouse</add> 
+              <add place="below" hand="#hand_blue_unident_0138">
+                <lb/>Br<unclear>o</unclear>ckweir N.R.
+                <lb/><rs type="place" ref="#amp_place_id_501"><unclear>Chep</unclear>stow</rs>, Monm<unclear>outh</unclear>sh.
+              </add> 
             </ab>
           <ab>
-            
+            <lb xml:id="list_element_32"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_390">Irving Howe</rs>
+            <lb xml:id="list_element_33"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_391">Harold Rosenberg</rs>
           </ab>
-            
-
-
-
-
-
-
-Sheg Hrrs sorener .
-
-Irving Howe
-
-Harold Rosenberg
-
-
-
-Nicola Chiaromonte x
-
-Claudio Muti (Turin)
-
-Walter Jens
-
-Ernst Bloch
-
-H.M. Enzensberger
-
-Arnold Gehlen
-Max Bense
-G.R. Hocke
-Hugo Friedrich
-Alfred Andersch
-Peter Härtling
-Schweiz:
-Bmds Ftnigss
-Werner Weber
-(Gerad Zeltner-Neukomm)
-Seto Mastz Gren Gernn Ro
-enetant, ein U
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00430/" ed="1v" type="sheet"/>
-Ost
-I. Liste
-UdSSR:
-Alexander Twardowski
-Konstantin Paustowski
-Polen:
-Witold Wirpsza
-Lezek Kolakowski( Warnh
-DDR:
-Peter Huchel
-Ungarn:
-Janos Pilinszkij
-Miklos Meszolyi (Krdo
-CSSR:
-Ivan Svitak
-Laco-Novomesky-( Ih Srot staw
-Dominik Taterka-
-Rumänien:
-Anatol Baconsky
-Nicola Tertullian
-Bulgarien:
-Blaga Dimitrova
-Jugoslawien:
-Mihaj Mihajlow
-Miodrag Pavlovic
-II. Liste
-Wladimir N. Turbin
-Ewgenyi Vinokurov-
-Nekrassow Victor
-Jacek Wozniakowski
-Stefan Kisielewski
-Görgy Ronay
-Elemer Hankiss
-Eduard Goldstücker
-Jan Patocka ?i
-Eugen Bloebls
-Georgette Horodinca
-Zdenko Skreb
-F. Kalan-Bumbatovic
-Vasko Popa
+          <ab>
+            <lb xml:id="list_element_34"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_394">Nicola Chiaromonte</rs>
+            <lb xml:id="list_element_35"/><space extent="undefined quantity of characters" min="1" unit="char"/>Claudio Muti (Turin)
+          </ab>
+          <ab>
+            <add place="right" corresp="#list_element_36" hand="#hand_gray_unident_0138_02">einl.</add>
+          </ab>
+          <ab>
+            <lb xml:id="list_element_36"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_396">Walter Jens</rs>
+            <lb xml:id="list_element_37"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_397">Ernst Bloch</rs>
+            <lb xml:id="list_element_38"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_398">H.<subst><del rend="overtyped" hand="#type_cc_oegfl">N</del><add place="superimposed" hand="#type_cc_oegfl">M</add></subst>. Enzensberger</rs>
+            <lb xml:id="list_element_39"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_399">Gerhart Baumann</rs>
+            <lb xml:id="list_element_40"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_400">Arnold Gehlen</rs>
+            <lb xml:id="list_element_41"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_401">Max Bense</rs>
+            <lb xml:id="list_element_42"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_402">G.R. Hocke</rs>
+            <lb xml:id="list_element_43"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_403">Hugo Friedrich</rs>
+            <lb xml:id="list_element_44"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_404">Alfred Andersch</rs>
+            <lb xml:id="list_element_45"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_359">Peter Härtling</rs>
+          </ab>
+          <ab>
+            <add place="left" hand="#type_cc_oegfl">
+              <lb xml:id="list_element_46"/><rs type="person" ref="#amp_person_371">Werner Weber</rs>
+              <lb xml:id="list_element_47"/><rs type="person" ref="#amp_person_406">Ger<subst><del rend="metamark" hand="#hand_gray_unident_0138_01">ad</del><add place="inline" hand="#hand_gray_unident_0138_01">da</add></subst> Zeltner-Neukomm</rs>
+            </add>
+          </ab>
+          <ab>
+            <add place="below" corresp="#list_element_21" hand="#hand_green_unident_0138"><unclear>&#8596;</unclear></add>
+          </ab>    
+      <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00430/" ed="1v" type="sheet"/>
+      <div type="prose" hand="#type_cc_oegfl">  
+        <head>
+          <lb/>Ost
+        </head>
+        <ab>
+          <lb/>I. Liste:
+        </ab>
+        <ab>
+          <lb/>UdSSR:
+          <lb/>Alexander Twardowski
+          <lb/>Konstantin Paustowski
+        </ab>
+        <ab>
+          <lb/>Polen:
+          <lb/>Witold Wirpsza
+          <lb/>Lezek Kolakowski
+        </ab>
+        <ab>
+          <lb/>DDR:
+          <lb/>Peter Huchel
+        </ab>
+        <ab>
+          <lb/>Ungarn:
+          <lb/>Janos Pilinszkij
+          <lb/>Miklos Meszolyi
+        </ab>
+        <ab>
+          <lb/>CSSR:
+          <lb/>Ivan Svitak
+          <lb/>Laco Novomesky
+          <lb/>Dominik Tatarka
+        </ab>
+        <ab>
+          <lb/>Rumänien:
+          <lb/>Anatol Baconsky
+          <lb/>Nicola Tertullian
+        </ab>
+        <ab>
+          <lb/>Bulgarien:
+          <lb/>Blaga Dimitrova
+        </ab>
+        <ab>
+          <lb/>Jugoslawien:
+          <lb/>Mihaj Mihajlow
+          <lb/>Miodrag Pavlovic
+        </ab>
+        <ab>
+          <lb/>II. Liste:
+        </ab>
+        <ab>
+          <lb/>Wladimir N. Turbin
+          <lb/>Ewgenyi Vinokurov-
+          <lb/>Nekrassow Victor
+        </ab>
+        <ab>
+          <lb/>Jacek Wozniakowski
+          <lb/>Stefan Kisielewski
+        </ab>
+        <ab>
+          <lb/>György Ronay
+          <lb/>Elemer Hankiss
+        </ab>
+        <ab>
+          <lb/>Eduard Goldstücker
+          <lb/>Jan Patocka
+          <lb/>Eugen BLoebl
+        </ab>
+        <ab>
+          <lb/>Georgette Horodinca
+        </ab>
+        <ab>
+          <lb/>Zdenko Skreb
+          <lb/>F. Kalan-Bumbatovic
+          <lb/>Vasko Popa
+        </ab>
       </div>
+     </div>
+    </div>
     </body>
   </text>
 </TEI>
