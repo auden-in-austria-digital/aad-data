@@ -168,7 +168,7 @@
               <lb xml:id="list_element_5"/><rs type="person" ref="#amp_person_368">Claude Simon</rs> <add place="inline" hand="#hand_gray_unident_0138_01"><unclear>/</unclear> <rs type="place" ref="#amp_place_id_84">Paris</rs></add>
             </ab>
             <ab>
-              <add place="left" corresp="#list_element_5" hand="#hand_gray_unident_0138_01">-</add>
+              <add place="left" corresp="#list_element_5" hand="#hand_gray_unident_0138_01">/</add>
             </ab>
             <ab>
               <lb/><hi rend="underline" hand="#type_cc_oegfl"><rs type="place" ref="#amp_place_id_239">England</rs>:</hi>
@@ -276,7 +276,7 @@
           <lb/>I. Liste:
         </ab>
         <ab>
-          <lb/>UdSSR:
+          <lb/><hi rend="underline" hand="#type_cc_oegfl">UdSSR:</hi>
           <lb/>Alexander Twardowski
           <lb/>Konstantin Paustowski
         </ab>
