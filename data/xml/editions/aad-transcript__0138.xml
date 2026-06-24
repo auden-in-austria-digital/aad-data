@@ -106,7 +106,7 @@
               <history>
                 <origin>
                   <origDate notBefore-iso="1965-01-01T00:00:00+01:00" notAfter-iso="1967-01-09T23:59:59+01:00"/>
-                  <origPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</origPlace>
+                  <origPlace ref="https://d-nb.info/gnd/4066009-6" ana="acdh:aad-transcript__0104.xml#ana_108">Vienna</origPlace>
                 </origin>
               </history>
             </msDesc>
