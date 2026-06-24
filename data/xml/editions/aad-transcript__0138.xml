@@ -30,7 +30,12 @@
         <edition>
           <title level="a">Copy Typed Notes Austrian Society for Literature 1965-01-01--1967-01-09</title>
           <interpGrp>
-            <interp>
+              <interp xml:id="ana_122">
+                <desc/>
+                <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+                <certainty locus="value"/>
+              </interp>
+            <interp xml:id="ana_123">
               <desc/>
               <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -142,7 +147,7 @@
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00429/" ed="1r" type="sheet"/>
         <div type="prose" hand="#type_cc_oegfl">  
             <head>
-                <lb/>Literatur:<space quantity="1" unit="char"/> Tradition und Revolution
+              <lb/> <rs ana="#ana_122">Literatur:<space quantity="1" unit="char"/> Tradition und Revolution</rs>
               <seg>
                 <lb/><space quantity="15" unit="char"/><add place="below" hand="#type_oegfl">West</add>
               </seg>
@@ -236,7 +241,7 @@
           </ab>
           <ab>
             <lb xml:id="list_element_34"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_394">Nicola Chiaromonte</rs>
-            <lb xml:id="list_element_35"/><space extent="undefined quantity of characters" min="1" unit="char"/>Claudio Muti (Turin)
+            <lb xml:id="list_element_35"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs ana="#ana_123">Claudio Muti</rs> (Turin)
           </ab>
           <ab>
             <add place="right" corresp="#list_element_36" hand="#hand_gray_unident_0138_02">einl.</add>
