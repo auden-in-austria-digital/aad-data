@@ -157,7 +157,7 @@
             </ab>
             <ab>
               <lb/><hi rend="underline" hand="#type_cc_oegfl"><rs type="place" ref="#amp_place_id_10">Österreich</rs>:</hi>
-              <lb xml:id="list_element_1"/><subst><del rend="overstrike" hand="#hand_gray_unident_0138_01"><rs type="person" ref="#amp_person_373">Heimito von Doderer</rs></del><add place="above" hand="#hand_gray_unident_0138_01"><rs type="person" ref="#amp_person_54">Friedrich Heer</rs></add></subst><add place="inline" hand="#hand_gray_unident_0138_01">✓</add>
+              <lb xml:id="list_element_1"/><subst><del rend="overstrike" hand="#hand_gray_unident_0138_01"><rs type="person" ref="#amp_person_373">Heimito von Doderer</rs></del><add place="inline" hand="#hand_gray_unident_0138_01">✓</add><add place="above" hand="#hand_gray_unident_0138_01"><rs type="person" ref="#amp_person_54">Friedrich Heer</rs></add></subst>
               <lb xml:id="list_element_2"/><rs type="person" ref="#amp_person_355">Herbert Eisenreich</rs>
               <lb xml:id="list_element_3"/><del rend="overstrike" hand="#hand_gray_unident_0138_01"><rs type="person" ref="#amp_person_374">Ingeborg Bachmann</rs></del>
             </ab>
@@ -210,8 +210,8 @@
             <ab>
               <lb/><hi rend="underline" hand="#type_cc_oegfl"><rs type="place" ref="#amp_place_id_97">Schweiz</rs>:</hi>
               <lb xml:id="list_element_20"/><del rend="overstrike" hand="#hand_blue_unident_0138"><rs type="person" ref="#amp_person_405">Emil Staiger</rs></del>
-              <lb xml:id="list_element_21"/><del rend="metamark" hand="#hand_gray_unident_0138_01"></del><rs type="person" ref="#amp_person_371">Werner Weber</rs>
-              <lb xml:id="list_element_22"/><del rend="metamark" hand="#hand_gray_unident_0138_01"></del><rs type="person" ref="#amp_person_406">Ger<subst><del rend="metamark" hand="#hand_gray_unident_0138_01">ad</del><add place="inline" hand="#hand_gray_unident_0138_01">da</add></subst> Zeltner-Neukomm</rs>
+              <del rend="metamark" hand="#hand_gray_unident_0138_01"><lb xml:id="list_element_21"/><rs type="person" ref="#amp_person_371">Werner Weber</rs></del>
+              <del rend="metamark" hand="#hand_gray_unident_0138_01"><lb xml:id="list_element_22"/><rs type="person" ref="#amp_person_406">Ger<subst><del rend="metamark" hand="#hand_gray_unident_0138_01">ad</del><add place="inline" hand="#hand_gray_unident_0138_01">da</add></subst> Zeltner-Neukomm</rs></del>
             </ab>
             <cb n="2"/>
             <ab>
@@ -284,7 +284,7 @@
             <ab>
               <lb/><hi rend="underline" hand="#type_cc_oegfl"><rs type="place" ref="#amp_place_id_505">UdSSR</rs></hi>:
               <lb xml:id="list_element_51"/><rs type="person" ref="#amp_person_407">Alexander Twardowski</rs>
-              <lb xml:id="list_element_52"/><rs type="person" ref="#amp_person_408">Konstantin Paustowski</rs> <add place="inline" hand="#hand_gray_unident_0138_02"><unclear>-</unclear>gr.</add>
+              <lb xml:id="list_element_52"/><rs type="person" ref="#amp_person_408">Konstantin Paustowski</rs> <add place="inline" hand="#hand_gray_unident_0138_02"><gap atLeast="4" atMost="5" unit="chars" reason="illegible"></gap></add>
             </ab>
             <ab>
               <lb/><hi rend="underline" hand="#type_cc_oegfl"><rs type="place" ref="#amp_place_id_506"><subst><del rend="overtyped" hand="#type_cc_oegfl">§</del><add place="superimposed" hand="#type_cc_oegfl">P</add></subst>olen</rs>:</hi>
@@ -306,8 +306,6 @@
             </ab>
             <ab>
               <add place="right" corresp="#list_element_57" hand="#hand_gray_unident_0138_02"><unclear>&#8212;</unclear></add>
-            </ab>
-            <ab>
               <del rend="overstrike" hand="#hand_gray_unident_0138_01"><add place="left" corresp="#list_element_57" hand="#hand_gray_unident_0138_01"><unclear>/</unclear></add></del>
             </ab>
             <ab>
