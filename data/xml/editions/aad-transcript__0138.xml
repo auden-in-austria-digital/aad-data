@@ -251,9 +251,6 @@
             <lb xml:id="list_element_36"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_391">Harold Rosenberg</rs>
           </ab>
           <ab>
-            <lb/>
-            <lb/>
-            <lb/>
             <lb xml:id="list_element_37"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_394">Nicola Chiaromonte</rs>
             <lb xml:id="list_element_38"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs ana="#ana_123">Claudio Muti</rs> (Turin)
           </ab>
@@ -261,8 +258,6 @@
             <add place="right" corresp="#list_element_37" hand="#hand_gray_unident_0138_02">einl.</add>
           </ab>
           <ab>
-            <lb/>
-            <lb/>
             <lb xml:id="list_element_39"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_396">Walter Jens</rs>
             <lb xml:id="list_element_40"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_397">Ernst Bloch</rs>
             <lb xml:id="list_element_41"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_398">H.<subst><del rend="overtyped" hand="#type_cc_oegfl">N</del><add place="superimposed" hand="#type_cc_oegfl">M</add></subst>. Enzensberger</rs>
@@ -364,10 +359,12 @@
               <lb/>
               <lb/>
               <lb/>
+              <lb/>
               <lb xml:id="list_element_72"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_416">G<add place="inline" hand="#hand_gray_unident_0138_01">y</add>örgy Ronay</rs>
               <lb xml:id="list_element_73"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_417">Elemer Hankiss</rs>
             </ab>
             <ab>
+              <lb/>
               <lb/>
               <lb/>
               <lb xml:id="list_element_74"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_421">Eduard Goldstücker</rs>
@@ -379,12 +376,16 @@
               <lb/>
               <lb/>
               <lb/>
+              <lb/>
               <lb xml:id="list_element_77"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_426">Georgette Horodinca</rs>
             </ab>
             <ab>
+              <lb/>
+              <lb/>
+              <lb/>
               <lb xml:id="list_element_78"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_429">Zdenko Skreb</rs>
-                <lb xml:id="list_element_79"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_430">F. Kalan-Bumbatovic</rs>
-                  <lb xml:id="list_element_80"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_431">Vasko Popa</rs>
+              <lb xml:id="list_element_79"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_430">F. Kalan-Bumbatovic</rs>
+              <lb xml:id="list_element_80"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_431">Vasko Popa</rs>
             </ab>
           </div>
         </div>
