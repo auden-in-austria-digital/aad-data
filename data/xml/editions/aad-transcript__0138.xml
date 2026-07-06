@@ -223,12 +223,15 @@
               <lb xml:id="list_element_25"/><space extent="undefined quantity of characters" min="1" unit="char"/><del rend="overstrike" hand="#hand_gray_unident_0138_01"><rs type="person" ref="#amp_person_54">Friedrich Heer</rs></del>
             </ab>
             <ab>
+              <lb/>
+              <lb/>
               <lb xml:id="list_element_26"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_378">Jean Franc<add place="superimposed" hand="#type_cc_oegfl">,</add>ois Revel</rs>
               <lb xml:id="list_element_27"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_379">Maurice Nadeau</rs>
               <lb xml:id="list_element_28"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_380">Robert Pinget</rs>
               <lb xml:id="list_element_29"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_381">Eugen Ionesco</rs>
             </ab>
             <ab>
+              <lb/>
               <lb xml:id="list_element_30"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_383">Arnold Hauser</rs>
               <lb xml:id="list_element_31"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_384">Dan Jacobson</rs> <add place="inline" hand="#hand_blue_unident_0138">9,D<unclear>u</unclear>nst<unclear>a</unclear>n Rd,<rs type="place" ref="#amp_place_id_56">L<unclear>dn</unclear></rs> NW 11</add>
               <lb xml:id="list_element_32"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_385">Iris Murdoch</rs>
@@ -248,6 +251,9 @@
             <lb xml:id="list_element_36"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_391">Harold Rosenberg</rs>
           </ab>
           <ab>
+            <lb/>
+            <lb/>
+            <lb/>
             <lb xml:id="list_element_37"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_394">Nicola Chiaromonte</rs>
             <lb xml:id="list_element_38"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs ana="#ana_123">Claudio Muti</rs> (Turin)
           </ab>
@@ -255,6 +261,8 @@
             <add place="right" corresp="#list_element_37" hand="#hand_gray_unident_0138_02">einl.</add>
           </ab>
           <ab>
+            <lb/>
+            <lb/>
             <lb xml:id="list_element_39"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_396">Walter Jens</rs>
             <lb xml:id="list_element_40"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_397">Ernst Bloch</rs>
             <lb xml:id="list_element_41"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_398">H.<subst><del rend="overtyped" hand="#type_cc_oegfl">N</del><add place="superimposed" hand="#type_cc_oegfl">M</add></subst>. Enzensberger</rs>
@@ -339,6 +347,7 @@
               <lb/>II. Liste
             </ab>
             <ab>
+              <lb/>
               <lb xml:id="list_element_67"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_409">Wladimir N. Turbin</rs>
               <lb xml:id="list_element_68"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_410">Ewgenyi Vinokuro<add place="inline" hand="#hand_gray_unident_0138_01">v</add></rs>
               <lb xml:id="list_element_69"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_411">Nekrassow Victor</rs>
@@ -351,15 +360,25 @@
               <lb xml:id="list_element_71"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_414">Stefan Kisielewski</rs>
             </ab>
             <ab>
+              <lb/>
+              <lb/>
+              <lb/>
+              <lb/>
               <lb xml:id="list_element_72"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_416">G<add place="inline" hand="#hand_gray_unident_0138_01">y</add>örgy Ronay</rs>
               <lb xml:id="list_element_73"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_417">Elemer Hankiss</rs>
             </ab>
             <ab>
+              <lb/>
+              <lb/>
               <lb xml:id="list_element_74"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_421">Eduard Goldstücker</rs>
               <del rend="metamark" hand="#hand_gray_unident_0138_01"><lb xml:id="list_element_75"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_422">Jan Patocka</rs> <add place="inline" hand="#hand_gray_unident_0138_01"><rs type="place" ref="#amp_place_id_154">Pr<unclear>ag</unclear></rs></add></del>
               <lb xml:id="list_element_76"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_423">Eugen <subst><del rend="overtyped" hand="#type_cc_oegfl">Bl</del><add place="superimposed" hand="#type_cc_oegfl">L</add></subst>oebl</rs> <add place="inline" hand="#hand_gray_unident_0138_01"><rs type="place" ref="#amp_place_id_504">Bratislava</rs></add>
             </ab>
             <ab>
+              <lb/>
+              <lb/>
+              <lb/>
+              <lb/>
               <lb xml:id="list_element_77"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_426">Georgette Horodinca</rs>
             </ab>
             <ab>
