@@ -156,7 +156,7 @@
         <p>
           <lb/><space quantity="5" unit="char"/>Ich möchte Ihnen für den unvergesslichen <rs type="event" ref="#amp_event_id_25">Abend</rs> in meinem
           <lb/>und im Namen aller unserer Gäste nochmals meinen aufrichtigen
-          <lb/>Dank aussprechen. <space quantity="1" unit="char"/>Der Eindruck, den diese <rs type="event" ref="#amp_event_id_25">Lesung</rs> im Publi<subst><del rend="erased" hand="type_cc_kraus">um</del><add place="superimposed" hand="type_cc_kraus">ku</add></subst>m
+          <lb/>Dank aussprechen. <space quantity="1" unit="char"/>Der Eindruck, den diese <rs type="event" ref="#amp_event_id_25">Lesung</rs> im Publi<subst><del rend="erased" hand="#type_cc_kraus">um</del><add place="superimposed" hand="#type_cc_kraus">ku</add></subst>m
           <lb/>hinterlassen hat, war, wie ich mich nachher überzeugen konnte,
           <lb/>unmittelbar und tief. <space quantity="1" unit="char"/>Ich möchte Ihnen gerne sagen, dass Sie
           <lb/>in Wien viele gute Freunde gewonnen haben.
