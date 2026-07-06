@@ -10,6 +10,7 @@
         <title level="s">Auden in Austria Digital (AAD)</title>
         <title level="a">Copy Typed Letter Hella Bronold to Achim Benning 1973-09-12</title>
         <author ref="https://d-nb.info/gnd/1206944536" ana="#ana_110">Bronold, Hella</author>
+        <author ref="https://d-nb.info/gnd/2175892-X">Austrian Society for Literature</author>
         <editor>
           <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
           <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
@@ -172,7 +173,7 @@
               </seg>
             </p>
             <p>
-              <lb/><space unit="char" quantity="5"/>Ich habe sie in der Reihenfolge gelassen, wie sie im Buch
+              <lb/><space unit="char" quantity="5"/>Ich habe sie in der Reihenfolge gelassen, wie sie im <rs type="lit_work" ref="#lit_work_id_67">Buch</rs>
               <lb/>stehen werden, nämlich chronologisch. <space unit="char" quantity="1"/>Selbstverständlich
               <lb/>können <subst><del rend="overtyped" hand="#type_cc_bronold">s</del><add place="superimposed" hand="#type_cc_bronold">S</add></subst>ie umstellen, wenn Sie es besser finden. <space unit="char" quantity="1"/>Auch was
               <lb/>die Länge betrifft, so weiss ich nicht, ob ich genug oder zu
