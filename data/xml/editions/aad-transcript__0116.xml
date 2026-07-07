@@ -152,9 +152,9 @@
                 <lb/><rs type="person" ref="#amp_person_1">Herrn
                 <lb/>W. H. Auden</rs>
               </persName>
-              <address>
+              <placeName>
                 <lb/><rs type="place" ref="#amp_place_id_2">Hinterholz 6
-                <lb/>3062 Kirchstetten</rs></address><space unit="char" quantity="22"/><dateline><placeName><rs type="place" ref="#amp_place_id_1">Wien</rs></placeName>, <date>6. August 1973</date></dateline>
+                <lb/>3062 Kirchstetten</rs></placeName><space unit="char" quantity="22"/><dateline><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>6. August 1973</date></dateline>
               <salute>
                 <lb/>Lieber <rs type="person" ref="#amp_person_1">Herr Auden</rs>,
               </salute>         
