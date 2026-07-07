@@ -191,8 +191,6 @@
               <lb xml:id="list_element_13"/><rs type="person" ref="#amp_person_84">Edmund Wilson</rs>
             </ab>
             <ab>
-              <lb/>
-              <lb/>
               <lb/><hi rend="underline" hand="#type_cc_oegfl"><rs type="place" ref="#amp_place_id_159">Italien</rs>:</hi>
               <lb xml:id="list_element_14"/><rs type="person" ref="#amp_person_392">Umberto Eco</rs>
               <lb xml:id="list_element_15"/><rs type="person" ref="#amp_person_393">Alberto Moravia</rs>
@@ -204,8 +202,6 @@
               <add place="right" corresp="#list_element_15" hand="#hand_gray_unident_0138_02"><unclear>- '</unclear></add>
             </ab>
             <ab>
-              <lb/>
-              <lb/>
               <lb/><hi rend="underline" hand="#type_cc_oegfl"><rs type="place" ref="#amp_place_id_20">Deutschland</rs>:</hi>
               <lb xml:id="list_element_16"/><rs type="person" ref="#amp_person_360">Walter Höllerer</rs>
               <lb xml:id="list_element_17"/><rs type="person" ref="#amp_person_395">Th.W. Adorno</rs>
@@ -213,12 +209,6 @@
               <lb xml:id="list_element_19"/><rs type="person" ref="#amp_person_213">H.E. Holthusen</rs>
             </ab>
             <ab>
-              <lb/>
-              <lb/>
-              <lb/>
-              <lb/>
-              <lb/>
-              <lb/>
               <lb/><hi rend="underline" hand="#type_cc_oegfl"><rs type="place" ref="#amp_place_id_97">Schweiz</rs>:</hi>
               <lb xml:id="list_element_20"/><del rend="overstrike" hand="#hand_blue_unident_0138"><rs type="person" ref="#amp_person_405">Emil Staiger</rs></del>
               <del rend="metamark" hand="#hand_gray_unident_0138_01"><lb xml:id="list_element_21"/><rs type="person" ref="#amp_person_371">Werner Weber</rs></del>
@@ -388,16 +378,9 @@
               <lb/>
               <lb/>
               <lb/>
-              <lb/>
-              <lb/>
               <lb xml:id="list_element_77"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_426">Georgette Horodinca</rs>
             </ab>
             <ab>
-              <lb/>
-              <lb/>
-              <lb/>
-              <lb/>
-              <lb/>
               <lb/>
               <lb/>
               <lb/>
