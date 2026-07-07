@@ -183,6 +183,7 @@
               </add>
             </ab>
             <ab>
+              <lb/>
               <lb/><hi rend="underline" hand="#type_cc_oegfl"><rs type="place" ref="#amp_place_id_15">USA</rs>:</hi>
               <lb xml:id="list_element_10"/><rs type="person" ref="#amp_person_387">Saul Bellow</rs>
               <lb xml:id="list_element_11"/><rs type="person" ref="#amp_person_72">Mary M<del rend="overstrike" hand="#hand_gray_unident_0138_01">a</del>cCarthy</rs>
@@ -190,6 +191,8 @@
               <lb xml:id="list_element_13"/><rs type="person" ref="#amp_person_84">Edmund Wilson</rs>
             </ab>
             <ab>
+              <lb/>
+              <lb/>
               <lb/><hi rend="underline" hand="#type_cc_oegfl"><rs type="place" ref="#amp_place_id_159">Italien</rs>:</hi>
               <lb xml:id="list_element_14"/><rs type="person" ref="#amp_person_392">Umberto Eco</rs>
               <lb xml:id="list_element_15"/><rs type="person" ref="#amp_person_393">Alberto Moravia</rs>
@@ -201,6 +204,8 @@
               <add place="right" corresp="#list_element_15" hand="#hand_gray_unident_0138_02"><unclear>- '</unclear></add>
             </ab>
             <ab>
+              <lb/>
+              <lb/>
               <lb/><hi rend="underline" hand="#type_cc_oegfl"><rs type="place" ref="#amp_place_id_20">Deutschland</rs>:</hi>
               <lb xml:id="list_element_16"/><rs type="person" ref="#amp_person_360">Walter Höllerer</rs>
               <lb xml:id="list_element_17"/><rs type="person" ref="#amp_person_395">Th.W. Adorno</rs>
@@ -208,6 +213,12 @@
               <lb xml:id="list_element_19"/><rs type="person" ref="#amp_person_213">H.E. Holthusen</rs>
             </ab>
             <ab>
+              <lb/>
+              <lb/>
+              <lb/>
+              <lb/>
+              <lb/>
+              <lb/>
               <lb/><hi rend="underline" hand="#type_cc_oegfl"><rs type="place" ref="#amp_place_id_97">Schweiz</rs>:</hi>
               <lb xml:id="list_element_20"/><del rend="overstrike" hand="#hand_blue_unident_0138"><rs type="person" ref="#amp_person_405">Emil Staiger</rs></del>
               <del rend="metamark" hand="#hand_gray_unident_0138_01"><lb xml:id="list_element_21"/><rs type="person" ref="#amp_person_371">Werner Weber</rs></del>
@@ -252,7 +263,7 @@
           </ab>
           <ab>
             <lb xml:id="list_element_37"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_394">Nicola Chiaromonte</rs>
-            <lb xml:id="list_element_38"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs ana="#ana_123">Claudio Muti</rs> (Turin)
+            <lb xml:id="list_element_38"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs ana="#ana_123">Claudio Muti</rs> (<rs type="place" ref="#amp_place_id_512">Turin</rs>)
           </ab>
           <ab>
             <add place="right" corresp="#list_element_37" hand="#hand_gray_unident_0138_02">einl.</add>
@@ -367,6 +378,7 @@
               <lb/>
               <lb/>
               <lb/>
+              <lb/>
               <lb xml:id="list_element_74"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_421">Eduard Goldstücker</rs>
               <del rend="metamark" hand="#hand_gray_unident_0138_01"><lb xml:id="list_element_75"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_422">Jan Patocka</rs> <add place="inline" hand="#hand_gray_unident_0138_01"><rs type="place" ref="#amp_place_id_154">Pr<unclear>ag</unclear></rs></add></del>
               <lb xml:id="list_element_76"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_423">Eugen <subst><del rend="overtyped" hand="#type_cc_oegfl">Bl</del><add place="superimposed" hand="#type_cc_oegfl">L</add></subst>oebl</rs> <add place="inline" hand="#hand_gray_unident_0138_01"><rs type="place" ref="#amp_place_id_504">Bratislava</rs></add>
@@ -377,9 +389,16 @@
               <lb/>
               <lb/>
               <lb/>
+              <lb/>
               <lb xml:id="list_element_77"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_426">Georgette Horodinca</rs>
             </ab>
             <ab>
+              <lb/>
+              <lb/>
+              <lb/>
+              <lb/>
+              <lb/>
+              <lb/>
               <lb/>
               <lb/>
               <lb/>
