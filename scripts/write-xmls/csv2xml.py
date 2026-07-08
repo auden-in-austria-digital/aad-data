@@ -39,6 +39,8 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
             tei_editor_sm = etree.SubElement(tei_editor, 'name', ref='https://orcid.org/0000-0002-2915-5888')
             tei_editor_sm.set('{http://www.w3.org/XML/1998/namespace}id', 'smayer')
             tei_editor_sm.text = 'Mayer, Sandra'
+            tei_editor_ah = etree.SubElement(tei_editor, 'name', ref='https://orcid.org/0000-0001-6104-7484')
+            tei_editor_ah.text = 'Hechtl, Angelika'
             tei_funder = etree.SubElement(tei_titlestmt, 'funder')
             tei_funder_name = etree.SubElement(tei_funder, 'name', ref='https://d-nb.info/gnd/2054142-9')
             tei_funder_name.text = 'Austrian Science Fund (FWF)'
@@ -60,13 +62,14 @@ with open('./metadata/csv/output_doc_id.csv', 'r', newline='', encoding='utf-8')
             tei_interpgrp = etree.SubElement(tei_edition, 'interpGrp')
             tei_interp = etree.SubElement(tei_interpgrp, 'interp')
             tei_interpdesc = etree.SubElement(tei_interp, 'desc')
-            tei_interprespons = etree.SubElement(tei_interp, 'respons', resp='#smayer #tfruehwirth', locus='value')
+            tei_interprespons = etree.SubElement(tei_interp, 'respons', resp='#ahechtl #smayer #tfruehwirth', locus='value')
             tei_interpcertainty = etree.SubElement(tei_interp, 'certainty', locus='value')
             tei_respstmt1 = etree.SubElement(tei_editionstmt, 'respStmt')
             tei_resp1 = etree.SubElement(tei_respstmt1, 'resp')
             tei_resp1.text = 'Data model, transcription, TEI/XML markup, commentary'
             tei_resp1_name1 = etree.SubElement(tei_respstmt1, 'name', sameAs='#tfruehwirth')
             tei_resp1_name2 = etree.SubElement(tei_respstmt1, 'name', sameAs='#smayer')
+            tei_resp1_name3 = etree.SubElement(tei_respstmt1, 'name', sameAs='#ahechtl')
             tei_respstmt2 = etree.SubElement(tei_editionstmt, 'respStmt')
             tei_resp2 = etree.SubElement(tei_respstmt2, 'resp')
             tei_resp2.text = 'ODD/RNG TEI/XML schema'

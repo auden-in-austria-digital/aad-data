@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0122" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Typed Letter Signed Reinhard Urbach to W. H. Auden 1970-08-11 with Autograph Letter Signed W. H. Auden to Reinhard Urbach with Typed Notes W. H. Auden 1970-08-11--1970-08-20</title>
+        <author ref="https://d-nb.info/gnd/11731398X">Urbach, Reinhard</author>
+        <author ref="https://d-nb.info/gnd/2175892-X">Austrian Society for Literature</author>
+        <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484">Hechtl, Angelika</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Typed Letter Signed Reinhard Urbach to W. H. Auden 1970-08-11 with Autograph Letter Signed W. H. Auden to Reinhard Urbach with Typed Notes W. H. Auden 1970-08-11--1970-08-20</title>
+          <interpGrp>
+            <interp>
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+          <name sameAs="#ahechtl"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <repository ref="https://d-nb.info/gnd/2175892-X">Austrian Society for Literature</repository>
+                <collection>ÖGfL-Archiv</collection>
+                <idno>A-Z X</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark/>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00403/">
+                        <width>210</width>
+                        <height>296</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00404/">
+                        <width>210</width>
+                        <height>296</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00401/">
+                        <width>210</width>
+                        <height>296</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00402/">
+                        <width>210</width>
+                        <height>296</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
+                  <handNote xml:id="hand_blue_urbach" scribeRef="#amp_person_284" medium="ink-blue">Handwriting in blue ink by Reinhard Urbach</handNote>
+                  <handNote xml:id="hand_gray_oegfl" scribeRef="#amp_organization_9" medium="pencil">Handwriting in pencil authored by <rs type="org" ref="#amp_organization_9">Austrian Society for Literature</rs></handNote>
+                  <handNote xml:id="hand_gray_unident_0122_01" medium="pencil">Handwriting in pencil by unidentified writer</handNote>
+                  <handNote xml:id="hand_gray_unident_0122_02" medium="pencil">Handwriting in pencil by unidentified writer</handNote>
+                  <handNote xml:id="hand_gray_unident_0122_03" medium="pencil">Handwriting in pencil by unidentified writer</handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="type_black_urbach" scribeRef="#amp_person_284" medium="type-black">Typewriting in black ink by Reinhard Urbach</typeNote>
+                  <typeNote xml:id="type_black_auden" scribeRef="#amp_person_1" medium="type-black">Typewriting in black ink by W. H. Auden, monospaced slab-serif typeface</typeNote>
+                  <typeNote xml:id="print_black_auden" scribeRef="#amp_person_1" medium="print-black">Preprinted writing in black authored by W. H. Auden, sans-serif Grotesque-family typeface</typeNote>
+                  <typeNote xml:id="print_black_oegfl" scribeRef="#amp_organization_9" medium="print-black">Preprinted writing in black authored by <rs type="org" ref="#amp_organization_9">Austrian Society for Literature</rs></typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1970-08-11T00:00:00+01:00" notAfter-iso="1970-08-20T23:59:59+01:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</origPlace>
+                  <origPlace ref="https://d-nb.info/gnd/4801892-2">Kirchstetten</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de"/>
+        <language ident="en"/>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1970-08-11T08:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <placeName><rs type="place" ref="#amp_place_id_2">Kirchstetten</rs></placeName>
+        </correspAction>
+        <correspAction type="sent">
+          <date notBefore-iso="1970-08-11T08:00:00+01:00" notAfter-iso="1970-08-20T23:59:59+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_284">Urbach, Reinhard</persName>
+          <orgName><rs type="org" ref="#amp_organization_9">Austrian Society for Literature</rs></orgName>
+          <date notBefore-iso="1970-08-11T08:00:00+01:00" notAfter-iso="1970-08-20T23:59:59+01:00"/>
+          <placeName><rs type="place" ref="#amp_place_id_1">Vienna</rs></placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#tfruehwirth" when-iso="2026-04-22">TEI/XML template populated with csv2xml.py</change>
+      <change who="#ahechtl" when-iso="2026-04-22">add physDesc, structure, basic transcription</change>
+      <change who="#ahechtl" when-iso="2026-04-24">add entities: persons, places, date, literary works, events</change>
+      <change who="#ahechtl" when-iso="2026-04-26">add more entities</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="3796" lry="5158">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00403/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3790" lry="5150">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00404/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3786" lry="5148">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00401/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3792" lry="5160">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00402/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0122">
+        <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00403/" ed="1r" type="sheet"/>
+          <div type="letter_message" hand="#type_black_urbach" xml:lang="de">
+          <opener>
+            <seg hand="#print_black_oegfl">
+              <orgName>
+                <lb/><rs type="org" ref="#amp_organization_9">ÖSTERREICHISCHE GESELLSCHAFT FÜR LITERATUR</rs>
+              </orgName>
+              <lb/><placeName><rs type="place" ref="#amp_place_id_177">PALAIS WILCZEK, 1O1O WIEN I, HERRENGASSE 5</rs></placeName> TEL. 63 81 59, 63 08 64
+            </seg>
+            <persName>
+              <lb/><rs type="person" ref="#amp_person_1">Herrn
+              <lb/>W.H.Auden</rs>
+            </persName>
+            <placeName>
+              <address>
+                <lb/><rs type="place" ref="#amp_place_id_2">3062 Kirchstetten
+                <lb/>Hinterholz 6</rs>
+              </address>
+            </placeName>
+            <lb/><dateline><space unit="char" quantity="40"/><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>11.August 1970</date></dateline>  
+            <salute>
+              <lb/>Sehr verehrter <rs type="person" ref="#amp_person_1">Herr Auden</rs>!
+            </salute>
+          </opener>
+          <p>
+            <lb/>Im Namen von <rs type="person" ref="#amp_person_137">Dr.Kraus</rs> möchte ich Ihnen sehr herzlich für Ihren
+            <lb/>Brief danken. Wir haben hier "<rs type="lit_work" ref="#lit_work_id_134">About the house</rs>" und würden uns
+            <lb/>sehr freuen, wenn Sie uns "<rs type="lit_work" ref="#lit_work_id_137">City without walls</rs>" für kurze Zeit
+            <lb/>zur Verfügung stellen könnten. Vielleicht könnten Sie auch an-
+            <lb/>streichen, welche Gedichte aus den <rs type="lit_work" ref="#lit_work_id_134 #lit_work_id_137">beiden Bänden</rs> Sie übersetzt
+            <lb/>haben wollen. Es genügt natürlich, wenn Sie uns den Band mit der
+            <lb/>Post schicken. Wir wollen Ihnen mit einer Reise nach <rs type="place" ref="#amp_place_id_1">Wien</rs> keine
+            <lb/>Unannehmlichkeiten machen.
+          </p>
+          <closer>
+            <salute>
+            <lb/><space unit="char" quantity="35"/>Mit herzlichen Grüßen
+            </salute>
+            <salute hand="#hand_blue_urbach">
+              <lb/>Ihr
+              </salute>
+            <signed hand="#hand_blue_urbach">
+              <lb/><rs type="person" ref="#amp_person_284">Reinhard Urbach</rs>
+            </signed>
+              <signed>
+                <lb/><space unit="char" quantity="38"/>(<rs type="person" ref="#amp_person_284">Reinhard Urbach</rs>)
+              </signed>
+          </closer>
+        </div>          
+          <div type="letter_message" hand="#hand_blue_auden" xml:lang="de">
+          <opener>
+            <salute>
+              <lb/>Sehr <del hand="#hand_blue_auden" rend="overstrike">ge</del> verehrter <rs type="person" ref="#amp_person_284">Herr Urbach</rs>:
+            </salute>
+           </opener>
+            <p>
+              <lb/>Hiermit die <rs type="lit_work" ref="#lit_work_id_137 #lit_work_id_135">Büche</rs> und
+            <lb/>ein List
+          </p>
+          <closer>
+            <signed>
+              <lb/><rs type="person" ref="#amp_person_1">W.H. Auden</rs>
+            </signed>
+          </closer>
+            </div>
+      <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00404/" ed="1v" type="sheet"/>
+      <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00401/" ed="2r" type="sheet"/>
+          <div type="enclosure" hand="#type_black_auden">
+            <div type="prose" xml:lang="en">
+        <opener hand="#print_black_auden">
+          <placeName xml:lang="de">
+            <lb/><rs type="place" ref="#amp_place_id_2">3062 KIRCHSTETTEN
+            <lb/>BEZ. ST. PÖLTEN
+            <lb/>HINTERHOLZ 6
+              <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
+          </placeName>
+        </opener>
+          </div>
+          <div>
+            <ab hand="#hand_gray_oegfl">
+            <lb/>A-2 Auden  
+            </ab>
+          </div>
+          <div type="prose" hand="#type_black_auden">
+        <ab>
+          <lb/>From <hi rend="underline" hand="#type_black_auden"><rs type="lit_work" ref="#lit_work_id_134">ABOUT THE HOUSE</rs></hi>
+          <lb xml:id="list_element_1"/><space quantity="4" unit="char"/><rs type="lit_work" ref="#lit_work_id_37">The Cave of Making</rs><space quantity="3" unit="char"/> (p 8-II<subst><del rend="overtyped" hand="#type_black_auden">*</del><add place="superimposed" hand="#type_black_auden">)</add></subst>
+        </ab>
+        <ab>
+          <add place="left" corresp="#list_element_1" hand="#hand_gray_unident_0122_01">-</add>
+        </ab>
+        <ab>
+           <lb/>from <hi rend="underline" hand="#type_black_auden"><rs type="lit_work" ref="#lit_work_id_137">CITY WITHOUT WALLS</rs></hi>
+            <lb xml:id="list_element_2"/><space quantity="1" unit="char"/><rs type="lit_work" ref="#lit_work_id_107">In Memoriam Emma Eiermann</rs>/<space quantity="3" unit="char"/>(p 2I-23) <add hand="#hand_gray_unident_0122_02" place="right">no <unclear>Transl</unclear></add>
+            <lb xml:id="list_element_3"/><space quantity="1" unit="char"/><rs type="lit_work" ref="#lit_work_id_38">Prologue at Sixty</rs><space quantity="14" unit="char"/>(p II7-I2I)
+          </ab>
+            <ab>
+              <add place="left" corresp="#list_element_2" hand="#hand_gray_unident_0122_01">-</add>
+            </ab>
+            <ab>
+              <add place="left" corresp="#list_element_3" hand="#hand_gray_unident_0122_01">-</add>
+            </ab>
+         <ab> 
+           <lb/><hi rend="underline" hand="#type_black_auden">From <del rend="overtyped" hand="#type_black_auden">Collected S </del><space quantity="1" unit="char"/><rs type="lit_work" ref="#lit_work_id_135">COLLECTED SHORTER POEMS</rs></hi>
+           <lb xml:id="list_element_4"/><space quantity="1" unit="char"/><rs type="lit_work" ref="#lit_work_id_324">In Praise of Limestone</rs><space quantity="7" unit="char"/>(p 238-24I)
+         </ab>
+            <ab xml:lang="de">
+              <add place="left" corresp="#list_element_4" hand="#hand_gray_unident_0122_02">nein</add>
+            </ab>
+            <ab>
+              <lb/><space quantity="13" unit="char"/>____
+            </ab>
+            
+          <ab>
+            <lb/><hi rend="underline" hand="#type_black_auden">Unpublished<subst><del hand="#type_black_auden" rend="overtyped">.</del><add hand="#type_black_auden" place="inline"> </add></subst>in book form.</hi>
+            <lb xml:id="list_element_5"/><space quantity="2" unit="char"/><rs type="lit_work" ref="#lit_work_id_325">Old People's Home</rs> (enclosed)
+          </ab>
+            <ab xml:lang="de">
+              <add place="left" corresp="#list_element_5" hand="#hand_gray_unident_0122_02">nein</add>
+            </ab>
+        </div>
+      <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00402/" ed="2v" type="sheet"/>
+      </div>
+      </div>
+      </div>
+    </body>
+  </text>
+</TEI>

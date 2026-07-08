@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0131" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Copy Typed Letter Wolfgang Kraus to W. H. Auden 1962-09-14</title>
+        <author ref="https://d-nb.info/gnd/116413298">Kraus, Wolfgang</author>
+        <author ref="https://d-nb.info/gnd/2175892-X">Austrian Society for Literature</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484">Hechtl, Angelika</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Copy Typed Letter Wolfgang Kraus to W. H. Auden 1962-09-14</title>
+          <interpGrp>
+            <interp>
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+          <name sameAs="#ahechtl"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <repository ref="https://d-nb.info/gnd/2175892-X">Austrian Society for Literature</repository>
+                <collection>ÖGfL-Archiv</collection>
+                <idno>A15</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark/>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00421/">
+                        <width>211</width>
+                        <height>297</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00422/">
+                        <width>211</width>
+                        <height>297</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00423/">
+                        <width>211</width>
+                        <height>297</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00424/">
+                        <width>211</width>
+                        <height>297</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote/>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="type_cc_kraus" scribeRef="#amp_person_137" medium="type-cc">Carbon copy of typewriting authored by Wolfgang Kraus</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1962-09-14T00:00:00+01:00" notAfter-iso="1962-09-14T23:59:59+01:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#tfruehwirth" when-iso="2026-05-15">TEI/XML template populated with csv2xml.py</change>
+      <change who="#ahechtl" when-iso="2026-05-22">add transcription</change>
+      <change who="#ahechtl" when-iso="2026-05-26">Populate physDesc, add structure; Entities markup: places, persons</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="3798" lry="5180">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00421/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3794" lry="5178">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00422/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3798" lry="5180">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00423/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3794" lry="5178">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00424/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0131" xml:lang="de">
+        <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00421/" ed="1r" type="sheet"/>
+        <div type="letter_message" hand="#type_cc_kraus">
+        <opener>
+          <lb/>Herrn<space quantity="28" unit="char"/><dateline><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>14. September 1962</date></dateline>.
+          <persName>
+            <lb/><rs type="person" ref="#amp_person_1">W.H. Auden</rs>
+          </persName>
+          <placeName>
+            <lb/><rs type="place" ref="#amp_place_id_2">Kirchstetten
+            <lb/>Hin<subst><del rend="overtyped" hand="#type_cc_kraus"><unclear>er</unclear></del><add place="superimposed" hand="#type_cc_kraus">te</add></subst>rholz 5</rs>
+          </placeName>
+          <salute>
+            <lb/>Sehr verehrter, lieber <rs type="person" ref="#amp_person_1">Herr Auden</rs>,
+          </salute>
+        </opener>
+        <p>
+          <lb/><space quantity="5" unit="char"/>Herr <rs type="person" ref="#amp_person_357">Prof. Hamburger</rs> war so freundlich, die Verbindung
+          <lb/>mit Ihnen herzustellen und damit einen von mir langgehegten
+          <lb/>Wunsch zu erfüllen. <space quantity="1" unit="char"/>Mit besonderer Freude hörte ich, dass
+          <lb/>es Ihnen möglich wäre, in der ersten Oktoberhälfte in den
+          <lb/>Räumen unserer <rs type="org" ref="#amp_organization_9">Gesellschaft</rs> eine <rs type="event" ref="#amp_event_id_25">Vorlesung</rs> aus Ihren Werken
+          <lb/>zu halten. <space quantity="1" unit="char"/>Ich weiss nicht, lieber <rs type="person" ref="#amp_person_1">Herr Auden</rs>, ob es Ihnen
+          <lb/>angenehm wäre, Ihre Werke auch in deutscher Sprache zu lesen.
+          <lb/>Wir hätten die Möglichkeit, einen Scha<subst><del rend="erased" hand="#type_cc_kraus">s</del><add place="superimposed" hand="#type_cc_kraus">u</add></subst>spieler des <rs type="org" ref="#amp_organization_59">Burgthea-
+          <lb/>ters</rs> für die Lesung von Übersetzungen zu gewinnen, würden Sie
+          <lb/>aber auf <subst><del rend="overtyped" hand="#type_cc_kraus">u</del><add place="superimposed" hand="#type_cc_kraus">j</add></subst>eden Fall bitten, jeweils den englischen Text zu
+          <lb/>lesen. <space quantity="1" unit="char"/>Besonders schön wäre es natürlich, wenn Sie einleitend
+          <lb/>ein paar Worte über <subst><del rend="erased" hand="#type_cc_kraus">S</del><add place="superimposed" hand="#type_cc_kraus">s</add></subst>ich und Ihre Arbeit womöglich in deutscher
+          <lb/>Sprache zum Auditorium sprechen könnten. <space quantity="1" unit="char"/>Selbstverständlich
+          <lb/>werde ich Sie dem Publikum kurz vorstellen.
+        </p>
+        <p>
+          <lb/><space quantity="5" unit="char"/>Besonders willkommen wäre es uns, wenn Sie etwa vier oder
+          <lb/>fünf Tage vor Ihrem Abend einmal zu uns kommen könnten, da wir
+          <lb/>dann gern einige Interviews mit Presse und Rundfunk arrangieren
+          <lb/>möchten, um schon vorher die Aufmerksamkeit auf Sie und die
+          <lb/><rs type="event" ref="#amp_event_id_25">Vorlesung</rs> zu richten. Natürlich würden wir es Ihnen überlassen,
+          <lb/>was an diesem Abend gelesen wird, ich stelle mir vor, dass
+          <lb/>die Gesamtdauer sowohl Ihrer als auch der deutschsprachigen
+          <lb/>Lesung etwa 75 Minuten ausmacht.
+          </p>
+        <p>
+          <lb/><space quantity="5" unit="char"/>Als Honorar erlauben wir uns, Ihnen einen Betrag von
+          <lb/>1.000 Schilling anzubieten.
+        </p>
+        <p>
+          <lb/><space quantity="5" unit="char"/>Es wird Sie vielleicht interessieren, dass sich unser
+          <lb/>Besucherkr<subst><del rend="overtyped" hand="#type_cc_kraus">i</del><add place="superimposed" hand="#type_cc_kraus">e</add></subst>is hauptsächlich aus Autoren, den verschiedensten
+          <lb/>Persönlichkeiten des Wiener kulturellen Lebens und Studenten
+          <lb/>zusammensetzt und kein Eintrittspreis verlangt wird.</p>
+          </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00422/" ed="1v" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00423/" ed="2r" type="sheet"/>
+          <div hand="#type_cc_kraus">
+          <fw type="pageNum">
+            <lb/><space quantity="22" unit="char"/>- 2 -
+          </fw>
+        </div>
+        <div type="letter_message" hand="#type_cc_kraus">
+          <p>
+            <lb/><space quantity="5" unit="char"/>Als Datum der <rs type="event" ref="#amp_event_id_25">Veranstaltung</rs> würden wir Ihnen den
+            <lb/>4. Oktober vorschlagen. <space quantity="1" unit="char"/>Bitte, sagen Sie uns doch bald,
+            <lb/>ob Sie mit unserem Vorschlag einverstanden sind!
+          </p>
+            <closer>
+              <salute>
+                <lb/><space quantity="5" unit="char"/>Mit den besten Wünschen und Empfehlungen
+              </salute>
+              <salute>
+                <lb/><space quantity="34" unit="char"/>Ihr Ihnen sehr ergebener
+              </salute>
+              <signed>
+                <lb/><space quantity="34" unit="char"/>(<rs type="person" ref="#amp_person_137">Dr. Wolfgang Kraus</rs>)</signed>
+            </closer>
+        </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00424/" ed="2v" type="sheet"/>
+      </div>
+      </div>
+    </body>
+  </text>
+</TEI>

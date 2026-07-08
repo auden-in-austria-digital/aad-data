@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0113" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Copy Typed Letter Hella Bronold to Chester Kallman 1973-10-01</title>
+        <author ref="https://d-nb.info/gnd/1206944536">Bronold, Hella</author>
+        <author ref="https://d-nb.info/gnd/2175892-X">Austrian Society for Literature</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Copy Typed Letter Hella Bronold to Chester Kallman 1973-10-01</title>
+          <interpGrp>
+            <interp xml:id="ana_109">
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <repository ref="https://d-nb.info/gnd/2175892-X">Austrian Society for Literature</repository>
+                <collection>ÖGfL-Archiv</collection>
+                <idno>A-Z XV</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark/>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00383/">
+                        <width>209</width>
+                        <height>297</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00384/">
+                        <width>209</width>
+                        <height>297</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_gray_oegfl" scribeRef="#amp_organization_9" medium="pencil">Handwriting in pencil authored by <rs type="org" ref="#amp_organization_9">Austrian Society for Literature</rs></handNote>
+                  <handNote xml:id="hand_blue_bronold" scribeRef="#amp_person_135" medium="ink-blue">Handwriting in blue ink by Hella Bronold</handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="type_cc_bronold" scribeRef="#amp_person_135" medium="type-cc">Carbon copy of typewriting authored by Hella Bronold</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1973-10-01T00:00:00+01:00" notAfter-iso="1973-10-01T23:59:59+01:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4066009-6" ana="acdh:aad-transcript__0104.xml#ana_108">Vienna</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#tfruehwirth" when-iso="2025-12-02">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2025-12-02">physDesc and profileDesc populated</change>
+      <change who="#tfruehwirth #smayer" when-iso="2025-12-04">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="3764" lry="5170">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00383/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3768" lry="5166">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00384/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0113" xml:lang="en">
+        <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00383/" ed="1r" type="sheet"/>
+          <div>
+            <ab hand="#hand_gray_oegfl">
+              <lb/>A2
+              <lb/><rs type="person" ref="#amp_person_1">Auden</rs>
+            </ab>
+          </div>
+          <div type="letter_message" hand="#type_cc_bronold">
+            <opener>
+              <dateline>
+                <date>
+                  <lb/><space quantity="29" unit="char"/>October 1st, l973.
+                </date>
+              </dateline>
+              <salute>
+                <lb/>Dear <rs type="person" ref="#amp_person_4">Mr. Kallman</rs>,
+              </salute>
+            </opener>
+            <p>
+              <lb/><space quantity="6" unit="char"/><rs type="person" ref="#amp_person_137">Dr. Kraus</rs> being absent from <rs type="place" ref="#amp_place_id_1">Vienna</rs> the sad task
+              <lb/>falls upon me to express our sincerest sympathies to you.
+              <lb/>It would be vain to try an<add hand="#hand_blue_bronold" place="inline">d</add> find words of comfort, all we
+              <lb/>can do is say that we fe<subst><del rend="erased" hand="#type_cc_bronold">l</del><add hand="#type_cc_bronold" place="superimposed">e</add></subst>l with you.
+            </p>
+            <p>
+              <lb/><space quantity="6" unit="char"/>I just want to add that the <rs type="event" ref="#amp_event_id_3">lecture</rs> on Friday went
+              <lb/>very well indeed. <space quantity="1" unit="char"/><rs type="person" ref="#amp_person_1">Mr. Auden</rs> seemed to enjoy himself, and
+              <lb/>the public responded enthusiastically. <space quantity="1" unit="char"/>He closed with the
+              <lb/><rs type="lit_work" ref="#lit_work_id_312" ana="#ana_109">two funny four-liners</rs> on <rs type="person" ref="#amp_person_11">Goethe</rs> and <rs type="person" ref="#amp_person_319">Kant</rs>, and the applause
+              <lb/>turned into a delighted ovation. <space quantity="1" unit="char"/>In our sorrow we are
+              <lb/>glad to think that there was a l<subst><del rend="erased" hand="#type_cc_bronold">l</del><add hand="#type_cc_bronold" place="superimposed">a</add></subst>st occasion where people
+              <lb/>could show him how deeply they appreciated his art, but
+              <lb/>also how fond they were of him.
+            </p>
+            <closer>
+              <salute>
+                <lb/><space quantity="28" unit="char"/><subst><del rend="erased" hand="#type_cc_bronold"><unclear>C</unclear></del><add hand="#type_cc_bronold" place="superimposed">S</add></subst>incerely yours,
+              </salute>
+              <signed>
+                <lb/><space quantity="27" unit="char"/>(<rs type="person" ref="#amp_person_135">Hella Bronold</rs>)
+              </signed>
+            </closer>
+          </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00384/" ed="1v" type="sheet"/>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

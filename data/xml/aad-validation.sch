@@ -44,8 +44,8 @@
                 at least one change element must contain string "physDesc"
             </sch:assert>
             
-            <sch:assert test="tei:change[contains(., 'transcribed')]">
-                at least one change element must contain string "transcribed"
+            <sch:assert test="tei:change[contains(., 'transcribed')] or tei:change[contains(., 'transcription')]">
+                at least one change element must contain string "transcribed" or "transcription"
             </sch:assert>
             
             <sch:assert test="tei:change[contains(., 'entities')] or tei:change[contains(., 'Entities')]">
@@ -70,15 +70,15 @@
         <sch:title>del requirements</sch:title>
         
         <sch:rule context="tei:del">
-            <sch:assert test="@rend = ('overwritten', 'edited', 'overstrike', 'overtyped', 'overlaid', 'erased')">
-                del element must have rend attribute with value 'overwritten', 'edited', 'overstrike', 'overtyped', 'overlaid', or 'erased'; found: '<sch:value-of select="@rend"/>'
+            <sch:assert test="@rend = ('overwritten', 'edited', 'overstrike', 'overtyped', 'overlaid', 'erased', 'metamark')">
+                del element must have rend attribute with value 'overwritten', 'edited', 'overstrike', 'overtyped', 'overlaid', 'erased', 'metamark'; found: '<sch:value-of select="@rend"/>'
             </sch:assert>
             
             <sch:assert test="@rend = 'overlaid' or @hand">
                 del element must have hand attribute (except when rend='overlaid')
             </sch:assert>
             
-            <sch:assert test="not(@hand) or ((@rend = ('overtyped', 'erased') and starts-with(@hand, '#type_')) or (@rend != ('overtyped', 'erased') and starts-with(@hand, '#hand_')))">
+            <sch:assert test="not(@hand) or ((@rend = ('overtyped', 'erased') and starts-with(@hand, '#type_')) or (@rend != ('overtyped', 'erased', 'metamark') and starts-with(@hand, '#hand_')))">
                 if rend='overtyped' or rend='erased', hand value starts with '#type_', otherwise hand value starts with '#hand_'; found rend='<sch:value-of select="@rend"/>' and hand='<sch:value-of select="@hand"/>'
             </sch:assert>
         </sch:rule>
@@ -89,8 +89,8 @@
         <sch:title>add requirements</sch:title>
         
         <sch:rule context="tei:add">
-            <sch:assert test="@place = ('superimposed', 'above', 'bottom', 'inline')">
-                add element must have place attribute with value 'superimposed', 'above', 'bottom', or 'inline'; found: '<sch:value-of select="@place"/>'
+            <sch:assert test="@place = ('superimposed', 'above', 'bottom', 'inline', 'left', 'right', 'below')">
+                add element must have place attribute with value 'superimposed', 'above', 'bottom', 'inline', 'left', 'right', or 'below'; found: '<sch:value-of select="@place"/>'
             </sch:assert>
 
             <sch:assert test="starts-with(@hand, '#hand_') or starts-with(@hand, '#type_')">

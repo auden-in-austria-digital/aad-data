@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0129" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Copy Typed Letter Wolfgang Kraus to W. H. Auden 1970-06-29</title>
+        <author ref="https://d-nb.info/gnd/116413298">Kraus, Wolfgang</author>
+        <author ref="https://d-nb.info/gnd/2175892-X">Austrian Society for Literature</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484">Hechtl, Angelika</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Copy Typed Letter Wolfgang Kraus to W. H. Auden 1970-06-29</title>
+          <interpGrp>
+            <interp>
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+          <name sameAs="#ahechtl"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <repository ref="https://d-nb.info/gnd/2175892-X">Austrian Society for Literature</repository>
+                <collection>ÖGfL-Archiv</collection>
+                <idno>A-Z XV</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark/>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00417/">
+                        <width>210</width>
+                        <height>297</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00418/">
+                        <width>210</width>
+                        <height>297</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_gray_oegfl" scribeRef="#amp_organization_9" medium="pencil">Handwriting in pencil authored by <rs type="org" ref="#amp_organization_9">Austrian Society for Literature</rs></handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="type_cc_kraus" scribeRef="#amp_person_137" medium="type-cc">Carbon copy of typewriting by Wolfgang Kraus</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1970-06-29T00:00:00+01:00" notAfter-iso="1970-06-29T23:59:59+01:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#tfruehwirth" when-iso="2026-05-06">TEI/XML template populated with csv2xml.py</change>
+      <change who="#ahechtl" when-iso="2026-05-11">Add basic transcription and populate physDesc</change>
+      <change who="#ahechtl" when-iso="2026-05-11">Add structure</change>
+      <change who="#ahechtl" when-iso="2026-05-12">Entities markup</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="3784" lry="5168">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00417/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3778" lry="5176">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00418/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0129" xml:lang="de">
+        <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00417/" ed="1r" type="sheet"/>
+        <div>
+          <ab hand="#hand_gray_oegfl">
+            <lb/>A-<unclear>2</unclear>
+          </ab>
+        </div>
+        <div type="letter_message" hand="#type_cc_kraus">
+          <opener>
+            <persName>
+              <lb/><rs type="person" ref="#amp_person_1">Herrn
+              <lb/>W.H.Auden</rs>
+            </persName>
+            <placeName>
+              <lb/><rs type="place" ref="#amp_place_id_2">Hinterholz 5
+              <lb/>3062 <space quantity="1" unit="char"/>K i r c h s t e t t e n</rs>
+            </placeName>
+            <dateline><lb/><space quantity="43" unit="char"/><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>29.Juni 1970</date></dateline>
+            <salute>
+              <lb/>Sehr verehrter, lieber <rs type="person" ref="#amp_person_1">Herr Auden</rs>!
+            </salute>
+        </opener>
+          <p>
+            <lb/>Es wäre uns eine große Ehre und Freude, wenn Sie an einem
+            <lb/>Abend in unserer "<rs type="org" ref="#amp_organization_9">Gesellschaft</rs>" wieder aus Ihren Gedichten
+            <lb/>lesen könnten. Wir möchten <rs type="event" ref="#amp_event_id_120">diese Veranstaltung</rs> im großen
+            <lb/>Saal des <rs type="place" ref="#amp_place_id_85">Palais Palffy</rs> ab<subst><del rend="erased" hand="#type_cc_kraus">z</del><add place="superimposed" hand="#type_cc_kraus">h</add></subst>alten, und stellen uns den Verlauf
+            <lb/>so vor, daß Sie einige Gedichte selbst in englischer Sprache
+            <lb/>lesen und dann ein Schauspieler - wir würden uns wieder um
+            <lb/><rs type="person" ref="#amp_person_243">Wolfgang Gasser</rs> vom <rs type="org" ref="#amp_organization_59">Burgtheater</rs> bemühen - den Rest des Abends
+            <lb/>Ihre Gedichte in deutscher Sprache vorträgt.
+        </p>
+        <p>
+          <lb/>Als Honorar könnten wir S 1.500.- anbieten, als Termin würden
+          <lb/>wir den 29.September vorschlagen und gerne mit Ihrem Abend
+          <lb/>unsere Saison beg<unclear><subst><del rend="erased" hand="#type_cc_kraus">einnen</del><add place="superimposed" hand="#type_cc_kraus">innen<space quantity="1" unit="char"/></add></subst></unclear>(ein früheres Datum wäre nicht so gün-
+          <lb/>stig, da viele interessierte Zuhörer noch von <rs type="place" ref="#amp_place_id_1"><unclear>W</unclear>ien</rs> abwesend
+          <lb/>wären).
+        </p>
+        <p>
+          <lb/>Bitte lassen Sie uns doch bald Ihre Antwort wissen. Seien
+          <lb/>Sie versichert, daß wir die Ehre Ihres Besuches ganz besonders
+          <lb/>zu schätzen wüßten.
+        </p>
+          <closer>
+            <salute>
+              <lb/>Mit den besten Empfehlungen und Wünschen
+            </salute>
+            <salute>
+              <lb/><space quantity="38" unit="char"/>Ihr Ihnen sehr ergebener
+            </salute>
+            <signed>
+              <lb/><space quantity="41" unit="char"/>(<rs type="person" ref="#amp_person_137">Dr.Wolfgang Kraus</rs>)
+            </signed>
+        </closer>
+        <!-- 1.500 Schülling 1970 entspricht 2025 einer Kaufkraft von €652,26 https://finanzbildung.oenb.at/docroot/waehrungsrechner/#/-->
+        </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00418/" ed="1v" type="sheet"/>
+      </div>
+    </div>
+    </body>
+  </text>
+</TEI>
+ 

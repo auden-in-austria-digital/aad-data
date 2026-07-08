@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0121" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Copy Typed Letter Reinhard Urbach to Hertha Staub 1970-09-03</title>
+        <author ref="https://d-nb.info/gnd/11731398X">Urbach, Reinhard</author>
+        <author ref="https://d-nb.info/gnd/2175892-X">Austrian Society for Literature</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484">Hechtl, Angelika</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Copy Typed Letter Reinhard Urbach to Hertha Staub 1970-09-03</title>
+          <interpGrp>
+            <interp>
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+          <name sameAs="#ahechtl"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <repository ref="https://d-nb.info/gnd/2175892-X">Austrian Society for Literature</repository>
+                <collection>ÖGfL-Archiv</collection>
+                <idno>A-Z X</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark/>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00399/">
+                        <width>210</width>
+                        <height>296</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00400/">
+                        <width>210</width>
+                        <height>296</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote/>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="type_cc_urbach" scribeRef="#amp_person_284" medium="type-cc">Carbon copy of typewriting by Reinhard Urbach</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1970-09-03T00:00:00+01:00" notAfter-iso="1970-09-03T23:59:59+01:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#tfruehwirth" when-iso="2026-03-30">TEI/XML template populated with csv2xml.py</change>
+      <change who="#ahechtl" when-iso="2026-04-08">add basic structure, metadata, transcription, populate physDesc</change>
+      <change who="#ahechtl" when-iso="2026-04-08">add entities: persons, places and dates</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="3792" lry="5152">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00399/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3786" lry="5148">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00400/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0121" xml:lang="de">
+        <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00399/" ed="1r" type="sheet"/>
+        <div type="letter_message" hand="#type_cc_urbach">
+          <opener>
+            <persName>
+              <lb/><rs type="person" ref="#amp_person_220">Frau
+              <lb/><subst><del rend="overtyped" hand="#type_cc_urbach">F</del><add place="superimposed" hand="#type_cc_urbach">H</add></subst>ertha Staub</rs>
+              </persName>
+            <orgName>
+              <lb/><rs type="org" ref="#amp_organization_233">Dokumentationsstelle</rs>
+            </orgName>
+            <placeName>
+              <address>
+                <lb/><rs type="place" ref="#amp_place_id_425">Gumpendorferstr.15
+                <lb/>1060 Wien</rs>
+              </address>
+            </placeName>
+            <dateline><lb/><space quantity="39" unit="char"/><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>3.September 1970</date></dateline>
+            <salute>
+              <lb/>Liebe <rs type="person" ref="#amp_person_220">Frau Staub</rs>,
+            </salute>
+          </opener>
+          <p>
+            <lb/>leider komme ich erst heute dazu, Ihnen die <rs type="lit_work" ref="#lit_work_id_161 #lit_work_id_38 #lit_work_id_324 #lit_work_id_325" ana="acdh:aad-transcript__0120.xml#ana_114">Gedichte</rs> von <rs type="person" ref="#amp_person_1">Auden</rs>
+            <lb/>zu schicken, mit der Bitte sie zu übersetzen. Die Zeit drängt
+            <lb/>schon sehr, aber wir haben erst gestern von <rs type="person" ref="#amp_person_1">Herrn Auden</rs> die Be-
+            <lb/>stätigung bekommen, daß er Sie mit der Übersetzung betraut sehen
+            <lb/>möchte und Ihnen für diese vier Übersetzungen auch die Autorisa-
+            <lb/>tion gibt. Ich könnte mir denken, daß entweder "<rs type="org" ref="#amp_organization_231">Literatur und
+            <lb/>Kritik</rs>" oder "<rs type="org" ref="#amp_organization_232">Wort und Wahrheit</rs>" sehr an der Publikation dieser
+            <lb/>Übersetzungen interessiert wären; zumindest würde ich mich sehr
+            <lb/>dafür einsetzen, daß die Gedichte später auch gedruckt werden.
+            <lb/>Es ist mir klar, daß ich Ihnen eine große Last aufbürde, aber
+            <lb/>ich hoffe doch sehr, daß Sie uns helfen können. Ich möchte Sie
+            <lb/>noch bitten, die Übersetzungen bis zum 20.September gemacht zu
+            <lb/>haben. Die <rs type="event" ref="#amp_event_id_120">Veranstaltung</rs> ist am 29.September. <rs type="person" ref="#amp_person_1">W.H.Auden</rs> möchte
+            <lb/>aber die Übersetzungen noch vorher sehen.
+          </p>
+          <closer>
+            <salute>
+              <lb/>Mit vielem Dank und herzlichen Grüßen
+            </salute>
+            <signed>
+              <lb/><space quantity="44" unit="char"/>(<rs type="person" ref="#amp_person_284">Reinhard Urbach</rs>)
+            </signed>
+          </closer>
+        </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00400/" ed="1v" type="sheet"/>
+      </div>
+      </div>
+    </body>
+  </text>
+</TEI>

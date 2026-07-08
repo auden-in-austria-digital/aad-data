@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0128" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Copy Typed Letter Wolfgang Kraus to W. H. Auden 1970-07-31</title>
+        <author ref="https://d-nb.info/gnd/116413298">Kraus, Wolfgang</author>
+        <author ref="https://d-nb.info/gnd/2175892-X">Austrian Society for Literature</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484">Hechtl, Angelika</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Copy Typed Letter Wolfgang Kraus to W. H. Auden 1970-07-31</title>
+          <interpGrp>
+            <interp xml:id="ana_118">
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+            <interp xml:id="ana_119">
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+          <name sameAs="#ahechtl"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <repository ref="https://d-nb.info/gnd/2175892-X">Austrian Society for Literature</repository>
+                <collection>ÖGfL-Archiv</collection>
+                <idno>A-Z XV</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark/>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00415/">
+                        <width>210</width>
+                        <height>296</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00416/">
+                        <width>210</width>
+                        <height>296</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_gray_oegfl" scribeRef="#amp_organization_9" medium="pencil">Handwriting in pencil authored by <rs type="org" ref="#amp_organization_9">Austrian Society for Literature</rs></handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="type_cc_kraus" scribeRef="#amp_person_137" medium="type-cc">Carbon copy of typewriting by Wolfgang Kraus</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1970-07-31T00:00:00+01:00" notAfter-iso="1970-07-31T23:59:59+01:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#tfruehwirth" when-iso="2026-05-06">TEI/XML template populated with csv2xml.py</change>
+      <change who="#ahechtl" when-iso="2026-05-06">Add basic transcription and populate physDesc</change>
+      <change who="#ahechtl" when-iso="2026-05-11">Entities markup: places, persons, lit_works, orgs</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="3798" lry="5150">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00415/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3812" lry="5148">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00416/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0128" xml:lang="de">
+        <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00415/" ed="1r" type="sheet"/>
+        <div>
+              <ab hand="#hand_gray_oegfl">
+              <lb/>A-2
+            </ab>
+          </div>
+        <div type="letter_message" hand="#type_cc_kraus">
+        <opener>
+          <persName>
+            <lb/><rs type="person" ref="#amp_person_1">Mr. W.H. Auden</rs>
+          </persName>
+          <placeName>
+            <lb/><rs type="place" ref="#amp_place_id_2">Hinterholz <subst><del rend="overtyped" hand="#type_cc_kraus">5</del><add place="superimposed" hand="#type_cc_kraus">6</add></subst>
+            <lb/>3062 Kirchstetten</rs></placeName><space quantity="17" unit="char"/><dateline><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>31. Juli 1970</date>.</dateline>
+          <salute>
+            <lb/>Sehr verehrte<add place="inline" hand="#type_cc_kraus">r</add>, lieber <rs type="person" ref="#amp_person_1">Mr. Auden</rs>,
+          </salute>
+        </opener>
+        <p>
+          <lb/><space quantity="5" unit="char"/>Ich danke Ihnen sehr herzlich für Ihre Zusage, am 29.
+          <lb/>September bei uns, im Grossen Saal des <rs type="place" ref="#amp_place_id_85">Palais Palffy</rs>, zu
+          <lb/><rs type="event" ref="#amp_event_id_120">lesen</rs>. Nun haben sich leider bei dem von Ihnen vorgeschlage-
+          <lb/>nen Programm Schwierigkeiten ergeben, bei deren Lös<subst><del rend="overtyped" hand="#type_cc_kraus">i</del><add place="superimposed" hand="#type_cc_kraus">u</add></subst>ng ich
+          <lb/>Sie um Ihre Hilfe bitten möchte:
+        </p>
+        <p>
+          <lb/><space quantity="6" unit="char"/>Abgesehen davon, dass <rs type="lit_work" ref="#lit_work_id_137">CITY WITHOUT WALLS</rs> derzeit in
+          <lb/><rs type="place" ref="#amp_place_id_1">Wien</rs> nicht greifbar ist - auch die Bibliothek des <rs type="org" ref="#amp_organization_16">British
+          <lb/><unclear><subst><del rend="erased" hand="#type_cc_kraus">Sl</del><add place="superimposed" hand="#type_cc_kraus">Co</add></subst></unclear>uncil</rs> besitzt es nicht - so wären wir auch nicht in der
+          <lb/>Lage, <rs type="lit_work" ana="#ana_119">die Gedichte</rs> neu übersetzen zu lassen. <space quantity="1" unit="char"/>Durch den
+          <lb/>Tod erst von <rs type="person" ref="#amp_person_59">Gerhard Fritsch</rs> und nun meines lieben <subst><del rend="erased" hand="#type_cc_kraus"><gap quantity="1" unit="char" reason="illegible"/></del><add place="superimposed" hand="#type_cc_kraus">F</add></subst>reundes
+          <lb/><rs type="person" ref="#amp_person_218">Herbert Zand</rs> sind wir der beiden einzigen wirklich qualifizie<subst><del rend="overtyped" hand="#type_cc_kraus">-</del><add place="superimposed" hand="#type_cc_kraus">r</add></subst>-
+          <lb/>ten Übersetzer von Gedichten beraubt. W<unclear><subst><del rend="erased" hand="#type_cc_kraus">r</del><add place="superimposed" hand="#type_cc_kraus">i</add></subst></unclear>r haben nun in
+          <lb/>"<rs type="org" ref="#amp_organization_232">Wort und Wa<add place="inline" hand="#type_cc_kraus"><unclear>h</unclear></add>rhe<subst><del rend="erased" hand="#type_cc_kraus">h<gap quantity="1" unit="char" reason="illegible"/>t</del><add place="superimposed" hand="#type_cc_kraus">it<unclear>"</unclear></add></subst></rs> und in der "<rs type="org" ref="#amp_organization_41">Neuen Rundschau"</rs> nach bereits
+          <lb/>vorhandenen Übersetzungen gesucht und folgendes gefunden:
+        </p>
+        <p>
+          <lb/><space quantity="4" unit="char"/><rs type="lit_work" ref="#lit_work_id_89">Josef Weinhe<subst><del rend="overtyped" hand="#type_cc_kraus">r</del><add place="superimposed" hand="#type_cc_kraus">b</add></subst>er</rs>
+          <lb/><space quantity="4" unit="char"/><rs type="lit_work" ref="#lit_work_id_317"><subst><del rend="overtyped" hand="#type_cc_kraus">b</del><add place="superimposed" hand="#type_cc_kraus">P</add></subst>fingstsonntag in Kirchstetten</rs>
+          <lb/><space quantity="4" unit="char"/><rs type="lit_work" ref="#lit_work_id_323">Mondlandung</rs>
+          <lb/><space quantity="4" unit="char"/><rs type="lit_work" ref="#lit_work_id_326">Freitagskind</rs><space quantity="19" unit="char"/>und eventuell
+          <lb/><space quantity="4" unit="char"/><rs type="lit_work" ref="#lit_work_id_327">Gedenkmal für eine Stadt</rs>.
+        </p>
+        <p>
+          <lb/>Meine Bitte geht nun dahin, uns zu sagen, ob vielleicht
+          <lb/>irgendo anders noch Übersetzungen erschienen sind. (Die
+          <lb/><rs type="lit_work" ana="#ana_118">NEUEN GEDICHTE</rs>, <rs type="org" ref="#amp_organization_234">Limes Verlag</rs>, 1957, sind leider auch nicht
+          <lb/>greif<subst><del rend="erased" hand="#type_cc_kraus">ab</del><add place="superimposed" hand="#type_cc_kraus">ba</add></subst>ar und enthalten vermutlich keines der angegebenen Ge-
+          <lb/>dichte aus <rs type="lit_work" ref="#lit_work_id_134">ABOUT THE HOUSE</rs>.) <space quantity="1" unit="char"/>Ich bedaure sehr, dass ich
+          <lb/>Ihnen Mühe machen muss.
+        </p>
+        <closer>
+        <salute>
+          <lb/><space quantity="5" unit="char"/>Mit den herzlichsten Empfehlungen
+        </salute>
+        <salute>
+          <lb/><space quantity="40" unit="char"/>Ihr Ihnen sehr ergebener
+        </salute>
+        <signed>
+          <lb/><space quantity="40" unit="char"/>(<rs type="person" ref="#amp_person_137">Dr. Wolfgang Kraus</rs>)
+        </signed>
+      </closer>
+        </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00416/" ed="1v" type="sheet"/>
+      </div>
+    </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0130" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Copy Typed Letter Signed Wolfgang Kraus to W. H. Auden 1962-10-05</title>
+        <author ref="https://d-nb.info/gnd/116413298">Kraus, Wolfgang</author>
+        <author ref="https://d-nb.info/gnd/2175892-X">Austrian Society for Literature</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484">Hechtl, Angelika</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Copy Typed Letter Signed Wolfgang Kraus to W. H. Auden 1962-10-05</title>
+          <interpGrp>
+            <interp>
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+          <name sameAs="#ahechtl"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <repository ref="https://d-nb.info/gnd/2175892-X">Austrian Society for Literature</repository>
+                <collection>ÖGfL-Archiv</collection>
+                <idno>A15</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark/>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00419/">
+                        <width>211</width>
+                        <height>297</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00420/">
+                        <width>211</width>
+                        <height>297</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_blue_kraus" scribeRef="#amp_person_137" medium="ink-blue">Handwriting in blue ink by Wolfgang Kraus</handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="type_cc_kraus" scribeRef="#amp_person_137" medium="type-cc">Carbon copy of typewriting authored by Wolfgang Kraus</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1962-10-05T00:00:00+01:00" notAfter-iso="1962-10-05T23:59:59+01:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#tfruehwirth" when-iso="2026-05-15">TEI/XML template populated with csv2xml.py</change>
+      <change who="#ahechtl" when-iso="2026-05-22">Add basic transcription</change>
+      <change who="#ahechtl" when-iso="2026-05-22">Populate physDesc, add structure</change>
+      <change who="#ahechtl" when-iso="2026-05-26">Entities markup: places, persons</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="3800" lry="5174">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00419/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3792" lry="5176">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00420/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0130" xml:lang="de">
+        <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00419/" ed="1r" type="sheet"/>
+        <div type="letter_message" hand="#type_cc_kraus">
+        <opener>
+          <lb/>Herrn<space quantity="29" unit="char"/><dateline><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>5. Oktober 1962.</date></dateline>
+          <persName>
+            <lb/><rs type="person" ref="#amp_person_1">W.H. Auden</rs>
+          </persName>
+          <placeName>
+            <lb/><rs type="place" ref="#amp_place_id_2">Kirchstetten
+            <lb/>Hinterholz 5</rs>
+          </placeName>
+        <salute>
+          <lb/>Sehr verehrter, lieber <rs type="person" ref="#amp_person_1">Herr Auden</rs>,
+        </salute>
+      </opener>
+        <p>
+          <lb/><space quantity="5" unit="char"/>Ich möchte Ihnen für den unvergesslichen <rs type="event" ref="#amp_event_id_25">Abend</rs> in meinem
+          <lb/>und im Namen aller unserer Gäste nochmals meinen aufrichtigen
+          <lb/>Dank aussprechen. <space quantity="1" unit="char"/>Der Eindruck, den diese <rs type="event" ref="#amp_event_id_25">Lesung</rs> im Publi<subst><del rend="erased" hand="#type_cc_kraus">um</del><add place="superimposed" hand="#type_cc_kraus">ku</add></subst>m
+          <lb/>hinterlassen hat, war, wie ich mich nachher überzeugen konnte,
+          <lb/>unmittelbar und tief. <space quantity="1" unit="char"/>Ich möchte Ihnen gerne sagen, dass Sie
+          <lb/>in Wien viele gute Freunde gewonnen haben.
+        </p>
+        <p>
+          <lb/><space quantity="5" unit="char"/>Ich verreise am 12. Oktober nach <rs type="place" ref="#amp_place_id_461">Jugoslawien</rs>, Sie selbst
+          <lb/>werden ja bald in <rs type="place" ref="#amp_place_id_28">New York</rs> sein, doch hoffe ich sehr auf ein
+          <lb/>gutes Wiedersehen, wenn Sie im Frühjar nach <rs type="place" ref="#amp_place_id_2">Kirchstetten</rs> zu-
+          <lb/>rückkommen. <space quantity="1" unit="char"/>Lassen Sie uns doch vielleicht noch Ihre <rs type="place" ref="#amp_place_id_28">New Yorker</rs>
+          <lb/>Adresse wissen, möglicherweise führt mich der Weg in nächster
+          <lb/>Zeit einmal dorthin, dann würde ich mir erlauben, von mir
+          <lb/>hören zu lassen.
+        </p>
+        <closer>
+          <salute>
+            <lb/><space quantity="5" unit="char"/>Ich wünsche Ihnen noch eine ruhige Zeit in <rs type="place" ref="#amp_place_id_2">Kirchstetten</rs>
+            <lb/>und gute Arbeit!
+          </salute>
+          <salute>
+            <lb/><space quantity="5" unit="char"/>Mit den herzlichsten Wünschen und Grüssen
+          </salute>
+          <salute>
+            <lb/><space quantity="32" unit="char"/>Ihr Ihnen sehr ergebener
+          </salute>
+          <signed hand="#hand_blue_kraus">
+            <lb/><space quantity="40" unit="char"/><rs type="person" ref="#amp_person_137"><unclear/></rs>
+          </signed>
+          <signed>
+            <lb/><space quantity="31" unit="char"/>(<rs type="person" ref="#amp_person_137">Dr. Wolfgang Kraus</rs>)</signed>
+        </closer>
+        </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00420/" ed="1v" type="sheet"/>
+      </div>
+      </div>
+    </body>
+  </text>
+</TEI>
