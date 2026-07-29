@@ -96,10 +96,11 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote/>
+                  <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="print_black_auden" scribeRef="#amp_person_1" medium="print-black">Preprinted writing in black authored by W. H. Auden, sans-serif Grotesque-family typeface</typeNote>
+                  <typeNote xml:id="stamp_gray_wsl" scribeRef="#amp_organization_240" medium="stamp-gray">Stamped writing in gray authored by <rs type="org" ref="#amp_organization_240">Vienna City and State Library</rs></typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -123,11 +124,25 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="en"/>
+        <language ident="de"/>
       </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <orgName><rs type="org" ref="#amp_organization_76">District post office Rudolfsheim-Fünfhaus</rs></orgName>
+          <placeName><rs type="place" ref="#amp_place_id_1">Vienna</rs></placeName>
+          <date notBefore-iso="1971-05-17T10:00:01+01:00" notAfter-iso="1971-05-17T11:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_220">Staub, Herta</persName>
+          <placeName><rs type="place" ref="#amp_place_id_1">Vienna</rs></placeName>
+        </correspAction>
+      </correspDesc>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2026-07-29">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-07-29">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-07-29">Text transcribed; physDesc and correspDesc populated; hands, languages, correspondence container structure, and entities marked up</change>
+      <change who="#smayer" when-iso="2026-07-30">entity mark-up completed</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -146,12 +161,83 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0140" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0140" xml:lang="en">
+        <div type="envelope">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00602/" ed="1r" type="envelope"/>
+          <ab hand="#hand_blue_auden">
+              <lb/><rs type="person" ref="#amp_person_220">Profe<unclear>r</unclear>sor Herta Staub</rs>
+            <address>
+              <lb/><rs type="place" ref="#amp_place_id_417">1160 <foreign xml:lang="de">Wien</foreign>
+              <lb/>Thaliastrasse 149/7</rs>
+            </address>   
+          </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00603/" ed="1v" type="envelope"/>
+          <ab hand="#hand_blue_auden">
+              <lb/><rs type="person" ref="#amp_person_1">W.H. Auden</rs>
+              <seg hand="#print_black_auden">
+              <address>
+                <lb/><rs type="place" ref="#amp_place_id_2">3062 KIRCHSTETTEN
+                <lb/><foreign xml:lang="de">BEZ.</foreign> ST. PÖLTEN
+                <lb/>HINTERHOLZ 6
+                <lb/><foreign xml:lang="de">N.-Ö.</foreign>, AUSTRIA</rs>
+              </address>
+            </seg>
+            </ab>
+            <ab hand="#stamp_gray_wsl">
+              <lb/><rs type="org" ref="#amp_organization_240"><foreign xml:lang="de">WIENER STADT- U. LANDESBIBL.</foreign> <space quantity="1" unit="char"/></rs>4
+            </ab>
+         </div>
+         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00604/" ed="2r" type="sheet"/>
+           <div type="letter_message" hand="#hand_blue_auden">
+             <opener>
+               <dateline>
+                 <date>
+                   <lb/>May 16<hi rend="superscript">th</hi>.
+                 </date>
+                 <seg hand="#print_black_auden">
+                   <placeName>
+                     <address>
+                       <lb/><rs type="place" ref="#amp_place_id_2">3062 KIRCHSTETTEN
+                         <lb/><foreign xml:lang="de">BEZ.</foreign> ST. PÖLTEN
+                         <lb/>HINTERHOLZ 6
+                         <lb/><foreign xml:lang="de">N.-Ö.</foreign>, AUSTRIA</rs>
+                     </address>
+                   </placeName>
+                 </seg>
+               </dateline>
+               <salute hand="#hand_blue_auden">
+                 <lb/>Dear <rs type="person" ref="#amp_person_220"><subst><del rend="overwritten" hand="#hand_blue_auden">D<hi rend="superscript">r</hi></del><add place="superimposed" hand="#hand_blue_auden">Professo<unclear>r</unclear></add></subst> Staub</rs><unclear>.</unclear>
+               </salute>
+             </opener>
+               <p>
+                <lb/>Many thank<unclear>s</unclear> for your letter<unclear>,</unclear>
+                <lb/>I sh<unclear>a</unclear>ll be glad to come <unclear>to</unclear> the
+                <lb/>Kleine Galerie on Tuesday the 25<hi rend="superscript">th</hi>
+                <lb/>at 7.30.
+              </p>
+              <p>
+                <lb/>You needn't bother to fetch me. I'll
+                <lb/>take a train, and shall stay in
+                <lb/><foreign xml:lang="de">Wien</foreign> for the night as I li<unclear>ke</unclear> to
+                <lb/>get to bed early
+             </p>
+             <closer>
+               <salute>
+                 <lb/>you<unclear>r</unclear> sinc<unclear>er</unclear>ely
+               </salute>
+               <signed>
+                 <lb/><rs type="person" ref="#amp_person_1">W.H. Auden</rs>
+               </signed>
+             </closer>
+           </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00605/" ed="2v" type="sheet"/>
+           <div>
+             <ab hand="#stamp_gray_wsl">
+               <lb/><rs type="org" ref="#amp_organization_240"><foreign xml:lang="de">WIENER STADT- U. LANDESBIBL.</foreign></rs> <space quantity="1" unit="char"/>4
+             </ab>
+           </div>
+         </div>
       </div>
     </body>
   </text>
