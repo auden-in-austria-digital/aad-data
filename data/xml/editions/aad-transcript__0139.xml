@@ -30,7 +30,7 @@
         <edition>
           <title level="a">Autograph Letter Signed W. H. Auden to Herta Staub 1970-10-06</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_124">
               <desc/>
               <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -141,7 +141,7 @@
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#smayer" when-iso="2026-07-28">TEI/XML template populated with csv2xml.py</change>
-      <change who="#tfruehwirth" when-iso="2026-07-29">Text transcribed; physDesc and correspDesc populated; hands, languages, correspondence container structure, and entities marked up</change>
+      <change who="#smayer" when-iso="2026-07-29">Text transcribed; physDesc and correspDesc populated; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -202,6 +202,7 @@
                     <address>
                       <lb/><rs type="place" ref="#amp_place_id_2">3062 KIRCHSTETTEN
                       <lb/>BEZ. ST. PÖLTEN
+                      <lb/>HINTERHOLZ 6
                       <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
                     </address>
                   </placeName>
@@ -212,14 +213,14 @@
               </salute>
             </opener>
               <p>
-                <lb/>Viel Dank für d<gap atLeast="1" atMost="2" unit="chars" reason="illegible"></gap> Ubers<unclear>a</unclear>tzung
+                <lb/>Viel Dank für d<gap atLeast="1" atMost="2" unit="char" reason="illegible"></gap> <rs ana="#ana_124">Ubers<unclear>a</unclear>tzung</rs>
                 <lb/><unclear>da</unclear>s ist zeitlic<unclear>h</unclear> gekommen, weil i<del rend="overstrike" hand="#hand_blue_auden">ch</del>
                 <lb/>morgen fahre ich nach <rs type="place" ref="#amp_place_id_239">England</rs><unclear>.</unclear>
               </p>
-            <p>
-              <lb/>Holfen<unclear>l</unclear>lich sehen uns bald n<unclear>äc</unclear>hste
-              <lb/>Jahr.
-            </p>
+              <p>
+                <lb/>Holfen<unclear>l</unclear>lich sehen uns bald n<unclear>äc</unclear>hste
+                <lb/>Jahr.
+              </p>
             <closer>
               <salute>
                 <lb/>Grüsse
