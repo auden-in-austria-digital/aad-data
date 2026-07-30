@@ -167,7 +167,7 @@
           <ab hand="#hand_blue_auden">
               <lb/><rs type="person" ref="#amp_person_220">Profe<unclear>r</unclear>sor Herta Staub</rs>
             <address>
-              <lb/><rs type="place" ref="#amp_place_id_417">1160 <foreign xml:lang="de">Wien</foreign>
+              <lb/><rs type="place" ref="#amp_place_id_514">1160 <foreign xml:lang="de">Wien</foreign>
               <lb/>Thaliastrasse 149/7</rs>
             </address>   
           </ab>
@@ -198,7 +198,7 @@
                  <seg hand="#print_black_auden">
                    <placeName>
                      <address>
-                       <lb/><rs type="place" ref="#amp_place_id_2">3062 KIRCHSTETTEN
+                         <lb/><rs type="place" ref="#amp_place_id_2">3062 KIRCHSTETTEN
                          <lb/><foreign xml:lang="de">BEZ.</foreign> ST. PÖLTEN
                          <lb/>HINTERHOLZ 6
                          <lb/><foreign xml:lang="de">N.-Ö.</foreign>, AUSTRIA</rs>
@@ -213,18 +213,18 @@
                <p>
                 <lb/>Many thank<unclear>s</unclear> for your letter<unclear>,</unclear>
                 <lb/>I sh<unclear>a</unclear>ll be glad to come <unclear>to</unclear> the
-                <lb/>Kleine Galerie on Tuesday the 25<hi rend="superscript">th</hi>
+                <lb/><rs type="org" ref="#amp_organization_163">Kleine Galerie</rs> o<unclear>n</unclear> <rs type="event" ref="#amp_event_id_119">Tuesday the 25<hi rend="superscript">th</hi></rs>
                 <lb/>at 7.30.
               </p>
               <p>
                 <lb/>You needn't bother to fetch me. I'll
                 <lb/>take a train, and shall stay in
-                <lb/><foreign xml:lang="de">Wien</foreign> for the night as I li<unclear>ke</unclear> to
+                <lb/><rs type="place" ref="#amp_place_id_1"><foreign xml:lang="de">Wien</foreign></rs> for the night as I li<unclear>ke</unclear> to
                 <lb/>get to bed early
              </p>
              <closer>
                <salute>
-                 <lb/>you<unclear>r</unclear> sinc<unclear>er</unclear>ely
+                 <lb/>your sinc<unclear>er</unclear>ely
                </salute>
                <signed>
                  <lb/><rs type="person" ref="#amp_person_1">W.H. Auden</rs>
