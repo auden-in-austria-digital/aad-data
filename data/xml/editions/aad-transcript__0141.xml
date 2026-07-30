@@ -211,17 +211,17 @@
             </opener>
               <p>
                 <lb/>I am a le<unclear>ttl</unclear>e al<unclear>a</unclear>rmed because I
-                <lb/>cann<unclear>ot</unclear> find the Neugeddergasse in my
-                <lb/>street map of Wien. Could someb<unclear>o</unclear>dy
+                <lb/>cann<unclear>ot</unclear> find the <rs type="place" ref="#amp_place_id_513">Neugeddergasse</rs> in my
+                <lb/>street map of <rs type="place" ref="#amp_place_id_1"><foreign xml:lang="de">Wien</foreign></rs>. Could someb<unclear>o</unclear>dy
                 <lb/>possibly pick me up any time after
                 <lb/>7.0. p.m at the Restaurant in the 
-                <lb/><del rend="overstrike" hand="#hand_blue_auden">Wesb<unclear>b</unclear></del> Westbahnhof where I shall
+                <lb/><del rend="overstrike" hand="#hand_blue_auden">Wesb<unclear>b</unclear></del> <rs type="place" ref="#amp_place_id_309">Westbahnhof</rs> where I shall
                 <lb/>be having my dinner.
               </p>
               <p>
                 <lb/>Did I send you last year my poem
-                <lb/><hi rend="underline" hand="#hand_blue_auden">Lines to D<hi rend="superscript">r</hi> Walter Birk on his retiring</hi>
-                <lb/>from General Practice.<unclear>.</unclear> If not, I will
+                <lb/><rs type="lit_work" ref="#lit_work_id_329"><hi rend="underline" hand="#hand_blue_auden">Lines to D<hi rend="superscript">r</hi> Walter Birk on his retiring</hi>
+                <lb/><hi rend="underline" hand="#hand_blue_auden">from General Practice</hi></rs>.<unclear>.</unclear> If not, I will
                 <lb/>since it is of l<unclear>o</unclear>cal Au<unclear>s</unclear>trian interest.
               </p>
               <closer>
