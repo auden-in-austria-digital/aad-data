@@ -145,6 +145,7 @@ doc
 0139                     Auden, W. H.                                                                                                                  Autograph Letter Signed W. H. Auden to Herta Staub 1970-10-06                   Kirchstetten
 0140                     Auden, W. H.                                                                                                                  Autograph Letter Signed W. H. Auden to Herta Staub 1971-05-16                   Kirchstetten
 0141                     Auden, W. H.                                                                                                                  Autograph Letter Signed W. H. Auden to Herta Staub 1971-05-18                   Kirchstetten
+0142                     Auden, W. H.                                                                                                                  Autograph Letter Signed W. H. Auden to Herta Staub 1971-06-07                   Kirchstetten
 ```
 
 ### distribution per month
@@ -182,30 +183,30 @@ dtype: int64
 ### `df.info()`
 ```
 <class 'pandas.DataFrame'>
-RangeIndex: 422 entries, 0 to 421
+RangeIndex: 426 entries, 0 to 425
 Data columns (total 19 columns):
  #   Column          Non-Null Count  Dtype
 ---  ------          --------------  -----
- 0   img             422 non-null    int64
- 1   lrx             422 non-null    int64
- 2   lry             422 non-null    int64
- 3   width           422 non-null    int64
- 4   height          422 non-null    int64
- 5   type            422 non-null    str  
- 6   ed              422 non-null    str  
- 7   doc             422 non-null    str  
- 8   title           422 non-null    str  
- 9   author          422 non-null    str  
- 10  author-uri      422 non-null    str  
- 11  notBefore-iso   422 non-null    str  
- 12  notAfter-iso    422 non-null    str  
- 13  place           422 non-null    str  
- 14  place-uri       422 non-null    str  
- 15  repository      422 non-null    str  
- 16  repository-uri  422 non-null    str  
- 17  collection      422 non-null    str  
- 18  idno            422 non-null    str  
+ 0   img             426 non-null    int64
+ 1   lrx             426 non-null    int64
+ 2   lry             426 non-null    int64
+ 3   width           426 non-null    int64
+ 4   height          426 non-null    int64
+ 5   type            426 non-null    str  
+ 6   ed              426 non-null    str  
+ 7   doc             426 non-null    str  
+ 8   title           426 non-null    str  
+ 9   author          426 non-null    str  
+ 10  author-uri      426 non-null    str  
+ 11  notBefore-iso   426 non-null    str  
+ 12  notAfter-iso    426 non-null    str  
+ 13  place           426 non-null    str  
+ 14  place-uri       426 non-null    str  
+ 15  repository      426 non-null    str  
+ 16  repository-uri  426 non-null    str  
+ 17  collection      426 non-null    str  
+ 18  idno            426 non-null    str  
 dtypes: int64(5), str(14)
-memory usage: 62.8 KB
+memory usage: 63.4 KB
 
 ```
