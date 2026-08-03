@@ -143,7 +143,7 @@
       </langUsage>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2026-07-30">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2026-08-03">TEI/XML template populated with csv2xml.py</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
