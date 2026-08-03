@@ -192,7 +192,7 @@
             <opener>
               <dateline>
                 <date>
-                  <lb/>May 18<hi rend="superscript">th</hi>.
+                  <lb/>May 18<hi rend="superscript">th</hi>
                 </date>
                 <seg hand="#print_black_auden">
                   <placeName>
@@ -214,7 +214,7 @@
                 <lb/>cann<unclear>ot</unclear> find the <rs type="place" ref="#amp_place_id_513">Neugeddergasse</rs> in my
                 <lb/>street map of <rs type="place" ref="#amp_place_id_1"><foreign xml:lang="de">Wien</foreign></rs>. Could someb<unclear>o</unclear>dy
                 <lb/>possibly pick me up any time after
-                <lb/>7.0. p.m at the Restaurant in the 
+                <lb/>7.0.p.m at the Restaurant in the 
                 <lb/><del rend="overstrike" hand="#hand_blue_auden">Wesb<unclear>b</unclear></del> <rs type="place" ref="#amp_place_id_309">Westbahnhof</rs> where I shall
                 <lb/>be having my dinner.
               </p>
