@@ -145,6 +145,7 @@ doc
 0139                     Auden, W. H.                                                                                                                  Autograph Letter Signed W. H. Auden to Herta Staub 1970-10-06                   Kirchstetten
 0140                     Auden, W. H.                                                                                                                  Autograph Letter Signed W. H. Auden to Herta Staub 1971-05-16                   Kirchstetten
 0141                     Auden, W. H.                                                                                                                  Autograph Letter Signed W. H. Auden to Herta Staub 1971-05-18                   Kirchstetten
+0143                     Auden, W. H.                                                             Copy Typescript W. H. Auden Lines to Dr. Walter Birk on His Retiring from General Practice" 1970-09-28--1971-02-11                   Kirchstetten
 0142                     Auden, W. H.                                                                                                                  Autograph Letter Signed W. H. Auden to Herta Staub 1971-06-07                   Kirchstetten
 ```
 
@@ -183,30 +184,30 @@ dtype: int64
 ### `df.info()`
 ```
 <class 'pandas.DataFrame'>
-RangeIndex: 426 entries, 0 to 425
+RangeIndex: 428 entries, 0 to 427
 Data columns (total 19 columns):
  #   Column          Non-Null Count  Dtype
 ---  ------          --------------  -----
- 0   img             426 non-null    int64
- 1   lrx             426 non-null    int64
- 2   lry             426 non-null    int64
- 3   width           426 non-null    int64
- 4   height          426 non-null    int64
- 5   type            426 non-null    str  
- 6   ed              426 non-null    str  
- 7   doc             426 non-null    str  
- 8   title           426 non-null    str  
- 9   author          426 non-null    str  
- 10  author-uri      426 non-null    str  
- 11  notBefore-iso   426 non-null    str  
- 12  notAfter-iso    426 non-null    str  
- 13  place           426 non-null    str  
- 14  place-uri       426 non-null    str  
- 15  repository      426 non-null    str  
- 16  repository-uri  426 non-null    str  
- 17  collection      426 non-null    str  
- 18  idno            426 non-null    str  
+ 0   img             428 non-null    int64
+ 1   lrx             428 non-null    int64
+ 2   lry             428 non-null    int64
+ 3   width           428 non-null    int64
+ 4   height          428 non-null    int64
+ 5   type            428 non-null    str  
+ 6   ed              428 non-null    str  
+ 7   doc             428 non-null    str  
+ 8   title           428 non-null    str  
+ 9   author          428 non-null    str  
+ 10  author-uri      428 non-null    str  
+ 11  notBefore-iso   428 non-null    str  
+ 12  notAfter-iso    428 non-null    str  
+ 13  place           428 non-null    str  
+ 14  place-uri       428 non-null    str  
+ 15  repository      428 non-null    str  
+ 16  repository-uri  428 non-null    str  
+ 17  collection      428 non-null    str  
+ 18  idno            428 non-null    str  
 dtypes: int64(5), str(14)
-memory usage: 63.4 KB
+memory usage: 63.7 KB
 
 ```
