@@ -131,7 +131,7 @@
         <correspAction type="sent">
           <orgName><rs type="org" ref="#amp_organization_76">District post office Rudolfsheim-Fünfhaus</rs></orgName>
           <placeName><rs type="place" ref="#amp_place_id_1">Vienna</rs></placeName>
-        <date notBefore-iso="1971-06-07T11:00:01+01:00" notAfter-iso="1971-06-07T12:00:00+01:00"/>
+        <date notBefore-iso="1971-06-07T18:00:01+01:00" notAfter-iso="1971-06-07T19:00:00+01:00"/>
       </correspAction>
       <correspAction type="received">
         <persName ref="#amp_person_220">Staub, Herta</persName>
@@ -216,10 +216,10 @@
                 <lb/>look promising<unclear>.</unclear>
               </p>
               <p>
-                <lb/>One little point. In Old People's Home
-                <lb/>you translated Hey-day as Jugend<unclear>;</unclear>
-                <lb/>Hey-day is Blut<unclear>e</unclear>rzeit, a product of
-                <lb/>maturity not youth. The friend I was 
+                <lb/>One little point. In <rs type="lit_work" ref="#lit_work_id_325"><hi rend="underline" hand="#hand_blue_auden">Old People's Home</hi></rs>
+                <lb/>you translated <hi rend="underline" hand="#hand_blue_auden">Hey-day</hi> as <hi rend="underline" hand="#hand_blue_auden">Jugend</hi><unclear>;</unclear>
+                <lb/><hi rend="underline" hand="#hand_blue_auden">Hey-day</hi> is <hi rend="underline" hand="#hand_blue_auden">Blut<unclear>e</unclear>rzeit</hi>, a product of
+                <lb/>maturity not youth. The <rs type="person" ref="#amp_person_157">fr<subst><del rend="overwritten" hand="#hand_blue_auden"><unclear>e</unclear><gap unit="char" quantity="1" reason="illegible"></gap></del><add place="superimposed" hand="#hand_blue_auden">ie<unclear>n</unclear>d</add></subst></rs> I was 
                 <lb/>writing about was 56 when I first
                 <lb/>met her.
               </p>
