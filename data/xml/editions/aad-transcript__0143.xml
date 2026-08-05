@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0143" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Copy Typescript W. H. Auden Lines to Dr. Walter Birk on His Retiring from General Practice" 1970-09-28--1971-02-11</title>
+        <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484">Hechtl, Angelika</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Copy Typescript W. H. Auden Lines to Dr. Walter Birk on His Retiring from General Practice" 1970-09-28--1971-02-11</title>
+          <interpGrp>
+            <interp>
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+          <name sameAs="#ahechtl"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <repository ref="https://d-nb.info/gnd/10144442-4">Vienna City Library</repository>
+                <collection>Autograph Collection</collection>
+                <idno>ZPH 900 Box 6</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark/>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00610/">
+                        <width>211</width>
+                        <height>297</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00611/">
+                        <width>211</width>
+                        <height>297</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote/>
+                </handDesc>
+                <typeDesc>
+                  <typeNote/>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1970-09-28T00:00:00+01:00" notAfter-iso="1971-02-11T23:59:59+01:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4801892-2">Kirchstetten</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident=""/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#smayer" when-iso="2026-08-04">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-08-05">basic text transcription added</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="3679" lry="4978">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00610/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3679" lry="4978">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00611/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0143" xml:lang="">
+        <div/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00610/" ed="1r" type="sheet"/>
+          <lb/>LINES TO DR. WALTER BIRK ON HIS RETIRING FROM GENERAL PRACTICE
+          <lb/>When yeu first arrived in Kirchstetten, trains had
+          <lb/>long been taken for granted, but electric
+          <lb/>licht was still a surprise and as yet no ene
+          <lb/>had seen a tracter.
+
+          <lb/>Te-day,after forty-five years, as yeu leave us,
+          <lb/>autebahns are a must, nid-wives are banished
+          <lb/>and village decters become museum pieces
+          <lb/>like the horse-and-buggy.
+
+          <lb/>I regret. The specialist has his function
+          <lb/>but, to him, we are merely wanal examples of
+          <lb/>what he knows all abeut. The healer I faith is
+          <lb/>someone I've gessiped
+        
+          <lb/>and drunk with before I call him te teuch me,
+          <lb/>one whe admits hew easy it is to (misconster)
+          <lb/>what our bedies are trying te say, for each one
+          <lb/>talks in a local
+
+          <lb/>dialect of its own which can alter during
+          <lb/>its life-time: so children run hich fevers on
+          <lb/>slight prevecation, while the ergans of old men
+          <lb/>suffer in silence.
+
+          <lb/>When summer plumps again, eur usual sparrews
+          <lb/>will phip in the eaves of the patulous chesnuts
+          <lb/>near your old hene, but nene will ask -"Is Docter
+          <lb/>Birk areund te hear me?".,
+        
+          <lb/>for nething can happen te birds that has net
+          <lb/>happened before: we theuch are beasts with a sense of
+          <lb/>real occasion,of beginnings and endings,
+          <lb/>which is the reasen
+
+          <lb/>we like te keep eur clocks punctual, as Nature's
+          <lb/>never is. Seasons She has but ne Calendar,
+          <lb/>fer every year the strawberries ripen
+          <lb/>and the autuan crecus
+
+          <lb/>lane  inte blessem en unpredictable
+          <lb/>dates. But Such Schlamperei cannet be allewed an
+          <lb/>histerian: for us it's a matter of hener
+          <lb/>te keep eur birth-days
+
+          <lb/>and wedding-days, to rejeice er to neurn, en
+          <lb/>the right ene. Henceforth the First of Octeber
+          <lb/>shall be special for yeu and us, as the ence when
+          <lb/>you quit the Public
+        
+          <lb/>Realm te private yeur ways and (smudge in a quiet 
+          <lb/>yeu so deserve. Farewell, and de net Wince at
+          <lb/>eur sick werld: it is genuine in age to be
+          <lb/>happily selfish.
+        
+        <lb/> ____
+
+
+
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00611/" ed="1v" type="sheet"/>
+      </div>
+    </body>
+  </text>
+</TEI>
