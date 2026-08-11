@@ -30,7 +30,7 @@
         <edition>
           <title level="a">Copy Typescript W. H. Auden Lines to Dr. Walter Birk on His Retiring from General Practice" 1970-09-28--1971-02-11</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_125">
               <desc/>
               <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -143,7 +143,7 @@
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00610/" ed="1r" type="sheet"/>
           <div>
             <head>
-              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><hi rend="underline" hand="#type_cc_auden"><rs type="lit_work" ref="#lit_work_id_329">LINES TO <rs type="person" ref="#amp_person_432">DR.WALTER BIRK</rs> ON HIS RETIRING FROM GENERAL PRACTICE</rs><space quantity="1" unit="char"/></hi>
+              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><hi rend="underline" hand="#type_cc_auden"><rs ana="#ana_125"><rs type="lit_work" ref="#lit_work_id_329">LINES TO <rs type="person" ref="#amp_person_432">DR.WALTER BIRK</rs> ON HIS RETIRING FROM GENERAL PRACTICE</rs></rs><space quantity="1" unit="char"/></hi>
             </head>
             <lg>
               <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>When you first arrived in <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs>,trains had</l>
