@@ -89,9 +89,11 @@
                 </objectDesc>
                 <handDesc>
                   <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
+                  <handNote xml:id="hand_gray_unident_0143" medium="pencil">Handwriting in pencil by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote xml:id="type_black_auden" scribeRef="#amp_person_1" medium="type-black">Carbon copy of typewriting in black ink by W. H. Auden, monospaced slab-serif typeface</typeNote>
+                  <typeNote xml:id="type_cc_auden" scribeRef="#amp_person_1" medium="type-black">Carbon copy of typewriting by W. H. Auden, monospaced slab-serif typeface</typeNote>
+                  <typeNote xml:id="stamp_gray_wsl" scribeRef="#amp_organization_240" medium="stamp-gray">Stamped writing in gray authored by <rs type="org" ref="#amp_organization_240">Vienna City and State Library</rs></typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -121,8 +123,9 @@
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#smayer" when-iso="2026-08-04">TEI/XML template populated with csv2xml.py</change>
-      <change who="#smayer" when-iso="2026-08-05">basic text transcription added</change>
+      <change who="#smayer" when-iso="2026-08-05">basic text transcription added, physDesc populated</change>
       <change who="#smayer" when-iso="2026-08-06">hand information, container structure added; text transcription corrected and adjusted; original text features added</change>
+      <change who="#smayer" when-iso="2026-08-11">hand information completed; language information added; space information added; entities marked-up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -135,89 +138,96 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0143" xml:lang="">
-        <div type="poem">
+      <div type="transcription" xml:id="transcription_aad_0143" xml:lang="en">
+        <div type="poem" hand="#type_cc_auden">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00610/" ed="1r" type="sheet"/>
           <div>
             <head>
-              <lb/><hi rend="underline">LINES TO DR.WALTER BIRK ON HIS RETIRING FROM GENERAL PRACTICE<space quantity="1" unit="char"/></hi>
+              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><hi rend="underline" hand="#type_cc_auden"><rs type="lit_work" ref="#lit_work_id_329">LINES TO <rs type="person" ref="#amp_person_432">DR.WALTER BIRK</rs> ON HIS RETIRING FROM GENERAL PRACTICE</rs><space quantity="1" unit="char"/></hi>
             </head>
             <lg>
-              <lb/><l>When you first arrived in Kirchstetten,trains had</l>
-              <lb/><l>long been taken f<subst><del rend="overtyped" hand="#type_cc_black_auden">9</del><add place="superimposed" hand="#type_cc_black_auden">o</add></subst>r granted,but electric</l>
-              <lb/><l>light was still a surprise and as yet no one</l>
-              <lb/><l>had seen a tractor.</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>When you first arrived in <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs>,trains had</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>long been taken f<subst><del rend="overtyped" hand="#type_cc_auden">9</del><add place="superimposed" hand="#type_cc_auden">o</add></subst>r granted,but electric</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>light was still a surprise and as yet no one</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>had seen a tractor.</l>
             </lg>
             <lg>
-              <lb/><l>To-day,after forty-five years,as you leave us,</l>
-              <lb/><l>autobahns are a must,mid-wives are banished</l>
-              <lb/><l>and village doctors become museum pie<subst><del rend="overtyped" hand="#type_cc_black_auden"><unclear>v</unclear></del><add place="superimposed" hand="#type_cc_black_auden">c</add></subst>es</l>
-              <lb/><l>like the horse-and-buggy.</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>To-day,after forty-five years,as you leave us,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>autobahns are a must,mid-wives are banished</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>and village doctors become museum pie<subst><del rend="overtyped" hand="#type_cc_auden"><unclear>v</unclear></del><add place="superimposed" hand="#type_cc_auden">c</add></subst>es</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>like the horse-and-buggy.</l>
             </lg>
             <lg>
-              <lb/><l>I regret. The specialist has his function</l>
-              <lb/><l>but,to him,we are merely banal examples of</l>
-              <lb/><l>what he knows all about. The healer I faith is</l>
-              <lb/><l>someone I've gossiped</l> 
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>I regret. The specialist has his function</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>but,to him,we are merely banal examples of</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>what he knows all about. The healer I faith is</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>someone I've gossiped</l> 
             </lg>
             <lg>
-              <lb/><l>and drunk with before I call him to touch me,</l>
-              <lb/><l>one who admits how easy it is to misconster</l>
-              <lb/><l>what our bodies are trying to say,for each one</l>
-              <lb/><l>talks in a local</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>and drunk with before I call him to touch me,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>one who admits how easy it is to misconster <add hand="#hand_blue_auden" place="right">(<foreign xml:lang="de">miskonstruie<unclear>r</unclear>en</foreign>)</add></l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>what our bodies are trying to say,for each one</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>talks in a local</l>
             </lg>
             <lg>
-              <lb/><l>dialect of its own which can al<subst><del rend="overtyped" hand="#type_cc_black_auden">y</del><add place="superimposed" hand="#type_cc_black_auden">t</add></subst>er during</l>
-              <lb/><l>its life-time: so children run high fevers on</l>
-              <lb/><l>slight provocation,whlile the organs of old men</l>
-              <lb/><l>suffer in silence.</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>dialect of its own which can al<subst><del rend="overtyped" hand="#type_cc_auden">y</del><add place="superimposed" hand="#type_cc_auden">t</add></subst>er during</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>its life-time: so children run high fevers on</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>slight provocation,whlile the organs of old men</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>suffer in silence.</l>
             </lg>
             <lg>
-              <lb/><l>When summer plumps again,our usual sparrows</l>
-              <lb/><l>will phip in the eaves of the patulous chesnuts</l>
-              <lb/><l>near your old home,but none will ask -"Is Doctor</l>
-              <lb/><l>Birk around to hear me?" -,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>When summer plumps again,our usual sparrows</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>will phip<add hand="#hand_blue_auden" place="left">(<foreign xml:lang="de">onomatopäisch</foreign>)</add> in the eaves of the patulous chesnuts</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>near your old home,but none will ask -"Is <rs type="person" ref="#amp_person_432">Doctor</rs></l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>Birk around to hear me?" -,</l>
             </lg>
             <lg>
-              <lb/><l>for nothing can happen to birds that has not</l>
-              <lb/><l>happened before: we though are beasts with a sense of</l>
-              <lb/><l><subst><del rend="overtyped" hand="#type_cc_black_auden"><gap reason="illegible" unit="char" quantity="1"></gap></del><add place="superimposed" hand="#type_cc_black_auden">r</add></subst>eal occasion,of beginnings and endings,</l>
-              <lb/><l>which is the reasen</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>for nothing can happen to birds that has not</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>happened before: we though are beasts with a sense of</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l><subst><del rend="overtyped" hand="#type_cc_auden"><gap reason="illegible" unit="char" quantity="1"></gap></del><add place="superimposed" hand="#type_cc_auden">r</add></subst>eal occasion,of beginnings and endings,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>which is the reason</l>
             </lg>
             <lg>
-              <lb/><l>we like te keep our clocks punctual,as Nature's</l>
-              <lb/><l>never is. Seasons She has but no Calendar,</l>
-              <lb/><l><subst><del rend="overstrike" hand="#hand_blue_auden">for</del><add place="left" hand="#hand_blue_auden">thus</add></subst> every year the strawberries ripen</l>
-              <lb/><l>and the autumn crocus</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>we like te keep our clocks punctual,as Nature's</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>never is. Seasons She has but no Calendar,<add hand="#hand_blue_auden" place="above"><unclear>'</unclear></add></l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l><subst><del rend="overstrike" hand="#hand_blue_auden">for</del><add place="left" hand="#hand_blue_auden">thus</add></subst> every year the strawberries ripen</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>and the autumn crocus</l>
             </lg>
             <lg>
-              <lb/><l><subst><del rend="overstrike" hand="#hand_blue_auden">bursts</del><add place="left" hand="#hand_blue_auden">flares</add></subst> into blossom on unpredictable</l>
-              <lb/><l>dates. <del rend="overstrike" hand="#hand_blue_auden">But</del> <subst><del rend="overstrike" hand="#hand_blue_auden">s</del><add place="superimposed" hand="#hand_blue_auden">S</add></subst>uch <add hand="#hand_blue_auden" place="inline">a</add> <hi rend="underline"><foreign xml:lang="de">Schlamperei</foreign></hi> cannot be allowed an</l>
-              <lb/><l>historian: for us it's a matter of honor</l>
-              <lb/><l>to keep our birth-days</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l><subst><del rend="overstrike" hand="#hand_blue_auden">bursts</del><add place="left" hand="#hand_blue_auden">flares</add></subst> into blossom on unpredictable</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>dates. <del rend="overstrike" hand="#hand_blue_auden">But</del> <subst><del rend="overstrike" hand="#hand_blue_auden">s</del><add place="superimposed" hand="#hand_blue_auden">S</add></subst>uch <add hand="#hand_blue_auden" place="inline">a</add> <hi rend="underline" hand="#type_cc_auden"><foreign xml:lang="de">Schlamperei</foreign></hi> cannot be allowed an</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>historian: for us it's a matter of honor</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>to keep our birth-days</l>
             </lg>
             <lg>
-              <lb/><l>and wedding-days,to rejoice or to mourn,on</l>
-              <lb/><l>the right one. Henceforth the First of October</l>
-              <lb/><l>shall be special for you and us,as the once when</l>
-              <lb/><l>you quit the Public</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>and wedding-days,to rejoice or to mourn,on</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>the right one. Henceforth the First of October</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="4" unit="char"/><l>shall be special for you and us,as the once when</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>you quit the Public</l>
             </lg>
             <lg>
-              <lb/><l>Realm to private your ways and snudge in a quiet</l> 
-              <lb/><l>you so deserve. Farewell,and do not wince at</l>
-              <lb/><l>our sick werld: it is genuine <subst><del rend="overtyped" hand="#type_cc_black_auden">t</del><add place="superimposed" hand="#type_cc_black_auden">i</add></subst>n age to be</l>
-              <lb/><l>happily selfish.</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>Realm to private your ways and snudge<add place="left" hand="#hand_blue_auden">(<foreign xml:lang="de">sich einnisten</foreign>)</add> in a quiet</l> 
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>you so deserve. Farewell,and do not wince at</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>our sick werld: it is genuine <subst><del rend="overtyped" hand="#type_cc_auden">t</del><add place="superimposed" hand="#type_cc_auden">i</add></subst>n age to be</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>happily selfish.</l>
             </lg>
             <ab>
-              _____
+              <lb/><space extent="undefined quantity of characters plus minimum" min="21" unit="char"/>_____
             </ab>
-            <div hand>
+            <div hand="#hand_gray_unident_0143">
               <ab>
-                <lb/>Manuskript
-                <lb/>Auden
+                <lb/><foreign xml:lang="de">Manuskript</foreign>
+                <lb/><rs type="person" ref="#amp_person_1">Auden</rs>
               </ab>
             </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00611/" ed="1v" type="sheet"/>
+            <div>
+              <ab hand="#stamp_gray_wsl">
+                <lb/><rs type="org" ref="#amp_organization_240"><foreign xml:lang="de">WIENER STADT- U. LANDESBIBL.</foreign></rs> <space quantity="1" unit="char"/>4
+              </ab>
+            </div>
+           </div>
+         </div>
       </div>
     </body>
   </text>
