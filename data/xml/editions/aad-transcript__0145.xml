@@ -88,10 +88,11 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote/>
+                  <handNote xml:id="hand_gray_unident_0145" medium="pencil">Handwriting in pencil by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="type_black_auden" scribeRef="#amp_person_1" medium="type-black">Teletypewriting in black ink authored by W. H. Auden, monospaced sans-serif typeface</typeNote>
+                  <typeNote xml:id="stamp_gray_wsl" scribeRef="#amp_organization_240" medium="stamp-gray">Stamped writing in gray authored by <rs type="org" ref="#amp_organization_240">Vienna City and State Library</rs></typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -115,11 +116,13 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="de"/>
       </langUsage>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2026-08-12">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-08-12">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-08-12">basic text transcription added, physDesc populated</change>
+      <change who="#smayer" when-iso="2026-08-12">language and hand information added; entities marked-up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -132,10 +135,40 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0145" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0145" xml:lang="de">
+        <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00596/" ed="1r" type="sheet"/>
+          <div type="letter_message">
+            <ab>
+              <lb/><rs type="person" ref="#amp_person_220">STAUB</rs> 
+              <lb/><rs type="place" ref="#amp_place_id_417">SCHOENBORNG <space quantity="1" unit="char"/>6 <space quantity="1" unit="char"/>WIEN/8 =</rs>
+            </ab>
+            <ab>
+              <lb/>WENN SIE FREI SIND BITTE KOMM ZUM MITTAGESSEN     
+              <lb/>SONNTAG 19. TEM BESTEN ZUG 11.20 <space quantity="1" unit="char"/>GRUESZE =
+              <lb/><rs type="person" ref="#amp_person_1">WYSTAN AUDEN</rs> +
+            </ab>
+          </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00597/" ed="1v" type="sheet"/>
+          <div>
+            <ab hand="#hand_gray_unident_0145">
+              <seg>
+                <lb/><unclear>11</unclear>20
+                <lb/>1235
+              </seg>
+              <seg>
+                <lb/>1551
+                <lb/><del rend="overstrike" hand="#hand_gray_unident_0145">1653</del><unclear>x</unclear>
+                <lb/>1716
+                <lb/>1755
+                <lb/>20<unclear>0</unclear>5
+              </seg>
+            </ab>
+            <ab hand="#stamp_gray_wsl">
+              <lb/><rs type="org" ref="#amp_organization_240">WIENER STADT- U. LANDESBIBL.</rs> <space quantity="1" unit="char"/>4
+            </ab>
+          </div>
+        </div>
       </div>
     </body>
   </text>
