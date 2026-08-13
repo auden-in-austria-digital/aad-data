@@ -118,11 +118,33 @@
       <langUsage>
         <language ident="de"/>
       </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <orgName><rs type="org" ref="#amp_organization_70">Postamt Kirchstetten (post office Kirchstetten)</rs></orgName>
+          <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
+        <date notBefore-iso="1963-07-24T15:32:01+01:00" notAfter-iso="1963-07-24T15:47:00+01:00"/>
+       </correspAction>
+        <correspAction type="transmitted">
+          <orgName><rs type="org" ref="#amp_organization_165">Postamt Wien 65 (post office Vienna 65)</rs></orgName>
+          <placeName><rs type="place" ref="#amp_place_id_1">Vienna</rs></placeName>
+          <date notBefore-iso="1963-07-24T16:15:00+01:00" notAfter-iso="1963-07-24T16:15:59+01:00"/>
+        </correspAction>
+        <correspAction type="transmitted">
+          <orgName ref="#amp_organization_165">Postamt Wien 65 (post office Vienna 65)</orgName>
+          <placeName><rs type="place" ref="#amp_place_id_1">Vienna</rs></placeName>
+          <date notBefore-iso="1963-07-24T16:15:01+01:00" notAfter-iso="1963-07-24T17:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_220">Staub, Herta</persName>
+          <placeName><rs type="place" ref="#amp_place_id_1">Vienna</rs></placeName>
+        </correspAction>
+      </correspDesc>
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#smayer" when-iso="2026-08-12">TEI/XML template populated with csv2xml.py</change>
       <change who="#smayer" when-iso="2026-08-12">basic text transcription added, physDesc populated</change>
       <change who="#smayer" when-iso="2026-08-12">language and hand information added; entities marked-up</change>
+      <change who="#smayer" when-iso="2026-08-13">correspDesc populated</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -138,10 +160,10 @@
       <div type="transcription" xml:id="transcription_aad_0145" xml:lang="de">
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00596/" ed="1r" type="sheet"/>
-          <div type="letter_message">
+          <div type="letter_message" hand="#type_black_auden">
             <ab>
               <lb/><rs type="person" ref="#amp_person_220">STAUB</rs> 
-              <lb/><rs type="place" ref="#amp_place_id_417">SCHOENBORNG <space quantity="1" unit="char"/>6 <space quantity="1" unit="char"/>WIEN/8 =</rs>
+              <lb/><rs type="place" ref="#amp_place_id_417">SCHOENBORNG <space quantity="1" unit="char"/>6 <space quantity="1" unit="char"/>WIEN/8</rs> =
             </ab>
             <ab>
               <lb/>WENN SIE FREI SIND BITTE KOMM ZUM MITTAGESSEN     
