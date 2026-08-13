@@ -275,9 +275,10 @@
               <lb xml:id="list_element_49"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_371">Werner Weber</rs>
               <lb xml:id="list_element_50"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_406">Ger<subst><del rend="metamark" hand="#hand_gray_unident_0138_01">ad</del><add place="inline" hand="#hand_gray_unident_0138_01">da</add></subst> Zeltner-Neukomm</rs>
             </add>
-          </ab>  
+          </ab>
+        </div>
       <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00430/" ed="1v" type="sheet"/>
-      <div type="prose" hand="#type_cc_oegfl">  
+      <div type="prose" hand="#type_cc_oegfl">
         <head>
           <lb/><hi rend="underline" hand="#type_cc_oegfl">Ost</hi>
         </head>
@@ -390,7 +391,6 @@
               <lb xml:id="list_element_80"/><space extent="undefined quantity of characters" min="1" unit="char"/><rs type="person" ref="#amp_person_431">Vasko Popa</rs>
             </ab>
           </div>
-        </div>
        </div>
     </body>
   </text>
