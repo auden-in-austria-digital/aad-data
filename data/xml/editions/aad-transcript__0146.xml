@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0146" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Typed Letter Signed W. H. Auden to Felix Braun 1958-11-03</title>
+        <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484">Hechtl, Angelika</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Typed Letter Signed W. H. Auden to Felix Braun 1958-11-03</title>
+          <interpGrp>
+            <interp>
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+          <name sameAs="#ahechtl"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <repository ref="https://d-nb.info/gnd/10144442-4">Vienna City Library</repository>
+                <collection>Autograph Collection</collection>
+                <idno>HIN-198190 AC15897018</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00592/ https://iiif.acdh.oeaw.ac.at/aad/aad_00593/">WHITING’S MUTUAL BOND RAG CONTENT</watermark>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00590/">
+                        <width>156</width>
+                        <height>125</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00591/">
+                        <width>156</width>
+                        <height>125</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00592/">
+                        <width>216</width>
+                        <height>280</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00593/">
+                        <width>216</width>
+                        <height>280</height>
+                      </dimensions>
+                      <ab>
+                        The paper surface contains indented typewriter impressions.
+                      </ab>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_red_wsb" scribeRef="#amp_organization_241" medium="pencil">Handwriting in red ink authored by <rs type="org" ref="#amp_organization_241">Vienna City Library (Wiener Stadtbibliothek)</rs></handNote>
+                  <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-black">Handwriting in blue ink by W. H. Auden</handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="type_black_auden" scribeRef="#amp_person_1" medium="type-black">Typewriting in black ink by W. H. Auden, monospaced slab-serif typeface</typeNote>
+                  <typeNote xml:id="stamp_blue_wsb" scribeRef="#amp_organization_241" medium="stamp-blue">Stamped writing in blue authored by <rs type="org" ref="#amp_organization_241">Vienna City Library (Wiener Stadtbibliothek)</rs></typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1958-11-03T00:00:00-05:00" notAfter-iso="1958-11-03T23:59:59-05:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4042011-5">New York City</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <charDecl>
+        <glyph xml:id="uml_a_lc_tt">
+          <desc>lower-case German ä rendered by superimposing typed double-quotation-mark character (") on typed lower-case a</desc>
+        </glyph>
+        <glyph xml:id="uml_u_lc_tt">
+          <desc>lower-case German ü rendered by superimposing typed double-quotation-mark character (") on typed lower-case u</desc>
+        </glyph>
+        <glyph xml:id="uml_o_lc_tt">
+          <desc>lower-case German ö rendered by superimposing typed double-quotation-mark character (") on typed lower-case o</desc>
+        </glyph>
+      </charDecl>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de"/>
+        <language ident="en"/>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent" subtype="airmail">
+          <placeName><rs type="place" ref="#amp_place_id_28">New York City</rs></placeName>
+          <date notBefore-iso="1958-11-03T20:15:00-05:00" notAfter-iso="1958-11-03T20:30:00-05:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_xx">Braun, Felix</persName>
+          <placeName><rs type="place" ref="#amp_place_id_1">Vienna</rs></placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#smayer" when-iso="2026-08-13">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-08-13">physDesc and correspDesc populated; hands, languages added</change>
+      <change who="#smayer" when-iso="2026-08-13">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="2672" lry="2177">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00590/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="2720" lry="2177">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00591/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3663" lry="4680">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00592/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3663" lry="4680">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00593/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0146" xml:lang="de">
+        <div type="envelope" hand="#type_black_auden">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00590/" ed="1r" type="envelope"/>
+          <ab xml:lang="en">
+            <lb/><rs type="person" ref="#amp_person_1">W.H.Auden</rs>
+            <address>
+                <lb/><rs type="place" ref="#amp_place_id_29">77 St Mark's Place
+                <lb/>New York City 3
+                <lb/>New York
+                <lb/>U.S.A.</rs>
+            </address>
+          </ab>
+          <ab xml:lang="en">
+            <lb/><del rend="overtyped" hand="#type_black_auden"><hi rend="underline" hand="#type_black_auden"><foreign xml:lang="de">mit Luft-Po</foreign></hi></del><hi rend="underline" hand="#type_black_auden">AIR-MAIL</hi>
+          </ab>
+          <ab xml:lang="de">
+              <lb/><rs type="person" ref="#amp_person_433">Dr Felix Braun</rs>
+              <address>
+                <lb/><rs type="place" ref="#amp_place_id_515">WIEN XIX
+                <lb/>Geistingergasse I
+                <lb/><foreign xml:lang="en">Austria</foreign></rs>
+            </address>   
+          </ab>
+          <ab hand="#hand_red_wsb" xml:lang="de">
+            <lb/><unclear>zu</unclear> I.N. 198.190
+          </ab>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00591/" ed="1v" type="envelope"/>
+          <div xml:lang="de">
+            <ab hand="#stamp_blue_wsb">
+              <lb/><rs type="org" ref="#amp_organization_241">WIENER STADTBIBLIOTHEK</rs>
+            </ab>
+          </div>
+          <div type="letter" xml:lang="de">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00592/" ed="2r" type="sheet"/>
+            <div>
+              <ab hand="#hand_red_wsb">
+                <lb/>I.N.198.190
+              </ab>
+             </div>
+            <div type="letter_message" hand="#type_black_auden">
+              <opener>
+                <dateline xml:lang="en">
+                  <placeName>
+                    <address>
+                      <lb/><rs type="place" ref="#amp_place_id_29">77 St Mark's Place
+                      <lb/>New York City 3
+                      <lb/>New York</rs>
+                    </address>
+                  </placeName>
+                  <date>
+                    <lb/><space quantity="38" unit="char"/><del rend="overtyped" hand="#type_black_auden">Okt</del> Nov 3rd,
+                  </date>
+                </dateline>
+                <salute>
+                  <lb/><space quantity="23" unit="char"/><del rend="overtyped" hand="#type_black_auden">Libe</del> Lieber <rs type="person" ref="#amp_person_433">Dr Felix Braun</rs>:
+                </salute>
+              </opener>
+              <p>
+                <lb/><space quantity="15" unit="char"/>Ich <del rend="overtyped" hand="#type_black_auden">shickeS</del> schicke Ihnen mit Buch-Post ei<subst><del rend="overtyped" hand="#type_black_auden">e</del><add place="superimposed" hand="#type_black_auden">n</add></subst>en untergeschriebenen
+                <lb/><space quantity="10" unit="char"/>Exemplar von <rs type="lit_work" ref="#lit_work_id_330"><foreign xml:lang="en">The Shield of Achilles</foreign></rs>. Es ist ein Gesch<g ref="#uml_a_lc_tt">ä</g>nk von
+                <lb/><space quantity="10" unit="char"/><rs type="person" ref="#amp_person_434">Peter Branscombe</rs> der hat mir gefragt ob ich es tun w<g ref="#uml_u_lc_tt">ü</g>rde.
+              </p>
+              <p>
+                <lb/><space quantity="12" unit="char"/>Selbverst<g ref="#uml_a_lc_tt">ä</g>n<subst><del rend="overtyped" hand="#type_black_auden">g</del><add place="superimposed" hand="#type_black_auden">d</add></subst>lig <space quantity="1" unit="char"/>ich bin sehr froh.
+              </p>
+              <p>
+                <lb/><space quantity="11" unit="char"/>Jezt habe ich ein <rs type="place" ref="#amp_place_id_2">Haus in Kirchstetten</rs> verkauft und bin sehr
+                <lb/><space quantity="11" unit="char"/>zufrieden damit.
+              </p>
+              <p>
+                <lb/><space quantity="15" unit="char"/>Hoffentlich,<del rend="overtyped" hand="#type_black_auden">nacshtes</del> n<g ref="#uml_a_lc_tt">ä</g>chstes Sommer wenn ich ruzuckkehre,k<g ref="#uml_o_lc_tt">ö</g>nnen
+                <lb/><space quantity="11" unit="char"/>Sie herauskommen <unclear>f</unclear><g ref="#uml_u_lc_tt">ü</g>r <del rend="overtyped" hand="#type_black_auden">eien</del> ein Besuch.
+              </p>
+              <closer>
+                <salute>
+                  <lb/><space quantity="24" unit="char"/>mit herzlichen Grusse
+                </salute>
+                <signed hand="#hand_blue_auden">
+                  <lb/><rs type="person" ref="#amp_person_1">Wystan Auden</rs>
+                </signed>
+                <signed hand="#type_black_auden">
+                  <lb/><space quantity="45" unit="char"/>W.H.<unclear>.</unclear><subst><del rend="overtyped" hand="#type_black_auden"><unclear>Z</unclear></del><add place="superimposed" hand="#type_black_auden">A</add></subst>uden
+                </signed>
+              </closer>
+            </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00593/" ed="2v" type="sheet"/>
+            <div>
+              <ab hand="#stamp_blue_wsb" xml:lang="de">
+                <lb/><rs type="org" ref="#amp_organization_241">WIENER STADTBIBLIOTHEK</rs>
+              </ab>
+            </div>
+           </div>
+         </div>
+      </div>
+    </body>
+  </text>
+</TEI>
