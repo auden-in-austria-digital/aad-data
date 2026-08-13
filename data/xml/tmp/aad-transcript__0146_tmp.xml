@@ -3,12 +3,12 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0093" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0146" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title level="s">Auden in Austria Digital (AAD)</title>
-        <title level="a">Autograph Letter Signed W. H. Auden to Hilde Spiel 1972-08-16</title>
+        <title level="a">Typed Letter Signed W. H. Auden to Felix Braun 1958-11-03</title>
         <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
         <editor>
           <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
@@ -28,7 +28,7 @@
       </titleStmt>
       <editionStmt>
         <edition>
-          <title level="a">Autograph Letter Signed W. H. Auden to Hilde Spiel 1972-08-16</title>
+          <title level="a">Typed Letter Signed W. H. Auden to Felix Braun 1958-11-03</title>
           <interpGrp>
             <interp>
               <desc/>
@@ -67,22 +67,30 @@
           <witness n="1">
             <msDesc>
               <msIdentifier>
-                <repository ref="https://d-nb.info/gnd/2020893-5">Austrian National Library</repository>
-                <collection>Literary Archive</collection>
-                <idno>ÖLA 15/91, Group 2.1, 15/B26/8</idno>
+                <repository ref="https://d-nb.info/gnd/10144442-4">Vienna City Library</repository>
+                <collection>Autograph Collection</collection>
+                <idno>HIN-198190 AC15897018</idno>
               </msIdentifier>
               <physDesc>
                 <objectDesc>
                   <supportDesc>
                     <support>
                       <watermark/>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00313/">
-                        <width>148</width>
-                        <height>210</height>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00590/">
+                        <width>156</width>
+                        <height>125</height>
                       </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00314/">
-                        <width>148</width>
-                        <height>210</height>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00591/">
+                        <width>156</width>
+                        <height>125</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00592/">
+                        <width>216</width>
+                        <height>280</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00593/">
+                        <width>216</width>
+                        <height>280</height>
                       </dimensions>
                     </support>
                   </supportDesc>
@@ -96,8 +104,8 @@
               </physDesc>
               <history>
                 <origin>
-                  <origDate notBefore-iso="1972-08-16T00:00:00+01:00" notAfter-iso="1972-08-16T23:59:59+01:00"/>
-                  <origPlace ref="https://d-nb.info/gnd/4801892-2">Kirchstetten</origPlace>
+                  <origDate notBefore-iso="1958-11-03T00:00:00-05:00" notAfter-iso="1958-11-03T23:59:59-05:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4042011-5">New York City</origPlace>
                 </origin>
               </history>
             </msDesc>
@@ -123,19 +131,27 @@
     </revisionDesc>
   </teiHeader>
   <facsimile>
-    <surface ulx="0" uly="0" lrx="4362" lry="6101">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00313/"/>
+    <surface ulx="0" uly="0" lrx="2672" lry="2177">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00590/"/>
     </surface>
-    <surface ulx="0" uly="0" lrx="4362" lry="6101">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00314/"/>
+    <surface ulx="0" uly="0" lrx="2720" lry="2177">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00591/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3663" lry="4680">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00592/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3663" lry="4680">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00593/"/>
     </surface>
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0093" xml:lang="">
+      <div type="transcription" xml:id="transcription_aad_0146" xml:lang="">
         <div/>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00313/" ed="1r" type="sheet"/>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00314/" ed="1v" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00590/" ed="1r" type="envelope"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00591/" ed="1v" type="envelope"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00592/" ed="2r" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00593/" ed="2v" type="sheet"/>
       </div>
     </body>
   </text>
