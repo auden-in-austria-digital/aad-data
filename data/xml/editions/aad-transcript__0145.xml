@@ -174,17 +174,15 @@
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00597/" ed="1v" type="sheet"/>
           <div>
             <ab hand="#hand_gray_unident_0145">
-              <seg>
                 <lb/><unclear>11</unclear>20
                 <lb/>1235
-              </seg>
-              <seg>
+             </ab>
+            <ab hand="#hand_gray_unident_0145">
                 <lb/>1551
                 <lb/><del rend="overstrike" hand="#hand_gray_unident_0145">1653</del><unclear>x</unclear>
                 <lb/>1716
                 <lb/>1755
                 <lb/>20<unclear>0</unclear>5
-              </seg>
             </ab>
             <ab hand="#stamp_gray_wsl">
               <lb/><rs type="org" ref="#amp_organization_240">WIENER STADT- U. LANDESBIBL.</rs> <space quantity="1" unit="char"/>4
