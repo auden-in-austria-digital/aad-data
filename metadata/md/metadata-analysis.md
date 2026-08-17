@@ -148,7 +148,7 @@ doc
 0139                     Auden, W. H.                                                                                                                  Autograph Letter Signed W. H. Auden to Herta Staub 1970-10-06                   Kirchstetten
 0140                     Auden, W. H.                                                                                                                  Autograph Letter Signed W. H. Auden to Herta Staub 1971-05-16                   Kirchstetten
 0141                     Auden, W. H.                                                                                                                  Autograph Letter Signed W. H. Auden to Herta Staub 1971-05-18                   Kirchstetten
-0143                     Auden, W. H.                                                             Copy Typescript W. H. Auden Lines to Dr. Walter Birk on His Retiring from General Practice" 1970-09-28--1971-02-11                   Kirchstetten
+0143                     Auden, W. H.                                                            Copy Typescript W. H. Auden Lines to Dr. Walter Birk on His Retiring from General Practice" 1970-09-28--1971-02-11"                   Kirchstetten
 0142                     Auden, W. H.                                                                                                                  Autograph Letter Signed W. H. Auden to Herta Staub 1971-06-07                   Kirchstetten
 ```
 
