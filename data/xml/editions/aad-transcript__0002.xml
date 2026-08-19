@@ -205,8 +205,8 @@
               </salute>
             </opener>
             <p>
-              <lb/>Heute kommen <rs type="person" ana="#ana_056">Gäste</rs>. Also, ich
-              <lb/>komme Freitag .
+              <lb/><rs type="event" ana="#ana_056">Heute kommen <rs type="person" ana="#ana_056">Gäste</rs></rs>. Also, <rs type="event" ref="#amp_event_id_222">ich
+              <lb/>komme Freitag</rs> .
             </p>
             <closer>
               <salute>
