@@ -207,6 +207,7 @@
               <lb/><rs type="org" ref="#amp_organization_241">WIENER STADTBIBLIOTHEK</rs>
             </ab>
           </div>
+          </div>
           <div type="letter" xml:lang="de">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00592/" ed="2r" type="sheet"/>
             <div>
@@ -268,7 +269,6 @@
             </div>
            </div>
          </div>
-      </div>
     </body>
   </text>
 </TEI>
