@@ -177,7 +177,7 @@
           <seg hand="#print_black_auden">
             <address>
               <lb/><rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN, BEZ. ST. PÖLTEN
-              <lb/><add hand="#hand_blue_auden" place="left">3062</add>HINTERHOLZ 6
+              <lb/><add hand="#hand_blue_auden" place="left">3062</add> HINTERHOLZ 6
               <lb/>N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
             </address>
             </seg>
