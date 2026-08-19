@@ -148,7 +148,7 @@
           <date notBefore-iso="1958-11-03T20:15:00-05:00" notAfter-iso="1958-11-03T20:30:00-05:00"/>
         </correspAction>
         <correspAction type="received">
-          <persName ref="#amp_person_xx">Braun, Felix</persName>
+          <persName ref="#amp_person_433">Braun, Felix</persName>
           <placeName><rs type="place" ref="#amp_place_id_1">Vienna</rs></placeName>
         </correspAction>
       </correspDesc>
