@@ -144,6 +144,7 @@
       </langUsage>
       <correspDesc>
         <correspAction type="sent" subtype="airmail">
+          <orgName><rs type="org" ref="#amp_organization_242">United States Post Office Grand Central Station</rs></orgName>
           <placeName><rs type="place" ref="#amp_place_id_28">New York City</rs></placeName>
           <date notBefore-iso="1958-11-03T20:15:00-05:00" notAfter-iso="1958-11-03T20:30:00-05:00"/>
         </correspAction>
