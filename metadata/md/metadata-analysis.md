@@ -142,6 +142,7 @@ doc
 0136                  Kraus, Wolfgang                                                                                                                     Copy Typed Letter Wolfgang Kraus to W. H. Auden 1966-03-28                         Vienna
 0137                     Auden, W. H.                                                                                                                Autograph Letter Signed W. H. Auden to Hella Bronold 1972-07-03                   Kirchstetten
 0138  Austrian Society for Literature                                                                                                        Copy Typed Notes Austrian Society for Literature 1965-01-01--1967-01-09                         Vienna
+0148                     Auden, W. H.                                                                                                              Typescript W. H. Auden "Talking to Myself" 1971-04-01--1972-06-24                   Kirchstetten
 0146                     Auden, W. H.                                                                                                                      Typed Letter Signed W. H. Auden to Felix Braun 1958-11-03                  New York City
 0144                             N.N.                                                                                                                      Photograph N.N. House Hinterholz 6 1958-01-07--1973-09-28                   Kirchstetten
 0145                     Auden, W. H.                                                                                                                                 Telegram W. H. Auden to Herta Staub 1963-07-24                   Kirchstetten
@@ -188,30 +189,30 @@ dtype: int64
 ### `df.info()`
 ```
 <class 'pandas.DataFrame'>
-RangeIndex: 438 entries, 0 to 437
+RangeIndex: 440 entries, 0 to 439
 Data columns (total 19 columns):
  #   Column          Non-Null Count  Dtype
 ---  ------          --------------  -----
- 0   img             438 non-null    int64
- 1   lrx             438 non-null    int64
- 2   lry             438 non-null    int64
- 3   width           438 non-null    int64
- 4   height          438 non-null    int64
- 5   type            438 non-null    str  
- 6   ed              438 non-null    str  
- 7   doc             438 non-null    str  
- 8   title           438 non-null    str  
- 9   author          438 non-null    str  
- 10  author-uri      438 non-null    str  
- 11  notBefore-iso   438 non-null    str  
- 12  notAfter-iso    438 non-null    str  
- 13  place           438 non-null    str  
- 14  place-uri       438 non-null    str  
- 15  repository      438 non-null    str  
- 16  repository-uri  438 non-null    str  
- 17  collection      438 non-null    str  
- 18  idno            438 non-null    str  
+ 0   img             440 non-null    int64
+ 1   lrx             440 non-null    int64
+ 2   lry             440 non-null    int64
+ 3   width           440 non-null    int64
+ 4   height          440 non-null    int64
+ 5   type            440 non-null    str  
+ 6   ed              440 non-null    str  
+ 7   doc             440 non-null    str  
+ 8   title           440 non-null    str  
+ 9   author          440 non-null    str  
+ 10  author-uri      440 non-null    str  
+ 11  notBefore-iso   440 non-null    str  
+ 12  notAfter-iso    440 non-null    str  
+ 13  place           440 non-null    str  
+ 14  place-uri       440 non-null    str  
+ 15  repository      440 non-null    str  
+ 16  repository-uri  440 non-null    str  
+ 17  collection      440 non-null    str  
+ 18  idno            440 non-null    str  
 dtypes: int64(5), str(14)
-memory usage: 65.1 KB
+memory usage: 65.4 KB
 
 ```
