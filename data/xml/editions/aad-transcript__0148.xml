@@ -120,7 +120,7 @@
     </profileDesc>
     <revisionDesc status="draft">
       <change who="#smayer" when-iso="2026-08-20">TEI/XML template populated with csv2xml.py</change>
-      <change who="#smayer" when-iso="2026-09-02">basic text transcription added, physDesc populated; hand and language information added</change>
+      <change who="#smayer" when-iso="2026-09-02">basic text transcription added, physDesc populated; hand and language information, container structure added</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -165,7 +165,7 @@
             <lg>
               <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>Instinctively timid,I think,having neither</l>
               <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>fangs nor talons nor hooves nor venom,and therefore</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>all too prone to let the sun go down on your fear,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>all too prone to let the sun go down on your <subst><del rend="overstrike" hand="#hand_blue_auden">fear,</del><add place="right" hand="#hand_blue_auden">funk,</add></subst></l>
               <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>a poor smeller or,rather,a censor of smells,</l>
               <lb/><l>with a singular palate that enjoys hot food.</l>
             </lg>
@@ -178,15 +178,15 @@
             </lg>
             <lg>
               <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>As You augmented,I looked at your looks askance:</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>Had I been free to pick Him,his architecture</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>would have been much more elegant. I've been let down!</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l><hi rend="underline" hand="#type_black_auden">Had I been free to pick Him,his architecture</hi></l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l><hi rend="underline" hand="#type_black_auden">would have been much more elegant. I've been let down</hi>!</l>
               <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>By now,though,I've gotten used to your proportions,</l>
               <lb/><l>and all things considered I might have fared far worse.</l>
             </lg>
             <lg>
               <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>Seldom have You been a bother. For many years</l>
               <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>You were,I admit, a martyr to horn-colic</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>(It did no good to tell You: But I'm not in love!),</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>(It did no good to tell You: <hi rend="underline" hand="#type_black_auden">But I'm not in love!</hi>),</l>
               <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>how stoutly,though,You've repelled all germ invasions,</l>
               <lb/><l>but never chastised my trantrums with a megrim.</l>
             </lg>
@@ -208,7 +208,7 @@
               <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>our married life is a drama,but no stage-play where</l>
               <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>what is not spoken is not thought: in our theatre</l>
               <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>all that I cannot syllable You will pronounce</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>in acts whose raison-d'etre escapes me. Why secrete</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>in acts whose <hi rend="underline" hand="#type_black_auden">raison-d'etre</hi> escapes me. Why secrete</l>
               <lb/><l>fluid when I dole or stretch your lips when I joy?</l>
             </lg>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00454/" ed="1v" type="sheet"/>
