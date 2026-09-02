@@ -75,7 +75,7 @@
                 <objectDesc>
                   <supportDesc>
                     <support>
-                      <watermark/>
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00453/ https://iiif.acdh.oeaw.ac.at/aad/aad_00454/">NEUSIEDLER JAPAN POST</watermark>
                       <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00453/">
                         <width>210</width>
                         <height>296</height>
@@ -88,10 +88,10 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote/>
+                  <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="type_black_auden" scribeRef="#amp_person_1" medium="type-black">Typewriting in black ink by W. H. Auden, monospaced slab-serif typeface</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -115,11 +115,12 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="en"/>
       </langUsage>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2026-08-20">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-08-20">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-09-02">basic text transcription added, physDesc populated; hand and language information added</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -132,9 +133,84 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0148" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0148" xml:lang="en">
+        <div type="poem" hand="#type_black_auden">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00453/" ed="1r" type="sheet"/>
+          <div>
+            <head>
+              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><hi rend="underline" hand="#type_black_auden"><rs ana="#ana_xx"><rs type="lit_work" ref="#lit_work_id_xx">TALKING TO MYSELF</rs></rs></hi>
+              <lb/>(<hi rend="underline" hand="#type_black_auden">for Oliver Saks</hi>)
+            </head>
+            <lg>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>Spring this year in Austria started off benign,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>the heavens lucid,the air stable,the about</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>sane to all feeders,vegetate and bestial:</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>the deathless minerals looked pleased iwth their regime,</l>
+              <lb/><l>where what is not forbidden is compulsory.</l>
+            </lg>
+            <lg>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>Shadows of course there are,Porn-Ads,with-it clergy,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>and hubby next door has taken to the bottle,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>but You have preserved your poise,strange rustic object,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>whom I,made in God's Image but already warped,</l>
+              <lb/><l>a malapert will-worship,must bow to as Me.</l>
+            </lg>
+            <lg>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>My mortal manor,the carnal territory</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>allotted to my manage,also my fosterling</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>I must earn cash to support,my tutor also,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>but for whose neural instructions I could never</l>
+              <lb/><l>acknowledge what is or imagine what is not.</l>
+            </lg>
+            <lg>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>Instinctively timid,I think,having neither</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>fangs nor talons nor hooves nor venom,and therefore</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>all too prone to let the sun go down on your fear,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>a poor smeller or,rather,a censor of smells,</l>
+              <lb/><l>with a singular palate that enjoys hot food.</l>
+            </lg>
+            <lg>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>Unpredictably,decades ago,You arrived</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>among that unending cascade of creatures spewed</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>from Nature's maw. A random event,says Science.</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>Random,my bottom! a true miracle,say I,</l>
+              <lb/><l>for who is not certain that he was meant to be?</l>
+            </lg>
+            <lg>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>As You augmented,I looked at your looks askance:</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>Had I been free to pick Him,his architecture</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>would have been much more elegant. I've been let down!</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>By now,though,I've gotten used to your proportions,</l>
+              <lb/><l>and all things considered I might have fared far worse.</l>
+            </lg>
+            <lg>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>Seldom have You been a bother. For many years</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>You were,I admit, a martyr to horn-colic</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>(It did no good to tell You: But I'm not in love!),</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>how stoutly,though,You've repelled all germ invasions,</l>
+              <lb/><l>but never chastised my trantrums with a megrim.</l>
+            </lg>
+            <lg>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>You are the Injured Party for,if short-sighted,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>I am the book-worm who tired You,if short-winded</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>as cigarette addicts are,I was the pusher</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>who got You hooked. (Had we been both a bit younger,</l>
+              <lb/><l>I might well have mischiefed You worse with a needle.)</l>
+            </lg>
+            <lg>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>I'm always amazed at how little I know You.</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>Your coasts and outgates I know,for I govern thenere there,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>but what goes on inland,the rites,the social codes,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>your torrents,salt and sunless,remain enigmas:</l>
+              <lb/><l>what I believe is on doctor's hearsay only.</l>
+            </lg>
+            <lg>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>our married life is a drama,but no stage-play where</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>what is not spoken is not thought: in our theatre</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>all that I cannot syllable You will pronounce</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>in acts whose raison-d'etre escapes me. Why secrete</l>
+              <lb/><l>fluid when I dole or stretch your lips when I joy?</l>
+            </lg>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00454/" ed="1v" type="sheet"/>
       </div>
     </body>
