@@ -8,7 +8,7 @@
     <fileDesc>
       <titleStmt>
         <title level="s">Auden in Austria Digital (AAD)</title>
-        <title level="a">Typescript W. H. Auden "Talking to Myself" 1971-04-01--1972-06-24</title>
+        <title level="a">Typescript W. H. Auden "Talking to Myself" 1971-04-01--1971-12-31</title>
         <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
         <editor>
           <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
@@ -28,9 +28,9 @@
       </titleStmt>
       <editionStmt>
         <edition>
-          <title level="a">Typescript W. H. Auden "Talking to Myself" 1971-04-01--1972-06-24</title>
+          <title level="a">Typescript W. H. Auden "Talking to Myself" 1971-04-01--1971-12-31</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_129">
               <desc/>
               <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -139,80 +139,82 @@
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00453/" ed="1r" type="sheet"/>
           <div>
             <head>
-              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><hi rend="underline" hand="#type_black_auden"><rs ana="#ana_xx"><rs type="lit_work" ref="#lit_work_id_xx">TALKING TO MYSELF</rs></rs></hi>
-              <lb/>(<hi rend="underline" hand="#type_black_auden">for Oliver Saks</hi>)
+              <lb/><space extent="undefined quantity of characters plus minimum" min="14" unit="char"/><hi rend="underline" hand="#type_black_auden"><rs ana="#ana_129"><rs type="lit_work" ref="#lit_work_id_331">TALKING TO MYSELF</rs></rs></hi>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="14" unit="char"/>(<hi rend="underline" hand="#type_black_auden">for <rs type="person" ref="#amp_person_439">Oliver Saks</rs></hi>)
             </head>
             <lg>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>Spring this year in Austria started off benig<subst><del rend="overtyped" hand="#type_black_auden">h</del><add place="superimposed" hand="#type_black_auden">n</add></subst>,</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>the heavens lucid,the air stable,the about</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>sane to all feeders,vegetate or bestial:</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>the deathless minerals looked pleased iwth their regime,</l>
-              <lb/><l>where what is not forbidden is comp<subst><del rend="overtyped" hand="#type_black_auden">lu</del><add place="superimposed" hand="#type_black_auden">ul</add></subst>sory.</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>Spring this year in Austria started off benig<subst><del rend="overtyped" hand="#type_black_auden">h</del><add place="superimposed" hand="#type_black_auden">n</add></subst>,</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>the heavens lucid,the air stable,the about</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>sane to all feeders,vegetate or bestial:</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>the deathless minerals looked pleased iwth their regime,</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>where what is not forbidden is comp<subst><del rend="overtyped" hand="#type_black_auden">lu</del><add place="superimposed" hand="#type_black_auden">ul</add></subst>sory.</l>
             </lg>
             <lg>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l><subst><del rend="overtyped" hand="#type_black_auden">s</del><add place="superimposed" hand="#type_black_auden">S</add></subst>hadows of course there are,Porn<subst><del rend="overtyped" hand="#type_black_auden">*a</del><add place="superimposed" hand="#type_black_auden">-A</add></subst>ds,with-it clergy,</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>and hubby next door has taken to the bottle,</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>but You have preserved your poise,strange rustic object,</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>whom I,made in God's Image but already warped,</l>
-              <lb/><l>a malapert will-worship,must bow to as Me.</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l><subst><del rend="overtyped" hand="#type_black_auden">s</del><add place="superimposed" hand="#type_black_auden">S</add></subst>hadows of course there are,Porn<subst><del rend="overtyped" hand="#type_black_auden">*a</del><add place="superimposed" hand="#type_black_auden">-A</add></subst>ds,with-it clergy,</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>and hubby next door has taken to the bottle,</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>but You have preserved your poise,strange rustic object,</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>whom I,made in God's Image but already warped,</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>a malapert will-worship,must bow to as Me.</l>
             </lg>
             <lg>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>My mortal manor,the carnal territory</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>allotted to my manage,also my fosterling</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>I must earn cash to support,my tutor also,</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>but for whose neural instructions I could never</l>
-              <lb/><l>acknowledge what is or imagine what is not.</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>My mortal manor,the carnal territory</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>allotted to my manage,also my fosterling</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>I must earn cash to support,my tutor also,</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>but for whose neural instructions I could never</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>acknowledge what is or imagine what is not.</l>
             </lg>
             <lg>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>Instinctively timid,I think,having neither</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>fangs nor talons nor hooves nor venom,and therefore</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>all too pro<subst><del rend="overtyped" hand="#type_black_auden"><unclear>j</unclear></del><add place="superimposed" hand="#type_black_auden">n</add></subst>e to let the sun go down on your <subst><del rend="overstrike" hand="#hand_blue_auden">fear,</del><add place="right" hand="#hand_blue_auden">funk,</add></subst></l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>a poor smeller or,rather,a censor of smells,</l>
-              <lb/><l>with a singular palate that enjoys hot food.</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>Instinctively timid,I think,having neither</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>fangs nor talons nor hooves nor venom,and therefore</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>all too pro<subst><del rend="overtyped" hand="#type_black_auden"><unclear>j</unclear></del><add place="superimposed" hand="#type_black_auden">n</add></subst>e to let the sun go down on your <subst><del rend="overstrike" hand="#hand_blue_auden">fear,</del><add place="right" hand="#hand_blue_auden">funk,</add></subst></l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>a poor smeller or,rather,a censor of smells,</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>with a singular palate that enjoys hot food.</l>
             </lg>
             <lg>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>Unpredictably,deca<subst><del rend="overtyped" hand="#type_black_auden">s</del><add place="superimposed" hand="#type_black_auden">d</add></subst>es ago,You arrived</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>among that unending cascade of creatures spewed</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>from Nature'<subst><del rend="overtyped" hand="#type_black_auden">w</del><add place="superimposed" hand="#type_black_auden">s</add></subst> maw. A random event,says Science.</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>Random,my bottom! a true miracle,say I,</l>
-              <lb/><l>for who is not certain that he was meant to be?</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>Unpredictably,deca<subst><del rend="overtyped" hand="#type_black_auden">s</del><add place="superimposed" hand="#type_black_auden">d</add></subst>es ago,You arrived</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>among that unending cascade of creatures spewed</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>from Nature'<subst><del rend="overtyped" hand="#type_black_auden">w</del><add place="superimposed" hand="#type_black_auden">s</add></subst> maw. A random event,says Science.</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>Random,my bottom! a true miracle,say I,</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>for who is not certain that he was meant to be?</l>
             </lg>
             <lg>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>As You augmented,I l<subst><del rend="overtyped" hand="#type_black_auden">l</del><add place="superimposed" hand="#type_black_auden">o</add></subst>oked at your looks askance:</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l><hi rend="underline" hand="#type_black_auden">Had I been free to pick Him,his architecture</hi></l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l><hi rend="underline" hand="#type_black_auden">would have been much m<subst><del rend="overtyped" hand="#type_black_auden"><gap unit="char" quantity="1" reason="illegible"></gap></del><add place="superimposed" hand="#type_black_auden">o</add></subst>re elegant. I've been let down</hi>!</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>By now,though,I've gotten used to your proportions,</l>
-              <lb/><l>and all things considered I might have fared far worse.</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>As You augmented,I l<subst><del rend="overtyped" hand="#type_black_auden">l</del><add place="superimposed" hand="#type_black_auden">o</add></subst>oked at your looks askance:</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l><hi rend="underline" hand="#type_black_auden">Had I been free to pick Him,his architecture</hi></l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l><hi rend="underline" hand="#type_black_auden">would have been much m<subst><del rend="overtyped" hand="#type_black_auden"><gap unit="char" quantity="1" reason="illegible"></gap></del><add place="superimposed" hand="#type_black_auden">o</add></subst>re elegant. I've been let down</hi>!</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>By now,though,I've gotten used to your proportions,</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>and all things considered I might have fared far worse.</l>
             </lg>
             <lg>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>Seldom have You been a bother. For many years</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>You were,I admit, a martyr to horn-colic</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>(It did no good to tell You: <hi rend="underline" hand="#type_black_auden">But I'm not in love</hi>!),</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l><subst><del rend="overtyped" hand="#type_black_auden"><gap unit="char" quantity="1" reason="illegible"></gap></del><add place="superimposed" hand="#type_black_auden">h</add></subst>ow stoutly,though,You've repelled all germ invasions,</l>
-              <lb/><l>but never chastised my trantrums with a megrim.</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>Seldom have You been a bother. For many years</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>You were,I admit, a martyr to horn-colic</l>
+              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><l>(It did no good to tell You: <hi rend="underline" hand="#type_black_auden">But I'm not in love</hi>!),</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l><subst><del rend="overtyped" hand="#type_black_auden"><gap unit="char" quantity="1" reason="illegible"></gap></del><add place="superimposed" hand="#type_black_auden">h</add></subst>ow stoutly,though,You've repelled all germ invasions,</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>but never chastised my trantrums with a megrim.</l>
             </lg>
             <lg>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>You are the Injured Party for,if short-sighted,</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>I am the book-worm who tired You,if short-winded</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>as cigarette addicts are,I was the pusher</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>who got You hooked. (Had we been both a bit younger,</l>
-              <lb/><l>I mi<subst><del rend="overtyped" hand="#type_black_auden">f</del><add place="superimposed" hand="#type_black_auden">g</add></subst>ht well have mischiefed You worse with a needle.)</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>You are the Injured Party for,if short-sighted,</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>I am the book-worm who tired You,if short-winded</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>as cigarette addicts are,I was the pusher</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>who got You hooked. (Had we been both a bit younger,</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>I mi<subst><del rend="overtyped" hand="#type_black_auden">f</del><add place="superimposed" hand="#type_black_auden">g</add></subst>ht well have mischiefed You worse with a needle.)</l>
             </lg>
             <lg>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>I'm always amazed at how little I know You.</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>Your coasts and outgates I know,for I govern <del rend="overtyped" hand="#type_black_auden">thenere</del> there,</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>but what goes on inland,the rites,<subst><del rend="overtyped" hand="#type_black_auden">h</del><add place="superimposed" hand="#type_black_auden">t</add></subst>he social codes,</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>your torrents,salt and sunless,remain enigmas:</l>
-              <lb/><l>what I believe is on doctor's hearsay only.</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>I'm always amazed at how little I know You.</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>Your coasts and outgates I know,for I govern <del rend="overtyped" hand="#type_black_auden">thenere</del> there,</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>but what goes on inland,the rites,<subst><del rend="overtyped" hand="#type_black_auden">h</del><add place="superimposed" hand="#type_black_auden">t</add></subst>he social codes,</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>your torrents,salt and sunless,remain enigmas:</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>what I believe is on doctor's hearsay only.</l>
             </lg>
             <lg>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>Our married life is a drama,but no stage-play where</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>what is not spoken is not thought: in our theatre</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="3" unit="char"/><l>all that I cannot syllable You will pronounce</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="5" unit="char"/><l>in acts whose <hi rend="underline" hand="#type_black_auden">raison-d'etre</hi> escapes me. Why secrete</l>
-              <lb/><l>fluid when I dole or stretch your lips when I joy?</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>Our married life is a drama,but no stage-play where</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>what is not spoken is not thought: in our theatre</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>all that I cannot syllable You will pronounce</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>in acts whose <hi rend="underline" hand="#type_black_auden">raison-d'etre</hi> escapes me. Why secrete</l>
+              <lb/><space extent="undefined quantity of characters" min="2" unit="char"/><l>fluid when I dole or stretch your lips when I joy?</l>
             </lg>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00454/" ed="1v" type="sheet"/>
+        </div>
+       </div>
       </div>
     </body>
   </text>
