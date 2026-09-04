@@ -8,7 +8,7 @@
     <fileDesc>
       <titleStmt>
         <title level="s">Auden in Austria Digital (AAD)</title>
-        <title level="a">Typescript W. H. Auden "Talking to Myself" 1971-04-01--1972-06-24</title>
+        <title level="a">Typescript W. H. Auden "Talking to Myself" 1971-04-01--1971-12-31</title>
         <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
         <editor>
           <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
@@ -28,7 +28,7 @@
       </titleStmt>
       <editionStmt>
         <edition>
-          <title level="a">Typescript W. H. Auden "Talking to Myself" 1971-04-01--1972-06-24</title>
+          <title level="a">Typescript W. H. Auden "Talking to Myself" 1971-04-01--1971-12-31</title>
           <interpGrp>
             <interp>
               <desc/>
@@ -96,7 +96,7 @@
               </physDesc>
               <history>
                 <origin>
-                  <origDate notBefore-iso="1971-04-01T00:00:00+01:00" notAfter-iso="1972-06-24T23:59:59+01:00"/>
+                  <origDate notBefore-iso="1971-04-01T00:00:00+01:00" notAfter-iso="1971-12-31T23:59:59+01:00"/>
                   <origPlace ref="https://d-nb.info/gnd/4801892-2">Kirchstetten</origPlace>
                 </origin>
               </history>
@@ -119,7 +119,7 @@
       </langUsage>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2026-09-03">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2026-09-04">TEI/XML template populated with csv2xml.py</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
