@@ -30,7 +30,7 @@
         <edition>
           <title level="a">Typescript W. H. Auden "Talking to Dogs" 1970-07-01--1971-03-01</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_130">
               <desc/>
               <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -88,10 +88,11 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote/>
+                  <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
+                  <handNote xml:id="hand_blue_unident_0149" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="type_black_auden" scribeRef="#amp_person_1" medium="type-black">Typewriting in black ink by W. H. Auden, monospaced slab-serif typeface</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -115,11 +116,12 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="en"/>
       </langUsage>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2026-08-20">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-08-20">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-09-07">basic text transcription added, physDesc populated; hand and language information, container structure added; original text features added; entities marked-up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -132,10 +134,78 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0149" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0149" xml:lang="en">
+        <div type="poem" hand="#type_black_auden">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00455/" ed="1r" type="sheet"/>
+          <div>
+            <head>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="11" unit="char"/><hi rend="underline" hand="#type_black_auden"><rs ana="#ana_130"><rs type="lit_work" ref="#lit_work_id_364">TALKING TO DOGS</rs></rs></hi>
+            </head>
+            <lg>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="2" unit="char"/><l>From us,of course,you want gristly bones</l>
+              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><l>and to be walked through startling odorscapes</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="2" unit="char"/><l>-their colors don't matter - with the chance</l>
+              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><l>of a rabbit to chase or of meeting</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="2" unit="char"/><l>a fellow arse-hole to snuzzle at,</l>
+              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><l>but your deepest fury is to be accepted</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="2" unit="char"/><l>as junior members of a salon</l>
+              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><l>with gentler tastes and manners than a pack,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="2" unit="char"/><l>to be scratched on the belly and talked to.</l>
+              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><l>Probably you only hear vowels and then only if</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="2" unit="char"/><l>uttered with lyrical emphasis,</l>
+              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><l>so we cannot tell you a story,even</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="2" unit="char"/><l>if it really happened,dissect with you</l>
+              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><l>in the third person neighbors who are not there</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="2" unit="char"/><l>or things which can't blush. And what do we,</l>
+              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><l>those of us who are neither silly shepherds</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="2" unit="char"/><l>nor k<subst><del rend="overtyped" hand="#type_black_auden">o</del><add place="superimposed" hand="#type_black_auden">i</add></subst>llers nor polar explorers,</l>
+              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><l>ask from you? The admiration of <del rend="overtyped" hand="#type_black_auden">creture</del> creatures</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="2" unit="char"/><l>to whom mirrors mean nothing,who never</l>
+              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><l>false your <subst><del rend="overtyped" hand="#type_black_auden">gestures</del><add place="above" hand="#type_black_auden">expression</add></subst> and so remind us</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="2" unit="char"/><l>that we,like you,are social retards</l>
+              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><l>who have never learned to command our feelings</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="2" unit="char"/><l>and don't want to,really. Some great men</l>
+              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><l>like <rs type="person" ref="#amp_person_11">Goethe</rs> and <rs type="person" ref="#amp_person_472">Edward Lear</rs> have hated you,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="2" unit="char"/><l>which seems eccentric,but good people,</l>
+              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><l>if they keep one,have good dogs: (<subst><del rend="overtyped" hand="#type_black_auden">t</del><add place="superimposed" hand="#type_black_auden">T</add></subst>he reverse</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="2" unit="char"/><l>is not so,for some very bad hats</l>
+              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><l>handle you very well.) <subst><del rend="overtyped" hand="#type_black_auden"><gap unit="char" quantity="1" reason="illegible"></gap></del><add place="superimposed" hand="#type_black_auden">I</add></subst>t's those who want</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="2" unit="char"/><l>a slave or a permanent baby</l>
+              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><l>or a little detachable penis</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="2" unit="char"/><l>who can and often do debase you.</l>
+              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><l>Humor and joy to your thinking are one,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="2" unit="char"/><l>so that you laugh with your whole body,</l>
+              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><l>and nothing dismays you more than the noise</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="2" unit="char"/><l>of our local superior titters,</l>
+              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><l>but then our young males are dismayed by yours</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="2" unit="char"/><l>to whom,except when a bitch is scented,</l>
+              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><l>chastity seems to present no problem.</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="2" unit="char"/><l><subst><del rend="overwritten" hand="#hand_blue_auden">b</del><add place="superimposed" hand="#hand_blue_auden">B</add></subst>eing quicker to sense unhappiness</l>
+              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><l>without having to be told the dreary</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="2" unit="char"/><l><subst><del rend="overstrike" hand="#hand_blue_auden">facts</del><add place="left" hand="#hand_blue_auden">details</add></subst> or who is to blame,in <del rend="overstrike" hand="#hand_blue_auden">a</del> dark hour<add hand="#hand_blue_auden" place="inline">s</add></l>
+              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><l>your silence <subst><del rend="overstrike" hand="#hand_blue_auden">can be of</del><add place="above" hand="#hand_blue_auden">may <unclear>do</unclear> us</add></subst>more <subst><del rend="overstrike" hand="#hand_blue_auden">help</del><add place="above" hand="#hand_blue_auden">good</add></subst> than any</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="2" unit="char"/><l>two-legged comforter. In citizens</l>
+              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><l>obedience is not always a virtue,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="2" unit="char"/><l>but yours need not make us uneasy</l>
+              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><l>for,though child-like<add hand="#hand_blue_auden" place="inline">,</add>you are complete,not a New</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="2" unit="char"/><l>Generation whom it's our duty</l>
+              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><l>to disappoint since,until they realise</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="2" unit="char"/><l>our failings,<subst><del rend="overwritten" hand="#hand_blue_auden">how</del><add place="superimposed" hand="#hand_blue_auden">they</add></subst> <subst><del rend="overstrike" hand="#hand_blue_auden">can they</del><add place="above" hand="#hand_blue_auden">wi<unclear>ll</unclear></add></subst> <add hand="#hand_blue_auden" place="inline">n</add>ever learn <del hand="#hand_blue_auden" rend="overstrike">to</del> <add hand="#hand_blue_auden" place="inline">how</add></l>
+              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><l><add hand="#hand_blue_auden" place="left">to</add> make<del rend="overtyped" hand="#type_black_auden">s</del> their own mistakes<subst><del rend="overwritten" hand="#hand_blue_auden">.</del><add place="superimposed" hand="#hand_blue_auden"><unclear>?</unclear></add></subst> Our difference <del hand="#hand_blue_auden" rend="overstrike">is</del></l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="2" unit="char"/><l><subst><del rend="overstrike" hand="#hand_blue_auden">what ties us friends</del><add place="left" hand="#hand_blue_auden">remain our bond</add></subst>,that and the one thing</l>
+              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><l>both have in common,a sense of theatre.</l>
+            </lg>
+            <ab>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="18" unit="char"/>____
+            </ab>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00456/" ed="1v" type="sheet"/>
+            <div>
+              <ab hand="#hand_blue_unident_0149">
+                1
+              </ab>
+            </div>
+          </div>
+         </div>
       </div>
     </body>
   </text>
