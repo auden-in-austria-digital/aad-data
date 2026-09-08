@@ -137,7 +137,7 @@
       <div type="transcription" xml:id="transcription_aad_0148" xml:lang="en">
         <div type="poem" hand="#type_black_auden">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00453/" ed="1r" type="sheet"/>
-          <div>
+          <div hand="#type_black_auden">
             <head>
               <lb/><space extent="undefined quantity of characters plus minimum" min="14" unit="char"/><hi rend="underline" hand="#type_black_auden"><rs ana="#ana_129"><rs type="lit_work" ref="#lit_work_id_331">TALKING TO MYSELF</rs></rs></hi>
               <lb/><space extent="undefined quantity of characters plus minimum" min="14" unit="char"/>(<hi rend="underline" hand="#type_black_auden">for <rs type="person" ref="#amp_person_439">Oliver Saks</rs></hi>)
@@ -212,10 +212,10 @@
               <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>in acts whose <hi rend="underline" hand="#type_black_auden">raison-d'etre</hi> escapes me. Why secrete</l>
               <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>fluid when I dole or stretch your lips when I joy?</l>
             </lg>
+           </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00454/" ed="1v" type="sheet"/>
         </div>
        </div>
-      </div>
     </body>
   </text>
 </TEI>
