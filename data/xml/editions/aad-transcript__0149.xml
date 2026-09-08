@@ -137,7 +137,7 @@
       <div type="transcription" xml:id="transcription_aad_0149" xml:lang="en">
         <div type="poem" hand="#type_black_auden">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00455/" ed="1r" type="sheet"/>
-          <div>
+          <div hand="#type_black_auden">
             <head>
               <lb/><space extent="undefined quantity of characters plus minimum" min="11" unit="char"/><hi rend="underline" hand="#type_black_auden"><rs ana="#ana_130"><rs type="lit_work" ref="#lit_work_id_364">TALKING TO DOGS</rs></rs></hi>
             </head>
@@ -198,6 +198,7 @@
             <ab>
               <lb/><space extent="undefined quantity of characters plus minimum" min="18" unit="char"/>____
             </ab>
+            </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00456/" ed="1v" type="sheet"/>
             <div>
               <ab hand="#hand_blue_unident_0149">
@@ -206,7 +207,6 @@
             </div>
           </div>
          </div>
-      </div>
     </body>
   </text>
 </TEI>
