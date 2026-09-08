@@ -75,7 +75,7 @@
                 <objectDesc>
                   <supportDesc>
                     <support>
-                      <watermark/>
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00455/ https://iiif.acdh.oeaw.ac.at/aad/aad_00456/">NEUSIEDLER JAPAN POST</watermark>
                       <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00455/">
                         <width>209</width>
                         <height>296</height>
