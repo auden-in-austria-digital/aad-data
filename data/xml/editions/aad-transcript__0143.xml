@@ -141,7 +141,7 @@
       <div type="transcription" xml:id="transcription_aad_0143" xml:lang="en">
         <div type="poem" hand="#type_cc_auden">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00610/" ed="1r" type="sheet"/>
-          <div>
+          <div hand="#type_cc_auden">
             <head>
               <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><hi rend="underline" hand="#type_cc_auden"><rs ana="#ana_125"><rs type="lit_work" ref="#lit_work_id_329">LINES TO <rs type="person" ref="#amp_person_432">DR.WALTER BIRK</rs> ON HIS RETIRING FROM GENERAL PRACTICE</rs></rs><space quantity="1" unit="char"/></hi>
             </head>
@@ -220,6 +220,7 @@
                 <lb/><rs type="person" ref="#amp_person_1">Auden</rs>
               </ab>
             </div>
+           </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00611/" ed="1v" type="sheet"/>
             <div>
               <ab hand="#stamp_gray_wsl">
@@ -228,7 +229,6 @@
             </div>
            </div>
          </div>
-      </div>
     </body>
   </text>
 </TEI>
