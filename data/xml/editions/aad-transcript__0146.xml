@@ -180,7 +180,7 @@
         <div type="envelope" hand="#type_black_auden">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00590/" ed="1r" type="envelope"/>
           <ab xml:lang="en">
-            <lb/><rs type="person" ref="#amp_person_1">W.H.Auden</rs><space quantity="15" unit="char"/><del rend="overtyped" hand="#type_black_auden"><hi rend="underline" hand="#type_black_auden"><foreign xml:lang="de">mit Luft-Po</foreign></hi></del><hi rend="underline" hand="#type_black_auden">AIR-MAIL</hi>
+            <lb/><rs type="person" ref="#amp_person_1">W.H.Auden</rs><space quantity="15" unit="char"/><del rend="overtyped" hand="#type_black_auden"><foreign xml:lang="de">mit Luft-Po</foreign></del><hi rend="underline" hand="#type_black_auden">AIR-MAIL</hi>
             <address>
                 <lb/><rs type="place" ref="#amp_place_id_29">77 St Mark's Place
                 <lb/>New York City 3
