@@ -214,7 +214,7 @@
             </p>
             <p>
               <lb/>Glaube <del rend="overstrike" hand="#hand_blue_auden">es</del> es soll gut genug sein
-              <lb/>das ich Freitag kommen kann.
+              <lb/><rs type="event" ref="#amp_event_id_259">das ich Freitag kommen kann</rs>.
             </p>
             <p>
               <lb/>Wenn es <hi rend="underline" hand="#hand_blue_auden">nicht</hi> so ist, <del rend="overstrike" hand="#hand_blue_auden"><unclear>s</unclear>chic<unclear>k</unclear><space unit="char" quantity="1"/></del>schicke
