@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0148" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Typescript W. H. Auden "Talking to Myself" 1971-04-01--1971-12-31</title>
+        <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484">Hechtl, Angelika</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Typescript W. H. Auden "Talking to Myself" 1971-04-01--1971-12-31</title>
+          <interpGrp>
+            <interp xml:id="ana_129">
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+          <name sameAs="#ahechtl"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
+                <collection>Documentation Center for Literature in Lower Austria</collection>
+                <idno>LS-Aud 1.1</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00453/ https://iiif.acdh.oeaw.ac.at/aad/aad_00454/">NEUSIEDLER JAPAN POST</watermark>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00453/">
+                        <width>210</width>
+                        <height>296</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00454/">
+                        <width>210</width>
+                        <height>296</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="type_black_auden" scribeRef="#amp_person_1" medium="type-black">Typewriting in black ink by W. H. Auden, monospaced slab-serif typeface</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1971-04-01T00:00:00+01:00" notAfter-iso="1971-12-31T23:59:59+01:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4801892-2">Kirchstetten</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <charDecl>
+        <glyph xml:id="exc_tt">
+          <desc>exclamation mark rendered by superimposing typed apostrophe character (') on typed period character (.)</desc>
+        </glyph>
+      </charDecl>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#smayer" when-iso="2026-08-20">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-09-02">basic text transcription added, physDesc populated; hand and language information, container structure added</change>
+      <change who="#smayer" when-iso="2026-09-04">original text features added, entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="3772" lry="6262">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00453/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3772" lry="5150">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00454/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0148" xml:lang="en">
+        <div type="poem" hand="#type_black_auden">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00453/" ed="1r" type="sheet"/>
+          <div hand="#type_black_auden">
+            <head>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="14" unit="char"/><hi rend="underline" hand="#type_black_auden"><rs ana="#ana_129"><rs type="lit_work" ref="#lit_work_id_331">TALKING TO MYSELF</rs></rs></hi>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="14" unit="char"/>(<hi rend="underline" hand="#type_black_auden">for <rs type="person" ref="#amp_person_439">Oliver Saks</rs></hi>)
+            </head>
+            <lg>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>Spring this year in Austria started off benig<subst><del rend="overtyped" hand="#type_black_auden">h</del><add place="superimposed" hand="#type_black_auden">n</add></subst>,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>the heavens lucid,the air stable,the about</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>sane to all feeders,vegetate or bestial:</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>the deathless minerals looked pleased iwth their regime,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>where what is not forbidden is comp<subst><del rend="overtyped" hand="#type_black_auden">lu</del><add place="superimposed" hand="#type_black_auden">ul</add></subst>sory.</l>
+            </lg>
+            <lg>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l><subst><del rend="overtyped" hand="#type_black_auden">s</del><add place="superimposed" hand="#type_black_auden">S</add></subst>hadows of course there are,Porn<subst><del rend="overtyped" hand="#type_black_auden">*a</del><add place="superimposed" hand="#type_black_auden">-A</add></subst>ds,with-it clergy,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>and hubby next door has taken to the bottle,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>but You have preserved your poise,strange rustic object,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>whom I,made in God's Image but already warped,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>a malapert will-worship,must bow to as Me.</l>
+            </lg>
+            <lg>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>My mortal manor,the carnal territory</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>allotted to my manage,also my fosterling</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>I must earn cash to support,my tutor also,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>but for whose neural instructions I could never</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>acknowledge what is or imagine what is not.</l>
+            </lg>
+            <lg>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>Instinctively timid,I think,having neither</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>fangs nor talons nor hooves nor venom,and therefore</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>all too pro<subst><del rend="overtyped" hand="#type_black_auden"><unclear>j</unclear></del><add place="superimposed" hand="#type_black_auden">n</add></subst>e to let the sun go down on your <subst><del rend="overstrike" hand="#hand_blue_auden">fear,</del><add place="right" hand="#hand_blue_auden">funk,</add></subst></l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>a poor smeller or,rather,a censor of smells,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>with a singular palate that enjoys hot food.</l>
+            </lg>
+            <lg>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>Unpredictably,deca<subst><del rend="overtyped" hand="#type_black_auden">s</del><add place="superimposed" hand="#type_black_auden">d</add></subst>es ago,You arrived</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>among that unending cascade of creatures spewed</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>from Nature'<subst><del rend="overtyped" hand="#type_black_auden">w</del><add place="superimposed" hand="#type_black_auden">s</add></subst> maw. A random event,says Science.</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>Random,my bottom<g ref="#exc_tt">!</g> a true miracle,say I,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>for who is not certain that he was meant to be?</l>
+            </lg>
+            <lg>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>As You augmented,I l<subst><del rend="overtyped" hand="#type_black_auden">l</del><add place="superimposed" hand="#type_black_auden">o</add></subst>oked at your looks askance:</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l><hi rend="underline" hand="#type_black_auden">Had I been free to pick Him,his architecture</hi></l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l><hi rend="underline" hand="#type_black_auden">would have been much m<subst><del rend="overtyped" hand="#type_black_auden"><gap unit="char" quantity="1" reason="illegible"></gap></del><add place="superimposed" hand="#type_black_auden">o</add></subst>re elegant. I've been let down</hi><g ref="#exc_tt">!</g></l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>By now,though,I've gotten used to your proportions,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>and all things considered I might have fared far worse.</l>
+            </lg>
+            <lg>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>Seldom have You been a bother. For many years</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>You were,I admit,a martyr to horn-colic</l>
+              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><l>(It did no good to tell You: <hi rend="underline" hand="#type_black_auden">But I'm not in love</hi><g ref="#exc_tt">!</g>),</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l><subst><del rend="overtyped" hand="#type_black_auden"><gap unit="char" quantity="1" reason="illegible"></gap></del><add place="superimposed" hand="#type_black_auden">h</add></subst>ow stoutly,though,You've repelled all germ invasions,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>but never chastised my trantrums with a megrim.</l>
+            </lg>
+            <lg>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>You are the Injured Party for,if short-sighted,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>I am the book-worm who tired You,if short-winded</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>as cigarette addicts are,I was the pusher</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>who got You hooked. (Had we been both a bit younger,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>I mi<subst><del rend="overtyped" hand="#type_black_auden">f</del><add place="superimposed" hand="#type_black_auden">g</add></subst>ht well have mischiefed You worse with a needle.)</l>
+            </lg>
+            <lg>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>I'm always amazed at how little I know You.</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>Your coasts and outgates I know,for I govern <del rend="overtyped" hand="#type_black_auden">thenere</del> there,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>but what goes on inland,the rites,<subst><del rend="overtyped" hand="#type_black_auden">h</del><add place="superimposed" hand="#type_black_auden">t</add></subst>he social codes,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>your torrents,salt and sunless,remain enigmas:</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>what I believe is on doctor's hearsay only.</l>
+            </lg>
+            <lg>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>Our married life is a drama,but no stage-play where</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>what is not spoken is not thought: in our theatre</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>all that I cannot syllable You will pronounce</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>in acts whose <hi rend="underline" hand="#type_black_auden">raison-d'etre</hi> escapes me. Why secrete</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>fluid when I dole or stretch your lips when I joy?</l>
+            </lg>
+           </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00454/" ed="1v" type="sheet"/>
+        </div>
+       </div>
+    </body>
+  </text>
+</TEI>

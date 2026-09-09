@@ -210,7 +210,7 @@
               <lb/>Erkältung!<gap reason="illegible" unit="char" quantity="1"/>
             </p>
             <p>
-              <lb/><del rend="overstrike" hand="#hand_blue_auden"><gap reason="illegible" unit="char" quantity="1"/></del> Will Dienstag um 19&#xB7;15 kommen
+              <lb/><del rend="overstrike" hand="#hand_blue_auden"><gap reason="illegible" unit="char" quantity="1"/></del> <rs type="event" ref="#amp_event_id_189">Will Dienstag um 19&#xB7;15 kommen</rs>
             </p>
             <closer>
               <salute>
