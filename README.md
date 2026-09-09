@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17367281.svg)](https://doi.org/10.5281/zenodo.17367281)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22671127.svg)](https://doi.org/10.5281/zenodo.22671127)
 
 # aad-data
 
