@@ -59,8 +59,11 @@
         <sch:title>correspAction requirements</sch:title>
         
         <sch:rule context="tei:titleStmt/tei:title[@level='a']">
-            <sch:assert test="not(contains(., ' to ')) or contains(., 'copy') or contains(., 'Copy') or (//tei:correspDesc and count(//tei:correspDesc/tei:correspAction) > 1)">
-                documents with titles containing " to " must have correspDesc element with more than one correspAction element (unless title contains "copy" or "Copy")
+            <sch:assert test="not(contains(., ' to '))
+                or not(matches(., 'card|envelope|letter|telegram', 'i'))
+                or matches(., 'cop(y|ies|ied)', 'i')
+                or (//tei:correspDesc and count(//tei:correspDesc/tei:correspAction) > 1)">
+                documents with titles containing "to", as well as "card", "envelope", "letter", or "telegram", must have correspDesc element with more than one correspAction element (unless title indicates "copy" document)
             </sch:assert>
         </sch:rule>
         
