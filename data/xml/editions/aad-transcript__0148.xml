@@ -109,6 +109,11 @@
       <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     </xenoData>
     <encodingDesc>
+      <charDecl>
+        <glyph xml:id="exc_tt">
+          <desc>exclamation mark rendered by superimposing typed apostrophe character (') on typed period character (.)</desc>
+        </glyph>
+      </charDecl>
       <listPrefixDef>
         <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
       </listPrefixDef>
@@ -174,20 +179,20 @@
               <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>Unpredictably,deca<subst><del rend="overtyped" hand="#type_black_auden">s</del><add place="superimposed" hand="#type_black_auden">d</add></subst>es ago,You arrived</l>
               <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>among that unending cascade of creatures spewed</l>
               <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>from Nature'<subst><del rend="overtyped" hand="#type_black_auden">w</del><add place="superimposed" hand="#type_black_auden">s</add></subst> maw. A random event,says Science.</l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>Random,my bottom! a true miracle,say I,</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>Random,my bottom<g ref="#exc_tt">!</g> a true miracle,say I,</l>
               <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>for who is not certain that he was meant to be?</l>
             </lg>
             <lg>
               <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>As You augmented,I l<subst><del rend="overtyped" hand="#type_black_auden">l</del><add place="superimposed" hand="#type_black_auden">o</add></subst>oked at your looks askance:</l>
               <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l><hi rend="underline" hand="#type_black_auden">Had I been free to pick Him,his architecture</hi></l>
-              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l><hi rend="underline" hand="#type_black_auden">would have been much m<subst><del rend="overtyped" hand="#type_black_auden"><gap unit="char" quantity="1" reason="illegible"></gap></del><add place="superimposed" hand="#type_black_auden">o</add></subst>re elegant. I've been let down</hi>!</l>
+              <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l><hi rend="underline" hand="#type_black_auden">would have been much m<subst><del rend="overtyped" hand="#type_black_auden"><gap unit="char" quantity="1" reason="illegible"></gap></del><add place="superimposed" hand="#type_black_auden">o</add></subst>re elegant. I've been let down</hi><g ref="#exc_tt">!</g></l>
               <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>By now,though,I've gotten used to your proportions,</l>
               <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>and all things considered I might have fared far worse.</l>
             </lg>
             <lg>
               <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>Seldom have You been a bother. For many years</l>
               <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>You were,I admit,a martyr to horn-colic</l>
-              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><l>(It did no good to tell You: <hi rend="underline" hand="#type_black_auden">But I'm not in love</hi>!),</l>
+              <lb/><space extent="undefined quantity of characters" min="1" unit="char"/><l>(It did no good to tell You: <hi rend="underline" hand="#type_black_auden">But I'm not in love</hi><g ref="#exc_tt">!</g>),</l>
               <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l><subst><del rend="overtyped" hand="#type_black_auden"><gap unit="char" quantity="1" reason="illegible"></gap></del><add place="superimposed" hand="#type_black_auden">h</add></subst>ow stoutly,though,You've repelled all germ invasions,</l>
               <lb/><space extent="undefined quantity of characters plus minimum" min="1" unit="char"/><l>but never chastised my trantrums with a megrim.</l>
             </lg>
