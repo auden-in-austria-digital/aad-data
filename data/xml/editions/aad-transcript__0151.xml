@@ -68,6 +68,7 @@
           <witness n="1">
             <msDesc>
               <msIdentifier>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
                 <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
                 <collection>Documentation Center for Literature in Lower Austria</collection>
                 <idno>LS-Aud 2.11</idno>
@@ -164,12 +165,12 @@
                 </date>
               </dateline>
               <salute>
-                <lb/>Dear Mr. <rs type="person" ref="#amp_person_1">Auden</rs>,
+                <lb/>Dear <rs type="person" ref="#amp_person_1">Mr. Auden</rs>,
               </salute>
             </opener>
             <p>
               <lb/><space unit="char" quantity="4"/><rs type="person" ref="#amp_person_137">Dr. Kraus</rs> is at present in <rs type="place" ref="#amp_place_id_420">Istanbul</rs> on vacation.
-              <lb/>I hope y<subst><del rend="erased" hand="#type_cc_bronold"><unclear>i</unclear></del><add place="superimposed" hand="#type_cc_bronold">o</add></subst>u have meanwhile received the printe<subst><del rend="erased" hand="#type_cc_bronold">s</del><add place="superimposed" hand="#type_cc_bronold">d</add></subst> invitation
+              <lb/>I hope y<subst><del rend="erased" hand="#type_black_bronold"><unclear>i</unclear></del><add place="superimposed" hand="#type_black_bronold">o</add></subst>u have meanwhile received the printe<subst><del rend="erased" hand="#type_black_bronold">s</del><add place="superimposed" hand="#type_black_bronold">d</add></subst> invitation
               <lb/>for <rs type="event" ref="#amp_event_id_3">the 28th</rs>. Gladly, we will send one of our assistants,
               <lb/><rs type="person" ref="#amp_person_284">Mr. Urbach</rs>, to call on you at the <rs type="place" ref="#amp_place_id_225">Altenburger Hof</rs> and walk
               <lb/>with you to the <rs type="place" ref="#amp_place_id_351">Josefsplatz</rs>. <space unit="char" quantity="1"/>It takes five minutes to walk,
@@ -178,8 +179,8 @@
             </p>
             <p>
               <lb/><space unit="char" quantity="5"/>According to <rs type="person" ref="#amp_person_137">Dr. Kraus</rs>' wishes I have selected the
-              <lb/><rs type="lit_work" ana="#ana_111">poems to be read by <rs type="person" ref="#amp_person_129">Mr. Benning</rs></rs>, and he will need about 35
-              <lb/>to 40 minutes. <space unit="char" quantity="1"/>We would be very glad if you <subst><del rend="erased" hand="#type_cc_bronold"><unclear>w</unclear></del><add place="superimposed" hand="#type_cc_bronold">c</add></subst>ould <subst><del rend="overtyped" hand="#type_cc_bronold">chos</del><add place="superimposed" hand="#type_cc_bronold">read</add></subst><unclear><del rend="erased" hand="#type_cc_bronold">e</del></unclear>
+              <lb/><rs type="lit_work" ana="acdh:aad-transcript__0115.xml#ana_111">poems to be read by <rs type="person" ref="#amp_person_129">Mr. Benning</rs></rs>, and he will need about 35
+              <lb/>to 40 minutes. <space unit="char" quantity="1"/>We would be very glad if you <subst><del rend="erased" hand="#type_black_bronold">w</del><add place="superimposed" hand="#type_black_bronold">c</add></subst>ould <subst><del rend="overtyped" hand="#type_black_bronold">chos</del><add place="superimposed" hand="#type_black_bronold">read</add></subst><unclear><del rend="erased" hand="#type_black_bronold">e</del></unclear>
               <lb/>for l5 to 20 minutes, so that the whole program lasts for
               <lb/>about one hour.
             </p>
