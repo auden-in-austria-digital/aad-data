@@ -30,7 +30,7 @@
         <edition>
           <title level="a">Typed Letter Signed Paul Bachmann to W. H. Auden 1972-06-21</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_132">
               <desc/>
               <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -154,12 +154,12 @@
              <opener>
                <seg hand="#print_black_bachmann">
                  <lb/>RECHTSANWALT
-                 <lb/><persName>D<hi rend="superscript">R.</hi> PAUL BACHMANN</persName>
-                 <lb/><placeName><address><rs type="place" ref="#amp_place_id_177">1O1O WIEN I, OPERNRING 8</rs></address></placeName>
+                 <lb/><persName><rs type="person" ref="#amp_person_241">D<hi rend="superscript">R.</hi> PAUL BACHMANN</rs></persName>
+                 <lb/><placeName><address><rs type="place" ref="#amp_place_id_551">1O1O WIEN I, OPERNRING 8</rs></address></placeName>
                  <lb/>FERNRUF 52 87 O1 U. 52 87 O2
-                 <lb/>SCHELHAMMER &amp; SCHATTERA WIEN
+                 <lb/><rs type="org" ref="#amp_organization_275">SCHELHAMMER &amp; SCHATTERA</rs> WIEN
                  <lb/>KONTO NR. 14.217
-                 <lb/>POSTSPARKASSE WIEN 121.O43
+                 <lb/><rs type="org" ref="#amp_organization_276">POSTSPARKASSE</rs> WIEN 121.O43
                </seg>
                <dateline>  
                  <date>
@@ -179,14 +179,14 @@
                   </placeName>
                </seg>
                <seg>
-                 <lb/>Betr.: <hi rend="underline" hand="#type_black_bachmann">Prof. Auden - Verwaltungsgerichtshofbeschwerde</hi>
+                 <lb/>Betr.: <hi rend="underline" hand="#type_black_bachmann"><rs type="person" ref="#amp_person_1">Prof. Auden</rs> - <rs ana="#ana_132">Verwaltungsgerichtshofbeschwerde</rs></hi>
                </seg>
                <salute>
-                 <lb/>Sehr geehrter Herr Professor!
+                 <lb/>Sehr geehrter <rs type="person" ref="#amp_person_1">Herr Professor</rs>!
                </salute>
              </opener>
              <p>
-               <lb/>In der Anlage übersende ich Ihnen eine Vollmaccht und bitte Sie
+               <lb/>In der Anlage übersende ich Ihnen eine Vollmacht und bitte Sie
                <lb/>diese zu unterfertigen und sofort an mich zu retournieren, da
                <lb/>ich sie dringend für die Verwaltungsgerichtshofbeschwerde be-
                <lb/>nötige.
