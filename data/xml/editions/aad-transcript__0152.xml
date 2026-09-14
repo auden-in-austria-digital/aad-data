@@ -154,8 +154,8 @@
              <opener>
                <seg hand="#print_black_bachmann">
                  <lb/>RECHTSANWALT
-                 <lb/><persName>DR. PAUL BACHMANN</persName>
-                 <lb/><placeName><rs type="place" ref="#amp_place_id_177">1O1O WIEN I, OPERNRING 8</rs></placeName>
+                 <lb/><persName>D<hi rend="superscript">R.</hi> PAUL BACHMANN</persName>
+                 <lb/><placeName><address><rs type="place" ref="#amp_place_id_177">1O1O WIEN I, OPERNRING 8</rs></address></placeName>
                  <lb/>FERNRUF 52 87 O1 U. 52 87 O2
                  <lb/>SCHELHAMMER &amp; SCHATTERA WIEN
                  <lb/>KONTO NR. 14.217
@@ -166,14 +166,21 @@
                    <lb/><space unit="char" quantity="41"/><rs type="place" ref="#amp_place_id_1">Wien</rs>, am 21.6.1972
                  </date>
                </dateline>
-                  <lb/>Herrn
+               <seg>
                   <persName>
-                    <lb/><rs type="person" ref="#amp_person_1">Prof. Wystan Hugh A u d e n</rs>
+                    <lb/><space unit="char" quantity="35"/>Herrn
+                    <lb/><space unit="char" quantity="35"/><rs type="person" ref="#amp_person_1">Prof. Wystan Hugh A u d e n</rs>
                   </persName>
                   <placeName>
-                    <lb/><rs type="place" ref="#amp_place_id_2">Hinterholz 6
-                    <lb/>3062 Kirchstetten</rs>
+                   <address>
+                    <lb/><space unit="char" quantity="35"/><rs type="place" ref="#amp_place_id_2">Hinterholz 6
+                    <lb/><space unit="char" quantity="35"/>3062 Kirchstetten</rs>
+                   </address>
                   </placeName>
+               </seg>
+               <seg>
+                 <lb/>Betr.: <hi rend="underline" hand="#type_black_bachmann">Prof. Auden - Verwaltungsgerichtshofbeschwerde</hi>
+               </seg>
                <salute>
                  <lb/>Sehr geehrter Herr Professor!
                </salute>
