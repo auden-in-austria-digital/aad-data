@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0152" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Typed Letter Signed Paul Bachmann to W. H. Auden 1972-06-21</title>
+        <author ref="https://d-nb.info">Bachmann, Paul</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484">Hechtl, Angelika</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Typed Letter Signed Paul Bachmann to W. H. Auden 1972-06-21</title>
+          <interpGrp>
+            <interp>
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+          <name sameAs="#ahechtl"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
+                <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
+                <collection>Documentation Center for Literature in Lower Austria</collection>
+                <idno>LS-Aud 2.4</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark/>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00471/">
+                        <width>209</width>
+                        <height>297</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00472/">
+                        <width>209</width>
+                        <height>297</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_blue_bachmann" scribeRef="#amp_person_241" medium="ink-blue">Handwriting in blue ink by Paul Bachmann</handNote>
+                  <handNote xml:id="hand_black_auden" scribeRef="#amp_person_1" medium="ink-black">Handwriting in black ink by W. H. Auden</handNote>
+                  <handNote xml:id="hand_blue_unident_0152" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="type_black_bachmann" scribeRef="#amp_person_241" medium="type">Typewriting in black ink authored by Paul Bachmann</typeNote>
+                  <typeNote xml:id="print_black_bachmann" scribeRef="#amp_person_241" medium="print-black">Preprinted writing in black authored by Paul Bachmann</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1972-06-21T00:00:00+01:00" notAfter-iso="1972-06-21T23:59:59+01:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de"/>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1973-09-24T00:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <placeName><rs type="place" ref="#amp_place_id_2">Kirchstetten</rs></placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#smayer" when-iso="2026-09-14">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-09-14">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-09-14">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="3788" lry="5172">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00471/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3786" lry="5174">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00472/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0152" xml:lang="de">
+         <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00471/" ed="1r" type="sheet"/>
+           <div type="letter_message" hand="#type_black_bachmann" xml:lang="de">
+             <opener>
+               <seg hand="#print_black_bachmann">
+                 <lb/>RECHTSANWALT
+                 <lb/><persName>DR. PAUL BACHMANN</persName>
+                 <lb/><placeName><rs type="place" ref="#amp_place_id_177">1O1O WIEN I, OPERNRING 8</rs></placeName>
+                 <lb/>FERNRUF 52 87 O1 U. 52 87 O2
+                 <lb/>SCHELHAMMER &amp; SCHATTERA WIEN
+                 <lb/>KONTO NR. 14.217
+                 <lb/>POSTSPARKASSE WIEN 121.O43
+               </seg>
+               <dateline>  
+                 <date>
+                   <lb/><space unit="char" quantity="41"/><rs type="place" ref="#amp_place_id_1">Wien</rs>, am 21.6.1972
+                 </date>
+               </dateline>
+                  <lb/>Herrn
+                  <persName>
+                    <lb/><rs type="person" ref="#amp_person_1">Prof. Wystan Hugh A u d e n</rs>
+                  </persName>
+                  <placeName>
+                    <lb/><rs type="place" ref="#amp_place_id_2">Hinterholz 6
+                    <lb/>3062 Kirchstetten</rs>
+                  </placeName>
+               <salute>
+                 <lb/>Sehr geehrter Herr Professor!
+               </salute>
+             </opener>
+             <p>
+               <lb/>In der Anlage übersende ich Ihnen eine Vollmaccht und bitte Sie
+               <lb/>diese zu unterfertigen und sofort an mich zu retournieren, da
+               <lb/>ich sie dringend für die Verwaltungsgerichtshofbeschwerde be-
+               <lb/>nötige.
+             </p>
+             <closer>
+               <salute>
+                 <lb/><space quantity="26" unit="char"/>Mit vorzüglicher Hochachtung
+               </salute>
+               <signed hand="#hand_blue_bachmann">
+                 <lb/><rs type="person" ref="#amp_person_241"><unclear>Paul Bachmann</unclear></rs>
+               </signed>
+               <signed hand="#type_black_bachmann">
+                 <lb/><space unit="char" quantity="27"/>(<rs type="person" ref="#amp_person_241">Dr. Paul Bachmann</rs>)
+               </signed>            
+             </closer>
+             <postscript>
+               <p>
+                 <lb/>1 Vollmacht
+                 <lb/><hi rend="underline" hand="#type_black_bachmann">EXPRESS </hi>
+               </p>
+             </postscript>
+             </div>
+             <div>
+               <ab hand="#hand_black_auden">
+                 <lb/><unclear>0</unclear>2252<unclear>/</unclear> 3293
+                 <lb/>3065
+               </ab>
+             </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00472/" ed="1v" type="sheet"/>
+           <div>
+             <ab hand="#hand_blue_unident_0152">
+               <lb/>14
+             </ab>
+           </div>
+         </div>
+      </div>
+    </body>
+  </text>
+</TEI>
