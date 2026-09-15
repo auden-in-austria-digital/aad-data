@@ -67,6 +67,7 @@
           <witness n="1">
             <msDesc>
               <msIdentifier>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
                 <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
                 <collection>Documentation Center for Literature in Lower Austria</collection>
                 <idno>LS-Aud 2.4</idno>
@@ -88,10 +89,13 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote/>
+                  <handNote xml:id="hand_blue_bachmann" scribeRef="#amp_person_241" medium="ink-blue">Handwriting in blue ink by Paul Bachmann</handNote>
+                  <handNote xml:id="hand_black_auden" scribeRef="#amp_person_1" medium="ink-black">Handwriting in black ink by W. H. Auden</handNote>
+                  <handNote xml:id="hand_blue_unident_0153" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="type_black_bachmann" scribeRef="#amp_person_241" medium="type">Typewriting in black ink authored by Paul Bachmann</typeNote>
+                  <typeNote xml:id="print_black_bachmann" scribeRef="#amp_person_241" medium="print-black">Preprinted writing in black authored by Paul Bachmann</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -115,11 +119,22 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="de"/>
       </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1972-06-21T00:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <placeName><rs type="place" ref="#amp_place_id_2">Kirchstetten</rs></placeName>
+        </correspAction>
+      </correspDesc>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2026-09-15">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-09-15">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-09-15">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-09-15">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -132,11 +147,94 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0153" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0153" xml:lang="de">
+          <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00473/" ed="1r" type="sheet"/>
+            <div type="letter_message" hand="#type_black_bachmann" xml:lang="de">
+              <opener>
+                <seg hand="#print_black_bachmann">
+                  <lb/>RECHTSANWALT
+                  <lb/><persName><rs type="person" ref="#amp_person_241">D<hi rend="superscript">R.</hi> PAUL BACHMANN</rs></persName>
+                  <lb/><placeName><address><rs type="place" ref="#amp_place_id_551">1O1O WIEN I, OPERNRING 8</rs></address></placeName>
+                  <lb/>FERNRUF 52 87 O1 U. 52 87 O2
+                  <lb/><rs type="org" ref="#amp_organization_275">SCHELHAMMER &amp; SCHATTERA</rs> <rs type="place" ref="#amp_place_id_1">WIEN</rs>
+                  <lb/>KONTO NR. 14.217
+                  <lb/><rs type="org" ref="#amp_organization_276">POSTSPARKASSE</rs> <rs type="place" ref="#amp_place_id_1">WIEN</rs> 121.O43
+                </seg>
+                <dateline>  
+                  <date>
+                    <lb/><space unit="char" quantity="38"/><rs type="place" ref="#amp_place_id_1">Wien</rs>, am 21.6.1972
+                  </date>
+                </dateline>
+                <seg>
+                  <persName>
+                    <lb/><space unit="char" quantity="32"/>Herrn
+                    <lb/><space unit="char" quantity="32"/><rs type="person" ref="#amp_person_1">Prof. Wystan Hugh A u d e n</rs>
+                  </persName>
+                  <placeName>
+                    <address>
+                      <lb/><space unit="char" quantity="32"/><rs type="place" ref="#amp_place_id_2">Hinterholz 6
+                      <lb/><space unit="char" quantity="32"/>3062 Kirchstetten</rs>
+                    </address>
+                  </placeName>
+                </seg>
+                <seg>
+                  <lb/>Betr.: <hi rend="underline" hand="#type_black_bachmann"><rs type="person" ref="#amp_person_1">Prof. Auden</rs> - <rs ana="#ana_132">Verwaltungsgerichtshofbeschwerde</rs></hi>
+                </seg>
+                <salute>
+                  <lb/>Sehr geehrter <rs type="person" ref="#amp_person_1">Herr Professor</rs>!
+                </salute>
+              </opener>
+              <p>
+                <lb/>In der Anlage erlaube ich mir Ihnen die Durchschrift jener
+                <lb/>Verwaltungsgerichtsbeschwerde zu übersenden, die heute frist-
+                <lb/>gerecht dem Verwaltungsgerichtshof übersandt worden ist.
+              </p>
+              <p>
+                <lb/>Gleichzeit erinnere ich noch einmal daran, daß ich Ihnen mit
+                <lb/>einem Expresschreiben vom heutigen Tage ein Vollmachtsformular
+                <lb/>übersandt habe, dieses sogleich nach Unterfertigung an mich
+                <lb/>zurück zu schicken, da ich diese Vollmacht dem Verwaltungs-
+                <lb/>gerichtshof nachreichen muß.
+              </p>
+              <closer>
+                <salute>
+                  <lb/><space quantity="28" unit="char"/>Mit vorzüglicher Hochachtung
+                </salute>
+                <signed hand="#hand_blue_bachmann">
+                  <lb/><rs type="person" ref="#amp_person_241"><unclear>Paul Bachmann</unclear></rs>
+                </signed>
+                <signed hand="#type_black_bachmann">
+                  <lb/><space unit="char" quantity="31"/>(<rs type="person" ref="#amp_person_241">Dr. Paul Bachmann</rs>)
+                </signed>            
+              </closer>
+              <postscript>
+                <p>
+                  <lb/>1 Beilage
+                </p>
+              </postscript>
+            </div>
+            <div hand="#hand_black_auden">
+              <ab>
+                <lb/>Bubla 02252/3065
+                <lb/>3293
+              </ab>
+              <ab>
+                <lb/>Kremsk<unclear>e</unclear>r Kremse<unclear>r</unclear>gasse 26
+              </ab>
+              <ab>
+                <lb/><del rend="overstrike" hand="#hand_black_auden">24</del>. 34 24
+                <lb/>72 67
+              </ab>
+            </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00474/" ed="1v" type="sheet"/>
-      </div>
+            <div>
+              <ab hand="#hand_blue_unident_0153">
+                <lb/>13
+              </ab>
+            </div>
+          </div>
+        </div>
     </body>
   </text>
 </TEI>

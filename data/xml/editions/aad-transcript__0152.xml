@@ -128,7 +128,7 @@
       </langUsage>
       <correspDesc>
         <correspAction type="sent">
-          <date notBefore-iso="1973-09-24T00:00:00+01:00"/>
+          <date notBefore-iso="1972-06-21T00:00:00+01:00"/>
         </correspAction>
         <correspAction type="received">
           <persName ref="#amp_person_1">Auden, W. H.</persName>
@@ -162,9 +162,9 @@
                  <lb/><persName><rs type="person" ref="#amp_person_241">D<hi rend="superscript">R.</hi> PAUL BACHMANN</rs></persName>
                  <lb/><placeName><address><rs type="place" ref="#amp_place_id_551">1O1O WIEN I, OPERNRING 8</rs></address></placeName>
                  <lb/>FERNRUF 52 87 O1 U. 52 87 O2
-                 <lb/><rs type="org" ref="#amp_organization_275">SCHELHAMMER &amp; SCHATTERA</rs> WIEN
+                 <lb/><rs type="org" ref="#amp_organization_275">SCHELHAMMER &amp; SCHATTERA</rs> <rs type="place" ref="#amp_place_id_1">WIEN</rs>
                  <lb/>KONTO NR. 14.217
-                 <lb/><rs type="org" ref="#amp_organization_276">POSTSPARKASSE</rs> WIEN 121.O43
+                 <lb/><rs type="org" ref="#amp_organization_276">POSTSPARKASSE</rs> <rs type="place" ref="#amp_place_id_1">WIEN</rs> 121.O43
                </seg>
                <dateline>  
                  <date>
