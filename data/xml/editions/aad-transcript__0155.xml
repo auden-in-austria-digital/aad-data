@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0155" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Typed Letter Signed Paul Bachmann to W. H. Auden 1972-08-04</title>
+        <author ref="https://d-nb.info">Bachmann, Paul</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484">Hechtl, Angelika</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Typed Letter Signed Paul Bachmann to W. H. Auden 1972-08-04</title>
+          <interpGrp>
+            <interp>
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+          <name sameAs="#ahechtl"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
+                <collection>Documentation Center for Literature in Lower Austria</collection>
+                <idno>LS-Aud 2.4</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark/>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00477/">
+                        <width>210</width>
+                        <height>297</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00478/">
+                        <width>210</width>
+                        <height>297</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00479/">
+                        <width>210</width>
+                        <height>297</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00480/">
+                        <width>210</width>
+                        <height>297</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote/>
+                </handDesc>
+                <typeDesc>
+                  <typeNote/>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1972-08-04T00:00:00+01:00" notAfter-iso="1972-08-04T23:59:59+01:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident=""/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#tfruehwirth" when-iso="2026-09-15">TEI/XML template populated with csv2xml.py</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="3802" lry="5166">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00477/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3802" lry="5172">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00478/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3804" lry="5168">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00479/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3806" lry="5166">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00480/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0155" xml:lang="">
+        <div/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00477/" ed="1r" type="sheet"/>
+        Betr.: Prof. Auden
+        Sehr geehrter Herr Professor!
+        Den Inhalt des mit Mr.Kalmann am 3.1f.M. geführten Gespräches
+        darf ich wie folgt festhalten:
+        Die Ihnen ehemals gehörige Hälfte der Liegenschaft wurde zu
+        gunsten der Republik Österreich durch eine Pfandrechtsvor-
+        merkung für eine Abgabenforderung in der Höhe von § 553.169,
+        am 31.3.1971 belastet. Diese mit S 553.169 belastete Hälfte
+        der Liegenschaft wurde dann an Herrn Kalmann übertragen.
+        Die Übertragung der belasteten Liegenschaftshälfte bewirkt
+        keineswegs, daß Herr Kalmann persönlich für diese Abgaben-
+        forderung haftet, sondern bedeutet lediglich, daß die Liegen-
+        schaft weiterhin belastet bleibt. Durch die Schenkung ist.
+        also das Pfandrecht für die Republik Österreich auf der
+        halben ehemals Ihnen gehörigen Liegenschaft nicht erloschen,
+        sondern bestehen geblieben.
+        Herr Dr. Bubla, dem ich eine Durchschrift dieses Briefes
+        ebenfalls übersende, hatte mir seinerzeit erklärt, der
+        Schenkungsvertrag wäre aus irgendeinem Anlasse Beamten
+        des Finanzamtes mitgeteilt worden. Erst nach Kenntnis von
+        der Schenkung der halben Liegenschaft an Herrn Kalmann er-
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00478/" ed="1v" type="sheet"/>
+        folgte die Vormerkung auf der Ihnen gehörigen Liegenschafts-
+        hälfte. Herr Dr. Bubla hat daraus den Schluß gezogen, daß das
+        Finanzamt bei Vormerkung des Pfanrechtes schlecht gläubig
+        gewesen ist, da das Finanzamt ja wußte, daß die Liegenschafts-
+        hälfte außerbücherlich nicht mehr Ihnen, sondern Herrn Kalmann
+        gehörte. Dessen ungeachtet hat aber das Finanzamt die Ihnen
+        noch bücherlich gehörige Liegenschaftshälfte durch die Pfand-
+        rechtsvormerkung belastet. Dies war nur deshalb möglich, da
+        der im Jahre 1969 abgeschlossene Schenkungsvertrag nicht ver-
+        büchert worden war.
+        Erst nachdem Sie mit mir im April 1971 Kontakt aufgenommen
+        haben, wurde die Verbücherung des Schenkungsvertrages vor-
+        genommen.
+        Herrn Dr. Bubla bitte ich daher um eine ergänzende Information
+        um überprüfen zu können, ob und welche Maßnahmen ergriffen
+        werden können um die Ihnen ehemals gehörige Liegenschafts-
+        hälfte lastenfrei zu stellen.
+        Sollte die Republik Österreich aber nicht dazu gebracht werden
+        können, die Pfandrechtsvormerkung zu löschen und sollte die
+        Republik Österreich in dem Finanzstreit mit Ihnen, sehr geehrter
+        Herr Professor, obsiegen, so könnte die Republik Österreich
+        höchstens die eine Liegenschaftshälfte zur Versteigerung
+        bringen. Es ist eine Erfahrungstatsache, daß die Hälfte einer
+        Liegenschaft weniger wert ist, als die rechnerische Hälfte
+        der ganzen Liegenschaft. Außerdem ist zu berücksichtigen, daß
+        Schätzungen in einem Versteigerungsverfahren in der Regel
+        nicht sehr hoch ausfallen. Das geringste Gebot beträgt nur die
+        Hälfte des Schätzwertes. Schlimmstenfalls also müßte Herr
+        Kalmann diese eine Hälfte nocheinmal ersteigern.
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00479/" ed="2r" type="sheet"/>
+        Herr Kalmann teilte mir auch mit, daß Frau Fuchs behaupte,
+        der seinerzeit abgeschlossene Kaufvertrag wäre nicht verbüchert
+        worden.
+        Beim Bezirksgericht Neulengbach habe ich in Gegenwart von
+        Herrn Kalmann telefonisch festgestellt, daß der am 3.11.1966
+        abgeschlossene Kaufvertrag zur Tagebuchzahl 1711/69 grund-
+        bücherlich durch das BG Neulengbach durchgeführt worden ist.
+        Das Eigentumsrecht ist nicht mehr für Frau Fuchs, sondern
+        für Herrn Kalmann eingetragen.
+        Die Durchschrift meines Briefes an Herrn Dr. Bubla schließe
+        ich Ihnen zu Ihrer Information an.
+        Mit vorzüglicher Hochachtung
+        (Dr. Raul/Bachmann)
+        1 Beilage
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00480/" ed="2v" type="sheet"/>
+      </div>
+    </body>
+  </text>
+</TEI>
