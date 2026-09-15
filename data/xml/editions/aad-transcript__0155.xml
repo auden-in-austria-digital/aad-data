@@ -176,18 +176,18 @@
                 </seg>
                 <dateline>  
                   <date>
-                    <lb/><space unit="char" quantity="41"/><rs type="place" ref="#amp_place_id_1">Wien</rs>,am 4.8.l972
+                    <lb/><space unit="char" quantity="37"/><rs type="place" ref="#amp_place_id_1">Wien</rs>,am 4.8.l972
                   </date>
                 </dateline>
                 <seg>
                   <persName>
-                    <lb/><space unit="char" quantity="33"/>Herrn <rs type="person" ref="#amp_person_1">Professor
-                    <lb/><space unit="char" quantity="33"/>Wystan Hugh A u d e n</rs>
+                    <lb/><space unit="char" quantity="30"/>Herrn <rs type="person" ref="#amp_person_1">Professor
+                    <lb/><space unit="char" quantity="30"/>Wystan Hugh A u d e n</rs>
                   </persName>
                   <placeName>
                     <address>
-                      <lb/><space unit="char" quantity="33"/><rs type="place" ref="#amp_place_id_2">Hinterholz 6
-                        <lb/><space unit="char" quantity="33"/>3062 Kirchstetten</rs>
+                      <lb/><space unit="char" quantity="30"/><rs type="place" ref="#amp_place_id_2">Hinterholz 6
+                        <lb/><space unit="char" quantity="30"/>3062 Kirchstetten</rs>
                     </address>
                   </placeName>
                 </seg>
@@ -216,7 +216,7 @@
               </p>
               <p>
                 <lb/>Herr Dr.Bubla, dem ich eine Durchschrift dieses Briefes
-                <lb/>ebenfalls übersende, hatte mir seinerzeit erklärt, der
+                <lb/><add hand="#hand_blue_bachmann" place="inline">e</add>benfalls übersende, hatte mir seinerzeit erklärt, der
                 <lb/>Schenkungsvertrag wäre aus irgendeinem Anlasse Beamten
                 <lb/>des Finanzamtes mitgeteilt worden. Erst nach Kenntnis von
                 <lb/>der Schenkung der halben Liegenschaft an Herrn Kalmann er-
@@ -279,13 +279,13 @@
               </p>
               <closer>
                 <salute>
-                  <lb/><space quantity="28" unit="char"/>Mit vorzüglicher Hochachtung
+                  <lb/><space quantity="24" unit="char"/>Mit vorzüglicher Hochachtung
                 </salute>
                 <signed hand="#hand_blue_bachmann">
                   <lb/><rs type="person" ref="#amp_person_241"><unclear>Paul Bachmann</unclear></rs>
                 </signed>
                 <signed hand="#type_black_bachmann">
-                  <lb/><space unit="char" quantity="31"/>(<rs type="person" ref="#amp_person_241">Dr. Paul Bachmann</rs>)
+                  <lb/><space unit="char" quantity="26"/>(<rs type="person" ref="#amp_person_241">Dr. Paul Bachmann</rs>)
                 </signed>            
               </closer>
               <postscript>
