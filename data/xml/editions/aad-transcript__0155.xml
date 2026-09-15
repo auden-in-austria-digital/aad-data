@@ -67,6 +67,7 @@
           <witness n="1">
             <msDesc>
               <msIdentifier>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
                 <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
                 <collection>Documentation Center for Literature in Lower Austria</collection>
                 <idno>LS-Aud 2.4</idno>
@@ -96,10 +97,12 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote/>
+                  <handNote xml:id="hand_blue_bachmann" scribeRef="#amp_person_241" medium="ink-blue">Handwriting in blue ink by Paul Bachmann</handNote>
+                  <handNote xml:id="hand_blue_unident_0155" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="type_black_bachmann" scribeRef="#amp_person_241" medium="type">Typewriting in black ink authored by Paul Bachmann</typeNote>
+                  <typeNote xml:id="print_black_bachmann" scribeRef="#amp_person_241" medium="print-black">Preprinted writing in black authored by Paul Bachmann</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -123,11 +126,22 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="de"/>
       </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1972-08-04T00:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <placeName><rs type="place" ref="#amp_place_id_2">Kirchstetten</rs></placeName>
+        </correspAction>
+      </correspDesc>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2026-09-15">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-09-15">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-09-15">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-09-15">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -146,77 +160,148 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0155" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0155" xml:lang="de">
+          <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00477/" ed="1r" type="sheet"/>
-        Betr.: Prof. Auden
-        Sehr geehrter Herr Professor!
-        Den Inhalt des mit Mr.Kalmann am 3.1f.M. geführten Gespräches
-        darf ich wie folgt festhalten:
-        Die Ihnen ehemals gehörige Hälfte der Liegenschaft wurde zu
-        gunsten der Republik Österreich durch eine Pfandrechtsvor-
-        merkung für eine Abgabenforderung in der Höhe von § 553.169,
-        am 31.3.1971 belastet. Diese mit S 553.169 belastete Hälfte
-        der Liegenschaft wurde dann an Herrn Kalmann übertragen.
-        Die Übertragung der belasteten Liegenschaftshälfte bewirkt
-        keineswegs, daß Herr Kalmann persönlich für diese Abgaben-
-        forderung haftet, sondern bedeutet lediglich, daß die Liegen-
-        schaft weiterhin belastet bleibt. Durch die Schenkung ist.
-        also das Pfandrecht für die Republik Österreich auf der
-        halben ehemals Ihnen gehörigen Liegenschaft nicht erloschen,
-        sondern bestehen geblieben.
-        Herr Dr. Bubla, dem ich eine Durchschrift dieses Briefes
-        ebenfalls übersende, hatte mir seinerzeit erklärt, der
-        Schenkungsvertrag wäre aus irgendeinem Anlasse Beamten
-        des Finanzamtes mitgeteilt worden. Erst nach Kenntnis von
-        der Schenkung der halben Liegenschaft an Herrn Kalmann er-
+            <div type="letter_message" hand="#type_black_bachmann" xml:lang="de">
+              <opener>
+                <seg hand="#print_black_bachmann">
+                  <lb/>RECHTSANWALT
+                  <lb/><persName><rs type="person" ref="#amp_person_241">D<hi rend="superscript">R.</hi> PAUL BACHMANN</rs></persName>
+                  <lb/><placeName><address><rs type="place" ref="#amp_place_id_551">1O1O WIEN I, OPERNRING 8</rs></address></placeName>
+                  <lb/>FERNRUF 52 87 O1 U. 52 87 O2
+                  <lb/><rs type="org" ref="#amp_organization_275">SCHELHAMMER &amp; SCHATTERA</rs> <rs type="place" ref="#amp_place_id_1">WIEN</rs>
+                  <lb/>KONTO NR. 14.217
+                  <lb/><rs type="org" ref="#amp_organization_276">POSTSPARKASSE</rs> <rs type="place" ref="#amp_place_id_1">WIEN</rs> 121.O43
+                </seg>
+                <dateline>  
+                  <date>
+                    <lb/><space unit="char" quantity="41"/><rs type="place" ref="#amp_place_id_1">Wien</rs>,am 4.8.l972
+                  </date>
+                </dateline>
+                <seg>
+                  <persName>
+                    <lb/><space unit="char" quantity="33"/>Herrn <rs type="person" ref="#amp_person_1">Professor
+                    <lb/><space unit="char" quantity="33"/>Wystan Hugh A u d e n</rs>
+                  </persName>
+                  <placeName>
+                    <address>
+                      <lb/><space unit="char" quantity="33"/><rs type="place" ref="#amp_place_id_2">Hinterholz 6
+                        <lb/><space unit="char" quantity="33"/>3062 Kirchstetten</rs>
+                    </address>
+                  </placeName>
+                </seg>
+                <seg>
+                  <lb/>Betr.: <hi rend="underline" hand="#type_black_bachmann"><rs type="person" ref="#amp_person_1">Prof.Auden</rs></hi>
+                </seg>
+                <salute>
+                  <lb/>Sehr geehrter <rs type="person" ref="#amp_person_1">Herr Professor</rs>!
+                </salute>
+              </opener>
+              <p>
+                <lb/>Den Inhalt des mit Mr.Kalmann am 3.lf.M. geführten Gespräches
+                <lb/>darf ich wie folgt festhalten:
+                <lb/>Die Ihnen ehemals gehörige Hälfte der Liegenschaft wurde zu
+                <lb/>gunsten der Republik Österreich durch eine Pfandrechtsvor-
+                <lb/>merkung für eine Abgabenforderung in der Höhe von S 553.l69,-
+                <lb/>am 3l.3.l97l belastet. Diese mit S 553.l69 belastete Hälfte
+                <lb/>der Liegenschaft wurde dann an Herrn Kalmann übertragen.
+                <lb/>Die Übertragung der belasteten Liegenschaftshälfte bewirkt
+                <lb/>keineswegs, daß Herr Kalmann persönlich für diese Abgaben-
+                <lb/>forderung haftet, sondern bedeutet lediglich, daß die Liegen-
+                <lb/>schaft weiterhin belastet bleibt. Durch die Schenkung ist
+                <lb/>also das Pfandrecht für die Republik Österreich auf der
+                <lb/>halben ehemals Ihnen gehörigen Liegenschaft nicht erloschen,
+                <lb/>sondern bestehen geblieben.
+              </p>
+              <p>
+                <lb/>Herr Dr.Bubla, dem ich eine Durchschrift dieses Briefes
+                <lb/>ebenfalls übersende, hatte mir seinerzeit erklärt, der
+                <lb/>Schenkungsvertrag wäre aus irgendeinem Anlasse Beamten
+                <lb/>des Finanzamtes mitgeteilt worden. Erst nach Kenntnis von
+                <lb/>der Schenkung der halben Liegenschaft an Herrn Kalmann er-
+              </p>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00478/" ed="1v" type="sheet"/>
-        folgte die Vormerkung auf der Ihnen gehörigen Liegenschafts-
-        hälfte. Herr Dr. Bubla hat daraus den Schluß gezogen, daß das
-        Finanzamt bei Vormerkung des Pfanrechtes schlecht gläubig
-        gewesen ist, da das Finanzamt ja wußte, daß die Liegenschafts-
-        hälfte außerbücherlich nicht mehr Ihnen, sondern Herrn Kalmann
-        gehörte. Dessen ungeachtet hat aber das Finanzamt die Ihnen
-        noch bücherlich gehörige Liegenschaftshälfte durch die Pfand-
-        rechtsvormerkung belastet. Dies war nur deshalb möglich, da
-        der im Jahre 1969 abgeschlossene Schenkungsvertrag nicht ver-
-        büchert worden war.
-        Erst nachdem Sie mit mir im April 1971 Kontakt aufgenommen
-        haben, wurde die Verbücherung des Schenkungsvertrages vor-
-        genommen.
-        Herrn Dr. Bubla bitte ich daher um eine ergänzende Information
-        um überprüfen zu können, ob und welche Maßnahmen ergriffen
-        werden können um die Ihnen ehemals gehörige Liegenschafts-
-        hälfte lastenfrei zu stellen.
-        Sollte die Republik Österreich aber nicht dazu gebracht werden
-        können, die Pfandrechtsvormerkung zu löschen und sollte die
-        Republik Österreich in dem Finanzstreit mit Ihnen, sehr geehrter
-        Herr Professor, obsiegen, so könnte die Republik Österreich
-        höchstens die eine Liegenschaftshälfte zur Versteigerung
-        bringen. Es ist eine Erfahrungstatsache, daß die Hälfte einer
-        Liegenschaft weniger wert ist, als die rechnerische Hälfte
-        der ganzen Liegenschaft. Außerdem ist zu berücksichtigen, daß
-        Schätzungen in einem Versteigerungsverfahren in der Regel
-        nicht sehr hoch ausfallen. Das geringste Gebot beträgt nur die
-        Hälfte des Schätzwertes. Schlimmstenfalls also müßte Herr
-        Kalmann diese eine Hälfte nocheinmal ersteigern.
+              <p>
+                <lb/>folgte die Vormerkung auf der Ihnen gehörigen Liegenschafts-
+                <lb/>hälfte. Herr Dr.Bubla hat daraus den Schluß gezogen, daß das
+                <lb/>Finanzamt bei Vormerkung des Pfandrechtes schlecht gläubig
+                <lb/>gewesen ist, da das Finanzamt ja wußte, daß die Liegenschafts-
+                <lb/>hälfte außerbücherlich nicht mehr Ihnen, sondern Herrn Kalmann
+                <lb/>gehörte. Dessen ungeachtet hat aber das Finanzamt die Ihnen
+                <lb/>noch bücherlich gehörige Liegenschaftshälfte durch die Pfand-
+                <lb/>rechtsvormerkung belastet. Dies war nur deshalb möglich, da
+                <lb/>der im Jahre 1969 abgeschlossene Schenkungsvertrag nicht ver-
+                <lb/>büchert worden war.
+              </p>
+              <p>
+                <lb/>Erst nachdem Sie mit mir im April l97l Kontakt aufgenommen
+                <lb/>haben, wurde die Verbücherung des Schenkungsvertrages vor-
+                <lb/>genommen.
+              </p>
+              <p>
+                <lb/>Herrn Dr.Bubla bitte ich daher um eine ergänzende Information
+                <lb/>um überprüfen zu können, ob und welche Maßnahmen ergriffen
+                <lb/>werden können um die Ihnen ehemals gehörige Liegenschafts-
+                <lb/>hälfte lastenfrei zu stellen.
+              </p>
+              <p>
+                <lb/>Sollte die Republik Österreich aber nicht dazu gebracht werden
+                <lb/>können, die Pfandrechtsvormerkung zu löschen und sollte die
+                <lb/>Republik Österreich in dem Finanzstreit mit Ihnen, sehr geehrter
+                <lb/>Herr Professor, obsiegen, so könnte die Republik Österreich
+                <lb/>höchstens die eine Liegenschaftshälfte zur Versteigerung
+                <lb/>bringen. Es ist eine Erfahrungstatsache, daß die Hälfte einer
+                <lb/>Liegenschaft weniger wert ist, als die rechnerische Hälfte
+                <lb/>der ganzen Liegenschaft. Außerdem ist zu berücksichtigen, daß
+                <lb/>Schätzungen in einem Versteigerungsverfahren in der Regel
+                <lb/>nicht sehr hoch ausfallen. Das geringste Gebot beträgt nur die
+                <lb/>Hälfte des Schätzwertes. Schlimmstenfalls also müßte Herr
+                <lb/>Kalmann diese eine Hälfte nocheinmal ersteigern.
+              </p>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00479/" ed="2r" type="sheet"/>
-        Herr Kalmann teilte mir auch mit, daß Frau Fuchs behaupte,
-        der seinerzeit abgeschlossene Kaufvertrag wäre nicht verbüchert
-        worden.
-        Beim Bezirksgericht Neulengbach habe ich in Gegenwart von
-        Herrn Kalmann telefonisch festgestellt, daß der am 3.11.1966
-        abgeschlossene Kaufvertrag zur Tagebuchzahl 1711/69 grund-
-        bücherlich durch das BG Neulengbach durchgeführt worden ist.
-        Das Eigentumsrecht ist nicht mehr für Frau Fuchs, sondern
-        für Herrn Kalmann eingetragen.
-        Die Durchschrift meines Briefes an Herrn Dr. Bubla schließe
-        ich Ihnen zu Ihrer Information an.
-        Mit vorzüglicher Hochachtung
-        (Dr. Raul/Bachmann)
-        1 Beilage
+              <p>
+                <lb/>Herr Kalmann teilte mir auch mit, daß Frau Fuchs behaupte,
+                <lb/>der seinerzeit abgeschlossene Kaufvertrag wäre nicht verbüchert
+                <lb/>worden.
+              </p>
+              <p>
+                <lb/>Beim Bezirksgericht Neulengbach habe ich in Gegenwart von
+                <lb/>Herrn Kalmann telefonisch festgestellt, daß der am 3.ll.l966
+                <lb/>abgeschlossene Kaufvertrag zur Tagebuchzahl l7ll/69 grund-
+                <lb/>bücherlich durch das BG Neulengbach durchgeführt worden ist.
+                <lb/>Das Eigentumsrecht ist nicht mehr für Frau Fuchs, sondern
+                <lb/>für Herrn Kalmann eingetragen.
+              </p>
+              <p>
+                <lb/>Die Durchschrift meines Briefes an Herrn Dr.Bubla schließe
+                <lb/>ich Ihnen zu Ihrer Information an.
+              </p>
+              <closer>
+                <salute>
+                  <lb/><space quantity="28" unit="char"/>Mit vorzüglicher Hochachtung
+                </salute>
+                <signed hand="#hand_blue_bachmann">
+                  <lb/><rs type="person" ref="#amp_person_241"><unclear>Paul Bachmann</unclear></rs>
+                </signed>
+                <signed hand="#type_black_bachmann">
+                  <lb/><space unit="char" quantity="31"/>(<rs type="person" ref="#amp_person_241">Dr. Paul Bachmann</rs>)
+                </signed>            
+              </closer>
+              <postscript>
+                <p>
+                  <lb/>1 Beilage
+                </p>
+              </postscript>
+            </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00480/" ed="2v" type="sheet"/>
-      </div>
+            <div>
+              <ab hand="#hand_blue_unident_0155">
+                <lb/>11
+              </ab>
+            </div>
+          </div>
+        </div>
     </body>
   </text>
 </TEI>
