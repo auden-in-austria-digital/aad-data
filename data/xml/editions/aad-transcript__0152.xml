@@ -35,6 +35,11 @@
               <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
             </interp>
+            <interp xml:id="ana_133">
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
           </interpGrp>
         </edition>
         <respStmt>
@@ -211,8 +216,8 @@
              </div>
              <div>
                <ab hand="#hand_black_auden">
-                 <lb/><unclear>0</unclear>2252<unclear>/</unclear> 3293
-                 <lb/>3065
+                 <lb/><rs ana="#ana_133"><unclear>0</unclear>2252<unclear>/</unclear> 3293
+                 <lb/>3065</rs>
                </ab>
              </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00472/" ed="1v" type="sheet"/>
