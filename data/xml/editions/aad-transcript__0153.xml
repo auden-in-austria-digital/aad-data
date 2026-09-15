@@ -179,7 +179,7 @@
                   </placeName>
                 </seg>
                 <seg>
-                  <lb/>Betr.: <hi rend="underline" hand="#type_black_bachmann"><rs type="person" ref="#amp_person_1">Prof. Auden</rs> - <rs ana="#ana_132">Verwaltungsgerichtshofbeschwerde</rs></hi>
+                  <lb/>Betr.: <hi rend="underline" hand="#type_black_bachmann"><rs type="person" ref="#amp_person_1">Prof. Auden</rs> - <rs ana="acdh:aad-transcript__0152.xml#ana_132">Verwaltungsgerichtshofbeschwerde</rs></hi>
                 </seg>
                 <salute>
                   <lb/>Sehr geehrter <rs type="person" ref="#amp_person_1">Herr Professor</rs>!
@@ -188,14 +188,14 @@
               <p>
                 <lb/>In der Anlage erlaube ich mir Ihnen die Durchschrift jener
                 <lb/>Verwaltungsgerichtsbeschwerde zu übersenden, die heute frist-
-                <lb/>gerecht dem Verwaltungsgerichtshof übersandt worden ist.
+                <lb/>gerecht dem <rs type="org" ref="#amp_organization_309">Verwaltungsgerichtshof</rs> übersandt worden ist.
               </p>
               <p>
                 <lb/>Gleichzeit erinnere ich noch einmal daran, daß ich Ihnen mit
                 <lb/>einem Expresschreiben vom heutigen Tage ein Vollmachtsformular
                 <lb/>übersandt habe, dieses sogleich nach Unterfertigung an mich
-                <lb/>zurück zu schicken, da ich diese Vollmacht dem Verwaltungs-
-                <lb/>gerichtshof nachreichen muß.
+                <lb/>zurück zu schicken, da ich diese Vollmacht dem <rs type="org" ref="#amp_organization_309">Verwaltungs-
+                <lb/>gerichtshof</rs> nachreichen muß.
               </p>
               <closer>
                 <salute>
