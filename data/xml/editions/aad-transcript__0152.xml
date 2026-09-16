@@ -169,6 +169,7 @@
                <dateline>  
                  <date>
                    <lb/><space unit="char" quantity="41"/><rs type="place" ref="#amp_place_id_1">Wien</rs>, am 21.6.1972
+                   <lb/>
                  </date>
                </dateline>
                <seg>
@@ -210,7 +211,7 @@
              <postscript>
                <p>
                  <lb/>1 Vollmacht
-                 <lb/><hi rend="underline" hand="#type_black_bachmann">EXPRESS </hi>
+                 <lb/><hi rend="underline" hand="#type_black_bachmann">EXPRESS<space unit="char" quantity="1"/></hi>
                </p>
              </postscript>
              </div>
