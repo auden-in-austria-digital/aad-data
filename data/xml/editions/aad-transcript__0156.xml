@@ -179,7 +179,7 @@
                 </placeName>
               </seg>
               <seg>
-                <lb/>Betr.: <hi rend="underline" hand="#type_black_bachmann"><rs type="person" ref="#amp_person_1">Prof.Auden</rs> - Verwaltungsgerichtshofbeschwerde<space unit="char" quantity="1"/></hi>
+                <lb/>Betr.: <hi rend="underline" hand="#type_black_bachmann"><rs type="person" ref="#amp_person_1">Prof.Auden</rs> - <rs ana="acdh:aad-transcript__0152.xml#ana_132">Verwaltungsgerichtshofbeschwerde</rs><space unit="char" quantity="1"/></hi>
               </seg>
               <salute>
                 <lb/>Sehr geehrter <rs type="person" ref="#amp_person_1">Herr Professor</rs>!
@@ -187,7 +187,7 @@
             </opener>
             <p>
               <lb/>Ihr Schreiben vom 8.lf.M. habe ich erhalten.
-              <lb/>Die Fotokopie der an den Verwaltungsgerichtshof gerichteten
+              <lb/>Die Fotokopie der an den <rs type="org" ref="#amp_organization_309">Verwaltungsgerichtshof</rs> gerichteten
               <lb/>Beschwerde vom 2l.6.l972 erlaube ich mir in der Beilage ./
               <lb/>Ihrem Wunsche entsprechend zu übersenden.
               <lb/>Ich werde mich bemühen, die Verhandlung über die Beschwerde
@@ -195,7 +195,7 @@
               <lb/>April l973 anberaumen zu lassen, da ein Verhandlungstermin
               <lb/>vor dem l9.9.l972 ganz ausgeschlossen ist. Vorläufig ist
               <lb/>ja nicht einmal noch die Gegensch<subst><del rend="erased" hand="#type_black_bachmann">af</del><add place="superimposed" hand="#type_black_bachmann">ri</add></subst>ft der belangten Behörde
-              <lb/>der Fi<subst><del rend="erased" hand="#type_black_bachmann">a</del><add place="superimposed" hand="#type_black_bachmann">n</add></subst>anzlandesdirektion für Wien, NÖ und Bgld. vorgelegt
+              <lb/>der <rs type="org" ref="#amp_organization_158">Fi<subst><del rend="erased" hand="#type_black_bachmann">a</del><add place="superimposed" hand="#type_black_bachmann">n</add></subst>anzlandesdirektion für Wien, NÖ und Bgld.</rs> vorgelegt
               <lb/>worden.
             </p>
             <closer>
