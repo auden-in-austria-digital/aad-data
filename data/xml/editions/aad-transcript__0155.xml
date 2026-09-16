@@ -177,6 +177,7 @@
                 <dateline>  
                   <date>
                     <lb/><space unit="char" quantity="37"/><rs type="place" ref="#amp_place_id_1">Wien</rs>,am 4.8.l972
+                    <lb/>
                   </date>
                 </dateline>
                 <seg>
@@ -187,7 +188,7 @@
                   <placeName>
                     <address>
                       <lb/><space unit="char" quantity="30"/><rs type="place" ref="#amp_place_id_2">Hinterholz 6
-                        <lb/><space unit="char" quantity="30"/>3062 Kirchstetten</rs>
+                      <lb/><space unit="char" quantity="30"/>3062 Kirchstetten</rs>
                     </address>
                   </placeName>
                 </seg>
@@ -199,13 +200,13 @@
                 </salute>
               </opener>
               <p>
-                <lb/>De<subst><del rend="erased" hand="#type_black_bachmann">m</del><add place="superimposed" hand="#type_black_bachmann">n</add></subst> Inhalt des mit Mr.Kalmann am 3.lf.M. geführten Gespräches
+                <lb/>De<subst><del rend="erased" hand="#type_black_bachmann">m</del><add place="superimposed" hand="#type_black_bachmann">n</add></subst> Inhalt des mit <rs type="person" ref="#amp_person_4">Mr.Kalmann</rs> am 3.lf.M. geführten Gespräches
                 <lb/>darf ich wie folgt festhalten:
-                <lb/>Die Ihnen ehemals gehörige Hälfte der Liegenschaft wurde zu
-                <lb/>gunsten der Republik Österreich durch eine Pfandrechtsvor-
+                <lb/>Die Ihnen ehemals gehörige Hälfte der <rs type="place" ref="#amp_place_id_2">Liegenschaft</rs> wurde zu
+                <lb/>gunsten der <rs type="org" ref="#amp_organization_310">Republik Österreich</rs> durch eine Pfandrechtsvor-
                 <lb/>merkung für eine Abgabenforderung in der Höhe von S 553.l69,-
                 <lb/>am 3l.3.l97l belastet. Diese mit S 553.l69 belastete Hälfte
-                <lb/>der Liegenschaft wurde dann an Herrn Kalmann üb<subst><del rend="erased" hand="#type_black_bachmann">r</del><add place="superimposed" hand="#type_black_bachmann">e</add></subst>rtragen.
+                <lb/>der Liegenschaft wurde dann an <rs type="person" ref="#amp_person_4">Herrn Kalmann</rs> üb<subst><del rend="erased" hand="#type_black_bachmann">r</del><add place="superimposed" hand="#type_black_bachmann">e</add></subst>rtragen.
                 <lb/>Die Übertragung der belasteten Liegenschaftshälfte bewirkt
                 <lb/>keineswegs, daß Herr Kalmann persönlich für diese Abgaben-
                 <lb/>forderung haftet, sondern bedeutet lediglich, daß die Liegen-
@@ -215,17 +216,17 @@
                 <lb/>sondern bestehen geblieben.
               </p>
               <p>
-                <lb/>Herr Dr.Bubla, dem ich <subst><del rend="erased" hand="#type_black_bachmann"><unclear>I</unclear></del><add place="superimposed" hand="#type_black_bachmann">e</add></subst>ine Durchschrift dieses Briefes
+                <lb/><rs type="person" ref="#amp_person_505">Herr Dr.Bubla</rs>, dem ich <subst><del rend="erased" hand="#type_black_bachmann"><unclear>I</unclear></del><add place="superimposed" hand="#type_black_bachmann">e</add></subst>ine Durchschrift dieses Briefes
                 <lb/><add hand="#hand_blue_bachmann" place="inline">e</add>benfalls übersende, hatte mir seinerzeit erklärt, der
                 <lb/>Schenkungsvertrag wäre aus irgendeinem Anlasse Beamten
-                <lb/>des Finanzamtes mitgeteilt worden. Erst nach Kenntnis von
-                <lb/>der Schenkung der halben Liegenschaft an Herrn Kalmann er-
+                <lb/>des <rs type="org" ref="#amp_organization_235">Finanzamtes</rs> mitgeteilt worden. Erst nach Kenntnis von
+                <lb/>der Schenkung der halben <rs type="place" ref="#amp_place_id_2">Liegenschaft</rs> an <rs type="person" ref="#amp_person_4">Herrn Kalmann</rs> er-
               </p>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00478/" ed="1v" type="sheet"/>
               <p>
                 <lb/>folgte die Vormerkung auf der Ihnen gehörigen Liegenschafts-
-                <lb/>hälfte. Herr Dr.Bubla hat daraus den Schluß gezogen, daß das
-                <lb/>Finanzamt bei Vormerkung des Pfan<add hand="#type_black_bachmann" place="above">d</add>rechtes schlecht gläubig
+                <lb/>hälfte. <rs type="person" ref="#amp_person_505">Herr Dr.Bubla</rs> hat daraus den Schluß gezogen, daß das
+                <lb/><rs type="org" ref="#amp_organization_235">Finanzamt</rs> bei Vormerkung des Pfan<add hand="#type_black_bachmann" place="above">d</add>rechtes schlecht gläubig
                 <lb/>gewesen ist, da das Finanzamt ja wußte, daß die Liegenschafts-
                 <lb/>hälfte außerbücherlich nicht mehr Ihnen, sondern Herrn Kalmann
                 <lb/>gehörte. Dessen ungeachtet hat aber das Finanzamt die Ihnen
@@ -240,41 +241,41 @@
                 <lb/>genommen.
               </p>
               <p>
-                <lb/>Herrn Dr.Bubla bitte ich daher um eine ergänzende Information
+                <lb/><rs type="person" ref="#amp_person_505">Herrn Dr.Bubla</rs> bitte ich daher um eine ergänzende Information
                 <lb/>um überprüfen zu können, ob und welche Maßnahmen ergriffen
                 <lb/>werden können um die Ihnen ehemals gehörige Liegenschafts-
                 <lb/>hälfte lastenfrei zu <subst><del rend="erased" hand="#type_black_bachmann">t</del><add place="superimposed" hand="#type_black_bachmann">s</add></subst>tellen.
               </p>
               <p>
-                <lb/>Sollte die Republik Österreich aber nicht dazu gebracht werden
+                <lb/>Sollte die <rs type="org" ref="#amp_organization_310">Republik Österreich</rs> aber nicht dazu gebracht werden
                 <lb/>können, die Pfandrechtsvormerkung zu löschen und sollte die
-                <lb/>Republik Österreich in dem Finanzstreit mit Ihnen, sehr geehrter
-                <lb/>Herr Professor, obsiegen, so könnte die Republik Österreich
+                <lb/>Republik Österreich in dem <rs type="event" ref="#amp_event_id_45">Finanzstreit</rs> mit Ihnen, sehr geehrter
+                <lb/><rs type="person" ref="#amp_person_1">Herr Professor</rs>, obsiegen, so könnte die Republik Österreich
                 <lb/>höch<subst><del rend="erased" hand="#type_black_bachmann">t</del><add place="superimposed" hand="#type_black_bachmann">s</add></subst>tens die eine Liegenschaftshälfte zur Versteigerung
                 <lb/>bringen. Es ist eine Erfahrungstatsache, daß die Hälfte einer
                 <lb/>Liegenschaft weniger wert ist, als die rec<subst><del rend="overtyped" hand="#type_black_bachmann">n</del><add place="superimposed" hand="#type_black_bachmann">h</add></subst>nerische Hälfte
                 <lb/>der ganzen Liegenschaft. Außerdem ist zu berücksichtigen, daß
                 <lb/>Schätzungen in e<subst><del rend="erased" hand="#type_black_bachmann">n</del><add place="superimposed" hand="#type_black_bachmann">i</add></subst>nem Versteigerungsverfahren in der Re<subst><del rend="erased" hand="#type_black_bachmann">h</del><add place="superimposed" hand="#type_black_bachmann">g</add></subst>el
                 <lb/>nicht sehr hoch ausfallen. Das geringste Gebot betr<subst><del rend="overtyped" hand="#type_black_bachmann">ö</del><add place="superimposed" hand="#type_black_bachmann">ä</add></subst>gt nur die
-                <lb/>Hälfte des Schätzwertes. Schlimmstenfalls also müßte Herr
-                <lb/>Kalmann diese eine Hälfte nocheinmal ersteigern.
+                <lb/>Hälfte des Schätzwertes. Schlimmstenfalls also müßte <rs type="person" ref="#amp_person_4">Herr
+                <lb/>Kalmann</rs> diese eine Hälfte nocheinmal ersteigern.
               </p>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00479/" ed="2r" type="sheet"/>
               <p>
-                <lb/>Herr Kalmann teilte mir auch mit, daß Frau Fuchs behaupte,
+                <lb/><rs type="person" ref="#amp_person_4">Herr Kalmann</rs> teilte mir auch mit, daß Frau Fuchs behaupte,
                 <lb/><subst><del rend="erased" hand="#type_black_bachmann">b</del><add place="superimposed" hand="#type_black_bachmann">d</add></subst>er seinerzeit abgeschlossene Kaufvertrag wäre nicht verbüchert
                 <lb/>worden.
               </p>
               <p>
-                <lb/>Beim Bezirksgericht Neulengbach habe ich in Gegenwart von
-                <lb/>Herrn Kalmann telefonisch festgestellt, daß der am 3.ll.l966
+                <lb/>Beim <rs type="org" ref="#amp_organization_311">Bezirksgericht Neulengbach</rs> habe ich in Gegenwart von
+                <lb/><rs type="person" ref="#amp_person_4">Herrn Kalmann</rs> telefonisch festgestellt, daß der am 3.ll.l966
                 <lb/>abgeschlossene Kaufvertrag zur Tagebuchzahl l7ll/69 grund-
-                <lb/>bücherlich durch das BG Neulengbach durchgeführt worden ist.
+                <lb/>bücherlich durch das <rs type="org" ref="#amp_organization_311">BG Neulengbach</rs> durchgeführt worden ist.
                 <lb/>Das Eigentumsrecht ist nicht mehr für Frau Fuchs, sondern
                 <lb/>für Herrn Kalmann eingetragen.
               </p>
               <p>
-                <lb/>Die Durchschrift meines Briefes an Herrn Dr.Bubla schließe
+                <lb/>Die Durchschrift meines Briefes an <rs type="person" ref="#amp_person_505">Herrn Dr.Bubla</rs> schließe
                 <lb/>ich Ihnen zu Ihrer Information an.
               </p>
               <closer>
