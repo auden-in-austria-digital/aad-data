@@ -30,7 +30,7 @@
         <edition>
           <title level="a">Typed Letter Signed Paul Bachmann to W. H. Auden 1972-08-16</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_135">
               <desc/>
               <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -191,8 +191,8 @@
               <lb/>Beschwerde vom 2l.6.l972 erlaube ich mir in der Beilage ./
               <lb/>Ihrem Wunsche entsprechend zu übersenden.
               <lb/>Ich werde mich bemühen, die Verhandlung über die Beschwerde
-              <lb/>an den Verwaltungsgerichtshof auf einen Termin nach Ende
-              <lb/>April l973 anberaumen zu lassen, da ein Verhandlungstermin
+              <lb/>an den Verwaltungsgerichtshof auf einen Termin <rs ana="#ana_135">nach Ende
+              <lb/>April l973</rs> anberaumen zu lassen, da ein Verhandlungstermin
               <lb/>vor dem l9.9.l972 ganz ausgeschlossen ist. Vorläufig ist
               <lb/>ja nicht einmal noch die Gegensch<subst><del rend="erased" hand="#type_black_bachmann">af</del><add place="superimposed" hand="#type_black_bachmann">ri</add></subst>ft der belangten Behörde
               <lb/>der <rs type="org" ref="#amp_organization_158">Fi<subst><del rend="erased" hand="#type_black_bachmann">a</del><add place="superimposed" hand="#type_black_bachmann">n</add></subst>anzlandesdirektion für Wien, NÖ und Bgld.</rs> vorgelegt
