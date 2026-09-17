@@ -30,7 +30,7 @@
         <edition>
           <title level="a">Typed Letter Signed Paul Bachmann to W. H. Auden 1972-08-04</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_134">
               <desc/>
               <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -263,7 +263,7 @@
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00479/" ed="2r" type="sheet"/>
               <p>
                 <lb/><rs type="person" ref="#amp_person_4">Herr Kalmann</rs> teilte mir auch mit, daß Frau Fuchs behaupte,
-                <lb/><subst><del rend="erased" hand="#type_black_bachmann">b</del><add place="superimposed" hand="#type_black_bachmann">d</add></subst>er seinerzeit abgeschlossene Kaufvertrag wäre nicht verbüchert
+                <lb/><subst><del rend="erased" hand="#type_black_bachmann">b</del><add place="superimposed" hand="#type_black_bachmann">d</add></subst>er seinerzeit abgeschlossene <rs ana="#ana_134">Kaufvertrag</rs> wäre nicht verbüchert
                 <lb/>worden.
               </p>
               <p>
