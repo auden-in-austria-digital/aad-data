@@ -149,6 +149,7 @@ doc
 0154                   Bachmann, Paul                                                                                                                    Typed Letter Signed Paul Bachmann to W. H. Auden 1972-07-10                         Vienna
 0155                   Bachmann, Paul                                                                                                                    Typed Letter Signed Paul Bachmann to W. H. Auden 1972-08-04                         Vienna
 0156                   Bachmann, Paul                                                                                                                    Typed Letter Signed Paul Bachmann to W. H. Auden 1972-08-16                         Vienna
+0157                Law Firm Bachmann                                                                                                                Typed Letter Signed Law Firm Bachmann to W. H. Auden 1972-08-16                         Vienna
 0151                   Bronold, Hella                                                                                                                    Typed Letter Signed Hella Bronold to W. H. Auden 1973-09-24                         Vienna
 0146                     Auden, W. H.                                                                                                                      Typed Letter Signed W. H. Auden to Felix Braun 1958-11-03                  New York City
 0144                             N.N.                                                                                                                      Photograph N.N. House Hinterholz 6 1958-01-07--1973-09-28                   Kirchstetten
@@ -197,30 +198,30 @@ dtype: int64
 ### `df.info()`
 ```
 <class 'pandas.DataFrame'>
-RangeIndex: 460 entries, 0 to 459
+RangeIndex: 462 entries, 0 to 461
 Data columns (total 19 columns):
  #   Column          Non-Null Count  Dtype
 ---  ------          --------------  -----
- 0   img             460 non-null    int64
- 1   lrx             460 non-null    int64
- 2   lry             460 non-null    int64
- 3   width           460 non-null    int64
- 4   height          460 non-null    int64
- 5   type            460 non-null    str  
- 6   ed              460 non-null    str  
- 7   doc             460 non-null    str  
- 8   title           460 non-null    str  
- 9   author          460 non-null    str  
- 10  author-uri      460 non-null    str  
- 11  notBefore-iso   460 non-null    str  
- 12  notAfter-iso    460 non-null    str  
- 13  place           460 non-null    str  
- 14  place-uri       460 non-null    str  
- 15  repository      460 non-null    str  
- 16  repository-uri  460 non-null    str  
- 17  collection      460 non-null    str  
- 18  idno            460 non-null    str  
+ 0   img             462 non-null    int64
+ 1   lrx             462 non-null    int64
+ 2   lry             462 non-null    int64
+ 3   width           462 non-null    int64
+ 4   height          462 non-null    int64
+ 5   type            462 non-null    str  
+ 6   ed              462 non-null    str  
+ 7   doc             462 non-null    str  
+ 8   title           462 non-null    str  
+ 9   author          462 non-null    str  
+ 10  author-uri      462 non-null    str  
+ 11  notBefore-iso   462 non-null    str  
+ 12  notAfter-iso    462 non-null    str  
+ 13  place           462 non-null    str  
+ 14  place-uri       462 non-null    str  
+ 15  repository      462 non-null    str  
+ 16  repository-uri  462 non-null    str  
+ 17  collection      462 non-null    str  
+ 18  idno            462 non-null    str  
 dtypes: int64(5), str(14)
-memory usage: 68.4 KB
+memory usage: 68.7 KB
 
 ```
