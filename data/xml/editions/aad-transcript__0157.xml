@@ -31,7 +31,7 @@
         <edition>
           <title level="a">Typed Letter Signed Paul Bachmann Law Firm to W. H. Auden 1972-08-16</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_136">
               <desc/>
               <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -93,7 +93,7 @@
                   <handNote xml:id="hand_blue_unident_0157" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote xml:id="type_black_bachmann" scribeRef="#amp_person_241" medium="type">Typewriting in black ink authored by law firm Bachmann</typeNote>
+                  <typeNote xml:id="type_black_bachmann" scribeRef="#amp_person_241" medium="type">Typewriting in black ink authored by Paul Bachmann law firm</typeNote>
                   <typeNote xml:id="print_black_bachmann" scribeRef="#amp_person_241" medium="print-black">Preprinted writing in black authored by Paul Bachmann</typeNote>
                 </typeDesc>
               </physDesc>
@@ -186,10 +186,10 @@
               </salute>
             </opener>
             <p>
-              <lb/>Die gefertigte Kanzlei erlaubt sich d<subst><del rend="erased" hand="#type_black_bachmann">e</del><add place="superimposed" hand="#type_black_bachmann">i</add></subst>e Kosten ihrer Mühe-
+              <lb/>Die gefertigte <rs type="org" ref="#amp_organization_344">Kanzlei</rs> erlaubt sich d<subst><del rend="erased" hand="#type_black_bachmann">e</del><add place="superimposed" hand="#type_black_bachmann">i</add></subst>e Kosten ihrer Mühe-
               <lb/>waltung für die Beratung und Vertretung bei der Durchführung<del rend="erased" hand="#type_black_bachmann">$</del>
-              <lb/>eines Schenkungsvertrages für die Zeit vom 2l.4.l97l bis 7.8.l972
-              <lb/>ausschließlich des Verfahrens vor dem Verwaltungsgerichtshof
+              <lb/>eines <rs ana="#ana_136">Schenkungsvertrages</rs> für die Zeit vom 2l.4.l97l bis 7.8.l972
+              <lb/>ausschließlich des Verfahrens vor dem <rs type="org" ref="#amp_organization_309">Verwaltungsgerichtshof</rs>
               <lb/>und aller mit diesem Verfahren zusammenhängenden Nebenleistungen
               <lb/>wie folgt zu verrechnen:
             </p>
@@ -207,7 +207,7 @@
             </p>
             <p>
               <lb/>Unter Anschluß eines Erlagscheines wird um Überweisung obigen<del rend="erased" hand="#type_black_bachmann">$</del>
-              <lb/>Betrages auf das Konto l4.708 beim Bankhaus Schelhammer &amp; Schattera
+              <lb/>Betrages auf das Konto l4.708 beim <rs type="org" ref="#amp_organization_275">Bankhaus Schelhammer &amp; Schattera</rs>
               <lb/>höflichst gebeten.
             </p>
             <closer>
@@ -218,7 +218,7 @@
                 <lb/><unclear>E.</unclear> <gap reason="illegible" unit="char" atLeast="2" atMost="3"></gap>öger
               </signed>
               <signed hand="#type_black_bachmann">
-                <lb/><space unit="char" quantity="33"/>für die Kanzlei
+                <lb/><space unit="char" quantity="33"/>für die <rs type="org" ref="#amp_organization_344">Kanzlei</rs>
               </signed>            
             </closer>
            </div>
