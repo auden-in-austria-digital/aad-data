@@ -8,8 +8,8 @@
     <fileDesc>
       <titleStmt>
         <title level="s">Auden in Austria Digital (AAD)</title>
-        <title level="a">Typed Letter Signed Law Firm Bachmann to W. H. Auden 1972-08-16</title>
-        <author ref="https://d-nb.info">Law Firm Bachmann</author>
+        <title level="a">Typed Letter Signed Paul Bachmann Law Firm to W. H. Auden 1972-08-16</title>
+        <author ref="https://d-nb.info">Paul Bachmann Law Firm</author>
         <author ref="https://d-nb.info">Bachmann, Paul</author>
         <editor>
           <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
@@ -29,7 +29,7 @@
       </titleStmt>
       <editionStmt>
         <edition>
-          <title level="a">Typed Letter Signed Law Firm Bachmann to W. H. Auden 1972-08-16</title>
+          <title level="a">Typed Letter Signed Paul Bachmann Law Firm to W. H. Auden 1972-08-16</title>
           <interpGrp>
             <interp>
               <desc/>
@@ -179,15 +179,15 @@
                 </placeName>
               </seg>
               <seg>
-                <lb/>Betr.: <hi rend="underline" hand="#type_black_bachmann"><rs type="person" ref="#amp_person_1">Prof.Wystan Hugh Auden</rs> -Expensen</hi>
+                <lb/>Betr.: <hi rend="underline" hand="#type_black_bachmann"><rs type="person" ref="#amp_person_1">Prof.Wystan Hugh Auden</rs> -<subst><del rend="erased" hand="#type_black_bachmann">m</del><add place="superimposed" hand="#type_black_bachmann">E</add></subst>xpensen</hi>
               </seg>
               <salute>
                 <lb/>Sehr geehrter <rs type="person" ref="#amp_person_1">Herr Professor</rs>!
               </salute>
             </opener>
             <p>
-              <lb/>Die gefertigte Kanzlei erlaubt sich die Kosten ihrer Mühe-
-              <lb/>waltung für die Beratung und Vertretung bei der Durchführungs
+              <lb/>Die gefertigte Kanzlei erlaubt sich d<subst><del rend="erased" hand="#type_black_bachmann">e</del><add place="superimposed" hand="#type_black_bachmann">i</add></subst>e Kosten ihrer Mühe-
+              <lb/>waltung für die Beratung und Vertretung bei der Durchführung<del rend="erased" hand="#type_black_bachmann">$</del>
               <lb/>eines Schenkungsvertrages für die Zeit vom 2l.4.l97l bis 7.8.l972
               <lb/>ausschließlich des Verfahrens vor dem Verwaltungsgerichtshof
               <lb/>und aller mit diesem Verfahren zusammenhängenden Nebenleistungen
@@ -206,7 +206,7 @@
               <lb/>zusammen ........................................ S ll.555,40
             </p>
             <p>
-              <lb/>Unter Anschluß eines Erlagscheines wird um Überweisung obigen
+              <lb/>Unter Anschluß eines Erlagscheines wird um Überweisung obigen<del rend="erased" hand="#type_black_bachmann">$</del>
               <lb/>Betrages auf das Konto l4.708 beim Bankhaus Schelhammer &amp; Schattera
               <lb/>höflichst gebeten.
             </p>
@@ -215,7 +215,7 @@
                 <lb/><space quantity="31" unit="char"/>Mit vorzüglicher Hochachtung
               </salute>
               <signed hand="#hand_blue_unident_0157">
-                <lb/><unclear>E. Klöger</unclear>
+                <lb/><unclear>E.</unclear> <gap reason="illegible" unit="char" atLeast="2" atMost="3"></gap>öger
               </signed>
               <signed hand="#type_black_bachmann">
                 <lb/><space unit="char" quantity="33"/>für die Kanzlei
