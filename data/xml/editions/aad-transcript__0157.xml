@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0157" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Typed Letter Signed Law Firm Bachmann to W. H. Auden 1972-08-16</title>
+        <author ref="https://d-nb.info">Law Firm Bachmann</author>
+        <author ref="https://d-nb.info">Bachmann, Paul</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484">Hechtl, Angelika</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Typed Letter Signed Law Firm Bachmann to W. H. Auden 1972-08-16</title>
+          <interpGrp>
+            <interp>
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+          <name sameAs="#ahechtl"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
+                <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
+                <collection>Documentation Center for Literature in Lower Austria</collection>
+                <idno>LS-Aud 2.4</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00483/ https://iiif.acdh.oeaw.ac.at/aad/aad_00484/">Leykam Hartpost 1935</watermark>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00483/">
+                        <width>210</width>
+                        <height>296</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00484/">
+                        <width>210</width>
+                        <height>296</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_blue_unident_0157" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="type_black_bachmann" scribeRef="#amp_person_241" medium="type">Typewriting in black ink authored by law firm Bachmann</typeNote>
+                  <typeNote xml:id="print_black_bachmann" scribeRef="#amp_person_241" medium="print-black">Preprinted writing in black authored by Paul Bachmann</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1972-08-16T00:00:00+01:00" notAfter-iso="1972-08-16T23:59:59+01:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de"/>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1972-08-16T00:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <placeName><rs type="place" ref="#amp_place_id_2">Kirchstetten</rs></placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#smayer" when-iso="2026-09-18">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-09-18">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-09-18">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="3796" lry="5158">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00483/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3798" lry="5160">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00484/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0157" xml:lang="de">
+        <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00483/" ed="1r" type="sheet"/>
+          <div type="letter_message" hand="#type_black_bachmann" xml:lang="de">
+            <opener>
+              <seg hand="#print_black_bachmann">
+                <lb/>RECHTSANWALT
+                <lb/><persName><rs type="person" ref="#amp_person_241">D<hi rend="superscript">R.</hi> PAUL BACHMANN</rs></persName>
+                <lb/><placeName><address><rs type="place" ref="#amp_place_id_551">1O1O WIEN I, OPERNRING 8</rs></address></placeName>
+                <lb/>FERNRUF 52 87 O1 U. 52 87 O2
+                <lb/><rs type="org" ref="#amp_organization_275">SCHELHAMMER &amp; SCHATTERA</rs> <rs type="place" ref="#amp_place_id_1">WIEN</rs>
+                <lb/>KONTO NR. 14.217
+                <lb/><rs type="org" ref="#amp_organization_276">POSTSPARKASSE</rs> <rs type="place" ref="#amp_place_id_1">WIEN</rs> 121.O43
+              </seg>
+              <dateline>  
+                <date>
+                  <lb/><space unit="char" quantity="43"/><rs type="place" ref="#amp_place_id_1">Wien</rs>, am l6.8.l972
+                  <lb/>
+                </date>
+              </dateline>
+              <seg>
+                <persName>
+                  <lb/><space unit="char" quantity="30"/>Herrn 
+                  <lb/><space unit="char" quantity="30"/><rs type="person" ref="#amp_person_1">Prof.Wystan Hugh A u d e n</rs>
+                </persName>
+                <placeName>
+                  <address>
+                    <lb/><space unit="char" quantity="30"/><rs type="place" ref="#amp_place_id_2">Hinterholz 6
+                    <lb/><space unit="char" quantity="30"/>3062 Kirchstetten</rs>
+                  </address>
+                </placeName>
+              </seg>
+              <seg>
+                <lb/>Betr.: <hi rend="underline" hand="#type_black_bachmann"><rs type="person" ref="#amp_person_1">Prof.Wystan Hugh Auden</rs> -Expensen</hi>
+              </seg>
+              <salute>
+                <lb/>Sehr geehrter <rs type="person" ref="#amp_person_1">Herr Professor</rs>!
+              </salute>
+            </opener>
+            <p>
+              <lb/>Die gefertigte Kanzlei erlaubt sich die Kosten ihrer Mühe-
+              <lb/>waltung für die Beratung und Vertretung bei der Durchführungs
+              <lb/>eines Schenkungsvertrages für die Zeit vom 2l.4.l97l bis 7.8.l972
+              <lb/>ausschließlich des Verfahrens vor dem Verwaltungsgerichtshof
+              <lb/>und aller mit diesem Verfahren zusammenhängenden Nebenleistungen
+              <lb/>wie folgt zu verrechnen:
+            </p>
+            <p>
+              <lb/>3 Konferenzen 5/2 Std.
+              <lb/>9 Telefonate
+              <lb/>28 Schreiben
+              <lb/>2 Kommissionen 4/2 Std
+              <lb/>2 Einstellungsanträge
+              <lb/>1 Grundbuchsgesuch
+              <lb/>Verdienst: ...................................... S l0.480,--
+              <lb/>5,5% USt <space unit="char" quantity="1"/>....................................... "<space unit="char" quantity="4"/>576,40
+              <lb/>Barauslagen ..................................... <hi rend="underline" hand="#type_black_bachmann">"<space unit="char" quantity="4"/>499,--<space unit="char" quantity="1"/></hi>
+              <lb/>zusammen ........................................ S ll.555,40
+            </p>
+            <p>
+              <lb/>Unter Anschluß eines Erlagscheines wird um Überweisung obigen
+              <lb/>Betrages auf das Konto l4.708 beim Bankhaus Schelhammer &amp; Schattera
+              <lb/>höflichst gebeten.
+            </p>
+            <closer>
+              <salute>
+                <lb/><space quantity="31" unit="char"/>Mit vorzüglicher Hochachtung
+              </salute>
+              <signed hand="#hand_blue_unident_0157">
+                <lb/><unclear>E. Klöger</unclear>
+              </signed>
+              <signed hand="#type_black_bachmann">
+                <lb/><space unit="char" quantity="33"/>für die Kanzlei
+              </signed>            
+            </closer>
+           </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00484/" ed="1v" type="sheet"/>
+      </div>
+     </div>
+    </body>
+  </text>
+</TEI>
