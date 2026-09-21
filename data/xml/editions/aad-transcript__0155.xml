@@ -262,7 +262,9 @@
                 <lb/>Hälfte des Schätzwertes. Schlimmstenfalls also müßte <rs type="person" ref="#amp_person_4">Herr
                 <lb/>Kalmann</rs> diese eine Hälfte nocheinmal ersteigern.
               </p>
+            </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00479/" ed="2r" type="sheet"/>
+            <div type="letter_message" hand="#type_black_bachmann" xml:lang="de">
               <p>
                 <lb/><rs type="person" ref="#amp_person_4">Herr Kalmann</rs> teilte mir auch mit, daß Frau Fuchs behaupte,
                 <lb/><subst><del rend="erased" hand="#type_black_bachmann">b</del><add place="superimposed" hand="#type_black_bachmann">d</add></subst>er seinerzeit abgeschlossene <rs ana="#ana_134">Kaufvertrag</rs> wäre nicht verbüchert
