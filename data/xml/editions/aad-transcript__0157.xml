@@ -93,7 +93,7 @@
                   <handNote xml:id="hand_blue_unident_0157" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote xml:id="type_black_bachmann" scribeRef="#amp_person_241" medium="type">Typewriting in black ink authored by Paul Bachmann law firm</typeNote>
+                  <typeNote xml:id="type_black_bachmann_lawfirm" scribeRef="#amp_organization_344" medium="type">Typewriting in black ink authored by Paul Bachmann law firm</typeNote>
                   <typeNote xml:id="print_black_bachmann" scribeRef="#amp_person_241" medium="print-black">Preprinted writing in black authored by Paul Bachmann</typeNote>
                 </typeDesc>
               </physDesc>
@@ -149,7 +149,7 @@
       <div type="transcription" xml:id="transcription_aad_0157" xml:lang="de">
         <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00483/" ed="1r" type="sheet"/>
-          <div type="letter_message" hand="#type_black_bachmann" xml:lang="de">
+          <div type="letter_message" hand="#type_black_bachmann_lawfirm" xml:lang="de">
             <opener>
               <seg hand="#print_black_bachmann">
                 <lb/>RECHTSANWALT
@@ -179,15 +179,15 @@
                 </placeName>
               </seg>
               <seg>
-                <lb/>Betr.: <hi rend="underline" hand="#type_black_bachmann"><rs type="person" ref="#amp_person_1">Prof.Wystan Hugh Auden</rs> -<subst><del rend="erased" hand="#type_black_bachmann">m</del><add place="superimposed" hand="#type_black_bachmann">E</add></subst>xpensen</hi>
+                <lb/>Betr.: <hi rend="underline" hand="#type_black_bachmann_lawfirm"><rs type="person" ref="#amp_person_1">Prof.Wystan Hugh Auden</rs> -<subst><del rend="erased" hand="#type_black_bachmann_lawfirm">m</del><add place="superimposed" hand="#type_black_bachmann_lawfirm">E</add></subst>xpensen</hi>
               </seg>
               <salute>
                 <lb/>Sehr geehrter <rs type="person" ref="#amp_person_1">Herr Professor</rs>!
               </salute>
             </opener>
             <p>
-              <lb/>Die gefertigte <rs type="org" ref="#amp_organization_344">Kanzlei</rs> erlaubt sich d<subst><del rend="erased" hand="#type_black_bachmann">e</del><add place="superimposed" hand="#type_black_bachmann">i</add></subst>e Kosten ihrer Mühe-
-              <lb/>waltung für die Beratung und Vertretung bei der Durchführung<del rend="erased" hand="#type_black_bachmann">$</del>
+              <lb/>Die gefertigte <rs type="org" ref="#amp_organization_344">Kanzlei</rs> erlaubt sich d<subst><del rend="erased" hand="#type_black_bachmann_lawfirm">e</del><add place="superimposed" hand="#type_black_bachmann_lawfirm">i</add></subst>e Kosten ihrer Mühe-
+              <lb/>waltung für die Beratung und Vertretung bei der Durchführung<del rend="erased" hand="#type_black_bachmann_lawfirm">$</del>
               <lb/>eines <rs ana="#ana_136">Schenkungsvertrages</rs> für die Zeit vom 2l.4.l97l bis 7.8.l972
               <lb/>ausschließlich des Verfahrens vor dem <rs type="org" ref="#amp_organization_309">Verwaltungsgerichtshof</rs>
               <lb/>und aller mit diesem Verfahren zusammenhängenden Nebenleistungen
@@ -202,11 +202,11 @@
               <lb/>1 Grundbuchsgesuch
               <lb/>Verdienst: ...................................... S l0.480,--
               <lb/>5,5% USt <space unit="char" quantity="1"/>....................................... "<space unit="char" quantity="4"/>576,40
-              <lb/>Barauslagen ..................................... <hi rend="underline" hand="#type_black_bachmann">"<space unit="char" quantity="4"/>499,--<space unit="char" quantity="1"/></hi>
+              <lb/>Barauslagen ..................................... <hi rend="underline" hand="#type_black_bachmann_lawfirm">"<space unit="char" quantity="4"/>499,--<space unit="char" quantity="1"/></hi>
               <lb/>zusammen ........................................ S ll.555,40
             </p>
             <p>
-              <lb/>Unter Anschluß eines Erlagscheines wird um Überweisung obigen<del rend="erased" hand="#type_black_bachmann">$</del>
+              <lb/>Unter Anschluß eines Erlagscheines wird um Überweisung obigen<del rend="erased" hand="#type_black_bachmann_lawfirm">$</del>
               <lb/>Betrages auf das Konto l4.708 beim <rs type="org" ref="#amp_organization_275">Bankhaus Schelhammer &amp; Schattera</rs>
               <lb/>höflichst gebeten.
             </p>
