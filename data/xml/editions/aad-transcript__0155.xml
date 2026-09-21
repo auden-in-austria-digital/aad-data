@@ -222,7 +222,9 @@
                 <lb/>des <rs type="org" ref="#amp_organization_235">Finanzamtes</rs> mitgeteilt worden. Erst nach Kenntnis von
                 <lb/>der Schenkung der halben <rs type="place" ref="#amp_place_id_2">Liegenschaft</rs> an <rs type="person" ref="#amp_person_4">Herrn Kalmann</rs> er-
               </p>
+              </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00478/" ed="1v" type="sheet"/>
+            <div type="letter_message" hand="#type_black_bachmann" xml:lang="de">
               <p>
                 <lb/>folgte die Vormerkung auf der Ihnen gehörigen Liegenschafts-
                 <lb/>hälfte. <rs type="person" ref="#amp_person_505">Herr Dr.Bubla</rs> hat daraus den Schluß gezogen, daß das
@@ -295,14 +297,14 @@
                 </p>
               </postscript>
             </div>
+           </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00480/" ed="2v" type="sheet"/>
             <div>
               <ab hand="#hand_blue_unident_0155">
                 <lb/>11
               </ab>
             </div>
-          </div>
-        </div>
+         </div>
     </body>
   </text>
 </TEI>
