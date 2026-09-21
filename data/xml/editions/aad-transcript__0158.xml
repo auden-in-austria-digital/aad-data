@@ -3,12 +3,12 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0157" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0158" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title level="s">Auden in Austria Digital (AAD)</title>
-        <title level="a">Typed Letter Signed Paul Bachmann Law Firm to W. H. Auden 1972-08-16</title>
+        <title level="a">Typed Letter Signed Paul Bachmann Law Firm to W. H. Auden 1972-09-04</title>
         <author ref="https://d-nb.info">Paul Bachmann Law Firm</author>
         <author ref="https://d-nb.info">Bachmann, Paul</author>
         <editor>
@@ -29,9 +29,9 @@
       </titleStmt>
       <editionStmt>
         <edition>
-          <title level="a">Typed Letter Signed Paul Bachmann Law Firm to W. H. Auden 1972-08-16</title>
+          <title level="a">Typed Letter Signed Paul Bachmann Law Firm to W. H. Auden 1972-09-04</title>
           <interpGrp>
-            <interp xml:id="ana_136">
+            <interp>
               <desc/>
               <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -77,29 +77,31 @@
                 <objectDesc>
                   <supportDesc>
                     <support>
-                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00483/ https://iiif.acdh.oeaw.ac.at/aad/aad_00484/">Leykam Hartpost 1935</watermark>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00483/">
-                        <width>210</width>
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00485/ https://iiif.acdh.oeaw.ac.at/aad/aad_00486/">Leykam Hartpost 1935</watermark>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00485/">
+                        <width>209</width>
                         <height>296</height>
                       </dimensions>
-                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00484/">
-                        <width>210</width>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00486/">
+                        <width>209</width>
                         <height>296</height>
                       </dimensions>
                     </support>
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote xml:id="hand_blue_unident_0157" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
+                  <handNote xml:id="hand_blue_unident_0158_01" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
+                  <handNote xml:id="hand_blue_unident_0158_02" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
                   <typeNote xml:id="type_black_bachmann_lawfirm" scribeRef="#amp_organization_344" medium="type">Typewriting in black ink authored by Paul Bachmann law firm</typeNote>
                   <typeNote xml:id="print_black_bachmann" scribeRef="#amp_person_241" medium="print-black">Preprinted writing in black authored by Paul Bachmann</typeNote>
+                  <typeNote xml:id="stamp_blue_bachmann" scribeRef="#amp_person_241" medium="stamp-blue">Stamped writing in blue authored by Paul Bachmann</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
                 <origin>
-                  <origDate notBefore-iso="1972-08-16T00:00:00+01:00" notAfter-iso="1972-08-16T23:59:59+01:00"/>
+                  <origDate notBefore-iso="1972-09-04T00:00:00+01:00" notAfter-iso="1972-09-04T23:59:59+01:00"/>
                   <origPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</origPlace>
                 </origin>
               </history>
@@ -122,7 +124,7 @@
       </langUsage>
       <correspDesc>
         <correspAction type="sent">
-          <date notBefore-iso="1972-08-16T00:00:00+01:00"/>
+          <date notBefore-iso="1972-09-04T00:00:00+01:00"/>
         </correspAction>
         <correspAction type="received">
           <persName ref="#amp_person_1">Auden, W. H.</persName>
@@ -131,24 +133,24 @@
       </correspDesc>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#smayer" when-iso="2026-09-18">TEI/XML template populated with csv2xml.py</change>
-      <change who="#smayer" when-iso="2026-09-18">physDesc and profileDesc populated</change>
-      <change who="#smayer" when-iso="2026-09-18">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
+      <change who="#smayer" when-iso="2026-09-21">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-09-21">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-09-21">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
-    <surface ulx="0" uly="0" lrx="3796" lry="5158">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00483/"/>
+    <surface ulx="0" uly="0" lrx="3786" lry="5152">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00485/"/>
     </surface>
-    <surface ulx="0" uly="0" lrx="3798" lry="5160">
-      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00484/"/>
+    <surface ulx="0" uly="0" lrx="3784" lry="5152">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00486/"/>
     </surface>
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0157" xml:lang="de">
+      <div type="transcription" xml:id="transcription_aad_0158" xml:lang="de">
         <div type="letter">
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00483/" ed="1r" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00485/" ed="1r" type="sheet"/>
           <div type="letter_message" hand="#type_black_bachmann_lawfirm" xml:lang="de">
             <opener>
               <seg hand="#print_black_bachmann">
@@ -162,67 +164,77 @@
               </seg>
               <dateline>  
                 <date>
-                  <lb/><space unit="char" quantity="43"/><rs type="place" ref="#amp_place_id_1">Wien</rs>, am l6.8.l972
+                  <lb/><space unit="char" quantity="38"/><rs type="place" ref="#amp_place_id_1">Wien</rs>,am 4.9.l972
                   <lb/>
                 </date>
               </dateline>
               <seg>
                 <persName>
                   <lb/><space unit="char" quantity="30"/>Herrn 
-                  <lb/><space unit="char" quantity="30"/><rs type="person" ref="#amp_person_1">Prof.Wystan Hugh A u d e n</rs>
+                  <lb/><space unit="char" quantity="30"/><rs type="person" ref="#amp_person_1">Prf.Wystan Hugh A u d en</rs>
                 </persName>
                 <placeName>
                   <address>
                     <lb/><space unit="char" quantity="30"/><rs type="place" ref="#amp_place_id_2">Hinterholz 6
-                    <lb/><space unit="char" quantity="30"/>3062 Kirchstetten</rs>
+                      <lb/><space unit="char" quantity="30"/>3062 Kirchstetten</rs>
                   </address>
                 </placeName>
               </seg>
               <seg>
-                <lb/>Betr.: <hi rend="underline" hand="#type_black_bachmann_lawfirm"><rs type="person" ref="#amp_person_1">Prof.Wystan Hugh Auden</rs> -<subst><del rend="erased" hand="#type_black_bachmann_lawfirm">m</del><add place="superimposed" hand="#type_black_bachmann_lawfirm">E</add></subst>xpensen</hi>
+                <lb/>Betr.: <hi rend="underline" hand="#type_black_bachmann_lawfirm"><rs type="person" ref="#amp_person_1">Prof.Auden</rs> - Verwaltungsgerichtshofbeschwerde</hi>
               </seg>
               <salute>
                 <lb/>Sehr geehrter <rs type="person" ref="#amp_person_1">Herr Professor</rs>!
               </salute>
             </opener>
             <p>
-              <lb/>Die gefertigte <rs type="org" ref="#amp_organization_344">Kanzlei</rs> erlaubt sich d<subst><del rend="erased" hand="#type_black_bachmann_lawfirm">e</del><add place="superimposed" hand="#type_black_bachmann_lawfirm">i</add></subst>e Kosten ihrer Mühe-
-              <lb/>waltung für die Beratung und Vertretung bei der Durchführung<del rend="erased" hand="#type_black_bachmann_lawfirm">$</del>
-              <lb/>eines <rs ana="#ana_136">Schenkungsvertrages</rs> für die Zeit vom 2l.4.l97l bis 7.8.l972
-              <lb/>ausschließlich des Verfahrens vor dem <rs type="org" ref="#amp_organization_309">Verwaltungsgerichtshof</rs>
-              <lb/>und aller mit diesem Verfahren zusammenhängenden Nebenleistungen
-              <lb/>wie folgt zu verrechnen:
+              <lb/>Die gefertigte Kanzlei erlaubt sich die Kosten ihrer Mühe-
+              <lb/>waltung für die Verfassung einer Verwaltungsgerichtshofbe-
+              <lb/>schwerde einschließlich der Nebenleistungen wie Konferenzen,
+              <lb/>Telefonate und Kommissionen wie folgt zu verrechnen:
             </p>
             <p>
-              <lb/>3 Konferenzen 5/2 Std.
-              <lb/>9 Telefonate
-              <lb/>28 Schreiben
-              <lb/>2 Kommissionen 4/2 Std
-              <lb/>2 Einstellungsanträge
-              <lb/>1 Grundbuchsgesuch
-              <lb/>Verdienst: ...................................... S l0.480,--
-              <lb/>5,5% USt <space unit="char" quantity="1"/>....................................... "<space unit="char" quantity="4"/>576,40
-              <lb/>Barauslagen ..................................... <hi rend="underline" hand="#type_black_bachmann_lawfirm">"<space unit="char" quantity="4"/>499,--<space unit="char" quantity="1"/></hi>
-              <lb/>zusammen ........................................ S ll.555,40
+              <lb/>Verdienst ................................... S 8.l00,--
+              <lb/>5,5% USt .................................... "<space unit="char" quantity="4"/>445,50
+              <lb/>Barauslagen .................................<hi rend="underline" hand="#type_black_bachmann_lawfirm"><space unit="char" quantity="1"/>"<space unit="char" quantity="4"/>390,--<space unit="char" quantity="1"/></hi>
+              <lb/>zusammen ...................................<space unit="char" quantity="2"/>S<space unit="char" quantity="2"/>8.935,50
             </p>
             <p>
-              <lb/>Unter Anschluß eines Erlagscheines wird um Überweisung obigen<del rend="erased" hand="#type_black_bachmann_lawfirm">$</del>
-              <lb/>Betrages auf das Konto l4.708 beim <rs type="org" ref="#amp_organization_275">Bankhaus Schelhammer &amp; Schattera</rs>
-              <lb/>höflichst gebeten.
+              <lb/>Unter Anschluß eines Erlagscheines wird um Überweisung obigen
+              <lb/>Betrages auf das Konto l4.708 beim Bankhaus Schelhammer &amp;
+              <lb/>Schattera höflichst gebeten.
             </p>
             <closer>
               <salute>
-                <lb/><space quantity="31" unit="char"/>Mit vorzüglicher Hochachtung
+                <lb/><space quantity="28" unit="char"/>Mit vorzüglicher Hochachtung
               </salute>
-              <signed hand="#hand_blue_unident_0157">
-                <lb/><unclear>E.</unclear> <gap reason="illegible" unit="char" atLeast="1" atMost="3"></gap>öger
+              <signed hand="#stamp_blue_bachmann">
+                <lb/>RECHTSANWALT
+                <lb/>Dr. PAUL BACHMANN
+                <lb/>1010 WIEN I., OPERNRING 8
+                <lb/>FERNRUF 52 87 01 SERIE
+                <lb/>POSTSPARKASSE WIEN 121.043
               </signed>
               <signed hand="#type_black_bachmann">
-                <lb/><space unit="char" quantity="33"/>für die <rs type="org" ref="#amp_organization_344">Kanzlei</rs>
-              </signed>            
+                <lb/><space unit="char" quantity="31"/>für die <rs type="org" ref="#amp_organization_344">Kanzlei</rs>
+              </signed>
+              <signed hand="#hand_blue_unident_0158_01">
+                <lb/>E. <gap reason="illegible" unit="char" atLeast="1" atMost="3"></gap>öger
+              </signed>
             </closer>
+            <postscript>
+              <p>
+                <lb/>1 Erlagschein
+              </p>
+            </postscript>
            </div>
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00484/" ed="1v" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00486/" ed="1v" type="sheet"/>
+          <div>
+            <ab hand="#hand_blue_unident_0158_02">
+              <lb/><hi rend="underline" hand="#hand_blue_unident_0158_02">Akt<unclear>.</unclear> <gap reason="illegible" unit="char" quantity="1"></gap> 12<subst><del rend="overwritten" hand="#hand_blue_unident_0158_02">3</del><add place="superimposed" hand="#hand_blue_unident_0158_02">7</add></subst><unclear>/</unclear>75</hi>
+              <lb/>R<unclear>z</unclear>g. N<gap reason="illegible" unit="char" atLeast="3" atMost="4"></gap>.
+            </ab>
+          </div>
       </div>
      </div>
     </body>
