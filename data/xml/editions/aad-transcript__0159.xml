@@ -181,7 +181,7 @@
                 </seg>
                 <seg>
                   <lb/>Betrifft: 
-                  <lb/><hi rend="underline" hand="#type_black_bachmann"><rs type="person" ref="#amp_person_1">Prof.Auden</rs> - Verwaltungsgerichtshofbeschwerde</hi>
+                  <lb/><hi rend="underline" hand="#type_black_bachmann"><rs type="person" ref="#amp_person_1">Prof.Auden</rs> - Verwaltungsgerichtshofbeschwerde</hi><del rend="erased" hand="#type_black_bachmann">$</del>
                 </seg>
                 <salute>
                   <lb/>Sehr geehrter <rs type="person" ref="#amp_person_1">Herr Professor</rs>!
@@ -200,7 +200,7 @@
                 <lb/>Es kommt sehr selten vor, daß das Bundesministerium für
                 <lb/>Finanzen die Entscheidung des Verwaltungsgerichtshofes
                 <lb/>nicht abwartet, sondern diese Entscheidung vorwegnimmt
-                <lb/>und durch Aufhebung des Bescheides eine für das Bundes-
+                <lb/>und durch Aufhebung des Bescheides eine für das Bundes<subst><del rend="overtyped" hand="#type_black_bachmann">.</del><add place="superimposed" hand="#type_black_bachmann">-</add></subst>
                 <lb/>ministerium negative Entscheidung verhindert.
               </p>
               <p>
