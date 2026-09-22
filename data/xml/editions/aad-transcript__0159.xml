@@ -30,7 +30,12 @@
         <edition>
           <title level="a">Typed Letter Signed Paul Bachmann to W. H. Auden 1972-09-04</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_137">
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+            <interp xml:id="ana_138">
               <desc/>
               <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -190,7 +195,7 @@
               <p>
                 <lb/>Das <rs type="org" ref="#amp_organization_161">Bundesministerium für Finanzen</rs> hat mit Bescheid vom
                 <lb/>24.August l972 Zahl 258233 -9a/72 den beim <rs type="org" ref="#amp_organization_309">Verwaltungs-
-                  <lb/>gerichtshof</rs> angefochtenen Berufungsentscheid der <rs type="org" ref="#amp_organization_158">Finanz-
+                <lb/>gerichtshof</rs> angefochtenen Berufungsentscheid der <rs type="org" ref="#amp_organization_158">Finanz-
                 <lb/>landesdirektion für Wien, NÖ und Bgld.</rs> vom l2.4.l972 be-
                 <lb/>treffend Einkommenssteuer l969 und Einkommenssteuervoraus-
                 <lb/>zahlung l970 in Ausübung des Aufsichtsrechtes gemäß § 299
@@ -198,7 +203,7 @@
               </p>
               <p>
                 <lb/>Es kommt sehr selten vor, daß das <rs type="org" ref="#amp_organization_161">Bundesministerium für
-                 <lb/>Finanzen</rs> die Entscheidung des <rs type="org" ref="#amp_organization_309">Verwaltungsgerichtshofes</rs>
+                <lb/>Finanzen</rs> die Entscheidung des <rs type="org" ref="#amp_organization_309">Verwaltungsgerichtshofes</rs>
                 <lb/>nicht abwartet, sondern diese Entscheidung vorwegnimmt
                 <lb/>und durch Aufhebung des Bescheides eine für das Bundes<subst><del rend="overtyped" hand="#type_black_bachmann">.</del><add place="superimposed" hand="#type_black_bachmann">-</add></subst>
                 <lb/>ministerium negative Entscheidung verhindert.
@@ -208,7 +213,7 @@
                 <lb/>geschlossen, nämlich, daß keine rechtliche Verpflichtung
                 <lb/>für <rs type="person" ref="#amp_person_4">Mr.Kalmann</rs> besteht, Sie in dem <rs type="place" ref="#amp_place_id_2">Haus</rs> wohnen zu lassen.
                 <lb/>Das Bundesministerium für Finanzen hob den Bescheid auf,
-                <lb/>um durch Einvernahme durch Mr.Kalmann zu klären, ob Sie,
+                <lb/>um durch <rs ana="#ana_137">Einvernahme durch Mr.Kalmann</rs> zu klären, ob Sie,
                 <lb/>sehr geehrter <rs type="person" ref="#amp_person_1">Herr Professor</rs>, die <rs type="place" ref="#amp_place_id_2">Wohnung in Kirchstetten</rs>
               </p>
             </div>
@@ -251,9 +256,9 @@
                 <lb/>Österreich wieder stattfinden wird.
               </p>
               <p>
-                <lb/>Jedenfalls freue ich mich sehr, daß die Verwaltungsgerichts-
+                <lb/><rs ana="#ana_138">Jedenfalls freue ich mich sehr, daß die Verwaltungsgerichts-
                 <lb/>hofbesch<subst><del rend="erased" hand="#type_black_bachmann">e</del><add place="superimposed" hand="#type_black_bachmann">w</add></subst>erde Erfol<subst><del rend="erased" hand="#type_black_bachmann">f</del><add place="superimposed" hand="#type_black_bachmann">g</add></subst> hatte und einmal vorläufig der angefochtene
-                <lb/>Bescheid aufgehoben ist.
+                <lb/>Bescheid aufgehoben ist</rs>.
                 <lb/>Eine Honorarnote meiner <rs type="org" ref="#amp_organization_344">Kanzlei</rs>, betreffend das Verwaltungs-
                 <lb/>gerichtshofverfahren übermittle ich in der Beilage ./.
               </p>
