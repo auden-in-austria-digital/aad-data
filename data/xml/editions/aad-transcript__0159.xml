@@ -181,35 +181,35 @@
                 </seg>
                 <seg>
                   <lb/>Betrifft: 
-                  <lb/><hi rend="underline" hand="#type_black_bachmann"><rs type="person" ref="#amp_person_1">Prof.Auden</rs> - Verwaltungsgerichtshofbeschwerde</hi><del rend="erased" hand="#type_black_bachmann">$</del>
+                  <lb/><hi rend="underline" hand="#type_black_bachmann"><rs type="person" ref="#amp_person_1">Prof.Auden</rs> - <rs ana="acdh:aad-transcript__0152.xml#ana_132">Verwaltungsgerichtshofbeschwerde</rs></hi><del rend="erased" hand="#type_black_bachmann">$</del>
                 </seg>
                 <salute>
                   <lb/>Sehr geehrter <rs type="person" ref="#amp_person_1">Herr Professor</rs>!
                 </salute>
               </opener>
               <p>
-                <lb/>Das Bundesministerium für Finanzen hat mit Bescheid vom
-                <lb/>24.August l972 Zahl 258233 -9a/72 den beim Verwaltungs-
-                <lb/>gerichtshof angefochtenen Berufungsentscheid der Finanz-
-                <lb/>landesdirektion für Wien, NÖ und Bgld. vom l2.4.l972 be-
+                <lb/>Das <rs type="org" ref="#amp_organization_161">Bundesministerium für Finanzen</rs> hat mit Bescheid vom
+                <lb/>24.August l972 Zahl 258233 -9a/72 den beim <rs type="org" ref="#amp_organization_309">Verwaltungs-
+                  <lb/>gerichtshof</rs> angefochtenen Berufungsentscheid der <rs type="org" ref="#amp_organization_158">Finanz-
+                <lb/>landesdirektion für Wien, NÖ und Bgld.</rs> vom l2.4.l972 be-
                 <lb/>treffend Einkommenssteuer l969 und Einkommenssteuervoraus-
                 <lb/>zahlung l970 in Ausübung des Aufsichtsrechtes gemäß § 299
                 <lb/>Abs.l lit.c der Bundesabgabenordnung aufgehoben.
               </p>
               <p>
-                <lb/>Es kommt sehr selten vor, daß das Bundesministerium für
-                <lb/>Finanzen die Entscheidung des Verwaltungsgerichtshofes
+                <lb/>Es kommt sehr selten vor, daß das <rs type="org" ref="#amp_organization_161">Bundesministerium für
+                 <lb/>Finanzen</rs> die Entscheidung des <rs type="org" ref="#amp_organization_309">Verwaltungsgerichtshofes</rs>
                 <lb/>nicht abwartet, sondern diese Entscheidung vorwegnimmt
                 <lb/>und durch Aufhebung des Bescheides eine für das Bundes<subst><del rend="overtyped" hand="#type_black_bachmann">.</del><add place="superimposed" hand="#type_black_bachmann">-</add></subst>
                 <lb/>ministerium negative Entscheidung verhindert.
               </p>
               <p>
-                <lb/>Das Bundesministerium hat sich meiner Argumentation an-
+                <lb/>Das <rs type="org" ref="#amp_organization_161">Bundesministerium</rs> hat sich meiner Argumentation an-
                 <lb/>geschlossen, nämlich, daß keine rechtliche Verpflichtung
-                <lb/>für Mr.Kalmann besteht, Sie in dem Haus wohnen zu lassen.
+                <lb/>für <rs type="person" ref="#amp_person_4">Mr.Kalmann</rs> besteht, Sie in dem <rs type="place" ref="#amp_place_id_2">Haus</rs> wohnen zu lassen.
                 <lb/>Das Bundesministerium für Finanzen hob den Bescheid auf,
                 <lb/>um durch Einvernahme durch Mr.Kalmann zu klären, ob Sie,
-                <lb/>sehr geehrter Herr Professor, die Wohnung in Kirchstetten
+                <lb/>sehr geehrter <rs type="person" ref="#amp_person_1">Herr Professor</rs>, die <rs type="place" ref="#amp_place_id_2">Wohnung in Kirchstetten</rs>
               </p>
             </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00488/" ed="1v" type="sheet"/>
@@ -221,40 +221,40 @@
             <div type="letter_message" hand="#type_black_bachmann" xml:lang="de">
               <p>
                 <lb/>unter Umständen innehaben, darauf schließen lassen, daß Sie
-                <lb/>die Wohnung beibehalten und benutzen werden.
+                <lb/>die Wohnung beibehalten und benu<add hand="#hand_blue_bachmann" place="inline">t</add>zen werden.
               </p>
               <p>
                 <lb/>Es gibt nun 2 Möglichkeiten:
-                <lb/>1. Die Finanzbehörden haben sich entschlossen, daß Kessel-
-                <lb/>treiben gegen Sie einzustellen. Dies könnte man dann an-
-                <lb/>nehmen, wenn man von Seiten der Abgabenbehörde die Sache
-                <lb/>einschlafen läßt.
+                <lb/>1. Die Finanzbehörden haben sich entschlossen, da<subst><del rend="overwritten" hand="#hand_blue_bachmann">ß</del><add place="superimposed" hand="#hand_blue_bachmann">s</add></subst> Kessel-
+                <lb/><space unit="char" quantity="3"/>treiben gegen Sie einzustellen. Dies könnte man dann an-
+                <lb/><space unit="char" quantity="3"/>nehmen, wenn man von Seiten der Abgabenbehörde die Sache
+                <lb/><space unit="char" quantity="3"/>einschlafen läßt.
                 <lb/>2. Die Finanzbehörde will doch noch den Sachverhalt näher
-                <lb/>prüfen und sich ein klares Bild schaffen, dies durch
-                <lb/>Einvernahme durch Mr.Kalmann.
+                <lb/><space unit="char" quantity="3"/>prüfen und sich ein klares Bild schaffen, dies durch
+                <lb/><space unit="char" quantity="3"/>Einvernahme durch <rs type="person" ref="#amp_person_4">Mr.Kalmann</rs>.
               </p>
               <p>
                 <lb/>Nach allen trüben Erfahrungen, die Sie mit den Finanzbe-
                 <lb/>hörden gemacht haben, empfiehlt es sich nicht, optimistisch
-                <lb/>in die Zukunft zu schauen, sondern muß damit gerechnet werden,
-                <lb/>daß Mr.Kalmann seitens der Finanzbehörde einvernommen werden
+                <lb/>in die Zukunft zu schauen, sondern muß damit gerech<subst><del rend="erased" hand="#type_black_bachmann">e</del><add place="superimposed" hand="#type_black_bachmann">n</add></subst>et werden,
+                <lb/>daß <rs type="person" ref="#amp_person_4">Mr.Kalmann</rs> seitens der Finanzbehörde einvernommen werden
                 <lb/>wird.
               </p>
               <p>
-                <lb/>Ich empfehle Ihnen daher dringend, daß Mr.Kalmann oder Sie
+                <lb/>Ich empfehle Ihnen daher dringend, daß <rs type="person" ref="#amp_person_4">Mr.Kalmann</rs> oder Sie
                 <lb/>nur und erst dann mit der Finanzbehörde wenn überhaupt per -
                 <lb/>sönlich sprechen, wenn Sie oder Mr.Kalmann vorher mit Herrn
-                <lb/>Dr.Bubla und mir gesprochen haben. Da Sie, wie ich weiß,
-                <lb/>Österreich in den nächsten Tagen verlassen werden, halte ich
-                <lb/>es für sehr zweckmäßig, wenn ein allenfalls von der Finanz-
+                <lb/><rs type="person" ref="#amp_person_505">Dr.Bubla</rs> und mir gesprochen haben. Da Sie, wie ich weiß,
+                <lb/><rs type="place" ref="#amp_place_id_10">Österreich</rs> in den nächsten Tagen verlassen werden, halte ich
+                <lb/>es für sehr zweck<subst><del rend="erased" hand="#type_black_bachmann"><gap reason="illegible" unit="char" quantity="1"></gap></del><add place="superimposed" hand="#type_black_bachmann">m</add></subst>äßig, wenn ein allenfalls von der Finanz-
                 <lb/>behörde gewünschtes Gespräch erst nach Ihrer Rückkehr nach
                 <lb/>Österreich wieder stattfinden wird.
               </p>
               <p>
                 <lb/>Jedenfalls freue ich mich sehr, daß die Verwaltungsgerichts-
-                <lb/>hofbeschwerde Erfolg hatte und einmal vorläufig der angefochtene
+                <lb/>hofbesch<subst><del rend="erased" hand="#type_black_bachmann">e</del><add place="superimposed" hand="#type_black_bachmann">w</add></subst>erde Erfol<subst><del rend="erased" hand="#type_black_bachmann">f</del><add place="superimposed" hand="#type_black_bachmann">g</add></subst> hatte und einmal vorläufig der angefochtene
                 <lb/>Bescheid aufgehoben ist.
-                <lb/>Eine Honorarnote meiner Kanzlei, betreffend das Verwaltungs-
+                <lb/>Eine Honorarnote meiner <rs type="org" ref="#amp_organization_344">Kanzlei</rs>, betreffend das Verwaltungs-
                 <lb/>gerichtshofverfahren übermittle ich in der Beilage ./.
               </p>
               <closer>
