@@ -67,6 +67,7 @@
           <witness n="1">
             <msDesc>
               <msIdentifier>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
                 <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
                 <collection>Documentation Center for Literature in Lower Austria</collection>
                 <idno>LS-Aud 2.4</idno>
@@ -75,7 +76,7 @@
                 <objectDesc>
                   <supportDesc>
                     <support>
-                      <watermark/>
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00487/ https://iiif.acdh.oeaw.ac.at/aad/aad_00488/">Leykam Hartpost 1935</watermark>
                       <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00487/">
                         <width>209</width>
                         <height>296</height>
@@ -88,10 +89,12 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote/>
+                  <handNote xml:id="hand_blue_bachmann" scribeRef="#amp_person_241" medium="ink-blue">Handwriting in blue ink by Paul Bachmann</handNote>
+                  <handNote xml:id="hand_blue_unident_0159" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="type_black_bachmann" scribeRef="#amp_person_241" medium="type">Typewriting in black ink authored by Paul Bachmann</typeNote>
+                  <typeNote xml:id="print_black_bachmann" scribeRef="#amp_person_241" medium="print-black">Preprinted writing in black authored by Paul Bachmann</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -115,11 +118,22 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="de"/>
       </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1972-09-04T00:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <placeName><rs type="place" ref="#amp_place_id_2">Kirchstetten</rs></placeName>
+        </correspAction>
+      </correspDesc>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2026-09-21">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-09-21">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-09-22">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-09-22">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -132,11 +146,137 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0159" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0159" xml:lang="de">
+          <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00487/" ed="1r" type="sheet"/>
+            <div type="letter_message" hand="#type_black_bachmann" xml:lang="de">
+              <opener>
+                <seg hand="#print_black_bachmann">
+                  <lb/>RECHTSANWALT
+                  <lb/><persName><rs type="person" ref="#amp_person_241">D<hi rend="superscript">R.</hi> PAUL BACHMANN</rs></persName>
+                  <lb/><placeName><address><rs type="place" ref="#amp_place_id_551">1O1O WIEN I, OPERNRING 8</rs></address></placeName>
+                  <lb/>FERNRUF 52 87 O1 U. 52 87 O2
+                  <lb/><rs type="org" ref="#amp_organization_275">SCHELHAMMER &amp; SCHATTERA</rs> <rs type="place" ref="#amp_place_id_1">WIEN</rs>
+                  <lb/>KONTO NR. 14.217
+                  <lb/><rs type="org" ref="#amp_organization_276">POSTSPARKASSE</rs> <rs type="place" ref="#amp_place_id_1">WIEN</rs> 121.O43
+                </seg>
+                <dateline>  
+                  <date>
+                    <lb/><space unit="char" quantity="42"/><rs type="place" ref="#amp_place_id_1">Wien</rs>,am 4.9.l972
+                    <lb/>
+                    <lb/>
+                  </date>
+                </dateline>
+                <seg>
+                  <persName>
+                    <lb/><space unit="char" quantity="30"/>Herrn 
+                    <lb/><space unit="char" quantity="30"/><rs type="person" ref="#amp_person_1">Prof.Wystan Hugh A u d en</rs>
+                  </persName>
+                  <placeName>
+                    <address>
+                      <lb/><space unit="char" quantity="30"/><rs type="place" ref="#amp_place_id_2">Hinterholz 6
+                      <lb/><space unit="char" quantity="30"/>3062 Kirchstetten</rs>
+                    </address>
+                  </placeName>
+                </seg>
+                <seg>
+                  <lb/>Betrifft: 
+                  <lb/><hi rend="underline" hand="#type_black_bachmann"><rs type="person" ref="#amp_person_1">Prof.Auden</rs> - Verwaltungsgerichtshofbeschwerde</hi>
+                </seg>
+                <salute>
+                  <lb/>Sehr geehrter <rs type="person" ref="#amp_person_1">Herr Professor</rs>!
+                </salute>
+              </opener>
+              <p>
+                Das Bundesministerium für Finanzen hat mit Bescheid vom
+                24. August 1972 Zahl 258233 -9a/72 den beim Verwaltungs-
+                gerichtshof angefochtenen Berufungsentscheid der Finanz-
+                landesdirektion für Wien, Nö und Bgld. vom 12.4.1972 be-
+                treffend Einkommenssteuer 1969 und Einkommenssteuervoraus-
+                zahlung 1970 in Ausübung des Aufsichtsrechtes gemäß-§ 299
+                Abs.1 lit.c der Bundesabgabenordnung aufgehoben.
+              </p>
+              <p>
+                Es kommt sehr selten vor, daß das Bundesministerium für
+                Finanzen die Entscheidung des Verwaltungsgerichtshofes
+                nicht abwartet, sondern diese Entscheidung vorwegnimmt
+                und durch Aufhebung des Bescheides eine für das Bundes:
+                ministerium negative Entscheidung verhindert.
+              </p>
+              <p>
+                Das Bundesministerium hat sich meiner Argumentation an-
+                geschlossen, nämlich, daß keine rechtliche Verpflichtung
+                für Mr.Kalmann besteht, Sie in dem Haus wohnen zu lassen.
+                Das Bundesministerium für Finanzen hob den Bescheid auf,
+                um durch Einvernahme durch Mr.Kalmann zu klären, ob Sie,
+                sehr geehrter Herr Professor, die Wohnung in Kirchstetten
+              </p>
+            </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00488/" ed="1v" type="sheet"/>
-      </div>
+            <div>
+              <ab hand="#hand_blue_unident_0159">
+                <lb/>9
+              </ab>
+            </div>
+            <div type="letter_message" hand="#type_black_bachmann" xml:lang="de">
+              <p>
+                unter Umständen innehaben, darauf schließen lassen, daß Sie
+                die Wohnung beibehalten und benutzen werden.
+              </p>
+              <p>
+                Es gibt nun 2 Möglichkeiten:
+                1. Die Finanzbehörden haben sich entschlossen, daß Kessel-
+                treiben gegen Sie einzustellen. Dies könnte man dann an-
+                nehmen, wenn man von Seiten der Abgabenbehörde die Sache
+                einschlafen läßt.
+                2. Die Finanzbehörde will doch noch den Sachverhalt näher
+                prüfen und sich ein klares Bild schaffen, dies durch
+                Einvernahme durch Mr.Kalmann.
+              </p>
+              <p>
+                Nach allen trüben Erfahrungen, die Sie mit den Finanzbe-
+                hörden gemacht haben, empfiehlt es sich nicht, optimistisch
+                in die Zukunft zu schauen, sondern muß damit gerechnet werden,
+                daß Mr. Kalmann seitens der Finanzbehörde einvernommen werden
+                wird.
+              </p>
+              <p>
+                Ich empfehle Ihnen daher dringend, daß Mr.Kalmann oder Sie
+                nur und erst dann mit der Finanzbehörde wenn überhaupt per-
+                sönlich sprechen, wenn Sie oder Mr.Kalmann vorher mit Herrn
+                Dr. Bubla und mir gesprochen haben. Da Sie, wie ich weiß,
+                Österreich in den nächsten Tagen verlassen werden, halte ich
+                es für sehr zweckmäßig, wenn ein allenfalls von der Finanz-
+                behörde gewünschtes Gespräch erst nach Ihrer Rückkehr nach
+                Österreich wieder stattfinden wird.
+              </p>
+              <p>
+                Jedenfalls freue ich mich sehr, daß die Verwaltungsgerichts-
+                hofbeschwerde Erfolg hatte und einmal vorläufig der angefochtene
+                Bescheid aufgehoben ist.
+                Eine Honorarnote meiner Kanzlei, betreffend das Verwaltungs-
+                gerichtshofverfahren übermittle ich in der Beilage./.
+              </p>
+              <closer>
+                <salute>
+                  <lb/><space quantity="24" unit="char"/>Mit vorzüglicher Hochachtung
+                </salute>
+                <signed hand="#hand_blue_bachmann">
+                  <lb/><rs type="person" ref="#amp_person_241"><unclear>Paul Bachmann</unclear></rs>
+                </signed>
+                <signed hand="#type_black_bachmann">
+                  <lb/><space unit="char" quantity="26"/>(<rs type="person" ref="#amp_person_241">Dr.Paul Bachmann</rs>)
+                </signed>            
+              </closer>
+              <postscript>
+                <p>
+                  <lb/>2 Beilage
+                  <lb/>1 Erlagschein
+                </p>
+              </postscript>
+            </div>
+          </div>
+        </div>
     </body>
   </text>
 </TEI>
