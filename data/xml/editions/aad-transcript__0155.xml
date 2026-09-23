@@ -266,7 +266,7 @@
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00479/" ed="2r" type="sheet"/>
             <div type="letter_message" hand="#type_black_bachmann" xml:lang="de">
               <p>
-                <lb/><rs type="person" ref="#amp_person_4">Herr Kalmann</rs> teilte mir auch mit, daß Frau Fuchs behaupte,
+                <lb/><rs type="person" ref="#amp_person_4">Herr Kalmann</rs> teilte mir auch mit, daß <rs type="person" ref="#amp_person_539">Frau Fuchs</rs> behaupte,
                 <lb/><subst><del rend="erased" hand="#type_black_bachmann">b</del><add place="superimposed" hand="#type_black_bachmann">d</add></subst>er seinerzeit abgeschlossene <rs ana="#ana_134">Kaufvertrag</rs> wäre nicht verbüchert
                 <lb/>worden.
               </p>
@@ -275,7 +275,7 @@
                 <lb/><rs type="person" ref="#amp_person_4">Herrn Kalmann</rs> telefonisch festgestellt, daß der am 3.ll.l966
                 <lb/>abgeschlossene Kaufvertrag zur Tagebuchzahl l7ll/69 grund-
                 <lb/>bücherlich durch das <rs type="org" ref="#amp_organization_311">BG Neulengbach</rs> durchgeführt worden ist.
-                <lb/>Das Eigentumsrecht ist nicht mehr für Frau Fuchs, sondern
+                <lb/>Das Eigentumsrecht ist nicht mehr für <rs type="person" ref="#amp_person_539">Frau Fuchs</rs>, sondern
                 <lb/>für Herrn Kalmann eingetragen.
               </p>
               <p>
