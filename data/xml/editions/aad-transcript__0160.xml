@@ -67,6 +67,7 @@
           <witness n="1">
             <msDesc>
               <msIdentifier>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
                 <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
                 <collection>Documentation Center for Literature in Lower Austria</collection>
                 <idno>LS-Aud 2.4</idno>
@@ -75,7 +76,7 @@
                 <objectDesc>
                   <supportDesc>
                     <support>
-                      <watermark/>
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00489/ https://iiif.acdh.oeaw.ac.at/aad/aad_00490/">Leykam Hartpost 1935</watermark>
                       <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00489/">
                         <width>209</width>
                         <height>296</height>
@@ -88,10 +89,12 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote/>
+                  <handNote xml:id="hand_blue_bachmann" scribeRef="#amp_person_241" medium="ink-blue">Handwriting in blue ink by Paul Bachmann</handNote>
+                  <handNote xml:id="hand_gray_unident_0160" medium="pencil">Handwriting in pencil by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="type_black_bachmann" scribeRef="#amp_person_241" medium="type">Typewriting in black ink authored by Paul Bachmann</typeNote>
+                  <typeNote xml:id="print_black_bachmann" scribeRef="#amp_person_241" medium="print-black">Preprinted writing in black authored by Paul Bachmann</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -115,11 +118,22 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="de"/>
       </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1972-10-30T00:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <placeName><rs type="place" ref="#amp_place_id_46">Oxford</rs></placeName>
+        </correspAction>
+      </correspDesc>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2026-09-21">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-09-21">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-09-23">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-09-23">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -132,11 +146,86 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0160" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0160" xml:lang="de">
+          <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00489/" ed="1r" type="sheet"/>
+            <div type="letter_message" hand="#type_black_bachmann" xml:lang="de">
+              <opener>
+                <seg hand="#print_black_bachmann">
+                  <lb/>RECHTSANWALT
+                  <lb/><persName><rs type="person" ref="#amp_person_241">D<hi rend="superscript">R.</hi> PAUL BACHMANN</rs></persName>
+                  <lb/><placeName><address><rs type="place" ref="#amp_place_id_551">1O1O WIEN I, OPERNRING 8</rs></address></placeName>
+                  <lb/>FERNRUF 52 87 O1 U. 52 87 O2
+                  <lb/><rs type="org" ref="#amp_organization_275">SCHELHAMMER &amp; SCHATTERA</rs> <rs type="place" ref="#amp_place_id_1">WIEN</rs>
+                  <lb/>KONTO NR. 14.217
+                  <lb/><rs type="org" ref="#amp_organization_276">POSTSPARKASSE</rs> <rs type="place" ref="#amp_place_id_1">WIEN</rs> 121.O43
+                </seg>
+                <dateline>  
+                  <date>
+                    <lb/><space unit="char" quantity="37"/><rs type="place" ref="#amp_place_id_1">Wien</rs>,am 30.l0.l972
+                    <lb/>
+                    <lb/>
+                  </date>
+                </dateline>
+                <seg>
+                  <persName>
+                    <lb/><space unit="char" quantity="31"/>Herrn 
+                    <lb/><space unit="char" quantity="31"/><rs type="person" ref="#amp_person_1">Prof.Wystan Hugh Auden</rs>
+                  </persName>
+                  <placeName>
+                    <address>
+                      <lb/><space unit="char" quantity="31"/><rs type="org" ref="#amp_organization_275">Christ Church</rs> <rs type="place" ref="#amp_place_id_46">Oxford</rs>
+                      <lb/><space unit="char" quantity="31"/><rs type="place" ref="#amp_place_id_239">E n g l a n d</rs>
+                    </address>
+                  </placeName>
+                </seg>
+                <seg>
+                  <lb/>Betr.: <hi rend="underline" hand="#type_black_bachmann"><rs type="person" ref="#amp_person_4">Chester Simon Kalmann</rs> - Fuchs</hi> 
+                </seg>
+                <salute>
+                  <lb/>Sehr geehrter <rs type="person" ref="#amp_person_1">Herr Professor</rs>!
+                </salute>
+              </opener>
+              <p>
+                <lb/>Herr Dipl.Ing,Rudolf Wagensommerer hat die Abteilungspläne
+                <lb/>hergestellt, die Bescheinigung des Vermessungsamtes einge-
+                <lb/>holt, sodaß ich nunmehr beim Bürgermeister von Kirchstetten
+                <lb/>den erforderlichen Antrag auf Bewilligung entsprechend der
+                <lb/>niederösterreichischen Bauordnung stellen konnte.
+                <lb/>Sowie ich diese Genehmigung besitze, werde ich beim Grund-
+                <lb/>buchsgericht Neulengbach die Intabulierung begeh-ren.
+                <lb/>Vorher muß noch eine Aufsandungserklärung durch die Ehegatten
+                <lb/>Fuchs unterzeichnet werden. Diese Erklärung wird auch Mr.Kalmann
+                <lb/>zu unterfertigen haben.
+                <lb/>Eine Honorarnote des Herrn Ing.Rudolf Wagensommerer, der die
+                <lb/>Pläne verfaßte, vom 24.l0.l972 über S 3.6l5,40 übersende ich
+                <lb/>Ihnen in der Beilage.
+                <lb/>Ich empfehle Ihnen den erwähnten Betrag auf das Konto des
+                <lb/>Herrn Dipl.Ing.Rudolf Wagensommerer Nr.222/l50 bei der Raiffeisen-
+                <lb/>kasse Neulengbach reg.Gen.m.b.H. zu überweisen. Ich bitte hiebei
+                <lb/>zu beachten, daß die Überweisung names des Herrn Kalmann zu
+                <lb/>erfolgen hat.
+              </p>
+              <closer>
+                <salute>
+                  <lb/><space quantity="27" unit="char"/>Mit vorzüglicher Hochachtung
+                </salute>
+                <signed hand="#hand_blue_bachmann">
+                  <lb/><rs type="person" ref="#amp_person_241"><unclear>Paul Bachmann</unclear></rs>
+                </signed>
+                <signed hand="#type_black_bachmann">
+                  <lb/><space unit="char" quantity="29"/>(<rs type="person" ref="#amp_person_241">Dr.Paul Bachmann</rs>)
+                </signed>            
+              </closer>
+              <postscript>
+                <p>
+                  <lb/>1 Beilage
+                </p>
+              </postscript>
+            </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00490/" ed="1v" type="sheet"/>
       </div>
+     </div>
     </body>
   </text>
 </TEI>
