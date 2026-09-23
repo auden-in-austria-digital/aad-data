@@ -180,7 +180,7 @@
                   </placeName>
                 </seg>
                 <seg>
-                  <lb/>Betr.: <hi rend="underline" hand="#type_black_bachmann"><rs type="person" ref="#amp_person_4">Chester Simon Kalmann</rs> - Fuchs</hi> 
+                  <lb/>Betr.: <hi rend="underline" hand="#type_black_bachmann"><rs type="person" ref="#amp_person_4">Chester Simon Kalmann</rs> - <rs type="person" ref="#amp_person_539"><rs type="person" ref="#amp_person_540">Fuchs</rs></rs></hi> 
                 </seg>
                 <salute>
                   <lb/>Sehr geehrter <rs type="person" ref="#amp_person_1">Herr Professor</rs>!
@@ -189,15 +189,15 @@
               <p>
                 <lb/>Herr <rs type="person" ref="#amp_person_538">Dipl.Ing,Rudolf Wagensommerer</rs> hat die Abteilungspläne
                 <lb/>hergestellt, die Bescheinigung des Vermessungsamtes <add hand="#hand_gray_unident_0160" place="above">certificate from the survey o<unclear>f</unclear>fice</add> einge-
-                <lb/>holt, sodaß ich nunmehr beim Bürgermeister von Kirchstetten
+                <lb/>holt, sodaß ich nunmehr beim <rs type="person" ref="#amp_person_xx">Bürgermeister von Kirchstetten</rs>
                 <lb/>den erforderlichen Antrag auf Bewilligung entsprechend der
                 <lb/>niederösterreichischen Bauordnung stellen konnte.
-                <lb/>So<subst><del rend="erased" hand="#type_black_bachmann">e</del><add place="superimposed" hand="#type_black_bachmann">w</add></subst>ie ich diese Genehmigung besitze, werde ich beim Grund- <add hand="#hand_gray_unident_0160" place="above">register of</add>
-                <lb/>buchsgericht <add hand="#hand_gray_unident_0160" place="above">real estate</add> Neulengbach die Intabulierung <add hand="#hand_gray_unident_0160" place="above">entr<unclear>y</unclear></add> begeh<subst><del rend="erased" hand="#type_black_bachmann">e</del><add place="superimposed" hand="#type_black_bachmann">-</add></subst>ren.
-                <lb/>Vorher muß noch eine <hi rend="underline" hand="#hand_gray_unident_0160">Aufsandungserkläru</hi>ng durch die Ehegatten
-                <lb/>Fuchs unterzeichnet werden. Diese Erklärung wird auch Mr.Kalmann
+                <lb/>So<subst><del rend="erased" hand="#type_black_bachmann">e</del><add place="superimposed" hand="#type_black_bachmann">w</add></subst>ie ich diese Genehmigung besitze, werde ich beim <rs type="org" ref="#amp_organization_311">Grund- <add hand="#hand_gray_unident_0160" place="above">register of</add>
+                <lb/>buchsgericht <add hand="#hand_gray_unident_0160" place="above">real estate</add> Neulengbach</rs> die Intabulierung <add hand="#hand_gray_unident_0160" place="above">entr<unclear>y</unclear></add> begeh<subst><del rend="erased" hand="#type_black_bachmann">e</del><add place="superimposed" hand="#type_black_bachmann">-</add></subst>ren.
+                <lb/>Vorher muß noch eine <hi rend="underline" hand="#hand_gray_unident_0160">Aufsandungserkläru</hi>ng durch die <rs type="person" ref="#amp_person_539"><rs type="person" ref="#amp_person_540">Ehegatten
+                <lb/>Fuchs</rs></rs> unterzeichnet werden. Diese Erklärung wird auch <rs type="person" ref="#amp_person_4">Mr.Kalmann</rs>
                 <lb/>zu unterfertigen haben.
-                <lb/>Eine <hi rend="underline" hand="#hand_gray_unident_0160">Honorarnote des Herrn Ing.Rudolf Wagensommerer, </hi>der die
+                <lb/>Eine <hi rend="underline" hand="#hand_gray_unident_0160">Honorarnote des Herrn <rs type="person" ref="#amp_person_538">Ing.Rudolf Wagensommerer</rs>, </hi>der die
                 <lb/>Pläne verfaßte, vom 24.l0.l972 über S 3.6l5,40 übersende ich
                 <lb/>Ihnen in der Beilage.
                 <lb/>Ich empfehle Ihnen den erwähnten Betrag auf das K<hi rend="underline" hand="#hand_gray_unident_0160">onto</hi> des
