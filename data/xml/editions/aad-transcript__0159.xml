@@ -234,7 +234,7 @@
                 <lb/><space unit="char" quantity="3"/>treiben gegen Sie einzustellen. Dies könnte man dann an-
                 <lb/><space unit="char" quantity="3"/>nehmen, wenn man von Seiten der Abgabenbehörde die Sache
                 <lb/><space unit="char" quantity="3"/>einschlafen läßt.
-                <lb/>2. Die Finanzbehörde will doch noch den Sachverhalt näher
+                <lb/>2. Die <rs type="org" ref="#amp_organization_158">Finanzbehörde</rs> will doch noch den Sachverhalt näher
                 <lb/><space unit="char" quantity="3"/>prüfen und sich ein klares Bild schaffen, dies durch
                 <lb/><space unit="char" quantity="3"/>Einvernahme durch <rs type="person" ref="#amp_person_4">Mr.Kalmann</rs>.
               </p>
@@ -242,12 +242,12 @@
                 <lb/>Nach allen trüben Erfahrungen, die Sie mit den Finanzbe-
                 <lb/>hörden gemacht haben, empfiehlt es sich nicht, optimistisch
                 <lb/>in die Zukunft zu schauen, sondern muß damit gerech<subst><del rend="erased" hand="#type_black_bachmann">e</del><add place="superimposed" hand="#type_black_bachmann">n</add></subst>et werden,
-                <lb/>daß <rs type="person" ref="#amp_person_4">Mr.Kalmann</rs> seitens der Finanzbehörde einvernommen werden
+                <lb/>daß <rs type="person" ref="#amp_person_4">Mr.Kalmann</rs> seitens der <rs type="org" ref="#amp_organization_158">Finanzbehörde</rs> einvernommen werden
                 <lb/>wird.
               </p>
               <p>
                 <lb/>Ich empfehle Ihnen daher dringend, daß <rs type="person" ref="#amp_person_4">Mr.Kalmann</rs> oder Sie
-                <lb/>nur und erst dann mit der Finanzbehörde wenn überhaupt per -
+                <lb/>nur und erst dann mit der <rs type="org" ref="#amp_organization_158">Finanzbehörde</rs> wenn überhaupt per -
                 <lb/>sönlich sprechen, wenn Sie oder Mr.Kalmann vorher mit Herrn
                 <lb/><rs type="person" ref="#amp_person_505">Dr.Bubla</rs> und mir gesprochen haben. Da Sie, wie ich weiß,
                 <lb/><rs type="place" ref="#amp_place_id_10">Österreich</rs> in den nächsten Tagen verlassen werden, halte ich

@@ -30,7 +30,7 @@
         <edition>
           <title level="a">Typed Letter Signed Paul Bachmann to W. H. Auden 1972-10-30</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_139">
               <desc/>
               <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -189,9 +189,9 @@
               <p>
                 <lb/>Herr <rs type="person" ref="#amp_person_538">Dipl.Ing,Rudolf Wagensommerer</rs> hat die Abteilungspläne
                 <lb/>hergestellt, die Bescheinigung des Vermessungsamtes <add hand="#hand_gray_unident_0160" place="above">certificate from the survey o<unclear>f</unclear>fice</add> einge-
-                <lb/>holt, sodaß ich nunmehr beim <rs type="person" ref="#amp_person_xx">Bürgermeister von Kirchstetten</rs>
-                <lb/>den erforderlichen Antrag auf Bewilligung entsprechend der
-                <lb/>niederösterreichischen Bauordnung stellen konnte.
+                <lb/>holt, sodaß ich nunmehr beim <rs type="person" ref="#amp_person_22">Bürgermeister von Kirchstetten</rs>
+                <lb/>den erforderlichen <rs ana="#ana_139">Antrag auf Bewilligung entsprechend der
+                <lb/>niederösterreichischen Bauordnung stellen</rs> konnte.
                 <lb/>So<subst><del rend="erased" hand="#type_black_bachmann">e</del><add place="superimposed" hand="#type_black_bachmann">w</add></subst>ie ich diese Genehmigung besitze, werde ich beim <rs type="org" ref="#amp_organization_311">Grund- <add hand="#hand_gray_unident_0160" place="above">register of</add>
                 <lb/>buchsgericht <add hand="#hand_gray_unident_0160" place="above">real estate</add> Neulengbach</rs> die Intabulierung <add hand="#hand_gray_unident_0160" place="above">entr<unclear>y</unclear></add> begeh<subst><del rend="erased" hand="#type_black_bachmann">e</del><add place="superimposed" hand="#type_black_bachmann">-</add></subst>ren.
                 <lb/>Vorher muß noch eine <hi rend="underline" hand="#hand_gray_unident_0160">Aufsandungserkläru</hi>ng durch die <rs type="person" ref="#amp_person_539"><rs type="person" ref="#amp_person_540">Ehegatten
