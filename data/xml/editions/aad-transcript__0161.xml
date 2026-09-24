@@ -30,7 +30,7 @@
         <edition>
           <title level="a">Typed Letter Signed Paul Bachmann to W. H. Auden 1972-11-15</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_140">
               <desc/>
               <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -155,7 +155,7 @@
                   <lb/><persName><rs type="person" ref="#amp_person_241">D<hi rend="superscript">R.</hi> PAUL BACHMANN</rs></persName>
                   <lb/><placeName><address><rs type="place" ref="#amp_place_id_551">1O1O WIEN I, OPERNRING 8</rs></address></placeName>
                   <lb/>FERNRUF 52 87 O1 U. 52 87 O2
-                  <lb/><rs type="org" ref="#amp_organization_275">SCHELHAMMER &amp; SCHATTERA</rs> <rs type="place" ref="#amp_place_id_1">WIEN</rs> I
+                  <lb/><rs type="org" ref="#amp_organization_275">SCHELHAMMER &amp; SCHATTERA</rs> <rs type="place" ref="#amp_place_id_552">WIEN I</rs>
                   <lb/>KONTO NR. 14.217
                   <lb/><rs type="org" ref="#amp_organization_276">POSTSPARKASSE</rs> <rs type="place" ref="#amp_place_id_1">WIEN</rs> 121.O43
                 </seg>
@@ -182,26 +182,26 @@
                   <lb/>Betr.: <hi rend="underline" hand="#type_black_bachmann"><rs type="person" ref="#amp_person_4">Chester Simon Kalmann</rs> - <rs type="person" ref="#amp_person_539"><rs type="person" ref="#amp_person_540">Fuchs</rs></rs><space unit="char" quantity="1"/></hi> 
                 </seg>
                 <salute>
-                  <lb/>Sehr geehrter <rs type="person" ref="#amp_person_1">Herr Professor</rs>!
+                  <lb/>Sehr geehrter <rs type="person" ref="#amp_person_1">Herr Pr<subst><del rend="erased" hand="#type_black_bachmann">i</del><add place="superimposed" hand="#type_black_bachmann">o</add></subst>fessor</rs>!
                 </salute>
               </opener>
               <p>
-                <lb/>Ich danke für Ihr Schreiben vom 3.lf.M. und den mir mit
+                <lb/>Ich danke für Ihr Schreiben vom 3.lf.M. und den <subst><del rend="erased" hand="#type_black_bachmann">i</del><add place="superimposed" hand="#type_black_bachmann">m</add></subst>ir mit
                 <lb/>diesem Schreiben übersandten Scheck, welchen ich Herrn
-                <lb/>Dipl.Ing.Wagensommerer zur Einlösung übergeben habe.
-                <lb/>In der Zwischenzeit langte in meiner Kanzlei ein Schreiben
-                <lb/>der Gemeinde Kirchstetten ein, dem auch ein Bescheid ange-
+                <lb/><rs type="person" ref="#amp_person_538">Dipl.Ing.Wagensommerer</rs> zur Einlösung übergeben habe.
+                <lb/>In der Zwischenzeit langte in meiner <rs type="org" ref="#amp_organization_344">Kanzlei</rs> ein Schreiben
+                <lb/>der <rs type="org" ref="#amp_organization_159">Gemeinde Kirchstetten</rs> ein, dem auch ein Bescheid ange-
                 <lb/>schlossen war. Mit diesem Bescheid wurde die Vornahme der
-                <lb/>Grenzverlegung durch den Bürgermeister als Baubehörde erster
+                <lb/>Grenzverlegung durch den <rs type="person" ref="#amp_person_22">Bürgermeister</rs> als Baubehörde erster
                 <lb/>Instanz bewilligt. Die von diesem vorgeschriebene Verwaltungs-
                 <lb/>abgabe in der Höhe von S 267,60 habe ich einmal ausgelegt.
               </p>
               <p>
                 <lb/>Nunmehr wird eine neue Aufsandungserklärung von mir verfaßt
-                <lb/>werden. Ich werde diese sodann dem Ehepaar Fuchs zur Unter-
-                <lb/>zeichnung vorlegen. Sowie diese Sache bereinigt ist, kann
+                <lb/>werden. Ich werde diese sodann dem <rs type="person" ref="#amp_person_539"><rs type="person" ref="#amp_person_540">Ehepaar Fuchs</rs></rs> zur Unter-
+                <lb/>zeichnung vorlegen. <rs ana="#ana_140">Sowie diese Sache bereinigt ist, kann
                 <lb/>die grundbücherliche Durchführung endlich begonnen und die
-                <lb/>Sache abgeschlossen werden.
+                <lb/>Sache abgeschlossen werden</rs>.
                 <lb/>Ich werde wieder berichten.
               </p>
               <closer>
