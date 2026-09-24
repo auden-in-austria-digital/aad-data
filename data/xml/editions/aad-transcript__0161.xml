@@ -67,6 +67,7 @@
           <witness n="1">
             <msDesc>
               <msIdentifier>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
                 <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
                 <collection>Documentation Center for Literature in Lower Austria</collection>
                 <idno>LS-Aud 2.4</idno>
@@ -75,7 +76,7 @@
                 <objectDesc>
                   <supportDesc>
                     <support>
-                      <watermark/>
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00491/ https://iiif.acdh.oeaw.ac.at/aad/aad_00492/">Leykam Hartpost 1935</watermark>
                       <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00491/">
                         <width>210</width>
                         <height>297</height>
@@ -88,10 +89,11 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote/>
+                  <handNote xml:id="hand_blue_bachmann" scribeRef="#amp_person_241" medium="ink-blue">Handwriting in blue ink by Paul Bachmann</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="type_black_bachmann" scribeRef="#amp_person_241" medium="type">Typewriting in black ink authored by Paul Bachmann</typeNote>
+                  <typeNote xml:id="print_black_bachmann" scribeRef="#amp_person_241" medium="print-black">Preprinted writing in black authored by Paul Bachmann</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -115,11 +117,22 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="de"/>
       </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1972-11-15T00:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <placeName><rs type="place" ref="#amp_place_id_46">Oxford</rs></placeName>
+        </correspAction>
+      </correspDesc>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2026-09-23">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-09-23">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-09-24">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-09-24">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -133,10 +146,79 @@
   <text>
     <body>
       <div type="transcription" xml:id="transcription_aad_0161" xml:lang="">
-        <div/>
+          <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00491/" ed="1r" type="sheet"/>
+            <div type="letter_message" hand="#type_black_bachmann" xml:lang="de">
+              <opener>
+                <seg hand="#print_black_bachmann">
+                  <lb/>RECHTSANWALT
+                  <lb/><persName><rs type="person" ref="#amp_person_241">D<hi rend="superscript">R.</hi> PAUL BACHMANN</rs></persName>
+                  <lb/><placeName><address><rs type="place" ref="#amp_place_id_551">1O1O WIEN I, OPERNRING 8</rs></address></placeName>
+                  <lb/>FERNRUF 52 87 O1 U. 52 87 O2
+                  <lb/><rs type="org" ref="#amp_organization_275">SCHELHAMMER &amp; SCHATTERA</rs> <rs type="place" ref="#amp_place_id_1">WIEN</rs> I
+                  <lb/>KONTO NR. 14.217
+                  <lb/><rs type="org" ref="#amp_organization_276">POSTSPARKASSE</rs> <rs type="place" ref="#amp_place_id_1">WIEN</rs> 121.O43
+                </seg>
+                <dateline>  
+                  <date>
+                    <lb/><space unit="char" quantity="39"/><rs type="place" ref="#amp_place_id_1">Wien</rs>,am l5.ll.l972
+                    <lb/>
+                    <lb/>
+                  </date>
+                </dateline>
+                <seg>
+                  <persName>
+                    <lb/><space unit="char" quantity="31"/>Herrn 
+                    <lb/><space unit="char" quantity="31"/><rs type="person" ref="#amp_person_1">Prof.Wystan Hugh Auden</rs>
+                  </persName>
+                  <placeName>
+                    <address>
+                      <lb/><space unit="char" quantity="31"/><rs type="org" ref="#amp_organization_275">Christ Church</rs> <rs type="place" ref="#amp_place_id_46">Oxford</rs>
+                      <lb/><space unit="char" quantity="31"/><rs type="place" ref="#amp_place_id_239">E n g l a n d</rs>
+                    </address>
+                  </placeName>
+                </seg>
+                <seg>
+                  <lb/>Betr.: <hi rend="underline" hand="#type_black_bachmann"><rs type="person" ref="#amp_person_4">Chester Simon Kalmann</rs> - <rs type="person" ref="#amp_person_539"><rs type="person" ref="#amp_person_540">Fuchs</rs></rs><space unit="char" quantity="1"/></hi> 
+                </seg>
+                <salute>
+                  <lb/>Sehr geehrter <rs type="person" ref="#amp_person_1">Herr Professor</rs>!
+                </salute>
+              </opener>
+              <p>
+                <lb/>Ich danke für Ihr Schreiben vom 3.lf.M. und den mir mit
+                <lb/>diesem Schreiben übersandten Scheck, welchen ich Herrn
+                <lb/>Dipl.Ing.Wagensommerer zur Einlösung übergeben habe.
+                <lb/>In der Zwischenzeit langte in meiner Kanzlei ein Schreiben
+                <lb/>der Gemeinde Kirchstetten ein, dem auch ein Bescheid ange-
+                <lb/>schlossen war. Mit diesem Bescheid wurde die Vornahme der
+                <lb/>Grenzverlegung durch den Bürgermeister als Baubehörde erster
+                <lb/>Instanz bewilligt. Die von diesem vorgeschriebene Verwaltungs-
+                <lb/>abgabe in der Höhe von S 267,60 habe ich einmal ausgelegt.
+              </p>
+              <p>
+                <lb/>Nunmehr wird eine neue Aufsandungserklärung von mir verfaßt
+                <lb/>werden. Ich werde diese sodann dem Ehepaar Fuchs zur Unter-
+                <lb/>zeichnung vorlegen. Sowie diese Sache bereinigt ist, kann
+                <lb/>die grundbücherliche Durchführung endlich begonnen und die
+                <lb/>Sache abgeschlossen werden.
+                <lb/>Ich werde wieder berichten.
+              </p>
+              <closer>
+                <salute>
+                  <lb/><space quantity="28" unit="char"/>Mit vorzüglicher Hochachtung
+                </salute>
+                <signed hand="#hand_blue_bachmann">
+                  <lb/><rs type="person" ref="#amp_person_241"><unclear>Paul Bachmann</unclear></rs>
+                </signed>
+                <signed hand="#type_black_bachmann">
+                  <lb/><space unit="char" quantity="30"/>(<rs type="person" ref="#amp_person_241">Dr.Paul Bachmann</rs>)
+                </signed>            
+              </closer>
+            </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00492/" ed="1v" type="sheet"/>
       </div>
+     </div>
     </body>
   </text>
 </TEI>
