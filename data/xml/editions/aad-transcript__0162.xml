@@ -175,7 +175,7 @@
                 </seg>
                 <dateline>  
                   <date>
-                    <lb/><space unit="char" quantity="39"/>April 10th, 1973
+                    <lb/><space unit="char" quantity="43"/>April 10th, 1973
                     <lb/>-/th
                   </date>
                 </dateline>
@@ -187,10 +187,10 @@
                 <lb/>We have been advised by your co-author, Mr. Nicolas Nabokov,
                 <lb/>that according to the agreement, which you made with him, we
                 <lb/>should transfer to your account with your literary agent,
-                <lb/>Curtis Brown Ltd.
-                <lb/>att. Mr. Knowlton
-                <lb/>60 East, 56 Street
-                <lb/>New York, N.Y. 10022/USA
+                <lb/><space unit="char" quantity="18"/>Curtis Brown Ltd.
+                <lb/><space unit="char" quantity="18"/>att. Mr. Knowlton
+                <lb/><space unit="char" quantity="18"/>60 East, 56 Street
+                <lb/><space unit="char" quantity="18"/>New York, N.Y. 10022/USA
                 <lb/>one third of his royalties for all past and future perfor-
                 <lb/>mances of his opera "Love's Labour's Lost" as well as for
                 <lb/>the sale of the libretto.
@@ -201,10 +201,10 @@
               </p>
               <closer>
                 <salute>
-                  <lb/><space quantity="28" unit="char"/>Very sincerely yours,
+                  <lb/><space quantity="27" unit="char"/>Very sincerely yours,
                 </salute>
                 <signed>
-                  <lb/>B O T E<space quantity="3" unit="char"/>&amp;<space quantity="3" unit="char"/>B O C K
+                  <lb/><space quantity="27" unit="char"/>B O T E<space quantity="3" unit="char"/>&amp;<space quantity="3" unit="char"/>B O C K
                 </signed>
                 <signed hand="#hand_blue_unident_0162_01">
                   <lb/><unclear>iV.</unclear> Schmidt
