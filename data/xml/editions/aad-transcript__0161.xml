@@ -173,7 +173,7 @@
                   </persName>
                   <placeName>
                     <address>
-                      <lb/><space unit="char" quantity="31"/><rs type="org" ref="#amp_organization_275">Christ Church</rs> <rs type="place" ref="#amp_place_id_46">Oxford</rs>
+                      <lb/><space unit="char" quantity="31"/><rs type="org" ref="#amp_organization_6">Christ Church</rs> <rs type="place" ref="#amp_place_id_46">Oxford</rs>
                       <lb/><space unit="char" quantity="31"/><rs type="place" ref="#amp_place_id_239">E n g l a n d</rs>
                     </address>
                   </placeName>
