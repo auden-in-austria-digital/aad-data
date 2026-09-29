@@ -136,7 +136,7 @@
       <change who="#smayer" when-iso="2026-09-25">TEI/XML template populated with csv2xml.py</change>
       <change who="#smayer" when-iso="2026-09-28">physDesc and profileDesc populated</change>
       <change who="#smayer" when-iso="2026-09-28">Text transcribed; hands, languages, correspondence container structure marked up</change>
-      <change who="#smayer" when-iso="2026-09-28">entities marked up</change>
+      <change who="#smayer" when-iso="2026-09-29">entities marked up and commentary placeholder added</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -188,15 +188,15 @@
                 <lb/>that according to the agreement, which you made with him, we
                 <lb/>should transfer to your account with your literary agent,
                 <lb/><space unit="char" quantity="18"/><rs type="org" ref="#amp_organization_29">Curtis Brown Ltd.</rs>
-                <lb/><space unit="char" quantity="18"/>att. <rs type="person" ref="#amp_person_207">Mr. Knowlton</rs>
-                <lb/><space unit="char" quantity="18"/>60 East, 56 Street
-                <lb/><space unit="char" quantity="18"/>New York, N.Y. 10022/USA
+                <lb/><space unit="char" quantity="18"/>att. <rs type="person" ref="#amp_person_541">Mr. Knowlton</rs>
+                <lb/><space unit="char" quantity="18"/><rs type="place" ref="#amp_place_id_554">60 East, 56 Street
+                <lb/><space unit="char" quantity="18"/>New York, N.Y. 10022/USA</rs>
                 <lb/>one third of his royalties for all past and future perfor-
-                <lb/>mances of his opera "Love's Labour's Lost" as well as for
-                <lb/>the sale of the libretto.
+                <lb/>mances of his opera <rs type="lit_work" ref="#lit_work_id_19">"Love's Labour's Lost"</rs> as well as for
+                <lb/>the sale of the <rs type="lit_work" ref="#lit_work_id_20">libretto</rs>.
               </p>
               <p>
-                <lb/>If you wish to ahve these amounts transferred to you directly
+                <lb/>If you wish to have these amounts transferred to you directly
                 <lb/>or to someone else, please advise us accordingly.
               </p>
               <closer>
@@ -204,7 +204,7 @@
                   <lb/><space quantity="27" unit="char"/>Very sincerely yours,
                 </salute>
                 <signed>
-                  <lb/><space quantity="27" unit="char"/>B O T E<space quantity="3" unit="char"/>&amp;<space quantity="3" unit="char"/>B O C K
+                  <lb/><space quantity="27" unit="char"/><rs type="org" ref="#amp_organization_345">B O T E<space quantity="3" unit="char"/>&amp;<space quantity="3" unit="char"/>B O C K</rs>
                 </signed>
                 <signed hand="#hand_blue_unident_0162_01">
                   <lb/><unclear>iV.</unclear> Schmidt
@@ -216,8 +216,8 @@
             </div>
             <div hand="#print_black_boteandbock" xml:lang="de">
               <ab>
-                <lb/>Postscheck Bln W 32 98 &#1468; Bank für handel und Industrie, Berlin (BLZ 100 800 00) Kto. 618 800 &#1468; Berliner Bank, Berlin (BLZ 100 200 00) Kto. 99/80 410
-                <lb/>Postscheck Ffm 772 44 &#1468; Dresdner Bank, Wiesbaden (BLZ 510 800 60) Kto. 115 204 &#1468; Nassauische Sparkasse, Wiesbaden (BLZ 510 500 15) Kto. 111 020 531
+                <lb/>Postscheck Bln W 32 98 &#1468; <rs type="org" ref="#amp_organization_346">Bank für Handel und Industrie</rs>, <rs type="place" ref="#amp_place_id_17">Berlin</rs> (BLZ 100 800 00) Kto. 618 800 &#1468; <rs type="org" ref="#amp_organization_347">Berliner Bank</rs>, <rs type="place" ref="#amp_place_id_17">Berlin</rs> (BLZ 100 200 00) Kto. 99/80 410
+                <lb/>Postscheck Ffm 772 44 &#1468; <rs type="org" ref="#amp_organization_348">Dresdner Bank</rs>, <rs type="place" ref="#amp_place_id_292">Wiesbaden</rs> (BLZ 510 800 60) Kto. 115 204 &#1468; <rs type="org" ref="#amp_organization_349">Nassauische Sparkasse</rs>, <rs type="place" ref="#amp_place_id_292">Wiesbaden</rs> (BLZ 510 500 15) Kto. 111 020 531
               </ab>
             </div>
             </div>
