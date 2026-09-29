@@ -94,8 +94,8 @@
                   <handNote xml:id="hand_blue_unident_0162_03" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote xml:id="type_black_boteandbock" scribeRef="#amp_organization_xx" medium="type">Typewriting in black ink authored by Bote &amp; Bock publishing company</typeNote>
-                  <typeNote xml:id="print_black_boteandbock" scribeRef="#amp_organization_xx" medium="print-black">Preprinted writing in black authored by Bote &amp; Bock publishing company</typeNote>
+                  <typeNote xml:id="type_black_boteandbock" scribeRef="#amp_organization_345" medium="type">Typewriting in black ink authored by Bote &amp; Bock publishing company</typeNote>
+                  <typeNote xml:id="print_black_boteandbock" scribeRef="#amp_organization_345" medium="print-black">Preprinted writing in black authored by Bote &amp; Bock publishing company</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -155,20 +155,20 @@
             <div type="letter_message" hand="#type_black_boteandbock">
               <opener>
                 <seg hand="#print_black_boteandbock" xml:lang="de">
-                  <lb/><orgName><rs type="org" ref="#amp_organization_xx">BOTE &amp; BOCK</rs></orgName>
-                  <lb/><placeName>BERLIN &#1468; WIESBADEN</placeName>
-                  <lb/>Musik- und Bühnenverlag KG &#1468; <address><rs type="place" ref="#amp_place_id_551">1 Berlin 12 &#1468; Hardenbergstraße 9 a &#1468;</rs></address> Telefon: (03 11) 3 12 30 81
+                  <lb/><orgName><rs type="org" ref="#amp_organization_345">BOTE &amp; BOCK</rs></orgName>
+                  <lb/><placeName><rs type="place" ref="#amp_place_id_17">BERLIN</rs> &#1468; <rs type="place" ref="#amp_place_id_292">WIESBADEN</rs></placeName>
+                  <lb/>Musik- und Bühnenverlag KG &#1468; <address><rs type="place" ref="#amp_place_id_553">1 Berlin 12 &#1468; Hardenbergstraße 9 a &#1468;</rs></address> Telefon: (03 11) 3 12 30 81
                 </seg>
                 <seg hand="#print_black_boteandbock" xml:lang="de">
-                  <lb/><hi rend="underline" hand="#print_black_boteandbock"><rs type="org" ref="#amp_organization_275">BOTE &amp; BOCK</rs> &#1468; <rs type="place" ref="#amp_place_id_552">1 Berlin 12 (Charlbg.)</rs> &#1468; Hardenbergstraße 9 a</hi>
+                  <lb/><hi rend="underline" hand="#print_black_boteandbock"><rs type="org" ref="#amp_organization_345">BOTE &amp; BOCK</rs> &#1468; <rs type="place" ref="#amp_place_id_553">1 Berlin 12 (Charlbg.) &#1468; Hardenbergstraße 9 a</rs></hi>
                 </seg>
                 <seg>
                   <persName>
-                    <lb/>Mr. W. H. Auden
+                    <lb/><rs type="person" ref="#amp_person_1">Mr. W. H. Auden</rs>
                   </persName>
                   <placeName>
                     <address>
-                      <lb/><rs type="org" ref="#amp_organization_275">Christ Church College</rs> 
+                      <lb/><rs type="org" ref="#amp_organization_6">Christ Church College</rs> 
                       <lb/><rs type="place" ref="#amp_place_id_46"><hi rend="underline" hand="#type_black_boteandbock">O x f o r d/ENGLAND</hi></rs>
                     </address>
                   </placeName>
@@ -184,11 +184,11 @@
                 </salute>
               </opener>
               <p>
-                <lb/>We have been advised by your co-author, Mr. Nicolas Nabokov,
+                <lb/>We have been advised by your co-author, <rs type="person" ref="#amp_person_207">Mr. Nicolas Nabokov</rs>,
                 <lb/>that according to the agreement, which you made with him, we
                 <lb/>should transfer to your account with your literary agent,
-                <lb/><space unit="char" quantity="18"/>Curtis Brown Ltd.
-                <lb/><space unit="char" quantity="18"/>att. Mr. Knowlton
+                <lb/><space unit="char" quantity="18"/><rs type="org" ref="#amp_organization_29">Curtis Brown Ltd.</rs>
+                <lb/><space unit="char" quantity="18"/>att. <rs type="person" ref="#amp_person_207">Mr. Knowlton</rs>
                 <lb/><space unit="char" quantity="18"/>60 East, 56 Street
                 <lb/><space unit="char" quantity="18"/>New York, N.Y. 10022/USA
                 <lb/>one third of his royalties for all past and future perfor-
