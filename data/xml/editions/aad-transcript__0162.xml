@@ -30,7 +30,7 @@
         <edition>
           <title level="a">Typed Letter Signed Bote &amp; Bock Publishing Company to W. H. Auden 1973-04-10</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_141">
               <desc/>
               <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -184,7 +184,7 @@
                 </salute>
               </opener>
               <p>
-                <lb/>We have been advised by your co-author, <rs type="person" ref="#amp_person_207">Mr. Nicolas Nabokov</rs>,
+                <lb/>We have been advised by your <rs ana="#ana_141">co-author</rs>, <rs type="person" ref="#amp_person_207">Mr. Nicolas Nabokov</rs>,
                 <lb/>that according to the agreement, which you made with him, we
                 <lb/>should transfer to your account with your literary agent,
                 <lb/><space unit="char" quantity="18"/><rs type="org" ref="#amp_organization_29">Curtis Brown Ltd.</rs>
