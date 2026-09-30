@@ -159,7 +159,7 @@
                   <lb/><placeName><rs type="place" ref="#amp_place_id_17">BERLIN</rs> &#xB7; <rs type="place" ref="#amp_place_id_292">WIESBADEN</rs></placeName>
                   <lb/>Musik- und Bühnenverlag KG &#xB7; <rs type="place" ref="#amp_place_id_556">1 Berlin 12 &#xB7; Hardenbergstraße 9 a &#xB7;</rs> Telefon: (03 11) 3 12 30 81
                 </seg>
-                <seg> hand="#print_black_boteandbock" xml:lang="de">
+                <seg hand="#print_black_boteandbock" xml:lang="de">
                   <lb/><hi rend="underline" hand="#print_black_boteandbock"><rs type="org" ref="#amp_organization_345">BOTE &amp; BOCK</rs> &#xB7; <rs type="place" ref="#amp_place_id_556">1 Berlin 12 (Charlbg.) &#xB7; Hardenbergstraße 9 a</rs></hi>
                   <lb/>
                 </seg>
@@ -193,7 +193,7 @@
                 <lb/><space unit="char" quantity="18"/><rs type="place" ref="#amp_place_id_555">60 East, 56 Street
                 <lb/><space unit="char" quantity="18"/>New York, N.Y. 10022/USA</rs>
                 <lb/>one third of his royalties for all past and future perfor-
-                <lb/>mances of his opera <rs type="lit_work" ref="#lit_work_id_19">"Love's Labour's Lost"</rs> as well as for
+                <lb/>mances of his opera <rs type="lit_work" ref="#lit_work_id_19"><hi rend="underline" hand="#type_black_boteandbock">"Love's Labour's Lost"</hi></rs> as well as for
                 <lb/>the sale of the <rs type="lit_work" ref="#lit_work_id_20">libretto</rs>.
               </p>
               <p>
@@ -207,7 +207,7 @@
                 <signed>
                   <lb/><space quantity="27" unit="char"/><rs type="org" ref="#amp_organization_345">B O T E<space quantity="3" unit="char"/>&amp;<space quantity="3" unit="char"/>B O C K</rs>
                 </signed>
-                <lb/><signed hand="#hand_blue_unident_0162_01"><unclear>iV.</unclear> Schmidt</signed> <signed hand="#hand_blue_unident_0162_02"><gap reason="illegible" quantity="2" unit="char"></gap><gap reason="illegible" unit="char" atLeast="7" atMost="10"></gap></signed>
+                <lb/><signed hand="#hand_blue_unident_0162_01"><unclear>iV.</unclear> Schmidt</signed> <signed hand="#hand_blue_unident_0162_02">pp <gap reason="illegible" unit="char" atLeast="7" atMost="10"></gap></signed>
               </closer>
             </div>
             <div hand="#print_black_boteandbock" xml:lang="de">
