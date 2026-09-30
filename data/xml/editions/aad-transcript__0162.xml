@@ -157,7 +157,7 @@
                 <seg hand="#print_black_boteandbock" xml:lang="de">
                   <lb/><orgName><rs type="org" ref="#amp_organization_345">BOTE &amp; BOCK</rs></orgName>
                   <lb/><placeName><rs type="place" ref="#amp_place_id_17">BERLIN</rs> &#xB7; <rs type="place" ref="#amp_place_id_292">WIESBADEN</rs></placeName>
-                  <lb/>Musik- und Bühnenverlag KG &#xB7; <address><rs type="place" ref="#amp_place_id_556">1 Berlin 12 &#xB7; Hardenbergstraße 9 a &#xB7;</rs></address> Telefon: (03 11) 3 12 30 81
+                  <lb/>Musik- und Bühnenverlag KG &#xB7; <rs type="place" ref="#amp_place_id_556">1 Berlin 12 &#xB7; Hardenbergstraße 9 a &#xB7;</rs> Telefon: (03 11) 3 12 30 81
                 </seg>
                 <seg> hand="#print_black_boteandbock" xml:lang="de">
                   <lb/><hi rend="underline" hand="#print_black_boteandbock"><rs type="org" ref="#amp_organization_345">BOTE &amp; BOCK</rs> &#xB7; <rs type="place" ref="#amp_place_id_556">1 Berlin 12 (Charlbg.) &#xB7; Hardenbergstraße 9 a</rs></hi>
@@ -207,12 +207,7 @@
                 <signed>
                   <lb/><space quantity="27" unit="char"/><rs type="org" ref="#amp_organization_345">B O T E<space quantity="3" unit="char"/>&amp;<space quantity="3" unit="char"/>B O C K</rs>
                 </signed>
-                <signed hand="#hand_blue_unident_0162_01">
-                  <lb/><unclear>iV.</unclear> Schmidt
-                </signed>
-                <signed hand="#hand_blue_unident_0162_02">
-                  <lb/><gap reason="illegible" quantity="2" unit="char"></gap><gap reason="illegible" unit="char" atLeast="7" atMost="10"></gap>
-                </signed>
+                <lb/><signed hand="#hand_blue_unident_0162_01"><unclear>iV.</unclear> Schmidt</signed> <signed hand="#hand_blue_unident_0162_02"><gap reason="illegible" quantity="2" unit="char"></gap><gap reason="illegible" unit="char" atLeast="7" atMost="10"></gap></signed>
               </closer>
             </div>
             <div hand="#print_black_boteandbock" xml:lang="de">
