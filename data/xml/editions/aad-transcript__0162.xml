@@ -209,13 +209,12 @@
                 </signed>
                 <lb/><signed hand="#hand_blue_unident_0162_01"><unclear>iV.</unclear> Schmidt</signed> <signed hand="#hand_blue_unident_0162_02">pp <gap reason="illegible" unit="char" atLeast="7" atMost="10"></gap></signed>
               </closer>
-            </div>
-            <div hand="#print_black_boteandbock" xml:lang="de">
+               </div>
+              <div hand="#print_black_boteandbock" xml:lang="de">
               <ab>
                 <lb/>Postscheck Bln W 32 98 &#xB7; <rs type="org" ref="#amp_organization_346">Bank für Handel und Industrie</rs>, <rs type="place" ref="#amp_place_id_17">Berlin</rs> (BLZ 100 800 00) Kto. 618 800 &#xB7; <rs type="org" ref="#amp_organization_347">Berliner Bank</rs>, <rs type="place" ref="#amp_place_id_17">Berlin</rs> (BLZ 100 200 00) Kto. 99/80 410
                 <lb/>Postscheck Ffm 772 44 &#xB7; <rs type="org" ref="#amp_organization_348">Dresdner Bank</rs>, <rs type="place" ref="#amp_place_id_292">Wiesbaden</rs> (BLZ 510 800 60) Kto. 115 204 &#xB7; <rs type="org" ref="#amp_organization_349">Nassauische Sparkasse</rs>, <rs type="place" ref="#amp_place_id_292">Wiesbaden</rs> (BLZ 510 500 15) Kto. 111 020 531
               </ab>
-            </div>
             </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00494/" ed="1v" type="sheet"/>
           <div>
@@ -224,6 +223,7 @@
             </ab>
           </div>
         </div>
+      </div>
     </body>
   </text>
 </TEI>
