@@ -156,11 +156,11 @@
               <opener>
                 <seg hand="#print_black_boteandbock" xml:lang="de">
                   <lb/><orgName><rs type="org" ref="#amp_organization_345">BOTE &amp; BOCK</rs></orgName>
-                  <lb/><placeName><rs type="place" ref="#amp_place_id_17">BERLIN</rs> &#1468; <rs type="place" ref="#amp_place_id_292">WIESBADEN</rs></placeName>
-                  <lb/>Musik- und Bühnenverlag KG &#1468; <address><rs type="place" ref="#amp_place_id_553">1 Berlin 12 &#1468; Hardenbergstraße 9 a &#1468;</rs></address> Telefon: (03 11) 3 12 30 81
+                  <lb/><placeName><rs type="place" ref="#amp_place_id_17">BERLIN</rs> &#xB7; <rs type="place" ref="#amp_place_id_292">WIESBADEN</rs></placeName>
+                  <lb/>Musik- und Bühnenverlag KG &#xB7; <address><rs type="place" ref="#amp_place_id_553">1 Berlin 12 &#xB7; Hardenbergstraße 9 a &#xB7;</rs></address> Telefon: (03 11) 3 12 30 81
                 </seg>
                 <seg hand="#print_black_boteandbock" xml:lang="de">
-                  <lb/><hi rend="underline" hand="#print_black_boteandbock"><rs type="org" ref="#amp_organization_345">BOTE &amp; BOCK</rs> &#1468; <rs type="place" ref="#amp_place_id_553">1 Berlin 12 (Charlbg.) &#1468; Hardenbergstraße 9 a</rs></hi>
+                  <lb/><hi rend="underline" hand="#print_black_boteandbock"><rs type="org" ref="#amp_organization_345">BOTE &amp; BOCK</rs> &#xB7; <rs type="place" ref="#amp_place_id_553">1 Berlin 12 (Charlbg.) &#xB7; Hardenbergstraße 9 a</rs></hi>
                 </seg>
                 <seg>
                   <persName>
