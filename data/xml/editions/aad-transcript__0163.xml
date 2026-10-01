@@ -303,10 +303,10 @@
               </p>
               <closer>
                 <salute>
-                  <lb/><space quantity="27" unit="char"/>Sincerely yours,
+                  <lb/><space quantity="33" unit="char"/>Sincerely yours,
                 </salute>
                 <signed>
-                  <lb/><space quantity="27" unit="char"/><rs type="org" ref="#amp_organization_345">STUDIO BRUCKMANN GMBH</rs>
+                  <lb/><space quantity="30" unit="char"/><rs type="org" ref="#amp_organization_345">STUDIO BRUCKMANN GMBH</rs>
                 </signed>
                   <lb/><signed hand="#hand_blue_stiebner"><unclear>St</unclear>iebner</signed> <signed hand="#hand_blue_andreae">Andrea<unclear>e</unclear></signed>
                </closer>
