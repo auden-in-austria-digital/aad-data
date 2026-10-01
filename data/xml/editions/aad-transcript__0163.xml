@@ -104,7 +104,7 @@
                   <handNote xml:id="hand_blue_unident_0163" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote xml:id="type_black_stiebner" scribeRef="#amp_organization_xx" medium="type">Typewriting in black ink authored by Erhardt D. Stiebner</typeNote>
+                  <typeNote xml:id="type_black_stiebner" scribeRef="#amp_person_xx" medium="type">Typewriting in black ink authored by Erhardt D. Stiebner</typeNote>
                   <typeNote xml:id="print_bruckmann" scribeRef="#amp_organization_xx" medium="print">Preprinted writing authored by Bruckmann publishing company</typeNote>
                 </typeDesc>
               </physDesc>
@@ -200,7 +200,7 @@
                   </date>
                 </dateline>
                 <seg>
-                  <lb/><hi rend="underline" hand="#type_black_bachmann">Re:</hi><space unit="char" quantity="2"/>Our editorial work "The Great Change"
+                  <lb/><hi rend="underline" hand="#type_black_stiebner">Re:</hi><space unit="char" quantity="2"/>Our editorial work "The Great Change"
                   <lb/><space unit="char" quantity="5"/>Your poem "Moonlanding"
                 </seg>
                 <salute>
@@ -279,7 +279,7 @@
               <p>
                 <lb/>As a supplementary remuneration for the assignment of the
                 <lb/>copyright and, in particular, for the handsigning,
-                <lb/>you shall receive a lumpsum compension of DM 6,000.oo
+                <lb/>you shall receive a lumpsum compensation of DM 6,000.oo
                 <lb/>(in words: six thousand <foreign xml:lang="de">Deutschmark</foreign>) which shall become
                 <lb/>due for payment upon publication of the book edition
                 <lb/>(April 1973). In addition, you shall receive one of the
@@ -306,7 +306,7 @@
                   <lb/><space quantity="33" unit="char"/>Sincerely yours,
                 </salute>
                 <signed>
-                  <lb/><space quantity="30" unit="char"/><rs type="org" ref="#amp_organization_345">STUDIO BRUCKMANN GMBH</rs>
+                  <lb/><space quantity="30" unit="char"/><rs type="org" ref="#amp_organization_xx">STUDIO BRUCKMANN GMBH</rs>
                 </signed>
                   <lb/><signed hand="#hand_blue_stiebner"><unclear>St</unclear>iebner</signed> <signed hand="#hand_blue_andreae">Andrea<unclear>e</unclear></signed>
                </closer>
@@ -326,24 +326,24 @@
                 <lb/>53
               </ab>
               <ab hand="#hand_blue_auden">
-               <lb/>3 <unclear>1</unclear>49<unclear>:,</unclear> 981
+               <lb/>3 <hi rend="underline" hand="#hand_blue_auden"><unclear>1</unclear>49<unclear>:,</unclear> 981</hi>
                <lb/>49 993.66
               </ab>
               <ab hand="#hand_blue_auden">
-                <lb/>2 4999-3<unclear>.</unclear>66
+                <lb/>2 <hi rend="underline" hand="#hand_blue_auden">4999-3<unclear>.</unclear>66</hi>
                 <lb/>2444<unclear>&#xB7;</unclear>683
               </ab>
               <ab hand="#hand_blue_auden">
                 <lb/>783<unclear>&#xB7;</unclear>5 40
-                <lb/>2783<unclear>-</unclear>540
+                <lb/>2 <hi rend="underline" hand="#hand_blue_auden">783<unclear>-</unclear>540</hi>
                 <lb/>391<unclear>&#xB7;</unclear>77
               </ab>
               <ab hand="#hand_blue_auden">
-                <lb/>31<unclear>4</unclear>9.<unclear>981</unclear>
+                <lb/>3 <hi rend="underline" hand="#hand_blue_auden">1<unclear>4</unclear>9.<unclear>981</unclear></hi>
                 <lb/>4
               </ab>
               <ab hand="#hand_blue_auden">
-                <lb/>2444<unclear>&#xB7;</unclear>70
+                <lb/><hi rend="underline" hand="#hand_blue_auden">2444<unclear>&#xB7;</unclear>70</hi>
                 <lb/>7334 10
               </ab>
            </div>
