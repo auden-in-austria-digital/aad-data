@@ -98,14 +98,14 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote xml:id="hand_blue_stiebner" scribeRef="#amp_person_xx" medium="ink-blue">Handwriting in blue ink by Erhardt D. Stiebner</handNote>
-                  <handNote xml:id="hand_blue_andreae" scribeRef="#amp_person_xx" medium="ink-blue">Handwriting in blue ink by Fritz Andreae</handNote>
+                  <handNote xml:id="hand_blue_stiebner" scribeRef="#amp_person_543" medium="ink-blue">Handwriting in blue ink by Erhardt D. Stiebner</handNote>
+                  <handNote xml:id="hand_blue_andreae" scribeRef="#amp_person_545" medium="ink-blue">Handwriting in blue ink by Fritz Andreae</handNote>
                   <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
                   <handNote xml:id="hand_blue_unident_0163" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote xml:id="type_black_stiebner" scribeRef="#amp_person_xx" medium="type">Typewriting in black ink authored by Erhardt D. Stiebner</typeNote>
-                  <typeNote xml:id="print_bruckmann" scribeRef="#amp_organization_xx" medium="print">Preprinted writing authored by Bruckmann publishing company</typeNote>
+                  <typeNote xml:id="type_black_stiebner" scribeRef="#amp_person_543" medium="type">Typewriting in black ink authored by Erhardt D. Stiebner</typeNote>
+                  <typeNote xml:id="print_bruckmann" scribeRef="#amp_organization_350" medium="print">Preprinted writing authored by Bruckmann publishing company</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -146,7 +146,7 @@
       <change who="#smayer" when-iso="2026-09-30">TEI/XML template populated with csv2xml.py</change>
       <change who="#smayer" when-iso="2026-10-01">physDesc and profileDesc populated</change>
       <change who="#smayer" when-iso="2026-10-01">Text transcribed; hands, languages, correspondence container structure marked up</change>
-      <change who="#smayer" when-iso="2026-10-01">entities marked up and commentary placeholder added</change>
+      <change who="#smayer" when-iso="2026-10-02">entities marked up and commentary placeholder added</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -171,13 +171,13 @@
             <div type="letter_message" hand="#type_black_stiebner">
               <opener>
                 <seg hand="#print_bruckmann" xml:lang="de">
-                  <lb/><orgName><rs type="org" ref="#amp_organization_xx">Bruckmann München</rs></orgName>
-                  <lb/>Studio Bruckmann GmbH, 8000 München 20, Abholfach
+                  <lb/><orgName><rs type="org" ref="#amp_organization_350">Bruckmann</rs></orgName> <rs type="place" ref="#amp_place_id_26">München</rs>
+                  <lb/><rs type="org" ref="#amp_organization_351">Studio Bruckmann GmbH</rs>, 8000 <rs type="place" ref="#amp_place_id_26">München</rs> 20, Abholfach
                   <lb/>
                 </seg>
                 <seg hand="#print_bruckmann" xml:lang="de">
-                  <lb/>Studio Bruckmann
-                  <lb/>Kunst im Druck <foreign xml:lang="en">Fine Art</foreign> GmbH.
+                  <lb/><rs type="org" ref="#amp_organization_351">Studio Bruckmann
+                  <lb/>Kunst im Druck <foreign xml:lang="en">Fine Art</foreign> GmbH.</rs>
                   <lb/>
                 </seg>
                 <seg>
@@ -200,8 +200,8 @@
                   </date>
                 </dateline>
                 <seg>
-                  <lb/><hi rend="underline" hand="#type_black_stiebner">Re:</hi><space unit="char" quantity="2"/>Our editorial work "The Great Change"
-                  <lb/><space unit="char" quantity="5"/>Your poem "Moonlanding"
+                  <lb/><hi rend="underline" hand="#type_black_stiebner">Re:</hi><space unit="char" quantity="2"/>Our editorial work <rs type="lit_work" ref="#lit_work_id_398">"The Great Change"</rs>
+                  <lb/><space unit="char" quantity="5"/>Your poem <rs type="lit_work" ref="#lit_work_id_397">"Moonlanding"</rs>
                 </seg>
                 <salute>
                   <lb/>Dear <rs type="person" ref="#amp_person_1">Mr. Auden</rs>,
@@ -209,23 +209,23 @@
               </opener>
               <p>
                 <lb/>On the basis of your approval given on July 24th, 1972,
-                <lb/>we have been authorized to use your poem "Moonlanding"
-                <lb/>from "Epistle to a Godson and other Poems" in the original
-                <lb/>English version as well as in the German translation by
-                <lb/>Herbert Zand for our book edition "The Great Change", con-
+                <lb/>we have been authorized to use your poem <rs type="lit_work" ref="#lit_work_id_397">"Moonlanding"</rs>
+                <lb/>from <rs type="lit_work" ref="#lit_work_id_138">"Epistle to a Godson and other Poems"</rs> in the original
+                <lb/>English version as well as in the <rs type="lit_work" ref="#lit_work_id_323">German translation</rs> by
+                <lb/><rs type="person" ref="#amp_person_218">Herbert Zand</rs> for our book edition <rs type="lit_work" ref="#lit_work_id_398">"The Great Change"</rs>, con-
                 <lb/>taining also original serigraphs and ornaments by the artist
-                <lb/>Otmar Alt. The licence rights by Faber &amp; Faber Ltd., London,
-                <lb/>as well as by Random House Inc., New York, for the English
-                <lb/>text, and by Lindner AG, Zürich, for the German text,
-                <lb/>including the translation rights of Herbert Zand, have been
+                <lb/><rs type="person" ref="#amp_person_542">Otmar Alt</rs>. The licence rights by <rs type="org" ref="#amp_organization_5">Faber &amp; Faber Ltd.</rs>, <rs type="place" ref="#amp_place_id_56">London</rs>,
+                <lb/>as well as by <rs type="org" ref="#amp_organization_5">Random House Inc.</rs>, <rs type="place" ref="#amp_place_id_28">New York</rs>, for the English
+                <lb/>text, and by Lindner AG, <rs type="place" ref="#amp_place_id_503">Zürich</rs>, for the German text,
+                <lb/>including the translation rights of <rs type="person" ref="#amp_person_218">Herbert Zand</rs>, have been
                 <lb/>duly obtained. Any author's rights and rights of usufruct
                 <lb/>beyond those already obtained, that we do need for the purpose 
-                <lb/>of our book edition, you herewith transfer to us.
+                <lb/>of <rs type="lit_work" ref="#lit_work_id_398">our book edition</rs>, you herewith transfer to us.
               </p>
               <p>
-                <lb/>The editorial work will be published in a limited original
+                <lb/>The <rs type="lit_work" ref="#lit_work_id_398">editorial work</rs> will be published in a limited original
                 <lb/>edition of 750 copies destined for sale as well as 50 copies 
-                <lb/>destined for the archives and the artist. All these copies
+                <lb/>destined for the archives and the <rs type="person" ref="#amp_person_542">artist</rs>. All these copies
                 <lb/>shall be handsigned by yourself and the artist.
               </p>
               <p>
@@ -234,7 +234,7 @@
               </div>
               <div hand="#print_bruckmann" xml:lang="de">
                 <ab>
-                  <lb/>8000 München 19
+                  <lb/>8000 <rs type="place" ref="#amp_place_id_26">München</rs> 19
                   <lb/>Nymphenburger
                   <lb/>Straße 84
                 </ab>
@@ -250,41 +250,41 @@
                 <ab>
                   <lb/>Telegramme:
                   <lb/>Bruckmannkoge
-                  <lb/>München
+                  <lb/><rs type="place" ref="#amp_place_id_26">München</rs>
                 </ab>
                 <ab>
                   <lb/>Bank:
-                  <lb/>Reuschel &amp; Co.
+                  <lb/><rs type="org" ref="#amp_organization_352">Reuschel &amp; Co.</rs>
                   <lb/>319 121
                 </ab>
                 <ab>
                   <lb/>Geschäftsführung:
-                  <lb/>Erhardt D. Stiebner Fritz Andreae
-                  <lb/>Registergericht: München HRB 44 336
+                  <lb/><rs type="person" ref="#amp_person_543">Erhardt D. Stiebner</rs> <rs type="person" ref="#amp_person_545">Fritz Andreae</rs>
+                  <lb/>Registergericht: <rs type="place" ref="#amp_place_id_26">München</rs> HRB 44 336
                 </ab>
               </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00498/" ed="1v" type="sheet"/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00499/" ed="2r" type="sheet"/>
             <div type="letter_message" hand="#type_black_stiebner" xml:lang="en">
               <ab hand="#print_bruckmann" xml:lang="de">
-                <lb/>Bruckmann München
-                <lb/>Blatt <add hand="#type_black_stiebner" place="inline">2</add> zum Brief an <add hand="#type_black_stiebner" place="inline">Wystan Hugh Auden</add> Tag <add hand="#type_black_stiebner" place="inline"><foreign xml:lang="en">March 22nd</foreign>,1973</add>
+                <lb/><rs type="org" ref="#amp_organization_350">Bruckmann</rs> <rs type="place" ref="#amp_place_id_26">München</rs>
+                <lb/>Blatt <add hand="#type_black_stiebner" place="inline">2</add> zum Brief an <add hand="#type_black_stiebner" place="inline"><rs type="person" ref="#amp_person_1">Wystan Hugh Auden</rs></add> Tag <add hand="#type_black_stiebner" place="inline"><foreign xml:lang="en">March 22nd</foreign>,1973</add>
               </ab>
               <p>
                 <lb/>You have agreed to handsign the unbound and untrimmed
-                <lb/>frontispieces of the aforementioned editions plus a certain
+                <lb/>frontispieces of the aforementioned <rs type="lit_work" ref="#lit_work_id_398">editions</rs> plus a certain
                 <lb/>number of reserve copies for bookbinding at your home in
-                <lb/>Oxford, on March 25th, 1973.
+                <lb/><rs type="place" ref="#amp_place_id_46">Oxford</rs>, on March 25th, 1973.
               </p>
               <p>
                 <lb/>As a supplementary remuneration for the assignment of the
                 <lb/>copyright and, in particular, for the handsigning,
                 <lb/>you shall receive a lumpsum compensation of DM 6,000.oo
                 <lb/>(in words: six thousand <foreign xml:lang="de">Deutschmark</foreign>) which shall become
-                <lb/>due for payment upon publication of the book edition
+                <lb/>due for payment upon publication of the <rs type="lit_work" ref="#lit_work_id_398">book edition</rs>
                 <lb/>(April 1973). In addition, you shall receive one of the
                 <lb/>copies reserved for the archives, including the signature
-                <lb/>of the artist Otmar Alt.
+                <lb/>of the artist <rs type="person" ref="#amp_person_542">Otmar Alt</rs>.
               </p>
               <p>
                 <lb/>All taxes due on the above-mentioned compensation shall be
@@ -295,7 +295,7 @@
               </p>
               <p>
                 <lb/>Place of performance and jurisdiction for this agreement
-                <lb/>shall be Munich.
+                <lb/>shall be <rs type="place" ref="#amp_place_id_26">Munich</rs>.
               </p>
               <p>
                 <lb/>We would ask you to please sign this letter as a confirm-
@@ -306,9 +306,9 @@
                   <lb/><space quantity="33" unit="char"/>Sincerely yours,
                 </salute>
                 <signed>
-                  <lb/><space quantity="30" unit="char"/><rs type="org" ref="#amp_organization_xx">STUDIO BRUCKMANN GMBH</rs>
+                  <lb/><space quantity="30" unit="char"/><rs type="org" ref="#amp_organization_351">STUDIO BRUCKMANN GMBH</rs>
                 </signed>
-                  <lb/><signed hand="#hand_blue_stiebner"><unclear>St</unclear>iebner</signed> <signed hand="#hand_blue_andreae">Andrea<unclear>e</unclear></signed>
+                <lb/><signed hand="#hand_blue_stiebner"><rs type="person" ref="#amp_person_543"><unclear>St</unclear>iebner</rs></signed> <signed hand="#hand_blue_andreae"><rs type="person" ref="#amp_person_545">Andrea<unclear>e</unclear></rs></signed>
                </closer>
               <postscript>
                 <p>
