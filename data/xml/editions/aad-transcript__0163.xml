@@ -192,7 +192,7 @@
                   </placeName>
                 </seg>
                 <seg hand="#print_bruckmann" xml:lang="de">
-                  <lb/>Ihre Zeichen  Ihre Nachricht vom   Unsere Zeichen   Durchwahl   Tag
+                  <lb/>Ihre Zeichen<space quantity="2" unit="char"/>Ihre Nachricht vom<space quantity="2" unit="char"/>Unsere Zeichen<space quantity="2" unit="char"/>Durchwahl<space quantity="2" unit="char"/>Tag
                 </seg>
                 <dateline>  
                   <date>
@@ -268,7 +268,7 @@
             <div type="letter_message" hand="#type_black_stiebner" xml:lang="en">
               <ab hand="#print_bruckmann" xml:lang="de">
                 <lb/><rs type="org" ref="#amp_organization_350">Bruckmann</rs> <rs type="place" ref="#amp_place_id_26">München</rs>
-                <lb/>Blatt <add hand="#type_black_stiebner" place="inline">2</add> zum Brief an <add hand="#type_black_stiebner" place="inline"><rs type="person" ref="#amp_person_1">Wystan Hugh Auden</rs></add> Tag <add hand="#type_black_stiebner" place="inline"><foreign xml:lang="en">March 22nd</foreign>,1973</add>
+                <lb/>Blatt <add hand="#type_black_stiebner" place="inline">2</add><space quantity="2" unit="char"/>zum Brief an <add hand="#type_black_stiebner" place="inline"><rs type="person" ref="#amp_person_1">Wystan Hugh Auden</rs></add><space quantity="2" unit="char"/>Tag <add hand="#type_black_stiebner" place="inline"><foreign xml:lang="en">March 22nd</foreign>,1973</add>
               </ab>
               <p>
                 <lb/>You have agreed to handsign the unbound and untrimmed
