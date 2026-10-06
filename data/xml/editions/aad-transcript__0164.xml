@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0164" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Typed Letter Signed C. B. Cox to W. H. Auden 1971-09-29</title>
+        <author ref="https://d-nb.info/gnd/141041978">Cox, Brian</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484">Hechtl, Angelika</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Typed Letter Signed C. B. Cox to W. H. Auden 1971-09-29</title>
+          <interpGrp>
+            <interp>
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+          <name sameAs="#ahechtl"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
+                <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
+                <collection>Documentation Center for Literature in Lower Austria</collection>
+                <idno>LS-Aud 2.15</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00501/ https://iiif.acdh.oeaw.ac.at/aad/aad_00502/">KENT VALE PARCHMENT</watermark>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00501/">
+                        <width>203</width>
+                        <height>253</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00502/">
+                        <width>203</width>
+                        <height>253</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_blue_cox" scribeRef="#amp_person_xx" medium="ink-blue">Handwriting in blue ink by Brian Cox</handNote>
+                  <handNote xml:id="hand_blue_unident_0164" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="type_black_cox" scribeRef="#amp_person_xx" medium="type">Typewriting in black ink authored by Brian Cox</typeNote>
+                  <typeNote xml:id="print_manchester_university" scribeRef="#amp_organization_xx" medium="print">Preprinted writing authored by University of Manchester</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1971-09-29T00:00:00+01:00" notAfter-iso="1971-09-29T23:59:59+01:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4037286-8">Manchester</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en"/>
+        <language ident="de"/>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1971-09-29T00:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <placeName><rs type="place" ref="#amp_place_id_46">Kirchstetten</rs></placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#smayer" when-iso="2026-10-05">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-10-06">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-10-06">Text transcribed; hands, languages, correspondence container structure, entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="3690" lry="4482">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00501/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3684" lry="4478">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00502/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0164" xml:lang="en">
+          <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00501/" ed="1r" type="sheet"/>
+            <div type="letter_message" hand="#type_black_cox">
+              <opener>
+                <seg hand="#print_manchester_university">
+                  <lb/>DEPARTMENT OF
+                  <lb/>ENGLISH LANGUAGE AND LITERATURE.
+                  <lb/><orgName><rs type="org" ref="#amp_organization_xx">THE UNIVERSITY OF MANCHESTER</rs></orgName> 
+                  <lb/><placeName><rs type="place" ref="#amp_place_id_26">MANCHESTER</rs>,</placeName>
+                  <lb/>M13 9PL
+                  <lb/>
+                </seg>
+                <seg hand="#print_manchester_university">
+                  <lb/>TELEPHONE: 061-273 3333
+                  <lb/>&#x23AF;
+                  <lb/>PROFESSOR G. L. BROOK
+                  <lb/>PROFESSOR C. B. COX
+                  <lb/>PROFESSOR J. D. JUMP
+                  <lb/>
+                </seg>
+                <dateline>  
+                  <date>
+                    <lb/><space unit="char" quantity="32"/>29th September, l97l
+                  </date>
+                </dateline>
+                <seg>
+                  <persName>
+                    <lb/><rs type="person" ref="#amp_person_1">W. H. Auden Esq.,</rs>
+                  </persName>
+                  <placeName>
+                    <address>
+                      <lb/><rs type="place" ref="#amp_place_id_46">3062 Kirchstetten,
+                      <lb/><foreign xml:lang="de">Bez.</foreign> St.Pölten,
+                      <lb/>Hinterholz 6,
+                      <lb/><foreign xml:lang="de">N.-Ö.</foreign>, Austria.</rs>
+                    </address>
+                  </placeName>
+                </seg>
+                <salute>
+                  <lb/>Dear <rs type="person" ref="#amp_person_1">Mr. Auden</rs>,
+                </salute>
+              </opener>
+              <p>
+                <lb/><space unit="char" quantity="5"/>I enclose your railway ticket for the journey on
+                <lb/>October 11th, a seat reservation for the 10 a.m. from
+                <lb/>Euston, and your Pullman reservation for the 5 p.m.
+                <lb/>from Manchester.<space unit="char" quantity="2"/>I will meet you at Manchester
+                <lb/>Piccadilly, and I have arranged a lunch immediately
+                <lb/>afterwards.<space unit="char" quantity="2"/>Philip Larkin, who is an old friend of
+                <lb/>mine, has agreed to join us for lunch.
+              </p>
+              <p>
+                <lb/><space unit="char" quantity="5"/>May I ask your advice on one minor problem.<space unit="char" quantity="2"/>Your
+                <lb/>reading is the first at the Manchester Poetry Centre,
+                <lb/>and we hope these readings will continue into the
+                <lb/>future.<space unit="char" quantity="2"/>Should we take records for our University
+                <lb/>archives of sound, or even a complete video-tape
+                <lb/>recording?<space unit="char" quantity="2"/>We have all the facilities here, but I am
+                <lb/>anxious that poets should enjoy themselves here and
+                <lb/>not feel molested.<space unit="char" quantity="2"/>Would you object to a video-tape
+                <lb/>recording, or do you think it would be better to
+                <lb/>record voice only?<space unit="char" quantity="2"/>It would be very good of you if
+                <lb/>you would let me have your opinion, and I apologise
+                <lb/>for troubling you with this.
+              </p>
+              <p>
+                <lb/><space unit="char" quantity="5"/>I look forward very much to seeing you in
+                <lb/>Manchester.
+              </p>
+              <closer>
+                <salute>
+                  <lb/><space quantity="28" unit="char"/>Yours sincerely,
+                </salute>
+                <signed hand="#hand_blue_cox">
+                  <lb/>Brian <unclear>C</unclear>ox<unclear>.</unclear>
+                </signed>
+                <signed>
+                  <lb/><space quantity="31" unit="char"/>C. B. Cox
+                </signed>
+              </closer>
+            </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00502/" ed="1v" type="sheet"/>
+            <div>
+              <ab hand="#hand_blue_unident_0164">
+                <lb/>49
+              </ab>
+            </div>
+          </div>
+      </div>
+    </body>
+  </text>
+</TEI>
