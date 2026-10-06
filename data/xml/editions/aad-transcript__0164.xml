@@ -30,7 +30,7 @@
         <edition>
           <title level="a">Typed Letter Signed C. B. Cox to W. H. Auden 1971-09-29</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_142">
               <desc/>
               <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -206,7 +206,7 @@
               </p>
               <p>
                 <lb/><space unit="char" quantity="5"/>May I ask your advice on one minor problem.<space unit="char" quantity="2"/>Your
-                <lb/>reading is the first at the Manchester Poetry Centre,
+                <lb/>reading is the first at the <rs ana="#ana_142">Manchester Poetry Centre</rs>,
                 <lb/>and we hope these readings will continue into the
                 <lb/>future.<space unit="char" quantity="2"/>Should we take records for our University
                 <lb/>archives of sound, or even a complete video-tape
@@ -220,17 +220,17 @@
               </p>
               <p>
                 <lb/><space unit="char" quantity="5"/>I look forward very much to seeing you in
-                <lb/>Manchester.
+                <lb/><rs type="place" ref="#amp_place_id_557">Manchester</rs>.
               </p>
               <closer>
                 <salute>
                   <lb/><space quantity="28" unit="char"/>Yours sincerely,
                 </salute>
                 <signed hand="#hand_blue_cox">
-                  <lb/>Brian <unclear>C</unclear>ox<unclear>.</unclear>
+                  <lb/><rs type="person" ref="#amp_person_546">Brian <unclear>C</unclear>ox</rs><unclear>.</unclear>
                 </signed>
                 <signed>
-                  <lb/><space quantity="31" unit="char"/>C. B. Cox
+                  <lb/><space quantity="31" unit="char"/><rs type="person" ref="#amp_person_546">C. B. Cox</rs>
                 </signed>
               </closer>
             </div>
