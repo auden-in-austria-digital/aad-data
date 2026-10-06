@@ -89,12 +89,12 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote xml:id="hand_blue_cox" scribeRef="#amp_person_xx" medium="ink-blue">Handwriting in blue ink by Brian Cox</handNote>
+                  <handNote xml:id="hand_blue_cox" scribeRef="#amp_person_546" medium="ink-blue">Handwriting in blue ink by Brian Cox</handNote>
                   <handNote xml:id="hand_blue_unident_0164" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote xml:id="type_black_cox" scribeRef="#amp_person_xx" medium="type">Typewriting in black ink authored by Brian Cox</typeNote>
-                  <typeNote xml:id="print_manchester_university" scribeRef="#amp_organization_xx" medium="print">Preprinted writing authored by University of Manchester</typeNote>
+                  <typeNote xml:id="type_black_cox" scribeRef="#amp_person_546" medium="type">Typewriting in black ink authored by Brian Cox</typeNote>
+                  <typeNote xml:id="print_manchester_university" scribeRef="#amp_organization_353" medium="print">Preprinted writing authored by University of Manchester</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -132,7 +132,7 @@
         </correspAction>
         <correspAction type="received">
           <persName ref="#amp_person_1">Auden, W. H.</persName>
-          <placeName><rs type="place" ref="#amp_place_id_46">Kirchstetten</rs></placeName>
+          <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
         </correspAction>
       </correspDesc>
     </profileDesc>
@@ -160,31 +160,31 @@
                 <seg hand="#print_manchester_university">
                   <lb/>DEPARTMENT OF
                   <lb/>ENGLISH LANGUAGE AND LITERATURE.
-                  <lb/><orgName><rs type="org" ref="#amp_organization_xx">THE UNIVERSITY OF MANCHESTER</rs></orgName> 
-                  <lb/><placeName><rs type="place" ref="#amp_place_id_26">MANCHESTER</rs>,</placeName>
+                  <lb/><orgName><rs type="org" ref="#amp_organization_353">THE UNIVERSITY OF MANCHESTER</rs></orgName> 
+                  <lb/><placeName><rs type="place" ref="#amp_place_id_557">MANCHESTER</rs>,</placeName>
                   <lb/>M13 9PL
                   <lb/>
                 </seg>
                 <seg hand="#print_manchester_university">
                   <lb/>TELEPHONE: 061-273 3333
                   <lb/>&#x23AF;
-                  <lb/>PROFESSOR G. L. BROOK
-                  <lb/>PROFESSOR C. B. COX
-                  <lb/>PROFESSOR J. D. JUMP
+                  <lb/><rs type="person" ref="#amp_person_548">PROFESSOR G. L. BROOK</rs>
+                  <lb/><rs type="person" ref="#amp_person_546">PROFESSOR C. B. COX</rs>
+                  <lb/><rs type="person" ref="#amp_person_549">PROFESSOR J. D. JUMP</rs>
                   <lb/>
                 </seg>
                 <dateline>  
                   <date>
-                    <lb/><space unit="char" quantity="32"/>29th September, l97l
+                    <lb/><space unit="char" quantity="32"/>29th September, l97l.
                   </date>
                 </dateline>
                 <seg>
                   <persName>
-                    <lb/><rs type="person" ref="#amp_person_1">W. H. Auden Esq.,</rs>
+                    <lb/><rs type="person" ref="#amp_person_1">W. H. Auden</rs> Esq.,
                   </persName>
                   <placeName>
                     <address>
-                      <lb/><rs type="place" ref="#amp_place_id_46">3062 Kirchstetten,
+                      <lb/><rs type="place" ref="#amp_place_id_2">3062 Kirchstetten,
                       <lb/><foreign xml:lang="de">Bez.</foreign> St.P<g ref="#uml_o_lc_tt">ö</g>lten,
                       <lb/>Hinterholz 6,
                       <lb/><foreign xml:lang="de">N.-<unclear>Ö</unclear>.</foreign>, Austria.</rs>
@@ -198,10 +198,10 @@
               <p>
                 <lb/><space unit="char" quantity="5"/>I enclose your railway ticket for the journey on
                 <lb/>October llth, a seat reservation for the l0 a.m. from
-                <lb/>Euston, and your Pullman reservation for the 5 p.m.
-                <lb/>from Manchester.<space unit="char" quantity="2"/>I will meet you at Manchester
-                <lb/>Piccadilly, and I have arranged a lunch immediately
-                <lb/>afterwards.<space unit="char" quantity="2"/>Philip Larkin, who is an old friend of
+                <lb/><rs type="place" ref="#amp_place_id_558">Euston</rs>, and your Pullman reservation for the 5 p.m.
+                <lb/>from <rs type="place" ref="#amp_place_id_557">Manchester</rs>.<space unit="char" quantity="2"/>I will meet you at <rs type="place" ref="#amp_place_id_559">Manchester
+                <lb/>Piccadilly</rs>, and I have arranged a lunch immediately
+                <lb/>afterwards.<space unit="char" quantity="2"/><rs type="person" ref="#amp_person_550">Philip Larkin</rs>, who is an old friend of
                 <lb/>mine, has agreed to join us for lunch.
               </p>
               <p>
