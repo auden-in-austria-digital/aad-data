@@ -212,7 +212,7 @@
                 <lb/><rs type="person" ref="#amp_person_218">Herbert Zand</rs> for our book edition <rs type="lit_work" ref="#lit_work_id_398">"The Great Change"</rs>, con-
                 <lb/>taining also original serigraphs and ornaments by the artist
                 <lb/><rs type="person" ref="#amp_person_542">Otmar Alt</rs>. The licence rights by <rs type="org" ref="#amp_organization_5">Faber &amp; Faber Ltd.</rs>, <rs type="place" ref="#amp_place_id_56">London</rs>,
-                <lb/>as well as by <rs type="org" ref="#amp_organization_5">Random House Inc.</rs>, <rs type="place" ref="#amp_place_id_28">New York</rs>, for the English
+                <lb/>as well as by <rs type="org" ref="#amp_organization_12">Random House Inc.</rs>, <rs type="place" ref="#amp_place_id_28">New York</rs>, for the English
                 <lb/>text, and by Lindner AG, <rs type="place" ref="#amp_place_id_503">Zürich</rs>, for the German text,
                 <lb/>including the translation rights of <rs type="person" ref="#amp_person_218">Herbert Zand</rs>, have been
                 <lb/>duly obtained. Any author's rights and rights of usufruct
@@ -265,7 +265,7 @@
             <div type="letter_message" hand="#type_black_stiebner" xml:lang="en">
               <ab hand="#print_bruckmann" xml:lang="de">
                 <lb/><rs type="org" ref="#amp_organization_350">Bruckmann</rs> <rs type="place" ref="#amp_place_id_26">München</rs>
-                <lb/>Blatt <add hand="#type_black_stiebner" place="inline">2</add><space quantity="2" unit="char"/>zum Brief an <add hand="#type_black_stiebner" place="inline"><rs type="person" ref="#amp_person_1">Wystan Hugh Auden</rs></add><space quantity="2" unit="char"/>Tag <add hand="#type_black_stiebner" place="inline"><foreign xml:lang="en">March 22nd</foreign>,1973</add>
+                <lb/>Blatt <handShift rend="#type_black_stiebner"/>2 <handShift rend="#print_bruckmann"/>zum Brief an <handShift rend="#type_black_stiebner"/><rs type="person" ref="#amp_person_1">Wystan Hugh Auden</rs> <handShift rend="#print_bruckmann"/>Tag <handShift rend="#type_black_stiebner"/><foreign xml:lang="en">March 22nd</foreign>,1973
               </ab>
               <p>
                 <lb/>You have agreed to handsign the unbound and untrimmed
