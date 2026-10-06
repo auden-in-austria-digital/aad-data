@@ -112,6 +112,11 @@
       <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     </xenoData>
     <encodingDesc>
+      <charDecl>
+      <glyph xml:id="uml_o_lc_tt">
+        <desc>lower-case German ö rendered by superimposing typed double-quotation-mark character (") on typed lower-case o</desc>
+      </glyph>
+      </charDecl>
       <listPrefixDef>
         <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
       </listPrefixDef>
@@ -180,9 +185,9 @@
                   <placeName>
                     <address>
                       <lb/><rs type="place" ref="#amp_place_id_46">3062 Kirchstetten,
-                      <lb/><foreign xml:lang="de">Bez.</foreign> St.Pölten,
+                      <lb/><foreign xml:lang="de">Bez.</foreign> St.P<g ref="#uml_o_lc_tt">ö</g>lten,
                       <lb/>Hinterholz 6,
-                      <lb/><foreign xml:lang="de">N.-Ö.</foreign>, Austria.</rs>
+                      <lb/><foreign xml:lang="de">N.-<unclear>Ö</unclear>.</foreign>, Austria.</rs>
                     </address>
                   </placeName>
                 </seg>
@@ -192,7 +197,7 @@
               </opener>
               <p>
                 <lb/><space unit="char" quantity="5"/>I enclose your railway ticket for the journey on
-                <lb/>October 11th, a seat reservation for the 10 a.m. from
+                <lb/>October llth, a seat reservation for the l0 a.m. from
                 <lb/>Euston, and your Pullman reservation for the 5 p.m.
                 <lb/>from Manchester.<space unit="char" quantity="2"/>I will meet you at Manchester
                 <lb/>Piccadilly, and I have arranged a lunch immediately
