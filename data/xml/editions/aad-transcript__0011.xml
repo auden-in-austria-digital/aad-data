@@ -149,6 +149,7 @@
       <change who="#tfruehwirth" when-iso="2024-09-02">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2024-09-02">physDesc populated</change>
       <change who="#tfruehwirth" when-iso="2024-09-03">Text transcribed; correspDesc populated; hands, languages, correspondence container structure, and entities marked up</change>
+      <change who="#tfruehwirth" when-iso="2026-09-17">Update event markup</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
