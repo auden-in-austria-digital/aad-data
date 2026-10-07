@@ -159,6 +159,7 @@ doc
 0163             Stiebner, Erhardt D.                                                                                                              Typed Letter Signed Erhardt D. Stiebner to W. H. Auden 1973-03-22                         Munich
 0164                       Cox, Brian                                                                                                                        Typed Letter Signed C. B. Cox to W. H. Auden 1971-09-29                     Manchester
 0165                     Driver, Paul                                                                                                          Autograph Letter Signed Paul William Driver to W. H. Auden 1973-07-19                         Oxford
+0166              Ede and Ravenscroft                                                                                                        Typed Letter Signed Ede & Ravenscroft Tailors to W. H. Auden 1970-04-28                         London
 0146                     Auden, W. H.                                                                                                                      Typed Letter Signed W. H. Auden to Felix Braun 1958-11-03                  New York City
 0144                             N.N.                                                                                                                      Photograph N.N. House Hinterholz 6 1958-01-07--1973-09-28                   Kirchstetten
 0145                     Auden, W. H.                                                                                                                                 Telegram W. H. Auden to Herta Staub 1963-07-24                   Kirchstetten
@@ -206,30 +207,30 @@ dtype: int64
 ### `df.info()`
 ```
 <class 'pandas.DataFrame'>
-RangeIndex: 480 entries, 0 to 479
+RangeIndex: 482 entries, 0 to 481
 Data columns (total 19 columns):
  #   Column          Non-Null Count  Dtype
 ---  ------          --------------  -----
- 0   img             480 non-null    int64
- 1   lrx             480 non-null    int64
- 2   lry             480 non-null    int64
- 3   width           480 non-null    int64
- 4   height          480 non-null    int64
- 5   type            480 non-null    str  
- 6   ed              480 non-null    str  
- 7   doc             480 non-null    str  
- 8   title           480 non-null    str  
- 9   author          480 non-null    str  
- 10  author-uri      480 non-null    str  
- 11  notBefore-iso   480 non-null    str  
- 12  notAfter-iso    480 non-null    str  
- 13  place           480 non-null    str  
- 14  place-uri       480 non-null    str  
- 15  repository      480 non-null    str  
- 16  repository-uri  480 non-null    str  
- 17  collection      480 non-null    str  
- 18  idno            480 non-null    str  
+ 0   img             482 non-null    int64
+ 1   lrx             482 non-null    int64
+ 2   lry             482 non-null    int64
+ 3   width           482 non-null    int64
+ 4   height          482 non-null    int64
+ 5   type            482 non-null    str  
+ 6   ed              482 non-null    str  
+ 7   doc             482 non-null    str  
+ 8   title           482 non-null    str  
+ 9   author          482 non-null    str  
+ 10  author-uri      482 non-null    str  
+ 11  notBefore-iso   482 non-null    str  
+ 12  notAfter-iso    482 non-null    str  
+ 13  place           482 non-null    str  
+ 14  place-uri       482 non-null    str  
+ 15  repository      482 non-null    str  
+ 16  repository-uri  482 non-null    str  
+ 17  collection      482 non-null    str  
+ 18  idno            482 non-null    str  
 dtypes: int64(5), str(14)
-memory usage: 71.4 KB
+memory usage: 71.7 KB
 
 ```
