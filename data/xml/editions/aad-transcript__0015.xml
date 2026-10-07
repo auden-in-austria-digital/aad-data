@@ -140,6 +140,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2024-09-05">TEI/XML template populated with csv2xml.py; physDesc and correspDesc populated</change>
       <change who="#tfruehwirth" when-iso="2024-09-06">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
+      <change who="#tfruehwirth" when-iso="2026-10-07">Update event markup</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -205,12 +206,12 @@
               </salute>
             </opener>
             <p>
-              <lb/>Montag,leider,sind <rs type="person" ref="#amp_person_1 #amp_person_4" ana="#ana_058">wir</rs> eingelad<unclear>e</unclear>t
-              <lb/>f<unclear>u</unclear>r Abendessen. Also ich komme Dienstag.
+              <lb/><rs type="event" ref="#amp_event_id_299">Montag,leider,sind <rs type="person" ref="#amp_person_1 #amp_person_4" ana="#ana_058">wir</rs> eingelad<unclear>e</unclear>t
+              <lb/>f<unclear>u</unclear>r Abendessen.</rs> <rs type="event" ref="#amp_event_id_300">Also ich komme Dienstag.</rs>
             </p>
             <p>
-              <lb/><rs type="person" ref="#amp_person_4">Chester</rs> ist <unclear>z</unclear>eit zw<unclear>e</unclear>i Ta<unclear>ge</unclear>
-              <lb/>zuruckgekommen.
+              <lb/><rs type="event" ref="#amp_event_id_301"><rs type="person" ref="#amp_person_4">Chester</rs> ist <unclear>z</unclear>eit zw<unclear>e</unclear>i Ta<unclear>ge</unclear>
+              <lb/>zuruckgekommen.</rs>
             </p>
             <closer>
               <salute>
