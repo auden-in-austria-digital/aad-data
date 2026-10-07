@@ -145,10 +145,67 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0165" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0165" xml:lang="en">
+          <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00503/" ed="1r" type="sheet"/>
+            <div type="letter_message" hand="#hand_black_driver">
+              <opener>
+                <seg hand="#print_seh">
+                  <lb/>TELEPHONE: OXFORD 45511
+                 </seg> 
+                <seg hand="#print_seh">
+                  <lb/><orgName><rs type="org" ref="#amp_organization_353">ST. EDMUND HALL</rs></orgName>,
+                  <lb/><placeName><rs type="place" ref="#amp_place_id_557">OXFORD</rs></placeName>,
+                  <lb/>OX1 4AR.
+                </seg>  
+                <dateline>  
+                  <date>
+                    <lb/>19<unclear>th.</unclear> July 1973
+                  </date>
+                </dateline>
+                <salute>
+                  <lb/>Dear <rs type="person" ref="#amp_person_1">Mr. Auden</rs>,
+                </salute>
+              </opener>
+              <p>
+                <lb/>I am writing well in advance to ask if you will be able
+                <lb/>to present a record evening for the S.E.H. Music Club sometime next term.
+                <lb/>You may perhaps recall that I 'interviewed' you (for 'Cherwell') at St.Aldates
+                <lb/>Coffee House in Hilary Term<unclear>;</unclear> and there inveigled you. You gave tacit assent.
+              </p>
+              <p>
+                <lb/>Meetings constitute simply the presentation by members
+                <lb/>of their own choice of records - over a glass of sherry. Our plan has been to
+                <lb/>have at least one guest evening each term. Should you be willing<unclear>,</unclear> you 
+                <lb/>might recite relevant verses, or talk about libretto-writing, or anything
+                <lb/>else. The meetings usually last for about 2 1/2 hours.
+              </p>
+              <p>
+                <lb/>I shall be printing Programmes for the term in late
+                <lb/>September - sos if you decide to come, would you let me know your choice
+                <lb/>of music before then?
+              </p>
+              <p>
+                <lb/>As regards date, I would suggest Mondays Octob<unclear>e</unclear>r 29<unclear>th.</unclear>,
+                <lb/>November 5<unclear>th.</unclear> and 12<unclear>th.</unclear>. It has to be Monday, but, really, any Monday
+                <lb/><unclear>co</unclear>nvenient to you would be convenient to us.
+              </p>
+              <closer>
+                <salute>
+                  <lb/>Yours sincerely,
+                </salute>
+                <signed>
+                  <lb/>Paul William Driver
+                </signed>
+              </closer>
+             </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00504/" ed="1v" type="sheet"/>
+            <div>
+              <ab hand="#hand_blue_unident_0165">
+                <lb/>20
+              </ab>
+            </div>
+          </div>
       </div>
     </body>
   </text>
