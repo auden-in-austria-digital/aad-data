@@ -89,11 +89,11 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote xml:id="hand_black_driver" scribeRef="#amp_person_xx" medium="ink-black">Handwriting in black ink by Paul Driver</handNote>
+                  <handNote xml:id="hand_black_driver" scribeRef="#amp_person_551" medium="ink-black">Handwriting in black ink by Paul Driver</handNote>
                   <handNote xml:id="hand_blue_unident_0165" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote xml:id="print_seh" scribeRef="#amp_organization_xxx" medium="print">Preprinted writing authored by St Edmund Hall</typeNote>
+                  <typeNote xml:id="print_seh" scribeRef="#amp_organization_354" medium="print">Preprinted writing authored by St Edmund Hall</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -151,11 +151,11 @@
             <div type="letter_message" hand="#hand_black_driver">
               <opener>
                 <seg hand="#print_seh">
-                  <lb/>TELEPHONE: OXFORD 45511
+                  <lb/>TELEPHONE: <rs type="place" ref="#amp_place_id_46">OXFORD</rs> 45511
                  </seg> 
                 <seg hand="#print_seh">
-                  <lb/><orgName><rs type="org" ref="#amp_organization_353">ST. EDMUND HALL</rs></orgName>,
-                  <lb/><placeName><rs type="place" ref="#amp_place_id_557">OXFORD</rs></placeName>,
+                  <lb/><orgName><rs type="org" ref="#amp_organization_354">ST. EDMUND HALL</rs></orgName>,
+                  <lb/><placeName><rs type="place" ref="#amp_place_id_46">OXFORD</rs></placeName>,
                   <lb/>OX1 4AR.
                 </seg>  
                 <dateline>  
@@ -169,8 +169,8 @@
               </opener>
               <p>
                 <lb/>I am writing well in advance to ask if you will be able
-                <lb/>to present a record evening for the S.E.H. Music Club sometime next term.
-                <lb/>You may perhaps recall that I 'interviewed' you (for 'Cherwell') at St.Aldates
+                <lb/>to present a record evening for the <rs type="org" ref="#amp_organization_354">S.E.H.</rs> Music Club sometime next term.
+                <lb/>You may perhaps recall that I 'interviewed' you (for <rs type="org" ref="#amp_organization_355">'Cherwell'</rs>) at St.Aldates
                 <lb/>Coffee House in Hilary Term<unclear>;</unclear> and there inveigled you. You gave tacit assent.
               </p>
               <p>
@@ -195,7 +195,7 @@
                   <lb/>Yours sincerely,
                 </salute>
                 <signed>
-                  <lb/>Pa<hi rend="underline" hand="#hand_black_driver">ul William Driver<space quantity="2" unit="char"/></hi>
+                  <lb/><rs type="person" ref="#amp_person_551">Pa<hi rend="underline" hand="#hand_black_driver">ul William Driver<space quantity="2" unit="char"/></hi></rs>
                 </signed>
               </closer>
              </div>
