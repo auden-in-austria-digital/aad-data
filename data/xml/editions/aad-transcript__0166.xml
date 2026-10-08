@@ -153,19 +153,29 @@
             <div type="letter_message" hand="#type_black_ede_ravenscroft">
               <opener>
                 <seg hand="#print_ede_ravenscroft">
-                  <lb/>TELEPHONE: O1-4O5 O6O2
-                  
-                  <space quantity="2" unit="char"/>TELEGRAMS: EDE, O1-4O5 O6O2
+                  <lb/>TELEPHONE: 01-405 0602
+                </seg>
+                <seg hand="#print_ede_ravenscroft">
+                  <lb/>TELEGRAMS: EDE, 01-405 0602
                   <lb/>CABLEGRAMS: EAGLEHAWK-LONDON
+                </seg>
+                <seg hand="#print_ede_ravenscroft">
                   <lb/>EDE, &amp; RAVENSCROFT LTD
                   <lb/>H. M. WALTON, J. F. AUSTIN, L. WALTON, F. W. BIRCH, J. DURRANT
-                  <lb/>FOUNDED IN THE REIGN OF WILLIAM &amp; MARY l689.
-                  
+                  <lb/>FOUNDED IN THE REIGN OF WILLIAM &amp; MARY 1689.
+                </seg>
+                <seg hand="#print_ede_ravenscroft">  
                   <lb/>ROBE MAKERS &amp; TAILORS
                   <lb/>93 &amp; 94 CHANCERY LANE LONDON W C 2
-                  
+                </seg>
+                <seg hand="#print_ede_ravenscroft">  
                   <lb/>COURT, DIPLOMATIC &amp; PRIVATE CLOTHES,
                   <lb/>PEERS, ACADEMIC, LEGAL &amp; MUNICIPAL ROBES.
+                </seg>
+                <seg hand="#print_ede_ravenscroft">  
+                  <lb/>LAW WIGS<space quantity="2" unit="char"/>UNIFORMS
+                </seg>
+                <seg hand="#print_ede_ravenscroft">  
                   <lb/>THE FIRM HAS BEEN THE RECOGNISED AUTHORITY ON COURT DRESS AND ROBES FOR UPWARDS OF 275 YEARS.
                 </seg> 
                 <seg>
@@ -173,7 +183,7 @@
                 </seg>
                 <dateline>  
                   <date>
-                    <lb/>28th April, l970.
+                    <lb/><space quantity="44" unit="char"/>28th April, l970.
                   </date>
                 </dateline>
                 <seg>
@@ -195,41 +205,55 @@
                 </salute>
               </opener>
               <p>
-                <lb/>Being the Official Robemakers to the University of Sheffield,
+                <lb/><space quantity="11" unit="char"/>Being the Official Robemakers to the University of Sheffield,
                 <lb/>they have informed us that you are to have conferred upon you the
                 <lb/>Honorary Degree of D.Litt.
               </p>
               <p>
-                <lb/>We write to ask if we may have the honour of supplying you
+                <lb/><space quantity="11" unit="char"/>We write to ask if we may have the honour of supplying you
                 <lb/>with new robes, on the other hand, you may only wish to have hired
                 <lb/>Robes for the Degree Ceremony, in which case the University will
-                <lb/>supply. In either case the robes will be ready for you in the
+                <lb/>supply. <space quantity="1" unit="char"/>In either case the robes will be ready for you in the
                 <lb/>appropriate Robing Room on the day of the Ceremony.
               </p>
               <p>
-                <lb/>The cost of new D.Litt Robes, would
-                <lb/>be:-
+                <lb/><space quantity="11" unit="char"/>The cost of new D.Litt Robes, would
+                <lb/><space quantity="11" unit="char"/>be:-
               </p>
               <p>
-                <lb/>Gown in fine lightweight all wool Panama....... 33. 0. 0.
-                <lb/>Hood - Art Silk lined Silk Taffeta.............  7.  7.  0.
-                <lb/>Hat - Velvet Mortar Board...................... 6. 2. 0. 
+                <lb/><space quantity="12" unit="char"/>Gown in fine lightweight all wool Panama.......&#163;33.<space quantity="2" unit="char"/>0.<space quantity="2" unit="char"/>0.
+                <lb/><space quantity="12" unit="char"/>Hood - Art Silk lined Silk Taffeta.............&#163; 7.<space quantity="2" unit="char"/>7.<space quantity="2" unit="char"/>0.
+                <lb/><space quantity="12" unit="char"/>Hat - Velvet Mortar Board......................&#163; 6.<space quantity="2" unit="char"/>2.<space quantity="2" unit="char"/>0. 
               </p>
               <p>
-                <lb/>Should we be favoured with your order it would be appreciated
+                <lb/><space quantity="11" unit="char"/>Should we be favoured with your order it would be appreciated
                 <lb/>if you would let us have your full height and hat size.
               </p>
               <closer>
                 <salute>
-                  <lb/>Assuring you of our best and personal attention at all
+                  <lb/><space quantity="11" unit="char"/>Assuring you of our best and personal attention at all
                   <lb/>times,
                 </salute>
                 <salute>
-                  <lb/>We are, Sir,
-                  <lb/>Your obedient servants,
+                  <lb/><space quantity="44" unit="char"/>We are, Sir,
+                  <lb/><space quantity="44" unit="char"/>Your obedient servants,
                 </salute>
+                <signed>
+                  <lb/><space quantity="39" unit="char"/>p.p. EDE &amp; RAVENSCROFT, LTD.,
+                </signed>
+                <signed hand="#hand_blue_0166_01">
+                  <lb/>J.<unclear>F.A.</unclear>
+                </signed>
+              </closer>
+            </div>                
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00506/" ed="1v" type="sheet"/>
-      </div>
+            <div>
+              <ab hand="#hand_blue_unident_0166_02">
+                <lb/>18
+              </ab>
+            </div>
+          </div>
+        </div>
     </body>
   </text>
 </TEI>
