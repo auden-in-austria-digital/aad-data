@@ -157,6 +157,7 @@
                   <lb/><orgName><rs type="org" ref="#amp_organization_354">ST. EDMUND HALL</rs></orgName>,
                   <lb/><placeName><rs type="place" ref="#amp_place_id_46">OXFORD</rs></placeName>,
                   <lb/>OX1 4AR.
+                  <lb/>
                 </seg>  
                 <dateline>  
                   <date>
@@ -195,7 +196,7 @@
                   <lb/>Yours sincerely,
                 </salute>
                 <signed>
-                  <lb/><rs type="person" ref="#amp_person_551">Pa<hi rend="underline" hand="#hand_black_driver">ul William Driver<space quantity="2" unit="char"/></hi></rs>
+                  <lb/><rs type="person" ref="#amp_person_551"><hi rend="underline" hand="#hand_black_driver">Paul William Driver</hi></rs>
                 </signed>
               </closer>
              </div>
