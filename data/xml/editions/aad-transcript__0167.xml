@@ -89,10 +89,12 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote/>
+                  <handNote xml:id="hand_blue_else" scribeRef="#amp_person_xx" medium="ink-blue">Handwriting in blue ink by Richard Else</handNote>
+                  <handNote xml:id="hand_blue_unident_0167" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="type_black_else" scribeRef="#amp_person_xx" medium="type">Typewriting in black ink by Richard Else</typeNote>
+                  <typeNote xml:id="print_saint_davids_university_college" scribeRef="#amp_organization_xx" medium="print">Preprinted writing authored by Saint David's University College</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -116,11 +118,22 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="en"/>
       </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1973-05-20T00:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
+        </correspAction>
+      </correspDesc>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2026-10-08">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-10-08">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-10-08">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-10-08">Text transcribed; hands, languages, correspondence container structure, entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -133,51 +146,85 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0167" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0167" xml:lang="en">
+          <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00507/" ed="1r" type="sheet"/>
-        <lb/>Prifysgol Cymru
-        <lb/>COLEG PRIFYSGOL DEWI SANT
-        <lb/>LLANBEDR PONT STEFFAN
-        <lb/>Ceredigion
-        <lb/>
-        <lb/>University of Wales
-        <lb/>SAINT DAVID's UNIVERSITY COLLEGE
-        <lb/>LAMPETER
-        <lb/>Cardiganshire
-        <lb/>
-        <lb/>Tel : Lampeter 351/352/415 - Ext.:
-        
-        <lb/>
-        <lb/>20th May I973 
-        <lb/>Dear Mr. Auden,
-        <lb/>I am writing to you as president of the student 'New
-        <lb/>Literary Society'. I am at present compiling our programme
-        <lb/>for I973-4 and would like it to reflect as many aspects of
-        <lb/>modern poetry as possible. To this end I hope to arrange
-        <lb/>poetry readings by a varied selection of poets. I would,
-        <lb/>therefore, be grateful if you would be willing to give a poetry
-        <lb/>reading to the society.
-        <lb/>As you may know Saint David's University College is the
-        <lb/>smallest, but one of the oldest, university colleges in Britain;
-        <lb/>yet it is situated in a part of Wales that although remote, is 
-        <lb/>one of the most beautiful parts. Because the college is a little
-        <lb/>more isolated than most we have found that outside speakers
-        <lb/>are always assured of a warm reception and an appreciative 
-        <lb/>audience. Moreover, if you wish to read here the college would
-        <lb/>be pleased to provide accomodation etc., so that if you wish to
-        <lb/>stay in the area for a few days this would be possible. A
-        <lb/>suitable date would be late November/early December I973, but
-        <lb/>if this proves to be inconvenient I would be grateful if you
-        <lb/>would suggest an alternative.
-        <lb/>I hope that you will be able to accept our offer and
-        <lb/>would be obliged if you could suggest a fee together with a
-        <lb/>rough estimate of your travelling expenses.
-        <lb/>I look forward to hearing from you.
-        <lb/>Yours sincerely,
-        <lb/>Richard Else
-        <lb/>Richard Else.
-        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00508/" ed="1v" type="sheet"/>
+            <div type="letter_message" hand="#type_black_else">
+              <opener>
+                <seg hand="#print_saint_davids_university_college">
+                  <lb/><hi rend="underline" hand="#print_saint_davids_university_college">Prifysgol Cymru</hi>
+                  <lb/>COLEG PRIFYSGOL DEWI SANT
+                  <lb/>LLANBEDR PONT STEFFAN
+                  <lb/>Ceredigion
+                </seg>
+                <seg hand="#print_saint_davids_university_college">
+                  <lb/><hi rend="underline" hand="#print_saint_davids_university_college">University of Wales</hi>
+                  <lb/>SAINT DAVID'S UNIVERSITY COLLEGE
+                  <lb/>LAMPETER
+                  <lb/>Cardiganshire
+                </seg>
+                <seg hand="#print_saint_davids_university_college">
+                  <lb/>Tel : Lampeter 351/352/415 - Ext.:
+                </seg>
+                <dateline>  
+                  <date>
+                    <lb/><space quantity="44" unit="char"/>20th May I973 
+                  </date>
+                </dateline>
+                <salute>
+                  <lb/><rs type="person" ref="#amp_person_1">Dear Mr. Auden</rs>,
+                </salute>
+              </opener>
+              <p>
+                <lb/>I am writing to you as president of the student 'New
+                <lb/>Literary Society'. I am at present compiling our programme
+                <lb/>for I973-4 and would like it to reflect as many aspects of
+                <lb/>modern poetry as possible. To this end I hope to arrange
+                <lb/>poetry readings by a varied selection of poets. I would,
+                <lb/>therefore, be grateful if you would be willing to give a poetry
+                <lb/>reading to the society.
+              </p>
+              <p>
+               <lb/>As you may know Saint David's University College is the
+               <lb/>smallest, but one of the oldest, university colleges in Britain;
+               <lb/>yet it is situated in a part of Wales that although remote, is 
+               <lb/>one of the most beautiful parts. Because the college is a little
+               <lb/>more isolated than most we have found that outside speakers
+               <lb/>are always assured<unclear>n</unclear>of a warm reception and an appreciative 
+               <lb/>audience. Moreover, if you wish to read here the<unclear>c</unclear>college would
+               <lb/>be pleased to provide accomodation etc., so that if you wish to
+               <lb/>stay in the area for a few days this would be possible. A
+               <lb/>suitable date would be late November/early December I973, but
+               <lb/>if this proves to be inconvenient I would be grateful if you
+               <lb/>would suggest an alternative. 
+              </p>
+              <p>
+               <lb/>I hope that you will be able to accept our offer and
+               <lb/>would be obliged if you could suggest a fee together with a
+               <lb/>rough estimate of your travelling expenses.
+              </p>
+              <p>
+               <lb/>I look forward to hearing from you.
+              </p>
+              <closer>
+              <salute>
+                <lb/>Yours sincerely,
+              </salute>
+              <signed hand="#hand_blue_else">
+                <lb/><hi rend="underline" hand="#hand_blue_else">Richard Else</hi>
+              </signed>
+              <signed>
+                <lb/>Richard Else.
+              </signed>
+              </closer>
+            </div> 
+         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00508/" ed="1v" type="sheet"/>
+            <div>
+              <ab hand="#hand_blue_unident_0167">
+                <lb/>77
+              </ab>
+            </div>
+         </div>
       </div>
     </body>
   </text>
