@@ -93,8 +93,8 @@
                   <handNote xml:id="hand_blue_unident_0166_02" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote xml:id="type_black_ede_ravenscroft" scribeRef="#amp_organization_xx" medium="type">Typewriting in black ink authored by Ede &amp; Ravenscroft</typeNote>
-                  <typeNote xml:id="print_ede_ravenscroft" scribeRef="#amp_organization_xx" medium="print">Preprinted writing authored by Ede &amp; Ravenscroft</typeNote>
+                  <typeNote xml:id="type_black_ede_ravenscroft" scribeRef="#amp_organization_356" medium="type">Typewriting in black ink authored by Ede &amp; Ravenscroft</typeNote>
+                  <typeNote xml:id="print_ede_ravenscroft" scribeRef="#amp_organization_356" medium="print">Preprinted writing authored by Ede &amp; Ravenscroft</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -160,13 +160,13 @@
                   <lb/>CABLEGRAMS: EAGLEHAWK-LONDON
                 </seg>
                 <seg hand="#print_ede_ravenscroft">
-                  <lb/>EDE, &amp; RAVENSCROFT LTD
+                  <lb/><rs type="org" ref="#amp_organization_356">EDE, &amp; RAVENSCROFT LTD</rs>
                   <lb/>H. M. WALTON, J. F. AUSTIN, L. WALTON, F. W. BIRCH, J. DURRANT
-                  <lb/>FOUNDED IN THE REIGN OF WILLIAM &amp; MARY 1689.
+                  <lb/>FOUNDED IN THE REIGN OF <rs type="person" ref="#amp_person_552">WILLIAM</rs> &amp; <rs type="person" ref="#amp_person_553">MARY</rs> 1689.
                 </seg>
                 <seg hand="#print_ede_ravenscroft">  
                   <lb/>ROBE MAKERS &amp; TAILORS
-                  <lb/>93 &amp; 94 CHANCERY LANE LONDON W C 2
+                  <lb/>93 &amp; 94 CHANCERY LANE <rs type="place" ref="#amp_place_id_56">LONDON</rs> W C 2
                 </seg>
                 <seg hand="#print_ede_ravenscroft">  
                   <lb/>COURT, DIPLOMATIC &amp; PRIVATE CLOTHES,
@@ -192,11 +192,11 @@
                   </persName>
                   <placeName>
                     <address>
-                        <lb/><rs type="place" ref="#amp_place_id_2">Kirchstetten</rs>,
-                        <lb/><foreign xml:lang="de">Bezirk</foreign> Street. Polten,
-                        <lb/>Hinterholz 6,
-                        <lb/>NO.O. 
-                        <lb/>Austria.
+                        <lb/><rs type="place" ref="#amp_place_id_5">Kirchstetten,
+                        <lb/><foreign xml:lang="de">Bezirk</foreign> Street. <rs type="place" ref="#amp_place_id_9">Polten</rs>,
+                        <lb/><rs type="place" ref="#amp_place_id_2">Hinterholz 6</rs>,
+                        <lb/><rs type="place" ref="#amp_place_id_6">NO.O.</rs> 
+                        <lb/><rs type="place" ref="#amp_place_id_10">Austria</rs>.</rs>
                     </address>
                   </placeName>
                 </seg>
@@ -205,14 +205,14 @@
                 </salute>
               </opener>
               <p>
-                <lb/><space quantity="11" unit="char"/>Being the Official Robemakers to the University of Sheffield,
-                <lb/>they have informed us that you are to have conferred upon you the
-                <lb/>Honorary Degree of D.Litt.
+                <lb/><space quantity="11" unit="char"/>Being the Official Robemakers to the <rs type="org" ref="#amp_organization_358">University of Sheffield</rs>,
+                <lb/>they have informed us that you are to have <rs type="event" ref="#amp_event_id_302">conferred upon you the
+                <lb/>Honorary Degree of D.Litt.</rs>
               </p>
               <p>
                 <lb/><space quantity="11" unit="char"/>We write to ask if we may have the honour of supplying you
                 <lb/>with new robes, on the other hand, you may only wish to have hired
-                <lb/>Robes for the Degree Ceremony, in which case the University will
+                <lb/>Robes for the <rs type="event" ref="#amp_event_id_302">Degree Ceremony</rs>, in which case the <rs type="org" ref="#amp_organization_358">University</rs> will
                 <lb/>supply. <space quantity="1" unit="char"/>In either case the robes will be ready for you in the
                 <lb/>appropriate Robing Room on the day of the Ceremony.
               </p>
@@ -239,9 +239,9 @@
                   <lb/><space quantity="44" unit="char"/>Your obedient servants,
                 </salute>
                 <signed>
-                  <lb/><space quantity="39" unit="char"/>p.p. EDE &amp; RAVENSCROFT, LTD.,
+                  <lb/><space quantity="39" unit="char"/>p.p. <rs type="org" ref="#amp_organization_356">EDE &amp; RAVENSCROFT, LTD.</rs>,
                 </signed>
-                <signed hand="#hand_blue_0166_01">
+                <signed hand="#hand_blue_unident_0166_01">
                   <lb/>J.<unclear>F.A.</unclear>
                 </signed>
               </closer>
