@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0166" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Typed Letter Signed Ede &amp; Ravenscroft Tailors to W. H. Auden 1970-04-28</title>
+        <author ref="https://d-nb.info/gnd/1242946160">Ede and Ravenscroft</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484">Hechtl, Angelika</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Typed Letter Signed Ede &amp; Ravenscroft Tailors to W. H. Auden 1970-04-28</title>
+          <interpGrp>
+            <interp>
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+          <name sameAs="#ahechtl"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
+                <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
+                <collection>Documentation Center for Literature in Lower Austria</collection>
+                <idno>LS-Aud 2.18</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00503/ https://iiif.acdh.oeaw.ac.at/aad/aad_00504/">Croxley Script</watermark>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00505/">
+                        <width>202</width>
+                        <height>252</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00506/">
+                        <width>202</width>
+                        <height>252</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_blue_unident_0166_01" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
+                  <handNote xml:id="hand_blue_unident_0166_02" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="type_black_ede_ravenscroft" scribeRef="#amp_organization_xx" medium="type">Typewriting in black ink authored by Ede &amp; Ravenscroft</typeNote>
+                  <typeNote xml:id="print_ede_ravenscroft" scribeRef="#amp_organization_xx" medium="print">Preprinted writing authored by Ede &amp; Ravenscroft</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1970-04-28T00:00:00+01:00" notAfter-iso="1970-04-28T23:59:59+01:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4074335-4">London</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en"/>
+        <language ident="de"/>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1970-04-28T00:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#smayer" when-iso="2026-10-07">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-10-08">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-10-08">Text transcribed; hands, languages, correspondence container structure, entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="3680" lry="4468">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00505/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3680" lry="4462">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00506/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0166" xml:lang="en">
+          <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00505/" ed="1r" type="sheet"/>
+            <div type="letter_message" hand="#type_black_ede_ravenscroft">
+              <opener>
+                <seg hand="#print_ede_ravenscroft">
+                  <lb/>TELEPHONE: O1-4O5 O6O2
+                  
+                  <space quantity="2" unit="char"/>TELEGRAMS: EDE, O1-4O5 O6O2
+                  <lb/>CABLEGRAMS: EAGLEHAWK-LONDON
+                  <lb/>EDE, &amp; RAVENSCROFT LTD
+                  <lb/>H. M. WALTON, J. F. AUSTIN, L. WALTON, F. W. BIRCH, J. DURRANT
+                  <lb/>FOUNDED IN THE REIGN OF WILLIAM &amp; MARY l689.
+                  
+                  <lb/>ROBE MAKERS &amp; TAILORS
+                  <lb/>93 &amp; 94 CHANCERY LANE LONDON W C 2
+                  
+                  <lb/>COURT, DIPLOMATIC &amp; PRIVATE CLOTHES,
+                  <lb/>PEERS, ACADEMIC, LEGAL &amp; MUNICIPAL ROBES.
+                  <lb/>THE FIRM HAS BEEN THE RECOGNISED AUTHORITY ON COURT DRESS AND ROBES FOR UPWARDS OF 275 YEARS.
+                </seg> 
+                <seg>
+                  <lb/>JFA/BC
+                </seg>
+                <dateline>  
+                  <date>
+                    <lb/>28th April, l970.
+                  </date>
+                </dateline>
+                <seg>
+                  <persName>
+                    <lb/><rs type="person" ref="#amp_person_1">W. H. Auden</rs>, Esq.,
+                  </persName>
+                  <placeName>
+                    <address>
+                        <lb/><rs type="place" ref="#amp_place_id_2">Kirchstetten</rs>,
+                        <lb/><foreign xml:lang="de">Bezirk</foreign> Street. Polten,
+                        <lb/>Hinterholz 6,
+                        <lb/>NO.O. 
+                        <lb/>Austria.
+                    </address>
+                  </placeName>
+                </seg>
+                <salute>
+                  <lb/><rs type="person" ref="#amp_person_1">Sir</rs>,
+                </salute>
+              </opener>
+              <p>
+                <lb/>Being the Official Robemakers to the University of Sheffield,
+                <lb/>they have informed us that you are to have conferred upon you the
+                <lb/>Honorary Degree of D.Litt.
+              </p>
+              <p>
+                <lb/>We write to ask if we may have the honour of supplying you
+                <lb/>with new robes, on the other hand, you may only wish to have hired
+                <lb/>Robes for the Degree Ceremony, in which case the University will
+                <lb/>supply. In either case the robes will be ready for you in the
+                <lb/>appropriate Robing Room on the day of the Ceremony.
+              </p>
+              <p>
+                <lb/>The cost of new D.Litt Robes, would
+                <lb/>be:-
+              </p>
+              <p>
+                <lb/>Gown in fine lightweight all wool Panama....... 33. 0. 0.
+                <lb/>Hood - Art Silk lined Silk Taffeta.............  7.  7.  0.
+                <lb/>Hat - Velvet Mortar Board...................... 6. 2. 0. 
+              </p>
+              <p>
+                <lb/>Should we be favoured with your order it would be appreciated
+                <lb/>if you would let us have your full height and hat size.
+              </p>
+              <closer>
+                <salute>
+                  <lb/>Assuring you of our best and personal attention at all
+                  <lb/>times,
+                </salute>
+                <salute>
+                  <lb/>We are, Sir,
+                  <lb/>Your obedient servants,
+                </salute>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00506/" ed="1v" type="sheet"/>
+      </div>
+    </body>
+  </text>
+</TEI>
