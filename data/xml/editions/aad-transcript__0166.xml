@@ -154,29 +154,36 @@
               <opener>
                 <seg hand="#print_ede_ravenscroft">
                   <lb/>TELEPHONE: 01-405 0602
+                  <lb/>
                 </seg>
                 <seg hand="#print_ede_ravenscroft">
                   <lb/>TELEGRAMS: EDE, 01-405 0602
                   <lb/>CABLEGRAMS: EAGLEHAWK-LONDON
+                  <lb/>
                 </seg>
                 <seg hand="#print_ede_ravenscroft">
                   <lb/><rs type="org" ref="#amp_organization_356">EDE, &amp; RAVENSCROFT LTD</rs>
                   <lb/>H. M. WALTON, J. F. AUSTIN, L. WALTON, F. W. BIRCH, J. DURRANT
                   <lb/>FOUNDED IN THE REIGN OF <rs type="person" ref="#amp_person_552">WILLIAM</rs> &amp; <rs type="person" ref="#amp_person_553">MARY</rs> 1689.
+                  <lb/>
                 </seg>
                 <seg hand="#print_ede_ravenscroft">  
                   <lb/>ROBE MAKERS &amp; TAILORS
                   <lb/>93 &amp; 94 CHANCERY LANE <rs type="place" ref="#amp_place_id_56">LONDON</rs> W C 2
+                  <lb/>
                 </seg>
                 <seg hand="#print_ede_ravenscroft">  
                   <lb/>COURT, DIPLOMATIC &amp; PRIVATE CLOTHES,
                   <lb/>PEERS, ACADEMIC, LEGAL &amp; MUNICIPAL ROBES.
+                  <lb/>
                 </seg>
                 <seg hand="#print_ede_ravenscroft">  
                   <lb/>LAW WIGS<space quantity="2" unit="char"/>UNIFORMS
+                  <lb/>
                 </seg>
                 <seg hand="#print_ede_ravenscroft">  
                   <lb/>THE FIRM HAS BEEN THE RECOGNISED AUTHORITY ON COURT DRESS AND ROBES FOR UPWARDS OF 275 YEARS.
+                  <lb/>
                 </seg> 
                 <seg>
                   <lb/>JFA/BC
