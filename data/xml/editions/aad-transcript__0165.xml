@@ -98,7 +98,7 @@
               </physDesc>
               <history>
                 <origin>
-                  <origDate notBefore-iso="1973-07-19T00:00:00+01:00" notAfter-iso="1973-07-19T23:59:59+01:00"/>
+                  <origDate notBefore-iso="1973-07-19T00:00:00+00:00" notAfter-iso="1973-07-19T23:59:59+00:00"/>
                   <origPlace ref="https://d-nb.info/gnd/4044234-2">Oxford</origPlace>
                 </origin>
               </history>
@@ -121,7 +121,7 @@
       </langUsage>
       <correspDesc>
         <correspAction type="sent">
-          <date notBefore-iso="1973-07-19T00:00:00+01:00"/>
+          <date notBefore-iso="1973-07-19T00:00:00+00:00"/>
         </correspAction>
         <correspAction type="received">
           <persName ref="#amp_person_1">Auden, W. H.</persName>
