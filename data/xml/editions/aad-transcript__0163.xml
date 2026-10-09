@@ -194,7 +194,7 @@
                 <seg hand="#print_bruckmann" xml:lang="de">
                   <lb/>Ihre Zeichen<space quantity="2" unit="char"/>Ihre Nachricht vom<space quantity="2" unit="char"/>Unsere Zeichen<space quantity="2" unit="char"/>Durchwahl<space quantity="2" unit="char"/>Tag
                 </seg>
-                  <lb/><space quantity="25" unit="char"/><handShift new="#type_black_stiebner"/>S Ae/ho 1257/ <handShift new="#type_black_stiebner"/>304<space quantity="4" unit="char"/><dateline><date>March 22nd, 1973</date></dateline>  
+                <lb/><space quantity="25" unit="char"/>S Ae/ho <handShift new="#print_bruckmann"/>1257/ <handShift new="#type_black_stiebner"/>304<space quantity="4" unit="char"/><handShift new="#type_black_stiebner"/><dateline><date>March 22nd, 1973</date></dateline>  
                   <lb/>
                 <seg>
                   <lb/><hi rend="underline" hand="#type_black_stiebner">Re:</hi><space unit="char" quantity="2"/>Our editorial work <rs type="lit_work" ref="#lit_work_id_398">"The Great Change"</rs>
