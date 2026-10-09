@@ -179,26 +179,26 @@
               <p>
                 <lb/><space quantity="8" unit="char"/>Thank you for your letter of May 3Ist. I am very pleased
                 <lb/>that you have been able to accept our invitation to come and give
-                <lb/>a poetry reading at the College. 
+                <lb/>a poetry reading at the <rs type="org" ref="#amp_organization_360">College</rs>. 
               </p>
               <p>
                 <lb/><space quantity="8" unit="char"/>I will be happy t<subst><del rend="overtyped" hand="#type_black_else">p</del><add place="superimposed" hand="#type_black_else">o</add></subst> arrange for someone to pick you up from,
-                <lb/>and return you to, Oxford. I would be grateful if you would suggest
+                <lb/>and return you to, <rs type="place" ref="#amp_place_id_46">Oxford</rs>. I would be grateful if you would suggest
                 <lb/>a convenient date (the only evening it is not possible to give a
                 <lb/>reading is Sunday) in late November/early December. If it is poss-
                 <lb/>i<subst><del rend="overtyped" hand="#type_black_else">h</del><add place="superimposed" hand="#type_black_else">b</add></subst>le to give me some indication of how long you would like to stay
-                <lb/>in Lampeter, I will be able to make arrangements for your <subst><del rend="overstrike" hand="#hand_black_else">ac<unclear>oc</unclear>mmat</del><add place="above" hand="#hand_black_else">accommodation.</add></subst>-
+                <lb/>in <rs type="place" ref="#amp_place_id_561">Lampeter</rs>, I will be able to make arrangements for your <subst><del rend="overstrike" hand="#hand_black_else">ac<unclear>oc</unclear>mmat</del><add place="above" hand="#hand_black_else">accommodation.</add></subst>-
                 <lb/><del rend="overstrike" hand="#hand_black_else">ion</del>.
               </p>
               <p>
                 <lb/><space quantity="8" unit="char"/>With regard to your fee it will be possible to offer you
                 <lb/>twenty-five pounds - I hope you will find this acceptable. I shall
                 <lb/>of course arrange for the society to pay for your <subst><del rend="overstrike" hand="#hand_black_else">a<gap reason="illegible" quantity="3" unit="char"></gap>d<unclear>a</unclear>ti<gap reason="illegible" quantity="1" unit="char"></gap>n</del><add place="above" hand="#hand_black_else">accommodation</add></subst> etc
-                <lb/>whilst in Lampeter.
+                <lb/>whilst in <rs type="place" ref="#amp_place_id_561">Lampeter</rs>.
               </p>
               <p>
                 <lb/><space quantity="8" unit="char"/>Nearer the time I will make specific arrangements for collect-
-                <lb/>ing you from Oxford.
+                <lb/>ing you from <rs type="place" ref="#amp_place_id_46">Oxford</rs>.
               </p>
               <closer>
                 <salute>
