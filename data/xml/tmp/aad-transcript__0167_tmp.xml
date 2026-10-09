@@ -96,7 +96,7 @@
               </physDesc>
               <history>
                 <origin>
-                  <origDate notBefore-iso="1973-05-20T00:00:00+01:00" notAfter-iso="1973-05-20T23:59:59+01:00"/>
+                  <origDate notBefore-iso="1973-05-20T00:00:00+00:00" notAfter-iso="1973-05-20T23:59:59+00:00"/>
                   <origPlace ref="https://d-nb.info/gnd/4268838-3">Lampeter</origPlace>
                 </origin>
               </history>
@@ -119,7 +119,7 @@
       </langUsage>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2026-10-08">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2026-10-09">TEI/XML template populated with csv2xml.py</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
