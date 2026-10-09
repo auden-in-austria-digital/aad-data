@@ -89,12 +89,12 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote xml:id="hand_blue_else" scribeRef="#amp_person_xx" medium="ink-blue">Handwriting in blue ink by Richard Else</handNote>
+                  <handNote xml:id="hand_blue_else" scribeRef="#amp_person_554" medium="ink-blue">Handwriting in blue ink by Richard Else</handNote>
                   <handNote xml:id="hand_blue_unident_0167" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote xml:id="type_black_else" scribeRef="#amp_person_xx" medium="type">Typewriting in black ink by Richard Else</typeNote>
-                  <typeNote xml:id="print_saint_davids_university_college" scribeRef="#amp_organization_xx" medium="print">Preprinted writing authored by Saint David's University College</typeNote>
+                  <typeNote xml:id="type_black_else" scribeRef="#amp_person_554" medium="type">Typewriting in black ink by Richard Else</typeNote>
+                  <typeNote xml:id="print_saint_davids_university_college" scribeRef="#amp_organization_360" medium="print">Preprinted writing authored by Saint David's University College</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -152,16 +152,16 @@
             <div type="letter_message" hand="#type_black_else">
               <opener>
                 <seg hand="#print_saint_davids_university_college">
-                  <lb/><hi rend="underline" hand="#print_saint_davids_university_college">Prifysgol Cymru</hi>
-                  <lb/>COLEG PRIFYSGOL DEWI SANT
-                  <lb/>LLANBEDR PONT STEFFAN
-                  <lb/>Ceredigion
+                  <lb/><hi rend="underline" hand="#print_saint_davids_university_college"><rs type="org" ref="#amp_organization_361">Prifysgol Cymru</rs></hi>
+                  <lb/><rs type="org" ref="#amp_organization_360">COLEG PRIFYSGOL DEWI SANT</rs>
+                  <lb/><rs type="place" ref="#amp_place_id_561">LLANBEDR PONT STEFFAN</rs>
+                  <lb/><rs type="place" ref="#amp_place_id_563">Ceredigion</rs>
                 </seg>
                 <seg hand="#print_saint_davids_university_college">
-                  <lb/><hi rend="underline" hand="#print_saint_davids_university_college">University of Wales</hi>
-                  <lb/>SAINT DAVID'S UNIVERSITY COLLEGE
-                  <lb/>LAMPETER
-                  <lb/>Cardiganshire
+                  <lb/><hi rend="underline" hand="#print_saint_davids_university_college"><rs type="org" ref="#amp_organization_361">University of Wales</rs></hi>
+                  <lb/><rs type="org" ref="#amp_organization_360">SAINT DAVID'S UNIVERSITY COLLEGE</rs>
+                  <lb/><rs type="place" ref="#amp_place_id_561">LAMPETER</rs>
+                  <lb/><rs type="place" ref="#amp_place_id_563">Cardiganshire</rs>
                 </seg>
                 <seg hand="#print_saint_davids_university_college">
                   <lb/>Tel : Lampeter 351/352/415 - Ext.:
@@ -185,9 +185,9 @@
                 <lb/>rea<subst><del rend="overtyped" hand="#type_black_else"><gap unit="char" quantity="1" reason="illegible"></gap>u</del><add place="superimposed" hand="#type_black_else">di</add></subst>ng to the society.
               </p>
               <p>
-                <lb/><space quantity="6" unit="char"/>As you may know Saint David's University College is the
-               <lb/>smallest, but one of the oldest, university colleges in Britain;
-               <lb/>yet it is situated in a part of Wales that although remote, is 
+               <lb/><space quantity="6" unit="char"/>As you may know <rs type="org" ref="#amp_organization_360">Saint David's University College</rs> is the
+               <lb/>smallest, but one of the oldest, university colleges in <rs type="place" ref="#amp_place_id_565">Britain</rs>;
+               <lb/>yet it is situated in a part of <rs type="place" ref="#amp_place_id_564">Wales</rs> that although remote, is 
                <lb/>one of the most beautiful parts. Because the college is a little
                <lb/>more isolated than most we have found that outside speakers
                <lb/>are always assured<unclear>n</unclear>of a warm reception and an appreciative 
@@ -211,10 +211,10 @@
                 <lb/>Yours sincerely,
               </salute>
               <signed hand="#hand_blue_else">
-                <lb/><hi rend="underline" hand="#hand_blue_else">Richard Else</hi>
+                <lb/><hi rend="underline" hand="#hand_blue_else"><rs type="person" ref="#amp_person_554">Richard Else</rs></hi>
               </signed>
               <signed>
-                <lb/>Richard Else.
+                <lb/><rs type="person" ref="#amp_person_554">Richard Else</rs>.
               </signed>
               </closer>
             </div> 
