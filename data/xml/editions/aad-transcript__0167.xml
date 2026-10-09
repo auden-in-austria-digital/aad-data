@@ -99,7 +99,7 @@
               </physDesc>
               <history>
                 <origin>
-                  <origDate notBefore-iso="1973-05-20T00:00:00+01:00" notAfter-iso="1973-05-20T23:59:59+01:00"/>
+                  <origDate notBefore-iso="1973-05-20T00:00:00+00:00" notAfter-iso="1973-05-20T23:59:59+00:00"/>
                   <origPlace ref="https://d-nb.info/gnd/4268838-3">Lampeter</origPlace>
                 </origin>
               </history>
@@ -122,7 +122,7 @@
       </langUsage>
       <correspDesc>
         <correspAction type="sent">
-          <date notBefore-iso="1973-05-20T00:00:00+01:00"/>
+          <date notBefore-iso="1973-05-20T00:00:00+00:00"/>
         </correspAction>
         <correspAction type="received">
           <persName ref="#amp_person_1">Auden, W. H.</persName>
