@@ -67,6 +67,7 @@
           <witness n="1">
             <msDesc>
               <msIdentifier>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
                 <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
                 <collection>Documentation Center for Literature in Lower Austria</collection>
                 <idno>LS-Aud 2.19</idno>
@@ -75,7 +76,7 @@
                 <objectDesc>
                   <supportDesc>
                     <support>
-                      <watermark/>
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00509/ https://iiif.acdh.oeaw.ac.at/aad/aad_00510/">ORBIT</watermark>
                       <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00509/">
                         <width>210</width>
                         <height>297</height>
@@ -88,10 +89,13 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote/>
+                  <handNote xml:id="hand_black_else" scribeRef="#amp_person_554" medium="ink-black">Handwriting in black ink by Richard Else</handNote>
+                  <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
+                  <handNote xml:id="hand_blue_unident_0168" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="type_black_else" scribeRef="#amp_person_554" medium="type">Typewriting in black ink by Richard Else</typeNote>
+                  <typeNote xml:id="print_saint_davids_university_college" scribeRef="#amp_organization_360" medium="print">Preprinted writing authored by Saint David's University College</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -115,11 +119,22 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="en"/>
       </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1973-06-05T00:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
+        </correspAction>
+      </correspDesc>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2026-10-08">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-10-08">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-10-09">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-10-09">Text transcribed; hands, languages, correspondence container structure, entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -132,10 +147,78 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0168" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0168" xml:lang="en">
+          <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00509/" ed="1r" type="sheet"/>
+            <div type="letter_message" hand="#type_black_else">
+              <opener>
+                <seg hand="#print_saint_davids_university_college">
+                  <lb/><hi rend="underline" hand="#print_saint_davids_university_college"><rs type="org" ref="#amp_organization_361">Prifysgol Cymru</rs></hi>
+                  <lb/><rs type="org" ref="#amp_organization_360">COLEG PRIFYSGOL DEWI SANT</rs>
+                  <lb/><rs type="place" ref="#amp_place_id_561">LLANBEDR PONT STEFFAN</rs>
+                  <lb/><rs type="place" ref="#amp_place_id_563">Ceredigion</rs>
+                </seg>
+                <seg hand="#print_saint_davids_university_college">
+                  <lb/><hi rend="underline" hand="#print_saint_davids_university_college"><rs type="org" ref="#amp_organization_361">University of Wales</rs></hi>
+                  <lb/><rs type="org" ref="#amp_organization_360">SAINT DAVID'S UNIVERSITY COLLEGE</rs>
+                  <lb/><rs type="place" ref="#amp_place_id_561">LAMPETER</rs>
+                  <lb/><rs type="place" ref="#amp_place_id_563">Cardiganshire</rs>
+                </seg>
+                <seg hand="#print_saint_davids_university_college">
+                  <lb/>Tel : Lampeter 351/352/415 - Ext.:
+                </seg>
+                <dateline>  
+                  <date>
+                    <lb/><space quantity="46" unit="char"/>5th June I973 
+                  </date>
+                </dateline>
+                <salute>
+                  <lb/><rs type="person" ref="#amp_person_1">Dear Mr. Auden</rs>,
+                </salute>
+              </opener>
+              <p>
+                <lb/><space quantity="8" unit="char"/>Thank you for your letter of May 3Ist. I am very pleased
+                <lb/>that you have been able to accept our invitation to come and give
+                <lb/>a poetry reading at the College. 
+              </p>
+              <p>
+                <lb/><space quantity="8" unit="char"/>I will be happy t<subst><del rend="overtyped" hand="#type_black_else">p</del><add place="superimposed" hand="#type_black_else">o</add></subst> arrange for someone to pick you up from,
+                <lb/>and return you to, Oxford. I would be grateful if you would suggest
+                <lb/>a convenient date (the only evening it is not possible to give a
+                <lb/>reading is Sunday) in late November/early December. If it is poss-
+                <lb/>i<subst><del rend="overtyped" hand="#type_black_else">h</del><add place="superimposed" hand="#type_black_else">b</add></subst>le to give me some indication of how long you would like to stay
+                <lb/>in Lampeter, I will be able to make arrangements for your <subst><del rend="overstrike" hand="#hand_black_else">ac<unclear>oc</unclear>mmat</del><add place="above" hand="#hand_black_else">accommodation.</add></subst>-
+                <lb/><del rend="overstrike" hand="#hand_black_else">ion</del>.
+              </p>
+              <p>
+                <lb/><space quantity="8" unit="char"/>With regard to your fee it will be possible to offer you
+                <lb/>twenty-five pounds - I hope you will find this acceptable. I shall
+                <lb/>of course arrange for the society to pay for your <subst><del rend="overstrike" hand="#hand_black_else">a<gap reason="illegible" quantity="3" unit="char"></gap>d<unclear>a</unclear>ti<gap reason="illegible" quantity="1" unit="char"></gap>n</del><add place="above" hand="#hand_black_else">accommodation</add></subst> etc
+                <lb/>whilst in Lampeter.
+              </p>
+              <p>
+                <lb/><space quantity="8" unit="char"/>Nearer the time I will make specific arrangements for collect-
+                <lb/>ing you from Oxford.
+              </p>
+              <closer>
+                <salute>
+                  <lb/>Yours sincerely,
+                </salute>
+                <signed hand="#hand_black_else">
+                  <lb/><hi rend="underline" hand="#hand_black_else"><rs type="person" ref="#amp_person_554">Richard Else</rs></hi>
+                </signed>
+                <signed>
+                  <lb/><rs type="person" ref="#amp_person_554">Richard Else</rs>
+                </signed>
+              </closer>
+            </div> 
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00510/" ed="1v" type="sheet"/>
+            <div>
+              <ab hand="#hand_blue_unident_0168">
+                <lb/>23
+              </ab>
+            </div>
+          </div>
       </div>
     </body>
   </text>
