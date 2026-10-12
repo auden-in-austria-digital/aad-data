@@ -67,6 +67,7 @@
           <witness n="1">
             <msDesc>
               <msIdentifier>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
                 <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
                 <collection>Documentation Center for Literature in Lower Austria</collection>
                 <idno>LS-Aud 2.20</idno>
@@ -88,10 +89,12 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote/>
+                  <handNote xml:id="hand_gray_epstein" scribeRef="#amp_person_xx" medium="pencil">Handwriting in pencil by Barbara Epstein</handNote>
+                  <handNote xml:id="hand_blue_unident_0169" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="type_black_epstein" scribeRef="#amp_person_xx" medium="type">Typewriting in black ink by Barbara Epstein</typeNote>
+                  <typeNote xml:id="print_NYRB" scribeRef="#amp_organization_xx" medium="print">Preprinted writing authored by The New York Review of Books</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -115,11 +118,23 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="en"/>
+        <language ident="de"/>
       </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1967-04-17T00:00:00-05:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
+        </correspAction>
+      </correspDesc>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2026-10-09">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-10-09">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-10-12">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-10-12">Text transcribed; hands, languages, correspondence container structure, entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -132,10 +147,72 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0169" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0169" xml:lang="en">
+          <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00511/" ed="1r" type="sheet"/>
+            <div type="letter_message" hand="#type_black_epstein">
+              <opener>
+                <seg hand="#print_NYRB">
+                  <lb/><rs type="org" ref="#amp_organization_361">The New York Review of Books</rs>
+                  <lb/>250 West Fifty-Seventh Street
+                  <lb/><rs type="place" ref="#amp_place_id_561">New York City, New York 10019</rs>
+                  <lb/>PLaza 7-8070
+                </seg>
+                <dateline>  
+                  <date>
+                    <lb/><space quantity="26" unit="char"/>April l7, l967
+                  </date>
+                </dateline>
+                <seg>
+                  <persName>
+                    <lb/><rs type="person" ref="#amp_person_1">W.H. Auden</rs>
+                  </persName>
+                  <placeName>
+                    <address>
+                      <lb/><rs type="place" ref="#amp_place_id_46">Kirchstetten (<foreign xml:lang="de">Westbahn</foreign>)
+                      <lb/>Hinterholz 6</rs> 
+                      <lb/><rs type="place" ref="#amp_place_id_46"><foreign xml:lang="de">N-<unclear>Ö</unclear></foreign></rs>
+                      <lb/><rs type="place" ref="#amp_place_id_46">Austria</rs>
+                    </address>
+                  </placeName>
+                </seg>
+                <salute>
+                  <lb/><rs type="person" ref="#amp_person_1">Dear Wyston</rs>:
+                </salute>
+              </opener>
+              <p>
+                <lb/><space quantity="5" unit="char"/>I've just sent the Bonhoffer books I
+                <lb/>told you about.<space quantity="2" unit="char"/>The personal one especially
+                <lb/>looks awfully interesting.<space quantity="2" unit="char"/>But anything from
+                <lb/>you on this would be great.
+              </p>
+              <p>
+                <lb/><space quantity="5" unit="char"/>I trust all is well.<space quantity="2" unit="char"/>Love to Chester.
+              </p>
+              <closer>
+                <salute>
+                  <lb/><space quantity="25" unit="char"/>As ever,
+                </salute>
+                <signed hand="#hand_gray_epstein">
+                  <lb/>Barbara
+                </signed>
+                <signed>
+                  <lb/><space quantity="25" unit="char"/><rs type="person" ref="#amp_person_554">Barbara Epstein</rs>
+                </signed>
+              </closer>
+              <postscript>
+                 <p>
+                   <lb/>BE/ab
+                 </p>
+              </postscript>
+             </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00512/" ed="1v" type="sheet"/>
+            <div>
+              <ab hand="#hand_blue_unident_0169">
+                <lb/>45
+              </ab>
+            </div>
+         </div>
       </div>
     </body>
   </text>
