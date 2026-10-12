@@ -156,12 +156,14 @@
                   <lb/><rs type="org" ref="#amp_organization_360">COLEG PRIFYSGOL DEWI SANT</rs>
                   <lb/><rs type="place" ref="#amp_place_id_561">LLANBEDR PONT STEFFAN</rs>
                   <lb/><rs type="place" ref="#amp_place_id_563">Ceredigion</rs>
+                  <lb/>
                 </seg>
                 <seg hand="#print_saint_davids_university_college">
                   <lb/><hi rend="underline" hand="#print_saint_davids_university_college"><rs type="org" ref="#amp_organization_361">University of Wales</rs></hi>
                   <lb/><rs type="org" ref="#amp_organization_360">SAINT DAVID'S UNIVERSITY COLLEGE</rs>
                   <lb/><rs type="place" ref="#amp_place_id_561">LAMPETER</rs>
                   <lb/><rs type="place" ref="#amp_place_id_563">Cardiganshire</rs>
+                  <lb/>
                 </seg>
                 <seg hand="#print_saint_davids_university_college">
                   <lb/>Tel : Lampeter 351/352/415 - Ext.:
