@@ -35,6 +35,11 @@
               <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
             </interp>
+            <interp xml:id="ana_144">
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
           </interpGrp>
         </edition>
         <respStmt>
@@ -183,8 +188,8 @@
               </p>
               <p>
                 <lb/>I shall be printing Programmes for the term in late
-                <lb/>September - so if you decide to come, would you let me know your choice
-                <lb/>of music before then?
+                <lb/>September - so if you decide to come, would you let me know your <rs ana="#ana_144">choice
+                <lb/>of music</rs> before then?
               </p>
               <p>
                 <lb/>As regards date, I would suggest Mondays Octob<unclear>e</unclear>r 29<hi rend="superscript"><unclear>th.</unclear></hi>,
