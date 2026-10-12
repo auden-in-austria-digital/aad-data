@@ -89,12 +89,12 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote xml:id="hand_gray_epstein" scribeRef="#amp_person_xx" medium="pencil">Handwriting in pencil by Barbara Epstein</handNote>
+                  <handNote xml:id="hand_gray_epstein" scribeRef="#amp_person_555" medium="pencil">Handwriting in pencil by Barbara Epstein</handNote>
                   <handNote xml:id="hand_blue_unident_0169" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote xml:id="type_black_epstein" scribeRef="#amp_person_xx" medium="type">Typewriting in black ink by Barbara Epstein</typeNote>
-                  <typeNote xml:id="print_NYRB" scribeRef="#amp_organization_xx" medium="print">Preprinted writing authored by The New York Review of Books</typeNote>
+                  <typeNote xml:id="type_black_epstein" scribeRef="#amp_person_555" medium="type">Typewriting in black ink by Barbara Epstein</typeNote>
+                  <typeNote xml:id="print_NYRB" scribeRef="#amp_organization_362" medium="print">Preprinted writing authored by The New York Review of Books</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -153,10 +153,14 @@
             <div type="letter_message" hand="#type_black_epstein">
               <opener>
                 <seg hand="#print_NYRB">
-                  <lb/><rs type="org" ref="#amp_organization_361">The New York Review of Books</rs>
-                  <lb/>250 West Fifty-Seventh Street
-                  <lb/><rs type="place" ref="#amp_place_id_561">New York City, New York 10019</rs>
-                  <lb/>PLaza 7-8070
+                  <orgName>
+                    <lb/><rs type="org" ref="#amp_organization_362">The New York Review of Books</rs>
+                  </orgName>
+                  <placeName>
+                    <lb/>250 West Fifty-Seventh Street
+                    <lb/><rs type="place" ref="#amp_place_id_28">New York City</rs>, New York 10019
+                    <lb/>PLaza 7-8070
+                  </placeName>
                 </seg>
                 <dateline>  
                   <date>
@@ -169,35 +173,35 @@
                   </persName>
                   <placeName>
                     <address>
-                      <lb/><rs type="place" ref="#amp_place_id_46">Kirchstetten (<foreign xml:lang="de">Westbahn</foreign>)
+                      <lb/><rs type="place" ref="#amp_place_id_2">Kirchstetten (<foreign xml:lang="de">Westbahn</foreign>)
                       <lb/>Hinterholz 6</rs> 
-                      <lb/><rs type="place" ref="#amp_place_id_46"><foreign xml:lang="de">N-<unclear>Ö</unclear></foreign></rs>
-                      <lb/><rs type="place" ref="#amp_place_id_46">Austria</rs>
+                      <lb/><rs type="place" ref="#amp_place_id_6"><foreign xml:lang="de">N-<unclear>Ö</unclear></foreign></rs>
+                      <lb/><rs type="place" ref="#amp_place_id_10">Austria</rs>
                     </address>
                   </placeName>
                 </seg>
                 <salute>
-                  <lb/><rs type="person" ref="#amp_person_1">Dear Wyston</rs>:
+                  <lb/>Dear <rs type="person" ref="#amp_person_1">Wyston</rs>:
                 </salute>
               </opener>
               <p>
-                <lb/><space quantity="5" unit="char"/>I<subst><del rend="erased" hand="#type_black_epstein"><gap reason="illegible" quantity="1" unit="char"></gap></del><add place="superimposed" hand="#type_black_epstein"><unclear>'</unclear></add></subst>ve just sent the Bonhoffer books I
+                <lb/><space quantity="5" unit="char"/>I<subst><del rend="erased" hand="#type_black_epstein"><gap reason="illegible" quantity="1" unit="char"></gap></del><add place="superimposed" hand="#type_black_epstein"><unclear>'</unclear></add></subst>ve just sent the <rs type="person" ref="#amp_person_556">Bonhoffer</rs> books I
                 <lb/>told you about.<space quantity="2" unit="char"/>The personal one especially
                 <lb/>looks awfully interesting.<space quantity="2" unit="char"/>But anything from
                 <lb/>you on this would be great.
               </p>
               <p>
-                <lb/><space quantity="5" unit="char"/>I trust all is well.<space quantity="2" unit="char"/>Love to Chester.
+                <lb/><space quantity="5" unit="char"/>I trust all is well.<space quantity="2" unit="char"/>Love to <rs type="person" ref="#amp_person_4">Chester</rs>.
               </p>
               <closer>
                 <salute>
                   <lb/><space quantity="25" unit="char"/>As ever,
                 </salute>
                 <signed hand="#hand_gray_epstein">
-                  <lb/>Barbara
+                  <lb/><rs type="person" ref="#amp_person_555">Barbara</rs>
                 </signed>
                 <signed>
-                  <lb/><space quantity="25" unit="char"/><rs type="person" ref="#amp_person_554">Barbara Epstein</rs>
+                  <lb/><space quantity="25" unit="char"/><rs type="person" ref="#amp_person_555">Barbara Epstein</rs>
                 </signed>
               </closer>
               <postscript>
