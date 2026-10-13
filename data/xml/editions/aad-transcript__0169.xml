@@ -174,9 +174,9 @@
                   <placeName>
                     <address>
                       <lb/><rs type="place" ref="#amp_place_id_2">Kirchstetten (<foreign xml:lang="de">Westbahn</foreign>)
-                      <lb/>Hinterholz 6</rs> 
+                      <lb/>Hinterholz 6 
                       <lb/><rs type="place" ref="#amp_place_id_6"><foreign xml:lang="de">N-<unclear>Ö</unclear></foreign></rs>
-                      <lb/><rs type="place" ref="#amp_place_id_10">Austria</rs>
+                      <lb/><rs type="place" ref="#amp_place_id_10">Austria</rs></rs>
                     </address>
                   </placeName>
                 </seg>
