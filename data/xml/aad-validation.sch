@@ -25,7 +25,7 @@
             <sch:assert test="@ident">
                 language must carry ident attribute
             </sch:assert>
-            <sch:assert test="@ident = ('de', 'en', 'no', 'sv', 'is', 'fr', 'it', 'hu', 'ru', 'el', 'la')">
+            <sch:assert test="@ident = ('de', 'en', 'no', 'sv', 'is', 'fr', 'it', 'hu', 'ru', 'el', 'la', 'cy')">
                 ident attribute must have a permitted value; found: '<sch:value-of select="@ident"/>'
             </sch:assert>
         </sch:rule>
