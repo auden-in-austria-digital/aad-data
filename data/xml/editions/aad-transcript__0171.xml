@@ -152,7 +152,7 @@
               <opener>
                 <dateline>  
                   <date>
-                    <lb/><space quantity="26" unit="char"/>April 24, l970
+                    <lb/><space quantity="32" unit="char"/>April 24, l970
                   </date>
                 </dateline>
                 <salute>
@@ -160,14 +160,14 @@
                 </salute>
               </opener>
               <p>
-                <lb/>Aside from a Baba who got lost singing the breakfast
+                <lb/><space quantity="3" unit="char"/>Aside from a Baba who got lost singing the breakfast
                 <lb/>chatter scene and who had trouble projecting her voice
                 <lb/>over the orchestry, the Julliard "Rake" was a smooth,
-                <lb/>articulated production. Shadow, in particular, was
+                <lb/>articulated production.<space quantity="2" unit="char"/>Shadow, in particular, was
                 <lb/>excellent (one really could follow his argument for
-                <lb/>the marriage). My major complaint was about the sets,
+                <lb/>the marriage).<space quantity="2" unit="char"/>My major complaint was about the sets,
                 <lb/>which were based on a raised platform, looking rather
-                <lb/>like a boxing ring, surrounded by empty stage. Blown-
+                <lb/>like a boxing ring, surrounded by empty stage.<space quantity="2" unit="char"/>Blown-
                 <lb/>up details of the Hogarths engravings, mounted on
                 <lb/>revolving poles, were used to suggest the period.
                 <lb/>The direction was for the most part efficient and 
@@ -176,33 +176,33 @@
                 <lb/>around Tom and Mother Goose as they fucked ona table.
                 <lb/>There were other lapses: Baba forgot or was not dir-
                 <lb/>ected to remove her beard when she appeared in the epi-
-                <lb/>logue. Even so, I was highly enterained by the pro-
+                <lb/>logue.<space quantity="2" unit="char"/>Even so, I was highly enterained by the pro-
                 <lb/>duction and I am very grateful for your kindness in
                 <lb/>providing tickets.
               </p>
               <p>
-                <lb/>I must tell you that, among the highly distinguished
+                <lb/><space quantity="2" unit="char"/>I must tell you that, among the highly distinguished
                 <lb/>audience--including John D. Rockefeller III--an ele-
                 <lb/>gant gentlement of a certain age was observed wearing
                 <lb/>house slippers exactly the same style as yours.
               </p>
               <p>
-                <lb/>Some good news: my mother is getting married
-                <lb/>May 24 to a man of 60 named Mr. Cole. I've been
-                <lb/>invited to "give the bride away." Also, I've
+                <lb/><space quantity="3" unit="char"/>Some good news: my mother is getting married
+                <lb/>May 24 to a man of 60 named Mr. Cole.<space quantity="2" unit="char"/>I've been
+                <lb/>invited to "give the bride away."<space quantity="2" unit="char"/>Also, I've
                 <lb/>unexpectedly been given a raise of $ll00, bringing
                 <lb/>my annual salary to a comfortable $l3,000.
               </p>
               <p>
-                <lb/>Many thanks for your postcard from Jerusaleum. I
+                <lb/><space quantity="3" unit="char"/>Many thanks for your postcard from Jerusaleum. I
                 <lb/>was very pleased with Chester's note.
               </p>
               <closer>
                 <salute>
-                  <lb/><space quantity="25" unit="char"/>Regards to Chester.
+                  <lb/><space quantity="3" unit="char"/>Regards to Chester.
                 </salute>
                 <salute>
-                  <lb/>Love, always
+                  <lb/><space quantity="22" unit="char"/>Love, always
                 </salute>
                 <signed hand="#hand_black_fox">
                   <lb/><rs type="person" ref="#amp_person_555">Orlan</rs>
