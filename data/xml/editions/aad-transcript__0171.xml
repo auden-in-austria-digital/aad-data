@@ -30,7 +30,17 @@
         <edition>
           <title level="a">Typed Letter Signed Orlan Fox to W. H. Auden 1970-04-24</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_145">
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+            <interp xml:id="ana_146">
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+            <interp xml:id="ana_147">
               <desc/>
               <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -89,17 +99,17 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote xml:id="hand_black_fox" scribeRef="#amp_person_xx" medium="ink-black">Handwriting in black ink by Orlan Fox</handNote>
+                  <handNote xml:id="hand_black_fox" scribeRef="#amp_person_558" medium="ink-black">Handwriting in black ink by Orlan Fox</handNote>
                   <handNote xml:id="hand_blue_unident_0171" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote xml:id="type_black_fox" scribeRef="#amp_person_xx" medium="type">Typewriting in black ink by Orlan Fox</typeNote>
+                  <typeNote xml:id="type_black_fox" scribeRef="#amp_person_558" medium="type">Typewriting in black ink by Orlan Fox</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
                 <origin>
                   <origDate notBefore-iso="1970-04-24T00:00:00-05:00" notAfter-iso="1970-04-24T23:59:59-05:00"/>
-                  <origPlace ref="https://d-nb.info/gnd/4042011-5">New York City</origPlace>
+                  <origPlace ref="https://d-nb.info/gnd/4042011-5"><rs ana="#ana_145">New York City</rs></origPlace>
                 </origin>
               </history>
             </msDesc>
@@ -162,13 +172,13 @@
               <p>
                 <lb/><space quantity="3" unit="char"/>Aside from a <subst><del rend="overtyped" hand="#type_black_fox">b</del><add place="superimposed" hand="#type_black_fox">B</add></subst>aba who got lost singing the breakfast
                 <lb/>chatter scene and who had trouble projecting her voic<subst><del rend="overtyped" hand="#type_black_fox">3</del><add place="superimposed" hand="#type_black_fox"><unclear>e</unclear></add></subst>
-                <lb/>over the orchestra, the Julliard "Rake" was a smooth,
-                <lb/>articulated production.<space quantity="2" unit="char"/>Shadow, in particular, was
+                <lb/>over the orchestra, the <rs type="org" ref="#amp_organization_365">Julliard</rs> <rs type="lit_work" ref="#lit_work_id_3">"Rake"</rs> was a smooth,
+                <lb/>articulated <rs ana="#ana_146">production</rs>.<space quantity="2" unit="char"/>Shadow, in particular, was
                 <lb/>excellent (one really could follow his argument for
                 <lb/>the marriage).<space quantity="2" unit="char"/>My major complaint was about the sets,
-                <lb/>which were based on a <del rend="overtyped" hand="#type_black_fox">raised </del>platform, looking rather
+                <lb/>which were based on a <del rend="overtyped" hand="#type_black_fox">raised<space quantity="1" unit="char"/></del>platform, looking rather
                 <lb/>like a boxing ring, surrounded by empty stage.<space quantity="2" unit="char"/>Blown-
-                <lb/>up details of the Hogarth<del rend="overtyped" hand="#type_black_fox">s</del> engravings, mounted on
+                <lb/>up details of the <rs type="person" ref="#amp_person_559">Hogarth</rs><del rend="overtyped" hand="#type_black_fox">s</del> engravings, mounted on
                 <lb/>revolving poles, were used to suggest the period.
                 <lb/>The direction was for the most part efficient and 
                 <lb/>inventive, sometimes over-inventive: whores and roaring
@@ -182,7 +192,7 @@
               </p>
               <p>
                 <lb/><space quantity="2" unit="char"/>I must tell you that, among the highly distin<subst><del rend="overtyped" hand="#type_black_fox">q</del><add place="superimposed" hand="#type_black_fox">g</add></subst>uished
-                <lb/>audience--including John D. Rockefeller III--an ele-
+                <lb/>audience--including <rs type="person" ref="#amp_person_560">John D. Rockefeller III</rs>--an ele-
                 <lb/>gant gentlement of a certain age was observed wearing
                 <lb/>house slippers exactly th<subst><del rend="overtyped" hand="#type_black_fox">3</del><add place="superimposed" hand="#type_black_fox">e</add></subst> same style as yours.
               </p>
@@ -194,18 +204,18 @@
                 <lb/>my annual salary to a comfortable $l3,000.
               </p>
               <p>
-                <lb/><space quantity="3" unit="char"/>Many thanks for your postcard from Jerus<subst><del rend="overwritten" hand="#hand_black_fox">e</del><add place="superimposed" hand="#hand_black_fox">a</add></subst>le<del rend="metamark" hand="#hand_black_fox">u</del>m. I
-                <lb/>was very pleased with Chester's note.
+                <lb/><space quantity="3" unit="char"/>Many thanks for your postcard from <rs ana="#ana_147"><rs type="place" ref="#amp_place_id_359">Jerus<subst><del rend="overwritten" hand="#hand_black_fox">e</del><add place="superimposed" hand="#hand_black_fox">a</add></subst>le<del rend="metamark" hand="#hand_black_fox">u</del>m</rs></rs>. I
+                <lb/>was very pleased with <rs type="person" ref="#amp_person_4">Chester</rs>'s note.
               </p>
               <closer>
                 <salute>
-                  <lb/><space quantity="3" unit="char"/>Regards to Chester.
+                  <lb/><space quantity="3" unit="char"/>Regards to <rs type="person" ref="#amp_person_4">Chester</rs>.
                 </salute>
                 <salute>
                   <lb/><space quantity="22" unit="char"/>Love, always
                 </salute>
                 <signed hand="#hand_black_fox">
-                  <lb/><rs type="person" ref="#amp_person_555">Orlan</rs>
+                  <lb/><rs type="person" ref="#amp_person_558">Orlan</rs>
                 </signed>
               </closer>
             </div>
