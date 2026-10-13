@@ -89,7 +89,7 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote xml:id="hand_blue_kelly" scribeRef="#amp_person_xx" medium="ink-blue">Handwriting in blue ink by Bryan Kelly</handNote>
+                  <handNote xml:id="hand_blue_kelly" scribeRef="#amp_person_557" medium="ink-blue">Handwriting in blue ink by Bryan Kelly</handNote>
                   <handNote xml:id="hand_blue_unident_0170" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
@@ -167,35 +167,35 @@
                 </salute>
                 </opener>
                 <p>
-                  <lb/>I have recently set your poem
-                  <lb/>'Shield of Achilles' for Tenor, timp and per<unclear>cus</unclear> and
-                  <lb/>String Orchestra. Novellos wish to publish this
-                  <lb/>and I belive they have contacted your agent
-                  <lb/>for permission to use the poem - I thought
+                  <lb/>I have recently <rs type="lit_work" ref="#lit_work_id_400">set <rs type="lit_work" ref="#lit_work_id_401">your poem
+                  <lb/>'Shield of Achilles'</rs> for Tenor, timp and per<unclear>cus</unclear> and
+                    <lb/>String Orchestra</rs>. <rs type="org" ref="#amp_organization_363">Novellos</rs> wish to publish this
+                  <lb/>and I belive they have contacted your <rs type="org" ref="#amp_organization_29">agent</rs>
+                  <lb/>for permission to use the <rs type="lit_work" ref="#lit_work_id_401">poem</rs> - I thought
                   <lb/>I should like to tell you about this though
                   <lb/>to have your blessing.
                 </p>
                 <p>
-                  <lb/>The 'Society for the
-                  <lb/>Promotion of New Music' want to give a first
+                  <lb/>The <rs type="org" ref="#amp_organization_364">'Society for the
+                  <lb/>Promotion of New Music'</rs> want to give a first
                   <lb/>performance but this has not been completely
                   <lb/>settled.
                 </p>
                 <p>
-                  <lb/>I am off to Malaysia on the 13th of
+                  <lb/>I am off to <rs type="place" ref="#amp_place_id_566">Malaysia</rs> on the 13th of
                   <lb/>July until 19th September listening to the
                   <lb/>natives playing the European Classics which
                   <lb/>should be fun.
                 </p>
                 <closer>
                   <salute>
-                    <lb/>Hope things are well with you both,
+                    <lb/>Hope things are well with you <rs type="person" ref="#amp_person_1"><rs type="person" ref="#amp_person_4">both</rs></rs>,
                   </salute>
                   <salute>
                     <lb/>Love,
                   </salute>
                   <signed>
-                    <lb/><rs type="person" ref="#amp_person_551">Bryan Kelly</rs>
+                    <lb/><rs type="person" ref="#amp_person_557">Bryan Kelly</rs>
                   </signed>
                 </closer>
               </div>
