@@ -119,6 +119,7 @@
     <profileDesc>
       <langUsage>
         <language ident="en"/>
+        <language ident="cy"/>
       </langUsage>
       <correspDesc>
         <correspAction type="sent">
@@ -151,7 +152,7 @@
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00507/" ed="1r" type="sheet"/>
             <div type="letter_message" hand="#type_black_else">
               <opener>
-                <seg hand="#print_saint_davids_university_college">
+                <seg hand="#print_saint_davids_university_college" xml:lang="cy">
                   <lb/><hi rend="underline" hand="#print_saint_davids_university_college"><rs type="org" ref="#amp_organization_361">Prifysgol Cymru</rs></hi>
                   <lb/><rs type="org" ref="#amp_organization_360">COLEG PRIFYSGOL DEWI SANT</rs>
                   <lb/><rs type="place" ref="#amp_place_id_561">LLANBEDR PONT STEFFAN</rs>
