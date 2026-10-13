@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0171" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Typed Letter Signed Orlan Fox to W. H. Auden 1970-04-24</title>
+        <author ref="https://d-nb.info">Fox, Orlan</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484">Hechtl, Angelika</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Typed Letter Signed Orlan Fox to W. H. Auden 1970-04-24</title>
+          <interpGrp>
+            <interp>
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+          <name sameAs="#ahechtl"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
+                <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
+                <collection>Documentation Center for Literature in Lower Austria</collection>
+                <idno>LS-Aud 2.22</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark/>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00515/">
+                        <width>147</width>
+                        <height>197</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00516/">
+                        <width>147</width>
+                        <height>197</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_black_fox" scribeRef="#amp_person_xx" medium="ink-black">Handwriting in black ink by Orlan Fox</handNote>
+                  <handNote xml:id="hand_blue_unident_0171" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="type_black_fox" scribeRef="#amp_person_xx" medium="type">Typewriting in black ink by Orlan Fox</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1970-04-24T00:00:00-05:00" notAfter-iso="1970-04-24T23:59:59-05:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4042011-5">New York City</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en"/>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1970-04-24T00:00:00-05:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#smayer" when-iso="2026-10-13">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-10-13">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-10-13">Text transcribed; hands, languages, correspondence container structure, entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="2812" lry="3594">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00515/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="2812" lry="3592">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00516/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0171" xml:lang="en">
+          <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00515/" ed="1r" type="sheet"/>
+            <div type="letter_message" hand="#type_black_fox">
+              <opener>
+                <dateline>  
+                  <date>
+                    <lb/><space quantity="26" unit="char"/>April 24, l970
+                  </date>
+                </dateline>
+                <salute>
+                  <lb/>Dear <rs type="person" ref="#amp_person_1">Wystan</rs>,
+                </salute>
+              </opener>
+              <p>
+                <lb/>Aside from a Baba who got lost singing the breakfast
+                <lb/>chatter scene and who had trouble projecting her voice
+                <lb/>over the orchestry, the Julliard "Rake" was a smooth,
+                <lb/>articulated production. Shadow, in particular, was
+                <lb/>excellent (one really could follow his argument for
+                <lb/>the marriage). My major complaint was about the sets,
+                <lb/>which were based on a raised platform, looking rather
+                <lb/>like a boxing ring, surrounded by empty stage. Blown-
+                <lb/>up details of the Hogarths engravings, mounted on
+                <lb/>revolving poles, were used to suggest the period.
+                <lb/>The direction was for the most part efficient and 
+                <lb/>inventive, sometimes over-inventive: whores and roaring
+                <lb/>boys were made to dance, or stomp, a sort of reel
+                <lb/>around Tom and Mother Goose as they fucked ona table.
+                <lb/>There were other lapses: Baba forgot or was not dir-
+                <lb/>ected to remove her beard when she appeared in the epi-
+                <lb/>logue. Even so, I was highly enterained by the pro-
+                <lb/>duction and I am very grateful for your kindness in
+                <lb/>providing tickets.
+              </p>
+              <p>
+                <lb/>I must tell you that, among the highly distinguished
+                <lb/>audience--including John D. Rockefeller III--an ele-
+                <lb/>gant gentlement of a certain age was observed wearing
+                <lb/>house slippers exactly the same style as yours.
+              </p>
+              <p>
+                <lb/>Some good news: my mother is getting married
+                <lb/>May 24 to a man of 60 named Mr. Cole. I've been
+                <lb/>invited to "give the bride away." Also, I've
+                <lb/>unexpectedly been given a raise of $ll00, bringing
+                <lb/>my annual salary to a comfortable $l3,000.
+              </p>
+              <p>
+                <lb/>Many thanks for your postcard from Jerusaleum. I
+                <lb/>was very pleased with Chester's note.
+              </p>
+              <closer>
+                <salute>
+                  <lb/><space quantity="25" unit="char"/>Regards to Chester.
+                </salute>
+                <salute>
+                  <lb/>Love, always
+                </salute>
+                <signed hand="#hand_black_fox">
+                  <lb/><rs type="person" ref="#amp_person_555">Orlan</rs>
+                </signed>
+              </closer>
+            </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00516/" ed="1v" type="sheet"/>
+            <div>
+              <ab hand="#hand_blue_unident_0171">
+                <lb/>25
+              </ab>
+            </div>
+          </div>
+      </div>
+    </body>
+  </text>
+</TEI>
