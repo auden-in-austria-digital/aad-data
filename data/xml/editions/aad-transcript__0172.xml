@@ -67,6 +67,7 @@
           <witness n="1">
             <msDesc>
               <msIdentifier>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
                 <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
                 <collection>Documentation Center for Literature in Lower Austria</collection>
                 <idno>LS-Aud 2.24</idno>
@@ -75,7 +76,7 @@
                 <objectDesc>
                   <supportDesc>
                     <support>
-                      <watermark/>
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00517/ https://iiif.acdh.oeaw.ac.at/aad/aad_00518/">Croxley Script</watermark>
                       <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00517/">
                         <width>210</width>
                         <height>297</height>
@@ -88,10 +89,12 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote/>
+                  <handNote xml:id="hand_black_gardner" scribeRef="#amp_person_xx" medium="ink-black">Handwriting in black ink by John Gardner</handNote>
+                  <handNote xml:id="hand_blue_unident_0172" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="type_black_gardner" scribeRef="#amp_person_xx" medium="type">Typewriting in black ink by John Gardner</typeNote>
+                  <typeNote xml:id="print_gardner" scribeRef="#amp_person_xx" medium="print">Preprinted writing authored by John Gardner</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -115,11 +118,23 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="en"/>
+        <language ident="fr"/>
       </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1973-09-22T00:00:00+00:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
+        </correspAction>
+      </correspDesc>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2026-10-13">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-10-13">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-10-14">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-10-14">Text transcribed; hands, languages, correspondence container structure, entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -132,10 +147,82 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0172" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0172" xml:lang="en">
+          <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00517/" ed="1r" type="sheet"/>
+            <div type="letter_message" hand="#type_black_gardner">
+              <opener>
+                <seg hand="#print_gardner">
+                  <placeName>
+                    <lb/>10 LYNTON ROAD
+                    <lb/><rs type="place" ref="#amp_place_id_28">NEW MALDEN</rs>
+                    <lb/>SURREY
+                    <lb/>KT3 5EE
+                  </placeName>
+                    <lb/>01-942 7322
+                </seg>
+                <dateline>  
+                  <date>
+                    <lb/><space quantity="26" unit="char"/>22-ix-73
+                  </date>
+                </dateline>
+                <salute>
+                  <lb/>Dear <rs type="person" ref="#amp_person_1">Mr Auden</rs>,
+                </salute>
+              </opener>
+              <p>
+                <lb/><space quantity="6" unit="char"/>Splendid news about the Anti-Masque, and I thoroughly
+                <lb/>approve of your idea to insert it in the Masque, where an
+                <lb/>Anti-Masque should properly be.
+              </p>
+              <p>
+                <lb/><space quantity="6" unit="char"/>I note you'll be back on 4 October, and have apprised
+                <lb/>the producer David William of the fact, so that you, he and
+                <lb/>I may have an early meeting; possibly also with the conduct-
+                <lb/>or John Eliot Gardiner, son of Rolf, whom you must have known
+                <lb/>(and probably disapproved of) in the thirties.<space quantity="2" unit="char"/>Now dead, of
+                <lb/>course; dramatically and unexpectedly, of a pulmonary throm-
+                <lb/>bosis, a couple of years or so ago.
+              </p>
+              <p>
+                <lb/><space quantity="6" unit="char"/>My opera for children "Bel and the Dargon" is complete
+                <lb/>in vocal score; I still have to finish the full score, but
+                <lb/>expect that to take me about to the date of your return, af-
+                <lb/>ter which it will be all hands to work on Cupid.
+              </p>
+              <p>
+                <lb/><space quantity="6" unit="char"/>I have to be in Oxford on 4 November, when I direcy a
+                <lb/>performance at the Sheldonian of my Seven Songs, as the fin-
+                <lb/>ale of a concert which celebrates fifty years of O.U.P. Music
+                <lb/>Publishing. It would be nice if you would come to that.<space quantity="2" unit="char"/>Fur-
+                <lb/>thermore I shall be hanging around Oxford from Friday afternnoon
+                <lb/>through Sunday and could confer with you perhaps during that
+                <lb/>time.<space quantity="2" unit="char"/>I should have written something by then.
+              </p>
+              <p>
+                <lb/><space quantity="6" unit="char"/>The Arts Council treated me similarly to you.<space quantity="2" unit="char"/>But this
+                <lb/>of course is a mere 'douceur'; it has nothing to do with
+                <lb/>perfroming rights, royalites or any aggreement you care to
+                <lb/>make with my publishers or me with your agents.<space quantity="2" unit="char"/>It doesn't
+                <lb/>even have to be treated as taxable income (I have a letter
+                <lb/>from the A.C. to this effect!I.
+              </p>
+              <closer>
+                <salute>
+                  <lb/><space quantity="22" unit="char"/>Yours sincerely,
+                </salute>
+                <signed hand="#hand_black_gardner">
+                  <lb/><rs type="person" ref="#amp_person_555">John Gardner</rs>
+                </signed>
+              </closer>
+             </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00518/" ed="1v" type="sheet"/>
+            <div>
+              <ab hand="#hand_blue_unident_0172">
+                <lb/>68
+              </ab>
+            </div>
+          </div>
       </div>
     </body>
   </text>
