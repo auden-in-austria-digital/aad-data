@@ -220,7 +220,7 @@
               <lb/><rs type="place" ref="#amp_place_id_1">Wien</rs> zu kommen.
             </p>
             <p>
-              <lb/>Also, komme Montag<unclear>.</unclear>.
+              <lb/>Also, <rs type="event" ref="#amp_event_id_308">komme Montag</rs><unclear>.</unclear>.
             </p>
             <closer>
               <salute>

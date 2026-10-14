@@ -209,7 +209,7 @@
               </salute>
             </opener>
             <p>
-              <lb/>Komme Freitag
+              <lb/><rs type="event" ref="#amp_event_id_309">Komme Freitag</rs>
             </p>
             <closer>
               <salute>
