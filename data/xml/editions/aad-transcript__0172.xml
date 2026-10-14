@@ -30,7 +30,7 @@
         <edition>
           <title level="a">Typed Letter Signed John Gardner to W. H. Auden 1973-09-22</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_148">
               <desc/>
               <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -89,11 +89,11 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote xml:id="hand_black_gardner" scribeRef="#amp_person_xx" medium="ink-black">Handwriting in black ink by John Gardner</handNote>
+                  <handNote xml:id="hand_black_gardner" scribeRef="#amp_person_561" medium="ink-black">Handwriting in black ink by John Gardner</handNote>
                   <handNote xml:id="hand_blue_unident_0172" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote xml:id="type_black_gardner" scribeRef="#amp_person_xx" medium="type">Typewriting in black ink by John Gardner</typeNote>
+                  <typeNote xml:id="type_black_gardner" scribeRef="#amp_person_561" medium="type">Typewriting in black ink by John Gardner</typeNote>
                   <typeNote xml:id="print_gardner" scribeRef="#amp_person_xx" medium="print">Preprinted writing authored by John Gardner</typeNote>
                 </typeDesc>
               </physDesc>
@@ -154,10 +154,12 @@
               <opener>
                 <seg hand="#print_gardner">
                   <placeName>
-                    <lb/>10 LYNTON ROAD
-                    <lb/><rs type="place" ref="#amp_place_id_28">NEW MALDEN</rs>
-                    <lb/>SURREY
-                    <lb/>KT3 5EE
+                    <address>
+                      <lb/><rs type="place" ref="#amp_place_id_567">10 LYNTON ROAD
+                      <lb/>NEW MALDEN
+                      <lb/>SURREY
+                      <lb/>KT3 5EE</rs>
+                    </address>
                   </placeName>
                     <lb/>01-942 7322
                 </seg>
@@ -171,48 +173,48 @@
                 </salute>
               </opener>
               <p>
-                <lb/><space quantity="6" unit="char"/>Splendid news about the Anti-Masque, and I thoroughly
-                <lb/>approve of your idea to insert it in the Masque, where an
+                <lb/><space quantity="6" unit="char"/>Splendid news about the <rs type="lit_work" ref="#lit_work_id_403">Anti-Masque</rs>, and I thoroughly
+                <lb/>approve of your idea to insert it in the <rs type="lit_work" ref="#lit_work_id_404">Masque</rs>, where an
                 <lb/>Anti-Masque should properly be.
               </p>
               <p>
                 <lb/><space quantity="6" unit="char"/>I note you'll be back on 4 October, and have apprised
-                <lb/>the producer David William of the fact, so that you, he and
+                <lb/>the <rs ana="#ana_148">producer David William of the fact, so that you, he and
                 <lb/>I may have an early meeting; possibly also with the conduct-
-                <lb/>or John Eliot Gardiner, son of Rolf, whom you must have known
+                <lb/>or <rs type="person" ref="#amp_person_563">John Eliot Gardiner</rs></rs>, son of <rs type="person" ref="#amp_person_564">Rolf</rs>, whom you must have known
                 <lb/>(and p<subst><del rend="overtyped" hand="#type_black_gardner">o</del><add place="superimposed" hand="#type_black_gardner">r</add></subst>obably disapproved of) in the thirties.<space quantity="2" unit="char"/>Now dead, of
                 <lb/>course; dramatically and unexpectedly, of a pulmonary throm-
                 <lb/>bosis, a couple of years or so ago.
               </p>
               <p>
-                <lb/><space quantity="6" unit="char"/>My opera for children "Bel and the D<subst><del rend="overwritten" hand="#hand_black_gardner">ar</del><add place="superimposed" hand="#hand_black_gardner">r<unclear>a</unclear></add></subst>gon" is complete
+                <lb/><space quantity="6" unit="char"/>My opera for children <rs type="lit_work" ref="#lit_work_id_405">"Bel and the D<subst><del rend="overwritten" hand="#hand_black_gardner">ar</del><add place="superimposed" hand="#hand_black_gardner">r<unclear>a</unclear></add></subst>gon"</rs> is complete
                 <lb/>in vocal score; I still have to finish the full score, but
                 <lb/>expect that to take me about to the date of your return, af-
                 <lb/>ter which it will be all hands to work on <add hand="#hand_black_gardner" place="above">your</add> Cupid.
               </p>
               <p>
-                <lb/><space quantity="6" unit="char"/>I have to be in Oxford on 4 November, when I direc<subst><del rend="overwritten" hand="#hand_black_gardner">y</del><add place="superimposed" hand="#hand_black_gardner">t</add></subst> a
-                <lb/>performance at the Sheldonian of my Seven Songs, as the fin-
-                <lb/>ale of a concert which celebrates fifty years of O.U.P. Music
+                <lb/><space quantity="6" unit="char"/>I have to be in <rs type="place" ref="#amp_place_id_46">Oxford</rs> on 4 November, when I direc<subst><del rend="overwritten" hand="#hand_black_gardner">y</del><add place="superimposed" hand="#hand_black_gardner">t</add></subst> a
+                <lb/>performance at the <rs type="place" ref="#amp_place_id_569">Sheldonian</rs> of my <rs type="lit_work" ref="#lit_work_id_406">Seven Songs</rs>, as the fin-
+                <lb/>ale of a concert which celebrates fifty years of <rs type="org" ref="#amp_organization_69">O.U.P.</rs> Music
                 <lb/>Publishing.<space quantity="2" unit="char"/>It would be nice if you would come to that.<space quantity="2" unit="char"/>Fur-
                 <lb/>thermore I shall be hanging around Oxford from Friday aftern<subst><del rend="overtyped" hand="#type_black_gardner">n</del><add place="superimposed" hand="#type_black_gardner">o</add></subst><add hand="#hand_black_gardner" place="inline">on</add>
                 <lb/>through Sunday and could confer with you perhaps during that
                 <lb/>time.<space quantity="2" unit="char"/>I should have written something by then.
               </p>
               <p>
-                <lb/><space quantity="6" unit="char"/>The Arts Council tr<subst><del rend="overtyped" hand="#type_black_gardner">w</del><add place="superimposed" hand="#type_black_gardner">e</add></subst>ated me similarly to you.<space quantity="2" unit="char"/>But this
+                <lb/><space quantity="6" unit="char"/>The <rs type="org" ref="#amp_organization_366">Arts Council</rs> tr<subst><del rend="overtyped" hand="#type_black_gardner">w</del><add place="superimposed" hand="#type_black_gardner">e</add></subst>ated me similarly to you.<space quantity="2" unit="char"/>But this
                 <lb/>of course is a mere 'douceur'; it has nothing to do with
                 <lb/>perf<subst><del rend="overwritten" hand="#hand_black_gardner">ro</del><add place="superimposed" hand="#hand_black_gardner">or</add></subst>ming rights, royalites or any ag<del rend="overstrike" hand="#hand_black_gardner">g</del>reement you care to
-                <lb/>make with my publishers or me with your agents.<space quantity="2" unit="char"/>It doesn't
+                <lb/>make with my <rs type="org" ref="#amp_organization_69">publishers</rs> or me with your <rs type="org" ref="#amp_organization_29">agents</rs>.<space quantity="2" unit="char"/>It doesn't
                 <lb/>even have to be treated as taxable income (I have a letter
-                <lb/>from the A.C. to this effect!<subst><del rend="overtyped" hand="#type_black_gardner">I</del><add place="superimposed" hand="#type_black_gardner">)</add></subst>.
+                <lb/>from the <rs type="org" ref="#amp_organization_366">A.C.</rs> to this effect!<subst><del rend="overtyped" hand="#type_black_gardner">I</del><add place="superimposed" hand="#type_black_gardner">)</add></subst>.
               </p>
               <closer>
                 <salute>
                   <lb/><space quantity="22" unit="char"/>Yours sincerely,
                 </salute>
                 <signed hand="#hand_black_gardner">
-                  <lb/><rs type="person" ref="#amp_person_xx">John Gardner</rs>
+                  <lb/><rs type="person" ref="#amp_person_561">John Gardner</rs>
                 </signed>
               </closer>
              </div>
