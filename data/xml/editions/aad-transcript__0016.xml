@@ -209,9 +209,9 @@
               <lb/>untergebrochen.
             </p>
             <p>
-              <lb/>Beste<unclear>n</unclear> Dank fur den Karte. Hoffentlich
+              <lb/>Beste<unclear>n</unclear> Dank fur den <rs type="event" ref="#amp_event_id_304">Karte</rs>. <rs type="event" ref="#amp_event_id_305">Hoffentlich
               <lb/>war das Wetter besser in <rs type="place" ref="#amp_place_id_159">Italien</rs> als
-              <lb/>hier.
+              <lb/>hier.</rs>
             </p>
             <p>
               <lb/><del rend="overstrike" hand="#hand_blue_auden"><unclear>Wi</unclear></del> <rs type="person" ana="#ana_055">Gäste</rs> sind gekommen und ich
