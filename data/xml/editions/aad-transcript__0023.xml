@@ -216,12 +216,12 @@
               </salute>
             </opener>
             <p>
-              <lb/>Dein Telegram <unclear>a</unclear>n diesem Moment
+              <lb/><rs type="event" ref="#amp_event_id_312">Dein Telegram</rs> <unclear>a</unclear>n diesem Moment
               <lb/>erhalten.
             </p>
             <p>
               <lb/>Hoffentlich hast Du <subst><del rend="overstrike" hand="#hand_blue_auden">nicht</del><add place="above" hand="#hand_blue_auden">ke<unclear>i</unclear>n</add></subst> Schme<unclear>r</unclear>z.
-              <lb/>Also, komme Montag. 19&#xB7;30
+              <lb/>Also, <rs type="event" ref="#amp_event_id_313">komme Montag. 19&#xB7;30</rs>
             </p>
             <closer>
               <salute>
