@@ -155,6 +155,7 @@
                   <lb/>Barn Cottage,
                   <lb/>Boars Hill,
                   <lb/><hi rend="underline" hand="#hand_blue_kelly"><rs type="place" ref="#amp_place_id_46">Oxford</rs>.</hi> 
+                  <lb/>
                 </placeName>
                 </seg>
                 <dateline>  
@@ -167,9 +168,9 @@
                 </salute>
                 </opener>
                 <p>
-                  <lb/>I have recently <rs type="lit_work" ref="#lit_work_id_400">set <rs type="lit_work" ref="#lit_work_id_401">your poem
-                  <lb/>'Shield of Achilles'</rs> for Tenor, timp and per<unclear>cus</unclear> and
-                    <lb/>String Orchestra</rs>. <rs type="org" ref="#amp_organization_363">Novellos</rs> wish to publish this
+                  <lb/>I have recently <rs type="lit_work" ref="#lit_work_id_400">set your poem
+                  <lb/><rs type="lit_work" ref="#lit_work_id_401">'Shield of Achilles'</rs> for Tenor, timp and per<unclear>cus</unclear> and
+                  <lb/>String Orchestra</rs>. <rs type="org" ref="#amp_organization_363">Novellos</rs> wish to publish this
                   <lb/>and I belive they have contacted your <rs type="org" ref="#amp_organization_29">agent</rs>
                   <lb/>for permission to use the <rs type="lit_work" ref="#lit_work_id_401">poem</rs> - I thought
                   <lb/>I should like to tell you about this though
