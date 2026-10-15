@@ -175,7 +175,7 @@
                 <lb/><space quantity="7" unit="char"/>Thank you for your letter of 16 July.
               </p>
               <p>
-                <lb/><space quantity="7" unit="char"/>About length of the <rs type="lit_work" ref="#lit_work_id_407">anti-masque</rs> for <hi rend="underline" hand="#type_black_gardner"><rs type="lit_work" ref="#lit_work_id_404">Cupid and Death</rs></hi>.<space quantity="2" unit="char"/>I'd
+                <lb/><space quantity="7" unit="char"/>About length of the <rs ana="acdh:aad-transcript__0172.xml#ana_148"><rs type="lit_work" ref="#lit_work_id_407">anti-masque</rs> for <hi rend="underline" hand="#type_black_gardner"><rs type="lit_work" ref="#lit_work_id_404">Cupid and Death</rs></hi></rs>.<space quantity="2" unit="char"/>I'd
                 <lb/>have thought about twenty minutes (I've not been given a precise
                 <lb/>brief).<space quantity="2" unit="char"/>Certainly not longer than half-an-hour.<space quantity="2" unit="char"/>I'm really
                 <lb/>very hazy about what's wanted<subst><del rend="overtyped" hand="#type_black_gardner">.</del><add place="superimposed" hand="#type_black_gardner">,</add></subst> partly, I think<subst><del rend="overtyped" hand="#type_black_gardner">.</del><add place="superimposed" hand="#type_black_gardner">,</add></subst> because noone
@@ -189,7 +189,7 @@
                 <lb/>seek to entertain - myself first, but one or two others are
                 <lb/>so<subst><del rend="overtyped" hand="#type_black_gardner">ke</del><add place="superimposed" hand="#type_black_gardner">m</add></subst><subst><del rend="overtyped" hand="#type_black_gardner">tk</del><add place="superimposed" hand="#type_black_gardner">et</add></subst>imes appreciative.<space quantity="2" unit="char"/>I have no ideas, really, on how the
                 <lb/>task should be done, except that I'm sure you and <rs type="person" ref="#amp_person_4">Mr Kallman</rs>
-                <lb/>will do a super job.
+                <lb/>will do a <rs type="lit_work" ref="#lit_work_id_181">super job</rs>.
               </p>
               <closer>
                 <salute>
