@@ -175,19 +175,19 @@
                 <lb/><space quantity="7" unit="char"/>Thank you for your letter of 16 July.
               </p>
               <p>
-                <lb/><space quantity="7" unit="char"/>About length of the anti-masque for Cupid and Death.<space quantity="2" unit="char"/>I'd
+                <lb/><space quantity="7" unit="char"/>About length of the anti-masque for <hi rend="underline" hand="#type_black_gardner">Cupid and Death</hi>.<space quantity="2" unit="char"/>I'd
                 <lb/>have thought about twenty minutes (I've not been given a precise
                 <lb/>brief).<space quantity="2" unit="char"/>Certainly not longer than half-an-hour.<space quantity="2" unit="char"/>I'm really
-                <lb/>very hazy about what's watned, partly, I think, because noone
-                <lb/>seems to know Cupid and Death very well and those who do say the
-                <lb/>music is marvellous but the story and staging without interest (which is
+                <lb/>very hazy about what's wanted<subst><del rend="overtyped" hand="#type_black_gardner">.</del><add place="superimposed" hand="#type_black_gardner">,</add></subst> partly, I think<subst><del rend="overtyped" hand="#type_black_gardner">.</del><add place="superimposed" hand="#type_black_gardner">,</add></subst> because noone
+                <lb/>seems to know <hi rend="underline" hand="#type_black_gardner">Cupid and Death</hi> very well and those who do say the
+                <lb/>music is marvellous but the<add hand="#hand_black_gardner" place="above">story and</add> staging without interest (which is
                 <lb/>a very bad way to plan to put on a dramatic spectacle).<space quantity="2" unit="char"/>Obvi-
-                <lb/>ously our contribution must have some relevance both to C. and
-                <lb/>D. and to our own century.<space quantity="2" unit="char"/>The forces involved should be iden-
+                <lb/>ously our contribution must have some relevance both to <hi rend="underline" hand="#type_black_gardner">C. and
+                  <lb/>D</hi>. and to our own c<subst><del rend="overtyped" hand="#type_black_gardner">w</del><add place="superimposed" hand="#type_black_gardner">e</add></subst>ntury.<space quantity="2" unit="char"/>The forces involved should be iden-
                 <lb/>tical<space quantity="2" unit="char"/>(i.e. SATB soloists, chorus and an orchestra of strings
-                <lb/>and harpsichord).<space quantity="2" unit="char"/>I am a very light composer these days and 
+                <lb/>and harpsichord).<space quantity="2" unit="char"/>I am a very light co<subst><del rend="overtyped" hand="#type_black_gardner">k</del><add place="superimposed" hand="#type_black_gardner">m</add></subst>poser<add place="above" hand="#type_black_gardner">*<space quantity="1" unit="char"/></add>these days and 
                 <lb/>seek to entertain - myself first, but one or two others are
-                <lb/>sometimes appreciative.<space quantity="2" unit="char"/>I have no ideas, really, on how the
+                <lb/>so<subst><del rend="overtyped" hand="#type_black_gardner">ke</del><add place="superimposed" hand="#type_black_gardner">m</add></subst><subst><del rend="overtyped" hand="#type_black_gardner">tk</del><add place="superimposed" hand="#type_black_gardner">et</add></subst>imes appreciative.<space quantity="2" unit="char"/>I have no ideas, really, on how the
                 <lb/>task should be done, except that I'm sure you and Mr Kallman
                 <lb/>will do a super job.
               </p>
@@ -199,6 +199,12 @@
                   <lb/><rs type="person" ref="#amp_person_561">John Gardner</rs>
                 </signed>
               </closer>
+              <postscript>
+                <p>
+                  <lb/>*<space quantity="2" unit="char"/>But please don't hesitate to be serious, if you feel like
+                  <lb/>it.<space quantity="2" unit="char"/>I am not incapable of rising to such an occasion.
+                </p>
+              </postscript>
              </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00520/" ed="1v" type="sheet"/>
             <div>
