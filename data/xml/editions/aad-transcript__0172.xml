@@ -190,7 +190,7 @@
                 <lb/><space quantity="6" unit="char"/>My opera for children <rs type="lit_work" ref="#lit_work_id_405">"Bel and the D<subst><del rend="overwritten" hand="#hand_black_gardner">ar</del><add place="superimposed" hand="#hand_black_gardner">r<unclear>a</unclear></add></subst>gon"</rs> is complete
                 <lb/>in vocal score; I still have to finish the full score, but
                 <lb/>expect that to take me about to the date of your return, af-
-                <lb/>ter which it will be all hands to work on<add hand="#hand_black_gardner" place="above">your</add> Cupid.
+                <lb/>ter which it will be all hands to work on<rs type="lit_work" ref="#lit_work_id_181"><add hand="#hand_black_gardner" place="above">your</add> Cupid</rs>.
               </p>
               <p>
                 <lb/><space quantity="6" unit="char"/>I have to be in <rs type="place" ref="#amp_place_id_46">Oxford</rs> on 4 November, when I direc<subst><del rend="overwritten" hand="#hand_black_gardner">y</del><add place="superimposed" hand="#hand_black_gardner">t</add></subst> a
