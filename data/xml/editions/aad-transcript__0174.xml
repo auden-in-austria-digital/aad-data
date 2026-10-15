@@ -89,7 +89,7 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote xml:id="hand_black_gill" scribeRef="#amp_person_xx" medium="ink-black">Handwriting in black ink by Theodore A. Gill</handNote>
+                  <handNote xml:id="hand_black_gill" scribeRef="#amp_person_597" medium="ink-black">Handwriting in black ink by Theodore A. Gill</handNote>
                   <handNote xml:id="hand_blue_unident_0174" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
@@ -162,14 +162,14 @@
               <p>
                 <lb/>Back from our Spring
                 <lb/>break (spent mine lecturing
-                <lb/>at Stanford)<unclear>,</unclear> and eager to
+                <lb/>at <rs type="org" ref="#amp_organization_399">Stanford</rs>)<unclear>,</unclear> and eager to
                 <lb/>resume our cabled
                 <lb/>negotiations.
               </p>
               <p>
-                <lb/>As it happens, Prof.
-                <lb/>Gerald Lynch, vice-president
-                <lb/>of John Jay College, is in England
+                <lb/>As it happens, <rs type="person" ref="#amp_person_598">Prof.
+                <lb/>Gerald Lynch</rs>, vice-president
+                <lb/>of <rs type="org" ref="#amp_organization_400">John Jay College</rs>, is in <rs type="place" ref="#amp_place_id_239">England</rs>
                 <lb/>right now, and will be calling
                 <lb/>you (probably already has)
                 <lb/>to see whether he can't come
@@ -212,7 +212,7 @@
                   <lb/>Cordially,
                 </salute>
                 <signed>
-                  <lb/><rs type="person" ref="#amp_person_557">T<gap reason="illegible" quantity="1" unit="char"></gap>d</rs>
+                  <lb/><rs type="person" ref="#amp_person_597">T<gap reason="illegible" quantity="1" unit="char"></gap>d Gill</rs>
                 </signed>
               </closer>
             </div>
