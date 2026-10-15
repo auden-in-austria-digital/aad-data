@@ -94,7 +94,7 @@
                 </handDesc>
                 <typeDesc>
                   <typeNote xml:id="type_black_gardner" scribeRef="#amp_person_561" medium="type">Typewriting in black ink by John Gardner</typeNote>
-                  <typeNote xml:id="print_gardner" scribeRef="#amp_person_xx" medium="print">Preprinted writing authored by John Gardner</typeNote>
+                  <typeNote xml:id="print_gardner" scribeRef="#amp_person_561" medium="print">Preprinted writing authored by John Gardner</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
