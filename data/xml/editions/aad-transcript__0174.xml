@@ -67,6 +67,7 @@
           <witness n="1">
             <msDesc>
               <msIdentifier>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
                 <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
                 <collection>Documentation Center for Literature in Lower Austria</collection>
                 <idno>LS-Aud 2.26</idno>
@@ -75,7 +76,7 @@
                 <objectDesc>
                   <supportDesc>
                     <support>
-                      <watermark/>
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00523/ https://iiif.acdh.oeaw.ac.at/aad/aad_00524/">Baverstoke</watermark>
                       <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00523/">
                         <width>167</width>
                         <height>268</height>
@@ -88,7 +89,8 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote/>
+                  <handNote xml:id="hand_black_gill" scribeRef="#amp_person_xx" medium="ink-black">Handwriting in black ink by Theodore A. Gill</handNote>
+                  <handNote xml:id="hand_blue_unident_0174" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
                   <typeNote/>
@@ -115,11 +117,22 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="en"/>
       </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1973-05-07T00:00:00-05:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
+        </correspAction>
+      </correspDesc>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2026-10-15">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-10-15">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-10-15">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-10-15">Text transcribed; hands, languages, correspondence container structure, entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -132,10 +145,78 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0174" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0174" xml:lang="en">
+          <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00523/" ed="1r" type="sheet"/>
+            <div type="letter_message" hand="#hand_black_gill">
+              <opener>
+                <dateline>  
+                  <date>
+                    <lb/>May 7, 1973
+                  </date>
+                </dateline>
+                <salute>
+                  <lb/>Dear <rs type="person" ref="#amp_person_1">Mr. Auden</rs>.
+                </salute>
+              </opener>
+              <p>
+                <lb/>Back from our Spring
+                <lb/>break (spent mine lecturing
+                <lb/>at Stanford)<unclear>,</unclear> and eager to
+                <lb/>resume our cabled
+                <lb/>negotiations.
+              </p>
+              <p>
+                <lb/>As it happens, Prof.
+                <lb/>Gerald Lynch, vice-president
+                <lb/>of John Jay College, is in England
+                <lb/>right now, and will be calling
+                <lb/>you (probably already has)
+                <lb/>to see whether he can't come
+                <lb/>by to settle details with you
+                <lb/>in person.
+              </p>
+              <p>
+                <lb/>I do hope you can see
+                <lb/>him. We are all eager to
+              </p>
+            </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00524/" ed="1v" type="sheet"/>
+            <div>
+              <ab hand="#hand_blue_unident_0174">
+                <lb/>86
+              </ab>
+            </div>
+            <div type="letter_message" hand="#hand_black_gill">
+              <p>
+                <lb/>have everything signed
+                <lb/>and sealed so we can
+                <lb/>begin to bask in the honor
+                <lb/>you do us, and to savor
+                <lb/>our delight.
+              </p>
+              <p>
+                <lb/>Prof. John Cammett, Dean
+                <lb/>of Faculty, here, is sending
+                <lb/>the formal letter of invitation
+                <lb/>which should answer
+                <lb/>whatever questions remain.
+                <lb/>And I, who hosted the ARC
+                <lb/>bon voyage party for you at The
+                <lb/>Players last year, will be
+                <lb/>fatting a calf for you there
+                <lb/>against the day of your return.
+              </p>
+              <closer>
+                <salute>
+                  <lb/>Cordially,
+                </salute>
+                <signed>
+                  <lb/><rs type="person" ref="#amp_person_557">T<gap reason="illegible" quantity="1" unit="char"></gap>d</rs>
+                </signed>
+              </closer>
+            </div>
+          </div>
       </div>
     </body>
   </text>
