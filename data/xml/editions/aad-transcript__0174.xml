@@ -178,7 +178,7 @@
               </p>
               <p>
                 <lb/>I do hope you can see
-                <lb/>him. We are all eager to
+                <lb/><rs type="person" ref="#amp_person_598">him</rs>. We are all eager to
               </p>
             </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00524/" ed="1v" type="sheet"/>
@@ -196,14 +196,14 @@
                 <lb/>our delight.
               </p>
               <p>
-                <lb/>Prof. John Cammett, Dean
+                <lb/><rs type="person" ref="#amp_person_599">Prof. John Cammett</rs>, Dean
                 <lb/>of Faculty, here, is sending
                 <lb/>the formal letter of invitation
                 <lb/>which should answer
                 <lb/>whatever questions remain.
                 <lb/>And I, who hosted the ARC
-                <lb/>bon voyage party for you at The
-                <lb/>Players last year, will be
+                <lb/>bon voyage party for you at <rs type="org" ref="#amp_organization_402">The
+                <lb/>Players</rs> last year, will be
                 <lb/>fatting a calf for you there
                 <lb/>against the day of your return.
               </p>

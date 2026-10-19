@@ -30,7 +30,7 @@
         <edition>
           <title level="a">Typed Letter Signed Richard Else to W. H. Auden 1973-06-05</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_149">
               <desc/>
               <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -180,7 +180,7 @@
                 </salute>
               </opener>
               <p>
-                <lb/><space quantity="8" unit="char"/>Thank you for your letter of May 3Ist. I am very pleased
+                <lb/><space quantity="8" unit="char"/>Thank you for <rs ana="#ana_149">your letter of May 3Ist</rs>. I am very pleased
                 <lb/>that you have been able to accept our invitation to come and give
                 <lb/>a poetry reading at the <rs type="org" ref="#amp_organization_360">College</rs>. 
               </p>
