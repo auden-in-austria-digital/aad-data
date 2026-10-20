@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0175" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Typed Letter Signed William Shelton Gray to W. H. Auden 1971-09-30</title>
+        <author ref="https://d-nb.info">Gray, William Shelton Jr.</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484">Hechtl, Angelika</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Typed Letter Signed William Shelton Gray to W. H. Auden 1971-09-30</title>
+          <interpGrp>
+            <interp>
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+          <name sameAs="#ahechtl"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
+                <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
+                <collection>Documentation Center for Literature in Lower Austria</collection>
+                <idno>LS-Aud 2.29</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00526/ https://iiif.acdh.oeaw.ac.at/aad/aad_00527/">Laid Gilbert Bond 25% COTTON</watermark>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00526/">
+                        <width>206</width>
+                        <height>278</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00527/">
+                        <width>206</width>
+                        <height>278</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_blue_gray" scribeRef="#amp_person_xx" medium="ink-blue">Handwriting in blue ink by William Shelton Gray</handNote>
+                  <handNote xml:id="hand_blue_unident_0175" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="type_black_gray" scribeRef="#amp_person_xx" medium="type">Typewriting in black ink by William Shelton Gray</typeNote>
+                  <typeNote xml:id="print_rmc" scribeRef="#amp_organization_xx" medium="print">Preprinted writing authored by Randolph-Macon College</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1971-09-30T00:00:00-05:00" notAfter-iso="1971-09-30T23:59:59-05:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/1027670-1">Ashland, Va.</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en"/>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1971-09-30T00:00:00-05:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#smayer" when-iso="2026-10-20">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-10-20">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-10-20">Text transcribed; hands, languages, correspondence container structure, entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="3892" lry="4878">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00526/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3886" lry="4878">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00527/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0175" xml:lang="en">
+          <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00526/" ed="1r" type="sheet"/>
+            <div type="letter_message" hand="#type_black_gray">
+              <opener>
+                <dateline>  
+                  <date>
+                    <lb/><space quantity="26" unit="char"/>30 September l97l
+                  </date>
+                </dateline>
+                <seg hand="#print_rmc">
+                  <orgName>
+                    <lb/><rs type="org" ref="#amp_organization_362">RMC
+                    <lb/>RANDOLPH-MACON COLLEGE</rs>
+                  </orgName>
+                  <placeName>
+                    <lb/><rs type="place" ref="#amp_place_id_28">ASHLAND</rs>, VIRGINIA 23005
+                  </placeName>
+                </seg>
+                <salute>
+                  <lb/>Dear <rs type="person" ref="#amp_person_1">Mr. Auden</rs>,
+                </salute>
+              </opener>
+              <p>
+                <lb/>Just a line to let you know you are on my mind. Last night I read
+                <lb/>Loren Eiseley's THE UNEXPECTED UNIVERSE and when I read the chapter
+                <lb/>"The Innocent Fox<unclear>"</unclear>, it made me think of you. I had just finished re-
+                <lb/>reading PLASTIC SENSE. I still re-read at least one of your peoms daily.
+                <lb/>I know quite a few my heart now. I suppose I mean 'by heart' in more
+                <lb/>ways than one. I truly look forward to your FOREWORDS AND AFTERWORDS,
+                <lb/>if I recall the title correctly.
+              </p>
+              <p>
+                <lb/>I should suppose its getting cold there now. I hate to think of
+                <lb/>you there without Chester. Perhaps he is there. If so, please give
+                <lb/>him my love. I shall never forget my two days thre with the two of you.
+                <lb/>Keep well and happy; remember its your duty to God.
+              </p>
+              <closer>
+                <salute hand="#hand_blue_gray">
+                  <lb/>Devotedly,
+                </salute >
+                <signed hand="#hand_blue_gray">
+                  <lb/><rs type="person" ref="#amp_person_555">Bill Gray</rs>
+                </signed>
+              </closer>
+            </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00527/" ed="1v" type="sheet"/>
+            <div>
+              <ab hand="#hand_blue_unident_0175">
+                <lb/>16
+              </ab>
+            </div>
+          </div>
+      </div>
+    </body>
+  </text>
+</TEI>
