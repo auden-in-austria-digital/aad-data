@@ -84,8 +84,8 @@ for row in data:
         raise ValueError(f'Error in line {row_num}: doc ID must consist of four digits.')
 
     # specify author value restrictions
-    if not all(char.isalpha() or char.isspace() or char == '.' or char == ',' for char in row[author_index]):
-        raise TypeError(f'Error in line {row_num}: author value must contain only alphabetic characters, spaces, commas, and periods.')
+    if not all(char.isalpha() or char.isspace() or char == '.'  or char == '-' or char == ',' for char in row[author_index]):
+        raise TypeError(f'Error in line {row_num}: author value must contain only alphabetic characters, spaces, commas, hyphens, and periods.')
 
     # specify author URI value pattern
     if not re.match(r'^(https|http)://', row[author_uri_index]):
