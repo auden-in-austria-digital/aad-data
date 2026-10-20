@@ -30,7 +30,7 @@
         <edition>
           <title level="a">Autograph Letter Signed Theodore A. Gill to W. H. Auden 1973-05-07</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_150">
               <desc/>
               <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -99,7 +99,7 @@
               <history>
                 <origin>
                   <origDate notBefore-iso="1973-05-07T00:00:00-05:00" notAfter-iso="1973-05-07T23:59:59-05:00"/>
-                  <origPlace ref="https://d-nb.info/gnd/4042011-5">New York City</origPlace>
+                  <origPlace ref="https://d-nb.info/gnd/4042011-5"><rs ana="#ana_150">New York City</rs></origPlace>
                 </origin>
               </history>
             </msDesc>
