@@ -30,7 +30,7 @@
         <edition>
           <title level="a">Typed Letter Signed William Shelton Gray to W. H. Auden 1971-09-30</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_151">
               <desc/>
               <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -89,12 +89,12 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote xml:id="hand_blue_gray" scribeRef="#amp_person_xx" medium="ink-blue">Handwriting in blue ink by William Shelton Gray</handNote>
+                  <handNote xml:id="hand_blue_gray" scribeRef="#amp_person_601" medium="ink-blue">Handwriting in blue ink by William Shelton Gray</handNote>
                   <handNote xml:id="hand_blue_unident_0175" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote xml:id="type_black_gray" scribeRef="#amp_person_xx" medium="type">Typewriting in black ink by William Shelton Gray</typeNote>
-                  <typeNote xml:id="print_rmc" scribeRef="#amp_organization_xx" medium="print">Preprinted writing authored by Randolph-Macon College</typeNote>
+                  <typeNote xml:id="type_black_gray" scribeRef="#amp_person_601" medium="type">Typewriting in black ink by William Shelton Gray</typeNote>
+                  <typeNote xml:id="print_rmc" scribeRef="#amp_organization_403" medium="print">Preprinted writing authored by Randolph-Macon College</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -153,16 +153,16 @@
               <opener>
                 <dateline>  
                   <date>
-                    <lb/><space quantity="26" unit="char"/>30 September l97l
+                    <lb/><space quantity="43" unit="char"/>30 September l97l
                   </date>
                 </dateline>
                 <seg hand="#print_rmc">
                   <orgName>
-                    <lb/><rs type="org" ref="#amp_organization_362">RMC
+                    <lb/><rs type="org" ref="#amp_organization_403">RMC
                     <lb/>RANDOLPH-MACON COLLEGE</rs>
                   </orgName>
                   <placeName>
-                    <lb/><rs type="place" ref="#amp_place_id_28">ASHLAND</rs>, VIRGINIA 23005
+                    <lb/><rs type="place" ref="#amp_place_id_602">ASHLAND, VIRGINIA</rs> 23005
                   </placeName>
                 </seg>
                 <salute>
@@ -170,18 +170,18 @@
                 </salute>
               </opener>
               <p>
-                <lb/>Just a line to let you know you are on my mind. Last night I read
-                <lb/>Loren Eiseley's THE UNEXPECTED UNIVERSE and when I read the chapter
+                <lb/><space quantity="3" unit="char"/>Just a line to let you know you are on my mind. Last night I read
+                <lb/><rs type="person" ref="#amp_person_602">Loren Eiseley</rs>'s <rs type="lit_work" ref="#lit_work_id_441">THE UNEXPECTED UNIVERSE</rs> and when I read the chapter
                 <lb/>"The Innocent Fox<unclear>"</unclear>, it made me think of you. I had just finished re-
-                <lb/>reading PLASTIC SENSE. I still re-read at least one of your peoms daily.
-                <lb/>I know quite a few my heart now. I suppose I mean 'by heart' in more
-                <lb/>ways than one. I truly look forward to your FOREWORDS AND AFTERWORDS,
+                <lb/>reading <rs type="lit_work" ref="#lit_work_id_442">PLASTIC SENSE</rs>. I still re-read at least one of your poems daily.
+                <lb/>I know quite a few <subst><del rend="overtyped" hand="#type_black_gray">m</del><add place="superimposed" hand="#type_black_gray">b</add></subst>y heart now. I suppose I mean 'by heart' in more
+                <lb/>ways than one. I truly look forward to your <rs type="lit_work" ref="#lit_work_id_53">FOREWORDS AND AFTERWORDS</rs>,
                 <lb/>if I recall the title correctly.
               </p>
               <p>
-                <lb/>I should suppose its getting cold there now. I hate to think of
-                <lb/>you there without Chester. Perhaps he is there. If so, please give
-                <lb/>him my love. I shall never forget my two days thre with the two of you.
+                <lb/>I should suppose its getting cold <rs type="place" ref="#amp_place_id_4">there</rs> now. I hate to think of
+                <lb/>you <rs type="place" ref="#amp_place_id_2">there</rs> without <rs type="person" ref="#amp_person_4">Chester</rs>. Perhaps he is there. If so, please give
+                <lb/>him my love. I shall never forget <rs type="event" ref="#amp_event_id_345">my two days there</rs> with the <rs type="person" ref="#amp_person_1"><rs type="person" ref="#amp_person_4">two of you</rs></rs>.
                 <lb/>Keep well and happy; remember its your duty to God.
               </p>
               <closer>
@@ -189,7 +189,7 @@
                   <lb/>Devotedly,
                 </salute >
                 <signed hand="#hand_blue_gray">
-                  <lb/><rs type="person" ref="#amp_person_555">Bill Gray</rs>
+                  <lb/><rs type="person" ref="#amp_person_601"><rs ana="#ana_151">Bill Gray</rs></rs>
                 </signed>
               </closer>
             </div>
