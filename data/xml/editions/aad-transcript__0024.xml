@@ -147,6 +147,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2024-09-16">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2024-09-16">Text transcribed; physDesc and correspDesc populated; hands, languages, correspondence container structure, and entities marked up</change>
+      <change who="#tfruehwirth" when-iso="2026-10-21">Update event markup</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -214,11 +215,11 @@
               </salute>
             </opener>
             <p>
-              <lb/>Hiermit 800.D.M. Ich glaube
+              <lb/>Hiermit 800.D.M. <rs type="event" ref="#amp_event_id_298">Ich glaube
               <lb/>es soll gut seine <subst><del rend="overwritten" hand="#hand_blue_auden">p</del><add place="superimposed" hand="#hand_blue_auden">P</add></subst>lätze <add place="above"  hand="#hand_blue_auden">(hin und zuruck)<space unit="char" quantity="1"/></add>am den Fl<unclear>eu</unclear>gzeug
               <lb/>so fort zu bestellen weil es wird
               <lb/>wahrscheinlich viel <subst><del rend="overwritten" hand="#hand_blue_auden">v</del><add place="superimposed" hand="#hand_blue_auden">V</add></subst>erkehr <del rend="overstrike" hand="#hand_blue_auden">w<gap reason="illegible" unit="char" atLeast="1" atMost="2"/></del> sein u<unclear>m</unclear>
-              <lb/>Weinachtszeit<unclear>.</unclear>
+              <lb/>Weinachtszeit<unclear>.</unclear></rs>
             </p>
             <closer>
               <signed>
@@ -246,14 +247,14 @@
             </ab>
             <ab hand="#hand_blue_unident_0024">
               <lb/>208<unclear>,</unclear>
-              <lb/><hi rend="underline">102<unclear>,</unclear>&#x2014;</hi>
-              <lb/><hi rend="double-underline">106&#x2014;</hi>
+              <lb/><hi rend="underline" hand="#hand_blue_unident_0024">102<unclear>,</unclear>&#x2014;</hi>
+              <lb/><hi rend="double-underline" hand="#hand_blue_unident_0024">106&#x2014;</hi>
             </ab>
             <ab hand="#hand_blue_unident_0024">
-              <lb/><space unit="char" quantity="1"/><hi rend="underline"><unclear>3</unclear>2<unclear>'</unclear>6,5<space unit="char" quantity="1"/></hi>
+              <lb/><space unit="char" quantity="1"/><hi rend="underline" hand="#hand_blue_unident_0024"><unclear>3</unclear>2<unclear>'</unclear>6,5<space unit="char" quantity="1"/></hi>
               <lb/>192
-              <lb/><space unit="char" quantity="1"/><hi rend="underline">160<space unit="char" quantity="1"/></hi>
-              <lb/><hi rend="double-underline">2080</hi>
+              <lb/><space unit="char" quantity="1"/><hi rend="underline" hand="#hand_blue_unident_0024">160<space unit="char" quantity="1"/></hi>
+              <lb/><hi rend="double-underline" hand="#hand_blue_unident_0024">2080</hi>
             </ab>
           </div>
         </div>
