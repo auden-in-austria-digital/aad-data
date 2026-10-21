@@ -89,11 +89,11 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote xml:id="hand_blue_hansen" scribeRef="#amp_person_xx" medium="ink-blue">Handwriting in blue ink by Friedrich Hansen-Löve</handNote>
+                  <handNote xml:id="hand_blue_hansen" scribeRef="#amp_person_636" medium="ink-blue">Handwriting in blue ink by Friedrich Hansen-Löve</handNote>
                   <handNote xml:id="hand_blue_unident_0176" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote xml:id="type_black_hansen" scribeRef="#amp_person_xx" medium="type">Typewriting in black ink by Friedrich Hansen-Löve</typeNote>
+                  <typeNote xml:id="type_black_hansen" scribeRef="#amp_person_636" medium="type">Typewriting in black ink by Friedrich Hansen-Löve</typeNote>
                   <typeNote xml:id="print_ORF" scribeRef="#amp_organization_88" medium="print">Preprinted writing authored by Österreichischer Rundfunk</typeNote>
                 </typeDesc>
               </physDesc>
@@ -158,27 +158,17 @@
                   </orgName>
                  </seg>
                 <seg hand="#print_ORF">
-                   <lb/><rs type="org" ref="#amp_organization_88">Österreichischer Rundfunk, Gesellschaft m. b. H.</rs>, 1041 Wien, Postfach 700
+                  <lb/><rs type="org" ref="#amp_organization_88">Österreichischer Rundfunk, Gesellschaft m. b. H.</rs>, 1041 <rs type="place" ref="#amp_place_id_1">Wien</rs>, Postfach 700
                 </seg>
                 <seg hand="#print_ORF">
                   <placeName>
                     <address>
-                      <lb/><rs type="place" ref="#amp_place_id_2">1041 Wien, Argentinierstraße 22</rs>
+                      <lb/><rs type="place" ref="#amp_place_id_635">1041 Wien, Argentinierstraße 22</rs>
                     </address>
                   </placeName>
                       <lb/>Telefon: (0222) 65 37 94
                       <lb/>Fernschreiber: 01/1801
                       <lb/>Telegrammadresse: Rundfunk Wien
-                </seg>
-                <seg>
-                  <placeName>
-                    <address>
-                      <lb/><rs type="place" ref="#amp_place_id_2">1041 Wien, Argentinierstraße 22</rs>
-                    </address>
-                  </placeName>
-                  <lb/>Telefon: (0222) 65 37 94
-                  <lb/>Fernschreiber: 01/1801
-                  <lb/>Telegrammadresse: Rundfunk Wien
                 </seg>
                 <seg>
                   <persName>
@@ -188,8 +178,8 @@
                   <placeName>
                     <address>
                       <lb/><rs type="place" ref="#amp_place_id_2">Hinterholz 6
-                      <lb/><add hand="#type_black_hansen" place="left">3062-</add> <hi rend="underline" hand="#type_black_hansen">Kirchstetten</hi></rs>
-                      <lb/><rs type="place" ref="#amp_place_id_10"><hi rend="underline" hand="#type_black_hansen">Bez.St.Pölten/NÖ</hi></rs>
+                      <lb/><add hand="#type_black_hansen" place="left">3062-</add> <hi rend="underline" hand="#type_black_hansen">Kirchstetten</hi>
+                      <lb/><hi rend="underline" hand="#type_black_hansen">Bez.St.Pölten/NÖ</hi></rs>
                     </address>
                   </placeName>
                 </seg>
@@ -197,7 +187,7 @@
                   <lb/><space quantity="44" unit="char"/>FP 7
                 </seg>
                 <seg hand="#print_ORF">
-                  <lb/>Unser Zeichen<space quantity="2" unit="char"/>Wien, den
+                  <lb/>Unser Zeichen<space quantity="2" unit="char"/><rs type="place" ref="#amp_place_id_1">Wien</rs>, den
                 </seg>
                 <seg>
                   <lb/><space quantity="44" unit="char"/>HL/Dr.G<space quantity="3" unit="char"/>4.9.l970
@@ -229,11 +219,11 @@
                   <lb/><space quantity="32" unit="char"/>Ihr
                 </salute>
                 <signed hand="#hand_blue_hansen">
-                  <lb/><rs type="person" ref="#amp_person_555"><unclear>Dr.</unclear> <unclear>F.</unclear> Hansen <unclear>Löve</unclear></rs>
+                  <lb/><rs type="person" ref="#amp_person_636"><unclear>Dr.</unclear> <unclear>F.</unclear> Hansen <unclear>Löve</unclear></rs>
                 </signed>
                 <signed>
                   <lb/>HAUPTABTEILUNG KULTUR
-                  <lb/>(Prof.F.Hansen-Löve)
+                  <lb/>(<rs type="person" ref="#amp_person_636">Prof.F.Hansen-Löve</rs>)
                 </signed>
               </closer>
              </div>
