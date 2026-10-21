@@ -153,12 +153,12 @@
               <opener>
                 <seg hand="#print_ORF">
                   <orgName>
-                    <lb/><rs type="org" ref="#amp_organization_362">ORF
+                    <lb/><rs type="org" ref="#amp_organization_88">ORF
                     <lb/>ÖSTERREICHISCHER RUNDFUNK</rs>
                   </orgName>
                  </seg>
                 <seg hand="#print_ORF">
-                   <lb/><rs type="org" ref="#amp_organization_362">Österreichischer Rundfunk</rs>, Gesellschaft m. b. H., 1041 Wien, Postfach 700
+                   <lb/><rs type="org" ref="#amp_organization_88">Österreichischer Rundfunk, Gesellschaft m. b. H.</rs>, 1041 Wien, Postfach 700
                 </seg>
                 <seg hand="#print_ORF">
                   <placeName>
@@ -188,19 +188,19 @@
                   <placeName>
                     <address>
                       <lb/><rs type="place" ref="#amp_place_id_2">Hinterholz 6
-                      <lb/><add hand="#type_black_hansen" place="left">3062-</add> Kirchstetten</rs>
-                      <lb/><rs type="place" ref="#amp_place_id_10">Bez.St.Pölten/NÖ</rs>
+                      <lb/><add hand="#type_black_hansen" place="left">3062-</add> <hi rend="underline" hand="#type_black_hansen">Kirchstetten</hi></rs>
+                      <lb/><rs type="place" ref="#amp_place_id_10"><hi rend="underline" hand="#type_black_hansen">Bez.St.Pölten/NÖ</hi></rs>
                     </address>
                   </placeName>
                 </seg>
                 <seg>
-                  <lb/>FP 7
+                  <lb/><space quantity="44" unit="char"/>FP 7
                 </seg>
                 <seg hand="#print_ORF">
                   <lb/>Unser Zeichen<space quantity="2" unit="char"/>Wien, den
                 </seg>
                 <seg>
-                  <lb/>HL/Dr.G<space quantity="3" unit="char"/>4.9.l970
+                  <lb/><space quantity="44" unit="char"/>HL/Dr.G<space quantity="3" unit="char"/>4.9.l970
                 </seg>
                 <salute>
                   <lb/>Sehr geehrter Herr <rs type="person" ref="#amp_person_1">Auden</rs><space quantity="1" unit="char"/>!
@@ -219,12 +219,14 @@
                 <lb/>Wäre es möglich, daß Sie am 29.September schon zu
                 <lb/>Mittag nach Wien kommen, damit wir eventuell gemeinsam
                 <lb/>Mittagessen können? Vielleicht haben Sie auch Lust,
-                <lb/>den nachmittag in meiner Gesellschaft zu verbringen.
+                <lb/>den Nachmittag in meiner Gesellschaft zu verbringen.
               </p>
               <closer>
                 <salute>
                   <lb/>Mit der Bitte um eine kurze Nachricht bin ich
-                  <lb/>Ihr
+                </salute>
+                <salute>
+                  <lb/><space quantity="32" unit="char"/>Ihr
                 </salute>
                 <signed hand="#hand_blue_hansen">
                   <lb/><rs type="person" ref="#amp_person_555"><unclear>Dr.</unclear> <unclear>F.</unclear> Hansen <unclear>Löve</unclear></rs>
