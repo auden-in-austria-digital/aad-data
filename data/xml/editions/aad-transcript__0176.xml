@@ -67,6 +67,7 @@
           <witness n="1">
             <msDesc>
               <msIdentifier>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
                 <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
                 <collection>Documentation Center for Literature in Lower Austria</collection>
                 <idno>LS-Aud 2.30</idno>
@@ -75,7 +76,7 @@
                 <objectDesc>
                   <supportDesc>
                     <support>
-                      <watermark/>
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00528/ https://iiif.acdh.oeaw.ac.at/aad/aad_00529/">HARTPOST MSS 1798</watermark>
                       <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00528/">
                         <width>210</width>
                         <height>296</height>
@@ -88,10 +89,12 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote/>
+                  <handNote xml:id="hand_blue_hansen" scribeRef="#amp_person_xx" medium="ink-blue">Handwriting in blue ink by Friedrich Hansen-Löve</handNote>
+                  <handNote xml:id="hand_blue_unident_0176" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="type_black_hansen" scribeRef="#amp_person_xx" medium="type">Typewriting in black ink by Friedrich Hansen-Löve</typeNote>
+                  <typeNote xml:id="print_ORF" scribeRef="#amp_organization_88" medium="print">Preprinted writing authored by Österreichischer Rundfunk</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -115,11 +118,22 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="de"/>
       </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1970-09-04T00:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
+        </correspAction>
+      </correspDesc>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2026-10-20">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-10-20">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-10-21">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-10-21">Text transcribed; hands, languages, correspondence container structure, entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -132,10 +146,102 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0176" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0176" xml:lang="de">
+          <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00528/" ed="1r" type="sheet"/>
+            <div type="letter_message" hand="#type_black_hansen">
+              <opener>
+                <seg hand="#print_ORF">
+                  <orgName>
+                    <lb/><rs type="org" ref="#amp_organization_362">ORF
+                    <lb/>ÖSTERREICHISCHER RUNDFUNK</rs>
+                  </orgName>
+                 </seg>
+                <seg hand="#print_ORF">
+                   <lb/><rs type="org" ref="#amp_organization_362">Österreichischer Rundfunk</rs>, Gesellschaft m. b. H., 1041 Wien, Postfach 700
+                </seg>
+                <seg hand="#print_ORF">
+                  <placeName>
+                    <address>
+                      <lb/><rs type="place" ref="#amp_place_id_2">1041 Wien, Argentinierstraße 22</rs>
+                    </address>
+                  </placeName>
+                      <lb/>Telefon: (0222) 65 37 94
+                      <lb/>Fernschreiber: 01/1801
+                      <lb/>Telegrammadresse: Rundfunk Wien
+                </seg>
+                <seg>
+                  <placeName>
+                    <address>
+                      <lb/><rs type="place" ref="#amp_place_id_2">1041 Wien, Argentinierstraße 22</rs>
+                    </address>
+                  </placeName>
+                  <lb/>Telefon: (0222) 65 37 94
+                  <lb/>Fernschreiber: 01/1801
+                  <lb/>Telegrammadresse: Rundfunk Wien
+                </seg>
+                <seg>
+                  <persName>
+                    <lb/>Herrn
+                    <lb/><rs type="person" ref="#amp_person_1">W.H. Auden</rs>
+                  </persName>
+                  <placeName>
+                    <address>
+                      <lb/><rs type="place" ref="#amp_place_id_2">Hinterholz 6
+                      <lb/><add hand="#type_black_hansen" place="left">3062-</add> Kirchstetten</rs>
+                      <lb/><rs type="place" ref="#amp_place_id_10">Bez.St.Pölten/NÖ</rs>
+                    </address>
+                  </placeName>
+                </seg>
+                <seg>
+                  <lb/>FP 7
+                </seg>
+                <seg hand="#print_ORF">
+                  <lb/>Unser Zeichen<space quantity="2" unit="char"/>Wien, den
+                </seg>
+                <seg>
+                  <lb/>HL/Dr.G<space quantity="3" unit="char"/>4.9.l970
+                </seg>
+                <salute>
+                  <lb/>Sehr geehrter Herr <rs type="person" ref="#amp_person_1">Auden</rs><space quantity="1" unit="char"/>!
+                </salute>
+              </opener>
+              <p>
+                <lb/>Aus dem Programm der Österreichischen Gesellschaft
+                <lb/>für Literatur ersehe ich, daß Sie am 29. September
+                <lb/>in der Literatur-Gesellschaft sprechen werden. Ich
+                <lb/>möchte diese Gelegenheit benützen, wieder den
+                <lb/>Kontakt mit Ihnen aufzunehmen, vor allem um das
+                <lb/>eine oder andere Mißverständnis in einem Gespräch
+                <lb/>zu beseitigen.
+              </p>
+              <p>
+                <lb/>Wäre es möglich, daß Sie am 29.September schon zu
+                <lb/>Mittag nach Wien kommen, damit wir eventuell gemeinsam
+                <lb/>Mittagessen können? Vielleicht haben Sie auch Lust,
+                <lb/>den nachmittag in meiner Gesellschaft zu verbringen.
+              </p>
+              <closer>
+                <salute>
+                  <lb/>Mit der Bitte um eine kurze Nachricht bin ich
+                  <lb/>Ihr
+                </salute>
+                <signed hand="#hand_blue_hansen">
+                  <lb/><rs type="person" ref="#amp_person_555"><unclear>Dr.</unclear> <unclear>F.</unclear> Hansen <unclear>Löve</unclear></rs>
+                </signed>
+                <signed>
+                  <lb/>HAUPTABTEILUNG KULTUR
+                  <lb/>(Prof.F.Hansen-Löve)
+                </signed>
+              </closer>
+             </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00529/" ed="1v" type="sheet"/>
+            <div>
+              <ab hand="#hand_blue_unident_0176">
+                <lb/>70
+               </ab>
+             </div>
+          </div>
       </div>
     </body>
   </text>
