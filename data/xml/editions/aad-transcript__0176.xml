@@ -222,8 +222,8 @@
                   <lb/><rs type="person" ref="#amp_person_636"><unclear>Dr.</unclear> <unclear>F.</unclear> Hansen <unclear>Löve</unclear></rs>
                 </signed>
                 <signed>
-                  <lb/>HAUPTABTEILUNG KULTUR
-                  <lb/>(<rs type="person" ref="#amp_person_636">Prof.F.Hansen-Löve</rs>)
+                  <lb/><space quantity="31" unit="char"/>HAUPTABTEILUNG KULTUR
+                  <lb/><space quantity="31" unit="char"/>(<rs type="person" ref="#amp_person_636">Prof.F.Hansen-Löve</rs>)
                 </signed>
               </closer>
              </div>
