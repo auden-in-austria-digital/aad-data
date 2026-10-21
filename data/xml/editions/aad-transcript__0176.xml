@@ -197,9 +197,9 @@
                 </salute>
               </opener>
               <p>
-                <lb/>Aus dem Programm der Österreichischen Gesellschaft
-                <lb/>für Literatur ersehe ich, daß Sie am 29. September
-                <lb/>in der Literatur-Gesellschaft sprechen werden. Ich
+                <lb/>Aus dem Programm der <rs type="org" ref="#amp_organization_9">Österreichischen Gesellschaft
+                <lb/>für Literatur</rs> ersehe ich, daß Sie am <rs type="event" ref="#amp_event_id_120">29. September
+                <lb/>in der Literatur-Gesellschaft sprechen werden</rs>. Ich
                 <lb/>möchte diese Gelegenheit benützen, wieder den
                 <lb/>Kontakt mit Ihnen aufzunehmen, vor allem um das
                 <lb/>eine oder andere Mißverständnis in einem Gespräch
@@ -207,7 +207,7 @@
               </p>
               <p>
                 <lb/>Wäre es möglich, daß Sie am 29.September schon zu
-                <lb/>Mittag nach Wien kommen, damit wir eventuell gemeinsam
+                <lb/>Mittag nach <rs type="place" ref="#amp_place_id_1">Wien kommen</rs>, damit wir eventuell gemeinsam
                 <lb/>Mittagessen können? Vielleicht haben Sie auch Lust,
                 <lb/>den Nachmittag in meiner Gesellschaft zu verbringen.
               </p>
