@@ -147,6 +147,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2024-09-19">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2024-09-19">Text transcribed; physDesc and correspDesc populated; hands, languages, correspondence container structure, and entities marked up</change>
+      <change who="#tfruehwirth" when-iso="2026-10-21">Update event markup</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -206,7 +207,7 @@
               </salute>
             </opener>
             <p>
-              <lb/>Komme Donnerstag Abend an
+              <lb/><rs type="event" ref="#amp_event_id_378">Komme Donnerstag Abend an</rs>
             </p>
             <closer>
               <salute>
