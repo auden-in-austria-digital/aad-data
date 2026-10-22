@@ -8,7 +8,7 @@
     <fileDesc>
       <titleStmt>
         <title level="s">Auden in Austria Digital (AAD)</title>
-        <title level="a">Typed Letter Signed Peter H. Salus to W. H. Auden 1967-04-01--1967-05-31</title>
+        <title level="a">Typed Letter Signed Peter H. Salus to W. H. Auden 1967-04-21--1967-05-31</title>
         <author ref="https://d-nb.info">Salus, Peter H.</author>
         <editor>
           <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
@@ -28,9 +28,14 @@
       </titleStmt>
       <editionStmt>
         <edition>
-          <title level="a">Typed Letter Signed Peter H. Salus to W. H. Auden 1967-04-01--1967-05-31</title>
+          <title level="a">Typed Letter Signed Peter H. Salus to W. H. Auden 1967-04-21--1967-05-31</title>
           <interpGrp>
             <interp xml:id="ana_154">
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+            <interp xml:id="ana_155">
               <desc/>
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
@@ -89,16 +94,16 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote xml:id="hand_red_salus" scribeRef="#amp_person_xx" medium="ink-red">Handwriting in red ink by Peter H. Salus</handNote>
+                  <handNote xml:id="hand_red_salus" scribeRef="#amp_person_669" medium="ink-red">Handwriting in red ink by Peter H. Salus</handNote>
                   <handNote xml:id="hand_blue_unident_0177" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote xml:id="type_black_salus" scribeRef="#amp_person_xx" medium="type">Typewriting in black ink by Peter H. Salus</typeNote>
+                  <typeNote xml:id="type_black_salus" scribeRef="#amp_person_669" medium="type">Typewriting in black ink by Peter H. Salus</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
                 <origin>
-                  <origDate notBefore-iso="1967-04-01T00:00:00-05:00" notAfter-iso="1967-05-31T23:59:59-05:00"/>
+                  <origDate notBefore-iso="1967-04-21T00:00:00-05:00" notAfter-iso="1967-05-31T23:59:59-05:00"/>
                   <origPlace ref="https://d-nb.info/gnd/4042011-5">New York City</origPlace>
                 </origin>
               </history>
@@ -153,7 +158,7 @@
               <seg>
                 <placeName>
                   <address>
-                    <lb/><space quantity="40" unit="char"/><rs type="place" ref="#amp_place_id_xx">749 Washington Street 
+                    <lb/><space quantity="40" unit="char"/><rs type="place" ref="#amp_place_id_668">749 Washington Street 
                     <lb/><space quantity="40" unit="char"/>New York 10014</rs>
                   </address>
                 </placeName>
@@ -163,32 +168,32 @@
               </salute>
             </opener>
             <p>
-              <lb/>I presume that you are now safely ensconced in Kirchste<subst><del rend="overtyped" hand="#type_black_salus">ee</del><add place="superimposed" hand="#type_black_salus">tt</add></subst>en,
-              <lb/>and are working hard.<space quantity="2" unit="char"/>I have been working on the Lichtenberg,
-              <lb/>which I hope to finish before leaving for Europe in late June,
-              <lb/>and on the Edda poems.<space quantity="2" unit="char"/>I have five or six of Paul Taylor's
+              <lb/>I presume that you are now safely ensconced in <rs type="place" ref="#amp_place_id_5">Kirchste<subst><del rend="overtyped" hand="#type_black_salus">ee</del><add place="superimposed" hand="#type_black_salus">tt</add></subst>en</rs>,
+              <lb/>and are working hard.<space quantity="2" unit="char"/>I have been working on the <rs type="person" ref="#amp_person_670"><rs ana="#ana_155">Lichtenberg</rs></rs>,
+              <lb/>which I hope to finish before leaving for <rs type="place" ref="#amp_place_id_30">Europe</rs> in late June,
+              <lb/>and on the <rs type="lit_work" ref="#lit_work_id_444">Edda poems</rs>.<space quantity="2" unit="char"/>I have five or six of <rs type="person" ref="#amp_person_671">Paul Taylor</rs>'s
               <lb/>versions in hand right now, and I hope to get them off to you
-              <lb/>in a week or so.<space quantity="2" unit="char"/>What I have are: Skirnir's Journey (about
-              <lb/>160 lines), The Treachery of Asmund (about 100 lines), The
-              <lb/>Waking of Angantyr (120 lines), the Vafthrúdnismál (200 lines),
-              <lb/>Grimnismál (220 lines), and Eir<unclear>í</unclear><subst><del rend="overtyped" hand="#type_black_salus">l</del><add place="superimposed" hand="#type_black_salus">k</add></subst>smál (31 lines).<space quantity="2" unit="char"/>This last
+              <lb/>in a week or so.<space quantity="2" unit="char"/>What I have are: <rs type="lit_work" ref="#lit_work_id_445">Skirnir's Journey</rs> (about
+              <lb/>160 lines), <rs type="lit_work" ref="#lit_work_id_446">The Treachery of Asmund</rs> (about 100 lines), <rs type="lit_work" ref="#lit_work_id_447">The
+              <lb/>Waking of Angantyr</rs> (120 lines), the <rs type="lit_work" ref="#lit_work_id_448">Vafthrúdnismál</rs> (200 lines),
+              <lb/><rs type="lit_work" ref="#lit_work_id_449">Grimnismál</rs> (220 lines), and <rs type="lit_work" ref="#lit_work_id_450">Eir<unclear>í</unclear><subst><del rend="overtyped" hand="#type_black_salus">l</del><add place="superimposed" hand="#type_black_salus">k</add></subst>smál</rs> (31 lines).<space quantity="2" unit="char"/>This last
               <lb/>is not truly Eddic: it is one of the late poems that combines
               <lb/>Eddic and Skaldic tradition, but of these it is the only really
               <lb/>successful one, the only one that holds the metre.
             </p>
             <p>
-              <lb/>I was up at Amherst Monday, Tuesday and Wednesday of last
-              <lb/>week, and spoke to some of the people on MassReview.<space quantity="2" unit="char"/>They are
+              <lb/>I was up at <rs type="place" ref="#amp_place_id_669">Amherst</rs> Monday, Tuesday and Wednesday of last
+              <lb/>week, and spoke to some of the people on <rs type="org" ref="#amp_organization_405">MassReview</rs>.<space quantity="2" unit="char"/>They are
               <lb/>very eager to have one or more of the poems, and so you might 
-              <lb/>send me the Havamal (when you finish it), and I'll forward it to
+              <lb/>send me the <rs type="lit_work" ref="#lit_work_id_451">Havamal</rs> (when you finish it), and I'll forward it to
               <lb/>them.<space quantity="2" unit="char"/>Otherwise, we might let them have some combination of
               <lb/>the six enumerated a<subst><del rend="overtyped" hand="#type_black_salus">v</del><add place="superimposed" hand="#type_black_salus">b</add></subst>ove.<space quantity="2" unit="char"/>Perhaps, in view of its length, we
-              <lb/>could let Alexis have Eiriksmál for QUEST.
+              <lb/>could let <rs type="person" ref="#amp_person_672">Alexis</rs> have <rs type="lit_work" ref="#lit_work_id_450">Eiriksmál</rs> for <rs type="org" ref="#amp_organization_406">QUEST</rs>.
             </p>
             <p>
-              <lb/>I heard from David Luke (from Wien) yesterday, and he tells me 
-              <lb/>that Bantam Books is looking for someone to redo Mann's
-              <lb/>Buddenbrooks.<space quantity="2" unit="char"/>I have told him that I would be very interested
+              <lb/>I heard from <rs type="person" ref="#amp_person_89">David Luke</rs> (from <rs type="place" ref="#amp_place_id_1">Wien</rs>) yesterday, and he tells me 
+              <lb/>that <rs type="org" ref="#amp_organization_407">Bantam Books</rs> is looking for someone to redo <rs type="person" ref="#amp_person_673">Mann</rs>'s
+              <lb/><rs type="lit_work" ref="#lit_work_id_452">Buddenbrooks</rs>.<space quantity="2" unit="char"/>I have told him that I would be very interested
               <lb/>in doing it, but that I don't think that Bantam -- from what I
               <lb/>know of their reputation -- would be willing to pay enough.<space quantity="2" unit="char"/>It
               <lb/>is 700 pp. of difficult text, and I think I would have to ask
@@ -197,33 +202,33 @@
             </p>
             <p>
               <lb/>There seem to be a round of wedding in our circle this summer:
-              <lb/>Emily Boothby in Strasbourg at the end of July and Wincie
-              <lb/>Hannesson (from Iceland) in Edinburgh in September, and (not
-              <lb/>to shock you too much) Mary and your most obt. and humble
-              <lb/>servant in Geneva the first week of July.<space quantity="2" unit="char"/>(Yes, I am serious.
+              <lb/>Emily Boothby in <rs type="place" ref="#amp_place_id_670">Strasbourg</rs> at the end of July and Wincie
+              <lb/>Hannesson (from <rs type="place" ref="#amp_place_id_391">Iceland</rs>) in <rs type="place" ref="#amp_place_id_204">Edinburgh</rs> in September, and (not
+              <lb/>to shock you too much) <rs type="person" ref="#amp_person_674">Mary</rs> and <rs type="person" ref="#amp_person_669">your most obt. and humble
+              <lb/>servant</rs> in <rs type="place" ref="#amp_place_id_122">Geneva</rs> the first week of July.<space quantity="2" unit="char"/>(Yes, I am serious.
               <lb/>I have been thinking of it for some time, and we have now
-              <lb/>decided and Paul Taylor is arranging things.)
+              <lb/>decided and <rs type="person" ref="#amp_person_671">Paul Taylor</rs> is arranging things.)
             </p>
             <p>
-              <lb/>David's letter, incidentally, was singularly Lukian -- he was
-              <lb/>most worried about Greece, and your words about writing for the
-              <lb/>Observer on it did not quieten him at all.<space quantity="2" unit="char"/>I told him to go,
+              <lb/><rs type="person" ref="#amp_person_89">David</rs>'s letter, incidentally, was singularly Lukian -- he was
+              <lb/>most <rs type="event" ref="#amp_event_id_414">worried about Greece</rs>, and your words about writing for the
+              <lb/><rs type="org" ref="#amp_organization_408">Observer</rs> on it did not quieten him at all.<space quantity="2" unit="char"/>I told him to go,
               <lb/>but I wonder if he will.
             </p>
             <p>
-              <lb/>I, incidentally, have applied for the summer Fulbrig<unclear>h</unclear>t to Ice-
-              <lb/>land for <del rend="overtyped" hand="#type_black_salus">the<space quantity="1" unit="char"/>yea<space quantity="1" unit="char"/></del>  1968, and hope to get it -- unless my Peace
+              <lb/>I, incidentally, have applied for the summer <rs type="org" ref="#amp_organization_409">Fulbrig<unclear>h</unclear>t</rs> to <rs type="place" ref="#amp_place_id_391">Ice-
+              <lb/>land</rs> for <del rend="overtyped" hand="#type_black_salus">the<space quantity="1" unit="char"/>yea<space quantity="1" unit="char"/></del> 1968, and hope to get it -- unless my Peace
               <lb/>activities stand in the way.<space quantity="2" unit="char"/>I have still not gotten my learner's
               <lb/>permit <del rend="overtyped" hand="#type_black_salus">for</del> from the motor vehicles bureau, and I am beginning
               <lb/>to think that I never shall.
             </p>
             <closer>
               <salute>
-                <lb/>Please give my love to Chester, saving, of course, some for
+                <lb/>Please give my love to <rs type="person" ref="#amp_person_4">Chester</rs>, saving, of course, some for
                 <lb/>yourself.
               </salute>
               <signed hand="#hand_red_salus">
-                <lb/><rs type="person" ref="#amp_person_xx">Peter</rs>
+                <lb/><rs type="person" ref="#amp_person_669">Peter</rs>
               </signed>
             </closer>
           </div>
