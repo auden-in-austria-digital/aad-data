@@ -155,6 +155,7 @@
                   <orgName>
                     <lb/><rs type="org" ref="#amp_organization_88">ORF
                     <lb/>ÖSTERREICHISCHER RUNDFUNK</rs>
+                    <lb/>
                   </orgName>
                  </seg>
                 <seg hand="#print_ORF">
@@ -169,6 +170,7 @@
                       <lb/>Telefon: (0222) 65 37 94
                       <lb/>Fernschreiber: 01/1801
                       <lb/>Telegrammadresse: Rundfunk Wien
+                      <lb/>
                 </seg>
                 <seg>
                   <persName>
@@ -199,7 +201,7 @@
               <p>
                 <lb/>Aus dem Programm der <rs type="org" ref="#amp_organization_9">Österreichischen Gesellschaft
                 <lb/>für Literatur</rs> ersehe ich, daß Sie am <rs type="event" ref="#amp_event_id_120">29. September
-                <lb/>in der Literatur-Gesellschaft sprechen werden</rs>. Ich
+                <lb/>in der <rs type="place" ref="#amp_place_id_85">Literatur-Gesellschaft</rs> sprechen werden</rs>. Ich
                 <lb/>möchte diese Gelegenheit benützen, wieder den
                 <lb/>Kontakt mit Ihnen aufzunehmen, vor allem um das
                 <lb/>eine oder andere Mißverständnis in einem Gespräch
