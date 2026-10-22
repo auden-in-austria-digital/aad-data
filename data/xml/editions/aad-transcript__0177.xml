@@ -153,8 +153,8 @@
               <seg>
                 <placeName>
                   <address>
-                    <lb/><rs type="place" ref="#amp_place_id_xx">749 Washington Street 
-                    <lb/>New York 10014</rs>
+                    <lb/><space quantity="40" unit="char"/><rs type="place" ref="#amp_place_id_xx">749 Washington Street 
+                    <lb/><space quantity="40" unit="char"/>New York 10014</rs>
                   </address>
                 </placeName>
               </seg>
@@ -163,7 +163,7 @@
               </salute>
             </opener>
             <p>
-              <lb/>I presume that you are now safely ensconced in Kirchstetten,
+              <lb/>I presume that you are now safely ensconced in Kirchste<subst><del rend="overtyped" hand="#type_black_salus">ee</del><add place="superimposed" hand="#type_black_salus">tt</add></subst>en,
               <lb/>and are working hard.<space quantity="2" unit="char"/>I have been working on the Lichtenberg,
               <lb/>which I hope to finish before leaving for Europe in late June,
               <lb/>and on the Edda poems.<space quantity="2" unit="char"/>I have five or six of Paul Taylor's
@@ -171,10 +171,10 @@
               <lb/>in a week or so.<space quantity="2" unit="char"/>What I have are: Skirnir's Journey (about
               <lb/>160 lines), The Treachery of Asmund (about 100 lines), The
               <lb/>Waking of Angantyr (120 lines), the Vafthrúdnismál (200 lines),
-              <lb/>Grimnismál (220 lines), and Eiríksmál (31 lines).<space quantity="2" unit="char"/>This last
+              <lb/>Grimnismál (220 lines), and Eir<unclear>í</unclear><subst><del rend="overtyped" hand="#type_black_salus">l</del><add place="superimposed" hand="#type_black_salus">k</add></subst>smál (31 lines).<space quantity="2" unit="char"/>This last
               <lb/>is not truly Eddic: it is one of the late poems that combines
               <lb/>Eddic and Skaldic tradition, but of these it is the only really
-              <lb/>ssuccessful one, the only one that holds the metre.
+              <lb/>successful one, the only one that holds the metre.
             </p>
             <p>
               <lb/>I was up at Amherst Monday, Tuesday and Wednesday of last
@@ -182,8 +182,8 @@
               <lb/>very eager to have one or more of the poems, and so you might 
               <lb/>send me the Havamal (when you finish it), and I'll forward it to
               <lb/>them.<space quantity="2" unit="char"/>Otherwise, we might let them have some combination of
-              <lb/>the six enumerated above.<space quantity="2" unit="char"/>Perhaps, in view of its length, we
-              <lb/>could let Alexis have  Eiriksmál for QUEST.
+              <lb/>the six enumerated a<subst><del rend="overtyped" hand="#type_black_salus">v</del><add place="superimposed" hand="#type_black_salus">b</add></subst>ove.<space quantity="2" unit="char"/>Perhaps, in view of its length, we
+              <lb/>could let Alexis have Eiriksmál for QUEST.
             </p>
             <p>
               <lb/>I heard from David Luke (from Wien) yesterday, and he tells me 
@@ -192,7 +192,7 @@
               <lb/>in doing it, but that I don't think that Bantam -- from what I
               <lb/>know of their reputation -- would be willing to pay enough.<space quantity="2" unit="char"/>It
               <lb/>is 700 pp. of difficult text, and I think I would have to ask
-              <lb/>for 5000 for what I would imagine would be a good two-year job.
+              <lb/>for 5000 for what I would imagine w<subst><del rend="overtyped" hand="#type_black_salus">i</del><add place="superimposed" hand="#type_black_salus">o</add></subst>uld be a good two-year job.
               <lb/>Please let me know what you think of this.
             </p>
             <p>
@@ -211,10 +211,10 @@
               <lb/>but I wonder if he will.
             </p>
             <p>
-              <lb/>I, incidentally, have applied for the summer Flubright to Ice-
-              <lb/>land for the yea  1968, and hope to get it -- unless my Peace
-              <lb/>activities stand in the way.<space quantity="2" unit="char"/>I ahve still not gotten my learner's
-              <lb/>permit for from the motor vehicles bureau, and I am beginning
+              <lb/>I, incidentally, have applied for the summer Fulbrig<unclear>h</unclear>t to Ice-
+              <lb/>land for <del rend="overtyped" hand="#type_black_salus">the<space quantity="1" unit="char"/>yea<space quantity="1" unit="char"/></del>  1968, and hope to get it -- unless my Peace
+              <lb/>activities stand in the way.<space quantity="2" unit="char"/>I have still not gotten my learner's
+              <lb/>permit <del rend="overtyped" hand="#type_black_salus">for</del> from the motor vehicles bureau, and I am beginning
               <lb/>to think that I never shall.
             </p>
             <closer>
@@ -223,7 +223,7 @@
                 <lb/>yourself.
               </salute>
               <signed hand="#hand_red_salus">
-                <lb/><rs type="person" ref="#amp_person_558">Peter</rs>
+                <lb/><rs type="person" ref="#amp_person_xx">Peter</rs>
               </signed>
             </closer>
           </div>
