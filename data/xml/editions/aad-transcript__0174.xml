@@ -35,6 +35,11 @@
               <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
             </interp>
+            <interp xml:id="ana_153">
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
           </interpGrp>
         </edition>
         <respStmt>
@@ -163,8 +168,8 @@
                 <lb/>Back from our Spring
                 <lb/>break (spent mine lecturing
                 <lb/>at <rs type="org" ref="#amp_organization_399">Stanford</rs>)<unclear>,</unclear> and eager to
-                <lb/>resume our cabled
-                <lb/>negotiations.
+                <lb/>resume our <rs ana="#ana_153">cabled
+                <lb/>negotiations</rs>.
               </p>
               <p>
                 <lb/>As it happens, <rs type="person" ref="#amp_person_598">Prof.
