@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0177" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Typed Letter Signed Peter H. Salus to W. H. Auden 1967-04-01--1967-05-31</title>
+        <author ref="https://d-nb.info">Salus, Peter H.</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484">Hechtl, Angelika</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Typed Letter Signed Peter H. Salus to W. H. Auden 1967-04-01--1967-05-31</title>
+          <interpGrp>
+            <interp xml:id="ana_154">
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+          <name sameAs="#ahechtl"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
+                <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
+                <collection>Documentation Center for Literature in Lower Austria</collection>
+                <idno>LS-Aud 2.33</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark/>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00530/">
+                        <width>216</width>
+                        <height>279</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00531/">
+                        <width>216</width>
+                        <height>279</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_red_salus" scribeRef="#amp_person_xx" medium="ink-red">Handwriting in red ink by Peter H. Salus</handNote>
+                  <handNote xml:id="hand_blue_unident_0177" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="type_black_salus" scribeRef="#amp_person_xx" medium="type">Typewriting in black ink by Peter H. Salus</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1967-04-01T00:00:00-05:00" notAfter-iso="1967-05-31T23:59:59-05:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4042011-5">New York City</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en"/>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1967-04-01T00:00:00-05:00" notAfter-iso="1967-05-31T23:59:59-05:00" ana="#ana_154"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#smayer" when-iso="2026-10-22">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-10-22">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-10-22">Text transcribed; hands, languages, correspondence container structure, entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="3886" lry="4892">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00530/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3888" lry="4890">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00531/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0177" xml:lang="en">
+        <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00530/" ed="1r" type="sheet"/>
+          <div type="letter_message" hand="#type_black_salus">
+            <opener>
+              <seg>
+                <placeName>
+                  <address>
+                    <lb/><rs type="place" ref="#amp_place_id_xx">749 Washington Street 
+                    <lb/>New York 10014</rs>
+                  </address>
+                </placeName>
+              </seg>
+              <salute>
+                <lb/>Dear <rs type="person" ref="#amp_person_1">Wystan</rs>,
+              </salute>
+            </opener>
+            <p>
+              <lb/>I presume that you are now safely ensconced in Kirchstetten,
+              <lb/>and are working hard.<space quantity="2" unit="char"/>I have been working on the Lichtenberg,
+              <lb/>which I hope to finish before leaving for Europe in late June,
+              <lb/>and on the Edda poems.<space quantity="2" unit="char"/>I have five or six of Paul Taylor's
+              <lb/>versions in hand right now, and I hope to get them off to you
+              <lb/>in a week or so.<space quantity="2" unit="char"/>What I have are: Skirnir's Journey (about
+              <lb/>160 lines), The Treachery of Asmund (about 100 lines), The
+              <lb/>Waking of Angantyr (120 lines), the Vafthrúdnismál (200 lines),
+              <lb/>Grimnismál (220 lines), and Eiríksmál (31 lines).<space quantity="2" unit="char"/>This last
+              <lb/>is not truly Eddic: it is one of the late poems that combines
+              <lb/>Eddic and Skaldic tradition, but of these it is the only really
+              <lb/>ssuccessful one, the only one that holds the metre.
+            </p>
+            <p>
+              <lb/>I was up at Amherst Monday, Tuesday and Wednesday of last
+              <lb/>week, and spoke to some of the people on MassReview.<space quantity="2" unit="char"/>They are
+              <lb/>very eager to have one or more of the poems, and so you might 
+              <lb/>send me the Havamal (when you finish it), and I'll forward it to
+              <lb/>them.<space quantity="2" unit="char"/>Otherwise, we might let them have some combination of
+              <lb/>the six enumerated above.<space quantity="2" unit="char"/>Perhaps, in view of its length, we
+              <lb/>could let Alexis have  Eiriksmál for QUEST.
+            </p>
+            <p>
+              <lb/>I heard from David Luke (from Wien) yesterday, and he tells me 
+              <lb/>that Bantam Books is looking for someone to redo Mann's
+              <lb/>Buddenbrooks.<space quantity="2" unit="char"/>I have told him that I would be very interested
+              <lb/>in doing it, but that I don't think that Bantam -- from what I
+              <lb/>know of their reputation -- would be willing to pay enough.<space quantity="2" unit="char"/>It
+              <lb/>is 700 pp. of difficult text, and I think I would have to ask
+              <lb/>for 5000 for what I would imagine would be a good two-year job.
+              <lb/>Please let me know what you think of this.
+            </p>
+            <p>
+              <lb/>There seem to be a round of wedding in our circle this summer:
+              <lb/>Emily Boothby in Strasbourg at the end of July and Wincie
+              <lb/>Hannesson (from Iceland) in Edinburgh in September, and (not
+              <lb/>to shock you too much) Mary and your most obt. and humble
+              <lb/>servant in Geneva the first week of July.<space quantity="2" unit="char"/>(Yes, I am serious.
+              <lb/>I have been thinking of it for some time, and we have now
+              <lb/>decided and Paul Taylor is arranging things.)
+            </p>
+            <p>
+              <lb/>David's letter, incidentally, was singularly Lukian -- he was
+              <lb/>most worried about Greece, and your words about writing for the
+              <lb/>Observer on it did not quieten him at all.<space quantity="2" unit="char"/>I told him to go,
+              <lb/>but I wonder if he will.
+            </p>
+            <p>
+              <lb/>I, incidentally, have applied for the summer Flubright to Ice-
+              <lb/>land for the yea  1968, and hope to get it -- unless my Peace
+              <lb/>activities stand in the way.<space quantity="2" unit="char"/>I ahve still not gotten my learner's
+              <lb/>permit for from the motor vehicles bureau, and I am beginning
+              <lb/>to think that I never shall.
+            </p>
+            <closer>
+              <salute>
+                <lb/>Please give my love to Chester, saving, of course, some for
+                <lb/>yourself.
+              </salute>
+              <signed hand="#hand_red_salus">
+                <lb/><rs type="person" ref="#amp_person_558">Peter</rs>
+              </signed>
+            </closer>
+          </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00531/" ed="1v" type="sheet"/>
+          <div>
+            <ab hand="#hand_blue_unident_0177">
+              <lb/>47
+            </ab>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
