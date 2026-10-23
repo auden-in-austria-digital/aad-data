@@ -204,8 +204,8 @@
                 <lb/>mine, has agreed to join us for lunch.
               </p>
               <p>
-                <lb/><space unit="char" quantity="5"/>May I ask your advice on one minor problem.<space unit="char" quantity="2"/>Your
-                <lb/>reading is the first at the <rs ana="#ana_142">Manchester Poetry Centre</rs>,
+                <lb/><space unit="char" quantity="5"/>May I ask your advice on one minor problem.<space unit="char" quantity="2"/><rs type="event" ref="#amp_event_id_415">Your
+                  <lb/>reading</rs> is the first at the <rs ana="#ana_142"><rs type="org" ref="#amp_organization_411">Manchester Poetry Centre</rs></rs>,
                 <lb/>and we hope these readings will continue into the
                 <lb/>future.<space unit="char" quantity="2"/>Should we take records for our University
                 <lb/>archives of sound, or even a complete video-tape
