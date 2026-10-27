@@ -173,6 +173,7 @@ doc
 0177                  Salus, Peter H.                                                                                                       Typed Letter Signed Peter H. Salus to W. H. Auden 1967-04-21--1967-05-31                  New York City
 0178                 Hoggart, Richard                                                                                                                  Typed Letter Signed Richard Hoggart to W. H. Auden 1967-05-25                     Birmingham
 0179                      Hughes, Ted                                                                                                                       Typed Letter Signed Ted Hughes to W. H. Auden 1966-09-14                   North Tawton
+0180                  Kraus, Wolfgang                                                                                                                   Typed Letter Signed Wolfgang Kraus to W. H. Auden 1971-07-14                         Vienna
 0146                     Auden, W. H.                                                                                                                      Typed Letter Signed W. H. Auden to Felix Braun 1958-11-03                  New York City
 0144                             N.N.                                                                                                                      Photograph N.N. House Hinterholz 6 1958-01-07--1973-09-28                   Kirchstetten
 0145                     Auden, W. H.                                                                                                                                 Telegram W. H. Auden to Herta Staub 1963-07-24                   Kirchstetten
@@ -220,30 +221,30 @@ dtype: int64
 ### `df.info()`
 ```
 <class 'pandas.DataFrame'>
-RangeIndex: 508 entries, 0 to 507
+RangeIndex: 510 entries, 0 to 509
 Data columns (total 19 columns):
  #   Column          Non-Null Count  Dtype
 ---  ------          --------------  -----
- 0   img             508 non-null    int64
- 1   lrx             508 non-null    int64
- 2   lry             508 non-null    int64
- 3   width           508 non-null    int64
- 4   height          508 non-null    int64
- 5   type            508 non-null    str  
- 6   ed              508 non-null    str  
- 7   doc             508 non-null    str  
- 8   title           508 non-null    str  
- 9   author          508 non-null    str  
- 10  author-uri      508 non-null    str  
- 11  notBefore-iso   508 non-null    str  
- 12  notAfter-iso    508 non-null    str  
- 13  place           508 non-null    str  
- 14  place-uri       508 non-null    str  
- 15  repository      508 non-null    str  
- 16  repository-uri  508 non-null    str  
- 17  collection      508 non-null    str  
- 18  idno            508 non-null    str  
+ 0   img             510 non-null    int64
+ 1   lrx             510 non-null    int64
+ 2   lry             510 non-null    int64
+ 3   width           510 non-null    int64
+ 4   height          510 non-null    int64
+ 5   type            510 non-null    str  
+ 6   ed              510 non-null    str  
+ 7   doc             510 non-null    str  
+ 8   title           510 non-null    str  
+ 9   author          510 non-null    str  
+ 10  author-uri      510 non-null    str  
+ 11  notBefore-iso   510 non-null    str  
+ 12  notAfter-iso    510 non-null    str  
+ 13  place           510 non-null    str  
+ 14  place-uri       510 non-null    str  
+ 15  repository      510 non-null    str  
+ 16  repository-uri  510 non-null    str  
+ 17  collection      510 non-null    str  
+ 18  idno            510 non-null    str  
 dtypes: int64(5), str(14)
-memory usage: 75.5 KB
+memory usage: 75.8 KB
 
 ```
