@@ -40,6 +40,11 @@
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
             </interp>
+            <interp xml:id="ana_156">
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
           </interpGrp>
         </edition>
         <respStmt>
@@ -202,7 +207,7 @@
             </p>
             <p>
               <lb/>There seem to be a round of wedding in our circle this summer:
-              <lb/>Emily Boothby in <rs type="place" ref="#amp_place_id_670">Strasbourg</rs> at the end of July and Wincie
+              <lb/><rs type="person" ref="#amp_person_707"><rs ana="#ana_156">Emily Boothby</rs></rs> in <rs type="place" ref="#amp_place_id_670">Strasbourg</rs> at the end of July and Wincie
               <lb/>Hannesson (from <rs type="place" ref="#amp_place_id_391">Iceland</rs>) in <rs type="place" ref="#amp_place_id_204">Edinburgh</rs> in September, and (not
               <lb/>to shock you too much) <rs type="person" ref="#amp_person_674">Mary</rs> and <rs type="person" ref="#amp_person_669">your most obt. and humble
               <lb/>servant</rs> in <rs type="place" ref="#amp_place_id_122">Geneva</rs> the first week of July.<space quantity="2" unit="char"/>(Yes, I am serious.
