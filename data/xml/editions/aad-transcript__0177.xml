@@ -181,8 +181,8 @@
               <lb/>versions in hand right now, and I hope to get them off to you
               <lb/>in a week or so.<space quantity="2" unit="char"/>What I have are: <rs type="lit_work" ref="#lit_work_id_445">Skirnir's Journey</rs> (about
               <lb/>160 lines), <rs type="lit_work" ref="#lit_work_id_446">The Treachery of Asmund</rs> (about 100 lines), <rs type="lit_work" ref="#lit_work_id_447">The
-              <lb/>Waking of Angantyr</rs> (120 lines), the <rs type="lit_work" ref="#lit_work_id_448">Vafthrúdnismál</rs> (200 lines),
-              <lb/><rs type="lit_work" ref="#lit_work_id_449">Grimnismál</rs> (220 lines), and <rs type="lit_work" ref="#lit_work_id_450">Eir<unclear>í</unclear><subst><del rend="overtyped" hand="#type_black_salus">l</del><add place="superimposed" hand="#type_black_salus">k</add></subst>smál</rs> (31 lines).<space quantity="2" unit="char"/>This last
+              <lb/>Waking of Angantyr</rs> (120 lines), the <rs type="lit_work" ref="#lit_work_id_448"><foreign xml:lang="non">Vafthrúdnismál</foreign></rs> (200 lines),
+              <lb/><rs type="lit_work" ref="#lit_work_id_449"><foreign xml:lang="non">Grimnismál</foreign></rs> (220 lines), and <rs type="lit_work" ref="#lit_work_id_450"><foreign xml:lang="non">Eir<unclear>í</unclear><subst><del rend="overtyped" hand="#type_black_salus">l</del><add place="superimposed" hand="#type_black_salus">k</add></subst>smál</foreign></rs> (31 lines).<space quantity="2" unit="char"/>This last
               <lb/>is not truly Eddic: it is one of the late poems that combines
               <lb/>Eddic and Skaldic tradition, but of these it is the only really
               <lb/>successful one, the only one that holds the metre.
@@ -191,10 +191,10 @@
               <lb/>I was up at <rs type="place" ref="#amp_place_id_669">Amherst</rs> Monday, Tuesday and Wednesday of last
               <lb/>week, and spoke to some of the people on <rs type="org" ref="#amp_organization_405">MassReview</rs>.<space quantity="2" unit="char"/>They are
               <lb/>very eager to have one or more of the poems, and so you might 
-              <lb/>send me the <rs type="lit_work" ref="#lit_work_id_451">Havamal</rs> (when you finish it), and I'll forward it to
+              <lb/>send me the <rs type="lit_work" ref="#lit_work_id_451"><foreign xml:lang="non">Havamal</foreign></rs> (when you finish it), and I'll forward it to
               <lb/>them.<space quantity="2" unit="char"/>Otherwise, we might let them have some combination of
               <lb/>the six enumerated a<subst><del rend="overtyped" hand="#type_black_salus">v</del><add place="superimposed" hand="#type_black_salus">b</add></subst>ove.<space quantity="2" unit="char"/>Perhaps, in view of its length, we
-              <lb/>could let <rs type="person" ref="#amp_person_672">Alexis</rs> have <rs type="lit_work" ref="#lit_work_id_450">Eiriksmál</rs> for <rs type="org" ref="#amp_organization_406">QUEST</rs>.
+              <lb/>could let <rs type="person" ref="#amp_person_672">Alexis</rs> have <rs type="lit_work" ref="#lit_work_id_450"><foreign xml:lang="non">Eiriksmál</foreign></rs> for <rs type="org" ref="#amp_organization_406">QUEST</rs>.
             </p>
             <p>
               <lb/>I heard from <rs type="person" ref="#amp_person_89">David Luke</rs> (from <rs type="place" ref="#amp_place_id_1">Wien</rs>) yesterday, and he tells me 
