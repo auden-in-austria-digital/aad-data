@@ -126,7 +126,7 @@
       </langUsage>
       <correspDesc>
         <correspAction type="sent">
-          <date notBefore-iso="1967-04-01T00:00:00-05:00" notAfter-iso="1967-05-31T23:59:59-05:00" ana="#ana_154"/>
+          <date notBefore-iso="1967-04-21T00:00:00-05:00" notAfter-iso="1967-05-31T23:59:59-05:00" ana="#ana_154"/>
         </correspAction>
         <correspAction type="received">
           <persName ref="#amp_person_1">Auden, W. H.</persName>
@@ -211,7 +211,7 @@
             </p>
             <p>
               <lb/><rs type="person" ref="#amp_person_89">David</rs>'s letter, incidentally, was singularly Lukian -- he was
-              <lb/>most <rs type="event" ref="#amp_event_id_414">worried about Greece</rs>, and your words about writing for the
+              <lb/>most worried about <rs type="event" ref="#amp_event_id_414">Greece</rs>, and your words about writing for the
               <lb/><rs type="org" ref="#amp_organization_408">Observer</rs> on it did not quieten him at all.<space quantity="2" unit="char"/>I told him to go,
               <lb/>but I wonder if he will.
             </p>
