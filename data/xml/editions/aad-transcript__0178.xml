@@ -147,10 +147,73 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0178" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0178" xml:lang="en">
+          <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00532/" ed="1r" type="sheet"/>
+            <div type="letter_message" hand="#type_black_hoggart">
+              <opener>
+                <seg hand="#print_cccs">
+                  <orgName>
+                    <lb/><rs type="org" ref="#amp_organization_xx">School of English,
+                    <lb/>The University,</rs> <rs type="place" ref="#amp_place_id_602">Birmingham</rs>, 15
+                  </orgName>
+                    <lb/>Telephone : Selly Oak 1301 
+                </seg>
+                <seg hand="#print_cccs">
+                  <orgName>
+                    <lb/><rs type="org" ref="#amp_organization_xx">Centre for Contemporary Cultural Studies</rs>
+                  </orgName>
+                    <lb/>Director : Professor Richard Hoggart
+                    <lb/>Research Fellow : Stuart Hall
+                </seg>
+                <seg>
+                  <lb/>RH/FAR<date>25th May, l967</date>
+                </seg>
+                <seg>
+                  <persName>
+                    <lb/><rs type="person" ref="#amp_person_1">W. H. Auden</rs>,
+                  </persName>
+                  <placeName>
+                    <address>
+                      <lb/><rs type="place" ref="#amp_place_id_2">Kirchstetten (Westbahn),
+                      <lb/>Hinterholz 6,
+                      <lb/>N.-Ö., Austria.</rs>
+                    </address>
+                  </placeName>
+                </seg>
+                <salute hand="#hand_black_hoggart">
+                  <lb/>Dear <rs type="person" ref="#amp_person_1">Wystan</rs>
+                </salute>
+              </opener>
+              <p>
+                <lb/>Thanks very much for your note from Kirchstetten. No, I've never
+                <lb/>received your original letter. However, that doesn't matter now and 
+                <lb/>we are delighted that you will stay with us.
+              </p>
+              <p>
+                <lb/>Perhaps some time nearer the date you would let me know just when
+                <lb/>you will be arriving and I will meet you off the train or plane. I 
+                <lb/>don't know what sort of time the University will leave you for more
+                <lb/>unofficial social affairs but if there's anybody you'd particularly
+                <lb/>like to renew acquaintance with - or meet for the first time - will you
+                <lb/>let me know and I'll do my best to fix it.
+              </p>
+              <closer>
+                <salute hand="#hand_black_hoggart">
+                  <lb/>Best wishes
+                </salute >
+                <signed hand="#hand_black_hoggart">
+                  <lb/><rs type="person" ref="#amp_person_xx">Richard</rs>
+                </signed>
+              </closer>
+            </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00533/" ed="1v" type="sheet"/>
+            <div>
+              <ab hand="#hand_blue_unident_0178">
+                <lb/>38
+              </ab>
+            </div>
+         </div>
       </div>
     </body>
   </text>
