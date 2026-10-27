@@ -35,6 +35,11 @@
               <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
             </interp>
+            <interp xml:id="ana_157">
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
           </interpGrp>
         </edition>
         <respStmt>
@@ -223,7 +228,7 @@
             </div>
             <div>
             <ab hand="#hand_blue_auden">
-              <lb/>DNSS<unclear>G</unclear>
+              <lb/><rs ana="#ana_157">DNSS<unclear>G</unclear></rs>
               <lb/>AEE
             </ab>
             <ab hand="#hand_blue_auden">

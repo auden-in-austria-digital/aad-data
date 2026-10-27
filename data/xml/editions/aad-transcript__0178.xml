@@ -89,12 +89,12 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote xml:id="hand_black_hoggart" scribeRef="#amp_person_xx" medium="ink-black">Handwriting in black ink by Richard Hoggart</handNote>
+                  <handNote xml:id="hand_black_hoggart" scribeRef="#amp_person_708" medium="ink-black">Handwriting in black ink by Richard Hoggart</handNote>
                   <handNote xml:id="hand_blue_unident_0178" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote xml:id="type_black_hoggart" scribeRef="#amp_person_xx" medium="type">Typewriting in black ink by Richard Hoggart</typeNote>
-                  <typeNote xml:id="print_cccs" scribeRef="#amp_organization_xx" medium="print">Preprinted writing authored by Centre for Contemporary Cultural Studies</typeNote>
+                  <typeNote xml:id="type_black_hoggart" scribeRef="#amp_person_708" medium="type">Typewriting in black ink by Richard Hoggart</typeNote>
+                  <typeNote xml:id="print_cccs" scribeRef="#amp_organization_445" medium="print">Preprinted writing authored by Centre for Contemporary Cultural Studies</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -159,16 +159,16 @@
               <opener>
                 <seg hand="#print_cccs">
                   <orgName>
-                    <lb/><rs type="org" ref="#amp_organization_xx">School of English,
-                    <lb/>The University,</rs></orgName> <rs type="place" ref="#amp_place_id_xx">Birmingham</rs>, 15
+                    <lb/><rs type="org" ref="#amp_organization_443">School of English,
+                    <lb/>The University,</rs></orgName> <rs type="place" ref="#amp_place_id_269">Birmingham</rs>, 15
                     <lb/>Telephone : Selly Oak 1301 
                 </seg>
                 <seg hand="#print_cccs">
                   <orgName>
-                    <lb/><rs type="org" ref="#amp_organization_xx">Centre for Contemporary Cultural Studies</rs>
+                    <lb/><rs type="org" ref="#amp_organization_445">Centre for Contemporary Cultural Studies</rs>
                   </orgName>
-                    <lb/>Director : Professor Richard Hoggart
-                    <lb/>Research Fellow : Stuart Hall
+                    <lb/>Director : <rs type="person" ref="#amp_person_708">Professor Richard Hoggart</rs>
+                  <lb/>Research Fellow : <rs type="person" ref="#amp_person_709">Stuart Hall</rs>
                 </seg>
                 <seg>
                   <lb/>RH/FAR<space quantity="51" unit="char"/><date>25th May, l967</date>
@@ -181,7 +181,7 @@
                     <address>
                       <lb/><rs type="place" ref="#amp_place_id_2">Kirchstetten (<foreign xml:lang="de">Westbahn</foreign>),
                       <lb/>Hinterholz 6,</rs>
-                      <lb/><rs type="place" ref="#amp_place_id_2"><foreign xml:lang="de">N.-<g ref="#uml_o_uc_tt">Ö</g>.</foreign>, Austria.</rs>
+                      <lb/><rs type="place" ref="#amp_place_id_6"><foreign xml:lang="de">N.-<g ref="#uml_o_uc_tt">Ö</g>.</foreign>, Austria.</rs>
                     </address>
                   </placeName>
                 </seg>
@@ -190,14 +190,14 @@
                 </salute>
               </opener>
               <p>
-                <lb/>Thanks very much for your note from Kirchstetten.<space quantity="2" unit="char"/>No, I've never
+                <lb/>Thanks very much for your note from <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs>.<space quantity="2" unit="char"/>No, I've never
                 <lb/>received your original letter.<space quantity="2" unit="char"/>However, that doesn't matter now and 
                 <lb/>we are delighted that you will stay with us.
               </p>
               <p>
                 <lb/>Perhaps some time nearer the date you would let me know just when
                 <lb/>you will be arriving and I will meet you off the train or plane.<space quantity="2" unit="char"/>I 
-                <lb/>don't know what sort of time the University will leave you for more
+                <lb/>don't know what sort of time the <rs type="org" ref="#amp_organization_444">University</rs> will leave you for more
                 <lb/>unofficial social affairs but if there's anybody you'd particularly
                 <lb/>like to renew acquaintance with - or meet for the first time - will you
                 <lb/>let me know and I'll do my best to fix it.
@@ -207,7 +207,7 @@
                   <lb/>Best wishes
                 </salute >
                 <signed>
-                  <lb/><rs type="person" ref="#amp_person_xx">Richard</rs>
+                  <lb/><rs type="person" ref="#amp_person_708">Richard</rs>
                 </signed>
               </closer>
             </div>
