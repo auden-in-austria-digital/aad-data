@@ -112,6 +112,11 @@
       <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     </xenoData>
     <encodingDesc>
+      <charDecl>
+        <glyph xml:id="uml_o_uc_tt">
+          <desc>upper-case German Ö rendered by superimposing typed double-quotation-mark character (") on typed upper-case O</desc>
+        </glyph>
+      </charDecl>
       <listPrefixDef>
         <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
       </listPrefixDef>
@@ -176,7 +181,7 @@
                     <address>
                       <lb/><rs type="place" ref="#amp_place_id_2">Kirchstetten (<foreign xml:lang="de">Westbahn</foreign>),
                       <lb/>Hinterholz 6,</rs>
-                      <lb/><rs type="place" ref="#amp_place_id_2"><foreign xml:lang="de">N.-Ö.</foreign>, Austria.</rs>
+                      <lb/><rs type="place" ref="#amp_place_id_2"><foreign xml:lang="de">N.-<g ref="#uml_o_uc_tt">Ö</g>.</foreign>, Austria.</rs>
                     </address>
                   </placeName>
                 </seg>
