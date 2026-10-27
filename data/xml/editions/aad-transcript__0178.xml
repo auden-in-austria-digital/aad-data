@@ -67,6 +67,7 @@
           <witness n="1">
             <msDesc>
               <msIdentifier>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
                 <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
                 <collection>Documentation Center for Literature in Lower Austria</collection>
                 <idno>LS-Aud 2.34</idno>
@@ -75,7 +76,7 @@
                 <objectDesc>
                   <supportDesc>
                     <support>
-                      <watermark/>
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00532/ https://iiif.acdh.oeaw.ac.at/aad/aad_00533/">Shell Bond</watermark>
                       <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00532/">
                         <width>203</width>
                         <height>253</height>
@@ -88,10 +89,12 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote/>
+                  <handNote xml:id="hand_black_hoggart" scribeRef="#amp_person_xx" medium="ink-black">Handwriting in black ink by Richard Hoggart</handNote>
+                  <handNote xml:id="hand_blue_unident_0178" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="type_black_hoggart" scribeRef="#amp_person_xx" medium="type">Typewriting in black ink by Richard Hoggart</typeNote>
+                  <typeNote xml:id="print_cccs" scribeRef="#amp_organization_xx" medium="print">Preprinted writing authored by Centre for Contemporary Cultural Studies</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -115,11 +118,23 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="en"/>
+        <language ident="de"/>
       </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1967-05-25T00:00:00+00:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
+        </correspAction>
+      </correspDesc>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2026-10-22">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-10-22">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-10-27">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-10-27">Text transcribed; hands, languages, correspondence container structure, entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
