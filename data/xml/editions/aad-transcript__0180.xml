@@ -31,9 +31,9 @@
         <edition>
           <title level="a">Typed Letter Signed Wolfgang Kraus to W. H. Auden 1971-07-14</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_158">
               <desc/>
-              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
             </interp>
           </interpGrp>
@@ -165,7 +165,7 @@
                   </persName>
                   <placeName>
                     <address>
-                      <lb/><rs type="place" ref="#amp_place_id_6">Hinterholz 5
+                      <lb/><rs type="place" ref="#amp_place_id_2">Hinterholz 5
                       <lb/>3062 Kirchstetten</rs>
                     </address>
                   </placeName>
@@ -176,38 +176,38 @@
                   </date>
                 </dateline>
                 <salute>
-                  <lb/>Sehr verehrter, lieber Herr Auden,
+                  <lb/>Sehr verehrter, lieber <rs type="person" ref="#amp_person_1">Herr Auden</rs>,
                 </salute>
               </opener>
               <p>
-                <lb/><space unit="char" quantity="4"/>Von Frau Staub habe ich erfahren, dass Sie kürzlich in
-                <lb/>England waren, und so befürchte ich fast, dass mein Brief
+                <lb/><space unit="char" quantity="4"/>Von <rs type="person" ref="#amp_person_220">Frau Staub</rs> habe ich erfahren, dass Sie kürzlich in
+                <lb/><rs type="place" ref="#amp_place_id_239">England</rs> waren, und so befürchte ich fast, dass mein Brief
                 <lb/>vom 22. Juni verlorengegangen ist.<space unit="char" quantity="2"/>Da mir an der Sache 
                 <lb/>sehr viel liegt, erlauben Sie mir, den Inhalt noch einmal
                 <lb/>kurz zusammenzufassen und Sie um Ihre Stellungnahme zu
                 <lb/>bitten:
               </p>
               <p>
-                <lb/><space unit="char" quantity="5"/>Der Europa Verlag, der ein sehr e<subst><del rend="erased" hand="#type_black_kraus"><unclear>r</unclear>h</del><add place="superimposed" hand="#type_black_kraus">hr</add></subst>geiziges literari-
+                <lb/><space unit="char" quantity="5"/>Der <rs type="org" ref="#amp_organization_26">Europa Verlag</rs>, der ein sehr e<subst><del rend="erased" hand="#type_black_kraus"><unclear>r</unclear>h</del><add place="superimposed" hand="#type_black_kraus">hr</add></subst>geiziges literari-
                 <lb/>schen Programm mit erheblichen finanziellen Mitteln aufzubau-
-                <lb/>en bestrebt ist, würde sich für eine zweisprachige Ausgabe
-                <lb/>Ihrer Gedichte aus den letzten Jahren sehr interessieren.
+                <lb/>en bestrebt ist, würde sich für eine <rs type="lit_work" ref="#lit_work_id_67">zweisprachige Ausgabe
+                <lb/>Ihrer Gedichte</rs> aus den letzten Jahren sehr interessieren.
                 <lb/>Da ich diesen Verlag berate, wüsste ich gern, wieviel an
                 <lb/>Manuskripten für eine solche Ausgabe frei wäre.<space unit="char" quantity="2"/>Die vor-
-                <lb/>züglichen Übersetzungen von Frau Stau<subst><del rend="erased" hand="#type_black_kraus">g</del><add place="superimposed" hand="#type_black_kraus">b</add></subst> und Frau Hilde
-                <lb/>Spiel könnten das Kernstück eines solchen Bandes werden.
+                <lb/>züglichen Übersetzungen von <rs type="person" ref="#amp_person_220">Frau Stau<subst><del rend="erased" hand="#type_black_kraus">g</del><add place="superimposed" hand="#type_black_kraus">b</add></subst></rs> und <rs type="person" ref="#amp_person_78">Frau Hilde
+                <lb/>Spiel</rs> könnten das Kernstück eines solchen Bandes werden.
                 <lb/>Frau Staub wäre gern bereit, mitzuarbeiten und weitere
                 <lb/>Übersetzungen zu übernehmen.
               </p>
               <p>
-                <lb/><space unit="char" quantity="4"/>Am Zustandekommen dieses Bandes - in einer schönen,
+                <lb/><space unit="char" quantity="4"/>Am Zustandekommen dieses <rs type="lit_work" ref="#lit_work_id_67">Bandes</rs> - in einer schönen,
                 <lb/>repräsentativen Ausgabe - läge mir sehr viel<add hand="#hand_blue_kraus" place="inline">,</add> und ich w<subst><del rend="erased" hand="#type_black_kraus"><unclear>ö</unclear></del><add place="superimposed" hand="#type_black_kraus">ä</add></subst>re
-                <lb/>gern b<subst><del rend="erased" hand="#type_black_kraus">r</del><add place="superimposed" hand="#type_black_kraus">e</add></subst>reit, zu Ihnen nach Kir<subst><del rend="erased" hand="#type_black_kraus">hc</del><add place="superimposed" hand="#type_black_kraus">ch</add></subst>stetten zu fahren oder,
-                <lb/>wenn Sie vielleicht einmal in der Stadt sind, wäre ein
-                <lb/>Treffen in der "Gesellschaft" möglich.
+                <lb/>gern b<subst><del rend="erased" hand="#type_black_kraus">r</del><add place="superimposed" hand="#type_black_kraus">e</add></subst>reit, zu Ihnen nach <rs type="place" ref="#amp_place_id_5">Kir<subst><del rend="erased" hand="#type_black_kraus">hc</del><add place="superimposed" hand="#type_black_kraus">ch</add></subst>stetten</rs> zu fahren oder,
+                <lb/>wenn Sie vielleicht einmal in der <rs type="place" ref="#amp_place_id_1">Stadt</rs> sind, wäre ein
+                <lb/>Treffen in der <rs type="org" ref="#amp_organization_9">"Gesellschaft"</rs> möglich.
               </p>
               <p>
-                <lb/><space unit="char" quantity="4"/>Für eine baldige Antwort wäre ich besonders dankbar.
+                <lb/><space unit="char" quantity="4"/>Für eine <rs ana="#ana_158">baldige Antwort</rs> wäre ich besonders dankbar.
               </p>
               <closer>
                 <salute>
