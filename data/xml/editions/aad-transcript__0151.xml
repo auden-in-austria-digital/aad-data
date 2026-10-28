@@ -128,7 +128,7 @@
         </correspAction>
         <correspAction type="received">
           <persName ref="#amp_person_1">Auden, W. H.</persName>
-          <placeName><rs type="place" ref="#amp_place_id_2">Kirchstetten</rs></placeName>
+          <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
         </correspAction>
       </correspDesc>
     </profileDesc>

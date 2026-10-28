@@ -10,6 +10,7 @@
         <title level="s">Auden in Austria Digital (AAD)</title>
         <title level="a">Typed Letter Signed Wolfgang Kraus to W. H. Auden 1971-07-14</title>
         <author ref="https://d-nb.info/gnd/116413298">Kraus, Wolfgang</author>
+        <author ref="https://d-nb.info/gnd/2175892-X">Austrian Society for Literature</author>
         <editor>
           <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
           <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
@@ -67,6 +68,7 @@
           <witness n="1">
             <msDesc>
               <msIdentifier>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
                 <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
                 <collection>Documentation Center for Literature in Lower Austria</collection>
                 <idno>LS-Aud 2.43</idno>
@@ -88,10 +90,12 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote/>
+                  <handNote xml:id="hand_blue_kraus" scribeRef="#amp_person_137" medium="ink-blue">Handwriting in blue ink by Wolfgang Kraus</handNote>
+                  <handNote xml:id="hand_blue_unident_0180" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="type_black_kraus" scribeRef="#amp_person_137" medium="type-black">Typewriting in black ink by Wolfgang Kraus</typeNote>
+                  <typeNote xml:id="print_black_oegfl" scribeRef="#amp_organization_9" medium="print-black">Preprinted writing in black authored by Austrian Society for Literature</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -115,11 +119,22 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="de"/>
       </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1971-07-14T00:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
+        </correspAction>
+      </correspDesc>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2026-10-27">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-10-27">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-10-28">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-10-28">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
