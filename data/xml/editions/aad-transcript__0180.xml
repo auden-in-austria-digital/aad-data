@@ -77,7 +77,7 @@
                 <objectDesc>
                   <supportDesc>
                     <support>
-                      <watermark/>
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00548/ https://iiif.acdh.oeaw.ac.at/aad/aad_00549/">Leykam Hartpost 1935</watermark>
                       <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00548/">
                         <width>209</width>
                         <height>297</height>
@@ -147,10 +147,90 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0180" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0180" xml:lang="de">
+          <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00548/" ed="1r" type="sheet"/>
+            <div type="letter_message" hand="#type_black_kraus">
+              <opener>
+                <seg hand="#print_black_oegfl">
+                  <orgName>
+                    <lb/><rs type="org" ref="#amp_organization_9">ÖSTERREICHISCHE GESELLSCHAFT FÜR LITERATUR</rs>
+                  </orgName>
+                  <lb/><placeName><address><rs type="place" ref="#amp_place_id_177">PALAIS WILCZEK, 1010 WIEN I, HERRENGASSE 5</rs></address></placeName> TEL. 63 81 59, 63 08 64
+                </seg>
+                <seg>
+                  <persName>
+                    <lb/>Herrn
+                    <lb/><rs type="person" ref="#amp_person_1">W.H. Auden</rs>
+                  </persName>
+                  <placeName>
+                    <address>
+                      <lb/><rs type="place" ref="#amp_place_id_6">Hinterholz 5
+                      <lb/>3062 Kirchstetten</rs>
+                    </address>
+                  </placeName>
+                </seg>
+                <dateline>  
+                  <date>
+                    <lb/><space unit="char" quantity="24"/><rs type="place" ref="#amp_place_id_1">Wien</rs>, 14. Juli l97l.
+                  </date>
+                </dateline>
+                <salute>
+                  <lb/>Sehr verehrter, lieber Herr Auden,
+                </salute>
+              </opener>
+              <p>
+                <lb/>Von Frau Staub habe ich erfahren, dass Sie kürzlich in
+                <lb/>England waren, und so befürchte ich fast, dass mein Brief
+                <lb/>vom 22. Juni verlorengegangen ist. Da mir an der Sache 
+                <lb/>sehr viel liegt, erlauben Sie mir, den Inhalt noch einmal
+                <lb/>kurz zusammenzufassen und Sie um Ihre Stellungnahme zu
+                <lb/>bitten:
+              </p>
+              <p>
+                <lb/>Der Europa Verlag, der ein sehr ehrgeiziges literari-
+                <lb/>schen Programm mit erheblichen finanziellen Mitteln aufzubau-
+                <lb/>en bestrebt ist, würde sich für eine zweisprachige Ausgabe
+                <lb/>Ihrer Gedichte aus den letzten Jahren sehr interessieren.
+                <lb/>Da ich diesen Verlag berate, wüsste ich gern, wieviel an
+                <lb/>Manuskripten für eine solche Ausgabe frei wäre. Die vor-
+                <lb/>züglichen Übersetzungen von Frau Staub und Frau Hilde
+                <lb/>Spiel könnten das Kernstück eines solchen Bandes werden.
+                <lb/>Frau Staub wäre gern bereit, mitzuarbeiten und weitere
+                <lb/>Übersetzungen zu übernehmen.
+              </p>
+              <p>
+                <lb/>Am Zustandekommen dieses Bandes - in einer schönen,
+                <lb/>repräsentativen Ausgabe - läge mir sehr viel, und ich wäre
+                <lb/>gern bereit, zu Ihnen nach Kirchstetten zu fahren oder,
+                <lb/>wenn Sie vielleicht einmal in der Stadt sind, wäre ein
+                <lb/>Treffen in der "Gesellschaft" möglich.
+              </p>
+              <p>
+                <lb/>Für eine baldige Antwort wäre ich besonders dankbar.
+              </p>
+              <closer>
+                <salute>
+                  <lb/><space unit="char" quantity="5"/>Mit den herzlichsten Wünschen und Grüssen
+                </salute>
+                <salute>
+                  <lb/><space unit="char" quantity="30"/>Ihr Ihnen sehr ergebener
+                </salute>
+                <signed hand="#hand_blue_kraus">
+                  <lb/><rs type="person" ref="#amp_person_137">Wolfgang Kraus</rs>
+                </signed>
+                <signed>
+                  <lb/><space unit="char" quantity="29"/>(<rs type="person" ref="#amp_person_137">Dr. Wolfgang Kraus</rs>)
+                </signed>            
+              </closer>
+            </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00549/" ed="1v" type="sheet"/>
+            <div>
+              <ab hand="#hand_blue_unident_0180">
+                <lb/>91
+              </ab>
+            </div>
+          </div>
       </div>
     </body>
   </text>
