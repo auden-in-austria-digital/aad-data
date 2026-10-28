@@ -139,6 +139,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2024-11-13">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2024-11-14">Text transcribed; physDesc and correspDesc populated; hands, languages, correspondence container structure, and entities marked up</change>
+      <change who="#tfruehwirth" when-iso="2026-10-28">Update event markup</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -204,8 +205,8 @@
               </salute>
             </opener>
             <p>
-              <lb/>Ich war so froh deinen Brief, genau a<unclear><subst><del rend="overwritten" hand="#hand_blue_auden">m</del><add place="superimposed" hand="#hand_blue_auden">n</add></subst></unclear> meinen
-              <lb/>Geburstag zu kriegen.<unclear>&#xB7;</unclear>
+              <lb/><rs type="event" ref="#amp_event_id_452">Ich war so froh deinen Brief, genau a<unclear><subst><del rend="overwritten" hand="#hand_blue_auden">m</del><add place="superimposed" hand="#hand_blue_auden">n</add></subst></unclear> meinen
+              <lb/>Geburstag zu kriegen.<unclear>&#xB7;</unclear></rs>
             </p>
             <p>
               <lb/>Natürl<unclear>i</unclear>ch, habe ich kein Wort von <rs type="person" ref="#amp_person_4">Chester</rs> gehört,
@@ -213,12 +214,12 @@
               <lb/>k<subst><del rend="overwritten" hand="#hand_blue_auden"><unclear>ann</unclear></del><add place="superimposed" hand="#hand_blue_auden">omm</add></subst>t oder was<unclear><del rend="overstrike" hand="#hand_blue_auden">s</del></unclear> ist los <unclear>b</unclear>ei dem Auto .
             </p>
             <p>
-              <lb/>Ic<subst><del rend="overwritten" hand="#hand_blue_auden">k</del><add place="superimposed" hand="#hand_blue_auden">h</add></subst> komme an <rs type="org" ref="#amp_organization_87">Schwechat</rs>, Samstag <unclear>,</unclear> <unclear>1</unclear><unclear><subst><del rend="overwritten" hand="#hand_blue_auden">4</del><add place="superimposed" hand="#hand_blue_auden">5</add></subst></unclear><hi rend="superscript">ten</hi> <unclear>Ap</unclear>ril
-              <lb/>bei <rs type="org" ref="#amp_organization_94">Panam</rs> #2, am 12&#xB7;30 wenn es punktlich ist.
+              <lb/><rs type="event" ref="#amp_event_id_453">Ic<subst><del rend="overwritten" hand="#hand_blue_auden">k</del><add place="superimposed" hand="#hand_blue_auden">h</add></subst> komme an <rs type="org" ref="#amp_organization_87">Schwechat</rs>, Samstag <unclear>,</unclear> <unclear>1</unclear><unclear><subst><del rend="overwritten" hand="#hand_blue_auden">4</del><add place="superimposed" hand="#hand_blue_auden">5</add></subst></unclear><hi rend="superscript">ten</hi> <unclear>Ap</unclear>ril
+              <lb/>bei <rs type="org" ref="#amp_organization_94">Panam</rs> #2, am 12&#xB7;30 wenn es punktlich ist.</rs>
             </p>
             <p>
-              <lb/>Bitte, wenn Du nichts von <rs type="person" ref="#amp_person_4">Chester</rs> hörst, treffe<unclear>n</unclear> mich
-              <lb/>a<unclear>m</unclear> <rs type="org" ref="#amp_organization_87">Flugplatz</rs> mit deinen Auto.
+              <lb/>Bitte, wenn Du nichts von <rs type="person" ref="#amp_person_4">Chester</rs> hörst, <rs type="event" ref="#amp_event_id_454">treffe<unclear>n</unclear> mich
+              <lb/>a<unclear>m</unclear> <rs type="org" ref="#amp_organization_87">Flugplatz</rs> mit deinen Auto</rs>.
             </p>
             <p>
               <lb/>Weniger als eine Monate, Gott sei dank , vor
