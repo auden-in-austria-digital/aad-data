@@ -141,6 +141,7 @@
       <change who="#tfruehwirth" when-iso="2024-11-19">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2024-11-19">physDesc and profileDesc populated</change>
       <change who="#tfruehwirth" when-iso="2024-11-21">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
+      <change who="#tfruehwirth" when-iso="2026-10-28">Update event markup</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -204,17 +205,17 @@
               </salute>
             </opener>
             <p>
-              <lb/>Deinen Brief dankend erhalten.
-              <lb/>Ich habe an den Versicherungsgesellschaf<unclear>f</unclear>
-              <lb/>gesch<unclear>c</unclear>rieben (hoffentlich ist die Adresse
+              <lb/><rs type="event" ref="#amp_event_id_456">Deinen Brief dankend erhalten.</rs>
+              <lb/><rs type="event" ref="#amp_event_id_457">Ich habe an den Versicherungsgesellschaf<unclear>f</unclear>
+              <lb/>gesch<unclear>c</unclear>rieben</rs> (hoffentlich ist die Adresse
               <lb/>richtig weil dein Schr<unclear>o</unclear>ft nicht
               <lb/>sehr deutlich war).
             </p>
             <p>
               <lb/>Nun über Weinachten. <del rend="overstrike" hand="#hand_blue_auden">Ich m<unclear>o</unclear>chte <gap reason="illegible" unit="char" atLeast="1" atMost="2"/>ir</del>
-              <lb/><del rend="overstrike" hand="#hand_blue_auden"><gap reason="illegible" unit="char" quantity="1"/></del>Kann ich Dich und <rs type="person" ref="#amp_person_240">Chr<unclear>is</unclear>ta</rs> einladen
+              <lb/><del rend="overstrike" hand="#hand_blue_auden"><gap reason="illegible" unit="char" quantity="1"/></del><rs type="event" ref="#amp_event_id_295">Kann ich Dich und <rs type="person" ref="#amp_person_240">Chr<unclear>is</unclear>ta</rs> einladen
               <lb/>(zu vier Tagen , dass ist , von <foreign xml:lang="en">Dec 2<unclear>4<hi rend="superscript">th</hi></unclear></foreign> bis
-              <lb/><foreign xml:lang="en">2<unclear>9</unclear><hi rend="superscript">th</hi></foreign>.
+              <lb/><foreign xml:lang="en">2<unclear>9</unclear><hi rend="superscript">th</hi></foreign></rs>.
             </p>
             <p>
               <lb/>Bitte, lass mich wissen:
