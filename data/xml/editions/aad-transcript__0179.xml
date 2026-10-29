@@ -67,6 +67,7 @@
           <witness n="1">
             <msDesc>
               <msIdentifier>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
                 <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
                 <collection>Documentation Center for Literature in Lower Austria</collection>
                 <idno>LS-Aud 2.36</idno>
@@ -88,10 +89,12 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote/>
+                  <handNote xml:id="hand_black_hughes" scribeRef="#amp_person_xx" medium="ink-black">Handwriting in black ink by Ted Hughes</handNote>
+                  <handNote xml:id="hand_blue_unident_0179" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="type_black_hughes" scribeRef="#amp_person_xx" medium="type">Typewriting in black ink by Ted Hughes</typeNote>
+                  <typeNote xml:id="print_pbs" scribeRef="#amp_organization_xx" medium="print">Preprinted writing authored by The Poetry Book Society</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -115,11 +118,22 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="en"/>
       </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1966-09-14T00:00:00+00:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
+        </correspAction>
+      </correspDesc>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2026-10-27">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-10-27">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-10-29">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-10-29">Text transcribed; hands, languages, correspondence container structure, entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -132,10 +146,113 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0179" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0179" xml:lang="en">
+          <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00538/" ed="1r" type="sheet"/>
+            <div type="letter_message" hand="#type_black_hughes">
+              <opener>
+                <seg hand="#print_pbs">
+                  <orgName>
+                    <lb/><rs type="org" ref="#amp_organization_443">The Poetry Book Society Ltd</rs>
+                  </orgName>
+                  <placeName>
+                    <address>
+                      <lb/><rs type="place" ref="#amp_place_id_269">4 ST JAMES'S SQUARE LONDON SW1</rs>
+                    </address>
+                  </placeName>
+                      <lb/>TELEPHONE: WHITEHALL 9737
+                      <lb/>
+                </seg>
+                <seg hand="#print_pbs">
+                  <lb/>Board of Management: Chairman: ROY FULLER Secretary: ERIC W. WHITE
+                  <lb/>PROFESSOR BONAMY DOBREE, O.B.E., P. F. du SAUTOY, O.B.E., FRANCIS HOPE
+                  <lb/>JOHN LEHMANN, C.B.E., STEPHEN SPENDER, C.B.E., JON STALLWORTHY, PROFESSER C. A. TRYPANIS (GREEK)
+                </seg>
+                <seg>
+                  <placeName>
+                    <address>
+                      <lb/><rs type="place" ref="#amp_place_id_269">Court Green
+                      <lb/>North Tawton
+                      <lb/>Devon, England</rs>
+                    </address>
+                  </placeName>
+                </seg>
+                <dateline>
+                  <date>
+                    <lb/>l4th Septemebr 66
+                  </date>
+                </dateline>
+                <seg>
+                  <persName>
+                    <lb/>W.H.Auden Esq., 
+                  </persName>
+                    <lb/>C/O Faber &amp; Faber Ltd.,
+                  <placeName>
+                    <address>
+                      <lb/><rs type="place" ref="#amp_place_id_269">24 Russell Square L
+                      <lb/>London W.C.l</rs>
+                    </address>
+                  </placeName>
+                </seg>
+                <salute>
+                  <lb/>Dear <rs type="person" ref="#amp_person_1">Mr Auden</rs>,
+                </salute>
+              </opener>
+              <p>
+                <lb/>We would be delighted if you would consider
+                <lb/>accepting our invitation to be our guest, here in London, from
+                <lb/>the l2th to the l6th of July, l967, at an International
+                <lb/>Festival of Spoken Poetry, and to read from your poems as part
+                <lb/>of the programme.
+              </p>
+              <p>
+                <lb/>The Festival is to be held by the Poetry Book Society,
+                <lb/>under the sponsorship of the Arts Council. Among those being
+                <lb/>invited, besides yourself, are Ingeborg Bachmann, Paul Celan,
+                <lb/>Eugenio Montale, Andrei Voznesensky, Neruda, Yehuda Amichai,
+                <lb/>Miroslav Holub, Robert Lowell, Zbigniew Herbert, Janos Pilinszky.
+              </p>
+              <p>
+                <lb/>For the five days of the Festival we shall provide five
+                <lb/>pounds per day expenses. For travel, we shall try to draw your
+                <lb/>fare from some other source, but failing that we shall provide
+                <lb/>up to fifty pounds. On top of that there will be a fee of
+                <lb/>about forty pounds.
+              </p>
+              <p>
+                <lb/>Needless to say, we are very much hoping you will be
+                <lb/>able to come.
+              </p>
+              <p>
+                <lb/>We would be grateful if you could let us have a reply as
+                <lb/>soon as possible.
+              </p>
+              <closer>
+                <salute>
+                  <lb/>Yours sincerely
+                </salute >
+                <signed hand="#hand_black_hughes">
+                  <lb/><rs type="person" ref="#amp_person_708">Ted Hughes</rs>
+                </signed>
+                <signed>
+                  <lb/>Ted Hughes
+                </signed>
+              </closer>
+              <postscript>
+                <ab>
+                  <lb/>I am enclosing a Magazine I have occasionally thought you
+                  <lb/>might like to see. The second issue, mainly French, is just
+                  <lb/>out, and I'll be sending you that too.
+                </ab>
+              </postscript>
+             </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00539/" ed="1v" type="sheet"/>
+            <div>
+              <ab hand="#hand_blue_unident_0179">
+                <lb/>37
+              </ab>
+            </div>
+          </div>
       </div>
     </body>
   </text>
