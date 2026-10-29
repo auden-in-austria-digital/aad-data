@@ -30,9 +30,9 @@
         <edition>
           <title level="a">Typed Letter Signed Ted Hughes to W. H. Auden 1966-09-14</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_159">
               <desc/>
-              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
             </interp>
           </interpGrp>
@@ -201,19 +201,19 @@
               <p>
                 <lb/><space quantity="16" unit="char"/><rs type="org" ref="#amp_organization_446">We</rs> would be delighted if you would consider
                 <lb/>accepting our invitation to be our guest, here in <rs type="place" ref="#amp_place_id_56">London</rs>, from
-                <lb/>the l2th to the l6th of July, l967, at an International
-                <lb/>Festival of Spoken Poetry, and to read from your poems as part
+                <lb/>the l2th to the l6th of July, l967, at an <rs type="event" ref="#amp_event_id_490">International
+                <lb/>Festival of Spoken Poetry</rs>, and to read from your poems as part
                 <lb/>of the programme.
               </p>
               <p>
-                <lb/><space quantity="5" unit="char"/>The Festival is to be held by the <rs type="org" ref="#amp_organization_446">Poetry Book Society</rs>,
+                <lb/><space quantity="5" unit="char"/>The <rs type="event" ref="#amp_event_id_490">Festival</rs> is to be held by the <rs type="org" ref="#amp_organization_446">Poetry Book Society</rs>,
                 <lb/>under the sponsorship of the <rs type="org" ref="#amp_organization_366">Arts Council</rs>.<space quantity="2" unit="char"/>Among those being
                 <lb/>invited, besides yourself, are <rs type="person" ref="#amp_person_374">Ingeborg Bachmann</rs>, <rs type="person" ref="#amp_person_719">Paul Celan</rs>,
                 <lb/><rs type="person" ref="#amp_person_720">Eugenio Montale</rs>, <rs type="person" ref="#amp_person_721">Andrei Voznesensky</rs>, <rs type="person" ref="#amp_person_722">Neruda</rs>, <rs type="person" ref="#amp_person_723">Yehuda Amic<subst><del rend="overtyped" hand="#type_black_hughes">j</del><add place="superimposed" hand="#type_black_hughes">h</add></subst>ai</rs>,
                 <lb/><rs type="person" ref="#amp_person_724">Miroslav Holub</rs>, <rs type="person" ref="#amp_person_725">Robert Lowell</rs>, <rs type="person" ref="#amp_person_320">Zbigniew Herbert</rs>, <rs type="person" ref="#amp_person_367">Janos Pilinszky</rs>.
               </p>
               <p>
-                <lb/><space quantity="5" unit="char"/>For the five days of the Festival we shall provide five
+                <lb/><space quantity="5" unit="char"/>For the five days of the <rs type="event" ref="#amp_event_id_490">Festival</rs> we shall provide five
                 <lb/>pounds per day expenses.<space quantity="2" unit="char"/>For travel, we shall try to draw your
                 <lb/>fare from some other source, but failing that we shall provide
                 <lb/>up to fifty pounds.<space quantity="2" unit="char"/>On top of that there will be a fee of
@@ -240,7 +240,7 @@
               </closer>
               <postscript>
                 <ab>
-                  <lb/>I am enclosing a <rs type="lit_work" ref="#lit_work_id_486">Magazine</rs> I have occasionally thought you
+                  <lb/>I am enclosing a <rs type="lit_work" ref="#lit_work_id_486"><rs ana="#ana_159">Magazine</rs></rs> I have occasionally thought you
                   <lb/>might like to see.<space quantity="2" unit="char"/>The second issue, mainly French, is just
                   <lb/>out, and I'll be sending you that too.
                 </ab>
