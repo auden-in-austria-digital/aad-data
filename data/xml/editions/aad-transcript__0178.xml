@@ -162,13 +162,15 @@
                     <lb/><rs type="org" ref="#amp_organization_443">School of English,
                     <lb/>The University,</rs></orgName> <rs type="place" ref="#amp_place_id_269">Birmingham</rs>, 15
                     <lb/>Telephone : Selly Oak 1301 
+                    <lb/>
                 </seg>
                 <seg hand="#print_cccs">
                   <orgName>
                     <lb/><rs type="org" ref="#amp_organization_445">Centre for Contemporary Cultural Studies</rs>
                   </orgName>
                     <lb/>Director : <rs type="person" ref="#amp_person_708">Professor Richard Hoggart</rs>
-                  <lb/>Research Fellow : <rs type="person" ref="#amp_person_709">Stuart Hall</rs>
+                    <lb/>Research Fellow : <rs type="person" ref="#amp_person_709">Stuart Hall</rs>
+                    <lb/>
                 </seg>
                 <seg>
                   <lb/>RH/FAR<space quantity="51" unit="char"/><date>25th May, l967</date>
@@ -190,12 +192,12 @@
                 </salute>
               </opener>
               <p>
-                <lb/>Thanks very much for your note from <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs>.<space quantity="2" unit="char"/>No, I've never
+                <lb/><space quantity="5" unit="char"/>Thanks very much for your note from <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs>.<space quantity="2" unit="char"/>No, I've never
                 <lb/>received your original letter.<space quantity="2" unit="char"/>However, that doesn't matter now and 
                 <lb/>we are delighted that you will stay with us.
               </p>
               <p>
-                <lb/>Perhaps some time nearer the <rs type="event" ref="#amp_event_id_448">date</rs> you would let me know just when
+                <lb/><space quantity="5" unit="char"/>Perhaps some time nearer the <rs type="event" ref="#amp_event_id_448">date</rs> you would let me know just when
                 <lb/>you will be arriving and I will meet you off the train or plane.<space quantity="2" unit="char"/>I 
                 <lb/>don't know what sort of time the <rs type="org" ref="#amp_organization_444">University</rs> will leave you for more
                 <lb/>unofficial social affairs but if there's anybody you'd particularly
