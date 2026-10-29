@@ -45,6 +45,11 @@
               <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
             </interp>
+            <interp xml:id="ana_160">
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
           </interpGrp>
         </edition>
         <respStmt>
@@ -223,8 +228,8 @@
             </p>
             <p>
               <lb/>I, incidentally, have applied for the summer <rs type="org" ref="#amp_organization_409">Fulbrig<unclear>h</unclear>t</rs> to <rs type="place" ref="#amp_place_id_391">Ice-
-              <lb/>land</rs> for <del rend="overtyped" hand="#type_black_salus">the<space quantity="1" unit="char"/>yea<space quantity="1" unit="char"/></del> 1968, and hope to get it -- unless my Peace
-              <lb/>activities stand in the way.<space quantity="2" unit="char"/>I have still not gotten my learner's
+                <lb/>land</rs> for <del rend="overtyped" hand="#type_black_salus">the<space quantity="1" unit="char"/>yea<space quantity="1" unit="char"/></del> 1968, and hope to get it -- <rs ana="#ana_160">unless my Peace
+              <lb/>activities stand in the way</rs>.<space quantity="2" unit="char"/>I have still not gotten my learner's
               <lb/>permit <del rend="overtyped" hand="#type_black_salus">for</del> from the motor vehicles bureau, and I am beginning
               <lb/>to think that I never shall.
             </p>
