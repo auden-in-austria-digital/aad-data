@@ -89,12 +89,12 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote xml:id="hand_black_hughes" scribeRef="#amp_person_xx" medium="ink-black">Handwriting in black ink by Ted Hughes</handNote>
+                  <handNote xml:id="hand_black_hughes" scribeRef="#amp_person_710" medium="ink-black">Handwriting in black ink by Ted Hughes</handNote>
                   <handNote xml:id="hand_blue_unident_0179" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote xml:id="type_black_hughes" scribeRef="#amp_person_xx" medium="type">Typewriting in black ink by Ted Hughes</typeNote>
-                  <typeNote xml:id="print_pbs" scribeRef="#amp_organization_xx" medium="print">Preprinted writing authored by The Poetry Book Society</typeNote>
+                  <typeNote xml:id="type_black_hughes" scribeRef="#amp_person_710" medium="type">Typewriting in black ink by Ted Hughes</typeNote>
+                  <typeNote xml:id="print_pbs" scribeRef="#amp_organization_446" medium="print">Preprinted writing authored by The Poetry Book Society</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -153,20 +153,20 @@
               <opener>
                 <seg hand="#print_pbs">
                   <orgName>
-                    <lb/><rs type="org" ref="#amp_organization_443">The Poetry Book Society Ltd</rs>
+                    <lb/><rs type="org" ref="#amp_organization_446">The Poetry Book Society Ltd</rs>
                   </orgName>
                   <placeName>
                     <address>
-                      <lb/><rs type="place" ref="#amp_place_id_269">4 ST JAMES'S SQUARE LONDON SW1</rs>
+                      <lb/><rs type="place" ref="#amp_place_id_703">4 ST JAMES'S SQUARE LONDON SW1</rs>
                     </address>
                   </placeName>
                       <lb/>TELEPHONE: WHITEHALL 9737
                       <lb/>
                 </seg>
                 <seg hand="#print_pbs">
-                  <lb/>Board of Management: Chairman: ROY FULLER<space quantity="2" unit="char"/>Secretary: ERIC W. WHITE
-                  <lb/>PROFESSOR BONAMY DOBREE, O.B.E., P. F. du SAUTOY, O.B.E., FRANCIS HOPE
-                  <lb/>JOHN LEHMANN, C.B.E., STEPHEN SPENDER, C.B.E., JON STALLWORTHY, PROFESSER C. A. TRYPANIS (GREEK)
+                  <lb/>Board of Management: Chairman: <rs type="person" ref="#amp_person_711">ROY FULLER</rs><space quantity="2" unit="char"/>Secretary: <rs type="person" ref="#amp_person_712">ERIC W. WHITE</rs>
+                  <lb/><rs type="person" ref="#amp_person_713">PROFESSOR BONAMY DOBREE, O.B.E.</rs>, <rs type="person" ref="#amp_person_714">P. F. du SAUTOY, O.B.E.</rs>, <rs type="person" ref="#amp_person_715">FRANCIS HOPE</rs>
+                  <lb/><rs type="person" ref="#amp_person_716">JOHN LEHMANN, C.B.E.</rs>, <rs type="person" ref="#amp_person_8">STEPHEN SPENDER, C.B.E.</rs>, <rs type="person" ref="#amp_person_717">JON STALLWORTHY</rs>, <rs type="person" ref="#amp_person_718">PROFESSOR C. A. TRYPANIS</rs> (GREEK)
                 </seg>
                 <seg>
                   <placeName>
@@ -206,7 +206,7 @@
                 <lb/>of the programme.
               </p>
               <p>
-                <lb/><space quantity="5" unit="char"/>The Festival is to be held by the Poetry Book Society,
+                <lb/><space quantity="5" unit="char"/>The Festival is to be held by the <rs type="org" ref="#amp_organization_446">Poetry Book Society</rs>,
                 <lb/>under the sponsorship of the Arts Council.<space quantity="2" unit="char"/>Among those being
                 <lb/>invited, besides yourself, are Ingeborg Bachmann, Paul Celan,
                 <lb/>Eugenio Montale, Andrei Voznesensky, Neruda, Yehuda Amic<subst><del rend="overtyped" hand="#type_black_hughes">j</del><add place="superimposed" hand="#type_black_hughes">h</add></subst>ai,
@@ -232,10 +232,10 @@
                   <lb/><space quantity="23" unit="char"/>Yours sincerely
                 </salute >
                 <signed hand="#hand_black_hughes">
-                  <lb/><rs type="person" ref="#amp_person_708">Ted Hughes</rs>
+                  <lb/><rs type="person" ref="#amp_person_710">Ted Hughes</rs>
                 </signed>
                 <signed>
-                  <lb/><space quantity="29" unit="char"/>Ted Hughes
+                  <lb/><space quantity="29" unit="char"/><rs type="person" ref="#amp_person_710">Ted Hughes</rs>
                 </signed>
               </closer>
               <postscript>
