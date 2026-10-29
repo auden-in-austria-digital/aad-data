@@ -164,22 +164,22 @@
                       <lb/>
                 </seg>
                 <seg hand="#print_pbs">
-                  <lb/>Board of Management: Chairman: ROY FULLER Secretary: ERIC W. WHITE
+                  <lb/>Board of Management: Chairman: ROY FULLER<space quantity="2" unit="char"/>Secretary: ERIC W. WHITE
                   <lb/>PROFESSOR BONAMY DOBREE, O.B.E., P. F. du SAUTOY, O.B.E., FRANCIS HOPE
                   <lb/>JOHN LEHMANN, C.B.E., STEPHEN SPENDER, C.B.E., JON STALLWORTHY, PROFESSER C. A. TRYPANIS (GREEK)
                 </seg>
                 <seg>
                   <placeName>
                     <address>
-                      <lb/><rs type="place" ref="#amp_place_id_269">Court Green
-                      <lb/>North Tawton
-                      <lb/>Devon, England</rs>
+                      <lb/><space quantity="45" unit="char"/><rs type="place" ref="#amp_place_id_269">Court Green
+                      <lb/><space quantity="45" unit="char"/>North Tawton
+                      <lb/><space quantity="45" unit="char"/>Devon, England</rs>
                     </address>
                   </placeName>
                 </seg>
                 <dateline>
                   <date>
-                    <lb/>l4th Septemebr 66
+                    <lb/><space quantity="45" unit="char"/>l4th Septemebr 66
                   </date>
                 </dateline>
                 <seg>
@@ -199,49 +199,49 @@
                 </salute>
               </opener>
               <p>
-                <lb/>We would be delighted if you would consider
+                <lb/><space quantity="16" unit="char"/>We would be delighted if you would consider
                 <lb/>accepting our invitation to be our guest, here in London, from
                 <lb/>the l2th to the l6th of July, l967, at an International
                 <lb/>Festival of Spoken Poetry, and to read from your poems as part
                 <lb/>of the programme.
               </p>
               <p>
-                <lb/>The Festival is to be held by the Poetry Book Society,
-                <lb/>under the sponsorship of the Arts Council. Among those being
+                <lb/><space quantity="5" unit="char"/>The Festival is to be held by the Poetry Book Society,
+                <lb/>under the sponsorship of the Arts Council.<space quantity="2" unit="char"/>Among those being
                 <lb/>invited, besides yourself, are Ingeborg Bachmann, Paul Celan,
-                <lb/>Eugenio Montale, Andrei Voznesensky, Neruda, Yehuda Amichai,
+                <lb/>Eugenio Montale, Andrei Voznesensky, Neruda, Yehuda Amic<subst><del rend="overtyped" hand="#type_black_hughes">j</del><add place="superimposed" hand="#type_black_hughes">h</add></subst>ai,
                 <lb/>Miroslav Holub, Robert Lowell, Zbigniew Herbert, Janos Pilinszky.
               </p>
               <p>
-                <lb/>For the five days of the Festival we shall provide five
-                <lb/>pounds per day expenses. For travel, we shall try to draw your
+                <lb/><space quantity="5" unit="char"/>For the five days of the Festival we shall provide five
+                <lb/>pounds per day expenses.<space quantity="2" unit="char"/>For travel, we shall try to draw your
                 <lb/>fare from some other source, but failing that we shall provide
-                <lb/>up to fifty pounds. On top of that there will be a fee of
+                <lb/>up to fifty pounds.<space quantity="2" unit="char"/>On top of that there will be a fee of
                 <lb/>about forty pounds.
               </p>
               <p>
-                <lb/>Needless to say, we are very much hoping you will be
+                <lb/><space quantity="5" unit="char"/>Needless to say, we are very much hoping you will be
                 <lb/>able to come.
               </p>
               <p>
-                <lb/>We would be grateful if you could let us have a reply as
+                <lb/><space quantity="5" unit="char"/>We would be grateful if you could let us have a reply as
                 <lb/>soon as possible.
               </p>
               <closer>
                 <salute>
-                  <lb/>Yours sincerely
+                  <lb/><space quantity="23" unit="char"/>Yours sincerely
                 </salute >
                 <signed hand="#hand_black_hughes">
                   <lb/><rs type="person" ref="#amp_person_708">Ted Hughes</rs>
                 </signed>
                 <signed>
-                  <lb/>Ted Hughes
+                  <lb/><space quantity="29" unit="char"/>Ted Hughes
                 </signed>
               </closer>
               <postscript>
                 <ab>
                   <lb/>I am enclosing a Magazine I have occasionally thought you
-                  <lb/>might like to see. The second issue, mainly French, is just
+                  <lb/>might like to see.<space quantity="2" unit="char"/>The second issue, mainly French, is just
                   <lb/>out, and I'll be sending you that too.
                 </ab>
               </postscript>
