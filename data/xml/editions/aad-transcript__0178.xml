@@ -30,9 +30,9 @@
         <edition>
           <title level="a">Typed Letter Signed Richard Hoggart to W. H. Auden 1967-05-25</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_161">
               <desc/>
-              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
             </interp>
           </interpGrp>
@@ -194,7 +194,7 @@
               <p>
                 <lb/><space quantity="5" unit="char"/>Thanks very much for your note from <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs>.<space quantity="2" unit="char"/>No, I've never
                 <lb/>received your original letter.<space quantity="2" unit="char"/>However, that doesn't matter now and 
-                <lb/>we are delighted that you will stay with us.
+                <lb/>we are delighted that you will <rs ana="#ana_161">stay with us</rs>.
               </p>
               <p>
                 <lb/><space quantity="5" unit="char"/>Perhaps some time nearer the <rs type="event" ref="#amp_event_id_448">date</rs> you would let me know just when
