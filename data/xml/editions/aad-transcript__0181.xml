@@ -97,12 +97,12 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote xml:id="hand_blue_kline" scribeRef="#amp_person_xx" medium="ink-blue">Handwriting in blue ink by George L. Kline</handNote>
+                  <handNote xml:id="hand_blue_kline" scribeRef="#amp_person_758" medium="ink-blue">Handwriting in blue ink by George L. Kline</handNote>
                   <handNote xml:id="hand_blue_unident_0181" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote xml:id="type_black_kline" scribeRef="#amp_person_xx" medium="type">Typewriting in black ink by George L. Kline</typeNote>
-                  <typeNote xml:id="print_bryn_mawr_college" scribeRef="#amp_organization_xx" medium="print">Preprinted writing authored by Bryn Mawr College</typeNote>
+                  <typeNote xml:id="type_black_kline" scribeRef="#amp_person_758" medium="type">Typewriting in black ink by George L. Kline</typeNote>
+                  <typeNote xml:id="print_bryn_mawr_college" scribeRef="#amp_organization_479" medium="print">Preprinted writing authored by Bryn Mawr College</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -170,10 +170,10 @@
                 <seg hand="#print_bryn_mawr_college">
                     <lb/>DEPARTMENT OF PHILOSOPHY
                   <orgName>
-                    <lb/><rs type="org" ref="#amp_organization_xx">BRYN MAWR COLLEGE</rs>
+                    <lb/><rs type="org" ref="#amp_organization_479">BRYN MAWR COLLEGE</rs>
                    </orgName>
                   <placeName>
-                    <lb/><rs type="place" ref="#amp_place_id_269">BRYN MAWR, PA.</rs> 19010
+                    <lb/><rs type="place" ref="#amp_place_id_738">BRYN MAWR, PA.</rs> 19010
                   </placeName>
                 </seg>
                 <dateline>
@@ -182,11 +182,11 @@
                   </date>
                 </dateline>
                 <salute>
-                  <lb/>Dear Mr. Auden,
+                  <lb/>Dear <rs type="person" ref="#amp_person_1">Mr. Auden</rs>,
                 </salute>
               </opener>
               <p>
-                <lb/><space quantity="4" unit="char"/>As you may know, Iosif Brodsky spent a week with us at
+                <lb/><space quantity="4" unit="char"/>As you may know, <rs type="person" ref="#amp_person_759">Iosif Brodsky</rs> spent a week with <rs type="person" ref="#amp_person_758"><rs type="person" ref="#amp_person_760">us</rs></rs> at
                 <lb/>our lakeside cottage in the Berkshires (July 21-27), during
                 <lb/>which time he and I worked very hard on the final revisions
                 <lb/>of my translations for the Penguin volume.<space quantity="2" unit="char"/>(It was during 
@@ -291,10 +291,10 @@
                 <lb/><space quantity="24" unit="char"/>Cordially,
               </salute >
               <signed hand="#hand_blue_kline">
-                <lb/><rs type="person" ref="#amp_person_xx">George K.</rs>
+                <lb/><rs type="person" ref="#amp_person_758">George K.</rs>
               </signed>
               <signed>
-                <lb/><space quantity="24" unit="char"/>George L. Kline
+                <lb/><space quantity="24" unit="char"/><rs type="person" ref="#amp_person_758">George L. Kline</rs>
               </signed>
             </closer>
               <postscript>
