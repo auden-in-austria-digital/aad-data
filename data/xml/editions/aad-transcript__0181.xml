@@ -187,7 +187,7 @@
               </opener>
               <p>
                 <lb/><space quantity="4" unit="char"/>As you may know, <rs type="person" ref="#amp_person_759">Iosif Brodsky</rs> spent a week with <rs type="person" ref="#amp_person_758"><rs type="person" ref="#amp_person_760">us</rs></rs> at
-                <lb/>our lakeside cottage in the Berkshires (July 21-27), during
+                <lb/>our lakeside cottage in the <rs type="place" ref="#amp_place_id_739">Berkshires</rs> (July 21-27), during
                 <lb/>which time he and I worked very hard on the final revisions
                 <lb/>of my translations for the Penguin volume.<space quantity="2" unit="char"/>(It was during 
                 <lb/>an afternoon nap in our tree-house that he dreamed vividly
