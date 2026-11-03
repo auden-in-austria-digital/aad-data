@@ -170,10 +170,10 @@
                 <seg hand="#print_bryn_mawr_college">
                     <lb/>DEPARTMENT OF PHILOSOPHY
                   <orgName>
-                    <lb/><rs type="org" ref="#amp_organization_443">BRYN MAWR COLLEGE</rs>
+                    <lb/><rs type="org" ref="#amp_organization_xx">BRYN MAWR COLLEGE</rs>
                    </orgName>
                   <placeName>
-                    <lb/><rs type="place" ref="#amp_place_id_269">BRYN MAWR, PA. 19010</rs>
+                    <lb/><rs type="place" ref="#amp_place_id_269">BRYN MAWR, PA.</rs> 19010
                   </placeName>
                 </seg>
                 <dateline>
@@ -196,8 +196,8 @@
               </p>
               <p>
                 <lb/><space quantity="4" unit="char"/>The MS is now ready to go off to London, except for the
-                <lb/>translation of a new (1972) poem of 82 lines called <hi rend="underline" hand="#type_black_kline">Candle</hi>-
-                <lb/><hi rend="underline" hand="#type_black_kline">mas</hi>.<space quantity="2" unit="char"/>(I'll send you a copy of that ranslatio within the
+                <lb/>translation of a new (1972) poem of 72 lines called <hi rend="underline" hand="#type_black_kline">Candle</hi>-
+                <lb/><hi rend="underline" hand="#type_black_kline">mas</hi>.<space quantity="2" unit="char"/>(I'll send you a copy of that translation within the
                 <lb/>next few days.)<space quantity="2" unit="char"/>Nikos Stangos assures me that on a "special
                 <lb/>schedule" the book can be published in March, 1973.
               </p>
@@ -255,7 +255,7 @@
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00546/" ed="2r" type="sheet"/>
             <div type="letter_message" hand="#type_black_kline">
               <ab>
-                <lb/>- 2 -
+                <lb/><space quantity="23" unit="char"/>- 2 -
               </ab>
               <p>
                 <lb/><space quantity="7" unit="char"/>(c) From <hi rend="underline" hand="#type_black_kline">Gorbunov and Gorchakov</hi>, Canto X
@@ -274,7 +274,7 @@
               <p>
                 <lb/><space quantity="7" unit="char"/>Iosif and I would, of course, be delighted if you
                 <lb/>should feel inspired by any of these poems to add either
-                <lb/>new quotations or further comments to your already splendid
+                <lb/>new quotations or further comments to your a<unclear><add hand="#type_black_kline" place="superimposed">l</add></unclear>ready splendid
                 <lb/>Foreword.<space quantity="2" unit="char"/>But if you shouldn't, we'll understand perfectly.
               </p>
               <p>
