@@ -150,11 +150,11 @@
                 <placeName>
                   <address>
                    <lb/><rs type="place" ref="#amp_place_id_2">Gerechtigkeitsg.22
-                   <lb/>8002  Z ü r i c h</rs>
+                   <lb/>8002<space quantity="3" unit="char"/>Z ü r i c h</rs>
                   </address>
                 </placeName>
                 <dateline>
-                  <lb/><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>3l.Mai l972</date>
+                  <lb/><space quantity="31" unit="char"/><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>3l.Mai l972</date>
                 </dateline>
                 <salute>
                   <lb/>Sehr geehrte gnädige Frau<rs type="person" ref="#amp_person_1"></rs>,
@@ -190,10 +190,10 @@
                 <lb/>Mit den besten Empfehlungen
               </salute>
                 <salute>
-                  <lb/>Ihr
+                  <lb/><space quantity="31" unit="char"/>Ihr
                 </salute>
                 <signed>
-                  <lb/><space quantity="34" unit="char"/>(<rs type="person" ref="#amp_person_137">Dr.Wolfgang Kraus</rs>)
+                  <lb/><space quantity="23" unit="char"/>(<rs type="person" ref="#amp_person_137">Dr.Wolfgang Kraus</rs>)
                 </signed>
               </closer>
             </div>
