@@ -67,6 +67,7 @@
           <witness n="1">
             <msDesc>
               <msIdentifier>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
                 <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
                 <collection>Documentation Center for Literature in Lower Austria</collection>
                 <idno>LS-Aud 2.44</idno>
@@ -91,7 +92,7 @@
                   <handNote/>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="type_cc_kraus" scribeRef="#amp_person_137" medium="type-cc">Carbon copy of typewriting authored by Wolfgang Kraus</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -115,11 +116,13 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="de"/>
       </langUsage>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2026-11-04">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-11-04">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-11-04">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-11-04">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -132,11 +135,71 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0182" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0182" xml:lang="de">
+          <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00550/" ed="1r" type="sheet"/>
+            <div type="letter_message" hand="#type_cc_kraus">
+              <opener>
+                  <lb/>Frau
+                <persName>
+                  <lb/><rs type="person" ref="#amp_person_1">Marianne Sparr</rs>
+                </persName>
+                <orgName>
+                  <lb/>Linder AG
+                </orgName>
+                <placeName>
+                  <address>
+                   <lb/><rs type="place" ref="#amp_place_id_2">Gerechtigkeitsg.22
+                   <lb/>8002  Z ü r i c h</rs>
+                  </address>
+                </placeName>
+                <dateline>
+                  <lb/><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>3l.Mai l972</date>
+                </dateline>
+                <salute>
+                  <lb/>Sehr geehrte gnädige Frau<rs type="person" ref="#amp_person_1"></rs>,
+                </salute>
+              </opener>
+              <p>
+                <lb/>das ist es ja eben: Die endgültige Auswahl der Gedichte
+                <lb/>wird Ende Juni von Herrn Auden selbst getroffen. Sie
+                <lb/>werden aber doch verstehen, dass es für uns schwerlich
+                <lb/>zumutbar ist, die ganze Vorarbeit mit den Übersetzungen
+                <lb/>durchzuführen, ohne einen Vertrag in der Hand zu haben.
+                <lb/>Herr Auden hat uns bereits im vergangenen August zuge-
+                <lb/>sagt, dass wir die Möglichkeit haben, einen zweispra-
+                <lb/>chigen Gedichtband im Gesamtumfang von etwa 300 Seiten
+                <lb/>vorzubereiten, wobei die Übersetzer selbst nach ihrer
+                <lb/>inneren Beziehung Gedichte auswählen und übersetzen
+                <lb/>sollen, deren Gesamtredaktion Herr Auden überprüft und
+                <lb/>mit uns gemeinsam veranstaltet. Leider war es mir trotz
+                <lb/>mehrfachen Bitten nicht möglich,auf Grund dieser Zusage
+                <lb/>des Autors einen entsprechenden Vertrag zu erhalten.
+                <lb/>Auch jetzt schicken Sie mir noch keinen. Es muss doch
+                <lb/>möglich sein, auf der genannten Basis (oben bezeichneter
+                <lb/>Umfang, sowie eine vom Autor gutgeheißene Auswahl)
+                <lb/>einen Vertrag von Ihnen zu bekommen, wenn der Autor es
+                <lb/>so will.
+              </p>
+              <p>
+                <lb/>Eine Fotokopie Ihres Schreibens sowie einen Durchschlag
+                <lb/>dieses Briefes darf ich Herrn Auden zuschicken.
+              </p>
+              <closer>
+              <salute>
+                <lb/>Mit den besten Empfehlungen
+              </salute>
+                <salute>
+                  <lb/>Ihr
+                </salute>
+                <signed>
+                  <lb/><space quantity="34" unit="char"/>(<rs type="person" ref="#amp_person_137">Dr.Wolfgang Kraus</rs>)
+                </signed>
+              </closer>
+            </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00551/" ed="1v" type="sheet"/>
       </div>
+     </div>
     </body>
   </text>
 </TEI>
