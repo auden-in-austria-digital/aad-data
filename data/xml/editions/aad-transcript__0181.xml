@@ -129,6 +129,7 @@
         <language ident="en"/>
         <language ident="de"/>
         <language ident="la"/>
+        <language ident="fr"/>
       </langUsage>
       <correspDesc>
         <correspAction type="sent">
@@ -222,7 +223,7 @@
                 <lb/>revisions and a new 3-line variant
               </p>
               <p>
-                <lb/><space quantity="8" unit="char"/>(b) <hi rend="underline" hand="#type_black_kline">Einem alten Architekten in Rom</hi> -- because of
+                <lb/><space quantity="8" unit="char"/>(b) <hi rend="underline" hand="#type_black_kline"><foreign xml:lang="de">Einem alten Architekten in Rom</foreign></hi> -- because of
                 <lb/>extensive revisions and important footnotes.
               </p>
               <p>
@@ -261,10 +262,10 @@
                 <lb/><space quantity="7" unit="char"/>(c) From <hi rend="underline" hand="#type_black_kline">Gorbunov and Gorchakov</hi>, Canto X
               </p>
               <p>
-                <lb/><space quantity="7" unit="char"/>(d) <hi rend="underline" hand="#type_black_kline">Post Aetatem Nostram</hi>
+                <lb/><space quantity="7" unit="char"/>(d) <hi rend="underline" hand="#type_black_kline"><foreign xml:lang="la">Post Aetatem Nostram</foreign></hi>
               </p>
               <p>
-                <lb/><space quantity="7" unit="char"/>(e) <hi rend="underline" hand="#type_black_kline">Nature Morte</hi><space quantity="2" unit="char"/>(you <hi rend="underline" hand="#type_black_kline">may</hi> have seen this; a slightly
+                <lb/><space quantity="7" unit="char"/>(e) <hi rend="underline" hand="#type_black_kline"><foreign xml:lang="fr">Nature Morte</foreign></hi><space quantity="2" unit="char"/>(you <hi rend="underline" hand="#type_black_kline">may</hi> have seen this; a slightly
                 <lb/>less thoroughly revised version appeared in <rs type="org" ref="#amp_organization_513"><hi rend="underline" hand="#type_black_kline">Satur</hi>-
                 <lb/><hi rend="underline" hand="#type_black_kline">day Review</hi>: <hi rend="underline" hand="#type_black_kline">The Arts</hi></rs>, August 12, 1972, p. 45)
               </p>
