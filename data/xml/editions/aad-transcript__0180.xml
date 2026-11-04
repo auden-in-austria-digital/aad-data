@@ -156,7 +156,8 @@
                   <orgName>
                     <lb/><rs type="org" ref="#amp_organization_9">ÖSTERREICHISCHE GESELLSCHAFT FÜR LITERATUR</rs>
                   </orgName>
-                  <lb/><placeName><address><rs type="place" ref="#amp_place_id_177">PALAIS WILCZEK, 1010 WIEN I, HERRENGASSE 5</rs></address></placeName> TEL. 63 81 59, 63 08 64
+                  <lb/><address><rs type="place" ref="#amp_place_id_177">PALAIS WILCZEK, 1010 WIEN I, HERRENGASSE 5</rs></address> TEL. 63 81 59, 63 08 64
+                  <lb/>
                 </seg>
                 <seg>
                   <persName>
