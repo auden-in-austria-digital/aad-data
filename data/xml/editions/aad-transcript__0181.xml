@@ -30,9 +30,9 @@
         <edition>
           <title level="a">Typed Letter Signed George L. Kline to W. H. Auden 1972-08-28</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_162">
               <desc/>
-              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
             </interp>
           </interpGrp>
@@ -143,7 +143,7 @@
     <revisionDesc status="draft">
       <change who="#smayer" when-iso="2026-11-02">TEI/XML template populated with csv2xml.py</change>
       <change who="#smayer" when-iso="2026-11-02">physDesc and profileDesc populated</change>
-      <change who="#smayer" when-iso="2026-11-02">Text transcribed; hands, languages, correspondence container structure, entities marked up</change>
+      <change who="#smayer" when-iso="2026-11-04">Text transcribed; hands, languages, correspondence container structure, entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -186,31 +186,31 @@
                 </salute>
               </opener>
               <p>
-                <lb/><space quantity="4" unit="char"/>As you may know, <rs type="person" ref="#amp_person_759">Iosif Brodsky</rs> spent a week with <rs type="person" ref="#amp_person_758"><rs type="person" ref="#amp_person_760">us</rs></rs> at
+                <lb/><space quantity="4" unit="char"/>As you may know, <rs type="person" ref="#amp_person_759">Iosif Brodsky</rs> spent a <rs type="event" ref="#amp_event_id_523">week with <rs type="person" ref="#amp_person_758"><rs type="person" ref="#amp_person_760">us</rs></rs></rs> at
                 <lb/>our lakeside cottage in the <rs type="place" ref="#amp_place_id_739">Berkshires</rs> (July 21-27), during
                 <lb/>which time he and I worked very hard on the final revisions
-                <lb/>of my translations for the Penguin volume.<space quantity="2" unit="char"/>(It was during 
+                <lb/>of my translations for the <rs type="lit_work" ref="#lit_work_id_519">Penguin volume</rs>.<space quantity="2" unit="char"/>(It was during 
                 <lb/>an afternoon nap in our tree-house that he dreamed vividly
-                <lb/>of you and Chester K.; the postcard was written as soon as
+                <lb/>of you and <rs type="person" ref="#amp_person_4">Chester K.</rs>; the postcard was written as soon as
                 <lb/>he got up.)
               </p>
               <p>
-                <lb/><space quantity="4" unit="char"/>The MS is now ready to go off to London, except for the
+                <lb/><space quantity="4" unit="char"/>The MS is now ready to go off to <rs type="place" ref="#amp_place_id_56">London</rs>, except for the
                 <lb/>translation of a new (1972) poem of 72 lines called <hi rend="underline" hand="#type_black_kline">Candle</hi>-
                 <lb/><hi rend="underline" hand="#type_black_kline">mas</hi>.<space quantity="2" unit="char"/>(I'll send you a copy of that translation within the
-                <lb/>next few days.)<space quantity="2" unit="char"/>Nikos Stangos assures me that on a "special
-                <lb/>schedule" the book can be published in March, 1973.
+                <lb/>next few days.)<space quantity="2" unit="char"/><rs type="person" ref="#amp_person_793">Nikos Stangos</rs> assures me that on a "special
+                <lb/>schedule" the <rs type="lit_work" ref="#lit_work_id_519">book</rs> can be published in March, 1973.
               </p>
               <p>
                 <lb/><space quantity="4" unit="char"/>I'm sending you herewith copies of several parts of the
                 <lb/>final MS, viz.:
               </p>
               <p>
-                <lb/><space quantity="4" unit="char"/>(1) The Table of Contents -- as rearranged by Iosif,
+                <lb/><space quantity="4" unit="char"/>(1) The Table of Contents -- as rearranged by <rs type="person" ref="#amp_person_759">Iosif</rs>,
                 <lb/>and with a few titles and first lines altered.
               </p>
               <p>
-                <lb/><space quantity="4" unit="char"/>(2) Your Foreword, retyped to take account of revisions
+                <lb/><space quantity="4" unit="char"/>(2) Your <rs type="lit_work" ref="#lit_work_id_552">Foreword</rs>, retyped to take account of revisions
                 <lb/>in several of the passages which you quote.
               </p>
               <p>
@@ -228,16 +228,16 @@
               <p>
                 <lb/><space quantity="8" unit="char"/>(c) <hi rend="underline" hand="#type_black_kline">Two Hours in a Dry Reservoir</hi> -- because of 
                 <lb/>important revisions, new footnotes, and the new
-                <lb/>style -- which Iosif urged on me -- of writing
+                <lb/>style -- which <rs type="person" ref="#amp_person_759">Iosif</rs> urged on me -- of writing
                 <lb/>the "German" words and phrases without either
                 <lb/>italics or capitalized nouns (for the reasons,
                 <lb/>see fn. 2).
               </p>
               <p>
                 <lb/><space quantity="4" unit="char"/>(4) The translations of six poems that you haven't yet
-                <lb/>seen.<space quantity="2" unit="char"/>(As you probably know, Barbara Epstein plans
-                <lb/>to publish some of these in the <hi rend="underline" hand="#type_black_kline">New York Review of</hi> 
-                <lb/><hi rend="underline" hand="#type_black_kline">Books</hi>.)
+                <lb/>seen.<space quantity="2" unit="char"/>(As you probably know, <rs type="person" ref="#amp_person_555">Barbara Epstein</rs> plans
+                <lb/>to <rs type="lit_work" ref="#lit_work_id_553">publish some of these</rs> in the <hi rend="underline" hand="#type_black_kline"><rs type="org" ref="#amp_organization_362">New York Review of
+                <lb/>Books</rs></hi> .)
               </p>
               <p>
                 <lb/><space quantity="8" unit="char"/>(a) From <hi rend="underline" hand="#type_black_kline">The School Anthology</hi>: <hi rend="underline" hand="#type_black_kline">Albert Frolov</hi>
@@ -265,23 +265,23 @@
               </p>
               <p>
                 <lb/><space quantity="7" unit="char"/>(e) <hi rend="underline" hand="#type_black_kline">Nature Morte</hi><space quantity="2" unit="char"/>(you <hi rend="underline" hand="#type_black_kline">may</hi> have seen this; a slightly
-                <lb/>less thoroughly revised version appeared in <hi rend="underline" hand="#type_black_kline">Satur</hi>-
-                <lb/><hi rend="underline" hand="#type_black_kline">day Review</hi>: <hi rend="underline" hand="#type_black_kline">The Arts</hi>, August 12, 1972, p. 45)
+                <lb/>less thoroughly revised version appeared in <rs type="org" ref="#amp_organization_513"><hi rend="underline" hand="#type_black_kline">Satur</hi>-
+                <lb/><hi rend="underline" hand="#type_black_kline">day Review</hi>: <hi rend="underline" hand="#type_black_kline">The Arts</hi></rs>, August 12, 1972, p. 45)
               </p>
               <p>
                 <lb/><space quantity="8" unit="char"/>(f) <hi rend="underline" hand="#type_black_kline">Odysseus to Telemachus</hi>
               </p>
               <p>
-                <lb/><space quantity="7" unit="char"/>Iosif and I would, of course, be delighted if you
+                <lb/><space quantity="7" unit="char"/><rs type="person" ref="#amp_person_759">Iosif</rs> and I would, of course, be delighted if you
                 <lb/>should feel inspired by any of these poems to add either
                 <lb/>new quotations or further comments to your a<unclear><add hand="#type_black_kline" place="superimposed">l</add></unclear>ready splendid
-                <lb/>Foreword.<space quantity="2" unit="char"/>But if you shouldn't, we'll understand perfectly.
+                <lb/><rs type="lit_work" ref="#lit_work_id_552">Foreword</rs>.<space quantity="2" unit="char"/>But if you shouldn't, we'll understand perfectly.
               </p>
               <p>
                 <lb/><space quantity="3" unit="char"/>We are in any case enormously grateful to you for your
-                <lb/>warm and generous help and encouragement to Iosif, especial-
-                <lb/>ly during his difficult and bewildering "June days" in Vienna
-                <lb/>and London.
+                <lb/>warm and generous help and encouragement to <rs type="person" ref="#amp_person_759">Iosif</rs>, especial-
+                <lb/>ly during <rs ana="#ana_162">his difficult and bewildering "June days" in Vienna
+                <lb/>and London</rs>.
               </p>
             <closer>
               <salute>
@@ -299,12 +299,12 @@
             </closer>
               <postscript>
                 <ab>
-                  <lb/>P.S. I greatly enjoyed your review of the Kessler diaries
-                  <lb/><space quantity="5" unit="char"/>in the <hi rend="underline" hand="#type_black_kline">NYRB</hi> for August 31st. The quotations from
+                  <lb/>P.S. I greatly enjoyed your <rs type="lit_work" ref="#lit_work_id_554">review of the <rs type="person" ref="#amp_person_794"><rs type="lit_work" ref="#lit_work_id_555">Kessler</rs> diaries</rs></rs>
+                  <lb/><space quantity="5" unit="char"/>in the <rs type="org" ref="#amp_organization_362"><hi rend="underline" hand="#type_black_kline">NYRB</hi></rs> for August 31st. The quotations from
                   <lb/><space quantity="5" unit="char"/>Kessler which you have assembled are quite fascinating.
                 </ab>
                 <signed hand="#hand_blue_kline">
-                  -GLK
+                  -<rs type="person" ref="#amp_person_758">GLK</rs>
                 </signed>
               </postscript>
               <postscript>
