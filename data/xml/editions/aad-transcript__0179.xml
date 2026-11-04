@@ -153,7 +153,7 @@
               <opener>
                 <seg hand="#print_pbs">
                   <orgName>
-                    <lb/><rs type="org" ref="#amp_organization_446">The Poetry Book Society Ltd</rs>
+                    <lb/><rs type="org" ref="#amp_organization_446"><hi rend="italic" hand="#print_pbs">The Poetry Book Society Ltd</hi></rs>
                   </orgName>
                   <placeName>
                     <address>
@@ -164,7 +164,7 @@
                       <lb/>
                 </seg>
                 <seg hand="#print_pbs">
-                  <lb/>Board of Management: Chairman: <rs type="person" ref="#amp_person_711">ROY FULLER</rs><space quantity="2" unit="char"/>Secretary: <rs type="person" ref="#amp_person_712">ERIC W. WHITE</rs>
+                  <lb/><hi rend="italic" hand="#print_pbs">Board of Management: Chairman:</hi> <rs type="person" ref="#amp_person_711">ROY FULLER</rs><space quantity="2" unit="char"/><hi rend="italic" hand="#print_pbs">Secretary:</hi> <rs type="person" ref="#amp_person_712">ERIC W. WHITE</rs>
                   <lb/><rs type="person" ref="#amp_person_713">PROFESSOR BONAMY DOBREE, O.B.E.</rs>, <rs type="person" ref="#amp_person_714">P. F. du SAUTOY, O.B.E.</rs>, <rs type="person" ref="#amp_person_715">FRANCIS HOPE</rs>
                   <lb/><rs type="person" ref="#amp_person_716">JOHN LEHMANN, C.B.E.</rs>, <rs type="person" ref="#amp_person_8">STEPHEN SPENDER, C.B.E.</rs>, <rs type="person" ref="#amp_person_717">JON STALLWORTHY</rs>, <rs type="person" ref="#amp_person_718">PROFESSOR C. A. TRYPANIS</rs> (GREEK)
                 </seg>
