@@ -142,14 +142,14 @@
               <opener>
                   <lb/>Frau
                 <persName>
-                  <lb/><rs type="person" ref="#amp_person_1">Marianne Sparr</rs>
+                  <lb/><rs type="person" ref="#amp_person_796">Marianne Sparr</rs>
                 </persName>
                 <orgName>
-                  <lb/>Linder AG
+                  <lb/><rs type="org" ref="#amp_organization_515">Linder AG</rs>
                 </orgName>
                 <placeName>
                   <address>
-                   <lb/><rs type="place" ref="#amp_place_id_2">Gerechtigkeitsg.22
+                   <lb/><rs type="place" ref="#amp_place_id_772">Gerechtigkeitsg.22
                    <lb/>8002<space quantity="3" unit="char"/>Z ü r i c h</rs>
                   </address>
                 </placeName>
@@ -157,24 +157,24 @@
                   <lb/><space quantity="31" unit="char"/><rs type="place" ref="#amp_place_id_1">Wien</rs>, <date>3l.Mai l972</date>
                 </dateline>
                 <salute>
-                  <lb/>Sehr geehrte gnädige Frau<rs type="person" ref="#amp_person_1"></rs>,
+                  <lb/>Sehr geehrte <rs type="person" ref="#amp_person_796">gnädige Frau</rs>,
                 </salute>
               </opener>
               <p>
                 <lb/>das ist es ja eben: Die endgültige Auswahl der Gedichte
-                <lb/>wird Ende Juni von Herrn Auden selbst getroffen. Sie
+                <lb/>wird Ende Juni von <rs type="person" ref="#amp_person_1">Herrn Auden</rs> selbst getroffen. Sie
                 <lb/>werden aber doch verstehen, dass es für uns schwerlich
                 <lb/>zumutbar ist, die ganze Vorarbeit mit den Übersetzungen
                 <lb/>durchzuführen, ohne einen Vertrag in der Hand zu haben.
                 <lb/>Herr Auden hat uns bereits im vergangenen August zuge-
-                <lb/>sagt, dass wir die Möglichkeit haben, einen zweispra-
-                <lb/>chigen Gedichtband im Gesamtumfang von etwa 300 Seiten
+                <lb/>sagt, dass wir die Möglichkeit haben, einen <rs type="lit_work" ref="#lit_work_id_67">zweispra-
+                <lb/>chigen Gedichtband</rs> im Gesamtumfang von etwa 300 Seiten
                 <lb/>vorzubereiten, wobei die Übersetzer selbst nach ihrer
                 <lb/>inneren Beziehung Gedichte auswählen und übersetzen
                 <lb/>sollen, deren Gesamtredaktion Herr Auden überprüft und
                 <lb/>mit uns gemeinsam veranstaltet. Leider war es mir trotz
                 <lb/>mehrfachen Bitten nicht möglich,auf Grund dieser Zusage
-                <lb/>des Autors einen entsprechenden Vertrag zu erhalten.
+                <lb/>des <rs type="person" ref="#amp_person_1">Autors</rs> einen entsprechenden Vertrag zu erhalten.
                 <lb/>Auch jetzt schicken Sie mir noch keinen. Es muss doch
                 <lb/>möglich sein, auf der genannten Basis (oben bezeichneter
                 <lb/>Umfang, sowie eine vom Autor gutgeheißene Auswahl)
@@ -183,7 +183,7 @@
               </p>
               <p>
                 <lb/>Eine Fotokopie Ihres Schreibens sowie einen Durchschlag
-                <lb/>dieses Briefes darf ich Herrn Auden zuschicken.
+                <lb/>dieses Briefes darf ich <rs type="person" ref="#amp_person_1">Herrn Auden</rs> zuschicken.
               </p>
               <closer>
               <salute>
