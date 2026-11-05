@@ -90,7 +90,7 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote xml:id="hand_black_kraus" scribeRef="#amp_person_137" medium="ink-black">Handwriting in blue ink by Wolfgang Kraus</handNote>
+                  <handNote xml:id="hand_black_kraus" scribeRef="#amp_person_137" medium="ink-black">Handwriting in black ink by Wolfgang Kraus</handNote>
                 </handDesc>
                 <typeDesc>
                   <typeNote xml:id="type_black_kraus" scribeRef="#amp_person_137" medium="type-black">Typewriting in black ink by Wolfgang Kraus</typeNote>
@@ -166,33 +166,36 @@
                 <seg hand="#print_black_ev">
                   <orgName>
                     <lb/><rs type="org" ref="#amp_organization_9">EV</rs>
-                    <lb/>
                   </orgName>
                 </seg>
                 <seg hand="#print_black_ev">
                   <orgName>
                     <lb/><rs type="org" ref="#amp_organization_9">Europaverlag</rs>
                   </orgName>
+                  <placeName>
                     <lb/>Wien
                     <lb/>München
                     <lb/>Zürich
+                  </placeName>
                 </seg>
                 <seg hand="#print_black_ev">
                   <orgName>
                     <lb/><rs type="org" ref="#amp_organization_9">Europa Verlags-A.G.</rs>
                   </orgName>
+                  <placeName>
                   <address>
                     <lb/><rs type="place" ref="#amp_place_id_177">Altmannsdorfer
                     <lb/>Straße 154-156
                     <lb/>A-1232 Wien</rs>
                   </address> 
+                  </placeName>
                     <lb/>Telefon
                     <lb/>(0 222) 67 26 22
                     <lb/>Telex Nr. 01-326
                 </seg>
                 <dateline>  
                   <date>
-                    <lb/><space unit="char" quantity="29"/><rs type="place" ref="#amp_place_id_1">Wien</rs>, 26.Mai l972
+                    <lb/><space unit="char" quantity="30"/><rs type="place" ref="#amp_place_id_1">Wien</rs>, 26.Mai l972
                   </date>
                 </dateline>
                 <salute>
@@ -201,9 +204,9 @@
               </opener>
               <p>
                 <lb/>es hat mich sehr gefreut, Sie wiederzusehen und mit
-                <lb/>Ihnen den geplanten lyrik-Band durchgesprochen zu haben.
+                <lb/>Ihnen den geplanten Lyrik-Band durchgesprochen zu haben.
                 <lb/>Ich hoffe, von Ihrem Agenten nun bald Nachricht zu be-
-                <lb/>kommen. Wie vereinbart, schicke ich Ihnen beiliegend die
+                <lb/>kommen. Wie vereinbart<unclear><add hand="#hand_black_kraus" place="inline">,</add></unclear> schicke ich Ihnen beiliegend die
                 <lb/>bereits vorliegenden Übersetzungen und wäre Ihnen dank-
                 <lb/>bar, wenn Sie sie genau durchsehen wollten. Weitere
                 <lb/>werden demnächst folgen.
@@ -212,19 +215,19 @@
                 <lb/>Ich wünsche Ihnen eine gute und produktive Zeit und bin 
                 <lb/><salute>mit den herzlichsten Grüssen</salute>
                 <salute>
-                  <lb/>Ihr
+                  <lb/><space unit="char" quantity="30"/>Ihr
                 </salute>
                 <signed hand="#hand_black_kraus">
                   <lb/><rs type="person" ref="#amp_person_137">Wolfgang Kraus</rs>
                 </signed>
                 <signed>
-                  <lb/>(Dr.Wolfgang Kraus)
+                  <lb/><space unit="char" quantity="21"/>(Dr.Wolfgang Kraus)
                 </signed>
               </closer>
                 <postscript>
                   <ab>
                     <lb/>P.S.Beiliegend die Fotokopie eines Briefes der Linder AG
-                    <lb/>und unsere Antwort darauf.
+                    <lb/><space unit="char" quantity="4"/>und unsere Antwort darauf.
                   </ab>
                 </postscript>
             </div>
