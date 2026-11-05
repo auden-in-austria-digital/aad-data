@@ -94,7 +94,7 @@
                 </handDesc>
                 <typeDesc>
                   <typeNote xml:id="type_black_kraus" scribeRef="#amp_person_137" medium="type-black">Typewriting in black ink by Wolfgang Kraus</typeNote>
-                  <typeNote xml:id="print_black_ev" scribeRef="#amp_organization_x" medium="print-black">Preprinted writing in black authored by Europaverlag publishing company</typeNote>
+                  <typeNote xml:id="print_black_ev" scribeRef="#amp_organization_26" medium="print-black">Preprinted writing in black authored by Europaverlag publishing company</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -165,26 +165,26 @@
                 </seg>
                 <seg hand="#print_black_ev">
                   <orgName>
-                    <lb/><rs type="org" ref="#amp_organization_9">EV</rs>
+                    <lb/><rs type="org" ref="#amp_organization_26">EV</rs>
                   </orgName>
                 </seg>
                 <seg hand="#print_black_ev">
                   <orgName>
-                    <lb/><rs type="org" ref="#amp_organization_9">Europaverlag</rs>
+                    <lb/><rs type="org" ref="#amp_organization_26">Europaverlag</rs>
                   </orgName>
                   <placeName>
-                    <lb/>Wien
-                    <lb/>München
-                    <lb/>Zürich
+                    <lb/><rs type="place" ref="#amp_place_id_1">Wien</rs>
+                    <lb/><rs type="place" ref="#amp_place_id_26">München</rs>
+                    <lb/><rs type="place" ref="#amp_place_id_503">Zürich</rs>
                   </placeName>
                 </seg>
                 <seg hand="#print_black_ev">
                   <orgName>
-                    <lb/><rs type="org" ref="#amp_organization_9">Europa Verlags-A.G.</rs>
+                    <lb/><rs type="org" ref="#amp_organization_26">Europa Verlags-A.G.</rs>
                   </orgName>
                   <placeName>
                   <address>
-                    <lb/><rs type="place" ref="#amp_place_id_177">Altmannsdorfer
+                    <lb/><rs type="place" ref="#amp_place_id_805">Altmannsdorfer
                     <lb/>Straße 154-156
                     <lb/>A-1232 Wien</rs>
                   </address> 
@@ -204,7 +204,7 @@
               </opener>
               <p>
                 <lb/>es hat mich sehr gefreut, Sie wiederzusehen und mit
-                <lb/>Ihnen den geplanten Lyrik-Band durchgesprochen zu haben.
+                <lb/>Ihnen den geplanten <rs type="lit_work" ref="#lit_work_id_67">Lyrik-Band durchgesprochen</rs> zu haben.
                 <lb/>Ich hoffe, von Ihrem Agenten nun bald Nachricht zu be-
                 <lb/>kommen. Wie vereinbart<unclear><add hand="#hand_black_kraus" place="inline">,</add></unclear> schicke ich Ihnen beiliegend die
                 <lb/>bereits vorliegenden Übersetzungen und wäre Ihnen dank-
@@ -221,13 +221,13 @@
                   <lb/><rs type="person" ref="#amp_person_137">Wolfgang Kraus</rs>
                 </signed>
                 <signed>
-                  <lb/><space unit="char" quantity="21"/>(Dr.Wolfgang Kraus)
+                  <lb/><space unit="char" quantity="21"/>(<rs type="person" ref="#amp_person_137">Dr.Wolfgang Kraus</rs>)
                 </signed>
               </closer>
                 <postscript>
                   <ab>
-                    <lb/>P.S.Beiliegend die Fotokopie eines Briefes der Linder AG
-                    <lb/><space unit="char" quantity="4"/>und unsere Antwort darauf.
+                    <lb/>P.S.Beiliegend die Fotokopie eines Briefes der <rs type="org" ref="#amp_organization_515">Linder AG</rs>
+                    <lb/><space unit="char" quantity="4"/>und <rs type="org" ref="#amp_organization_26">unsere</rs> Antwort darauf.
                   </ab>
                 </postscript>
             </div>
