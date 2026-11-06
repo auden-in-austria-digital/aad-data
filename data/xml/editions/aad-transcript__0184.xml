@@ -67,6 +67,7 @@
           <witness n="1">
             <msDesc>
               <msIdentifier>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
                 <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
                 <collection>Documentation Center for Literature in Lower Austria</collection>
                 <idno>LS-Aud 2.46</idno>
@@ -88,10 +89,11 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote/>
+                  <handNote xml:id="hand_blue_kyrou" scribeRef="#amp_person_xx" medium="ink-blue">Handwriting in blue ink by Kleitos S. Kyrou</handNote>
+                  <handNote xml:id="hand_blue_unident_0184" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="print_black_kyrou" scribeRef="#amp_person_xx" medium="print">Preprinted writing in black authored by Kleitos S. Kyrou</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -115,11 +117,22 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="en"/>
       </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1973-08-13T00:00:00+02:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
+        </correspAction>
+      </correspDesc>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2026-11-05">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-11-05">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-11-06">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-11-06">Text transcribed; hands, languages, correspondence container structure, entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -132,10 +145,79 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0184" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0184" xml:lang="en">
+          <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00554/" ed="1r" type="card"/>
+            <div type="letter_message" hand="#hand_blue_kyrou">
+              <opener>
+                <salute>
+                  <lb/>Dear <rs type="person" ref="#amp_person_1">Mr. Auden</rs>-
+                </salute>
+              </opener>
+              <p>
+                <lb/>This small selection of
+                <lb/>your poetry, transplanted
+                <lb/>into greek, includes:
+              </p>
+              <p>
+                <lb/>1. Who's Who
+                <lb/>2. O what is that sound which
+                <lb/>so thrills the ear
+                <lb/>3. Epitaph on a Tyrant
+                <lb/>4. Rimbaud
+                <lb/>5. Say this city has 10.000.000 souls
+                <lb/>&#42; 6. These are stirring times for 
+                <lb/>the editors of newspapers
+                <lb/>&#42; 7. Herod
+                <lb/>&#42; 8. Well, so that is that. Now
+                <lb/>we must dismantle the Tree
+                <lb/>The Unknown Citizen.
+              </p>
+              <closer>
+                <salute>
+                  <lb/>With best regards
+                </salute>
+                <signed>
+                  <lb/><gap reason="illegible" unit="char" atLeast="5" atMost="7"></gap>
+                </signed>
+              </closer>
+              <dateline>
+                <date>
+                  <lb/>Aug<unclear>.</unclear> 13<unclear>.</unclear>1973
+                </date>
+              </dateline>
+              <postscript>
+                <ab>
+                  <lb/>&#42; From "For the Time Being"
+                </ab>
+              </postscript>
+            </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00555/" ed="1v" type="card"/>
+            <div>
+              <ab hand="#hand_blue_unident_0184">
+                <lb/>85
+              </ab>
+              <ab hand="#print_black_kyrou">
+                <lb/>ΚΛΕΙΤΟΣ Σ. ΚΥΡΟΥ
+              </ab>
+              <ab hand="#hand_blue_kyrou">
+                <lb/>KLITOS S. KYROU
+              </ab>
+              <ab hand="#hand_blue_kyrou">
+                <lb/>VAS. OLGA AVE. 85
+              </ab>
+              <ab hand="#print_black_kyrou">
+                <lb/>ΒΑΣ. ΟΛΓΑΣ 85
+                <lb/>THΛ. 832.919
+              </ab>
+              <ab hand="#hand_blue_kyrou">
+                <lb/>THESSALONIKI
+              </ab>
+              <ab hand="#print_black_kyrou">
+                <lb/>ΘΕΣΣΑΛΟΝΙΚΗ
+              </ab>
+            </div>
+          </div>
       </div>
     </body>
   </text>
