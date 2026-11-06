@@ -89,11 +89,11 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote xml:id="hand_blue_kyrou" scribeRef="#amp_person_xx" medium="ink-blue">Handwriting in blue ink by Kleitos S. Kyrou</handNote>
+                  <handNote xml:id="hand_blue_kyrou" scribeRef="#amp_person_829" medium="ink-blue">Handwriting in blue ink by Kleitos S. Kyrou</handNote>
                   <handNote xml:id="hand_blue_unident_0184" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote xml:id="print_black_kyrou" scribeRef="#amp_person_xx" medium="print">Preprinted writing in black authored by Kleitos S. Kyrou</typeNote>
+                  <typeNote xml:id="print_black_kyrou" scribeRef="#amp_person_829" medium="print">Preprinted writing in black authored by Kleitos S. Kyrou</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -188,7 +188,7 @@
               </dateline>
               <postscript>
                 <ab>
-                  <lb/>&#42; From "For the Time Being"
+                  <lb/>&#42; From <rs type="lit_work" ref="#lit_work_id_55">"For the Time Being"</rs>
                 </ab>
               </postscript>
             </div>
@@ -198,23 +198,23 @@
                 <lb/>85
               </ab>
               <ab hand="#print_black_kyrou">
-                <lb/>ΚΛΕΙΤΟΣ Σ. ΚΥΡΟΥ
+                <lb/><rs type="person" ref="#amp_person_829">ΚΛΕΙΤΟΣ Σ. ΚΥΡΟΥ</rs>
               </ab>
               <ab hand="#hand_blue_kyrou">
-                <lb/>KLITOS S. KYROU
+                <lb/><rs type="person" ref="#amp_person_829">KLITOS S. KYROU</rs>
               </ab>
               <ab hand="#hand_blue_kyrou">
-                <lb/>VAS. OLGA AVE. 85
+                <lb/><rs type="place" ref="#amp_place_id_807">VAS. OLGA AVE. 85</rs>
               </ab>
               <ab hand="#print_black_kyrou">
-                <lb/>ΒΑΣ. ΟΛΓΑΣ 85
+                <lb/><rs type="place" ref="#amp_place_id_807">ΒΑΣ. ΟΛΓΑΣ 85</rs>
                 <lb/>THΛ. 832.919
               </ab>
               <ab hand="#hand_blue_kyrou">
-                <lb/>THESSALONIKI
+                <lb/><rs type="place" ref="#amp_place_id_806">THESSALONIKI</rs>
               </ab>
               <ab hand="#print_black_kyrou">
-                <lb/>ΘΕΣΣΑΛΟΝΙΚΗ
+                <lb/><rs type="place" ref="#amp_place_id_806">ΘΕΣΣΑΛΟΝΙΚΗ</rs>
               </ab>
             </div>
           </div>
