@@ -199,13 +199,13 @@
                 <lb/>October llth, a seat reservation for the l0 a.m. from
                 <lb/><rs type="place" ref="#amp_place_id_558">Euston</rs>, and your Pullman reservation for the 5 p.m.
                 <lb/>from <rs type="place" ref="#amp_place_id_557">Manchester</rs>.<space unit="char" quantity="2"/>I will meet you at <rs type="place" ref="#amp_place_id_559">Manchester
-                <lb/>Piccadilly</rs>, and I have arranged a lunch immediately
+                <lb/>Piccadilly</rs>, and I have arranged a <rs type="event" ref="#amp_event_id_527">lunch</rs> immediately
                 <lb/>afterwards.<space unit="char" quantity="2"/><rs type="person" ref="#amp_person_550">Philip Larkin</rs>, who is an old friend of
                 <lb/>mine, has agreed to join us for lunch.
               </p>
               <p>
                 <lb/><space unit="char" quantity="5"/>May I ask your advice on one minor problem.<space unit="char" quantity="2"/><rs type="event" ref="#amp_event_id_415">Your
-                  <lb/>reading</rs> is the first at the <rs ana="#ana_142"><rs type="org" ref="#amp_organization_411">Manchester Poetry Centre</rs></rs>,
+                <lb/>reading</rs> is the first at the <rs ana="#ana_142"><rs type="org" ref="#amp_organization_411">Manchester Poetry Centre</rs></rs>,
                 <lb/>and we hope these readings will continue into the
                 <lb/>future.<space unit="char" quantity="2"/>Should we take records for our University
                 <lb/>archives of sound, or even a complete video-tape
