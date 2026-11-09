@@ -160,18 +160,18 @@
                 <lb/>into greek, includes:
               </p>
               <p>
-                <lb/>1. Who's Who
-                <lb/>2. O what is that sound which
-                <lb/>so thrills the ear
-                <lb/>3. Epitaph on a Tyrant
-                <lb/>4. Rimbaud
-                <lb/>5. Say this city has 10.000.000 souls
-                <lb/>&#42; 6. These are stirring times for 
-                <lb/>the editors of newspapers
-                <lb/>&#42; 7. Herod
-                <lb/>&#42; 8. Well, so that is that. Now
-                <lb/>we must dismantle the Tree
-                <lb/>The Unknown Citizen.
+                <lb/>1. <rs type="lit_work" ref="#lit_work_id_556">Who's Who</rs>
+                <lb/>2. <rs type="lit_work" ref="#lit_work_id_558">O what is that sound which
+                <lb/>so thrills the ear</rs>
+                <lb/>3. <rs type="lit_work" ref="#lit_work_id_559">Epitaph on a Tyrant</rs>
+                <lb/>4. <rs type="lit_work" ref="#lit_work_id_560">Rimbaud</rs>
+                <lb/>5. <rs type="lit_work" ref="#lit_work_id_562">Say this city has 10.000.000 souls</rs>
+                <lb/>&#42; 6. <rs type="lit_work" ref="#lit_work_id_55">These are stirring times for 
+                <lb/>the editors of newspapers</rs>
+                <lb/>&#42; 7. <rs type="lit_work" ref="#lit_work_id_55">Herod</rs>
+                <lb/>&#42; 8. <rs type="lit_work" ref="#lit_work_id_55">Well, so that is that. Now
+                <lb/>we must dismantle the Tree</rs>
+                <lb/><rs type="lit_work" ref="#lit_work_id_563">The Unknown Citizen</rs>.
               </p>
               <closer>
                 <salute>
