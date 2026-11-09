@@ -152,7 +152,7 @@
             <div type="letter_message" hand="#hand_blue_kyrou">
               <opener>
                 <salute>
-                  <lb/>Dear <rs type="person" ref="#amp_person_1">Mr. Auden</rs>-
+                  <lb/>Dear <rs type="person" ref="#amp_person_1">Mr. Auden</rs> -
                 </salute>
               </opener>
               <p>
@@ -182,7 +182,7 @@
                   <lb/><gap reason="illegible" unit="char" atLeast="5" atMost="7"></gap>
                 </signed>
               </closer>
-              <dateline>
+              <dateline hand="#hand_blue_kyrou">
                 <date>
                   <lb/>Aug<unclear>.</unclear> 13<unclear>.</unclear>1973
                 </date>
