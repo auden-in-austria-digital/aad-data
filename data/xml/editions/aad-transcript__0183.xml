@@ -167,6 +167,7 @@
                   <orgName>
                     <lb/><rs type="org" ref="#amp_organization_26">EV</rs>
                   </orgName>
+                    <lb/>
                 </seg>
                 <seg hand="#print_black_ev">
                   <orgName>
@@ -177,18 +178,17 @@
                     <lb/><rs type="place" ref="#amp_place_id_26">München</rs>
                     <lb/><rs type="place" ref="#amp_place_id_503">Zürich</rs>
                   </placeName>
+                    <lb/>
                 </seg>
                 <seg hand="#print_black_ev">
                   <orgName>
                     <lb/><rs type="org" ref="#amp_organization_26">Europa Verlags-A.G.</rs>
                   </orgName>
-                  <placeName>
                   <address>
                     <lb/><rs type="place" ref="#amp_place_id_805">Altmannsdorfer
                     <lb/>Straße 154-156
                     <lb/>A-1232 Wien</rs>
                   </address> 
-                  </placeName>
                     <lb/>Telefon
                     <lb/>(0 222) 67 26 22
                     <lb/>Telex Nr. 01-326
