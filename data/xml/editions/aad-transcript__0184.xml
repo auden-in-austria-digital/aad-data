@@ -118,6 +118,7 @@
     <profileDesc>
       <langUsage>
         <language ident="en"/>
+        <language ident="el"/>
       </langUsage>
       <correspDesc>
         <correspAction type="sent">
@@ -207,14 +208,14 @@
                 <lb/><rs type="place" ref="#amp_place_id_807">VAS. OLGA AVE. 85</rs>
               </ab>
               <ab hand="#print_black_kyrou">
-                <lb/><rs type="place" ref="#amp_place_id_807">ΒΑΣ. ΟΛΓΑΣ 85</rs>
+                <lb/><rs type="place" ref="#amp_place_id_807"><foreign xml:lang="el">ΒΑΣ. ΟΛΓΑΣ 85</foreign></rs>
                 <lb/>THΛ. 832.919
               </ab>
               <ab hand="#hand_blue_kyrou">
                 <lb/><rs type="place" ref="#amp_place_id_806">THESSALONIKI</rs>
               </ab>
               <ab hand="#print_black_kyrou">
-                <lb/><rs type="place" ref="#amp_place_id_806">ΘΕΣΣΑΛΟΝΙΚΗ</rs>
+                <lb/><rs type="place" ref="#amp_place_id_806"><foreign xml:lang="el">ΘΕΣΣΑΛΟΝΙΚΗ</foreign></rs>
               </ab>
             </div>
           </div>
