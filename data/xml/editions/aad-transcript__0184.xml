@@ -30,9 +30,9 @@
         <edition>
           <title level="a">Autograph Card Signed Kleitos S. Kyrou to W. H. Auden 1973-08-13</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_163">
               <desc/>
-              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
             </interp>
           </interpGrp>
@@ -156,9 +156,9 @@
                 </salute>
               </opener>
               <p>
-                <lb/>This small selection of
+                <lb/>This small <rs ana="#ana_163">selection of
                 <lb/>your poetry, transplanted
-                <lb/>into greek, includes:
+                <lb/>into greek</rs>, includes:
               </p>
               <p>
                 <lb/>1. <rs type="lit_work" ref="#lit_work_id_556">Who's Who</rs>
