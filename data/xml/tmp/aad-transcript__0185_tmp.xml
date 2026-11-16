@@ -105,7 +105,7 @@
               <history>
                 <origin>
                   <origDate notBefore-iso="1973-09-04T00:00:00+00:00" notAfter-iso="1973-09-04T23:59:59+00:00"/>
-                  <origPlace ref="https://d-nb.info/gnd/4044234-2">Oxford</origPlace>
+                  <origPlace ref="https://d-nb.info">Shotheids</origPlace>
                 </origin>
               </history>
             </msDesc>
@@ -127,7 +127,7 @@
       </langUsage>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2026-11-09">TEI/XML template populated with csv2xml.py</change>
+      <change who="#tfruehwirth" when-iso="2026-11-16">TEI/XML template populated with csv2xml.py</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
