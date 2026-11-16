@@ -163,8 +163,55 @@
   <text>
     <body>
       <div type="transcription" xml:id="transcription_aad_0185" xml:lang="en">
-        <div/>
+          <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00556/" ed="1r" type="sheet"/>
+            <div type="letter_message" hand="#type_black_luke">
+              <opener>
+                <seg>
+                  <lb/><space quantity="45" unit="char"/>as from
+                </seg>
+                <seg hand="#print_luke">
+                  <lb/><hi rend="italic" hand="#print_luke">From <persName>Dr. F. D. Luke</persName>, Christ Church, <placeName>Oxford</placeName></hi>. <seg hand="#type_black_luke">(z.Zt.Shotheids)</seg> <hi rend="italic" hand="#print_luke">Tel. Oxford 41357</hi>
+                </seg>
+                <dateline hand="#hand_black_luke">
+                  <date>
+                    <lb/>4 Sept. 73
+                  </date>
+                </dateline>
+                <salute hand="#hand_black_luke">
+                  <lb/>Dear <rs type="person" ref="#amp_person_1">Wystan</rs>
+                </salute>
+              </opener>
+              <p>
+                <lb/><space quantity="5" unit="char"/>It's <subst><del rend="overtyped" hand="#type_black_luke">d</del><add place="superimposed" hand="#type_black_luke">s</add></subst>ad about T<unclear>o</unclear>lkien. I'm very sorry you didn't see him again. As for
+                <lb/>myself, one of the things I shall most regret all my life is missing an eve<subst><del rend="overtyped" hand="#type_black_luke">h</del><add place="superimposed" hand="#type_black_luke">n</add></subst>ing
+                <lb/>on which, soon after he came back to Oxford, Eric Dodd<subst><del rend="overtyped" hand="#type_black_luke">'</del><add place="superimposed" hand="#type_black_luke">s</add></subst> brought him into dinner
+                <lb/>and afterwards in CR, I'm told, he talked for ages about his work - I didn't
+                <lb/>stay for CR because, absurdly, I failed to real<subst><del rend="overtyped" hand="#type_black_luke">l</del><add place="superimposed" hand="#type_black_luke">i</add></subst>se who Eric's guest was.
+              </p>
+              <p>
+                <lb/><space quantity="3" unit="char"/>I've now done the remaining <hi rend="underline" hand="#type_black_luke">Ro<subst><del rend="overtyped" hand="#type_black_luke">a</del><add place="superimposed" hand="#type_black_luke">m</add></subst>an Elegies</hi> and revised the others as best I
+                <lb/>can and added the inevitable annotations (that was a labour, but interesting)
+                <lb/>- I think the latter should all come together at th<subst><del rend="overtyped" hand="#type_black_luke"><gap reason="illegible" quantity="1" unit="char"></gap></del><add place="superimposed" hand="#type_black_luke">e</add></subst> end.<space quantity="2" unit="char"/>This Xerox copy isn't
+                <lb/>very clear, I'm afraid, but the best I can do in these parts, short of retyping
+                <lb/>the lot - this will have to be done in the end of course before the thing is
+                <lb/>sent to Peter Jay, but I didn't want to ask the Tutors' Secretar<subst><del rend="overtyped" hand="#type_black_luke">t</del><add place="superimposed" hand="#type_black_luke">y</add></subst> to begin that
+                <lb/>until hearing from you whether you have any suggestions about further alterations.
+              </p>
+              <p>
+                <lb/><space quantity="3" unit="char"/>I thought again about the problem of the metre and tried to clarify <subst><del rend="overtyped" hand="#type_black_luke">n6</del><add place="superimposed" hand="#type_black_luke">my</add></subst> ideas
+                <lb/>(see Notes)<subst><del rend="overtyped" hand="#type_black_luke">:</del><add place="superimposed" hand="#type_black_luke">;</add></subst> they seem more or less to agree with the principles underlying yo<subst><del rend="overtyped" hand="#type_black_luke">r</del><add place="superimposed" hand="#type_black_luke">u</add></subst>r
+                <lb/>"Natural Linguistics" and your piece in hexameters about insects (what a <hi rend="underline" hand="#type_black_luke"><subst><del rend="overtyped" hand="#type_black_luke">a</del><add place="superimposed" hand="#type_black_luke">d</add></subst>amne</hi>d
+                <lb/>good poem that is! I didn't re<subst><del rend="overtyped" hand="#type_black_luke">l</del><add place="superimposed" hand="#type_black_luke">a</add></subst>lly take it in till the other day; and how I
+                <lb/>agree with what it says - <hi rend="underline" hand="#type_black_luke">pace</hi> St.Isaac the Syrian, apud Lossky "The Mystical
+                <lb/>Theology of the <subst><del rend="overtyped" hand="#type_black_luke"><unclear>O</unclear></del><add place="superimposed" hand="#type_black_luke">E</add></subst>astern Ch." which I am currently reading with great admiration;
+                <lb/>he wrote that one should be "burning with charity for the whole of creation,
+                <lb/>for men, for the birds, for the beasts, for the demons"(!)"-for all cr<subst><del rend="overtyped" hand="#type_black_luke">w</del><add place="superimposed" hand="#type_black_luke">e</add></subst>atures...
+                <lb/>Such a man never ceases to pray also for the animals, for the enemies of Truth,
+                <lb/>and for those who do him ev<subst><del rend="overtyped" hand="#type_black_luke">ei</del><add place="superimposed" hand="#type_black_luke">il</add></subst>, that they may be preserved an purified. He will
+                <lb/>pray even for the reptiles, moved by the infinite pity <subst><del rend="overtyped" hand="#type_black_luke">e</del><add place="superimposed" hand="#type_black_luke">w</add></subst>hich" etc.etc. Rather
+                <lb/>a tall order).
+              </p>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00557/" ed="1v" type="sheet"/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00558/" ed="2r" type="sheet"/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00559/" ed="2v" type="sheet"/>
