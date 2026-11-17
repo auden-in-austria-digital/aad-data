@@ -171,7 +171,7 @@
                   <lb/><space quantity="45" unit="char"/>as from
                 </seg>
                 <seg hand="#print_luke">
-                  <lb/><hi rend="italic" hand="#print_luke">From <persName>Dr. F. D. Luke</persName>, Christ Church, <placeName>Oxford</placeName></hi>. <seg hand="#type_black_luke">(z.Zt.Shotheids)</seg> <hi rend="italic" hand="#print_luke">Tel. Oxford 41357</hi>
+                  <lb/><hi rend="italic" hand="#print_luke">From <persName>Dr. F. D. Luke</persName>, Christ Church, <placeName>Oxford</placeName></hi>. <seg hand="#type_black_luke">(<foreign xml:lang="de">z.Zt.</foreign>Shotheids)</seg> <hi rend="italic" hand="#print_luke">Tel. Oxford 41357</hi>
                 </seg>
                 <dateline hand="#hand_black_luke">
                   <date>
@@ -211,6 +211,33 @@
                 <lb/>and for those who do him ev<subst><del rend="overtyped" hand="#type_black_luke">ei</del><add place="superimposed" hand="#type_black_luke">il</add></subst>, that they may be preserved an purified. He will
                 <lb/>pray even for the reptiles, moved by the infinite pity <subst><del rend="overtyped" hand="#type_black_luke">e</del><add place="superimposed" hand="#type_black_luke">w</add></subst>hich" etc.etc. Rather
                 <lb/>a tall order).
+              </p>
+              <p>
+                <lb/><space quantity="3" unit="char"/>I hope you &amp; Chester are well.<space quantity="2" unit="char"/>I heard you were on great form at the Poetry
+                <lb/>International and were very kind to my friend Al<subst><del rend="overtyped" hand="#type_black_luke">si</del><add place="superimposed" hand="#type_black_luke">is</add></subst>on Weir who was somehow
+                <lb/>smuggled into your pr<subst><del rend="overtyped" hand="#type_black_luke">r</del><add place="superimposed" hand="#type_black_luke">e</add></subst>sence. I'm not going abroad this vac, but just spending
+                <lb/>2 or 3 weeks up here in Scotland.<space quantity="2" unit="char"/>When I am in Oxford and think about Shot-
+                <lb/>heids I feel it is madness not <subst><del rend="overtyped" hand="#type_black_luke">s</del><add place="superimposed" hand="#type_black_luke">t</add></subst>o sell it or at least let it, but when I come
+                <lb/>here the spell works again; especi<subst><del rend="overtyped" hand="#type_black_luke">z</del><add place="superimposed" hand="#type_black_luke">a</add></subst>lly this time, when the weather ha<subst><del rend="overtyped" hand="#type_black_luke">d</del><add place="superimposed" hand="#type_black_luke">s</add></subst> been
+                <lb/>elvishl<subst><del rend="overtyped" hand="#type_black_luke"><unclear>Z</unclear></del><add place="superimposed" hand="#type_black_luke">y</add></subst> beautiful, and even Beelzebub's creatures have for some reason been
+                <lb/>troubling me less this season (though there is a curious recrudescence ofthings
+                <lb/>- ?birds - going bump agianst the win<subst><del rend="overtyped" hand="#type_black_luke">o</del><add place="superimposed" hand="#type_black_luke">d</add></subst>ow in the early morning).
+              </p>
+              <p>
+                <lb/><space quantity="3" unit="char"/>I had a bad depression all <subst><del rend="overtyped" hand="#type_black_luke">m</del><add place="superimposed" hand="#type_black_luke">M</add></subst>ay and June, for a comp<subst><del rend="overtyped" hand="#type_black_luke">e</del><add place="superimposed" hand="#type_black_luke">l</add></subst>exity of reasons which
+                <lb/>weren't <subst><del rend="overtyped" hand="#type_black_luke">v</del><add place="superimposed" hand="#type_black_luke">c</add></subst>lear, though <subst><del rend="overtyped" hand="#type_black_luke">i</del><add place="superimposed" hand="#type_black_luke">I</add></subst> suppose Matty was an important one. However that seems 
+                <lb/>to have settled into the usual "as good as can be reasonably expected" (and at
+                <lb/>any rate <hi rend="underline" hand="#hand_black_luke">much</hi> better than the situation with his German predecessor). Our
+                <lb/>meetings <foreign xml:lang="de">un<subst><del rend="overtyped" hand="#type_black_luke">r</del><add place="superimposed" hand="#type_black_luke">t</add></subst>er vier Augen</foreign> are rare, but the <subst><del rend="overtyped" hand="#type_black_luke"><unclear>ß</unclear></del><add place="superimposed" hand="#type_black_luke">l</add></subst>ast two at least were very good,
+                <lb/>with a lot of mutual communication, and made up for a great deal (in July"Figaro"
+                <lb/>at Glyndebourne, to which I did NOT ask his girl-friend; and in August a tutorial
+                <lb/>- sic - on Goethe's poetry, sitting out in the garden after lunch at an inn away
+                <lb/>up the Thames valley). Hedoes seem (hard as I find it to believe the evidence)
+                <lb/>to be fond of me and admire me, but demands an incredible amount of "stimulation"
+                <lb/>and "encouragement" (he equates the two, which seems strange to me) and when he
+                <lb/>doesn't get it I am in no uncertain terms called cynical, insensitive, unintui-
+                <lb/>tive, etc. At least I am being obliged to rethink my ways as a tutor. I hope
+                <lb/>to see something of him in Edinburgh this week. Later in the month he goes off
               </p>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00557/" ed="1v" type="sheet"/>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00558/" ed="2r" type="sheet"/>
