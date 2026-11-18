@@ -312,8 +312,8 @@
                 <l><space quantity="7" unit="char"/>and against sunsoaked walls, g<subst><del rend="overtyped" hand="#type_cc_luke">r</del><add place="superimposed" hand="#type_black_luke">l</add></subst>ass drawing sun</l>
                 <l><space quantity="7" unit="char"/>where flowers speak from half the world away.</l>
                 <l><space quantity="7" unit="char"/><foreign xml:lang="de">Wo war ich s<subst><del rend="overtyped" hand="#type_cc_luke">h</del><add place="superimposed" hand="#type_black_luke">c</add></subst>hon einmal und war so selig?</foreign></l>
-                <l><space quantity="7" unit="char"/>A terrace where a flock of do<subst><del rend="overtyped" hand="#type_cc_luke">c</del><add place="superimposed" hand="#type_black_luke">v</add></subst>es have landed</l>
-                <l><space quantity="7" unit="char"/>clustered in patterns: I am to read their message.</l>
+                <l><space quantity="7" unit="char"/>A terrace where a flock of do<subst><del rend="overtyped" hand="#type_cc_luke">c</del><add place="superimposed" hand="#type_black_luke">v</add></subst>es have <subst><del rend="overlaid" hand="#hand_black_luke">clustered</del><add place="superimposed" hand="#hand_black_luke">landed</add></subst></l>
+                <l><space quantity="7" unit="char"/><subst><del rend="overlaid" hand="#hand_black_luke">in patterns on the ground: read this,</del><add place="superimposed" hand="#hand_black_luke">clustered in patterns: I am to read</add></subst> their message.</l>
                 <l><space quantity="7" unit="char"/>Or if I cross th<subst><del rend="overtyped" hand="#type_cc_luke">t</del><add place="superimposed" hand="#type_black_luke">a</add></subst>t water, running, gliding,</l>
                 <l><space quantity="7" unit="char"/>there I shall find him, the shy forest-creature</l>
                 <l><space quantity="7" unit="char"/>who died and lives, and he will recognise me.</l>
@@ -323,7 +323,7 @@
                 <l><space quantity="7" unit="char"/>likeness, free, unforeseen, lost, lost, returning.</l>
               </lg>
               <ab>
-                <lb/>27.8.73.
+                <lb/><space quantity="49" unit="char"/>27.8.73.
               </ab>
              </div>
               <div>
