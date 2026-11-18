@@ -129,6 +129,7 @@
       <langUsage>
         <language ident="en"/>
         <language ident="de"/>
+        <language ident="la"/>
       </langUsage>
       <correspDesc>
         <correspAction type="sent">
@@ -201,10 +202,10 @@
               <p>
                 <lb/><space quantity="3" unit="char"/>I thought again about the problem of the metre and tried to clarify <subst><del rend="overtyped" hand="#type_black_luke">n6</del><add place="superimposed" hand="#type_black_luke">my</add></subst> ideas
                 <lb/>(see Notes)<subst><del rend="overtyped" hand="#type_black_luke">:</del><add place="superimposed" hand="#type_black_luke">;</add></subst> they seem more or less to agree with the principles underlying yo<subst><del rend="overtyped" hand="#type_black_luke">r</del><add place="superimposed" hand="#type_black_luke">u</add></subst>r
-                <lb/><rs type="lit_work" ref="#lit_work_id_566">"Natural Linguistics"</rs> and your piece in hexameters about insects (what a <hi rend="underline" hand="#type_black_luke"><subst><del rend="overtyped" hand="#type_black_luke">a</del><add place="superimposed" hand="#type_black_luke">d</add></subst>amne</hi>d
+                <lb/><rs type="lit_work" ref="#lit_work_id_566">"Natural Linguistics"</rs> and <rs type="lit_work" ref="#lit_work_id_567">your piece in hexameters about insects</rs> (what a <hi rend="underline" hand="#type_black_luke"><subst><del rend="overtyped" hand="#type_black_luke">a</del><add place="superimposed" hand="#type_black_luke">d</add></subst>amne</hi>d
                 <lb/>good poem that is! I didn't re<subst><del rend="overtyped" hand="#type_black_luke">l</del><add place="superimposed" hand="#type_black_luke">a</add></subst>lly take it in till the other day; and how I
-                <lb/>agree with what it says - <hi rend="underline" hand="#type_black_luke">pace</hi> St.Isaac the Syrian, apud Lossky "The Mystical
-                <lb/>Theology of the <subst><del rend="overtyped" hand="#type_black_luke"><unclear>O</unclear></del><add place="superimposed" hand="#type_black_luke">E</add></subst>astern Ch." which I am currently reading with great admiration;
+                <lb/>agree with what it says - <foreign xml:lang="la"><hi rend="underline" hand="#type_black_luke">pace</hi></foreign> <rs type="person" ref="#amp_person_832">St.Isaac the Syrian</rs>, <foreign xml:lang="la">apud</foreign> <rs type="person" ref="#amp_person_833">Lossky</rs> <rs type="lit_work" ref="#lit_work_id_569">"The Mystical
+                <lb/>Theology of the <subst><del rend="overtyped" hand="#type_black_luke"><unclear>O</unclear></del><add place="superimposed" hand="#type_black_luke">E</add></subst>astern Ch."</rs> which I am currently reading with great admiration;
                 <lb/>he wrote that one should be "burning with charity for the whole of creation,
                 <lb/>for men, for the birds, for the beasts, for the demons"(!)"-for all cr<subst><del rend="overtyped" hand="#type_black_luke">w</del><add place="superimposed" hand="#type_black_luke">e</add></subst>atures...
                 <lb/>Such a man never ceases to pray also for the animals, for the enemies of Truth,
@@ -213,11 +214,11 @@
                 <lb/>a tall order).
               </p>
               <p>
-                <lb/><space quantity="3" unit="char"/>I hope you &amp; Chester are well.<space quantity="2" unit="char"/>I heard you were on great form at the Poetry
-                <lb/>International and were very kind to my friend Al<subst><del rend="overtyped" hand="#type_black_luke">si</del><add place="superimposed" hand="#type_black_luke">is</add></subst>on Weir who was somehow
+                <lb/><space quantity="3" unit="char"/>I hope you &amp; <rs type="person" ref="#amp_person_4">Chester</rs> are well.<space quantity="2" unit="char"/>I heard you were on great form at the <rs type="event" ref="#amp_event_id_528">Poetry
+                <lb/>International</rs> and were very kind to my friend <rs type="person" ref="#amp_person_834">Al<subst><del rend="overtyped" hand="#type_black_luke">si</del><add place="superimposed" hand="#type_black_luke">is</add></subst>on Weir</rs> who was somehow
                 <lb/>smuggled into your pr<subst><del rend="overtyped" hand="#type_black_luke">r</del><add place="superimposed" hand="#type_black_luke">e</add></subst>sence. I'm not going abroad this vac, but just spending
-                <lb/>2 or 3 weeks up here in Scotland.<space quantity="2" unit="char"/>When I am in Oxford and think about Shot-
-                <lb/>heids I feel it is madness not <subst><del rend="overtyped" hand="#type_black_luke">s</del><add place="superimposed" hand="#type_black_luke">t</add></subst>o sell it or at least let it, but when I come
+                <lb/>2 or 3 weeks up here in <rs type="place" ref="#amp_place_id_809">Scotland</rs>.<space quantity="2" unit="char"/>When I am in <rs type="place" ref="#amp_place_id_46">Oxford</rs> and think about <rs type="place" ref="#amp_place_id_808">Shot-
+                <lb/>heids</rs> I feel it is madness not <subst><del rend="overtyped" hand="#type_black_luke">s</del><add place="superimposed" hand="#type_black_luke">t</add></subst>o sell it or at least let it, but when I come
                 <lb/>here the spell works again; especi<subst><del rend="overtyped" hand="#type_black_luke">z</del><add place="superimposed" hand="#type_black_luke">a</add></subst>lly this time, when the weather ha<subst><del rend="overtyped" hand="#type_black_luke">d</del><add place="superimposed" hand="#type_black_luke">s</add></subst> been
                 <lb/>elvishl<subst><del rend="overtyped" hand="#type_black_luke"><unclear>Z</unclear></del><add place="superimposed" hand="#type_black_luke">y</add></subst> beautiful, and even Beelzebub's creatures have for some reason been
                 <lb/>troubling me less this season (though there is a curious recrudescence ofthings
@@ -229,40 +230,40 @@
                 <lb/>to have settled into the usual "as good as can be reasonably expected" (and at
                 <lb/>any rate <hi rend="underline" hand="#hand_black_luke">much</hi> better than the situation with his German predecessor). Our
                 <lb/>meetings <foreign xml:lang="de">un<subst><del rend="overtyped" hand="#type_black_luke">r</del><add place="superimposed" hand="#type_black_luke">t</add></subst>er vier Augen</foreign> are rare, but the <subst><del rend="overtyped" hand="#type_black_luke"><unclear>ß</unclear></del><add place="superimposed" hand="#type_black_luke">l</add></subst>ast two at least were very good,
-                <lb/>with a lot of mutual communication, and made up for a great deal (in July"Figaro"
-                <lb/>at Glyn<subst><del rend="overtyped" hand="#type_black_luke">e</del><add place="superimposed" hand="#type_black_luke">d</add></subst>ebourne, to which I did NOT ask his girl-friend; and in August a tuto<subst><del rend="overtyped" hand="#type_black_luke">a</del><add place="superimposed" hand="#type_black_luke">r</add></subst>rial
-                <lb/>- sic - on Goethe's poetry, sitting out in the garden after lunch at an inn away
+                <lb/>with a lot of mutual communication, and made up for a great deal (in July<rs type="lit_work" ref="#lit_work_id_570">"Figaro"</rs>
+                <lb/>at <rs type="org" ref="#amp_organization_518">Glyn<subst><del rend="overtyped" hand="#type_black_luke">e</del><add place="superimposed" hand="#type_black_luke">d</add></subst>ebourne</rs>, to which I did NOT ask his girl-friend; and in August a tuto<subst><del rend="overtyped" hand="#type_black_luke">a</del><add place="superimposed" hand="#type_black_luke">r</add></subst>rial
+                <lb/>- sic - on <rs type="person" ref="#amp_person_11">Goethe</rs>'s poetry, sitting out in the garden after lunch at an inn away
                 <lb/>up the Thames valley).<space quantity="2" unit="char"/>Hedoes seem (hard as I <subst><del rend="overtyped" hand="#type_black_luke">d</del><add place="superimposed" hand="#type_black_luke">f</add></subst>ind it to believe the evidence)
                 <lb/>to be fond of me and admire me, but demands an incredible amount of "stimulation"
                 <lb/>and "encouragement" (he equates the two, which seems strange to me) and when he
                 <lb/>doesn't get it I am in no uncertain terms called cynical, insensitive, unintui-
                 <lb/>tive, etc. At least I am being obliged to rethink my ways as a tutor. I hope
-                <lb/>to see something of h<subst><del rend="overtyped" hand="#type_black_luke">k</del><add place="superimposed" hand="#type_black_luke">i</add></subst>m in Edinburgh this week. Later in the month he <subst><del rend="overtyped" hand="#type_black_luke">h</del><add place="superimposed" hand="#type_black_luke">g</add></subst>oes off
+                <lb/>to see something of h<subst><del rend="overtyped" hand="#type_black_luke">k</del><add place="superimposed" hand="#type_black_luke">i</add></subst>m in <rs type="place" ref="#amp_place_id_204">Edinburgh</rs> this week. Later in the month he <subst><del rend="overtyped" hand="#type_black_luke">h</del><add place="superimposed" hand="#type_black_luke">g</add></subst>oes off
               </p>
             </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00557/" ed="1v" type="sheet"/>
             <div type="letter_message" hand="#type_black_luke">
               <p>
-                <lb/>for his year in Paris. I plan to take the Hilary Term off on sabbatical (to
-                <lb/>try and get on with that bloody Kleist project) and shall go abroad for a
+                <lb/>for his year in <rs type="place" ref="#amp_place_id_84">Paris</rs>. I plan to take the Hilary Term off on sabbatical (to
+                <lb/>try and get on with that bloody <rs type="lit_work" ref="#lit_work_id_571">Kleist project</rs>) and shall go abroad for a
                 <lb/>b<subst><del rend="overtyped" hand="#type_black_luke">j</del><add place="superimposed" hand="#type_black_luke">i</add></subst>t then, not without passing at least <subst><del rend="overtyped" hand="#type_black_luke">w</del><add place="superimposed" hand="#type_black_luke">o</add></subst>nce through <subst><del rend="overtyped" hand="#type_black_luke">p</del><add place="superimposed" hand="#type_black_luke">P</add></subst>aris.
               </p>
               <p>
-                <lb/><space quantity="3" unit="char"/>A major row has been blowing up between the Ch.Ch<subst><del rend="overtyped" hand="#type_black_luke">,</del><add place="superimposed" hand="#type_black_luke">.</add></subst> undergraduates and the
-                <lb/>Ch.Ch. <subst><del rend="overtyped" hand="#type_black_luke">e</del><add place="superimposed" hand="#type_black_luke">E</add></subst>stablishment about the question of women guests overnight in college.
+                <lb/><space quantity="3" unit="char"/>A major row has been blowing up between the <rs type="org" ref="#amp_organization_6">Ch.Ch<subst><del rend="overtyped" hand="#type_black_luke">,</del><add place="superimposed" hand="#type_black_luke">.</add></subst></rs> undergraduates and the
+                <lb/><rs type="org" ref="#amp_organization_6">Ch.Ch.</rs> <subst><del rend="overtyped" hand="#type_black_luke">e</del><add place="superimposed" hand="#type_black_luke">E</add></subst>stablishment about the question of women guests overnight in college.
                 <lb/>Many of <subst><del rend="overtyped" hand="#type_black_luke">t</del><add place="superimposed" hand="#type_black_luke">u</add></subst>s think it could have been better handled. A special pre-Term GB
                 <lb/>meeting has even been called, "to receive a statement from the Senior Censor
                 <lb/>concerning a disciplinary matter..."; this in i<subst><del rend="overtyped" hand="#type_black_luke">n</del><add place="superimposed" hand="#type_black_luke">t</add></subst>self makes history, never
                 <lb/>having happened before. Militancy has begun and more is promised; no doubt you
                 <lb/>will be there to see &amp; hear part of the fun.<space quantity="2" unit="char"/>In general next term is going to
                 <lb/>be hell for me, with much too much teaching to do (the price of absence in
-                <lb/><subst><del rend="overtyped" hand="#type_black_luke">N</del><add place="superimposed" hand="#type_black_luke">H</add></subst>ilary).<space quantity="3" unit="char"/>I look forward to hearing from you on the <hi rend="underline" hand="#type_black_luke">Elegies</hi>. It would be
+                <lb/><subst><del rend="overtyped" hand="#type_black_luke">N</del><add place="superimposed" hand="#type_black_luke">H</add></subst>ilary).<space quantity="3" unit="char"/>I look forward to hearing from you on the <rs type="lit_work" ref="#lit_work_id_564"><hi rend="underline" hand="#type_black_luke">Elegies</hi></rs>. It would be
                 <lb/>nice if we could manage to get our <del rend="overtyped" hand="#type_black_luke"><unclear>beit</unclear></del> bit done <subst><del rend="overtyped" hand="#type_black_luke">n</del><add place="superimposed" hand="#type_black_luke">b</add></subst>efore term begins (delivery
                 <lb/>da<subst><del rend="overtyped" hand="#type_black_luke">y</del><add place="superimposed" hand="#type_black_luke">t</add></subst>e is December.<space quantity="2" unit="char"/>Incidentally there has been complete and unexplained silence
                 <lb/>on the Chicago side b<subst><del rend="overtyped" hand="#type_black_luke">e</del><add place="superimposed" hand="#type_black_luke">o</add></subst>th from their man and from my agent). <subst><del rend="overtyped" hand="#type_black_luke"><subst><del rend="overtyped" hand="#type_black_luke">§</del><add place="superimposed" hand="#type_black_luke">a</add></subst></del><add place="superimposed" hand="#type_black_luke">A</add></subst>s to the historical
                 <lb/>/factual details which you may require for your pref<subst><del rend="overtyped" hand="#type_black_luke">ea</del><add place="superimposed" hand="#type_black_luke">ac</add></subst>e, all I can send you
-                <lb/>from up here is a f<subst><del rend="overtyped" hand="#type_black_luke"><unclear>r</unclear></del><add place="superimposed" hand="#type_black_luke">e</add></subst>w relevant lines from Staiger's edition, but I'll have a
-                <lb/>look at the others when I get back <subst><del rend="overtyped" hand="#type_black_luke">f</del><add place="superimposed" hand="#type_black_luke">t</add></subst>o Oxford.
+                <lb/>from up here is a f<subst><del rend="overtyped" hand="#type_black_luke"><unclear>r</unclear></del><add place="superimposed" hand="#type_black_luke">e</add></subst>w relevant lines from <rs type="lit_work" ref="#lit_work_id_572">Staiger's edition</rs>, but I'll have a
+                <lb/>look at the others when I get back <subst><del rend="overtyped" hand="#type_black_luke">f</del><add place="superimposed" hand="#type_black_luke">t</add></subst>o <rs type="place" ref="#amp_place_id_46">Oxford</rs>.
               </p>
               <p>
                 <lb/><space quantity="3" unit="char"/>I'm sorry there was that muddle about the forwarding of your ma<subst><del rend="overtyped" hand="#type_black_luke">k</del><add place="superimposed" hand="#type_black_luke">i</add></subst>l - the
@@ -272,7 +273,7 @@
                 <lb/><space quantity="3" unit="char"/>Incidentally I continue to get on well with Matty's mother (spent a weekend
                 <lb/>at the family mansion at the end of July) - she is very beautiful, charm<subst><del rend="overtyped" hand="#type_black_luke">k</del><add place="superimposed" hand="#type_black_luke">i</add></subst>ng
                 <lb/>and amusing, and I'm having her to dinner at High Table on Sat.Nov.l0th, when
-                <lb/>I hope you will be there (I gave her "<subst><del rend="overtyped" hand="#type_black_luke">G</del><add place="superimposed" hand="#type_black_luke">F</add></subst>orewords and Afterw<unclear><subst><del rend="overtyped" hand="#type_black_luke">a</del><add place="superimposed" hand="#type_black_luke">o</add></subst></unclear>rds" for her birth-
+                <lb/>I hope you will be there (I gave her <rs type="lit_work" ref="#lit_work_id_53">"<subst><del rend="overtyped" hand="#type_black_luke">G</del><add place="superimposed" hand="#type_black_luke">F</add></subst>orewords and Afterw<unclear><subst><del rend="overtyped" hand="#type_black_luke">a</del><add place="superimposed" hand="#type_black_luke">o</add></subst></unclear>rds"</rs> for her birth-
                 <lb/>day).
               </p>
               <closer hand="#hand_black_luke">
@@ -280,7 +281,7 @@
                   <lb/><unclear>l</unclear>ove
                 </salute>
                 <signed>
-                  <lb/>David
+                  <lb/><rs type="person" ref="#amp_person_89">David</rs>
                 </signed>
               </closer>
             </div>
@@ -297,7 +298,7 @@
                   <lb/><unclear>l</unclear>.
                 </salute>
                 <signed>
-                  <lb/>D.
+                  <lb/><rs type="person" ref="#amp_person_89">D.</rs>
                 </signed>
               </closer>
             </div>
