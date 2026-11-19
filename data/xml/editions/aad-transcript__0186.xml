@@ -67,6 +67,7 @@
           <witness n="1">
             <msDesc>
               <msIdentifier>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
                 <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
                 <collection>Documentation Center for Literature in Lower Austria</collection>
                 <idno>LS-Aud 2.49</idno>
@@ -75,7 +76,7 @@
                 <objectDesc>
                   <supportDesc>
                     <support>
-                      <watermark/>
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00560/ https://iiif.acdh.oeaw.ac.at/aad/aad_00561/">EAGLE-A TROJAN BOND 25% COTTON FIBER USA</watermark>
                       <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00560/">
                         <width>207</width>
                         <height>280</height>
@@ -88,10 +89,11 @@
                   </supportDesc>
                 </objectDesc>
                 <handDesc>
-                  <handNote/>
+                  <handNote xml:id="hand_black_mendelson" scribeRef="#amp_person_xx" medium="ink-black">Handwriting in black ink by Edward Mendelson</handNote>
+                  <handNote xml:id="hand_blue_unident_0186" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
-                  <typeNote/>
+                  <typeNote xml:id="type_black_mendelson" scribeRef="#amp_person_xx" medium="type">Typewriting in black ink by Edward Mendelson</typeNote>
                 </typeDesc>
               </physDesc>
               <history>
@@ -115,11 +117,22 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident=""/>
+        <language ident="en"/>
       </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1973-09-10T00:00:00-05:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
+        </correspAction>
+      </correspDesc>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="#tfruehwirth" when-iso="2026-11-19">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-11-19">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-11-19">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-11-19">Text transcribed; hands, languages, correspondence container structure, entities marked up</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -132,10 +145,84 @@
   </facsimile>
   <text>
     <body>
-      <div type="transcription" xml:id="transcription_aad_0186" xml:lang="">
-        <div/>
+      <div type="transcription" xml:id="transcription_aad_0186" xml:lang="en">
+          <div type="letter">
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00560/" ed="1r" type="sheet"/>
+            <div type="letter_message" hand="#type_black_mendelson">
+              <opener>
+                <seg>
+                  <placeName>
+                    <lb/>123 York Street
+                    <lb/>New Haven, Conn. 06511
+                    <lb/>U. S. A.
+                  </placeName>
+                </seg>
+                <dateline>
+                  <date>
+                    <lb/>September 10, 1973
+                  </date>
+                </dateline>
+                <salute>
+                  <lb/>Dear <rs type="person" ref="#amp_person_1">Wystan</rs>,
+                </salute>
+              </opener>
+              <p>
+                <lb/>On the Oxford Book of Light Verse, of course my answer is Yes. I only
+                <lb/>hope that I can someday deserve the honor. Fortunately there are many
+                <lb/>friends here who can help me across the vast wastes of my ignorance,
+                <lb/>and I expect that much of the practical labor of searching and copying
+                <lb/>can be done more easily in the Yale library than elsewhere.
+              </p>
+              <p>
+                <lb/>I hope you will let me take a modest role in the collaboration--one
+                <lb/>limited, for the most part, to bringing to your attentio some excellent
+                <lb/>light verse that might go into the new edition. The conception of the
+                <lb/>first edition is so excellent, and so characteristically your own,
+                <lb/>that I should not like to tinker with it myself. Of course, I would
+                <lb/>also gladly take on the job of preparing the final selection for the
+                <lb/>printers. (My first candidate for inclusion in the new edition is
+                <lb/>James Russell Lowell's "The Origin of Didactic Poetry.")
+              </p>
+              <p>
+                <lb/>May I also put off much of the work until at least next Summer?
+                <lb/>I shall begin looking for poems immediately, but this semester is
+                <lb/>a very busy one, and, although I may be on leave next Spring, I have
+                <lb/>to finish a critical book if I hope to have enough money to eat three
+                <lb/>years from now. If this is too much of a dely I can of course withdraw
+                <lb/>entirely.
+              </p>
+              <p>
+                <lb/>Until we can get together, may I simply send you occasional lists of
+                <lb/>possible additions and changes, together with xerox copies of poems
+                <lb/>that I think you may not have seen? And please tell me anything else
+                <lb/>you might like me to do in the meantime.
+              </p>
+              <p>
+                <lb/>I can't imagine any work more enjoyable than putting toethr an anthology
+                <lb/>of light verse. I am as grateful for the task as for the honor.
+              </p>
+              <closer hand="#hand_black_mendelson">
+                <salute>
+                  <lb/>Yours ever,
+                </salute>
+                <signed>
+                  <lb/><rs type="person" ref="#amp_person_89">Edward</rs>
+                </signed>
+              </closer>
+              <postscript>
+                <ab hand="#hand_black_mendelson">
+                  <lb/>P.S. Please give my good wishes to Chester, whose sausage and
+                  <lb/>cabbage still move me to awe.
+                </ab>
+              </postscript>
+            </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00561/" ed="1v" type="sheet"/>
+            <div>
+              <ab hand="#hand_blue_unident_0186">
+                <lb/>60
+              </ab>
+            </div>
+          </div>
       </div>
     </body>
   </text>
