@@ -174,11 +174,11 @@
                 <seg hand="#print_luke">
                   <lb/><hi rend="italic" hand="#print_luke">From <persName><rs type="person" ref="#amp_person_89">Dr. F. D. Luke</rs></persName>, <orgName><rs type="org" ref="#amp_organization_6">Christ Church</rs></orgName>, <placeName><rs type="place" ref="#amp_place_id_46">Oxford</rs></placeName></hi>. <seg hand="#type_black_luke">(<foreign xml:lang="de">z.Zt.</foreign><rs type="place" ref="#amp_place_id_808">Shotheids</rs>)</seg> <hi rend="italic" hand="#print_luke">Tel. Oxford 41357</hi>
                 </seg>
-                <dateline hand="#hand_black_luke">
+                <seg hand="#hand_black_luke">
                   <date>
                     <lb/>4 Sept. 73
                   </date>
-                </dateline>
+                </seg>
                 <salute hand="#hand_black_luke">
                   <lb/>Dear <rs type="person" ref="#amp_person_1">Wystan</rs>
                 </salute>
