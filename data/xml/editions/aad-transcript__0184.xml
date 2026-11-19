@@ -182,12 +182,12 @@
                   <lb/><gap reason="illegible" unit="char" atLeast="5" atMost="7"></gap>
                 </signed>
               </closer>
-              <dateline hand="#hand_blue_kyrou">
-                <date>
+              <postscript hand="#hand_blue_kyrou">
+                <ab>
+                 <date>
                   <lb/>Aug<unclear>.</unclear> 13<unclear>.</unclear>1973
-                </date>
-              </dateline>
-              <postscript>
+                  </date>
+                </ab>
                 <ab>
                   <lb/>&#42; From <rs type="lit_work" ref="#lit_work_id_55">"For the Time Being"</rs>
                 </ab>
