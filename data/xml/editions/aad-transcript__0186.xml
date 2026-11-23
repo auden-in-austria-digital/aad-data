@@ -30,9 +30,14 @@
         <edition>
           <title level="a">Typed Letter Signed Edward Mendelson to W. H. Auden 1973-09-10</title>
           <interpGrp>
-            <interp>
+            <interp xml:id="ana_164">
               <desc/>
-              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+            <interp xml:id="ana_165">
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
               <certainty locus="value"/>
             </interp>
           </interpGrp>
@@ -169,7 +174,7 @@
                 </salute>
               </opener>
               <p>
-                <lb/>On the <hi rend="underline" hand="#type_black_mendelson">Ox<subst><del rend="erased" hand="#type_black_mendelson">g</del><add place="superimposed" hand="#type_black_mendelson">f</add></subst>ord Book of Lig<subst><del rend="erased" hand="#type_black_mendelson"><unclear>t</unclear></del><add place="superimposed" hand="#type_black_mendelson">h</add></subst>t Verse</hi>, of course my answer is Yes.<space quantity="2" unit="char"/>I only
+                <lb/>On the <rs ana="#ana_164"><hi rend="underline" hand="#type_black_mendelson">Ox<subst><del rend="erased" hand="#type_black_mendelson">g</del><add place="superimposed" hand="#type_black_mendelson">f</add></subst>ord Book of Lig<subst><del rend="erased" hand="#type_black_mendelson"><unclear>t</unclear></del><add place="superimposed" hand="#type_black_mendelson">h</add></subst>t Verse</hi></rs>, of course my answer is Yes.<space quantity="2" unit="char"/>I only
                 <lb/>hope that I can someday deserve the honor.<space quantity="2" unit="char"/>Fortunately there are many
                 <lb/>friends here who can help me across the vast wastes of my ignorance<subst><del rend="overwritten" hand="#hand_black_mendelson">.</del><add place="superimposed" hand="#hand_black_mendelson">,</add></subst>
                 <lb/><subst><del rend="overwritten" hand="#hand_black_mendelson"><gap reason="illegible" unit="char" quantity="1"></gap></del><add place="superimposed" hand="#hand_black_mendelson">a</add></subst>nd I expect that much of the pr<subst><del rend="erased" hand="#type_black_mendelson"><gap reason="illegible" unit="char" quantity="2"></gap></del><add place="superimposed" hand="#type_black_mendelson">ac</add></subst>tical labor of searching and copying
@@ -213,8 +218,8 @@
               </closer>
               <postscript>
                 <ab hand="#hand_black_mendelson">
-                  <lb/>P.S. Please give my good wishes to <rs type="person" ref="#amp_person_4">Chester</rs>, whose sausage and
-                  <lb/>cabbage still move me to awe.
+                  <lb/>P.S. Please give my good wishes to <rs type="person" ref="#amp_person_4">Chester</rs>, whose <rs ana="#ana_165">sausage and
+                  <lb/>cabbage still move me to awe</rs>.
                 </ab>
               </postscript>
             </div>
