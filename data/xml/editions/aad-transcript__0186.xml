@@ -218,8 +218,8 @@
               </closer>
               <postscript>
                 <ab hand="#hand_black_mendelson">
-                  <lb/>P.S. Please give my good wishes to <rs type="person" ref="#amp_person_4">Chester</rs>, whose <rs ana="#ana_165">sausage and
-                  <lb/>cabbage still move me to awe</rs>.
+                  <lb/>P.S. Please give my good wishes to <rs type="person" ref="#amp_person_4">Chester</rs>, whose <rs ana="#ana_165"><rs type="event" ref="#amp_event_id_529">sausage and
+                  <lb/>cabbage still move me to awe</rs></rs>.
                 </ab>
               </postscript>
             </div>
