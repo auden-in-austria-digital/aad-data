@@ -90,7 +90,8 @@
                 </objectDesc>
                 <handDesc>
                   <handNote xml:id="hand_blue_kyrou" scribeRef="#amp_person_829" medium="ink-blue">Handwriting in blue ink by Kleitos S. Kyrou</handNote>
-                  <handNote xml:id="hand_blue_unident_0184" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
+                  <handNote xml:id="hand_blue_unident_0184_1" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
+                  <handNote xml:id="hand_blue_unident_0184_2" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
                 </handDesc>
                 <typeDesc>
                   <typeNote xml:id="print_black_kyrou" scribeRef="#amp_person_829" medium="print">Preprinted writing in black authored by Kleitos S. Kyrou</typeNote>
@@ -195,8 +196,11 @@
             </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00555/" ed="1v" type="card"/>
             <div>
-              <ab hand="#hand_blue_unident_0184">
+              <ab hand="#hand_blue_unident_0184_1">
                 <lb/>85
+              </ab>
+              <ab hand="#hand_blue_unident_0184_2">
+                <lb/><unclear>γ</unclear>
               </ab>
               <ab hand="#print_black_kyrou">
                 <lb/><rs type="person" ref="#amp_person_829">ΚΛΕΙΤΟΣ Σ. ΚΥΡΟΥ</rs>
