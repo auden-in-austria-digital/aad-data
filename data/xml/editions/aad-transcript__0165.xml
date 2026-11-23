@@ -159,6 +159,7 @@
                   <lb/>TELEPHONE: <rs type="place" ref="#amp_place_id_46">OXFORD</rs> 45511
                  </seg> 
                 <seg hand="#print_seh">
+                  <lb/>
                   <lb/><orgName><rs type="org" ref="#amp_organization_354">ST. EDMUND HALL</rs></orgName>,
                   <lb/><placeName><rs type="place" ref="#amp_place_id_46">OXFORD</rs></placeName>,
                   <lb/>OX1 4AR.
