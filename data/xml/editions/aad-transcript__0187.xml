@@ -164,10 +164,10 @@
                   <lb/><space quantity="4" unit="char"/>you cannot imagine how <subst><del rend="overtyped" hand="#type_black_mayer"><unclear>n</unclear></del><add place="superimposed" hand="#type_black_mayer">h</add></subst>appy I was with your letter - 
                   <lb/><space quantity="1" unit="char"/>I had been worrying about you, what with all your work
                   <lb/><space quantity="1" unit="char"/>in the last months, and certainly all kind of cares -<add hand="#hand_blue_mayer" place="inline">,</add> and
-                  <lb/><space quantity="1" unit="char"/>to know that you are back<space quantity="2" unit="char"/>in your 'nest'<space quantity="2" unit="char"/>was quite a
+                  <lb/><space quantity="1" unit="char"/>to know that you are back<space quantity="2" unit="char"/>in your <rs type="place" ref="#amp_place_id_2">'nest'</rs><space quantity="2" unit="char"/>was quite a
                   <lb/><space quantity="1" unit="char"/>relief!<space quantity="2" unit="char"/>I do hope you have fine <foreign xml:lang="de">Pfingstwetter</foreign> and found
                   <lb/>everything in good order and enjoy the countryside and
-                  <lb/>peace. Do you have anyone to look after you?<space quantity="2" unit="char"/>Does Chester
+                  <lb/>peace. Do you have anyone to look after you?<space quantity="2" unit="char"/>Does <rs type="person" ref="#amp_person_4">Chester</rs>
                   <lb/>come back?<space quantity="2" unit="char"/>or are you going to take up the life of<space quantity="2" unit="char"/>an
                   <lb/>eremite? ( I like it better than <subst><del rend="overtyped" hand="#type_black_mayer"><unclear>b</unclear></del><add place="superimposed" hand="#type_black_mayer">h</add></subst>ermit )<space quantity="2" unit="char"/>Your haiku poem
                   <lb/>from Iceland is wonderful and very amusing ,with underto<subst><del rend="overtyped" hand="#type_black_mayer">m</del><add place="superimposed" hand="#type_black_mayer">n</add></subst>es.
@@ -209,21 +209,21 @@
                 <lb/>one's memory from all sides and corners of your brain while
                 <lb/>writing. I do hope to get it all right.<space quantity="2" unit="char"/><hi rend="underline" hand="#type_black_mayer">I</hi> try to live 
                 <lb/>like an eremite, and succeed.<space quantity="2" unit="char"/>The weather is just now
-                <lb/>lovely, and I sit often in the Park and prepare in my head
+                <lb/>lovely, and I sit often in the <rs type="place" ref="#amp_place_id_812">Park</rs> and prepare in my head
                 <lb/>a chapter, run upstairs and type it.<space quantity="2" unit="char"/>I go out almost never,
-                <lb/>was only once in the Goethe <unclear>H</unclear>aus to hear<space quantity="3" unit="char"/>Erich <unclear>H</unclear>eller
-                <lb/>who spoke very well and witty about <unclear>H</unclear>egel and<space quantity="2" unit="char"/>the attitude
-                <lb/>of the Germans toward Shakespeare.<space quantity="2" unit="char"/>I met <add hand="#hand_blue_mayer" place="above">there<unclear>,</unclear></add> again <subst><del rend="overtyped" hand="#type_black_mayer">d</del><add place="superimposed" hand="#type_black_mayer">D</add></subst>wight Mc<subst><del rend="overtyped" hand="#type_black_mayer">.</del><add place="superimposed" hand="#type_black_mayer">d</add></subst>on.
-                <lb/>who loves the Elective Affs. and wants to write something 
-                <lb/>about the book.<space quantity="2" unit="char"/>Pazienza.<space quantity="5" unit="char"/>Michael has had, and still
+                <lb/>was only once in the <rs type="org" ref="#amp_organization_521">Goethe <unclear>H</unclear>aus</rs> to hear<space quantity="3" unit="char"/><rs type="person" ref="#amp_person_838">Erich <unclear>H</unclear>eller</rs>
+                <lb/>who spoke very well and witty about <rs type="person" ref="#amp_person_839"><unclear>H</unclear>egel</rs> and<space quantity="2" unit="char"/>the attitude
+                <lb/>of the Germans toward <rs type="person" ref="#amp_person_10">Shakespeare</rs>.<space quantity="2" unit="char"/>I met <add hand="#hand_blue_mayer" place="above">there<unclear>,</unclear></add> again <rs type="person" ref="#amp_person_840"><subst><del rend="overtyped" hand="#type_black_mayer">d</del><add place="superimposed" hand="#type_black_mayer">D</add></subst>wight Mc<subst><del rend="overtyped" hand="#type_black_mayer">.</del><add place="superimposed" hand="#type_black_mayer">d</add></subst>on.</rs>
+                <lb/>who loves the <rs type="lit_work" ref="#lit_work_id_575">Elective Affs.</rs> and wants to write something 
+                <lb/>about the book.<space quantity="2" unit="char"/>Pazienza.<space quantity="5" unit="char"/><rs type="person" ref="#amp_person_842">Michael</rs> has had, and still
                 <lb/>has a very hard time.His old Rector died suddenly (<space quantity="2" unit="char"/>in the
-                <lb/><unclear>M</unclear>et, during the first act of Tosca) and M. has to run the
+                <lb/><rs type="org" ref="#amp_organization_523"><unclear>M</unclear>et</rs>, during the first act of <rs type="lit_work" ref="#lit_work_id_576">Tosca</rs>) and <rs type="person" ref="#amp_person_842">M.</rs> has to run the
                 <lb/>whole parish. No decisions as yet. I met the Bishop at
                 <lb/>the Funeral <unclear>M</unclear>ass ,and <unclear>h</unclear>e said<space quantity="2" unit="char"/>to me wonderful things about
                 <lb/>Michael. <subst><del rend="overtyped" hand="#type_black_mayer"><unclear>w</unclear>W</del><add place="superimposed" hand="#type_black_mayer">We</add></subst> are wondering now... ..
               </p>
               <closer>
-                <salute><lb/><space quantity="29" unit="char"/>Much much love,Wystan dear<add hand="#hand_blue_mayer" place="inline"><unclear>.</unclear></add></salute>
+                <salute><lb/><space quantity="29" unit="char"/>Much much love,<rs type="person" ref="#amp_person_1">Wystan</rs> dear<add hand="#hand_blue_mayer" place="inline"><unclear>.</unclear></add></salute>
               </closer>
               <postscript>
                 <ab>
@@ -234,7 +234,7 @@
               </postscript>
               <closer>
                 <signed hand="#hand_blue_mayer">
-                  <lb/>Elizabeth
+                  <lb/><rs type="person" ref="#amp_person_157">Elizabeth</rs>
                 </signed>
               </closer>
             </div>
