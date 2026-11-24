@@ -180,6 +180,7 @@ doc
 0184                   Kyrou, Kleitos                                                                                                               Autograph Card Signed Kleitos S. Kyrou to W. H. Auden 1973-08-13                   Thessaloniki
 0185                      Luke, David                                                                                                                       Typed Letter Signed David Luke to W. H. Auden 1973-09-04                      Shotheids
 0186                Mendelson, Edward                                                                                                                 Typed Letter Signed Edward Mendelson to W. H. Auden 1973-09-10               New Haven, Conn.
+0187                 Mayer, Elizabeth                                                                                                                  Typed Letter Signed Elizabeth Mayer to W. H. Auden 1964-05-07                  New York City
 0146                     Auden, W. H.                                                                                                                      Typed Letter Signed W. H. Auden to Felix Braun 1958-11-03                  New York City
 0144                             N.N.                                                                                                                      Photograph N.N. House Hinterholz 6 1958-01-07--1973-09-28                   Kirchstetten
 0145                     Auden, W. H.                                                                                                                                 Telegram W. H. Auden to Herta Staub 1963-07-24                   Kirchstetten
@@ -227,30 +228,30 @@ dtype: int64
 ### `df.info()`
 ```
 <class 'pandas.DataFrame'>
-RangeIndex: 526 entries, 0 to 525
+RangeIndex: 528 entries, 0 to 527
 Data columns (total 19 columns):
  #   Column          Non-Null Count  Dtype
 ---  ------          --------------  -----
- 0   img             526 non-null    int64
- 1   lrx             526 non-null    int64
- 2   lry             526 non-null    int64
- 3   width           526 non-null    int64
- 4   height          526 non-null    int64
- 5   type            526 non-null    str  
- 6   ed              526 non-null    str  
- 7   doc             526 non-null    str  
- 8   title           526 non-null    str  
- 9   author          526 non-null    str  
- 10  author-uri      526 non-null    str  
- 11  notBefore-iso   526 non-null    str  
- 12  notAfter-iso    526 non-null    str  
- 13  place           526 non-null    str  
- 14  place-uri       526 non-null    str  
- 15  repository      526 non-null    str  
- 16  repository-uri  526 non-null    str  
- 17  collection      526 non-null    str  
- 18  idno            526 non-null    str  
+ 0   img             528 non-null    int64
+ 1   lrx             528 non-null    int64
+ 2   lry             528 non-null    int64
+ 3   width           528 non-null    int64
+ 4   height          528 non-null    int64
+ 5   type            528 non-null    str  
+ 6   ed              528 non-null    str  
+ 7   doc             528 non-null    str  
+ 8   title           528 non-null    str  
+ 9   author          528 non-null    str  
+ 10  author-uri      528 non-null    str  
+ 11  notBefore-iso   528 non-null    str  
+ 12  notAfter-iso    528 non-null    str  
+ 13  place           528 non-null    str  
+ 14  place-uri       528 non-null    str  
+ 15  repository      528 non-null    str  
+ 16  repository-uri  528 non-null    str  
+ 17  collection      528 non-null    str  
+ 18  idno            528 non-null    str  
 dtypes: int64(5), str(14)
-memory usage: 78.2 KB
+memory usage: 78.5 KB
 
 ```
