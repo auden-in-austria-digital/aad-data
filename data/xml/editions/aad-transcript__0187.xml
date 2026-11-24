@@ -152,39 +152,39 @@
               <opener>
                 <dateline>
                   <date>
-                    <lb/>May 7 th l964
-                    <lb/>Christi Himmelfahrt
+                    <lb/><space quantity="39" unit="char"/>May 7 th l964
+                    <lb/><space quantity="37" unit="char"/>Christi Himmelfahrt
                   </date>
                 </dateline>
                 <salute>
-                  <lb/>Dearest <rs type="person" ref="#amp_person_1">friend</rs> - 
+                  <lb/><space quantity="2" unit="char"/>Dearest <rs type="person" ref="#amp_person_1">friend</rs> - 
                 </salute>
               </opener>
                 <p>
-                  <lb/>you cannot imagine how happy I was with your letter - 
-                  <lb/>I had been worrying about you, what with all your work
-                  <lb/>in the last months, and certainly all kind of cares -, and
-                  <lb/>to know that you are back in your 'nest' was quite a
-                  <lb/>relief! I do hope you have fine Pfingstwetter and found
+                  <lb/><space quantity="4" unit="char"/>you cannot imagine how <subst><del rend="overtyped" hand="#type_black_mayer"><unclear>n</unclear></del><add place="superimposed" hand="#type_black_mayer">h</add></subst>appy I was with your letter - 
+                  <lb/><space quantity="1" unit="char"/>I had been worrying about you, what with all your work
+                  <lb/><space quantity="1" unit="char"/>in the last months, and certainly all kind of cares -<add hand="#hand_blue_mayer" place="inline">,</add> and
+                  <lb/><space quantity="1" unit="char"/>to know that you are back<space quantity="2" unit="char"/>in your 'nest'<space quantity="2" unit="char"/>was quite a
+                  <lb/><space quantity="1" unit="char"/>relief!<space quantity="2" unit="char"/>I do hope you have fine <foreign xml:lang="de">Pfingstwetter</foreign> and found
                   <lb/>everything in good order and enjoy the countryside and
-                  <lb/>peace. Do you have anyone to look after you? Does Chester
-                  <lb/>come back? or are you going to take up the life of an
-                  <lb/>eremite? ( I like it better than hermit ) Your haiku poem
-                  <lb/>from Iceland is wonderful and very amusing ,with undertones.
+                  <lb/>peace. Do you have anyone to look after you?<space quantity="2" unit="char"/>Does Chester
+                  <lb/>come back?<space quantity="2" unit="char"/>or are you going to take up the life of<space quantity="2" unit="char"/>an
+                  <lb/>eremite? ( I like it better than <subst><del rend="overtyped" hand="#type_black_mayer"><unclear>b</unclear></del><add place="superimposed" hand="#type_black_mayer">h</add></subst>ermit )<space quantity="2" unit="char"/>Your haiku poem
+                  <lb/>from Iceland is wonderful and very amusing ,with underto<subst><del rend="overtyped" hand="#type_black_mayer">m</del><add place="superimposed" hand="#type_black_mayer">n</add></subst>es.
                   <lb/>It must have been in many ways a strange experience. I was
-                  <lb/>glad you had a dog-friend. And what shall I tell you about
-                  <lb/>my birthday poem. I love it, and have deciphered most of 
+                  <lb/>glad you had a dog-friend.<space quantity="2" unit="char"/>And what shall I tell you about
+                  <lb/>my birthday poem. I <hi rend="underline" hand="#hand_blue_mayer">love</hi> it, and have deciphered most of 
                   <lb/>the allusions. Isabelle explained the gases to me,which
-                  <lb/>I had not quite got. And I have to confess that I did not
+                  <lb/><space quantity="1" unit="char"/>I had not quite got. And I have to confess that I did not
                   <lb/>know that the Scherzo has ever been called the governess-
-                  <lb/>scherzo.( although I played it often when a governess in
-                  <lb/>Bohemia ) That you brought my father's Sand Uhr in, is
-                  <lb/>so lovely,the whole atmosphere of my childhood is in the 
-                  <lb/>first two lines. And your deep understanding at the end..
+                  <lb/>scherzo.(<space quantity="2" unit="char"/>although I played it often when a governess in
+                  <lb/>Bohemia )<space quantity="2" unit="char"/>That you brought my father's <foreign xml:lang="de">Sand Uhr</foreign> in, is
+                  <lb/>so lovely,the whole atmos<add hand="#type_black_mayer" place="inline">p</add>here of my childhood is in the 
+                  <lb/>first two lines.<space quantity="2" unit="char"/><unclear>A</unclear>nd your deep understanding at the end..
                   <lb/>Yes, my dear, these twenty-five years of our friendship have
                   <lb/>meant so much to me, more than I could ever have told you,
                   <lb/>but you must have felt it. I think of them with gratitude:
-                  <lb/>you have done so much for me, I feel very much as your pupil,
+                  <lb/>you have done so much for me, I feel very much as you<add hand="#hand_blue_mayer" place="inline">r</add> pupil,
                 </p>
             </div>
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00563/" ed="1v" type="sheet"/>
@@ -195,41 +195,41 @@
             </div>
             <div type="letter_message" hand="#type_black_mayer">
               <p>
-                <lb/>how often did you " strike a match to my brain " and not
+                <lb/>how often did you " strike a match to my brain '<add hand="#hand_blue_mayer" place="inline">'</add> and not
                 <lb/>only that. You have confirmed me and encouraged me so often,
-                <lb/>and I do not think I could go on working so boldly as I do
+                <lb/>and <unclear>I</unclear> do not think I could go on working so boldly as I do
                 <lb/>without your open and tacit understanding.
               </p>
               <p>
-                <lb/>I am already deep in my new translation.It is great fun
+                <lb/><space quantity="3" unit="char"/>I am already deep in my new translation.It is great fun
                 <lb/>to play again with the German language, but the book is
                 <lb/>difficult ,not the plain prose but the dialogue and the 
-                <lb/>quickness and irony in it. Hard to get that in German. But
+                <lb/>quickness and irony in it. <unclear>H</unclear>ard to get that in German. But
                 <lb/>it is surprising how the words and colloquialisms rush into
                 <lb/>one's memory from all sides and corners of your brain while
-                <lb/>writing. I do hope to get it all right. I try to live 
-                <lb/>like an eremite, and succeed. The weather is just now
+                <lb/>writing. I do hope to get it all right.<space quantity="2" unit="char"/><hi rend="underline" hand="#type_black_mayer">I</hi> try to live 
+                <lb/>like an eremite, and succeed.<space quantity="2" unit="char"/>The weather is just now
                 <lb/>lovely, and I sit often in the Park and prepare in my head
-                <lb/>a chapter, run upstairs and type it. I go out almost never,
-                <lb/>was only once in the Goethe Haus to hear Erich Heller
-                <lb/>who spoke very well and witty about Hegel and the attitude
-                <lb/>of the Germans toward Shakespeare. I met there, again Dwight Mcdon.
+                <lb/>a chapter, run upstairs and type it.<space quantity="2" unit="char"/>I go out almost never,
+                <lb/>was only once in the Goethe <unclear>H</unclear>aus to hear<space quantity="3" unit="char"/>Erich <unclear>H</unclear>eller
+                <lb/>who spoke very well and witty about <unclear>H</unclear>egel and<space quantity="2" unit="char"/>the attitude
+                <lb/>of the Germans toward Shakespeare.<space quantity="2" unit="char"/>I met <add hand="#hand_blue_mayer" place="above">there<unclear>,</unclear></add> again <subst><del rend="overtyped" hand="#type_black_mayer">d</del><add place="superimposed" hand="#type_black_mayer">D</add></subst>wight Mc<subst><del rend="overtyped" hand="#type_black_mayer">.</del><add place="superimposed" hand="#type_black_mayer">d</add></subst>on.
                 <lb/>who loves the Elective Affs. and wants to write something 
-                <lb/>about the book. Pazienza. Michael has had, and still
-                <lb/>has a very hard time.His old Rector died suddenly ( in the
-                <lb/>Met, during the first act of Tosca) and M. has to run the
+                <lb/>about the book.<space quantity="2" unit="char"/>Pazienza.<space quantity="5" unit="char"/>Michael has had, and still
+                <lb/>has a very hard time.His old Rector died suddenly (<space quantity="2" unit="char"/>in the
+                <lb/><unclear>M</unclear>et, during the first act of Tosca) and M. has to run the
                 <lb/>whole parish. No decisions as yet. I met the Bishop at
-                <lb/>the Funeral Mass ,and he said to me wonderful things about
-                <lb/>Michael. We are wondering now... ..
+                <lb/>the Funeral <unclear>M</unclear>ass ,and <unclear>h</unclear>e said<space quantity="2" unit="char"/>to me wonderful things about
+                <lb/>Michael. <subst><del rend="overtyped" hand="#type_black_mayer"><unclear>w</unclear>W</del><add place="superimposed" hand="#type_black_mayer">We</add></subst> are wondering now... ..
               </p>
               <closer>
-                <salute><lb/>Much much love,Wystan dear.</salute>
+                <salute><lb/><space quantity="29" unit="char"/>Much much love,Wystan dear<add hand="#hand_blue_mayer" place="inline"><unclear>.</unclear></add></salute>
               </closer>
               <postscript>
                 <ab>
-                  <lb/>P.S. I shall certainly get the Krauss translations.
-                  <lb/>The 'Merkur" brought one of your Shaksp. Essays, not too
-                  <lb/>bad, but not Auden's style.
+                  <lb/><space quantity="2" unit="char"/>P.S. I shall certainly get the Krauss translations.
+                  <lb/><space quantity="2" unit="char"/>The 'Merkur" brou<del hand="#hand_blue_mayer" rend="overstrike">b</del>ght one of your Shaksp.<subst><del rend="overwritten" hand="#hand_blue_mayer"><gap unit="char" quantity="1"></gap></del><add place="superimposed" hand="#hand_blue_mayer">E</add></subst>ssays, not too
+                  <lb/><space quantity="2" unit="char"/>bad, but not Auden's<space quantity="2" unit="char"/>style.
                 </ab>
               </postscript>
               <closer>
