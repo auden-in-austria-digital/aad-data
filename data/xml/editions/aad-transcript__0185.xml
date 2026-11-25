@@ -1,0 +1,340 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0185" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Typed Letter Signed David Luke to W. H. Auden 1973-09-04</title>
+        <author ref="https://d-nb.info/gnd/129219827">Luke, David</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484">Hechtl, Angelika</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Typed Letter Signed David Luke to W. H. Auden 1973-09-04</title>
+          <interpGrp>
+            <interp>
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+          <name sameAs="#ahechtl"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
+                <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
+                <collection>Documentation Center for Literature in Lower Austria</collection>
+                <idno>LS-Aud 2.47</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark/>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00556/">
+                        <width>203</width>
+                        <height>253</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00557/">
+                        <width>203</width>
+                        <height>253</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00558/">
+                        <width>204</width>
+                        <height>169</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00559/">
+                        <width>204</width>
+                        <height>169</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_black_luke" scribeRef="#amp_person_89" medium="ink-black">Handwriting in black ink by David Luke</handNote>
+                  <handNote xml:id="hand_blue_unident_0185" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="type_black_luke" scribeRef="#amp_person_89" medium="type">Typewriting in black ink by David Luke</typeNote>
+                  <typeNote xml:id="type_cc_luke" scribeRef="#amp_person_89" medium="type-cc">Carbon copy of typewriting authored by David Luke</typeNote>
+                  <typeNote xml:id="print_luke" scribeRef="#amp_person_89" medium="print">Preprinted writing authored by David Luke</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1973-09-04T00:00:00+00:00" notAfter-iso="1973-09-04T23:59:59+00:00"/>
+                  <origPlace ref="https://d-nb.info">Shotheids</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en"/>
+        <language ident="de"/>
+        <language ident="la"/>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1973-09-04T00:00:00+00:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#smayer" when-iso="2026-11-09">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-11-16">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-11-16">Text transcribed; hands, languages, correspondence container structure, entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="3690" lry="4490">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00556/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3684" lry="4488">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00557/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3708" lry="3190">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00558/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3702" lry="3192">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00559/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0185" xml:lang="en">
+          <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00556/" ed="1r" type="sheet"/>
+            <div type="letter_message" hand="#type_black_luke">
+              <opener>
+                <seg>
+                  <lb/><space quantity="45" unit="char"/>as from
+                </seg>
+                <seg hand="#print_luke">
+                  <lb/><hi rend="italic" hand="#print_luke">From <persName><rs type="person" ref="#amp_person_89">Dr. F. D. Luke</rs></persName>, <orgName><rs type="org" ref="#amp_organization_6">Christ Church</rs></orgName>, <placeName><rs type="place" ref="#amp_place_id_46">Oxford</rs></placeName></hi>. <seg hand="#type_black_luke">(<foreign xml:lang="de">z.Zt.</foreign><rs type="place" ref="#amp_place_id_808">Shotheids</rs>)</seg> <hi rend="italic" hand="#print_luke">Tel. Oxford 41357</hi>
+                </seg>
+                <seg hand="#hand_black_luke">
+                  <date>
+                    <lb/>4 Sept. 73
+                  </date>
+                </seg>
+                <salute hand="#hand_black_luke">
+                  <lb/>Dear <rs type="person" ref="#amp_person_1">Wystan</rs>
+                </salute>
+              </opener>
+              <p>
+                <lb/><space quantity="5" unit="char"/>It's <subst><del rend="overtyped" hand="#type_black_luke">d</del><add place="superimposed" hand="#type_black_luke">s</add></subst>ad about <rs type="person" ref="#amp_person_41">Tolkien</rs>. I'm very sorry you didn't see him again. As for
+                <lb/>myself, one of the things I shall most regret all my life is missing an eve<subst><del rend="overtyped" hand="#type_black_luke">h</del><add place="superimposed" hand="#type_black_luke">n</add></subst>ing
+                <lb/>on which, soon after he came back to <rs type="place" ref="#amp_place_id_46">Oxford</rs>, <rs type="person" ref="#amp_person_830">Eric Dodd<subst><del rend="overtyped" hand="#type_black_luke">'</del><add place="superimposed" hand="#type_black_luke">s</add></subst></rs> brought him into dinner
+                <lb/>and afterwards in CR, I'm told, he talked for ages about his work - I didn't
+                <lb/>stay for CR because, absurdly, I failed to real<subst><del rend="overtyped" hand="#type_black_luke">l</del><add place="superimposed" hand="#type_black_luke">i</add></subst>se who Eric's guest was.
+              </p>
+              <p>
+                <lb/><space quantity="3" unit="char"/>I've now done the remaining <rs type="lit_work" ref="#lit_work_id_564"><hi rend="underline" hand="#type_black_luke">Ro<subst><del rend="overtyped" hand="#type_black_luke">a</del><add place="superimposed" hand="#type_black_luke">m</add></subst>an Elegies</hi></rs> and revised the others as best I
+                <lb/>can and added the inevitable annotations (that was a labour, but interesting)
+                <lb/>- I think the latter should all come together at th<subst><del rend="overtyped" hand="#type_black_luke"><gap reason="illegible" quantity="1" unit="char"></gap></del><add place="superimposed" hand="#type_black_luke">e</add></subst> end.<space quantity="2" unit="char"/>This Xerox copy isn't
+                <lb/>very clear, I'm afraid, but the best I can do in these parts, short of retyping
+                <lb/>the lot - this will have to be done in the end of course before the thing is
+                <lb/>sent to <rs type="person" ref="#amp_person_831">Peter Jay</rs>, but I didn't want to ask the Tutors' Secretar<subst><del rend="overtyped" hand="#type_black_luke">t</del><add place="superimposed" hand="#type_black_luke">y</add></subst> to begin that
+                <lb/>until hearing from you whether you have any suggestions about further alterations.
+              </p>
+              <p>
+                <lb/><space quantity="3" unit="char"/>I thought again about the problem of the metre and tried to clarify <subst><del rend="overtyped" hand="#type_black_luke">n6</del><add place="superimposed" hand="#type_black_luke">my</add></subst> ideas
+                <lb/>(see Notes)<subst><del rend="overtyped" hand="#type_black_luke">:</del><add place="superimposed" hand="#type_black_luke">;</add></subst> they seem more or less to agree with the principles underlying yo<subst><del rend="overtyped" hand="#type_black_luke">r</del><add place="superimposed" hand="#type_black_luke">u</add></subst>r
+                <lb/><rs type="lit_work" ref="#lit_work_id_566">"Natural Linguistics"</rs> and <rs type="lit_work" ref="#lit_work_id_567">your piece in hexameters about insects</rs> (what a <hi rend="underline" hand="#type_black_luke"><subst><del rend="overtyped" hand="#type_black_luke">a</del><add place="superimposed" hand="#type_black_luke">d</add></subst>amne</hi>d
+                <lb/>good poem that is! I didn't re<subst><del rend="overtyped" hand="#type_black_luke">l</del><add place="superimposed" hand="#type_black_luke">a</add></subst>lly take it in till the other day; and how I
+                <lb/>agree with what it says - <foreign xml:lang="la"><hi rend="underline" hand="#type_black_luke">pace</hi></foreign> <rs type="person" ref="#amp_person_832">St.Isaac the Syrian</rs>, <foreign xml:lang="la">apud</foreign> <rs type="person" ref="#amp_person_833">Lossky</rs> <rs type="lit_work" ref="#lit_work_id_569">"The Mystical
+                <lb/>Theology of the <subst><del rend="overtyped" hand="#type_black_luke"><unclear>O</unclear></del><add place="superimposed" hand="#type_black_luke">E</add></subst>astern Ch."</rs> which I am currently reading with great admiration;
+                <lb/>he wrote that one should be "burning with charity for the whole of creation,
+                <lb/>for men, for the birds, for the beasts, for the demons"(!)"-for all cr<subst><del rend="overtyped" hand="#type_black_luke">w</del><add place="superimposed" hand="#type_black_luke">e</add></subst>atures...
+                <lb/>Such a man never ceases to pray also for the animals, for the enemies of Truth,
+                <lb/>and for those who do him ev<subst><del rend="overtyped" hand="#type_black_luke">ei</del><add place="superimposed" hand="#type_black_luke">il</add></subst>, that they may be preserved an purified. He will
+                <lb/>pray even for the reptiles, moved by the infinite pity <subst><del rend="overtyped" hand="#type_black_luke">e</del><add place="superimposed" hand="#type_black_luke">w</add></subst>hich" etc.etc. Rather
+                <lb/>a tall order).
+              </p>
+              <p>
+                <lb/><space quantity="3" unit="char"/>I hope you &amp; <rs type="person" ref="#amp_person_4">Chester</rs> are well.<space quantity="2" unit="char"/>I heard you were on great form at the <rs type="event" ref="#amp_event_id_528">Poetry
+                <lb/>International</rs> and were very kind to my friend <rs type="person" ref="#amp_person_834">Al<subst><del rend="overtyped" hand="#type_black_luke">si</del><add place="superimposed" hand="#type_black_luke">is</add></subst>on Weir</rs> who was somehow
+                <lb/>smuggled into your pr<subst><del rend="overtyped" hand="#type_black_luke">r</del><add place="superimposed" hand="#type_black_luke">e</add></subst>sence. I'm not going abroad this vac, but just spending
+                <lb/>2 or 3 weeks up here in <rs type="place" ref="#amp_place_id_809">Scotland</rs>.<space quantity="2" unit="char"/>When I am in <rs type="place" ref="#amp_place_id_46">Oxford</rs> and think about <rs type="place" ref="#amp_place_id_808">Shot-
+                <lb/>heids</rs> I feel it is madness not <subst><del rend="overtyped" hand="#type_black_luke">s</del><add place="superimposed" hand="#type_black_luke">t</add></subst>o sell it or at least let it, but when I come
+                <lb/>here the spell works again; especi<subst><del rend="overtyped" hand="#type_black_luke">z</del><add place="superimposed" hand="#type_black_luke">a</add></subst>lly this time, when the weather ha<subst><del rend="overtyped" hand="#type_black_luke">d</del><add place="superimposed" hand="#type_black_luke">s</add></subst> been
+                <lb/>elvishl<subst><del rend="overtyped" hand="#type_black_luke"><unclear>Z</unclear></del><add place="superimposed" hand="#type_black_luke">y</add></subst> beautiful, and even Beelzebub's creatures have for some reason been
+                <lb/>troubling me less this season (though there is a curious recrudescence ofthings
+                <lb/>- ?birds - going bump agianst the win<subst><del rend="overtyped" hand="#type_black_luke">o</del><add place="superimposed" hand="#type_black_luke">d</add></subst>ow in the early morning).
+              </p>
+              <p>
+                <lb/><space quantity="3" unit="char"/>I had a bad depression all <subst><del rend="overtyped" hand="#type_black_luke">m</del><add place="superimposed" hand="#type_black_luke">M</add></subst>ay and June, for a comp<subst><del rend="overtyped" hand="#type_black_luke">e</del><add place="superimposed" hand="#type_black_luke">l</add></subst>exity of reasons which
+                <lb/>weren't <subst><del rend="overtyped" hand="#type_black_luke">v</del><add place="superimposed" hand="#type_black_luke">c</add></subst>lear, though <subst><del rend="overtyped" hand="#type_black_luke">i</del><add place="superimposed" hand="#type_black_luke">I</add></subst> suppose Matty was an important one. However that seems 
+                <lb/>to have settled into the usual "as good as can be reasonably expected" (and at
+                <lb/>any rate <hi rend="underline" hand="#hand_black_luke">much</hi> better than the situation with his German predecessor). Our
+                <lb/>meetings <foreign xml:lang="de">un<subst><del rend="overtyped" hand="#type_black_luke">r</del><add place="superimposed" hand="#type_black_luke">t</add></subst>er vier Augen</foreign> are rare, but the <subst><del rend="overtyped" hand="#type_black_luke"><unclear>ß</unclear></del><add place="superimposed" hand="#type_black_luke">l</add></subst>ast two at least were very good,
+                <lb/>with a lot of mutual communication, and made up for a great deal (in July<rs type="lit_work" ref="#lit_work_id_570">"Figaro"</rs>
+                <lb/>at <rs type="org" ref="#amp_organization_518">Glyn<subst><del rend="overtyped" hand="#type_black_luke">e</del><add place="superimposed" hand="#type_black_luke">d</add></subst>ebourne</rs>, to which I did NOT ask his girl-friend; and in August a tuto<subst><del rend="overtyped" hand="#type_black_luke">a</del><add place="superimposed" hand="#type_black_luke">r</add></subst>ial
+                <lb/>- sic - on <rs type="person" ref="#amp_person_11">Goethe</rs>'s poetry, sitting out in the garden after lunch at an inn away
+                <lb/>up the Thames valley).<space quantity="2" unit="char"/>Hedoes seem (hard as I <subst><del rend="overtyped" hand="#type_black_luke">d</del><add place="superimposed" hand="#type_black_luke">f</add></subst>ind it to believe the evidence)
+                <lb/>to be fond of me and admire me, but demands an incredible amount of "stimulation"
+                <lb/>and "encouragement" (he equates the two, which seems strange to me) and when he
+                <lb/>doesn't get it I am in no uncertain terms called cynical, insensitive, unintui-
+                <lb/>tive, etc. At least I am being obliged to rethink my ways as a tutor. I hope
+                <lb/>to see something of h<subst><del rend="overtyped" hand="#type_black_luke">k</del><add place="superimposed" hand="#type_black_luke">i</add></subst>m in <rs type="place" ref="#amp_place_id_204">Edinburgh</rs> this week. Later in the month he <subst><del rend="overtyped" hand="#type_black_luke">h</del><add place="superimposed" hand="#type_black_luke">g</add></subst>oes off
+              </p>
+            </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00557/" ed="1v" type="sheet"/>
+            <div type="letter_message" hand="#type_black_luke">
+              <p>
+                <lb/>for his year in <rs type="place" ref="#amp_place_id_84">Paris</rs>. I plan to take the Hilary Term off on sabbatical (to
+                <lb/>try and get on with that bloody <rs type="lit_work" ref="#lit_work_id_571">Kleist project</rs>) and shall go abroad for a
+                <lb/>b<subst><del rend="overtyped" hand="#type_black_luke">j</del><add place="superimposed" hand="#type_black_luke">i</add></subst>t then, not without passing at least <subst><del rend="overtyped" hand="#type_black_luke">w</del><add place="superimposed" hand="#type_black_luke">o</add></subst>nce through <subst><del rend="overtyped" hand="#type_black_luke">p</del><add place="superimposed" hand="#type_black_luke">P</add></subst>aris.
+              </p>
+              <p>
+                <lb/><space quantity="3" unit="char"/>A major row has been blowing up between the <rs type="org" ref="#amp_organization_6">Ch.Ch<subst><del rend="overtyped" hand="#type_black_luke">,</del><add place="superimposed" hand="#type_black_luke">.</add></subst></rs> undergraduates and the
+                <lb/><rs type="org" ref="#amp_organization_6">Ch.Ch.</rs> <subst><del rend="overtyped" hand="#type_black_luke">e</del><add place="superimposed" hand="#type_black_luke">E</add></subst>stablishment about the question of women guests overnight in college.
+                <lb/>Many of <subst><del rend="overtyped" hand="#type_black_luke">t</del><add place="superimposed" hand="#type_black_luke">u</add></subst>s think it could have been better handled. A special pre-Term GB
+                <lb/>meeting has even been called, "to receive a statement from the Senior Censor
+                <lb/>concerning a disciplinary matter..."; this in i<subst><del rend="overtyped" hand="#type_black_luke">n</del><add place="superimposed" hand="#type_black_luke">t</add></subst>self makes history, never
+                <lb/>having happened before. Militancy has begun and more is promised; no doubt you
+                <lb/>will be there to see &amp; hear part of the fun.<space quantity="2" unit="char"/>In general next term is going to
+                <lb/>be hell for me, with much too much teaching to do (the price of absence in
+                <lb/><subst><del rend="overtyped" hand="#type_black_luke">N</del><add place="superimposed" hand="#type_black_luke">H</add></subst>ilary).<space quantity="3" unit="char"/>I look forward to hearing from you on the <rs type="lit_work" ref="#lit_work_id_564"><hi rend="underline" hand="#type_black_luke">Elegies</hi></rs>. It would be
+                <lb/>nice if we could manage to get our <del rend="overtyped" hand="#type_black_luke"><unclear>beit</unclear></del> bit done <subst><del rend="overtyped" hand="#type_black_luke">n</del><add place="superimposed" hand="#type_black_luke">b</add></subst>efore term begins (delivery
+                <lb/>da<subst><del rend="overtyped" hand="#type_black_luke">y</del><add place="superimposed" hand="#type_black_luke">t</add></subst>e is December.<space quantity="2" unit="char"/>Incidentally there has been complete and unexplained silence
+                <lb/>on the Chicago side b<subst><del rend="overtyped" hand="#type_black_luke">e</del><add place="superimposed" hand="#type_black_luke">o</add></subst>th from their man and from my agent). <subst><del rend="overtyped" hand="#type_black_luke"><subst><del rend="overtyped" hand="#type_black_luke">§</del><add place="superimposed" hand="#type_black_luke">a</add></subst></del><add place="superimposed" hand="#type_black_luke">A</add></subst>s to the historical
+                <lb/>/factual details which you may require for your pref<subst><del rend="overtyped" hand="#type_black_luke">ea</del><add place="superimposed" hand="#type_black_luke">ac</add></subst>e, all I can send you
+                <lb/>from up here is a f<subst><del rend="overtyped" hand="#type_black_luke"><unclear>r</unclear></del><add place="superimposed" hand="#type_black_luke">e</add></subst>w relevant lines from <rs type="lit_work" ref="#lit_work_id_572">Staiger's edition</rs>, but I'll have a
+                <lb/>look at the others when I get back <subst><del rend="overtyped" hand="#type_black_luke">f</del><add place="superimposed" hand="#type_black_luke">t</add></subst>o <rs type="place" ref="#amp_place_id_46">Oxford</rs>.
+              </p>
+              <p>
+                <lb/><space quantity="3" unit="char"/>I'm sorry there was that muddle about the forwarding of your ma<subst><del rend="overtyped" hand="#type_black_luke">k</del><add place="superimposed" hand="#type_black_luke">i</add></subst>l - the
+                <lb/>Steward's employees are almost all imbeciles.
+              </p>
+              <p>
+                <lb/><space quantity="3" unit="char"/>Incidentally I continue to get on well with Matty's mother (spent a weekend
+                <lb/>at the family mansion at the end of July) - she is very beautiful, charm<subst><del rend="overtyped" hand="#type_black_luke">k</del><add place="superimposed" hand="#type_black_luke">i</add></subst>ng
+                <lb/>and amusing, and I'm having her to dinner at High Table on Sat.Nov.l0th, when
+                <lb/>I hope you will be there (I gave her <rs type="lit_work" ref="#lit_work_id_53">"<subst><del rend="overtyped" hand="#type_black_luke">G</del><add place="superimposed" hand="#type_black_luke">F</add></subst>orewords and Afterw<unclear><subst><del rend="overtyped" hand="#type_black_luke">a</del><add place="superimposed" hand="#type_black_luke">o</add></subst></unclear>rds"</rs> for her birth-
+                <lb/>day).
+              </p>
+              <closer hand="#hand_black_luke">
+                <salute>
+                  <lb/><unclear>l</unclear>ove
+                </salute>
+                <signed>
+                  <lb/><rs type="person" ref="#amp_person_89">David</rs>
+                </signed>
+              </closer>
+            </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00558/" ed="2r" type="sheet"/>
+            <div type="letter_message" hand="#type_black_luke">
+              <p>
+                <lb/>P.S.<space quantity="2" unit="char"/>I woke up early the other morning and this more or less came into my mind
+                <lb/>(though tidied up slightly since). I can't possibly judge it. Should I (a) burn
+                <lb/>it, (b) con<subst><del rend="overtyped" hand="#type_black_luke">d</del><add place="superimposed" hand="#type_black_luke">s</add></subst>ign it to some private file, (c) resume attempts at verse composition
+                <lb/>of my own, as <subst><del rend="overtyped" hand="#type_black_luke">s</del><add place="superimposed" hand="#type_black_luke">w</add></subst>ell as translation?
+              </p>
+              <closer hand="#hand_black_luke">
+                <salute>
+                  <lb/><unclear>l</unclear>.
+                </salute>
+                <signed>
+                  <lb/><rs type="person" ref="#amp_person_89">D.</rs>
+                </signed>
+              </closer>
+            </div>
+            <div type="poem" hand="#type_cc_luke">
+              <lg>
+                <lb/><space quantity="7" unit="char"/><l>Solution of mysteries, communication</l>
+                <lb/><space quantity="7" unit="char"/><l>broken and restor<del rend="overstrike" hand="#hand_black_luke"><gap reason="illegible" unit="char" quantity="1"></gap></del>ed, the missing syllables</l>
+                <lb/><space quantity="7" unit="char"/><l>floating now into place: you, you, you, you.</l>
+                <lb/><space quantity="7" unit="char"/><l>And swans drift past, one green and golden feathered,</l>
+                <lb/><space quantity="7" unit="char"/><l>more royal, following.<space quantity="2" unit="char"/>Water and grass,</l>
+                <lb/><space quantity="7" unit="char"/><l>great trees, the orchard, fruit in netted beds</l>
+                <lb/><space quantity="7" unit="char"/><l>and against sunsoaked walls, g<subst><del rend="overtyped" hand="#type_cc_luke">r</del><add place="superimposed" hand="#type_black_luke">l</add></subst>ass drawing sun</l>
+                <lb/><space quantity="7" unit="char"/><l>where flowers speak from half the world away.</l>
+                <lb/><space quantity="7" unit="char"/><l><foreign xml:lang="de">Wo war ich s<subst><del rend="overtyped" hand="#type_cc_luke">h</del><add place="superimposed" hand="#type_black_luke">c</add></subst>hon einmal und war so selig?</foreign></l>
+                <lb/><space quantity="7" unit="char"/><l>A terrace where a flock of do<subst><del rend="overtyped" hand="#type_cc_luke">c</del><add place="superimposed" hand="#type_black_luke">v</add></subst>es have <subst><del rend="overlaid" hand="#hand_black_luke">clustered</del><add place="superimposed" hand="#hand_black_luke">landed</add></subst></l>
+                <lb/><space quantity="7" unit="char"/><l><subst><del rend="overlaid" hand="#hand_black_luke">in patterns on the ground: read this,</del><add place="superimposed" hand="#hand_black_luke">clustered in patterns: I am to read</add></subst> their message.</l>
+                <lb/><space quantity="7" unit="char"/><l>Or if I cross th<subst><del rend="overtyped" hand="#type_cc_luke">t</del><add place="superimposed" hand="#type_black_luke">a</add></subst>t water, running, gliding,</l>
+                <lb/><space quantity="7" unit="char"/><l>there I shall find him, the shy forest-creature</l>
+                <lb/><space quantity="7" unit="char"/><l>who died and lives, and he will recognise me.</l>
+                <lb/><space quantity="7" unit="char"/><l>Who were you, are you, what are you telling me?</l>
+                <lb/><space quantity="7" unit="char"/><l>Tell me in time - if you can speak in time</l>
+                <lb/><space quantity="7" unit="char"/><l>and place, oh unpossessable, imperfect</l>
+                <lb/><space quantity="7" unit="char"/><l>likeness, free, unforeseen, lost, lost, returning.</l>
+              </lg>
+              <ab>
+                <lb/><space quantity="49" unit="char"/>27.8.73.
+              </ab>
+             </div>
+              <div>
+                <ab hand="#hand_blue_unident_0185">
+                  <lb/>65
+                </ab>
+              </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00559/" ed="2v" type="sheet"/>
+      </div>
+     </div>
+    </body>
+  </text>
+</TEI>

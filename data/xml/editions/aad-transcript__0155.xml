@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0155" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Typed Letter Signed Paul Bachmann to W. H. Auden 1972-08-04</title>
+        <author ref="https://d-nb.info">Bachmann, Paul</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484">Hechtl, Angelika</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Typed Letter Signed Paul Bachmann to W. H. Auden 1972-08-04</title>
+          <interpGrp>
+            <interp xml:id="ana_134">
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+          <name sameAs="#ahechtl"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
+                <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
+                <collection>Documentation Center for Literature in Lower Austria</collection>
+                <idno>LS-Aud 2.4</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark/>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00477/">
+                        <width>210</width>
+                        <height>297</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00478/">
+                        <width>210</width>
+                        <height>297</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00479/">
+                        <width>210</width>
+                        <height>297</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00480/">
+                        <width>210</width>
+                        <height>297</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_blue_bachmann" scribeRef="#amp_person_241" medium="ink-blue">Handwriting in blue ink by Paul Bachmann</handNote>
+                  <handNote xml:id="hand_blue_unident_0155" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="type_black_bachmann" scribeRef="#amp_person_241" medium="type">Typewriting in black ink authored by Paul Bachmann</typeNote>
+                  <typeNote xml:id="print_black_bachmann" scribeRef="#amp_person_241" medium="print-black">Preprinted writing in black authored by Paul Bachmann</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1972-08-04T00:00:00+01:00" notAfter-iso="1972-08-04T23:59:59+01:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de"/>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1972-08-04T00:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <placeName><rs type="place" ref="#amp_place_id_2">Kirchstetten</rs></placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#smayer" when-iso="2026-09-15">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-09-15">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-09-15">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="3802" lry="5166">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00477/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3802" lry="5172">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00478/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3804" lry="5168">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00479/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3806" lry="5166">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00480/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0155" xml:lang="de">
+          <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00477/" ed="1r" type="sheet"/>
+            <div type="letter_message" hand="#type_black_bachmann" xml:lang="de">
+              <opener>
+                <seg hand="#print_black_bachmann">
+                  <lb/>RECHTSANWALT
+                  <lb/><persName><rs type="person" ref="#amp_person_241">D<hi rend="superscript">R.</hi> PAUL BACHMANN</rs></persName>
+                  <lb/><placeName><address><rs type="place" ref="#amp_place_id_551">1O1O WIEN I, OPERNRING 8</rs></address></placeName>
+                  <lb/>FERNRUF 52 87 O1 U. 52 87 O2
+                  <lb/><rs type="org" ref="#amp_organization_275">SCHELHAMMER &amp; SCHATTERA</rs> <rs type="place" ref="#amp_place_id_1">WIEN</rs>
+                  <lb/>KONTO NR. 14.217
+                  <lb/><rs type="org" ref="#amp_organization_276">POSTSPARKASSE</rs> <rs type="place" ref="#amp_place_id_1">WIEN</rs> 121.O43
+                </seg>
+                <dateline>  
+                  <date>
+                    <lb/><space unit="char" quantity="37"/><rs type="place" ref="#amp_place_id_1">Wien</rs>,am 4.8.l972
+                    <lb/>
+                  </date>
+                </dateline>
+                <seg>
+                  <persName>
+                    <lb/><space unit="char" quantity="30"/>Herrn <rs type="person" ref="#amp_person_1">Professor
+                    <lb/><space unit="char" quantity="30"/>Wystan Hugh A u d e n</rs>
+                  </persName>
+                  <placeName>
+                    <address>
+                      <lb/><space unit="char" quantity="30"/><rs type="place" ref="#amp_place_id_2">Hinterholz 6
+                      <lb/><space unit="char" quantity="30"/>3062 Kirchstetten</rs>
+                    </address>
+                  </placeName>
+                </seg>
+                <seg>
+                  <lb/>Betr.: <hi rend="underline" hand="#type_black_bachmann"><rs type="person" ref="#amp_person_1">Prof.Auden</rs></hi>
+                </seg>
+                <salute>
+                  <lb/>Sehr geehrter <rs type="person" ref="#amp_person_1">Herr Professor</rs>!
+                </salute>
+              </opener>
+              <p>
+                <lb/>De<subst><del rend="erased" hand="#type_black_bachmann">m</del><add place="superimposed" hand="#type_black_bachmann">n</add></subst> Inhalt des mit <rs type="person" ref="#amp_person_4">Mr.Kalmann</rs> am 3.lf.M. geführten Gespräches
+                <lb/>darf ich wie folgt festhalten:
+                <lb/>Die Ihnen ehemals gehörige Hälfte der <rs type="place" ref="#amp_place_id_2">Liegenschaft</rs> wurde zu
+                <lb/>gunsten der <rs type="org" ref="#amp_organization_310">Republik Österreich</rs> durch eine Pfandrechtsvor-
+                <lb/>merkung für eine Abgabenforderung in der Höhe von S 553.l69,-
+                <lb/>am 3l.3.l97l belastet. Diese mit S 553.l69 belastete Hälfte
+                <lb/>der Liegenschaft wurde dann an <rs type="person" ref="#amp_person_4">Herrn Kalmann</rs> üb<subst><del rend="erased" hand="#type_black_bachmann">r</del><add place="superimposed" hand="#type_black_bachmann">e</add></subst>rtragen.
+                <lb/>Die Übertragung der belasteten Liegenschaftshälfte bewirkt
+                <lb/>keineswegs, daß Herr Kalmann persönlich für diese Abgaben-
+                <lb/>forderung haftet, sondern bedeutet lediglich, daß die Liegen-
+                <lb/>schaft weiterhin belastet bleibt. Durch die Schenkung ist
+                <lb/>also das Pfandrecht für die Republik Österreich au<subst><del rend="erased" hand="#type_black_bachmann">s</del><add place="superimposed" hand="#type_black_bachmann">f</add></subst> der
+                <lb/>halben ehemals Ihnen gehörigen Liegenschaft nicht erloschen,
+                <lb/>sondern bestehen geblieben.
+              </p>
+              <p>
+                <lb/><rs type="person" ref="#amp_person_505">Herr Dr.Bubla</rs>, dem ich <subst><del rend="erased" hand="#type_black_bachmann"><unclear>I</unclear></del><add place="superimposed" hand="#type_black_bachmann">e</add></subst>ine Durchschrift dieses Briefes
+                <lb/><add hand="#hand_blue_bachmann" place="inline">e</add>benfalls übersende, hatte mir seinerzeit erklärt, der
+                <lb/>Schenkungsvertrag wäre aus irgendeinem Anlasse Beamten
+                <lb/>des <rs type="org" ref="#amp_organization_235">Finanzamtes</rs> mitgeteilt worden. Erst nach Kenntnis von
+                <lb/>der Schenkung der halben <rs type="place" ref="#amp_place_id_2">Liegenschaft</rs> an <rs type="person" ref="#amp_person_4">Herrn Kalmann</rs> er-
+              </p>
+              </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00478/" ed="1v" type="sheet"/>
+            <div type="letter_message" hand="#type_black_bachmann" xml:lang="de">
+              <p>
+                <lb/>folgte die Vormerkung auf der Ihnen gehörigen Liegenschafts-
+                <lb/>hälfte. <rs type="person" ref="#amp_person_505">Herr Dr.Bubla</rs> hat daraus den Schluß gezogen, daß das
+                <lb/><rs type="org" ref="#amp_organization_235">Finanzamt</rs> bei Vormerkung des Pfan<add hand="#type_black_bachmann" place="above">d</add>rechtes schlecht gläubig
+                <lb/>gewesen ist, da das Finanzamt ja wußte, daß die Liegenschafts-
+                <lb/>hälfte außerbücherlich nicht mehr Ihnen, sondern Herrn Kalmann
+                <lb/>gehörte. Dessen ungeachtet hat aber das Finanzamt die Ihnen
+                <lb/>noch bücherlich gehörige Liegenschaftshälfte durch die Pfand-
+                <lb/>rechtsvormerkung belastet. Dies war nur deshalb möglich, da
+                <lb/>der im Jahre 1969 abgeschlossene Schenkungsvertrag nicht ver-
+                <lb/>büch<subst><del rend="erased" hand="#type_black_bachmann">d</del><add place="superimposed" hand="#type_black_bachmann">e</add></subst>rt worden war.
+              </p>
+              <p>
+                <lb/>Erst nachdem Sie mit mir im April l97l Kontakt aufgenommen
+                <lb/>haben, wurde die Verbücherung des Schenkungsvertrages vor-
+                <lb/>genommen.
+              </p>
+              <p>
+                <lb/><rs type="person" ref="#amp_person_505">Herrn Dr.Bubla</rs> bitte ich daher um eine ergänzende Information
+                <lb/>um überprüfen zu können, ob und welche Maßnahmen ergriffen
+                <lb/>werden können um die Ihnen ehemals gehörige Liegenschafts-
+                <lb/>hälfte lastenfrei zu <subst><del rend="erased" hand="#type_black_bachmann">t</del><add place="superimposed" hand="#type_black_bachmann">s</add></subst>tellen.
+              </p>
+              <p>
+                <lb/>Sollte die <rs type="org" ref="#amp_organization_310">Republik Österreich</rs> aber nicht dazu gebracht werden
+                <lb/>können, die Pfandrechtsvormerkung zu löschen und sollte die
+                <lb/>Republik Österreich in dem <rs type="event" ref="#amp_event_id_45">Finanzstreit</rs> mit Ihnen, sehr geehrter
+                <lb/><rs type="person" ref="#amp_person_1">Herr Professor</rs>, obsiegen, so könnte die Republik Österreich
+                <lb/>höch<subst><del rend="erased" hand="#type_black_bachmann">t</del><add place="superimposed" hand="#type_black_bachmann">s</add></subst>tens die eine Liegenschaftshälfte zur Versteigerung
+                <lb/>bringen. Es ist eine Erfahrungstatsache, daß die Hälfte einer
+                <lb/>Liegenschaft weniger wert ist, als die rec<subst><del rend="overtyped" hand="#type_black_bachmann">n</del><add place="superimposed" hand="#type_black_bachmann">h</add></subst>nerische Hälfte
+                <lb/>der ganzen Liegenschaft. Außerdem ist zu berücksichtigen, daß
+                <lb/>Schätzungen in e<subst><del rend="erased" hand="#type_black_bachmann">n</del><add place="superimposed" hand="#type_black_bachmann">i</add></subst>nem Versteigerungsverfahren in der Re<subst><del rend="erased" hand="#type_black_bachmann">h</del><add place="superimposed" hand="#type_black_bachmann">g</add></subst>el
+                <lb/>nicht sehr hoch ausfallen. Das geringste Gebot betr<subst><del rend="overtyped" hand="#type_black_bachmann">ö</del><add place="superimposed" hand="#type_black_bachmann">ä</add></subst>gt nur die
+                <lb/>Hälfte des Schätzwertes. Schlimmstenfalls also müßte <rs type="person" ref="#amp_person_4">Herr
+                <lb/>Kalmann</rs> diese eine Hälfte nocheinmal ersteigern.
+              </p>
+            </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00479/" ed="2r" type="sheet"/>
+            <div type="letter_message" hand="#type_black_bachmann" xml:lang="de">
+              <p>
+                <lb/><rs type="person" ref="#amp_person_4">Herr Kalmann</rs> teilte mir auch mit, daß <rs type="person" ref="#amp_person_539">Frau Fuchs</rs> behaupte,
+                <lb/><subst><del rend="erased" hand="#type_black_bachmann">b</del><add place="superimposed" hand="#type_black_bachmann">d</add></subst>er seinerzeit abgeschlossene <rs ana="#ana_134">Kaufvertrag</rs> wäre nicht verbüchert
+                <lb/>worden.
+              </p>
+              <p>
+                <lb/>Beim <rs type="org" ref="#amp_organization_311">Bezirksgericht Neulengbach</rs> habe ich in Gegenwart von
+                <lb/><rs type="person" ref="#amp_person_4">Herrn Kalmann</rs> telefonisch festgestellt, daß der am 3.ll.l966
+                <lb/>abgeschlossene Kaufvertrag zur Tagebuchzahl l7ll/69 grund-
+                <lb/>bücherlich durch das <rs type="org" ref="#amp_organization_311">BG Neulengbach</rs> durchgeführt worden ist.
+                <lb/>Das Eigentumsrecht ist nicht mehr für <rs type="person" ref="#amp_person_539">Frau Fuchs</rs>, sondern
+                <lb/>für Herrn Kalmann eingetragen.
+              </p>
+              <p>
+                <lb/>Die Durchschrift meines Briefes an <rs type="person" ref="#amp_person_505">Herrn Dr.Bubla</rs> schließe
+                <lb/>ich Ihnen zu Ihrer Information an.
+              </p>
+              <closer>
+                <salute>
+                  <lb/><space quantity="24" unit="char"/>Mit vorzüglicher Hochachtung
+                </salute>
+                <signed hand="#hand_blue_bachmann">
+                  <lb/><rs type="person" ref="#amp_person_241"><unclear>Paul Bachmann</unclear></rs>
+                </signed>
+                <signed hand="#type_black_bachmann">
+                  <lb/><space unit="char" quantity="26"/>(<rs type="person" ref="#amp_person_241">Dr. Paul Bachmann</rs>)
+                </signed>            
+              </closer>
+              <postscript>
+                <p>
+                  <lb/>1 Beilage
+                </p>
+              </postscript>
+            </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00480/" ed="2v" type="sheet"/>
+            <div>
+              <ab hand="#hand_blue_unident_0155">
+                <lb/>11
+              </ab>
+             </div>
+           </div>
+         </div>
+    </body>
+  </text>
+</TEI>

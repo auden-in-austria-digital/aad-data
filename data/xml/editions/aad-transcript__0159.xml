@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0159" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Typed Letter Signed Paul Bachmann to W. H. Auden 1972-09-04</title>
+        <author ref="https://d-nb.info">Bachmann, Paul</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484">Hechtl, Angelika</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Typed Letter Signed Paul Bachmann to W. H. Auden 1972-09-04</title>
+          <interpGrp>
+            <interp xml:id="ana_137">
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+            <interp xml:id="ana_138">
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+          <name sameAs="#ahechtl"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
+                <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
+                <collection>Documentation Center for Literature in Lower Austria</collection>
+                <idno>LS-Aud 2.4</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00487/ https://iiif.acdh.oeaw.ac.at/aad/aad_00488/">Leykam Hartpost 1935</watermark>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00487/">
+                        <width>209</width>
+                        <height>296</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00488/">
+                        <width>209</width>
+                        <height>296</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_blue_bachmann" scribeRef="#amp_person_241" medium="ink-blue">Handwriting in blue ink by Paul Bachmann</handNote>
+                  <handNote xml:id="hand_blue_unident_0159" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="type_black_bachmann" scribeRef="#amp_person_241" medium="type">Typewriting in black ink authored by Paul Bachmann</typeNote>
+                  <typeNote xml:id="print_black_bachmann" scribeRef="#amp_person_241" medium="print-black">Preprinted writing in black authored by Paul Bachmann</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1972-09-04T00:00:00+01:00" notAfter-iso="1972-09-04T23:59:59+01:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de"/>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1972-09-04T00:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <placeName><rs type="place" ref="#amp_place_id_2">Kirchstetten</rs></placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#smayer" when-iso="2026-09-21">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-09-22">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-09-22">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="3794" lry="5156">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00487/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3790" lry="5154">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00488/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0159" xml:lang="de">
+          <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00487/" ed="1r" type="sheet"/>
+            <div type="letter_message" hand="#type_black_bachmann" xml:lang="de">
+              <opener>
+                <seg hand="#print_black_bachmann">
+                  <lb/>RECHTSANWALT
+                  <lb/><persName><rs type="person" ref="#amp_person_241">D<hi rend="superscript">R.</hi> PAUL BACHMANN</rs></persName>
+                  <lb/><placeName><address><rs type="place" ref="#amp_place_id_551">1O1O WIEN I, OPERNRING 8</rs></address></placeName>
+                  <lb/>FERNRUF 52 87 O1 U. 52 87 O2
+                  <lb/><rs type="org" ref="#amp_organization_275">SCHELHAMMER &amp; SCHATTERA</rs> <rs type="place" ref="#amp_place_id_1">WIEN</rs>
+                  <lb/>KONTO NR. 14.217
+                  <lb/><rs type="org" ref="#amp_organization_276">POSTSPARKASSE</rs> <rs type="place" ref="#amp_place_id_1">WIEN</rs> 121.O43
+                </seg>
+                <dateline>  
+                  <date>
+                    <lb/><space unit="char" quantity="42"/><rs type="place" ref="#amp_place_id_1">Wien</rs>,am 4.9.l972
+                    <lb/>
+                    <lb/>
+                  </date>
+                </dateline>
+                <seg>
+                  <persName>
+                    <lb/><space unit="char" quantity="30"/>Herrn 
+                    <lb/><space unit="char" quantity="30"/><rs type="person" ref="#amp_person_1">Prof.Wystan Hugh A u d en</rs>
+                  </persName>
+                  <placeName>
+                    <address>
+                      <lb/><space unit="char" quantity="30"/><rs type="place" ref="#amp_place_id_2">Hinterholz 6
+                      <lb/><space unit="char" quantity="30"/>3062 Kirchstetten</rs>
+                    </address>
+                  </placeName>
+                </seg>
+                <seg>
+                  <lb/>Betrifft: 
+                  <lb/><hi rend="underline" hand="#type_black_bachmann"><rs type="person" ref="#amp_person_1">Prof.Auden</rs> - <rs ana="acdh:aad-transcript__0152.xml#ana_132">Verwaltungsgerichtshofbeschwerde</rs></hi><del rend="erased" hand="#type_black_bachmann">$</del>
+                </seg>
+                <salute>
+                  <lb/>Sehr geehrter <rs type="person" ref="#amp_person_1">Herr Professor</rs>!
+                </salute>
+              </opener>
+              <p>
+                <lb/>Das <rs type="org" ref="#amp_organization_161">Bundesministerium für Finanzen</rs> hat mit Bescheid vom
+                <lb/>24.August l972 Zahl 258233 -9a/72 den beim <rs type="org" ref="#amp_organization_309">Verwaltungs-
+                <lb/>gerichtshof</rs> angefochtenen Berufungsentscheid der <rs type="org" ref="#amp_organization_158">Finanz-
+                <lb/>landesdirektion für Wien, NÖ und Bgld.</rs> vom l2.4.l972 be-
+                <lb/>treffend Einkommenssteuer l969 und Einkommenssteuervoraus-
+                <lb/>zahlung l970 in Ausübung des Aufsichtsrechtes gemäß § 299
+                <lb/>Abs.l lit.c der Bundesabgabenordnung aufgehoben.
+              </p>
+              <p>
+                <lb/>Es kommt sehr selten vor, daß das <rs type="org" ref="#amp_organization_161">Bundesministerium für
+                <lb/>Finanzen</rs> die Entscheidung des <rs type="org" ref="#amp_organization_309">Verwaltungsgerichtshofes</rs>
+                <lb/>nicht abwartet, sondern diese Entscheidung vorwegnimmt
+                <lb/>und durch Aufhebung des Bescheides eine für das Bundes<subst><del rend="overtyped" hand="#type_black_bachmann">.</del><add place="superimposed" hand="#type_black_bachmann">-</add></subst>
+                <lb/>ministerium negative Entscheidung verhindert.
+              </p>
+              <p>
+                <lb/>Das <rs type="org" ref="#amp_organization_161">Bundesministerium</rs> hat sich meiner Argumentation an-
+                <lb/>geschlossen, nämlich, daß keine rechtliche Verpflichtung
+                <lb/>für <rs type="person" ref="#amp_person_4">Mr.Kalmann</rs> besteht, Sie in dem <rs type="place" ref="#amp_place_id_2">Haus</rs> wohnen zu lassen.
+                <lb/>Das Bundesministerium für Finanzen hob den Bescheid auf,
+                <lb/>um durch <rs ana="#ana_137">Einvernahme durch Mr.Kalmann</rs> zu klären, ob Sie,
+                <lb/>sehr geehrter <rs type="person" ref="#amp_person_1">Herr Professor</rs>, die <rs type="place" ref="#amp_place_id_2">Wohnung in Kirchstetten</rs>
+              </p>
+            </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00488/" ed="1v" type="sheet"/>
+            <div>
+              <ab hand="#hand_blue_unident_0159">
+                <lb/>9
+              </ab>
+            </div>
+            <div type="letter_message" hand="#type_black_bachmann" xml:lang="de">
+              <p>
+                <lb/>unter Umständen innehaben, darauf schließen lassen, daß Sie
+                <lb/>die Wohnung beibehalten und benu<add hand="#hand_blue_bachmann" place="inline">t</add>zen werden.
+              </p>
+              <p>
+                <lb/>Es gibt nun 2 Möglichkeiten:
+                <lb/>1. Die Finanzbehörden haben sich entschlossen, da<subst><del rend="overwritten" hand="#hand_blue_bachmann">ß</del><add place="superimposed" hand="#hand_blue_bachmann">s</add></subst> Kessel-
+                <lb/><space unit="char" quantity="3"/>treiben gegen Sie einzustellen. Dies könnte man dann an-
+                <lb/><space unit="char" quantity="3"/>nehmen, wenn man von Seiten der Abgabenbehörde die Sache
+                <lb/><space unit="char" quantity="3"/>einschlafen läßt.
+                <lb/>2. Die <rs type="org" ref="#amp_organization_158">Finanzbehörde</rs> will doch noch den Sachverhalt näher
+                <lb/><space unit="char" quantity="3"/>prüfen und sich ein klares Bild schaffen, dies durch
+                <lb/><space unit="char" quantity="3"/>Einvernahme durch <rs type="person" ref="#amp_person_4">Mr.Kalmann</rs>.
+              </p>
+              <p>
+                <lb/>Nach allen trüben Erfahrungen, die Sie mit den Finanzbe-
+                <lb/>hörden gemacht haben, empfiehlt es sich nicht, optimistisch
+                <lb/>in die Zukunft zu schauen, sondern muß damit gerech<subst><del rend="erased" hand="#type_black_bachmann">e</del><add place="superimposed" hand="#type_black_bachmann">n</add></subst>et werden,
+                <lb/>daß <rs type="person" ref="#amp_person_4">Mr.Kalmann</rs> seitens der <rs type="org" ref="#amp_organization_158">Finanzbehörde</rs> einvernommen werden
+                <lb/>wird.
+              </p>
+              <p>
+                <lb/>Ich empfehle Ihnen daher dringend, daß <rs type="person" ref="#amp_person_4">Mr.Kalmann</rs> oder Sie
+                <lb/>nur und erst dann mit der <rs type="org" ref="#amp_organization_158">Finanzbehörde</rs> wenn überhaupt per -
+                <lb/>sönlich sprechen, wenn Sie oder Mr.Kalmann vorher mit Herrn
+                <lb/><rs type="person" ref="#amp_person_505">Dr.Bubla</rs> und mir gesprochen haben. Da Sie, wie ich weiß,
+                <lb/><rs type="place" ref="#amp_place_id_10">Österreich</rs> in den nächsten Tagen verlassen werden, halte ich
+                <lb/>es für sehr zweck<subst><del rend="erased" hand="#type_black_bachmann"><gap reason="illegible" unit="char" quantity="1"></gap></del><add place="superimposed" hand="#type_black_bachmann">m</add></subst>äßig, wenn ein allenfalls von der Finanz-
+                <lb/>behörde gewünschtes Gespräch erst nach Ihrer Rückkehr nach
+                <lb/>Österreich wieder stattfinden wird.
+              </p>
+              <p>
+                <lb/><rs ana="#ana_138">Jedenfalls freue ich mich sehr, daß die Verwaltungsgerichts-
+                <lb/>hofbesch<subst><del rend="erased" hand="#type_black_bachmann">e</del><add place="superimposed" hand="#type_black_bachmann">w</add></subst>erde Erfol<subst><del rend="erased" hand="#type_black_bachmann">f</del><add place="superimposed" hand="#type_black_bachmann">g</add></subst> hatte und einmal vorläufig der angefochtene
+                <lb/>Bescheid aufgehoben ist</rs>.
+                <lb/>Eine Honorarnote meiner <rs type="org" ref="#amp_organization_344">Kanzlei</rs>, betreffend das Verwaltungs-
+                <lb/>gerichtshofverfahren übermittle ich in der Beilage ./.
+              </p>
+              <closer>
+                <salute>
+                  <lb/><space quantity="27" unit="char"/>Mit vorzüglicher Hochachtung
+                </salute>
+                <signed hand="#hand_blue_bachmann">
+                  <lb/><rs type="person" ref="#amp_person_241"><unclear>Paul Bachmann</unclear></rs>
+                </signed>
+                <signed hand="#type_black_bachmann">
+                  <lb/><space unit="char" quantity="29"/>(<rs type="person" ref="#amp_person_241">Dr.Paul Bachmann</rs>)
+                </signed>            
+              </closer>
+              <postscript>
+                <p>
+                  <lb/>2 Beilage
+                  <lb/>1 Erlagschein
+                </p>
+              </postscript>
+            </div>
+          </div>
+        </div>
+    </body>
+  </text>
+</TEI>

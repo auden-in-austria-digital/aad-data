@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0174" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Autograph Letter Signed Theodore A. Gill to W. H. Auden 1973-05-07</title>
+        <author ref="https://d-nb.info/gnd/127187952">Gill, Theodore A.</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484">Hechtl, Angelika</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Autograph Letter Signed Theodore A. Gill to W. H. Auden 1973-05-07</title>
+          <interpGrp>
+            <interp xml:id="ana_150">
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+            <interp xml:id="ana_153">
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+          <name sameAs="#ahechtl"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
+                <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
+                <collection>Documentation Center for Literature in Lower Austria</collection>
+                <idno>LS-Aud 2.26</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00523/ https://iiif.acdh.oeaw.ac.at/aad/aad_00524/">Baverstoke</watermark>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00523/">
+                        <width>167</width>
+                        <height>268</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00524/">
+                        <width>167</width>
+                        <height>268</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_black_gill" scribeRef="#amp_person_597" medium="ink-black">Handwriting in black ink by Theodore A. Gill</handNote>
+                  <handNote xml:id="hand_blue_unident_0174" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote/>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1973-05-07T00:00:00-05:00" notAfter-iso="1973-05-07T23:59:59-05:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4042011-5"><rs ana="#ana_150">New York City</rs></origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en"/>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1973-05-07T00:00:00-05:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#smayer" when-iso="2026-10-15">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-10-15">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-10-15">Text transcribed; hands, languages, correspondence container structure, entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="3484" lry="4714">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00523/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3468" lry="4714">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00524/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0174" xml:lang="en">
+          <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00523/" ed="1r" type="sheet"/>
+            <div type="letter_message" hand="#hand_black_gill">
+              <opener>
+                <dateline>  
+                  <date>
+                    <lb/>May 7, 1973
+                  </date>
+                </dateline>
+                <salute>
+                  <lb/>Dear <rs type="person" ref="#amp_person_1">Mr. Auden</rs>.
+                </salute>
+              </opener>
+              <p>
+                <lb/>Back from our Spring
+                <lb/>break (spent mine lecturing
+                <lb/>at <rs type="org" ref="#amp_organization_399">Stanford</rs>)<unclear>,</unclear> and eager to
+                <lb/>resume our <rs ana="#ana_153">cabled
+                <lb/>negotiations</rs>.
+              </p>
+              <p>
+                <lb/>As it happens, <rs type="person" ref="#amp_person_598">Prof.
+                <lb/>Gerald Lynch</rs>, vice-president
+                <lb/>of <rs type="org" ref="#amp_organization_400">John Jay College</rs>, is in <rs type="place" ref="#amp_place_id_239">England</rs>
+                <lb/>right now, and will be calling
+                <lb/>you (probably already has)
+                <lb/>to see whether he can't come
+                <lb/>by to settle details with you
+                <lb/>in person.
+              </p>
+              <p>
+                <lb/>I do hope you can see
+                <lb/><rs type="person" ref="#amp_person_598">him</rs>. We are all eager to
+              </p>
+            </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00524/" ed="1v" type="sheet"/>
+            <div>
+              <ab hand="#hand_blue_unident_0174">
+                <lb/>86
+              </ab>
+            </div>
+            <div type="letter_message" hand="#hand_black_gill">
+              <p>
+                <lb/>have everything signed
+                <lb/>and sealed so we can
+                <lb/>begin to bask in the honor
+                <lb/>you do us, and to savor
+                <lb/>our delight.
+              </p>
+              <p>
+                <lb/><rs type="person" ref="#amp_person_599">Prof. John Cammett</rs>, Dean
+                <lb/>of Faculty, here, is sending
+                <lb/>the formal letter of invitation
+                <lb/>which should answer
+                <lb/>whatever questions remain.
+                <lb/>And I, who hosted the ARC
+                <lb/>bon voyage party for you at <rs type="org" ref="#amp_organization_402">The
+                <lb/>Players</rs> last year, will be
+                <lb/>fatting a calf for you there
+                <lb/>against the day of your return.
+              </p>
+              <closer>
+                <salute>
+                  <lb/>Cordially,
+                </salute>
+                <signed>
+                  <lb/><rs type="person" ref="#amp_person_597">T<gap reason="illegible" quantity="1" unit="char"></gap>d Gill</rs>
+                </signed>
+              </closer>
+            </div>
+          </div>
+      </div>
+    </body>
+  </text>
+</TEI>

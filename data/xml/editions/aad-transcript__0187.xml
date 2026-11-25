@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0187" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Typed Letter Signed Elizabeth Mayer to W. H. Auden 1964-05-07</title>
+        <author ref="https://d-nb.info/gnd/117542784">Mayer, Elizabeth</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484">Hechtl, Angelika</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Typed Letter Signed Elizabeth Mayer to W. H. Auden 1964-05-07</title>
+          <interpGrp>
+            <interp>
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+          <name sameAs="#ahechtl"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
+                <collection>Documentation Center for Literature in Lower Austria</collection>
+                <idno>LS-Aud 2.50</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark/>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00562/">
+                        <width>183</width>
+                        <height>262</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00563/">
+                        <width>183</width>
+                        <height>262</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_blue_mayer" scribeRef="#amp_person_xx" medium="ink-blue">Handwriting in blue ink by Elizabeth Mayer</handNote>
+                  <handNote xml:id="hand_blue_unident_0187" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="type_black_mayer" scribeRef="#amp_person_xx" medium="type">Typewriting in black ink by Elizabeth Mayer</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1964-05-07T00:00:00-05:00" notAfter-iso="1964-05-07T23:59:59-05:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4042011-5">New York City</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en"/>
+        <language ident="de"/>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1964-05-07T00:00:00-05:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#smayer" when-iso="2026-11-24">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-11-24">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-11-24">Text transcribed; hands, languages, correspondence container structure, entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="3372" lry="4626">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00562/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3372" lry="4626">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00563/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0187" xml:lang="en">
+          <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00562/" ed="1r" type="sheet"/>
+            <div type="letter_message" hand="#type_black_mayer">
+              <opener>
+                <dateline>
+                  <date>
+                    <lb/><space quantity="39" unit="char"/>May 7 th l964
+                    <lb/><space quantity="37" unit="char"/>Christi Himmelfahrt
+                  </date>
+                </dateline>
+                <salute>
+                  <lb/><space quantity="2" unit="char"/>Dearest <rs type="person" ref="#amp_person_1">friend</rs> - 
+                </salute>
+              </opener>
+                <p>
+                  <lb/><space quantity="4" unit="char"/>you cannot imagine how <subst><del rend="overtyped" hand="#type_black_mayer"><unclear>n</unclear></del><add place="superimposed" hand="#type_black_mayer">h</add></subst>appy I was with your letter - 
+                  <lb/><space quantity="1" unit="char"/>I had been worrying about you, what with all your work
+                  <lb/><space quantity="1" unit="char"/>in the last months, and certainly all kind of cares -<add hand="#hand_blue_mayer" place="inline">,</add> and
+                  <lb/><space quantity="1" unit="char"/>to know that you are back<space quantity="2" unit="char"/>in your <rs type="place" ref="#amp_place_id_2">'nest'</rs><space quantity="2" unit="char"/>was quite a
+                  <lb/><space quantity="1" unit="char"/>relief!<space quantity="2" unit="char"/>I do hope you have fine <foreign xml:lang="de">Pfingstwetter</foreign> and found
+                  <lb/>everything in good order and enjoy the countryside and
+                  <lb/>peace. Do you have anyone to look after you?<space quantity="2" unit="char"/>Does <rs type="person" ref="#amp_person_4">Chester</rs>
+                  <lb/>come back?<space quantity="2" unit="char"/>or are you going to take up the life of<space quantity="2" unit="char"/>an
+                  <lb/>eremite? ( I like it better than <subst><del rend="overtyped" hand="#type_black_mayer"><unclear>b</unclear></del><add place="superimposed" hand="#type_black_mayer">h</add></subst>ermit )<space quantity="2" unit="char"/>Your haiku poem
+                  <lb/>from Iceland is wonderful and very amusing ,with underto<subst><del rend="overtyped" hand="#type_black_mayer">m</del><add place="superimposed" hand="#type_black_mayer">n</add></subst>es.
+                  <lb/>It must have been in many ways a strange experience. I was
+                  <lb/>glad you had a dog-friend.<space quantity="2" unit="char"/>And what shall I tell you about
+                  <lb/>my birthday poem. I <hi rend="underline" hand="#hand_blue_mayer">love</hi> it, and have deciphered most of 
+                  <lb/>the allusions. Isabelle explained the gases to me,which
+                  <lb/><space quantity="1" unit="char"/>I had not quite got. And I have to confess that I did not
+                  <lb/>know that the Scherzo has ever been called the governess-
+                  <lb/>scherzo.(<space quantity="2" unit="char"/>although I played it often when a governess in
+                  <lb/>Bohemia )<space quantity="2" unit="char"/>That you brought my father's <foreign xml:lang="de">Sand Uhr</foreign> in, is
+                  <lb/>so lovely,the whole atmos<add hand="#type_black_mayer" place="inline">p</add>here of my childhood is in the 
+                  <lb/>first two lines.<space quantity="2" unit="char"/><unclear>A</unclear>nd your deep understanding at the end..
+                  <lb/>Yes, my dear, these twenty-five years of our friendship have
+                  <lb/>meant so much to me, more than I could ever have told you,
+                  <lb/>but you must have felt it. I think of them with gratitude:
+                  <lb/>you have done so much for me, I feel very much as you<add hand="#hand_blue_mayer" place="inline">r</add> pupil,
+                </p>
+            </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00563/" ed="1v" type="sheet"/>
+            <div>
+              <ab hand="#hand_blue_unident_0187">
+                <lb/>64
+              </ab>
+            </div>
+            <div type="letter_message" hand="#type_black_mayer">
+              <p>
+                <lb/>how often did you " strike a match to my brain '<add hand="#hand_blue_mayer" place="inline">'</add> and not
+                <lb/>only that. You have confirmed me and encouraged me so often,
+                <lb/>and <unclear>I</unclear> do not think I could go on working so boldly as I do
+                <lb/>without your open and tacit understanding.
+              </p>
+              <p>
+                <lb/><space quantity="3" unit="char"/>I am already deep in my new translation.It is great fun
+                <lb/>to play again with the German language, but the book is
+                <lb/>difficult ,not the plain prose but the dialogue and the 
+                <lb/>quickness and irony in it. <unclear>H</unclear>ard to get that in German. But
+                <lb/>it is surprising how the words and colloquialisms rush into
+                <lb/>one's memory from all sides and corners of your brain while
+                <lb/>writing. I do hope to get it all right.<space quantity="2" unit="char"/><hi rend="underline" hand="#type_black_mayer">I</hi> try to live 
+                <lb/>like an eremite, and succeed.<space quantity="2" unit="char"/>The weather is just now
+                <lb/>lovely, and I sit often in the <rs type="place" ref="#amp_place_id_812">Park</rs> and prepare in my head
+                <lb/>a chapter, run upstairs and type it.<space quantity="2" unit="char"/>I go out almost never,
+                <lb/>was only once in the <rs type="org" ref="#amp_organization_521">Goethe <unclear>H</unclear>aus</rs> to hear<space quantity="3" unit="char"/><rs type="person" ref="#amp_person_838">Erich <unclear>H</unclear>eller</rs>
+                <lb/>who spoke very well and witty about <rs type="person" ref="#amp_person_839"><unclear>H</unclear>egel</rs> and<space quantity="2" unit="char"/>the attitude
+                <lb/>of the Germans toward <rs type="person" ref="#amp_person_10">Shakespeare</rs>.<space quantity="2" unit="char"/>I met <add hand="#hand_blue_mayer" place="above">there<unclear>,</unclear></add> again <rs type="person" ref="#amp_person_840"><subst><del rend="overtyped" hand="#type_black_mayer">d</del><add place="superimposed" hand="#type_black_mayer">D</add></subst>wight Mc<subst><del rend="overtyped" hand="#type_black_mayer">.</del><add place="superimposed" hand="#type_black_mayer">d</add></subst>on.</rs>
+                <lb/>who loves the <rs type="lit_work" ref="#lit_work_id_575">Elective Affs.</rs> and wants to write something 
+                <lb/>about the book.<space quantity="2" unit="char"/>Pazienza.<space quantity="5" unit="char"/><rs type="person" ref="#amp_person_842">Michael</rs> has had, and still
+                <lb/>has a very hard time.His old Rector died suddenly (<space quantity="2" unit="char"/>in the
+                <lb/><rs type="org" ref="#amp_organization_523"><unclear>M</unclear>et</rs>, during the first act of <rs type="lit_work" ref="#lit_work_id_576">Tosca</rs>) and <rs type="person" ref="#amp_person_842">M.</rs> has to run the
+                <lb/>whole parish. No decisions as yet. I met the Bishop at
+                <lb/>the Funeral <unclear>M</unclear>ass ,and <unclear>h</unclear>e said<space quantity="2" unit="char"/>to me wonderful things about
+                <lb/>Michael. <subst><del rend="overtyped" hand="#type_black_mayer"><unclear>w</unclear>W</del><add place="superimposed" hand="#type_black_mayer">We</add></subst> are wondering now... ..
+              </p>
+              <closer>
+                <salute><lb/><space quantity="29" unit="char"/>Much much love,<rs type="person" ref="#amp_person_1">Wystan</rs> dear<add hand="#hand_blue_mayer" place="inline"><unclear>.</unclear></add></salute>
+              </closer>
+              <postscript>
+                <ab>
+                  <lb/><space quantity="2" unit="char"/>P.S. I shall certainly get the Krauss translations.
+                  <lb/><space quantity="2" unit="char"/>The 'Merkur" brou<del hand="#hand_blue_mayer" rend="overstrike">b</del>ght one of your Shaksp.<subst><del rend="overwritten" hand="#hand_blue_mayer"><gap unit="char" quantity="1"></gap></del><add place="superimposed" hand="#hand_blue_mayer">E</add></subst>ssays, not too
+                  <lb/><space quantity="2" unit="char"/>bad, but not Auden's<space quantity="2" unit="char"/>style.
+                </ab>
+              </postscript>
+              <closer>
+                <signed hand="#hand_blue_mayer">
+                  <lb/><rs type="person" ref="#amp_person_157">Elizabeth</rs>
+                </signed>
+              </closer>
+            </div>
+          </div>
+      </div>
+    </body>
+  </text>
+</TEI>
