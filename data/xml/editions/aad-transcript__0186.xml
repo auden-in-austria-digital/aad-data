@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0186" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Typed Letter Signed Edward Mendelson to W. H. Auden 1973-09-10</title>
+        <author ref="https://d-nb.info/gnd/14000761X">Mendelson, Edward</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484">Hechtl, Angelika</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Typed Letter Signed Edward Mendelson to W. H. Auden 1973-09-10</title>
+          <interpGrp>
+            <interp xml:id="ana_164">
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+            <interp xml:id="ana_165">
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+          <name sameAs="#ahechtl"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
+                <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
+                <collection>Documentation Center for Literature in Lower Austria</collection>
+                <idno>LS-Aud 2.49</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00560/ https://iiif.acdh.oeaw.ac.at/aad/aad_00561/">EAGLE-A TROJAN BOND 25% COTTON FIBER USA</watermark>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00560/">
+                        <width>207</width>
+                        <height>280</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00561/">
+                        <width>207</width>
+                        <height>280</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_black_mendelson" scribeRef="#amp_person_98" medium="ink-black">Handwriting in black ink by Edward Mendelson</handNote>
+                  <handNote xml:id="hand_blue_unident_0186" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="type_black_mendelson" scribeRef="#amp_person_98" medium="type">Typewriting in black ink by Edward Mendelson</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1973-09-10T00:00:00-05:00" notAfter-iso="1973-09-10T23:59:59-05:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4117854-3">New Haven, Conn.</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en"/>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1973-09-10T00:00:00-05:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#smayer" when-iso="2026-11-19">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-11-19">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-11-19">Text transcribed; hands, languages, correspondence container structure, entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="3740" lry="4914">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00560/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3742" lry="4914">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00561/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0186" xml:lang="en">
+          <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00560/" ed="1r" type="sheet"/>
+            <div type="letter_message" hand="#type_black_mendelson">
+              <opener>
+                <seg>
+                  <placeName>
+                    <address>
+                      <lb/><space quantity="45" unit="char"/><rs type="place" ref="#amp_place_id_811">123 York Street</rs>
+                      <lb/><space quantity="45" unit="char"/><rs type="place" ref="#amp_place_id_222">New Haven, Conn. 06511
+                      <lb/><space quantity="45" unit="char"/>U. S. A.</rs>
+                    </address>
+                  </placeName>
+                </seg>
+                <dateline>
+                  <date>
+                    <lb/><space quantity="45" unit="char"/>September 10, 1973
+                  </date>
+                </dateline>
+                <salute>
+                  <lb/>Dear <rs type="person" ref="#amp_person_1">Wystan</rs>,
+                </salute>
+              </opener>
+              <p>
+                <lb/>On the <rs ana="#ana_164"><hi rend="underline" hand="#type_black_mendelson">Ox<subst><del rend="erased" hand="#type_black_mendelson">g</del><add place="superimposed" hand="#type_black_mendelson">f</add></subst>ord Book of Lig<subst><del rend="erased" hand="#type_black_mendelson"><unclear>t</unclear></del><add place="superimposed" hand="#type_black_mendelson">h</add></subst>t Verse</hi></rs>, of course my answer is Yes.<space quantity="2" unit="char"/>I only
+                <lb/>hope that I can someday deserve the honor.<space quantity="2" unit="char"/>Fortunately there are many
+                <lb/>friends here who can help me across the vast wastes of my ignorance<subst><del rend="overwritten" hand="#hand_black_mendelson">.</del><add place="superimposed" hand="#hand_black_mendelson">,</add></subst>
+                <lb/><subst><del rend="overwritten" hand="#hand_black_mendelson"><gap reason="illegible" unit="char" quantity="1"></gap></del><add place="superimposed" hand="#hand_black_mendelson">a</add></subst>nd I expect that much of the pr<subst><del rend="erased" hand="#type_black_mendelson"><gap reason="illegible" unit="char" quantity="2"></gap></del><add place="superimposed" hand="#type_black_mendelson">ac</add></subst>tical labor of searching and copying
+                <lb/>can be done more ea<subst><del rend="erased" hand="#type_black_mendelson">i</del><add place="superimposed" hand="#type_black_mendelson">s</add></subst>ily in the <rs type="org" ref="#amp_organization_18">Yale</rs> library than elsewhere.
+              </p>
+              <p>
+                <lb/>I hope you will let me take a modest role in the collaboration--one
+                <lb/>limited, for the most part, to bringing to your attention some excellent
+                <lb/>light <subst><del rend="erased" hand="#type_black_mendelson"><unclear>b</unclear></del><add place="superimposed" hand="#type_black_mendelson">v</add></subst>erse that might go into the new edition. The conce<subst><del rend="erased" hand="#type_black_mendelson"><unclear>o</unclear></del><add place="superimposed" hand="#type_black_mendelson">p</add></subst>tion of the
+                <lb/><rs type="lit_work" ref="#lit_work_id_573">first edition</rs> is so excellent, and so characteristically your own,
+                <lb/>that I should not like to tinker with it myself.<space quantity="2" unit="char"/>Of course, I would
+                <lb/>also gladly take on the job of preparing the final selection for the
+                <lb/>printers.<space quantity="2" unit="char"/>(My first candidate for inclusion in the new edition is
+                <lb/><rs type="person" ref="#amp_person_837">James Russell Lowell</rs>'s <rs type="lit_work" ref="#lit_work_id_574">"The Origin of Didactic Poetry."</rs>)
+              </p>
+              <p>
+                <lb/>May I a<subst><del rend="erased" hand="#type_black_mendelson"><gap reason="illegible" unit="char" quantity="2"></gap></del><add place="superimposed" hand="#type_black_mendelson">ls</add></subst>o put off much of the work until at least next Summer?
+                <lb/>I shall begin looking for poems immediately, but this semester is
+                <lb/>a very busy one, and, although I may be on leave next Spring, I have
+                <lb/>to finish a <rs type="lit_work" ref="#lit_work_id_49">critical book</rs> if I hope to <unclear>h</unclear>ave enough money to eat three
+                <lb/>years from now.<space quantity="2" unit="char"/>If this is too much of a de<subst><del rend="erased" hand="#type_black_mendelson"><unclear>al</unclear></del><add place="superimposed" hand="#type_black_mendelson">la</add></subst>y I can of course withdraw
+                <lb/>entirely.
+              </p>
+              <p>
+                <lb/>Until we can get together, may I simply send you occasional lists of
+                <lb/>possible additions and changes, together with xerox copies of poems
+                <lb/>that I think you may not ha<subst><del rend="erased" hand="#type_black_mendelson"><gap reason="illegible" unit="char" quantity="1"></gap></del><add place="superimposed" hand="#type_black_mendelson">v</add></subst>e seen?<space quantity="3" unit="char"/>And please tell me anything else
+                <lb/>you might like me to do in the meantime.
+              </p>
+              <p>
+                <lb/>I can't imagine any work more enjoyable tha<subst><del rend="erased" hand="#type_black_mendelson">t</del><add place="superimposed" hand="#type_black_mendelson">n</add></subst> putting together an anthology
+                <lb/>of light verse.<space quantity="2" unit="char"/>I am as grateful for the task as for the<del rend="erased" hand="#type_black_mendelson">h</del>honor.
+              </p>
+              <closer hand="#hand_black_mendelson">
+                <salute>
+                  <lb/>Yours ever,
+                </salute>
+                <signed>
+                  <lb/><rs type="person" ref="#amp_person_98">Edward</rs>
+                </signed>
+              </closer>
+              <postscript>
+                <ab hand="#hand_black_mendelson">
+                  <lb/>P.S. Please give my good wishes to <rs type="person" ref="#amp_person_4">Chester</rs>, whose <rs ana="#ana_165"><rs type="event" ref="#amp_event_id_529">sausage and
+                  <lb/>cabbage still move me to awe</rs></rs>.
+                </ab>
+              </postscript>
+            </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00561/" ed="1v" type="sheet"/>
+            <div>
+              <ab hand="#hand_blue_unident_0186">
+                <lb/>60
+              </ab>
+            </div>
+          </div>
+      </div>
+    </body>
+  </text>
+</TEI>

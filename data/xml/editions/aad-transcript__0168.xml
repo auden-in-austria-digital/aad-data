@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0168" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Typed Letter Signed Richard Else to W. H. Auden 1973-06-05</title>
+        <author ref="https://d-nb.info">Else, Richard</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484">Hechtl, Angelika</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Typed Letter Signed Richard Else to W. H. Auden 1973-06-05</title>
+          <interpGrp>
+            <interp xml:id="ana_149">
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+            <interp xml:id="ana_157">
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+          <name sameAs="#ahechtl"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
+                <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
+                <collection>Documentation Center for Literature in Lower Austria</collection>
+                <idno>LS-Aud 2.19</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00509/ https://iiif.acdh.oeaw.ac.at/aad/aad_00510/">ORBIT</watermark>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00509/">
+                        <width>210</width>
+                        <height>297</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00510/">
+                        <width>210</width>
+                        <height>297</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_black_else" scribeRef="#amp_person_554" medium="ink-black">Handwriting in black ink by Richard Else</handNote>
+                  <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
+                  <handNote xml:id="hand_blue_unident_0168" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="type_black_else" scribeRef="#amp_person_554" medium="type">Typewriting in black ink by Richard Else</typeNote>
+                  <typeNote xml:id="print_saint_davids_university_college" scribeRef="#amp_organization_360" medium="print">Preprinted writing authored by Saint David's University College</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1973-06-05T00:00:00+00:00" notAfter-iso="1973-06-05T23:59:59+00:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4268838-3">Lampeter</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en"/>
+        <language ident="cy"/>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1973-06-05T00:00:00+00:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#smayer" when-iso="2026-10-08">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-10-09">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-10-09">Text transcribed; hands, languages, correspondence container structure, entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="3798" lry="5164">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00509/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3796" lry="5166">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00510/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0168" xml:lang="en">
+          <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00509/" ed="1r" type="sheet"/>
+            <div type="letter_message" hand="#type_black_else">
+              <opener>
+                <seg hand="#print_saint_davids_university_college" xml:lang="cy">
+                  <lb/><hi rend="underline" hand="#print_saint_davids_university_college"><rs type="org" ref="#amp_organization_361">Prifysgol Cymru</rs></hi>
+                  <lb/><rs type="org" ref="#amp_organization_360">COLEG PRIFYSGOL DEWI SANT</rs>
+                  <lb/><rs type="place" ref="#amp_place_id_561">LLANBEDR PONT STEFFAN</rs>
+                  <lb/><rs type="place" ref="#amp_place_id_563">Ceredigion</rs>
+                  <lb/>
+                </seg>
+                <seg hand="#print_saint_davids_university_college">
+                  <lb/><hi rend="underline" hand="#print_saint_davids_university_college"><rs type="org" ref="#amp_organization_361">University of Wales</rs></hi>
+                  <lb/><rs type="org" ref="#amp_organization_360">SAINT DAVID'S UNIVERSITY COLLEGE</rs>
+                  <lb/><rs type="place" ref="#amp_place_id_561">LAMPETER</rs>
+                  <lb/><rs type="place" ref="#amp_place_id_563">Cardiganshire</rs>
+                  <lb/>
+                </seg>
+                <seg hand="#print_saint_davids_university_college">
+                  <lb/>Tel : Lampeter 351/352/415 - Ext.:
+                </seg>
+                <dateline>  
+                  <date>
+                    <lb/><space quantity="46" unit="char"/>5th June I973 
+                  </date>
+                </dateline>
+                <salute>
+                  <lb/><rs type="person" ref="#amp_person_1">Dear Mr. Auden</rs>,
+                </salute>
+              </opener>
+              <p>
+                <lb/><space quantity="8" unit="char"/>Thank you for <rs ana="#ana_149">your letter of May 3Ist</rs>. I am very pleased
+                <lb/>that you have been able to accept our invitation to come and give
+                <lb/>a poetry reading at the <rs type="org" ref="#amp_organization_360">College</rs>. 
+              </p>
+              <p>
+                <lb/><space quantity="8" unit="char"/>I will be happy t<subst><del rend="overtyped" hand="#type_black_else">p</del><add place="superimposed" hand="#type_black_else">o</add></subst> arrange for someone to pick you up from,
+                <lb/>and return you to, <rs type="place" ref="#amp_place_id_46">Oxford</rs>. I would be grateful if you would suggest
+                <lb/>a convenient date (the only evening it is not possible to give a
+                <lb/>reading is Sunday) in late November/early December. If it is poss-
+                <lb/>i<subst><del rend="overtyped" hand="#type_black_else">h</del><add place="superimposed" hand="#type_black_else">b</add></subst>le to give me some indication of how long you would like to stay
+                <lb/>in <rs type="place" ref="#amp_place_id_561">Lampeter</rs>, I will be able to make arrangements for your <subst><del rend="overstrike" hand="#hand_black_else">ac<unclear>oc</unclear>mmat</del><add place="above" hand="#hand_black_else">accommodation.</add></subst>-
+                <lb/><del rend="overstrike" hand="#hand_black_else">ion</del>.
+              </p>
+              <p>
+                <lb/><space quantity="8" unit="char"/>With regard to your fee it will be possible to offer you
+                <lb/>twenty-five pounds - I hope you will find this acceptable. I shall
+                <lb/>of course arrange for the society to pay for your <subst><del rend="overstrike" hand="#hand_black_else">a<gap reason="illegible" quantity="3" unit="char"></gap>d<unclear>a</unclear>ti<gap reason="illegible" quantity="1" unit="char"></gap>n</del><add place="above" hand="#hand_black_else">accommodation</add></subst> etc
+                <lb/>whilst in <rs type="place" ref="#amp_place_id_561">Lampeter</rs>.
+              </p>
+              <p>
+                <lb/><space quantity="8" unit="char"/>Nearer the time I will make specific arrangements for collect-
+                <lb/>ing you from <rs type="place" ref="#amp_place_id_46">Oxford</rs>.
+              </p>
+              <closer>
+                <salute>
+                  <lb/>Yours sincerely,
+                </salute>
+                <signed hand="#hand_black_else">
+                  <lb/><hi rend="underline" hand="#hand_black_else"><rs type="person" ref="#amp_person_554">Richard Else</rs></hi>
+                </signed>
+                <signed>
+                  <lb/><rs type="person" ref="#amp_person_554">Richard Else</rs>
+                </signed>
+              </closer>
+            </div> 
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00510/" ed="1v" type="sheet"/>
+            <div>
+              <ab hand="#hand_blue_unident_0168">
+                <lb/>23
+              </ab>
+            </div>
+            <div>
+            <ab hand="#hand_blue_auden">
+              <lb/><rs ana="#ana_157">DNSS<unclear>G</unclear></rs>
+              <lb/>AEE
+            </ab>
+            <ab hand="#hand_blue_auden">
+             <lb/>ARENA
+            </ab>
+          </div>
+         </div>
+      </div>
+    </body>
+  </text>
+</TEI>

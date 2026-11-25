@@ -170,11 +170,11 @@
           </salute>
           <signed>
             <lb/><space quantity="26" unit="char"/>(<rs type="person" ref="#amp_person_135">Hella Bronold</rs>)
-          </signed>
-        </closer>
-      </div>  
-        </div>
+            </signed>
+          </closer>
+        </div>  
         <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00394/" ed="1v" type="sheet"/>
+      </div>
       </div>
     </body>
   </text>

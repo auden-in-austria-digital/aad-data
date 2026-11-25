@@ -146,6 +146,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2024-11-15">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2024-11-15">Text transcribed; physDesc and correspDesc populated; hands, languages, correspondence container structure, and entities marked up</change>
+      <change who="#tfruehwirth" when-iso="2026-10-28">Update event markup</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -212,7 +213,7 @@
               </salute>
             </opener>
             <p>
-              <lb/>Besten Dank für deinen Brief. Ich bin
+              <lb/><rs type="event" ref="#amp_event_id_455">Besten Dank für deinen Brief.</rs> Ich bin
               <lb/><hi rend="underline" hand="#hand_blue_auden">so</hi> froh dass es <del rend="overstrike" hand="#hand_blue_auden">nicht</del> für <rs type="person" ref="#amp_person_240">Christa</rs> nicht nötig
               <lb/>ist sich operieren zu lassen. Hiermit ein
               <lb/>kleines Weinachtsgeschenk<unclear>.</unclear> In ein andere<unclear>n</unclear> Umschlag

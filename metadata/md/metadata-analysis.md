@@ -144,6 +144,43 @@ doc
 0138  Austrian Society for Literature                                                                                                        Copy Typed Notes Austrian Society for Literature 1965-01-01--1967-01-09                         Vienna
 0148                     Auden, W. H.                                                                                                              Typescript W. H. Auden "Talking to Myself" 1971-04-01--1971-12-31                   Kirchstetten
 0149                     Auden, W. H.                                                                                                                Typescript W. H. Auden "Talking to Dogs" 1970-07-01--1971-03-01                   Kirchstetten
+0152                   Bachmann, Paul                                                                                                                    Typed Letter Signed Paul Bachmann to W. H. Auden 1972-06-21                         Vienna
+0153                   Bachmann, Paul                                                                                                                    Typed Letter Signed Paul Bachmann to W. H. Auden 1972-06-21                         Vienna
+0154                   Bachmann, Paul                                                                                                                    Typed Letter Signed Paul Bachmann to W. H. Auden 1972-07-10                         Vienna
+0155                   Bachmann, Paul                                                                                                                    Typed Letter Signed Paul Bachmann to W. H. Auden 1972-08-04                         Vienna
+0156                   Bachmann, Paul                                                                                                                    Typed Letter Signed Paul Bachmann to W. H. Auden 1972-08-16                         Vienna
+0157           Paul Bachmann Law Firm                                                                                                           Typed Letter Signed Paul Bachmann Law Firm to W. H. Auden 1972-08-16                         Vienna
+0158           Paul Bachmann Law Firm                                                                                                           Typed Letter Signed Paul Bachmann Law Firm to W. H. Auden 1972-09-04                         Vienna
+0159                   Bachmann, Paul                                                                                                                    Typed Letter Signed Paul Bachmann to W. H. Auden 1972-09-04                         Vienna
+0160                   Bachmann, Paul                                                                                                                    Typed Letter Signed Paul Bachmann to W. H. Auden 1972-10-30                         Vienna
+0161                   Bachmann, Paul                                                                                                                    Typed Letter Signed Paul Bachmann to W. H. Auden 1972-11-15                         Vienna
+0162                    Bote and Bock                                                                                                   Typed Letter Signed Bote & Bock Publishing Company to W. H. Auden 1973-04-10                         Berlin
+0151                   Bronold, Hella                                                                                                                    Typed Letter Signed Hella Bronold to W. H. Auden 1973-09-24                         Vienna
+0163             Stiebner, Erhardt D.                                                                                                              Typed Letter Signed Erhardt D. Stiebner to W. H. Auden 1973-03-22                         Munich
+0164                       Cox, Brian                                                                                                                        Typed Letter Signed C. B. Cox to W. H. Auden 1971-09-29                     Manchester
+0165                     Driver, Paul                                                                                                          Autograph Letter Signed Paul William Driver to W. H. Auden 1973-07-19                         Oxford
+0166              Ede and Ravenscroft                                                                                                        Typed Letter Signed Ede & Ravenscroft Tailors to W. H. Auden 1970-04-28                         London
+0167                    Else, Richard                                                                                                                     Typed Letter Signed Richard Else to W. H. Auden 1973-05-20                       Lampeter
+0168                    Else, Richard                                                                                                                     Typed Letter Signed Richard Else to W. H. Auden 1973-06-05                       Lampeter
+0169                 Epstein, Barbara                                                                                                                  Typed Letter Signed Barbara Epstein to W. H. Auden 1967-04-17                  New York City
+0170                     Kelly, Bryan                                                                                                                  Autograph Letter Signed Bryan Kelly to W. H. Auden 1967-06-29                         Oxford
+0171                       Fox, Orlan                                                                                                                        Typed Letter Signed Orlan Fox to W. H. Auden 1970-04-24                  New York City
+0172                    Gardner, John                                                                                                                     Typed Letter Signed John Gardner to W. H. Auden 1973-09-22                     New Malden
+0173                    Gardner, John                                                                                                                     Typed Letter Signed John Gardner to W. H. Auden 1973-07-31                     New Malden
+0174                Gill, Theodore A.                                                                                                             Autograph Letter Signed Theodore A. Gill to W. H. Auden 1973-05-07                  New York City
+0175        Gray, William Shelton Jr.                                                                                                             Typed Letter Signed William Shelton Gray to W. H. Auden 1971-09-30                   Ashland, Va.
+0176           Hansen-Löve, Friedrich                                                                                                            Typed Letter Signed Friedrich Hansen-Löve to W. H. Auden 1970-09-04                         Vienna
+0177                  Salus, Peter H.                                                                                                       Typed Letter Signed Peter H. Salus to W. H. Auden 1967-04-21--1967-05-31                  New York City
+0178                 Hoggart, Richard                                                                                                                  Typed Letter Signed Richard Hoggart to W. H. Auden 1967-05-25                     Birmingham
+0179                      Hughes, Ted                                                                                                                       Typed Letter Signed Ted Hughes to W. H. Auden 1966-09-14                   North Tawton
+0181                 Kline, George L.                                                                                                                  Typed Letter Signed George L. Kline to W. H. Auden 1972-08-28                 Bryn Mawr, Pa.
+0180                  Kraus, Wolfgang                                                                                                                   Typed Letter Signed Wolfgang Kraus to W. H. Auden 1971-07-14                         Vienna
+0182                  Kraus, Wolfgang                                                                                                                  Copy Typed Letter Wolfgang Kraus to Marianne Sparr 1972-05-31                         Vienna
+0183                  Kraus, Wolfgang                                                                                                                   Typed Letter Signed Wolfgang Kraus to W. H. Auden 1972-05-26                         Vienna
+0184                   Kyrou, Kleitos                                                                                                               Autograph Card Signed Kleitos S. Kyrou to W. H. Auden 1973-08-13                   Thessaloniki
+0185                      Luke, David                                                                                                                       Typed Letter Signed David Luke to W. H. Auden 1973-09-04                      Shotheids
+0186                Mendelson, Edward                                                                                                                 Typed Letter Signed Edward Mendelson to W. H. Auden 1973-09-10               New Haven, Conn.
+0187                 Mayer, Elizabeth                                                                                                                  Typed Letter Signed Elizabeth Mayer to W. H. Auden 1964-05-07                  New York City
 0146                     Auden, W. H.                                                                                                                      Typed Letter Signed W. H. Auden to Felix Braun 1958-11-03                  New York City
 0144                             N.N.                                                                                                                      Photograph N.N. House Hinterholz 6 1958-01-07--1973-09-28                   Kirchstetten
 0145                     Auden, W. H.                                                                                                                                 Telegram W. H. Auden to Herta Staub 1963-07-24                   Kirchstetten
@@ -191,30 +228,30 @@ dtype: int64
 ### `df.info()`
 ```
 <class 'pandas.DataFrame'>
-RangeIndex: 446 entries, 0 to 445
+RangeIndex: 528 entries, 0 to 527
 Data columns (total 19 columns):
  #   Column          Non-Null Count  Dtype
 ---  ------          --------------  -----
- 0   img             446 non-null    int64
- 1   lrx             446 non-null    int64
- 2   lry             446 non-null    int64
- 3   width           446 non-null    int64
- 4   height          446 non-null    int64
- 5   type            446 non-null    str  
- 6   ed              446 non-null    str  
- 7   doc             446 non-null    str  
- 8   title           446 non-null    str  
- 9   author          446 non-null    str  
- 10  author-uri      446 non-null    str  
- 11  notBefore-iso   446 non-null    str  
- 12  notAfter-iso    446 non-null    str  
- 13  place           446 non-null    str  
- 14  place-uri       446 non-null    str  
- 15  repository      446 non-null    str  
- 16  repository-uri  446 non-null    str  
- 17  collection      446 non-null    str  
- 18  idno            446 non-null    str  
+ 0   img             528 non-null    int64
+ 1   lrx             528 non-null    int64
+ 2   lry             528 non-null    int64
+ 3   width           528 non-null    int64
+ 4   height          528 non-null    int64
+ 5   type            528 non-null    str  
+ 6   ed              528 non-null    str  
+ 7   doc             528 non-null    str  
+ 8   title           528 non-null    str  
+ 9   author          528 non-null    str  
+ 10  author-uri      528 non-null    str  
+ 11  notBefore-iso   528 non-null    str  
+ 12  notAfter-iso    528 non-null    str  
+ 13  place           528 non-null    str  
+ 14  place-uri       528 non-null    str  
+ 15  repository      528 non-null    str  
+ 16  repository-uri  528 non-null    str  
+ 17  collection      528 non-null    str  
+ 18  idno            528 non-null    str  
 dtypes: int64(5), str(14)
-memory usage: 66.3 KB
+memory usage: 78.5 KB
 
 ```

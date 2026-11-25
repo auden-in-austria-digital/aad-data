@@ -145,6 +145,7 @@
     <revisionDesc status="draft">
       <change who="#tfruehwirth" when-iso="2024-09-09">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2024-09-09">Text transcribed; physDesc and correspDesc populated; hands, languages, correspondence container structure, and entities marked up</change>
+      <change who="#tfruehwirth" when-iso="2026-10-14">Update event markup</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -217,8 +218,8 @@
               <lb/>und wann ich dies<unclear>e</unclear> Woche kommen kann.
             </p>
             <p>
-              <lb/>Also, wenn ich nicht anders schreiben, komme ich
-              <lb/>nä<unclear>c</unclear>hste Woche <unclear>a</unclear>m Dienstag.
+              <lb/>Also, wenn ich nicht anders schreiben, <rs type="event" ref="#amp_event_id_306">komme ich
+              <lb/>nä<unclear>c</unclear>hste Woche <unclear>a</unclear>m Dienstag</rs>.
             </p>
             <closer>
               <salute>

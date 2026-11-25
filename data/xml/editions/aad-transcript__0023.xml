@@ -151,6 +151,7 @@
       <change who="#tfruehwirth" when-iso="2024-09-13">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2024-09-13">physDesc and correspDesc populated</change>
       <change who="#tfruehwirth" when-iso="2024-09-16">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
+      <change who="#tfruehwirth" when-iso="2026-10-14">Update event markup</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -216,12 +217,12 @@
               </salute>
             </opener>
             <p>
-              <lb/>Dein Telegram <unclear>a</unclear>n diesem Moment
+              <lb/><rs type="event" ref="#amp_event_id_312">Dein Telegram</rs> <unclear>a</unclear>n diesem Moment
               <lb/>erhalten.
             </p>
             <p>
               <lb/>Hoffentlich hast Du <subst><del rend="overstrike" hand="#hand_blue_auden">nicht</del><add place="above" hand="#hand_blue_auden">ke<unclear>i</unclear>n</add></subst> Schme<unclear>r</unclear>z.
-              <lb/>Also, komme Montag. 19&#xB7;30
+              <lb/>Also, <rs type="event" ref="#amp_event_id_313">komme Montag. 19&#xB7;30</rs>
             </p>
             <closer>
               <salute>

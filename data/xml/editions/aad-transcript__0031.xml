@@ -144,6 +144,7 @@
       <change who="#tfruehwirth" when-iso="2024-09-24">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2024-09-24">physDesc and correspDesc populated</change>
       <change who="#tfruehwirth" when-iso="2024-11-07">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
+      <change who="#tfruehwirth" when-iso="2026-10-28">Update event markup</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -212,11 +213,11 @@
               </salute>
             </opener>
             <p>
-              <lb/>Wilkommen a<unclear>m</unclear> <rs type="place" ref="#amp_place_id_1" ana="#ana_064">Wien</rs>! Besten Dank f<unclear>ür</unclear> die Karte.
+              <lb/>Wilkommen a<unclear>m</unclear> <rs type="place" ref="#amp_place_id_1" ana="#ana_064">Wien</rs>! <rs type="event" ref="#amp_event_id_450">Besten Dank f<unclear>ür</unclear> die Karte.</rs>
               <lb/>Ich hoffe dass das Wetter schön geblieben <del rend="overstrike" hand="#hand_blue_auden">w<unclear>a</unclear>r</del>ist.
             </p>
             <p>
-              <lb/>Ich werde bei Dir sein Dienstag <unclear>A</unclear>bend .
+              <lb/><rs type="event" ref="#amp_event_id_451">Ich werde bei Dir sein Dienstag <unclear>A</unclear>bend .</rs>
             </p>
             <closer>
               <salute>

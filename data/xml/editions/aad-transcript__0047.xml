@@ -144,6 +144,7 @@
       <change who="#tfruehwirth" when-iso="2024-12-11">TEI/XML template populated with csv2xml.py</change>
       <change who="#tfruehwirth" when-iso="2024-12-11">physDesc and profileDesc populated</change>
       <change who="#tfruehwirth" when-iso="2024-12-12">Text transcribed; hands, languages, correspondence container structure, and entities marked up</change>
+      <change who="#tfruehwirth" when-iso="2026-11-04">Update event markup</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
@@ -195,7 +196,7 @@
               </salute>
             </opener>
             <p>
-              <lb/>bin sehr entauscht. Diese Woche wegen <rs type="person" ana="#ana_074">Gäste</rs>
+              <lb/>bin sehr entauscht. <rs type="event" ref="#amp_event_id_526">Diese Woche wegen <rs type="person" ref="#amp_person_160" ana="#ana_074">Gäste</rs></rs>
               <lb/>kann ich nicht nach <rs type="place" ref="#amp_place_id_1">Wien</rs> kommen, und am Montag
               <lb/>fliegen <rs type="person" ref="#amp_person_1 #amp_person_4">wir</rs> nach <rs type="place" ref="#amp_place_id_17">Berlin</rs>.
             </p>

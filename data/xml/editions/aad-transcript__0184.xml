@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0184" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Autograph Card Signed Kleitos S. Kyrou to W. H. Auden 1973-08-13</title>
+        <author ref="https://d-nb.info/gnd/133787311">Kyrou, Kleitos</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484">Hechtl, Angelika</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Autograph Card Signed Kleitos S. Kyrou to W. H. Auden 1973-08-13</title>
+          <interpGrp>
+            <interp xml:id="ana_163">
+              <desc/>
+              <respons resp="#smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+          <name sameAs="#ahechtl"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
+                <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
+                <collection>Documentation Center for Literature in Lower Austria</collection>
+                <idno>LS-Aud 2.46</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark/>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00554/">
+                        <width>98</width>
+                        <height>137</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00555/">
+                        <width>98</width>
+                        <height>137</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_blue_kyrou" scribeRef="#amp_person_829" medium="ink-blue">Handwriting in blue ink by Kleitos S. Kyrou</handNote>
+                  <handNote xml:id="hand_blue_unident_0184_1" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
+                  <handNote xml:id="hand_blue_unident_0184_2" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="print_black_kyrou" scribeRef="#amp_person_829" medium="print">Preprinted writing in black authored by Kleitos S. Kyrou</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1973-08-13T00:00:00+02:00" notAfter-iso="1973-08-13T23:59:59+02:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4051394-4">Thessaloniki</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en"/>
+        <language ident="el"/>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1973-08-13T00:00:00+02:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <placeName><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs></placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#smayer" when-iso="2026-11-05">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-11-06">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-11-06">Text transcribed; hands, languages, correspondence container structure, entities marked up</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="2028" lry="2650">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00554/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="2026" lry="2650">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00555/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0184" xml:lang="en">
+          <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00554/" ed="1r" type="card"/>
+            <div type="letter_message" hand="#hand_blue_kyrou">
+              <opener>
+                <salute>
+                  <lb/>Dear <rs type="person" ref="#amp_person_1">Mr. Auden</rs> -
+                </salute>
+              </opener>
+              <p>
+                <lb/>This small <rs ana="#ana_163">selection of
+                <lb/>your poetry, transplanted
+                <lb/>into greek</rs>, includes:
+              </p>
+              <p>
+                <lb/>1. <rs type="lit_work" ref="#lit_work_id_556">Who's Who</rs>
+                <lb/>2. <rs type="lit_work" ref="#lit_work_id_558">O what is that sound which
+                <lb/>so thrills the ear</rs>
+                <lb/>3. <rs type="lit_work" ref="#lit_work_id_559">Epitaph on a Tyrant</rs>
+                <lb/>4. <rs type="lit_work" ref="#lit_work_id_560">Rimbaud</rs>
+                <lb/>5. <rs type="lit_work" ref="#lit_work_id_562">Say this city has 10.000.000 souls</rs>
+                <lb/>&#42; 6. <rs type="lit_work" ref="#lit_work_id_55">These are stirring times for 
+                <lb/>the editors of newspapers</rs>
+                <lb/>&#42; 7. <rs type="lit_work" ref="#lit_work_id_55">Herod</rs>
+                <lb/>&#42; 8. <rs type="lit_work" ref="#lit_work_id_55">Well, so that is that. Now
+                <lb/>we must dismantle the Tree</rs>
+                <lb/>9. <rs type="lit_work" ref="#lit_work_id_563">The Unknown Citizen</rs>.
+              </p>
+              <closer>
+                <salute>
+                  <lb/>With best regards
+                </salute>
+                <signed>
+                  <lb/><gap reason="illegible" unit="char" atLeast="5" atMost="7"></gap>
+                </signed>
+              </closer>
+              <postscript hand="#hand_blue_kyrou">
+                <ab>
+                 <date>
+                  <lb/>Aug<unclear>.</unclear> 13<unclear>.</unclear>1973
+                  </date>
+                </ab>
+                <ab>
+                  <lb/>&#42; From <rs type="lit_work" ref="#lit_work_id_55">"For the Time Being"</rs>
+                </ab>
+              </postscript>
+            </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00555/" ed="1v" type="card"/>
+            <div>
+              <ab hand="#hand_blue_unident_0184_1">
+                <lb/>85
+              </ab>
+              <ab hand="#hand_blue_unident_0184_2">
+                <lb/><unclear>γ</unclear>
+              </ab>
+              <ab hand="#print_black_kyrou">
+                <lb/><rs type="person" ref="#amp_person_829">ΚΛΕΙΤΟΣ Σ. ΚΥΡΟΥ</rs>
+              </ab>
+              <ab hand="#hand_blue_kyrou">
+                <lb/><rs type="person" ref="#amp_person_829">KLITOS S. KYROU</rs>
+              </ab>
+              <ab hand="#hand_blue_kyrou">
+                <lb/><rs type="place" ref="#amp_place_id_807">VAS. OLGA AVE. 85</rs>
+              </ab>
+              <ab hand="#print_black_kyrou">
+                <lb/><rs type="place" ref="#amp_place_id_807"><foreign xml:lang="el">ΒΑΣ. ΟΛΓΑΣ 85</foreign></rs>
+                <lb/>THΛ. 832.919
+              </ab>
+              <ab hand="#hand_blue_kyrou">
+                <lb/><rs type="place" ref="#amp_place_id_806">THESSALONIKI</rs>
+              </ab>
+              <ab hand="#print_black_kyrou">
+                <lb/><rs type="place" ref="#amp_place_id_806"><foreign xml:lang="el">ΘΕΣΣΑΛΟΝΙΚΗ</foreign></rs>
+              </ab>
+            </div>
+          </div>
+      </div>
+    </body>
+  </text>
+</TEI>

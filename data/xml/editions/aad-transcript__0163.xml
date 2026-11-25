@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="../aad-validation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="aad-transcript__0163" xml:base="https://id.acdh.oeaw.ac.at/auden-in-austria-digital">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+        <title level="a">Typed Letter Signed Erhardt D. Stiebner to W. H. Auden 1973-03-22</title>
+        <author ref="https://d-nb.info/gnd/1060158973">Stiebner, Erhardt D.</author>
+        <author>Andreae, Fritz</author>
+        <editor>
+          <name ref="https://orcid.org/0000-0002-3997-5193" xml:id="tfruehwirth">Fruehwirth, Timo</name>
+          <name ref="https://orcid.org/0000-0002-2915-5888" xml:id="smayer">Mayer, Sandra</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484">Hechtl, Angelika</name>
+        </editor>
+        <funder>
+          <name ref="https://d-nb.info/gnd/2054142-9">Austrian Science Fund (FWF)</name>
+          <address>
+            <street>Georg-Coch-Platz 2</street>
+            <postCode>1010</postCode>
+            <settlement>Vienna</settlement>
+            <country key="AT">Austria</country>
+          </address>
+          <idno type="DOI">10.55776/P37139</idno>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <title level="a">Typed Letter Signed Erhardt D. Stiebner to W. H. Auden 1973-03-22</title>
+          <interpGrp>
+            <interp>
+              <desc/>
+              <respons resp="#ahechtl #smayer #tfruehwirth" locus="value"/>
+              <certainty locus="value"/>
+            </interp>
+          </interpGrp>
+        </edition>
+        <respStmt>
+          <resp>Data model, transcription, TEI/XML markup, commentary</resp>
+          <name sameAs="#tfruehwirth"/>
+          <name sameAs="#smayer"/>
+          <name sameAs="#ahechtl"/>
+        </respStmt>
+        <respStmt>
+          <resp>ODD/RNG TEI/XML schema</resp>
+          <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+          <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+          <name ref="https://orcid.org/0000-0001-6104-7484" xml:id="ahechtl">Hechtl, Angelika</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://d-nb.info/gnd/1123037736">Austrian Centre for Digital Humanities (ACDH)</publisher>
+        <pubPlace ref="https://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+        <date when-iso="2027">2027</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+        <idno type="Handle"/>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Auden in Austria Digital (AAD)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <listWit>
+          <witness n="1">
+            <msDesc>
+              <msIdentifier>
+                <institution ref="https://d-nb.info/gnd/108876889X">Office of the State Government of Lower Austria</institution>
+                <repository ref="https://d-nb.info/gnd/1059828367">Archives of Contemporary Arts</repository>
+                <collection>Documentation Center for Literature in Lower Austria</collection>
+                <idno>LS-Aud 2.12</idno>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support>
+                      <watermark facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00497/ https://iiif.acdh.oeaw.ac.at/aad/aad_00498/ https://iiif.acdh.oeaw.ac.at/aad/aad_00499/ https://iiif.acdh.oeaw.ac.at/aad/aad_00500/">PH Römerturm-Klanghart</watermark>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00497/">
+                        <width>209</width>
+                        <height>297</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00498/">
+                        <width>209</width>
+                        <height>297</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00499/">
+                        <width>209</width>
+                        <height>297</height>
+                      </dimensions>
+                      <dimensions unit="mm" facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00500/">
+                        <width>209</width>
+                        <height>297</height>
+                      </dimensions>
+                    </support>
+                  </supportDesc>
+                </objectDesc>
+                <handDesc>
+                  <handNote xml:id="hand_blue_stiebner" scribeRef="#amp_person_543" medium="ink-blue">Handwriting in blue ink by Erhardt D. Stiebner</handNote>
+                  <handNote xml:id="hand_blue_andreae" scribeRef="#amp_person_545" medium="ink-blue">Handwriting in blue ink by Fritz Andreae</handNote>
+                  <handNote xml:id="hand_blue_auden" scribeRef="#amp_person_1" medium="ink-blue">Handwriting in blue ink by W. H. Auden</handNote>
+                  <handNote xml:id="hand_blue_unident_0163" medium="ink-blue">Handwriting in blue ink by unidentified writer</handNote>
+                </handDesc>
+                <typeDesc>
+                  <typeNote xml:id="type_black_stiebner" scribeRef="#amp_person_543" medium="type">Typewriting in black ink authored by Erhardt D. Stiebner</typeNote>
+                  <typeNote xml:id="print_bruckmann" scribeRef="#amp_organization_350" medium="print">Preprinted writing authored by Bruckmann publishing company</typeNote>
+                </typeDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <origDate notBefore-iso="1973-03-22T00:00:00+01:00" notAfter-iso="1973-03-22T23:59:59+01:00"/>
+                  <origPlace ref="https://d-nb.info/gnd/4127793-4">Munich</origPlace>
+                </origin>
+              </history>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    </xenoData>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-in-austria-digital/$1"/>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en"/>
+        <language ident="de"/>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <date notBefore-iso="1973-03-22T00:00:00+01:00"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#amp_person_1">Auden, W. H.</persName>
+          <placeName><rs type="place" ref="#amp_place_id_46">Oxford</rs></placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="#smayer" when-iso="2026-09-30">TEI/XML template populated with csv2xml.py</change>
+      <change who="#smayer" when-iso="2026-10-01">physDesc and profileDesc populated</change>
+      <change who="#smayer" when-iso="2026-10-01">Text transcribed; hands, languages, correspondence container structure marked up</change>
+      <change who="#smayer" when-iso="2026-10-02">entities marked up and commentary placeholder added</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="3786" lry="5168">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00497/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3782" lry="5160">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00498/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3794" lry="5160">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00499/"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="3788" lry="5158">
+      <graphic url="https://iiif.acdh.oeaw.ac.at/aad/aad_00500/"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:id="transcription_aad_0163" xml:lang="en">
+          <div type="letter">
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00497/" ed="1r" type="sheet"/>
+            <div type="letter_message" hand="#type_black_stiebner">
+              <opener>
+                <seg hand="#print_bruckmann" xml:lang="de">
+                  <lb/><orgName><rs type="org" ref="#amp_organization_350">Bruckmann</rs></orgName> <rs type="place" ref="#amp_place_id_26">München</rs>
+                  <lb/><rs type="org" ref="#amp_organization_351">Studio Bruckmann GmbH</rs>, 8000 <rs type="place" ref="#amp_place_id_26">München</rs> 20, Abholfach
+                  <lb/>
+                </seg>
+                <seg hand="#print_bruckmann" xml:lang="de">
+                  <lb/><rs type="org" ref="#amp_organization_351">Studio Bruckmann
+                  <lb/>Kunst im Druck <foreign xml:lang="en">Fine Art</foreign> GmbH.</rs>
+                  <lb/>
+                </seg>
+                <seg>
+                  <persName>
+                    <lb/><rs type="person" ref="#amp_person_1">Mr. Wystan Hugh Auden</rs>
+                  </persName>
+                  <placeName>
+                    <address>
+                      <lb/><rs type="org" ref="#amp_organization_6">Christ Church</rs> 
+                      <lb/><rs type="place" ref="#amp_place_id_46"><hi rend="underline" hand="#type_black_stiebner">O X F O R D</hi> / England</rs>
+                    </address>
+                  </placeName>
+                </seg>
+                <seg hand="#print_bruckmann" xml:lang="de">
+                  <lb/>Ihre Zeichen<space quantity="2" unit="char"/>Ihre Nachricht vom<space quantity="2" unit="char"/>Unsere Zeichen<space quantity="2" unit="char"/>Durchwahl<space quantity="2" unit="char"/>Tag
+                </seg>
+                <lb/><space quantity="25" unit="char"/>S Ae/ho <seg hand="#print_bruckmann">1257/</seg> 304<space quantity="4" unit="char"/><dateline><date>March 22nd, 1973</date></dateline>  
+                  <lb/>
+                <seg>
+                  <lb/><hi rend="underline" hand="#type_black_stiebner">Re:</hi><space unit="char" quantity="2"/>Our editorial work <rs type="lit_work" ref="#lit_work_id_398">"The Great Change"</rs>
+                  <lb/><space unit="char" quantity="5"/>Your poem <rs type="lit_work" ref="#lit_work_id_397">"Moonlanding"</rs>
+                </seg>
+                <salute>
+                  <lb/>Dear <rs type="person" ref="#amp_person_1">Mr. Auden</rs>,
+                </salute>
+              </opener>
+              <p>
+                <lb/>On the basis of your approval given on July 24th, 1972,
+                <lb/>we have been authorized to use your poem <rs type="lit_work" ref="#lit_work_id_397">"Moonlanding"</rs>
+                <lb/>from <rs type="lit_work" ref="#lit_work_id_138">"Epistle to a Godson and other Poems"</rs> in the original
+                <lb/>English version as well as in the <rs type="lit_work" ref="#lit_work_id_323">German translation</rs> by
+                <lb/><rs type="person" ref="#amp_person_218">Herbert Zand</rs> for our book edition <rs type="lit_work" ref="#lit_work_id_398">"The Great Change"</rs>, con-
+                <lb/>taining also original serigraphs and ornaments by the artist
+                <lb/><rs type="person" ref="#amp_person_542">Otmar Alt</rs>. The licence rights by <rs type="org" ref="#amp_organization_5">Faber &amp; Faber Ltd.</rs>, <rs type="place" ref="#amp_place_id_56">London</rs>,
+                <lb/>as well as by <rs type="org" ref="#amp_organization_12">Random House Inc.</rs>, <rs type="place" ref="#amp_place_id_28">New York</rs>, for the English
+                <lb/>text, and by <rs type="org" ref="#amp_organization_515">Lindner AG</rs>, <rs type="place" ref="#amp_place_id_503">Zürich</rs>, for the German text,
+                <lb/>including the translation rights of <rs type="person" ref="#amp_person_218">Herbert Zand</rs>, have been
+                <lb/>duly obtained. Any author's rights and rights of usufruct
+                <lb/>beyond those already obtained, that we do need for the purpose 
+                <lb/>of <rs type="lit_work" ref="#lit_work_id_398">our book edition</rs>, you herewith transfer to us.
+              </p>
+              <p>
+                <lb/>The <rs type="lit_work" ref="#lit_work_id_398">editorial work</rs> will be published in a limited original
+                <lb/>edition of 750 copies destined for sale as well as 50 copies 
+                <lb/>destined for the archives and the <rs type="person" ref="#amp_person_542">artist</rs>. All these copies
+                <lb/>shall be handsigned by yourself and the artist.
+              </p>
+              <p>
+                <lb/><space unit="char" quantity="52"/>cont.
+              </p>
+              </div>
+              <div hand="#print_bruckmann" xml:lang="de">
+                <ab>
+                  <lb/>8000 <rs type="place" ref="#amp_place_id_26">München</rs> 19
+                  <lb/>Nymphenburger
+                  <lb/>Straße 84
+                </ab>
+                <ab>
+                  <lb/>Ruf: Sa.-Nr.1 25 71
+                  <lb/>Fernverkehr
+                  <lb/>Vorwähl-Nr. 08 11
+                </ab>
+                <ab>
+                  <lb/>Telex:
+                  <lb/>05-23 739
+                </ab>
+                <ab>
+                  <lb/>Telegramme:
+                  <lb/>Bruckmannkoge
+                  <lb/><rs type="place" ref="#amp_place_id_26">München</rs>
+                </ab>
+                <ab>
+                  <lb/>Bank:
+                  <lb/><rs type="org" ref="#amp_organization_352">Reuschel &amp; Co.</rs>
+                  <lb/>319 121
+                </ab>
+                <ab>
+                  <lb/>Geschäftsführung:
+                  <lb/><rs type="person" ref="#amp_person_543">Erhardt D. Stiebner</rs> <rs type="person" ref="#amp_person_545">Fritz Andreae</rs>
+                  <lb/>Registergericht: <rs type="place" ref="#amp_place_id_26">München</rs> HRB 44 336
+                </ab>
+              </div>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00498/" ed="1v" type="sheet"/>
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00499/" ed="2r" type="sheet"/>
+            <div type="letter_message" hand="#type_black_stiebner" xml:lang="en">
+              <ab hand="#print_bruckmann" xml:lang="de">
+                <lb/><rs type="org" ref="#amp_organization_350">Bruckmann</rs> <rs type="place" ref="#amp_place_id_26">München</rs>
+                <lb/>Blatt <add hand="#type_black_stiebner" place="inline">2</add> zum Brief an <add hand="#type_black_stiebner" place="inline"><rs type="person" ref="#amp_person_1">Wystan Hugh Auden</rs></add> Tag <add hand="#type_black_stiebner" place="inline"><foreign xml:lang="en">March 22nd</foreign>,1973</add>
+              </ab>
+              <p>
+                <lb/>You have agreed to handsign the unbound and untrimmed
+                <lb/>frontispieces of the aforementioned <rs type="lit_work" ref="#lit_work_id_398">editions</rs> plus a certain
+                <lb/>number of reserve copies for bookbinding at your home in
+                <lb/><rs type="place" ref="#amp_place_id_46">Oxford</rs>, on March 25th, 1973.
+              </p>
+              <p>
+                <lb/>As a supplementary remuneration for the assignment of the
+                <lb/>copyright and, in particular, for the handsigning,
+                <lb/>you shall receive a lumpsum compensation of DM 6,000.oo
+                <lb/>(in words: six thousand <foreign xml:lang="de">Deutschmark</foreign>) which shall become
+                <lb/>due for payment upon publication of the <rs type="lit_work" ref="#lit_work_id_398">book edition</rs>
+                <lb/>(April 1973). In addition, you shall receive one of the
+                <lb/>copies reserved for the archives, including the signature
+                <lb/>of the artist <rs type="person" ref="#amp_person_542">Otmar Alt</rs>.
+              </p>
+              <p>
+                <lb/>All taxes due on the above-mentioned compensation shall be
+                <lb/>borne by yourself.
+              </p>
+              <p>
+                <lb/>Additional verbal agreements do not exist.
+              </p>
+              <p>
+                <lb/>Place of performance and jurisdiction for this agreement
+                <lb/>shall be <rs type="place" ref="#amp_place_id_26">Munich</rs>.
+              </p>
+              <p>
+                <lb/>We would ask you to please sign this letter as a confirm-
+                <lb/>ation of your agreement.
+              </p>
+              <closer>
+                <salute>
+                  <lb/><space quantity="33" unit="char"/>Sincerely yours,
+                </salute>
+                <signed>
+                  <lb/><space quantity="30" unit="char"/><rs type="org" ref="#amp_organization_351">STUDIO BRUCKMANN GMBH</rs>
+                </signed>
+                <lb/><signed hand="#hand_blue_stiebner"><rs type="person" ref="#amp_person_543"><unclear>St</unclear>iebner</rs></signed> <signed hand="#hand_blue_andreae"><rs type="person" ref="#amp_person_545">Andrea<unclear>e</unclear></rs></signed>
+               </closer>
+              <postscript>
+                <p>
+                  <lb/>Confirmation of approval:
+                </p>
+                <p>
+                  <lb/>_________________________
+                  <lb/>Date:
+                </p>
+              </postscript>
+            </div>  
+        <pb facs="https://iiif.acdh.oeaw.ac.at/aad/aad_00500/" ed="2v" type="sheet"/>
+            <div>
+              <ab hand="#hand_blue_unident_0163">
+                <lb/>53
+              </ab>
+              <ab hand="#hand_blue_auden">
+               <lb/>3 <hi rend="underline" hand="#hand_blue_auden"><unclear>1</unclear>49<unclear>:,</unclear> 981</hi>
+               <lb/>49 993.66
+              </ab>
+              <ab hand="#hand_blue_auden">
+                <lb/>2 <hi rend="underline" hand="#hand_blue_auden">4999-3<unclear>.</unclear>66</hi>
+                <lb/>2444<unclear>&#xB7;</unclear>683
+              </ab>
+              <ab hand="#hand_blue_auden">
+                <lb/>783<unclear>&#xB7;</unclear>5 40
+                <lb/>2 <hi rend="underline" hand="#hand_blue_auden">783<unclear>-</unclear>540</hi>
+                <lb/>391<unclear>&#xB7;</unclear>77
+              </ab>
+              <ab hand="#hand_blue_auden">
+                <lb/>3 <hi rend="underline" hand="#hand_blue_auden">1<unclear>4</unclear>9.<unclear>981</unclear></hi>
+                <lb/>4
+              </ab>
+              <ab hand="#hand_blue_auden">
+                <lb/><hi rend="underline" hand="#hand_blue_auden">2444<unclear>&#xB7;</unclear>70</hi>
+                <lb/>7334 10
+              </ab>
+           </div>
+         </div>
+      </div>
+    </body>
+  </text>
+</TEI>
